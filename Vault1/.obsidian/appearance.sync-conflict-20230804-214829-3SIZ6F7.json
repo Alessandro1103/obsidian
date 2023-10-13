@@ -1,0 +1,13 @@
+{
+  "accentColor": "#161bb1",
+  "baseFontSize": 15,
+  "interfaceFontFamily": "Times New Roman",
+  "textFontFamily": "Times New Roman",
+  "monospaceFontFamily": "Times New Roman",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "cssTheme": "Obsidian Nord",
+  "enabledCssSnippets": [],
+  "theme": "obsidian",
+  "translucency": false
+}

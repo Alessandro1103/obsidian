@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "da593b560d259741",
+    "type": "split",
+    "children": [
+      {
+        "id": "997619acaa7f4d3e",
+        "type": "tabs",
+        "dimension": 59.60620525059666,
+        "children": [
+          {
+            "id": "a617bd9e19e99cfd",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Immagini/Pasted image 20230505003324.png"
+              }
+            }
+          },
+          {
+            "id": "f0fe879cef6872c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tesi/Terza riunione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "45e5cee0a84f55ad",
+        "type": "tabs",
+        "dimension": 40.39379474940334,
+        "children": [
+          {
+            "id": "c82cee4a0d076cb1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "PDF/CCEN L5 Wind Turbines Control Systems.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62106fefaee6e1fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a7e73873914e878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3e26d924f73ae72",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eae491095df70ce6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "37ad170980cccb37",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "b0f85e1323354d12",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9bfe0c5f91082aec",
+    "type": "split",
+    "children": [
+      {
+        "id": "92d03247c2d26607",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8030f6aa9768e83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tesi/Terza riunione.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ce0f500c71c06ec6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "062d9e9bcb36ba2a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tesi/Terza riunione.md"
+              }
+            }
+          },
+          {
+            "id": "5323d654a0d1d470",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tesi/Terza riunione.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f59211f989e310a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "templates:Inserisci modello": false,
+      "daily-notes:Apri nota del giorno": false,
+      "command-palette:Apri riquadro comandi": false,
+      "audio-recorder:Avvia/ferma registrazione": false,
+      "workspaces:Gestisci layout delle aree di lavoro": false
+    }
+  },
+  "active": "f0fe879cef6872c6",
+  "lastOpenFiles": [
+    "Tesi/Seconda riunione.md",
+    "Immagini/Pasted image 20230505003324.png",
+    "Tesi/Terza riunione.md",
+    "Immagini/Pasted image 20230505001036.png",
+    "PDF/CCEN L5 Wind Turbines Control Systems.pdf",
+    "Immagini/Pasted image 20230504235505.png",
+    "Immagini/Pasted image 20230504234913.png",
+    "Immagini/Pasted image 20230504234107.png",
+    "Immagini/Pasted image 20230504234047.png",
+    "Immagini/Pasted image 20230504233932.png",
+    "Immagini/Pasted image 20230504233731.png",
+    "Immagini/Pasted image 20230504233528.png",
+    "Immagini/Pasted image 20230504223338.png",
+    "Tesi/Prima riunione.md",
+    "PDF",
+    "Modellistica e simulazione .pdf",
+    "Senza nome 1.md",
+    "Recording 20230427163141.webm.md",
+    "Obsidian/Plugins.md",
+    "Recording 20230427163202.webm",
+    "Recording 20230427163141.webm",
+    "Obsidian/Titolo.md",
+    "Tasti rapidi.md",
+    "google.com.md",
+    "posso mettere tutte reference.md",
+    "Matlab/MatLab.md",
+    "Tesi",
+    "Immagini",
+    "Driverless/Nema.md",
+    "LaTeX/Matematica.md",
+    "Matlab/Simulink.md",
+    "Matlab",
+    "Driverless",
+    "Obsidian.md",
+    "LaTeX",
+    "Obsidian/Formattazione.md",
+    "Obsidian/RIsultato.md",
+    "Prove.md",
+    "Seminari/AVIO.md"
+  ]
+}

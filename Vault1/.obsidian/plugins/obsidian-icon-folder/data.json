@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 12,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FarFileCode",
+      "FabEdge",
+      "FarCalendar",
+      "FarImage",
+      "FabConnectdevelop"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 4,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": false
+  },
+  "Files": "FarImage",
+  "Reference notes": "FabConnectdevelop",
+  "Zettelkasten": "FarFile",
+  "Calander": "FarCalendar",
+  "Templates": "FarNoteSticky",
+  "Reference notes/Aimchess.md": "FabEdge",
+  "Reference notes/LaTeX.md": "FarFileCode",
+  "Reference notes/Mermaid.md": "FabEdge"
+}

@@ -1,0 +1,18 @@
+- [x] diagramma delle classi
+- [x] diagramma stati e transizioni per la classe Ordine
+- [x] diagramma delle attività
+- [x] specifica del diagramma stati e transizioni, senza la specifica delle transizioni
+- [x] specifica del diagramma stati e transizioni
+- [x] specifica dell'attività principale
+- [x] specifica delle sottoAttività non atomiche
+- [x] segnature delle attività complesse
+- [x] segnature delle attività atomiche
+- [x] segnature dei segnali in input/output
+- [x] Diagramma delle responsabilità
+- [x] Realizzare la classe Ordine
+- [x] Realizzare la classe OrdineFired
+- [x] Realizzare eventuali sottoClassi
+- [x] Realizzare le associazioni dove Ordine è responsabile
+- [x] Realizzare l'attività principale
+- [x] Realizzare le sottoAttività non atomiche
+- [x] Realizzare l'attività di verifica

@@ -1,0 +1,27 @@
+{
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "spellcheck": true,
+  "spellcheckLanguages": null,
+  "tabSize": 4,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Zettelkasten",
+  "attachmentFolderPath": "Files"
+}

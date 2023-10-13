@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "301458668ce9136d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -141,7 +152,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
@@ -151,7 +161,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "06a617dccbfba328",
+  "active": "301458668ce9136d",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",

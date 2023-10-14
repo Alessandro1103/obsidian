@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Università/Untitled.md",
+                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Untitled.md",
+                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Untitled.md",
+                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,8 +153,8 @@
   },
   "active": "06a617dccbfba328",
   "lastOpenFiles": [
-    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Zettelkasten/Università/Untitled.md",
+    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
     "Zettelkasten/Università/NN/Lezione1.md",

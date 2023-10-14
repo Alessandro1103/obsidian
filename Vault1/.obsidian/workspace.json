@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "Zettelkasten/stronzo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "Zettelkasten/stronzo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,10 +151,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "06a617dccbfba328",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
-    "Zettelkasten/Università/Untitled.md",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+    "Zettelkasten/stronzo.md",
+    "Zettelkasten/Università/Untitled.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
     "Zettelkasten/Università/NN/Lezione1.md",
@@ -193,7 +194,6 @@
     "Zettelkasten/Università/Tesi/Dubbi.md",
     "Zettelkasten/Università/Tesi/Slides.md",
     "Zettelkasten/Magistrale.md",
-    "Zettelkasten/Pasted image 20230911181937.png.md",
     "Files/Pasted image 20230915165925.png",
     "Files/Pasted image 20230915165907.png",
     "Files/Pasted image 20230912173646.png",

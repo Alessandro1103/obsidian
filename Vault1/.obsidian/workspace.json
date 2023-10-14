@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9423dc4a9f6780d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/bastardo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "Zettelkasten/bastardo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "Zettelkasten/bastardo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,10 +165,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "06a617dccbfba328",
+  "active": "9423dc4a9f6780d2",
   "lastOpenFiles": [
-    "Zettelkasten/Università/Untitled.md",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+    "Zettelkasten/bastardo.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
     "Zettelkasten/Università/NN/Lezione1.md",

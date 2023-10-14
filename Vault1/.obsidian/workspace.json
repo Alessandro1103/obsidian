@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "9423dc4a9f6780d2",
+            "id": "20a9b83b2261342e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/bastardo.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/bastardo.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/bastardo.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,9 +165,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9423dc4a9f6780d2",
+  "active": "20a9b83b2261342e",
   "lastOpenFiles": [
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/stronzo.md",
     "Zettelkasten/bastardo.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
@@ -206,8 +208,6 @@
     "Files/Batteria al piombo.png",
     "Zettelkasten/Università/Tesi/Dubbi.md",
     "Zettelkasten/Università/Tesi/Slides.md",
-    "Zettelkasten/Magistrale.md",
-    "Zettelkasten/Pasted image 20230911181937.png.md",
     "Files/Pasted image 20230915165925.png",
     "Files/Pasted image 20230915165907.png",
     "Files/Pasted image 20230912173646.png",

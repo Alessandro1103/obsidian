@@ -97,7 +97,17 @@ pkg-config --libs gl
 pkg-config --cflags gl
 ```
 libs: instruction that output the linking flags of gl
-cflags: 
+cflags: obtain the compilation options
+
+the outputs will be:
+```cmd
+-lGL
+-I/urs/include/libdrm...
+```
+1) In ordere to link lGL we have to add the flags -lGL
+2) Where are the libraries of lGL? 
+
+We can include **psk** in the **Makefiles**:
 
 
 

@@ -24,14 +24,16 @@ The .exe is a file that contains enough information for someone, to create a mem
 ## Building a Program File
 
 In order of **files** we have:
-- .h .hpp -> HEADERS ()
-- .c .cpp .S -> SOURCE FILES
-- .o -> OBJECT FILES
-- .a -> STATIC LIBRARIES
-- .so -> SHARED LIBRARIES
-- EXECUTABLES
+- .h .hpp -> HEADERS (declaration of functions, classes...)
+- .c .cpp .S -> SOURCE FILES (source code of the program)
+- .o -> OBJECT FILES (object files that can be linked to create an executable)
+- .a -> STATIC LIBRARIES (pre-compiled object modules that can be linked statically to programs)
+- .so -> SHARED LIBRARIES (dynamic library files that can be shared among multiple programs, are loaded into memory only when needed, reducing memory usage)
+- EXECUTABLES (final application that can be run by the user)
 
 Then **Compiling** and then again **Linking**.
+
+
 
 ---
 # References

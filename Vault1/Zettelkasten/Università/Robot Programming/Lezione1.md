@@ -59,7 +59,7 @@ This is a **dependency tree**
 to compile this thing, i need the following commands:
 ![[Screenshot from 2023-10-17 16-10-30.png]]
 
-
+If I change 1 file, do I have to compile all again? NO
 
 ---
 # References

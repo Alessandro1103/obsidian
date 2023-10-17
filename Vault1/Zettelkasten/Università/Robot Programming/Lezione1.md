@@ -5,7 +5,10 @@ Tags:
 ---
 # Lezione1
 
-
+There are 3 types of executed code:
+- Interpreter program
+- Emulator program
+- Direct
 
 
 

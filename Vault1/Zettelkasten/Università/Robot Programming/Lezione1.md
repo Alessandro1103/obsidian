@@ -111,6 +111,9 @@ We can include **psk** in the **Makefiles**:
 ![[Pasted image 20231017165916.png]]
 Libs execute that comand in the shell and save that result
 
+## CMake
+With cross compilation, like compiling in computer for a phone, its very complicate understand the division of folders and libraries. So windows created CMake, that compiles using the abstraction of toolchain, a set of tool that help compiling. So CMake does not compile things but suggest 
+
 
 ---
 # References

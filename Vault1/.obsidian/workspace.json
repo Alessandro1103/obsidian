@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "673bb05d91b64d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Robot Programming/Lezione1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Robot Programming/Lezione1.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,8 +165,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "89bf66cd1beabbce",
+  "active": "673bb05d91b64d9e",
   "lastOpenFiles": [
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
+    "conflict-files-obsidian-git.md",
     "Files/Pasted image 20231017164311.png",
     "Files/Screenshot from 2023-10-17 16-36-30.png",
     "Files/Screenshot from 2023-10-17 16-11-57.png",
@@ -161,9 +177,7 @@
     "Files/Screenshot from 2023-10-17 15-53-46 1.png",
     "Files/Screenshot from 2023-10-17 15-53-46.png",
     "Zettelkasten/Screenshot from 2023-10-17 15-53-46.png.md",
-    "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Zettelkasten/Università/Robot Programming/Lezione2.md",
     "Zettelkasten/stronzo.md",
@@ -198,7 +212,6 @@
     "Zettelkasten/Università/Tesi/Considerazioni.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Appunti sui test.md",
     "Zettelkasten/Università/Tesi/Riunioni/Terza riunione.md",
-    "Files/whittinghams-battery.webp",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -108,7 +108,7 @@ the outputs will be:
 2) Where are the libraries of lGL? 
 
 We can include **psk** in the **Makefiles**:
-
+![[Pasted image 20231017165916.png]]
 
 
 ---

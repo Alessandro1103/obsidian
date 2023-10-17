@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3744cbab769e3b9f",
+        "id": "f92d9e63ae87f0fd",
         "type": "tabs",
         "children": [
           {
-            "id": "89bf66cd1beabbce",
+            "id": "06a617dccbfba328",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -151,23 +151,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "89bf66cd1beabbce",
+  "active": "06a617dccbfba328",
   "lastOpenFiles": [
+    "Files/Pasted image 20231017165916.png",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "Files/Pasted image 20231017164311.png",
+    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Files/Screenshot from 2023-10-17 16-36-30.png",
     "Files/Screenshot from 2023-10-17 16-11-57.png",
     "Files/Screenshot from 2023-10-17 16-10-30.png",
+    "Files/Screenshot from 2023-10-17 15-53-46.xcf",
+    "Files/Screenshot from 2023-10-17 15-53-46.png",
     "Files/Screenshot from 2023-10-17 15-53-46 2.png",
     "Files/Screenshot from 2023-10-17 15-53-46 1.png",
-    "Files/Screenshot from 2023-10-17 15-53-46.png",
-    "Zettelkasten/Screenshot from 2023-10-17 15-53-46.png.md",
-    "Files/Screenshot from 2023-10-17 15-53-46.xcf",
-    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
-    "Zettelkasten/Università/Robot Programming/Lezione2.md",
     "Zettelkasten/stronzo.md",
-    "Zettelkasten/Università/Untitled.md",
+    "Zettelkasten/bastardo.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
     "Zettelkasten/Università/NN/Lezione1.md",
@@ -183,6 +182,7 @@
     "Zettelkasten/Valutazione corsi.md",
     "Files/Pasted image 20230913121749.png",
     "Files/Pasted image 20230913115517.png",
+    "Zettelkasten/Università/Robot Programming/Lezione2.md",
     "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
     "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
     "Zettelkasten/Università/Inglese/Is technology always the solution.md",
@@ -198,6 +198,7 @@
     "Zettelkasten/Università/Tesi/Considerazioni.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Appunti sui test.md",
     "Zettelkasten/Università/Tesi/Riunioni/Terza riunione.md",
+    "Zettelkasten/Università/Tesi/Dubbi.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

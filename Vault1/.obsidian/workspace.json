@@ -4,16 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f92d9e63ae87f0fd",
+        "id": "3744cbab769e3b9f",
         "type": "tabs",
         "children": [
           {
-            "id": "06a617dccbfba328",
+            "id": "89bf66cd1beabbce",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "310c477fa046c30e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +29,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -87,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,10 +160,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "06a617dccbfba328",
+  "active": "310c477fa046c30e",
   "lastOpenFiles": [
-    "Zettelkasten/stronzo.md",
+    "conflict-files-obsidian-git.md",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+    "Zettelkasten/Università/Robot Programming/Lezione2.md",
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
+    "Zettelkasten/stronzo.md",
     "Zettelkasten/Università/Untitled.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
@@ -172,7 +184,6 @@
     "Zettelkasten/Valutazione corsi.md",
     "Files/Pasted image 20230913121749.png",
     "Files/Pasted image 20230913115517.png",
-    "Zettelkasten/Università/Robot Programming/Lezione2.md",
     "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
     "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
     "Zettelkasten/Università/Inglese/Is technology always the solution.md",
@@ -181,7 +192,6 @@
     "Zettelkasten/Università/Inglese/Digital Humanities.md",
     "Zettelkasten/Università/Inglese/Cyber security.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Cose non utilizzate.md",
-    "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "Files/Pasted image 20230913163648.png",
     "Zettelkasten/Università/AI/Lezione1.md",
     "Zettelkasten/%.md",
@@ -193,7 +203,6 @@
     "Files/Batteria al piombo.png",
     "Zettelkasten/Università/Tesi/Dubbi.md",
     "Zettelkasten/Università/Tesi/Slides.md",
-    "Zettelkasten/Magistrale.md",
     "Files/Pasted image 20230915165925.png",
     "Files/Pasted image 20230915165907.png",
     "Files/Pasted image 20230912173646.png",

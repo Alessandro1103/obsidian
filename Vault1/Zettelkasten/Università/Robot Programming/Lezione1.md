@@ -59,7 +59,16 @@ This is a **dependency tree**
 to compile this thing, i need the following commands:
 ![[Screenshot from 2023-10-17 16-10-30.png]]
 
-If I change 1 file, do I have to compile all again? NO. We can see the time stamp when all the file where produced. But since often, the file depends on a lot of files, we should check that all the sources are older then dependencies. For example, in the tree, `vehicle.o` depends from `vehicle.c` that depends from `vehicle.h` that depends from `surface.h` and so on... So if i change vehicle.o,   
+If I change 1 file, do I have to compile all again? NO. We can see the time stamp when all the file where produced. But since often, the file depends on a lot of files, we should check that all the sources are older then dependencies. For example, in the tree, `vehicle.o` depends from `vehicle.c` that depends from `vehicle.h` that depends from `surface.h` and so on... So if i change `surface.h`, i have to recompile `vehicle.o` too.
+To implement this idea, i have to create a file (**Makefiles**) that declare the **target**, an object file, and what are the **dependencies**, the file which the target depends.
+==Example:==
+```Makefile
+vec3.o : vec3.c vec3.h
+		 gcc -s
+```
+
+
+
 
 ---
 # References

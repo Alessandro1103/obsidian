@@ -54,9 +54,10 @@ g++ <options> -o <name> <files>
 ```
 It can be used gcc too
 
-
-
-
+This is a **dependency tree**
+![[Screenshot from 2023-10-17 16-11-57.png]]
+to compile this thing, i need the following commands:
+![[Screenshot from 2023-10-17 16-10-30.png]]
 
 
 

@@ -121,9 +121,17 @@ make (from the same folder)
 
 CMake is made:
 ![[Screenshot from 2023-10-17 17-12-23.png]]
+so_game: the name of the project
+add_executable(taget
+	these are the file we need 
+)
 
-
-
+It can be good if we create a directory where to connect all the files from the compilation:
+```cmd
+mkdir build
+cd build
+```
+this run from the 
 
 
 

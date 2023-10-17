@@ -33,9 +33,22 @@ In order of **files** we have:
 
 Then **Compiling** and then again **Linking**.
 
-**
+==Example==
+Having a code:
+```cpp
+#include <iostream>
+using namespace std;
 
+int main(int argc, const char** argv) {
+	cout << "hello world" << endl;
+}
+```
 
+To generate an object file we have to use:
+```cmd
+g++ <options> -c <source file>
+```
+To generate a program file, linking all the files 
 
 ---
 # References

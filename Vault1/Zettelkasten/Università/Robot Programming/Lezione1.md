@@ -64,11 +64,23 @@ To implement this idea, i have to create a file (**Makefiles**) that declare the
 ==Example:==
 ```Makefile
 vec3.o : vec3.c vec3.h
-		 gcc -s
+		 gcc -std=gnu99 -c -o vec3.o vec3.c
 ```
 
+We can ask the compiler which file depends on which:
+```cmd
+gcc (or g++) -MM <source file>
+```
 
-
+==Example:==
+```cmd
+g++ -MM vehicle.c
+```
+will generate:
+```cmd
+vehicle.o: vehicle.c vehicle.h surface.h vec3.h image.h
+```
+so if we 
 
 ---
 # References

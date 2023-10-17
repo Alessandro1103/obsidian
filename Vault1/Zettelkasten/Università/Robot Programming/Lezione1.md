@@ -112,7 +112,19 @@ We can include **psk** in the **Makefiles**:
 Libs execute that comand in the shell and save that result
 
 ## CMake
-With cross compilation, like compiling in computer for a phone, its very complicate understand the division of folders and libraries. So windows created CMake, that compiles using the abstraction of toolchain, a set of tool that help compiling. So CMake does not compile things but suggest 
+With cross compilation, like compiling in computer for a phone, its very complicate understand the division of folders and libraries. So windows created CMake, that compiles using the abstraction of toolchain, a set of tool that help compiling. So CMake does not compile things but suggests and produces Makefiles, that can be run. It works on target (libraries, executable).
+
+```cmd
+cmake -c <path to CMakeLists.txt>
+make (from the same folder)
+```
+
+CMake is made:
+![[Screenshot from 2023-10-17 17-12-23.png]]
+
+
+
+
 
 
 ---

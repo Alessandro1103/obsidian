@@ -131,7 +131,6 @@ It can be good if we create a directory where to connect all the files from the 
 mkdir build
 cd build
 ```
-this run from the 
 
 
 

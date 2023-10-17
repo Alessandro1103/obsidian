@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Università/Robot Programming/Appunti.md",
+                "file": "Zettelkasten/Università/Robot Programming/Lezione1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Robot Programming/Appunti.md",
+                "file": "Zettelkasten/Università/Robot Programming/Lezione1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Robot Programming/Appunti.md",
+                "file": "Zettelkasten/Università/Robot Programming/Lezione1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,9 +151,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "89bf66cd1beabbce",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
-    "Zettelkasten/Università/Robot Programming/Appunti.md",
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Zettelkasten/Università/Robot Programming/Lezione2.md",

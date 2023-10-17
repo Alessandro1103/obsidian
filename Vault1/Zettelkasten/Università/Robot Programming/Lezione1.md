@@ -109,6 +109,7 @@ the outputs will be:
 
 We can include **psk** in the **Makefiles**:
 ![[Pasted image 20231017165916.png]]
+Libs execute that comand in the shell and save that result
 
 
 ---

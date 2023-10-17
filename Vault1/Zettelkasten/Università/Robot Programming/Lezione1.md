@@ -85,6 +85,8 @@ so if we compile vehicle.c we'll get vehicle.o, that use: vehicle.c ...
 **MAKEFILE**
 ![[Screenshot from 2023-10-17 16-36-30.png]]
 
+to call a Makefile i need just to type: make
+
 
 
 

@@ -80,7 +80,13 @@ will generate:
 ```cmd
 vehicle.o: vehicle.c vehicle.h surface.h vec3.h image.h
 ```
-so if we 
+so if we compile vehicle.c we'll get vehicle.o, that use: vehicle.c ...
+
+**MAKEFILE**
+![[Screenshot from 2023-10-17 16-36-30.png]]
+
+
+
 
 ---
 # References

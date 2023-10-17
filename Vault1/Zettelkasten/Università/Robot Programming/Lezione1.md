@@ -89,6 +89,15 @@ This is as simplified version:
 ![[Pasted image 20231017164311.png]]
 to call a Makefile i need just to type: make
 
+## Package config
+We want ot automate the retrieval of compilation to insert packages:
+
+```cmd
+pkg-config --libs gl
+pkg-config --cflags gl
+```
+libs: instruction that output the linking flags of gl
+cflags: 
 
 
 

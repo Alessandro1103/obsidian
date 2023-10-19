@@ -21,7 +21,8 @@
       "left": 0
     },
     "iconInTabsEnabled": true,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": false,
+    "iconInTitleEnabled": false
   },
   "Files": "FarImage",
   "Reference notes": "FabConnectdevelop",

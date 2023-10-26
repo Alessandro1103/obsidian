@@ -6,6 +6,7 @@ Tags:
 # Regali Laurea
 
 **Cuffie(una fra queste):**
+- [Bose Noise Cancelling Headphones 700](https://www.amazon.it/Bose-Noise-Cancelling-Headphones-Black/dp/B07Q9MJKBV/ref=asc_df_B07Q9MJKBV/?tag=googshopit-21&linkCode=df0&hvadid=363240328468&hvpos=&hvnetw=g&hvrand=10196870741791628548&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9181218&hvtargid=pla-784806209897&psc=1)
 - [Bose QuietComfort 45 (ricondizionate)](https://www.bose.it/it_it/products/certified_refurbished/refurbished_headphones/qc45-fr.html#v=qc45_fr_white_smoke)
 - [Sony WH-XB910N](https://www.amazon.it/Sony-WH-XB910N-Bluetooth-cancellazione-Ottimizzato/dp/B09FKG4PP3/ref=sr_1_7?crid=2D9CDJ31IMMDG&keywords=sony+wh&qid=1698330824&sprefix=%2Caps%2C303&sr=8-7&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35)
 - [Sennheiser Hd 350Bt](https://www.amazon.it/Sennheiser-350BT-Cuffia-Wireless-Pieghevole/dp/B083MNJ2VX/ref=sr_1_5?crid=3O6ANQYDU3RYU&keywords=sennheiser&qid=1698330375&sprefix=sennheise%2Caps%2C147&sr=8-5)
@@ -24,7 +25,6 @@ Tags:
 **Accessori:**
 - [Batterie per GoPro](https://www.amazon.it/REYGEAK-batteria，Batteria-Caricabatteria-immagazzinaggio-caricabatteria/dp/B08MLLNH5S/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=28UZ8R0ISU37T&keywords=cariche+go+pro&qid=1698256347&sprefix=cariche+go+pro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
-- 
 
 ---
 # References

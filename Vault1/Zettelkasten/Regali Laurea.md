@@ -17,7 +17,7 @@ Tags:
 **Volante(uno fra questi):**
 - [Thrustmaster T128](https://www.amazon.it/Logitech-Cuffie-Gioco-Surround-Wireless/dp/B01MYW8COY/ref=sr_1_3?crid=1Q3E8ZYJBWSMJ&keywords=cuffie%2Bgaming%2Bwireless&qid=1698319129&s=electronics&sprefix=cuffie%2Bgaming%2Celectronics%2C81&sr=1-3&th=1)
 - [Logitech G29](https://www.amazon.it/Volante-Corsa-Logitech-Driving-Force/dp/B00YUIM2J0/ref=sr_1_1?__mk_it_IT=ÅMÅŽÕÑ&crid=348JZFWGQN49P&keywords=volante+logitech&qid=1698321177&sprefix=volante+logitech%2Caps%2C103&sr=8-1&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35)
-- [Thrustmaster T248](https://www.amazon.it/dp/B091BN8PY4/ref=asc_df_B091BN8PY41698117000000/?tag=smartworld06-21&creative=23478&creativeASIN=B091BN8PY4&linkCode=df0&ascsubtag=1707491-widget-desktop-tech-B091BN8PY4-P12Ttxt-showads&th=1)
+- 
 
 **Accessori:**
 - [Batterie per GoPro](https://www.amazon.it/REYGEAK-batteria，Batteria-Caricabatteria-immagazzinaggio-caricabatteria/dp/B08MLLNH5S/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=28UZ8R0ISU37T&keywords=cariche+go+pro&qid=1698256347&sprefix=cariche+go+pro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)

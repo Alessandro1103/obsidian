@@ -9,7 +9,7 @@ Tags:
 - 
 
 **Cuffie da gaming(una fra queste):**
-- [Razer BarracudaX](https://www.amazon.it/Razer-Barracuda-Multipiattaforma-Dispositivi-SmartSwitch/dp/B09239HV7Y/ref=sr_1_19?__mk_it_IT=ÅMÅŽÕÑ&crid=3UVZEX9KYN7QZ&keywords=razer%2Bcuffie%2Bgaming&qid=1698316914&s=electronics&sprefix=razer%2Bcuffie%2Bgaming%2Celectronics%2C600&sr=1-19&th=1)
+- [Razer Barracuda X](https://www.amazon.it/Razer-Barracuda-Multipiattaforma-Dispositivi-SmartSwitch/dp/B09239HV7Y/ref=sr_1_19?__mk_it_IT=ÅMÅŽÕÑ&crid=3UVZEX9KYN7QZ&keywords=razer%2Bcuffie%2Bgaming&qid=1698316914&s=electronics&sprefix=razer%2Bcuffie%2Bgaming%2Celectronics%2C600&sr=1-19&th=1)
 
 **Libri:**
 - [Capire, fare e reinventare il fumetto](https://www.amazon.it/Capire-reinventare-fumetto-Scott-McCloud/dp/883273124X/ref=asc_df_883273124X/?tag=googshopit-21&linkCode=df0&hvadid=279834015961&hvpos=&hvnetw=g&hvrand=12983498524517691907&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9181214&hvtargid=pla-604406695117&psc=1)

@@ -25,6 +25,7 @@ Tags:
 **Accessori:**
 - [Batterie per GoPro](https://www.amazon.it/REYGEAK-batteria，Batteria-Caricabatteria-immagazzinaggio-caricabatteria/dp/B08MLLNH5S/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=28UZ8R0ISU37T&keywords=cariche+go+pro&qid=1698256347&sprefix=cariche+go+pro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
+- [Sveglia orologio](https://www.amazon.it/dp/B01EZ77IOY/?coliid=I1235DHRQGHDMG&colid=FQV4Z0CWW68E&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
 
 ---
 # References

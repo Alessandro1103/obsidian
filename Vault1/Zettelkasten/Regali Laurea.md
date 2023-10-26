@@ -6,6 +6,8 @@ Tags:
 # Regali Laurea
 
 **Cuffie(una fra queste):**
+- [Bose QuietComfort 45 (ricondizionate)](https://www.bose.it/it_it/products/certified_refurbished/refurbished_headphones/qc45-fr.html#v=qc45_fr_white_smoke)
+- [Sony WH-CH720N](https://www.amazon.it/Sony-WH-CH720N-Bluetooth-wireless-cancellazione/dp/B0BTDX26B2/?tag=su08d-21&ascsubtag=653a4ed9fe907c6a2946f09e&th=1)
 - 
 
 **Cuffie da gaming(una fra queste):**

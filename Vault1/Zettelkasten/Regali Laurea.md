@@ -7,8 +7,9 @@ Tags:
 
 **Cuffie(una fra queste):**
 - [Bose QuietComfort 45 (ricondizionate)](https://www.bose.it/it_it/products/certified_refurbished/refurbished_headphones/qc45-fr.html#v=qc45_fr_white_smoke)
-- [Sony WH-CH720N](https://www.amazon.it/Sony-WH-CH720N-Bluetooth-wireless-cancellazione/dp/B0BTDX26B2/?tag=su08d-21&ascsubtag=653a4ed9fe907c6a2946f09e&th=1)
-- 
+- [Sony WH-XB910N](https://www.amazon.it/Sony-WH-XB910N-Bluetooth-cancellazione-Ottimizzato/dp/B09FKG4PP3/ref=sr_1_7?crid=2D9CDJ31IMMDG&keywords=sony+wh&qid=1698330824&sprefix=%2Caps%2C303&sr=8-7&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35)
+- [Sennheiser Hd 350Bt](https://www.amazon.it/Sennheiser-350BT-Cuffia-Wireless-Pieghevole/dp/B083MNJ2VX/ref=sr_1_5?crid=3O6ANQYDU3RYU&keywords=sennheiser&qid=1698330375&sprefix=sennheise%2Caps%2C147&sr=8-5)
+
 
 **Cuffie da gaming(una fra queste):**
 - [Razer Barracuda X](https://www.amazon.it/Razer-Barracuda-Multipiattaforma-Dispositivi-SmartSwitch/dp/B09239HV7Y/ref=sr_1_19?__mk_it_IT=ÅMÅŽÕÑ&crid=3UVZEX9KYN7QZ&keywords=razer%2Bcuffie%2Bgaming&qid=1698316914&s=electronics&sprefix=razer%2Bcuffie%2Bgaming%2Celectronics%2C600&sr=1-19&th=1)

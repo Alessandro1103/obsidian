@@ -1,34 +1,41 @@
-
-![[Recording 20230926111800.webm]]
-Date: 2023-09-26
-Time: 10:01
+Date: 2023-10-17
+Time: 12:08
 Tags: 
 
 ---
 # Lezione1
 
-![[rp_01_compilers_and_build_systems.pdf]]
+There are 3 types of executed code:
+- Interpreter  (Python)
+- Emulator program (Java)
+- Directly by CPU (kernel)
 
-There are 3 types of programs:
-...
+**CPU**
+The CPU executes instructions in a sequential manner.
+Each instruction is composed of binary digits, and the CPU retrieves instructions and operands from memory.
+The machine instructions have a direct mapping with architecture-specific alphanumeric opcodes (as seen in Assembly language), with a one-to-one correspondence.
 
-## Native
-**Native** execution, the first execution, this is machine dependent. The CPU process instructions sequentially. The machine instructions have a 1 to 1 correspondence with architecture specific alphanumeric opcodes. Another class of language is written in **abstract** language like Java. The code is very simple and can be optimize by the compiler. 
-**Interpreters** are programs that directly execute a source file, performing the code execution on the spot. The execution is done during the parsing. Like Python, Matlab, etc. 
+**Interpreter**
+Interpreters are software applications that carry out the immediate parsing and execution of a source file. The execution process occurs concurrently with the parsing process.
 
-Program Files, we are in the Native programs, it's just an execution of a command. This file should contain all the information for the machine to execute, loaded in the machine.  
-Program file contains.
-- Machine code 
-- Meta-information
-to generate a memory image for CPU execution.
+## Program Files and Execution
+The .exe is a file that contains enough information for someone, to create a memory image, that contains the sequence of the instruction executable by CPU. Exe its an architecture, that contains constants, global variables, so it needs pointers to libraries. So in program we need the code, the data and the metadata. 
 
-The compilation process can be vary expensive in order to be compile, because he needs to allocate a big amount for variable we dont even use, but, if he would not take it, he needs to rebuild the structure every time we compile. 
-File:
-- .h = declaration of the function
-- .c .cpp = definition of the function
+## Building a Program File
 
-Example:
-``` cpp
+In order of **files** we have:
+- .h .hpp -> HEADERS (declaration of functions, classes...)
+- .c .cpp .S -> SOURCE FILES (source code of the program)
+- .o -> OBJECT FILES (object files that can be linked to create an executable)
+- .a -> STATIC LIBRARIES (pre-compiled object modules that can be linked statically to programs)
+- .so -> SHARED LIBRARIES (dynamic library files that can be shared among multiple programs, are loaded into memory only when needed, reducing memory usage)
+- EXECUTABLES (final application that can be run by the user, it knows all the info required to be loaded into memory, unlike object files)
+
+Then **Compiling** and then again **Linking**.
+
+==Example==
+Having a code:
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -37,74 +44,93 @@ int main(int argc, const char** argv) {
 }
 ```
 
-\#  is a function on the system (command which allows we to recognize the directive of pre-processor), in this case, its says to find `<iostream>` 
-
-
-Example:
-``` cmd
-cpp file1 > file2
+To generate an object file we have to use:
+```cmd
+g++ <options> -c <source file>
 ```
-this means, that the output of file1 will be shown in file2
-
-If we include the same file more times, maybe because one file that we called, calls another file we called, we can add `#pragma once` to include the last file only once.
-
-With the pre-processor we can also use the `#define`. 
-``` cpp
-#define  nome_macro  valore_macro
+To generate a program file, linking all the files in command line:
+```cmd
+g++ <options> -o <name> <files>
 ```
-The pre-processor reads the definition of the MACRO and, whenever it encounters its name within the source file, REPLACES the symbol with the corresponding value, WITHOUT checking the syntactic correctness of the resulting expression.
+It can be used gcc too
 
-**Commands**
-In order to optimize the code, the compile tries to cut the code, and convert it in assembly code.
+This is a **dependency tree**
+![[Screenshot from 2023-10-17 16-11-57.png]]
+to compile this thing, i need the following commands:
+![[Screenshot from 2023-10-17 16-10-30.png]]
 
-- `g++ <option> -c <source file>` (compiler or assembler) generates an object file from a cpp eg. `hello_world.cpp -> hello_world.o`
-  the system does this because we need a file that contains all the libraries and the cut part of the cpp file. Its very similar to the executable but it does not have the *entry point*.
-- `g++ <option> -o <name> <files>` (linker) links together all files in the command line to generate a program file called `<name>`, it resolves the symbols.
-
-Example:
-``` cmd
-mkdir compiling_stuff
-cd compiling_stuff
-emacs hello_world.cpp
-g++ -c hello_world.cpp
-ls
-"we find hello_world.o"
-g++ -o hello_world.cpp
+If I change 1 file, do I have to compile all again? NO. We can see the time stamp when all the file where produced. But since often, the file depends on a lot of files, we should check that all the sources are older then dependencies. For example, in the tree, `vehicle.o` depends from `vehicle.c` that depends from `vehicle.h` that depends from `surface.h` and so on... So if i change `surface.h`, i have to recompile `vehicle.o` too.
+To implement this idea, i have to create a file (**Makefiles**) that declare the **target**, an object file, and what are the **dependencies**, the file which the target depends.
+==Example:==
+```Makefile
+vec3.o : vec3.c vec3.h
+		 gcc -std=gnu99 -c -o vec3.o vec3.c
 ```
 
-
-``` cpp
-#include <iostream>
-
-using namespace std;
-
-int main (int argc, const char** argv) {
-	cout << "hello world" << endl;
-}
+We can ask the compiler which file depends on which:
+```cmd
+gcc (or g++) -MM <source file>
 ```
 
-whit `nm --demangle` we can read all the symbols, and the files that are included. In the print, U is undeclared, T function ... "demangle is an option to look better"
-If we use it on .o it returns the variable, where most of them are waiting to be compiled. In the .exe are already compiled.
+==Example:==
+```cmd
+g++ -MM vehicle.c
+```
+will generate:
+```cmd
+vehicle.o: vehicle.c vehicle.h surface.h vec3.h image.h
+```
+so if we compile vehicle.c we'll get vehicle.o, that use: vehicle.c ...
 
-To call a executor we use `./nameexecutor`.
-`ldd ./nameexecutor` can be used to see the library used and which refers to which
+**MAKEFILE**
+![[Screenshot from 2023-10-17 16-36-30.png]]
 
-![[Recording 20230928094311.webm]]
+This is as simplified version:
+![[Pasted image 20231017164311.png]]
+to call a Makefile i need just to type: make
 
-## Large Builds
-When we use a lot of files, we cant compile all the file all the time we modify the program, it takes too much time (like using make, to compile all the file in the folder). If i change a file we can compile only that one, and the ones that depends on that.
+## Package config
+We want ot automate the retrieval of compilation to insert packages:
 
-The fast way to compile is **Makefiles**, the idea is to receive a description of the file in set of rules. 
-Rules in form:
-\<target\> : \[tab\] \<dependancies\>
-\<tab\> command
+```cmd
+pkg-config --libs gl
+pkg-config --cflags gl
+```
+libs: instruction that output the linking flags of gl
+cflags: obtain the compilation options
 
-eg.
-vec3.o . ve3.c ...
+the outputs will be:
+```cmd
+-lGL
+-I/urs/include/libdrm...
+```
+1) In ordere to link lGL we have to add the flags -lGL
+2) Where are the libraries of lGL? 
+
+We can include **psk** in the **Makefiles**:
+![[Pasted image 20231017165916.png]]
+Libs execute that comand in the shell and save that result
 
 ## CMake
+With cross compilation, like compiling in computer for a phone, its very complicate understand the division of folders and libraries. So windows created CMake, that compiles using the abstraction of toolchain, a set of tool that help compiling. So CMake does not compile things but suggests and produces Makefiles, that can be run. It works on target (libraries, executable).
 
-...
+```cmd
+cmake -c <path to CMakeLists.txt>
+make (from the same folder)
+```
+
+CMake is made:
+![[Screenshot from 2023-10-17 17-12-23.png]]
+so_game: the name of the project
+add_executable(taget
+	these are the file we need 
+)
+
+It can be good if we create a directory where to connect all the files from the compilation:
+```cmd
+mkdir build
+cd build
+```
 
 
 

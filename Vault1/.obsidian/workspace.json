@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Discorso.md",
+                "file": "Zettelkasten/Università/Robot Programming/LezioneX.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Discorso.md",
+                "file": "Zettelkasten/Università/Robot Programming/LezioneX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Discorso.md",
+                "file": "Zettelkasten/Università/Robot Programming/LezioneX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,9 +153,11 @@
   },
   "active": "cd08589df100595b",
   "lastOpenFiles": [
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
+    "Zettelkasten/Università/Robot Programming/LezioneX.md",
+    "Zettelkasten/Regali Laurea.md",
     "Zettelkasten/Discorso.md",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Regali Laurea.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Screenshot from 2023-10-17 16-36-30.png",
     "Files/Screenshot from 2023-10-17 16-11-57.png",
@@ -192,13 +194,11 @@
     "Zettelkasten/Università/Inglese/Digital Humanities.md",
     "Zettelkasten/Università/Inglese/Cyber security.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Cose non utilizzate.md",
-    "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "Zettelkasten/Università/AI/Lezione1.md",
     "Zettelkasten/%.md",
     "Zettelkasten/Università/Tesi/Robot Programming.md",
     "Zettelkasten/Università/Tesi/Considerazioni.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Appunti sui test.md",
-    "Zettelkasten/Università/Tesi/Riunioni/Terza riunione.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

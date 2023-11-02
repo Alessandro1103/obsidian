@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Educazione Finanziaria.md",
+                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Educazione Finanziaria.md",
+                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Educazione Finanziaria.md",
+                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,8 +167,14 @@
   },
   "active": "2d1cd3a0eb8e056c",
   "lastOpenFiles": [
+    "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
+    "Reference notes/Mermaid.md",
+    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
+    "Reference notes/LaTeX.md",
+    "Reference notes/Aimchess.md",
+    "Reference notes/Untitled.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Regali Laurea.md",
-    "Zettelkasten/Educazione Finanziaria.md",
     "Zettelkasten/Università/Robot Programming/LezioneX.md",
     "Zettelkasten/Discorso.md",
     "Zettelkasten/Università/Robot Programming/Lezione1.md",
@@ -198,8 +204,6 @@
     "Files/Recording 20231004111255.webm",
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
-    "Files/Recording 20231004110821.webm",
-    "Files/Recording 20231004110720.webm",
     "Zettelkasten/Valutazione corsi.md",
     "Files/Pasted image 20230913121749.png",
     "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
@@ -208,11 +212,6 @@
     "Zettelkasten/Università/Inglese/First Computer.md",
     "Zettelkasten/Università/Inglese/Effect of Instagram Use.md",
     "Zettelkasten/Università/Inglese/Digital Humanities.md",
-    "Zettelkasten/Università/Inglese/Cyber security.md",
-    "Zettelkasten/Università/Tesi/Scrittura tesi/Cose non utilizzate.md",
-    "Zettelkasten/Università/AI/Lezione1.md",
-    "Zettelkasten/%.md",
-    "Zettelkasten/Università/Tesi/Robot Programming.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

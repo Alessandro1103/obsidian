@@ -3,9 +3,10 @@ Time: 00:41
 Tags: #MrRip
 
 ---
-# Educazione Finanziaria
+# 
 
-
+## Ricchezza piovuta dal cielo
+Se dovesse capitare di trovarsi con una fortuna senza sapere come gestirla, bisogna 
 
 
 ---

@@ -23,7 +23,11 @@ There is a gathering, assembling, and incubating of information relevant to the 
 
 ## Emergence Lv4
 
-At this level MOCs are linked to MOCs! Your in the coliding phase of MOC creation and linking your MOCs to other MOCs
+At this level MOCs are linked to MOCs! Your in the colliding phase of MOC creation and linking your MOCs to other MOCs. This allows you to fly around your note library rapidly organically getting unforced behaviour based "Spaced repetition".
+
+## Emergence Lv5
+
+The highest level of emergence comes when you create a Home Note with all of your highest order notes. The home note is your beginning and end, your launchpad and homebase.
 
 ---
 # References

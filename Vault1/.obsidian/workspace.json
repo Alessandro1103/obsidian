@@ -4,42 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3744cbab769e3b9f",
+        "id": "7fa94d92fbd9db42",
         "type": "tabs",
         "children": [
           {
-            "id": "c3a9cafd76e558a9",
+            "id": "5628e7d4fb9a80b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Regali Laurea.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d1cd3a0eb8e056c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1ee2c8b53925e2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/MOC.md",
+                "file": "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -47,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -114,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/MOC.md",
+                "file": "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/MOC.md",
+                "file": "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,8 +151,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e1ee2c8b53925e2a",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
+    "Zettelkasten/Università/Robot Programming/LezioneX.md",
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
+    "Zettelkasten/Università/NN/Lezione1.md",
+    "Zettelkasten/Università/AI/Lezione1.md",
+    "Zettelkasten/Regali Laurea.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/MOC.md",
     "Zettelkasten/MrRip.md",
@@ -189,10 +167,7 @@
     "Reference notes/LaTeX.md",
     "Reference notes/Aimchess.md",
     "Reference notes/Untitled.md",
-    "Zettelkasten/Regali Laurea.md",
-    "Zettelkasten/Università/Robot Programming/LezioneX.md",
     "Zettelkasten/Discorso.md",
-    "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Pasted image 20231017165916.png",
     "conflict-files-obsidian-git.md",
@@ -211,7 +186,6 @@
     "Zettelkasten/Università/Untitled.md",
     "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
     "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
-    "Zettelkasten/Università/NN/Lezione1.md",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
@@ -225,7 +199,6 @@
     "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
     "Zettelkasten/Università/Inglese/Is technology always the solution.md",
     "Zettelkasten/Università/Inglese/First Computer.md",
-    "Zettelkasten/Università/Inglese/Effect of Instagram Use.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

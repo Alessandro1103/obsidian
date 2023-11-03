@@ -1,6 +1,7 @@
-Created on date 2023-08-03 at 01:28
-Status:
-Tags: #chess 
+Date: 2023-08-03
+Time: 01:28
+Tags: #Chess 
+Up: [[Scacchi]]
 
 ---
 # Weak king defense

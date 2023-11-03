@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,8 +153,21 @@
   },
   "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
+    "Zettelkasten/Weak king defence.md",
+    "Reference notes/Aimchess.md",
+    "Zettelkasten/Social Media.md",
+    "Zettelkasten/Reading a Scientific Article.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/First Computer.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Cyber security.md",
     "Zettelkasten/Appunti.md",
+    "Zettelkasten/Cose.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/UML.md",
+    "Zettelkasten/MrRip.md",
     "Zettelkasten/Terza riunione.md",
     "Zettelkasten/Seconda riunione.md",
     "Zettelkasten/Prima riunione.md",
@@ -166,19 +179,6 @@
     "Zettelkasten/Primi passi.md",
     "Templates/Base.md",
     "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/First Computer.md",
-    "Zettelkasten/Discorso.md",
-    "Zettelkasten/Cose.md",
-    "Zettelkasten/Obsidian/Latex.md",
-    "Zettelkasten/Obsidian/Tesi/Tesi.md",
-    "Zettelkasten/Social Media.md",
-    "Zettelkasten/Reading a Scientific Article.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Effect of Instagram Use.md",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Cyber security.md",
     "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/Screenshot from 2023-10-17 17-12-23.png",

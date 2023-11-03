@@ -1,6 +1,7 @@
-Created on date 2023-08-03 at 01:45
-Status:
-Tags: #tesi 
+Date: 2023-11-03
+Time: 23:04
+Tags: #Tesi #Università #Appunti
+Up: [[Tesi]]
 
 ---
 # Terza riunione

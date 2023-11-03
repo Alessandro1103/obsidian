@@ -1,16 +1,10 @@
 Date: 2023-11-03
 Time: 23:00
-Tags:
-Up: 
+Tags: #MatLab 
+Up: [[MatLab]]
 
 ---
 # MatLab
-
-
-
-
----
-# References
 
 Per cercare indicazioni per funzioni di cui non conosciamo il funzionamento possiamo utilizzare **help** ... seguito dalla funzione oppure **doc** ... che ci riporta direttamente alla documentazione.
 
@@ -221,3 +215,7 @@ end
 - **bodeplot(H)** = diagramma di bode
 - **nyquistplot(H)** = diagramma di nyquist
 - **rlocus(H)** = luogo delle radici
+
+
+---
+# References

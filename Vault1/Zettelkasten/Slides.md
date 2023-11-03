@@ -1,3 +1,9 @@
+Date: 2023-11-03
+Time: 23:02
+Tags:
+Up: 
+
+---
 # Analisi e Controllo di un Sistema di Generazione Energetica Sostenibile con Aree di Ricarica
 
 ---
@@ -137,3 +143,7 @@ Abbiamo 2 casistiche:
 # Simulazioni 2
 
 ---
+
+
+---
+# References

@@ -1,6 +1,7 @@
 Date: 2023-08-03 
 Time: 01:44
-Tags:
+Tags: #Tesi #Università #Appunti 
+Up: [[Tesi]]
 
 ---
 # Seconda riunione

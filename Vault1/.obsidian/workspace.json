@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Matlab/MatLab.md",
+                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Matlab/MatLab.md",
+                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Matlab/MatLab.md",
+                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,9 +153,18 @@
   },
   "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
-    "Templates/Base.md",
-    "Zettelkasten/Matlab/MatLab.md",
     "Zettelkasten/Appunti.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Terza riunione.md",
+    "Zettelkasten/Seconda riunione.md",
+    "Zettelkasten/Prima riunione.md",
+    "Zettelkasten/Slides.md",
+    "Zettelkasten/Università/Tesi/Scrittura tesi/Cose non utilizzate.md",
+    "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
+    "Zettelkasten/Università/Tesi/Considerazioni.md",
+    "Zettelkasten/Università/Tesi/Dubbi.md",
+    "Zettelkasten/Primi passi.md",
+    "Templates/Base.md",
     "Zettelkasten/Mermaid.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/First Computer.md",
@@ -170,15 +179,6 @@
     "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Università/Inglese/Vocabolario.md",
-    "Zettelkasten/Università/EsamiJava/Esercitazione 9.md",
-    "Zettelkasten/Università/EsamiJava/Esercitazione 8.2.md",
-    "Zettelkasten/Università/EsamiJava/Esercitazione 8.1.md",
-    "Zettelkasten/Università/EsamiJava/Esame 12-07-2019.md",
-    "Zettelkasten/Università/EsamiJava/Esame 20-02-2020.md",
-    "Zettelkasten/Università/EsamiJava/Domande.md",
-    "Zettelkasten/UML.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
     "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/Screenshot from 2023-10-17 17-12-23.png",

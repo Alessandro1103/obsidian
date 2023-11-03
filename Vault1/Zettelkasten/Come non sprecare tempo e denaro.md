@@ -1,7 +1,6 @@
 Date: 2023-11-03
 Time: 00:41
 Tags: #MrRip #Economia
-Link: [[MrRip]]
 
 ---
 # Come non sprecare tempo e denaro
@@ -13,3 +12,4 @@ Se dovesse capitare di trovarsi con una fortuna senza sapere come gestirla, biso
 
 ---
 # References
+[[MrRip]]

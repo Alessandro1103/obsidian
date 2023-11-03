@@ -1,4 +1,12 @@
-Computers are being used to store sensitive information.The problem is Internet, it's not a safety network to share information. Even govern needs to protect their and other people information. To do so, cybersecurity needs to develop by a systematic system, it can not be achieved through haphazard methods.
+Date: 2023-11-03
+Time: 22:52
+Tags: #English #Universita #Appunti 
+Up: [[Inglese]]
+
+---
+# Cyber security
+
+Computers are being used to store sensitive information. The problem is Internet, it's not a safety network to share information. Even govern needs to protect their and other people information. To do so, cybersecurity needs to develop by a systematic system, it can not be achieved through haphazard methods.
 For example, few day after the 9/11, an Internet worm cyber attack, called Nimda, spread nationwide in less than an hour. The latest Internet worm, Sapphire, was able to spread worldwide in approximately 10 minutes. 
 Everything we do in our life depends on computers and computer networks. Computers are used for controlling and managing manufacturing processes, water supplies, the electric power grid, etc. Even cyber attack that seems "non-critical", or with no purpose, are actually meditated to crush bigger system. 
 The perpetrators can be separated by levels:
@@ -34,3 +42,9 @@ There are four approaches to achieve a secure computing environment:
 - **Intrusion Detection**:to detect any intrusion we can keep record called "audit collection", the data collected is called an "audit log". By an automated tool, called intrusion detection, we can now find violations that might have gone unnoticed before. There are 2 categories of intrusion detection approaches:
 	- **Anomaly detection**: relies on models of the intended behavior of users and find deviations. (false positive)
 	- **Misuse detection**: relies with attack descriptions, trying to match them against the stream of audit data. (few false positive, can detect only the known attack)
+
+
+
+---
+# References
+

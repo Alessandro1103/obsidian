@@ -1,3 +1,11 @@
+Date: 2023-11-03
+Time: 22:52
+Tags: #English #Universita #Appunti 
+Up: [[Inglese]]
+
+---
+# Reading a Scientific Article
+
 We should not approach a scientific article like a textbook, we ha to stop, think about what we just read, elaborate, critic.
 1. **Skim the article**: try to get a basic overview.
 2. **Grasp the vocabulary**: there are specific terms, dependent from what article are u reading.

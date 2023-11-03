@@ -1,3 +1,9 @@
+Date: 2023-11-03
+Time: 22:52
+Tags: #English #Universita #Appunti 
+Up: [[Inglese]]
+
+---
 # Is technology always the solution
 
 When the terminology "artificial intelligence" was coined? 1950

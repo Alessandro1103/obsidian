@@ -1,3 +1,11 @@
+Date: 2023-11-03
+Time: 22:52
+Tags: #English #Universita #Appunti 
+Up: [[Inglese]]
+
+---
+# Machine Learning & Shakespeare
+
 William Shakespeare was the house playwright for an acting company called **King's Men**. Once he died, the company needed a replacement and took one of the most important playwrights of the time, **John Fletcher**. 
 During years, in particular, has been noticed, by **James Spedding**, a literary analyst, a similarity between Fletchers's play and passages in Shakespeare's **Henry VIII**. Spedding concluded that Fletcher and Shakespeare must have collaborated on the play.
 Fletcher may not be the only one who collaborated with Shakespeare, there are some ideas about other writers, like Massinger. From all research made by artificial intelligence only a few are relatable to Massinger style and those were voted by a minority. 

@@ -1,3 +1,11 @@
+Date: 2023-11-03
+Time: 22:52
+Tags: #English #Universita #Appunti 
+Up: [[Inglese]]
+
+---
+# Social Media
+
 Around 40% of the world's population use social media, spending an average of 2 hours every day. Let's analyze the pros and cons.
 - **Stress**: people use social media to vent everything, so our feeds are an endless stream of stress. So, social media induces more stress than it relieves. Has been found that women used to be more stressed than men; more wemen joined social media less stressed they were. 
 - **Mood**: people tends to have lower moods after using social media. People feel this way because they see it as a waste of time. Has been found that the mood during the use of social media may spread between other social media's users. Even the weather can influence moods, a raining day increases negative posts by 1%. Happy posts influence more than negative posts.

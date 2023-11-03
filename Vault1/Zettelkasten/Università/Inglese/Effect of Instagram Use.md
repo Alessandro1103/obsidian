@@ -1,3 +1,11 @@
+Date: 2023-11-03
+Time: 22:52
+Tags: #English #Universita #Appunti 
+Up: [[Inglese]]
+
+---
+# Effect of Instagram Use
+
 The high adoption of social media is especially important to Singapore, given that the government's "smart nation", aims to utilize information communication technologies to improve living and build a closer community among Singaporeans. Scholars indicated that social anxiety could arise from managing a large network of social media friends, feeling jealous of their lives, and the "fear of missing out" on activities in online interactions. 
 It's in out interest create a #three-stagemodel of health promotion using interactive media, let's see the 3 stages:
 1. is implementation and use of interactive media
@@ -21,3 +29,7 @@ Practical Implications:
 - for health educators and promoters, enhancing emotional well-being is of significance.
 - Campaigns that increase people's self-esteem in the digital era
 - school educators that guide to the appropriate use of Instagram to enhance students' emotional health.
+
+---
+# References
+

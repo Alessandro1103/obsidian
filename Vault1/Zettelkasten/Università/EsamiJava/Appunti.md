@@ -1,4 +1,12 @@
-# Segnatura
+Date: 2023-11-03
+Time: 22:49
+Tags:
+Up: [[UML]]
+
+---
+# Appunti
+
+## Segnatura
 Possiamo fare 3 segnature: AttivitàComplesse, AttivitàAtomiche, SegnaliIO
 
 AttivitàComplesse:
@@ -14,7 +22,7 @@ SegnaliIO:
 ```
 SegnaliIO(/*parametri in ingresso*/):(/*parametri in uscita*/)
 ```
-# Specifica Stati
+## Specifica Stati
 Molto semplice, scriviamo solo quello che abbiamo disegnato nel diagramma degli stati
 ```
 InizioSpecificaStatiClasse Pippo
@@ -26,7 +34,7 @@ InizioSpecificaStatiClasse Pippo
 		 statoCorrente = Stato.STATO_0
 FineSpecifica
 ```
-# Specifica Transizioni
+## Specifica Transizioni
 ```
 InizioSpecificaTransizioniClasse Classe
 	Transizione:STATO_0 -> STATO_1
@@ -38,8 +46,8 @@ InizioSpecificaTransizioniClasse Classe
 		post: specifica del nuovo Evento
 FineSpecifica
 ```
-# Specifica Attività
-## Specifica Attività Principale
+## Specifica Attività
+### Specifica Attività Principale
 ```
 InizioSpecificaAttivita Principale
 	Principale()
@@ -66,7 +74,7 @@ fork {
 join t1, t2
 ```
 
-## Specifica Attività Atomica
+### Specifica Attività Atomica
 
 ```
 InizioSpecificaAttivitàAtomica Attività
@@ -78,7 +86,7 @@ InizioSpecificaAttivitàAtomica Attività
 FineSpecifica
 ```
 
-## Specifica Attività I/O
+### Specifica Attività I/O
 
 ```
 InizioSpecificaAttivitàAtomica Attività
@@ -90,9 +98,9 @@ InizioSpecificaAttivitàAtomica Attività
 FineSpecifica
 ```
 
-# Realizzazione classi
+## Realizzazione classi
 
-## Rappresentazione di una classe
+### Rappresentazione di una classe
 
 ![[Pasted image 20230709161254.png]]
 
@@ -138,9 +146,9 @@ public class Persona {
 }
 ```
 
-## Responsabilità singola
+### Responsabilità singola
 
-### Molteplicità 0,1 
+#### Molteplicità 0,1 
 
 ![[Pasted image 20230709163802.png]]
 
@@ -189,7 +197,7 @@ public class Libro {
 }
 ```
 
-### Molteplicità 1,1
+#### Molteplicità 1,1
 
 ![[Pasted image 20230709172335.png]]
 
@@ -221,7 +229,7 @@ public String getCognome() {
 }
 ```
 
-### Molteplicità 0,*
+#### Molteplicità 0,*
 
 ![[Pasted image 20230709182607.png]]
 
@@ -250,7 +258,7 @@ public class Persona {
 }
 ```
 
-### Molteplicità 0,1 con attributi
+#### Molteplicità 0,1 con attributi
 
 ![[Pasted image 20230709182817.png]]
 
@@ -391,7 +399,7 @@ public class Persona {
 ```
 
 
-## Responsabilità doppia -> Manager
+### Responsabilità doppia -> Manager
 
 In questa situazione visto che esiste un oggetto centrare, non appartenente a nessuno dei due, devo creare un TipoLinkOccupazione, la molteplicità influisce solo condizioni e il tipo che che vado ad assegnare a "link", se avessi avuto più valori avrei avuto un insieme e quindi un HashSet. Devo implementare quindi 2 class per le 2 classi, 1 TipoLink per il link e 1 Manager
 Attenzione che il controllo delle molteplicità le fa direttamente il manager in questo caso, perche il link c'e o non c'e da entrambe le parti. Se avessi 01 solo da un latro il controllo lo faccio solo su uno e quindi sul InserisciPerManager o anche inserisciTipoLink.
@@ -543,7 +551,7 @@ public final class ManagerOccupazione {
 }
 ```
 
-## Generalizzazioni (ISA)
+### Generalizzazioni (ISA)
 
 ![[Pasted image 20230709162958.png]]
 
@@ -589,7 +597,7 @@ public class LibroStorico extends Libro {
 ```
 
  
-## Eccezioni
+### Eccezioni
 
 Nella costruzioni delle classi possiamo avere 2 tipi di Eccezioni: #EccezioneMolteplicita o #EccezionePrecondizioni, la prima perché qualche molteplicità non è stata rispettata, di fatto è una eccezione che vogliamo lanciare noi, la seconda può includere la prima, si riferisce a quando inizializziamo qualcosa in maniera sbagliata.
 
@@ -621,7 +629,7 @@ public class EccezioneMolteplicita extends Exception {
 }
 ```
 
-## Fired
+### Fired
 
 Se di una classe ci interessano gli stati e transizioni, magari questa funge come evento etc, allora va considerata come listener e le è permesso usare la funzione fired():
 
@@ -644,7 +652,7 @@ public class Giocatore implements Listener {
 la funzione #fired, non restituisce eventi e delega la gestione delle transizioni ad un #funtore 
 molto più chiaro con l'esempio [[Esame 20-02-2020]]
 
-## Subset
+### Subset
 ![[Pasted image 20230714172245.png]]
 
 Dove Personaggio ha responsabilità singola su Quadro, mentre dedicatoA avrà bisogno di un Manager. L'implementazione la vediamo nelle classi quando andiamo a fare i get e i corrispondenti controlli
@@ -768,7 +776,7 @@ public class QuadroDedicato extends Quadro {
 }
 ```
 
-# Realizzazione stati e transizioni
+## Realizzazione stati e transizioni
 
 ``` java
 public class MioOggettoConStato implements Listener {
@@ -838,13 +846,13 @@ class GiocatoreFired implements Task {
 ```
 
 molto più chiaro con l'esempio [[Esame 20-02-2020]]
-in ogni case, facciamo il controllo se la classe evento sia quella dell'evento scatenante (vedere grafico stati e transizioni). Poi chiamiamo la il nuovo evento: con Enviroment e cambiamo stato. Dentro
+in ogni case, facciamo il controllo se la classe evento sia quella dell'evento scatenante (vedere grafico stati e transizioni). Poi chiamiamo la il nuovo evento: con Environment e cambiamo stato. Dentro
 
-# Realizzazione attività 
+## Realizzazione attività 
 
 Per una realizzazione di una attività ci facciamo sempre ad un #funtore e a delle classi che implementano Task(funtore), spesso le cose richieste le abbiamo già scritte nel diagramma delle attività o nelle segnature
 
-## Realizzazione Attività complessa
+### Realizzazione Attività complessa
 
 ``` java
 public class Classe implements Runnable {
@@ -896,7 +904,7 @@ try {
 ```
 ==ricorda l'errore==
 
-## Realizzazione Attività Atomica
+### Realizzazione Attività Atomica
 
 ``` java
 public class Classe implements Task {
@@ -917,3 +925,6 @@ public class Classe implements Task {
 }
 ```
 
+
+---
+# References

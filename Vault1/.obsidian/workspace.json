@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
+                "file": "Zettelkasten/Università/EsamiJava/Appunti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
+                "file": "Zettelkasten/Università/EsamiJava/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
+                "file": "Zettelkasten/Università/EsamiJava/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,23 +151,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e8b265cc6d46e7cf",
+  "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
+    "Zettelkasten/UML.md",
+    "Zettelkasten/Università/EsamiJava/Appunti.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Pedoni doppi.md",
+    "Zettelkasten/Pedoni passati in Endgame.md",
+    "Zettelkasten/Re debole nel calcolo.md",
+    "Zettelkasten/Weak king defence.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/MrRip.md",
+    "Zettelkasten/Università/Tesi/Slides.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/MOC.md",
+    "Zettelkasten/Regali Laurea.md",
+    "Zettelkasten/Scheda GPT.md",
+    "Zettelkasten/Università/Tesi/Considerazioni.md",
+    "Zettelkasten/Università/Tesi/Codici Ale/Evoluzione codice.md",
     "Zettelkasten/Università/Robot Programming/LezioneX.md",
     "Zettelkasten/Università/Robot Programming/Lezione1.md",
     "Zettelkasten/Università/NN/Lezione1.md",
     "Zettelkasten/Università/AI/Lezione1.md",
-    "Zettelkasten/Regali Laurea.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/MOC.md",
-    "Zettelkasten/MrRip.md",
     "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
     "Reference notes/Mermaid.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Reference notes/LaTeX.md",
     "Reference notes/Aimchess.md",
     "Reference notes/Untitled.md",
-    "Zettelkasten/Discorso.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Pasted image 20231017165916.png",
     "conflict-files-obsidian-git.md",
@@ -180,12 +191,6 @@
     "Files/Screenshot from 2023-10-17 15-53-46.png",
     "Zettelkasten/Screenshot from 2023-10-17 15-53-46.png.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
-    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
-    "Zettelkasten/Università/Robot Programming/Lezione2.md",
-    "Zettelkasten/stronzo.md",
-    "Zettelkasten/Università/Untitled.md",
-    "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
-    "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
@@ -193,12 +198,7 @@
     "Files/Recording 20231004111255.webm",
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
-    "Zettelkasten/Valutazione corsi.md",
     "Files/Pasted image 20230913121749.png",
-    "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
-    "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Università/Inglese/Is technology always the solution.md",
-    "Zettelkasten/Università/Inglese/First Computer.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

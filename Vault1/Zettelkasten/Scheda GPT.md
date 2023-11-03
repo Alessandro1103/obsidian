@@ -1,3 +1,10 @@
+Date: 2023-11-03
+Time: 22:46
+Tags: #Gym 
+
+---
+# Scheda GPT
+
 **Day 1: Upper Body**
 
 1. Push-ups - 3 sets of 10-12 reps
@@ -24,3 +31,7 @@
 4. Pull-ups or inverted rows - 3 sets of max reps (you can use a sturdy horizontal bar or a sturdy table)
 5. Dips (using parallel bars or stable chairs) - 3 sets of 8-10 reps
 6. Plank - 3 sets of 30-60 seconds (for core)
+
+
+---
+# References

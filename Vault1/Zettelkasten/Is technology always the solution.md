@@ -15,3 +15,8 @@ Serious problems generated and reflected to IA: it's a nuanced problem (small sp
 # What can't computers do?
 
 It's very difficult implements things that for us, are take for granted, like recognize our mother, being able to walk...Is technology always the solution
+
+
+---
+# References
+

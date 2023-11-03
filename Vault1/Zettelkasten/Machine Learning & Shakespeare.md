@@ -15,3 +15,8 @@ A scientist resolved the problem using machine learning to identify the authorsh
 The technique used, is called, **Rolling Stylometry**, designed for cases involving mixed authorship. In this context, we are no longer interested in the whole play, just a number of phrases/words. The algorithm chops the text into phrases and analyses them one at the time. Overlapping the text multiple times.
 The results explain that the opera was a mixed authorship, where in some paragraph Shakespeare had the whole control, and left some spaces to Fletcher. There are scenes with both participations.
 This algorithm has been used for some years to identify distinctive patterns in the way authors write. In the painting area, machine learning improved so much that it became able to extract a painter style and reuse it on other images.
+
+
+---
+# References
+

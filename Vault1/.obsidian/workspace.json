@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Università/Inglese/First Computer.md",
+                "file": "Zettelkasten/Matlab/MatLab.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Università/Inglese/First Computer.md",
+                "file": "Zettelkasten/Matlab/MatLab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Università/Inglese/First Computer.md",
+                "file": "Zettelkasten/Matlab/MatLab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,14 +153,23 @@
   },
   "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
-    "Zettelkasten/Università/Inglese/Effect of Instagram Use.md",
-    "Zettelkasten/Università/Inglese/First Computer.md",
-    "Zettelkasten/Università/Inglese/Digital Humanities.md",
-    "Zettelkasten/Università/Inglese/Cyber security.md",
-    "Zettelkasten/Università/Inglese/Is technology always the solution.md",
-    "Zettelkasten/Università/Inglese/Social Media.md",
-    "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
-    "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
+    "Templates/Base.md",
+    "Zettelkasten/Matlab/MatLab.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/First Computer.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Obsidian/Latex.md",
+    "Zettelkasten/Obsidian/Tesi/Tesi.md",
+    "Zettelkasten/Social Media.md",
+    "Zettelkasten/Reading a Scientific Article.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Cyber security.md",
     "Zettelkasten/Università/Inglese/Vocabolario.md",
     "Zettelkasten/Università/EsamiJava/Esercitazione 9.md",
     "Zettelkasten/Università/EsamiJava/Esercitazione 8.2.md",
@@ -168,17 +177,8 @@
     "Zettelkasten/Università/EsamiJava/Esame 12-07-2019.md",
     "Zettelkasten/Università/EsamiJava/Esame 20-02-2020.md",
     "Zettelkasten/Università/EsamiJava/Domande.md",
-    "Zettelkasten/Appunti.md",
     "Zettelkasten/UML.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/Pedoni passati in Endgame.md",
-    "Zettelkasten/Re debole nel calcolo.md",
-    "Zettelkasten/Weak king defence.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/MrRip.md",
-    "Zettelkasten/Università/Tesi/Slides.md",
-    "Zettelkasten/Discorso.md",
     "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/Screenshot from 2023-10-17 17-12-23.png",

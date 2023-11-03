@@ -1,9 +1,11 @@
-Created on date 2023-08-01 at 22:21
-Status: #MOC
-Tags:
+Date: 2023-11-03
+Time: 22:59
+Tags: #MOC #Obsidian 
+Up: [[Obsidian]]
 
 ---
 # Metodo Zettelkasten
+
 
 Si consiglia, quando si vuole creare una nuova nota, di usare i comandi `ctrl + O` in modo tale da vedere se quel documento esiste già, altrimenti è veloce crearlo nuovo basta premere `Invio`
 

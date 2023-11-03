@@ -1,3 +1,11 @@
+Date: 2023-11-03
+Time: 22:57
+Tags: #Obsidian 
+Up: [[Obsidian]]
+
+---
+# Cose
+
 # Titolo 1
 ## Titolo 2
 ### Titolo 3
@@ -96,3 +104,7 @@ Il testo racchiuso tra `backtick` (accenti gravi) viene formattato come codice.
 
 [[Prima riunione|Tesi Camilla, seconda riunione]] cosi creo un collegamento a un'altra nota
 [[Prima riunione#Spiegazione1 (Concentrato su Alessandro)|Tesi Alessandro, prima riunione]] così creo un collegamento a un'altra nota e ad un titolo preciso della pagine
+
+
+---
+# References

@@ -12,3 +12,8 @@ This mechanism was so particular and advance that we had to rethink about histor
 
 Feature:
 To determine the cycle for all the planets we need 9 outputs, cosmos that we are interested in.
+
+
+---
+# References
+

@@ -21,4 +21,8 @@ We should not approach a scientific article like a textbook, we ha to stop, thin
 
 Abstract -> Highlights -> Conclusion -> Graphs -> Introduction -> Methods -> Results -> Discussion -> Conclusion ->
 
+---
+# References
+
 [Video Youtube]([How to Read a Scientific Paper Efficiently and Critically - YouTube](https://www.youtube.com/watch?v=lXJeU2dzzWo&ab_channel=ScientificWritingwithKarenL.McKee))
+

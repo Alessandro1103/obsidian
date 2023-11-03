@@ -1,6 +1,7 @@
-Created on date 2023-08-03 at 01:47
-Status:
-Tags: #mermaid
+Date: 2023-11-03
+Time: 22:58
+Tags: #Obsidian #Mermaid
+Up: [[Obsidian]]
 
 ---
 # Mermaid

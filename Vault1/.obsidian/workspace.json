@@ -11,13 +11,8 @@
             "id": "5628e7d4fb9a80b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Appunti.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -50,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Università",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,8 +144,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a6fe8b75c2963a7d",
+  "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
+    "Zettelkasten/Terza riunione.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Cyber security.md",
     "Reference notes/Mermaid.md",
     "Reference notes/LaTeX.md",
     "Reference notes/Aimchess.md",
@@ -176,9 +174,7 @@
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
     "Files/Recording 20231004110821.webm",
-    "Zettelkasten/Appunti.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/Cose.md",
     "Zettelkasten/First Computer.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/Pedoni passati in Endgame.md",
@@ -191,14 +187,11 @@
     "Zettelkasten/Machine Learning & Shakespeare.md",
     "Zettelkasten/Discorso.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Cyber security.md",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/Mermaid.md",
     "Zettelkasten/MOC.md",
-    "Zettelkasten/Primi passi.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

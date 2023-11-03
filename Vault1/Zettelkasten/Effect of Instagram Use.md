@@ -7,7 +7,7 @@ Up: [[Inglese]]
 # Effect of Instagram Use
 
 The high adoption of social media is especially important to Singapore, given that the government's "smart nation", aims to utilize information communication technologies to improve living and build a closer community among Singaporeans. Scholars indicated that social anxiety could arise from managing a large network of social media friends, feeling jealous of their lives, and the "fear of missing out" on activities in online interactions. 
-It's in out interest create a #three-stagemodel of health promotion using interactive media, let's see the 3 stages:
+It's in out interest create a `three-stagemodel` of health promotion using interactive media, let's see the 3 stages:
 1. is implementation and use of interactive media
 2. depends on the interplay of user, media and message characteristics
 3. health outcomes

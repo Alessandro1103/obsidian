@@ -1,6 +1,6 @@
 Date: 2023-11-03
 Time: 22:52
-Tags: #English #Università #Riassunti
+Tags: #English #Università
 Up: [[Inglese]]
 
 ---

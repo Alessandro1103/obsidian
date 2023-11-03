@@ -46,7 +46,6 @@ function fancyAlert(arg) {
 	Il testo che viene scritto dopo un tab viene formattato in questo modo # ciao
 
 #tag
-#important
 
 | Header 1 | Header 2 | Header 3 |
 | --------:|:--------:|:-------- |

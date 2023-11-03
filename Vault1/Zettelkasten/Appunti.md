@@ -104,9 +104,9 @@ FineSpecifica
 
 ![[Pasted image 20230709161254.png]]
 
-Le proprietà immutabili hanno la condizione di essere #final
-Per ogni attributo dobbiamo avere un #get e un #set, a meno che questo non sia final, allora avrà solo un get. Riscriviamo il #toString.
-Se un attributo ha un vincolo numerico possiamo verificarlo nel costruttore e nel set chiamando #EccezionePrecondizioni, in questo caso va creato la classe di #EccezionePrecondizioni 
+Le proprietà immutabili hanno la condizione di essere `final`
+Per ogni attributo dobbiamo avere un `get` e un `set`, a meno che questo non sia `final`, allora avrà solo un get. Riscriviamo il `toString`.
+Se un attributo ha un vincolo numerico possiamo verificarlo nel costruttore e nel set chiamando EccezionePrecondizioni, in questo caso va creato la classe di EccezionePrecondizioni 
 ``` java
 public class Persona { 
 	private final String nome, cognome; 
@@ -201,7 +201,7 @@ public class Libro {
 
 ![[Pasted image 20230709172335.png]]
 
-Ovviamente abbiamo responsabilità verso Ente, in qualche modo AziendaPubblica dovrà caricarsi Ente, visto che il link non ha niente di speciale, possiamo considerare semplicemente Ente come attributo di AziendaPubblica. Come attributo deve avere get e set. Visto che ha molteplicità 1,1 deve esserci sempre 1 ente, ma il controllo lo facciamo solo quando è richiesto il get con #EccezioneMolteplicita. Se avessimo altri valori ancora, sarà sufficiente creare un HashSet e verificare che quando chiamiamo get, questi rispetti le condizioni di progetto (uguale a questo, ma con altri valori).
+Ovviamente abbiamo responsabilità verso Ente, in qualche modo AziendaPubblica dovrà caricarsi Ente, visto che il link non ha niente di speciale, possiamo considerare semplicemente Ente come attributo di AziendaPubblica. Come attributo deve avere get e set. Visto che ha molteplicità 1,1 deve esserci sempre 1 ente, ma il controllo lo facciamo solo quando è richiesto il get con EccezioneMolteplicita. Se avessimo altri valori ancora, sarà sufficiente creare un HashSet e verificare che quando chiamiamo get, questi rispetti le condizioni di progetto (uguale a questo, ma con altri valori).
 
 ``` java 
 public class AziendaPubblica extends Azienda {
@@ -262,8 +262,8 @@ public class Persona {
 
 ![[Pasted image 20230709182817.png]]
 
-Visto che il link sembra diventare una vera e propria classe, diventa sempre più complicato accorparla ad una sola classe, possiamo gestire il link come una vera e propria struttura detta #TipoLink che negli esempi precedenti prende esattamente il posto delle associazioni. Tutti gli attributi del #TipoLink sono #final, perché non devono mutare.
-In questo caso #inserisciLink deve controllare che il link non esista già, che quello che viene fornito sia valido e che il destinatario del collegamento sia effettivamente io.
+Visto che il link sembra diventare una vera e propria classe, diventa sempre più complicato accorparla ad una sola classe, possiamo gestire il link come una vera e propria struttura detta `TipoLink` che negli esempi precedenti prende esattamente il posto delle associazioni. Tutti gli attributi del `TipoLink` sono `final`, perché non devono mutare.
+In questo caso `inserisciLink` deve controllare che il link non esista già, che quello che viene fornito sia valido e che il destinatario del collegamento sia effettivamente io.
  
 Persona:
 ``` java
@@ -329,7 +329,7 @@ public class TipoLinkLavora {
 
 ![[Pasted image 20230709184405.png]]
 
-Visto la complicatezza del link è giusto creare un #TipoLink adeguato
+Visto la complicatezza del link è giusto creare un `TipoLink` adeguato
 
 TipoLinkHaLavorato:
 ``` java
@@ -555,7 +555,7 @@ public final class ManagerOccupazione {
 
 ![[Pasted image 20230709162958.png]]
 
-Questa è una classe semplice, se sapessi che non può essere chiamata, perché le classi figlie sono complete, diventerebbe una classe #abstract.
+Questa è una classe semplice, se sapessi che non può essere chiamata, perché le classi figlie sono complete, diventerebbe una classe `abstract`.
 ``` java
 package Libro;
 public class Libro { 
@@ -576,7 +576,7 @@ public class Libro {
 }
 ```
 
-La classe figlia ha tutte le caratteristiche di quella padre, quindi quello che abbiamo già lo chiamiamo con #super 
+La classe figlia ha tutte le caratteristiche di quella padre, quindi quello che abbiamo già lo chiamiamo con super 
 
 ``` java
 public class LibroStorico extends Libro {
@@ -599,7 +599,7 @@ public class LibroStorico extends Libro {
  
 ### Eccezioni
 
-Nella costruzioni delle classi possiamo avere 2 tipi di Eccezioni: #EccezioneMolteplicita o #EccezionePrecondizioni, la prima perché qualche molteplicità non è stata rispettata, di fatto è una eccezione che vogliamo lanciare noi, la seconda può includere la prima, si riferisce a quando inizializziamo qualcosa in maniera sbagliata.
+Nella costruzioni delle classi possiamo avere 2 tipi di Eccezioni: EccezioneMolteplicita o EccezionePrecondizioni, la prima perché qualche molteplicità non è stata rispettata, di fatto è una eccezione che vogliamo lanciare noi, la seconda può includere la prima, si riferisce a quando inizializziamo qualcosa in maniera sbagliata.
 
 EccezionePrecondizioni:
 ``` java
@@ -649,7 +649,7 @@ public class Giocatore implements Listener {
 }
 ```
 
-la funzione #fired, non restituisce eventi e delega la gestione delle transizioni ad un #funtore 
+la funzione `fired`, non restituisce eventi e delega la gestione delle transizioni ad un funtore 
 molto più chiaro con l'esempio [[Esame 20-02-2020]]
 
 ### Subset
@@ -803,7 +803,7 @@ public class OggettoConStato implements Listener { …
 }
 ```
 
-Fired deve essere eseguito concorrentemente, deve quindi essere in grado di chiamare un #funtore 
+Fired deve essere eseguito concorrentemente, deve quindi essere in grado di chiamare un funtore 
 
 ==Bisogna controllare prima di eseguire che il destinatario sia io, per farlo vediamo l'opposto ovvero se il destinatario non sia io e non sia un messaggio mandato in broadcast==
 ``` java
@@ -850,7 +850,7 @@ in ogni case, facciamo il controllo se la classe evento sia quella dell'evento s
 
 ## Realizzazione attività 
 
-Per una realizzazione di una attività ci facciamo sempre ad un #funtore e a delle classi che implementano Task(funtore), spesso le cose richieste le abbiamo già scritte nel diagramma delle attività o nelle segnature
+Per una realizzazione di una attività ci facciamo sempre ad un funtore e a delle classi che implementano Task(funtore), spesso le cose richieste le abbiamo già scritte nel diagramma delle attività o nelle segnature
 
 ### Realizzazione Attività complessa
 

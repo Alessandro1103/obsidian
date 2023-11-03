@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e1ee2c8b53925e2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/MOC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
+                "file": "Zettelkasten/MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Come non sprecare tempo e denaro.md",
+                "file": "Zettelkasten/MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,10 +178,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2d1cd3a0eb8e056c",
+  "active": "e1ee2c8b53925e2a",
   "lastOpenFiles": [
-    "Zettelkasten/MrRip.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/MOC.md",
+    "Zettelkasten/MrRip.md",
     "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
     "Reference notes/Mermaid.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
@@ -212,7 +226,6 @@
     "Zettelkasten/Università/Inglese/Is technology always the solution.md",
     "Zettelkasten/Università/Inglese/First Computer.md",
     "Zettelkasten/Università/Inglese/Effect of Instagram Use.md",
-    "Zettelkasten/Università/Inglese/Digital Humanities.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

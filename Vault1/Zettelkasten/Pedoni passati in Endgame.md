@@ -1,6 +1,7 @@
-Created on date 2023-08-03 at 01:26
-Status:
-Tags: #chess 
+Date: 2023-08-03
+Time: 01:27
+Tags: #Chess
+Up: [[Scacchi]]
 
 ---
 # Pedoni passati in Endgame

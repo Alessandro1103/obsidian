@@ -1,7 +1,7 @@
 Date: 2023-11-03
 Time: 23:02
-Tags:
-Up: 
+Tags: #Tesi #Università 
+Up: [[Tesi]]
 
 ---
 # Analisi e Controllo di un Sistema di Generazione Energetica Sostenibile con Aree di Ricarica

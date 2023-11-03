@@ -1,6 +1,6 @@
 Date: 2023-08-03 
 Time: 01:44
-Tags: #Tesi #Università #Appunti 
+Tags: #Tesi #Università
 Up: [[Tesi]]
 
 ---

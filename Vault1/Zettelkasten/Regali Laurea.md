@@ -1,6 +1,7 @@
 Date: 2023-10-26
 Time: 12:32
-Tags:
+Tags: #Università 
+Up: [[Regali]] [[Università]]
 
 ---
 # Regali Laurea

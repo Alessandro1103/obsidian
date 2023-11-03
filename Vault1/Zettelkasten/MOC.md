@@ -13,7 +13,17 @@ In this stage, its is just a semblance of a couple of notes that resonated with 
 
 ## Emergence Lv2
 
-Pretty soon these seemingly unrelated notes started to get linked together. Those three notes from before, all created from information I had consumed on Stoicism and Buddhism
+Pretty soon these seemingly unrelated notes started to get linked together. Those three notes from before, all created from information.
+
+## Emergence Lv3
+
+There comes a point in the process where you will want a birds eye view of the relationships between the notes you are connecting together. 
+This is when the MOC creation process begins.
+There is a gathering, assembling, and incubating of information relevant to the MOC. Usually, this gathering will start out as a list of bu-directionally linked notes. Eventually you might turn this simple list into a paragraph structure.
+
+## Emergence Lv4
+
+At this level MOCs are linked to MOCs! Your in the coliding phase of MOC creation and linking your MOCs to other MOCs
 
 ---
-# Refe
+# References

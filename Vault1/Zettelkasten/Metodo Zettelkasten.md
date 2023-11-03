@@ -1,6 +1,6 @@
 Date: 2023-11-03
 Time: 22:59
-Tags: #MOC #Obsidian 
+Tags: #MOC #Obsidian #YouTube 
 Up: [[Obsidian]]
 
 ---

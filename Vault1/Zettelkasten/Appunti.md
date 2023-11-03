@@ -1,6 +1,6 @@
 Date: 2023-11-03
 Time: 22:49
-Tags: #Java #UML #Appunti #Università 
+Tags: #Java #UML #Università 
 Up: [[UML]]
 
 ---

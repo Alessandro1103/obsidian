@@ -11,8 +11,13 @@
             "id": "5628e7d4fb9a80b9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Metodo Zettelkasten.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -45,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Università",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Metodo Zettelkasten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Metodo Zettelkasten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,14 +152,32 @@
   },
   "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
+    "Zettelkasten/MOC.md",
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Weak king defence.md",
     "Zettelkasten/Terza riunione.md",
-    "Zettelkasten/Appunti.md",
-    "Zettelkasten/Cose.md",
+    "Zettelkasten/Social Media.md",
+    "Zettelkasten/Slides.md",
+    "Zettelkasten/Seconda riunione.md",
+    "Zettelkasten/Scheda GPT.md",
+    "Zettelkasten/Regali Laurea.md",
+    "Zettelkasten/Reading a Scientific Article.md",
+    "Zettelkasten/Re debole nel calcolo.md",
+    "Zettelkasten/Primi passi.md",
+    "Zettelkasten/Prima riunione.md",
+    "Zettelkasten/Pedoni passati in Endgame.md",
+    "Zettelkasten/Pedoni doppi.md",
+    "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/First Computer.md",
     "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/Cyber security.md",
-    "Reference notes/Mermaid.md",
-    "Reference notes/LaTeX.md",
-    "Reference notes/Aimchess.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Appunti.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/Pasted image 20230714172245.png",
     "Files/Progetto senza titolo.png",
@@ -174,24 +198,6 @@
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
     "Files/Recording 20231004110821.webm",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/First Computer.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/Pedoni passati in Endgame.md",
-    "Zettelkasten/Re debole nel calcolo.md",
-    "Zettelkasten/Scheda GPT.md",
-    "Zettelkasten/Slides.md",
-    "Zettelkasten/Social Media.md",
-    "Zettelkasten/Weak king defence.md",
-    "Zettelkasten/Regali Laurea.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Discorso.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/MOC.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

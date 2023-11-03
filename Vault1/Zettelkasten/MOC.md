@@ -1,6 +1,7 @@
 Date: 2023-11-03
 Time: 01:07
 Tags: #English #YouTube
+Up: [[Obsidian]]
 
 ---
 # MOC

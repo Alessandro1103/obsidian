@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89bf66cd1beabbce",
+            "id": "7e567d58fd5ef31e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Homework1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Homework1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Homework1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,8 +151,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e8b265cc6d46e7cf",
+  "active": "7e567d58fd5ef31e",
   "lastOpenFiles": [
+    "Zettelkasten/Homework1.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Pasted image 20231017165916.png",
     "conflict-files-obsidian-git.md",
@@ -177,7 +185,6 @@
     "Files/Recording 20231004110720.webm",
     "Zettelkasten/Valutazione corsi.md",
     "Files/Pasted image 20230913121749.png",
-    "Files/Pasted image 20230913115517.png",
     "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
     "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
     "Zettelkasten/Università/Inglese/Is technology always the solution.md",

@@ -13,8 +13,20 @@ $$
 $$
 dove N sono il numero di denti e r il raggio.
 Quando ci si trova davanti a una serie di gear, uno collegato all'altro, basta moltiplicare il numero di denti per capire la proporzione che si ottiene alla fine.
+$$
+\theta_m = \theta \cdot N
+$$
+dove N rappresenta la proporzione dei denti dei vari gear.
 
 ## Risoluzione Encoder
+La formula per la risoluzione degli Encoder è sempre la stessa:
+$$
+\Delta = \frac{360}{2^N}
+$$
+Oppure, se si cerca in radianti:
+$$
+\Delta = 
+$$
 Vengono fornite due risoluzioni, o lineari o angolari, per passare da lineari ad angolari bisogna:
 $$
 Risoluzione(radianti) = \frac{Risoluzione(lineare)}{Raggio}

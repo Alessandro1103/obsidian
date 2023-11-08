@@ -17,8 +17,9 @@ Quando ci si trova davanti a una serie di gear, uno collegato all'altro, basta m
 ## Risoluzione Encoder
 Vengono fornite due risoluzioni, o lineari o angolari, per passare da lineari ad angolari bisogna:
 $$
-Risoluzione(radianti) = \frac{Risoluzione(lineare)}{}
+Risoluzione(radianti) = \frac{Risoluzione(lineare)}{Raggio}
 $$
+
 
 ---
 # References

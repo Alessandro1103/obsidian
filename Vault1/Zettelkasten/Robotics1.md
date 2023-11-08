@@ -12,7 +12,7 @@ $$
 \frac{N_1}{N_2} = \frac{r_2}{r_1}
 $$
 dove N sono il numero di denti e r il raggio.
-Quando ci si trova davanti a una serie di gear, uno collegato all'altro, basta moltiplicare il numero di denti per capire la proporzione che si ottiene alla fine
+Quando ci si trova davanti a una serie di gear, uno collegato all'altro, basta moltiplicare il numero di denti per capire la proporzione che si ottiene alla fine.
 
 
 

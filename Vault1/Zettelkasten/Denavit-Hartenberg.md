@@ -1,0 +1,19 @@
+Date: 2023-11-08
+Time: 16:27
+Tags: #Università #Robotics
+Up: [[Robotics1]]
+
+---
+# Denavit-Hartenberg
+
+I parametri del modello D-H sono i seguenti:
+- $\alpha_i$ = l'angolo tra $z_i$ e $z_{i-1}$, il verso di rotazione è rivolto verso l'asse $x_i$
+- $\theta$ = l'angolo tra $x_i$ e $x_{i-1}$, il verso di rotazione è rivolto verso l'asse $z_i$ 
+- $d_i$ = l'offset (distanza) fra gli assi $z_i$ e $z_{i-1}$
+- $a_i$ = la lunghezza del braccio
+
+Quando 
+
+
+---
+# References

@@ -38,6 +38,11 @@ $$
 Risoluzione(radianti) = \frac{Risoluzione(lineare)}{Raggio}
 $$
 
+## Coppia
+La formula dipende dalla direzione che stiamo vedendo:
+$$
+\tau_m = J_m\ddot{\theta}_m + \frac{1}{n}(J\ddot{})
+$$
 
 ---
 # References

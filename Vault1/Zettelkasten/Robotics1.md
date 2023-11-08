@@ -41,8 +41,12 @@ $$
 ## Coppia
 La formula dipende dalla direzione che stiamo vedendo:
 $$
-\tau_m = J_m\ddot{\theta}_m + \frac{1}{n}(J\ddot{})
+\tau_m = J_m\ddot{\theta}_m + \frac{1}{n}\Big(J_l\ddot{\theta}_l\Big)
 $$
+$$
+\tau_l = J_l\ddot{\theta}_l + n\Big(J_m\ddot{\theta}_m\Big)
+$$
+dove "m" è per il motore, "l" per load (carico)
 
 ---
 # References

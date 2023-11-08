@@ -32,7 +32,7 @@ $$
 \Delta_{gradi} = \frac{360}{4 \cdot 2^N}
 $$
 Idem per i radianti.
-
+Il numero di "pulse", sono esattamente $2^N$.
 Vengono fornite due risoluzioni, o lineari o angolari, per passare da lineari ad angolari bisogna:
 $$
 Risoluzione(radianti) = \frac{Risoluzione(lineare)}{Raggio}

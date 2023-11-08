@@ -14,7 +14,11 @@ $$
 dove N sono il numero di denti e r il raggio.
 Quando ci si trova davanti a una serie di gear, uno collegato all'altro, basta moltiplicare il numero di denti per capire la proporzione che si ottiene alla fine.
 
-
+## Risoluzione Encoder
+Vengono fornite due risoluzioni, o lineari o angolari, per passare da lineari ad angolari bisogna:
+$$
+Risoluzione(radianti) = \frac{Risoluzione(lineare)}{}
+$$
 
 ---
 # References

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Robotics1.md",
+                "file": "Zettelkasten/Transmission.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Robotics1.md",
+                "file": "Zettelkasten/Transmission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Robotics1.md",
+                "file": "Zettelkasten/Transmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
   },
   "active": "25176e7362f02490",
   "lastOpenFiles": [
-    "Zettelkasten/Robotics1.md",
+    "Zettelkasten/Transmission.md",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/Cyber security.md",

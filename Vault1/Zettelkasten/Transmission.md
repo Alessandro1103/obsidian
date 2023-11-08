@@ -1,10 +1,10 @@
 Date: 2023-11-08
 Time: 11:28
-Tags:
-Up: 
+Tags: #Università #Robotics 
+Up: [[Robotics1]]
 
 ---
-# Robotics1
+# Transmission
 
 ## Gear
 In un problema ti possono essere dati 2 valori per ciascun gear, il numero di denti o il raggio dell gear. Di base le formule da seguire sono le seguenti:

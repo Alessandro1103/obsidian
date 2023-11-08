@@ -12,7 +12,10 @@ I parametri del modello D-H sono i seguenti:
 - $d_i$ = l'offset (distanza) fra gli assi $z_i$ e $z_{i-1}$
 - $a_i$ = la lunghezza del braccio
 
-Quando 
+Quando si svolge un esercizio i passi per il completamento sono i seguenti:
+1. Trovare gli assi di rotazione e applicarci z
+2. Verificare la direzione di z, verificando le rotazioni rispetto al sistema precedente
+3. Piazzare x in modo che soddisfi gli angoli nella tabella
 
 
 ---

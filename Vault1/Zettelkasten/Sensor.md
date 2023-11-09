@@ -25,7 +25,10 @@ Vengono fornite due risoluzioni, o lineari o angolari, per passare da lineari ad
 $$
 Risoluzione(radianti) = \frac{Risoluzione(lineare)}{Raggio}
 $$
-
+La risoluzione si trasmette come con i gear:
+$$
+Risoluzione(motore) = n \cdot Risoluzione(carico)
+$$
 
 
 ---

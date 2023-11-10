@@ -19,6 +19,7 @@ La matrice totale che si forma è la seguente:
 Condizioni:
 La matrice di rotazione R(3,3) deve avere il determinante = $\pm 1$
 
+Per prima cosa si
 - Per trovare la distanza $d_i$ la prima cosa da fare è verificare che esista una normale comune a $z_{i-1}$ e $z_i$. Se questa non esiste probabilmente, bisogna trasporre $z_{i-1}$ di una distanza $d_i$.
 
 Quando si svolge un esercizio i passi per il completamento sono i seguenti:

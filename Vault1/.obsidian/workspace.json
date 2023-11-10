@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7fa94d92fbd9db42",
+        "id": "aa51180901d0a060",
         "type": "tabs",
         "children": [
           {
-            "id": "5628e7d4fb9a80b9",
+            "id": "b7296b387b383e1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/First Computer.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64ab8476743b5beb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,13 +150,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "64ab8476743b5beb",
+  "active": "b7296b387b383e1d",
   "lastOpenFiles": [
+    "Zettelkasten/Homework1.md",
     "Zettelkasten/First Computer.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Transmission.md",
     "Zettelkasten/Sensor.md",
-    "Zettelkasten/Homework1.md",
     "Zettelkasten/Denavit-Hartenberg.md",
     "Files/Pasted image 20231109112559.png",
     "Files/Pasted image 20231107110218.png",

@@ -7,7 +7,7 @@ Up: [[Robotics1]]
 # Denavit-Hartenberg
 
 I parametri del modello D-H sono i seguenti:
-- $\alpha_i$ = l'angolo tra $z_i$ e $z_{i-1}$, ruotato attorno l'asse $x_{i-1}$ (positivo - regola mando destra - counter clockwise)
+- $\alpha_i$ = l'angolo tra $z_i$ e $z_{i-1}$, ruotato attorno l'asse $x_{i-1}$ (positivo - regola mando destra con pollice verso di me - counter clockwise)
 - $a_i$ = la distanza tra $z_i$ e $z_{i-1}$, lungo l'asse $x_{i-1}$
 - $d_i$ = la distanza tra $x_i$ e $x_{i-1}$, lungo l'asse $z_{i-1}$
 - $\theta_i$ = l'angolo tra $x_i$ e $x_{i-1}$, ruotato attorno l'asse $z_{i-1}$ (positivo - regola mando destra con pollice verso di me - counter clockwise)

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Metodo Zettelkasten.md",
+                "file": "Zettelkasten/First Computer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Metodo Zettelkasten.md",
+                "file": "Zettelkasten/First Computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Metodo Zettelkasten.md",
+                "file": "Zettelkasten/First Computer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,8 +152,11 @@
   },
   "active": "5628e7d4fb9a80b9",
   "lastOpenFiles": [
-    "Zettelkasten/MOC.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Mermaid.md",
     "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/MOC.md",
     "Zettelkasten/Weak king defence.md",
     "Zettelkasten/Terza riunione.md",
     "Zettelkasten/Social Media.md",
@@ -167,9 +170,6 @@
     "Zettelkasten/Prima riunione.md",
     "Zettelkasten/Pedoni passati in Endgame.md",
     "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/First Computer.md",
     "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/Discorso.md",

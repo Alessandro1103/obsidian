@@ -10,7 +10,7 @@ I parametri del modello D-H sono i seguenti:
 - $\alpha_i$ = l'angolo tra $z_i$ e $z_{i-1}$, il verso di rotazione è rivolto verso l'asse $x_i$
 - $\theta_i$ = l'angolo tra $x_i$ e $x_{i-1}$, il verso di rotazione è rivolto verso l'asse $z_i$ 
 - $d_i$ = l'offset (distanza) fra gli assi $z_i$ e $z_{i-1}$
-- $a_i$ = la lunghezza del braccio
+- $a_i$ = la distanza da z_0 fino a z_{i+1}
 
 La matrice totale che si forma è la seguente:
 ![[Pasted image 20231109112559.png]]
@@ -25,11 +25,6 @@ La matrice di rotazione R(3,3) deve avere il determinante = $\pm 1$
 4. Si vede l'intersezione fra i vari assi, per costruire i riferimenti (sempre $z_i$). Se l'intersezione non c'é, allora ci si muove lungo la normale.
 5. Per disegnare $x_i$ serve verificare l'intersezione tra $z_i$ e $z_{i-1}$, se presente $x_i$ allora $x_i$ sarà normale al piano disegnato dai due assi. Altrimenti se gli assi sono paralleli $x_i$ sarà lungo la normale comune.
 6. Per trovare la distanza $d_i$ la prima cosa da fare è verificare che esista una normale comune a $z_{i-1}$ e $z_i$. Se questa non esiste probabilmente, bisogna trasporre $z_{i-1}$ di una distanza $d_i$.
-
-Quando si svolge un esercizio i passi per il completamento sono i seguenti:
-1. Trovare gli assi di rotazione e applicarci z
-2. Verificare la direzione di z, verificando le rotazioni rispetto al sistema precedente
-3. Piazzare x in modo che soddisfi gli angoli nella tabella
 
 
 ---

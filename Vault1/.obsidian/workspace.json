@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Transmission.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Transmission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Transmission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,11 +153,11 @@
   },
   "active": "d45b7ac725a79f9b",
   "lastOpenFiles": [
+    "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Sensor.md",
     "Zettelkasten/Regali.md",
     "Zettelkasten/Transmission.md",
     "Zettelkasten/Discorso.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
     "Files/Pasted image 20231109112559.png",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Debolezze del Re arroccato.md",

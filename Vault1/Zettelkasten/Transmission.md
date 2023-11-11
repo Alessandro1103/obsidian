@@ -27,6 +27,10 @@ $$
 \tau_l = J_l\ddot{\theta}_l + n\Big(J_m\ddot{\theta}_m\Big)
 $$
 dove "m" è per il motore, "l" per load (carico)
+Altra formula molto utile è:
+$$
+n = \sqrt{\frac{J_u}{J_m}}
+$$
 
 ---
 # References

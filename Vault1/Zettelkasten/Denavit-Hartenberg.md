@@ -1,3 +1,4 @@
+
 Date: 2023-11-08
 Time: 16:27
 Tags: #Università #Robotics
@@ -7,10 +8,10 @@ Up: [[Robotics1]]
 # Denavit-Hartenberg
 
 I parametri del modello D-H sono i seguenti:
-- $\alpha_i$ = l'angolo tra $z_i$ e $z_{i-1}$, ruotato attorno l'asse $x_{i-1}$ (positivo - regola mando destra con pollice verso di me - counter clockwise)
+- $\alpha_i$ = l'angolo tra $z_i$ e $z_{i-1}$, ruotato attorno l'asse $x_{i}$ (positivo - regola mando destra con pollice verso di me - counter clockwise)
 - $a_i$ = la distanza tra $z_i$ e $z_{i-1}$, lungo l'asse $x_{i-1}$ (positivo se ci spostiamo nella stessa direzione di $x_i$)
 - $d_i$ = la distanza tra $x_i$ e $x_{i-1}$, lungo l'asse $z_i$ (positivo se ci spostiamo nella stessa direzione di $z_i$)
-- $\theta_i$ = l'angolo tra $x_i$ e $x_{i-1}$, ruotato attorno l'asse $z_i$ (positivo - regola mando destra con pollice verso di me - counter clockwise)
+- $\theta_i$ = l'angolo tra $x_i$ e $x_{i-1}$, ruotato attorno l'asse $z_{i-1}$ (positivo - regola mando destra con pollice verso di me - counter clockwise)
 
 La matrice totale che si forma è la seguente:
 ![[Pasted image 20231109112559.png]]

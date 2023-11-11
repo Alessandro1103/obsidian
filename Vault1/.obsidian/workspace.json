@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa51180901d0a060",
+        "id": "ee9e88dbb28277bb",
         "type": "tabs",
         "children": [
           {
-            "id": "b7296b387b383e1d",
+            "id": "d45b7ac725a79f9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Social Media.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Social Media.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Social Media.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
@@ -132,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,56 +141,50 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "b7296b387b383e1d",
+  "active": "d45b7ac725a79f9b",
   "lastOpenFiles": [
-    "Zettelkasten/Slides.md",
     "Zettelkasten/Sensor.md",
-    "Zettelkasten/Seconda riunione.md",
     "Zettelkasten/Regali.md",
-    "Zettelkasten/Scheda GPT.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Homework1.md",
-    "Zettelkasten/First Computer.md",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Transmission.md",
-    "Files/Pasted image 20231109112559.png",
-    "Files/Pasted image 20231107110218.png",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/MOC.md",
-    "Zettelkasten/Weak king defence.md",
-    "Zettelkasten/Terza riunione.md",
-    "Zettelkasten/Social Media.md",
-    "Zettelkasten/Reading a Scientific Article.md",
-    "Zettelkasten/Re debole nel calcolo.md",
-    "Zettelkasten/Primi passi.md",
-    "Zettelkasten/Prima riunione.md",
-    "Zettelkasten/Pedoni passati in Endgame.md",
-    "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/Discorso.md",
-    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
-    "Files/Pasted image 20230714172245.png",
-    "Files/Progetto senza titolo.png",
-    "Files/whittinghams-battery.webp",
-    "Files/struttura.png",
+    "Zettelkasten/Denavit-Hartenberg.md",
+    "Files/Pasted image 20231109112559.png",
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/Università/Robot Programming/LezioneX.md",
+    "Files/Pasted image 20231107110218.png",
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
+    "Zettelkasten/Regali Laurea.md",
+    "conflict-files-obsidian-git.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Screenshot from 2023-10-17 16-36-30.png",
     "Files/Screenshot from 2023-10-17 16-11-57.png",
     "Files/Screenshot from 2023-10-17 16-10-30.png",
-    "Files/rp_01_compilers_and_build_systems.pdf",
+    "Files/Screenshot from 2023-10-17 15-53-46.xcf",
+    "Files/Screenshot from 2023-10-17 15-53-46.png",
+    "Files/Screenshot from 2023-10-17 15-53-46 2.png",
+    "Files/Screenshot from 2023-10-17 15-53-46 1.png",
+    "Files/Pasted image 20231017165916.png",
+    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+    "Zettelkasten/stronzo.md",
+    "Zettelkasten/bastardo.md",
+    "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
+    "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
+    "Zettelkasten/Università/NN/Lezione1.md",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
@@ -199,6 +193,12 @@
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
     "Files/Recording 20231004110821.webm",
+    "Files/Recording 20231004110720.webm",
+    "Zettelkasten/Valutazione corsi.md",
+    "Zettelkasten/Università/Robot Programming/Lezione2.md",
+    "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
+    "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Università/Inglese/Is technology always the solution.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -7,6 +7,10 @@ Up: [[Robotics1]]
 # Transmission
 
 ## Gear
+Il gear reduction è in generale calcolato come:
+$$
+\frac{Driven}{Driver} = Gear Ratio
+$$
 In un problema ti possono essere dati 2 valori per ciascun gear, il numero di denti o il raggio dell gear. Di base le formule da seguire sono le seguenti:
 $$
 \frac{N_1}{N_2} = \frac{r_2}{r_1}

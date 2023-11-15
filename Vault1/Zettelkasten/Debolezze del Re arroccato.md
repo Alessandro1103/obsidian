@@ -21,7 +21,7 @@ vediamo le mosse corrette:
 f5 (per attivare la torre) - exf5
 	se l'avversario avesse giocato h3 la continuazione è questa:
 	Bxf3 - Qxf3 - fxe4 - Qxe4 - Bxf2 (scacco con guadagno di torre)
-Rxf5 - Be3 - Bxf3 - gxf3 - Rdf8 
+Rxf5 - Be3 - Bxf3 - gxf3 - Rxf8 
 
 Il nero vince per il Re debole del bianco
 
@@ -32,5 +32,3 @@ Cosa è meglio? Bf1 o g3? Ovviamente Bf1 perche non rovina la struttura pedonale
 
 ---
 # References
-
-[[Aimchess]]

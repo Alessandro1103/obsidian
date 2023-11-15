@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Base.md",
+                "file": "Zettelkasten/Is technology always the solution.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Base.md",
+                "file": "Zettelkasten/Is technology always the solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Base.md",
+                "file": "Zettelkasten/Is technology always the solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,18 +153,22 @@
   },
   "active": "ad0a0d09730f5f9a",
   "lastOpenFiles": [
-    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/First Computer.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Denavit-Hartenberg.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Cose.md",
+    "Templates/Base.md",
     "Zettelkasten/Predicate Logic Reasoning.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Transmission.md",
     "Zettelkasten/Sensor.md",
     "Zettelkasten/Regali.md",
-    "Zettelkasten/Discorso.md",
     "Files/Pasted image 20231109112559.png",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Cose.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Università/Robot Programming/LezioneX.md",
     "Files/Pasted image 20231107110218.png",
@@ -195,10 +199,6 @@
     "Files/Recording 20231004111127.webm",
     "Files/Recording 20231004110821.webm",
     "Files/Recording 20231004110720.webm",
-    "Zettelkasten/Valutazione corsi.md",
-    "Zettelkasten/Università/Robot Programming/Lezione2.md",
-    "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
-    "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

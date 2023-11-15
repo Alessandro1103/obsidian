@@ -20,8 +20,9 @@ We assume: Skolem normal form:
 ...
 
 
-**Herbrand Expansion**:
-	Let $\theta^*$ be a set of FOL formulas in SNF. THe   
-
+**Herbrand Expansion**: Let $\theta^*$ be a set of FOL formulas in SNF. The Herbrand Expansion $HE(\theta^*)$ si defined as:
+$$
+HE(\theta^*) = {}
+$$
 ---
 # References

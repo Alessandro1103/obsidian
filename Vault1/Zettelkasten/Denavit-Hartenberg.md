@@ -30,6 +30,7 @@ La matrice di rotazione R(3,3) deve avere il determinante = $\pm 1$
 Nel creare la tabella si segue un ordine specifico:
 1. Si vede $\theta_i$
 2. Si verifica $\alpha_i$
+3. Le distanze
 
 ---
 # References

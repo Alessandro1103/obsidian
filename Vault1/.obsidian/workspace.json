@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Debolezze del Re arroccato.md",
+                "file": "Templates/Base.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Debolezze del Re arroccato.md",
+                "file": "Templates/Base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Debolezze del Re arroccato.md",
+                "file": "Templates/Base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,6 +153,7 @@
   },
   "active": "ad0a0d09730f5f9a",
   "lastOpenFiles": [
+    "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Predicate Logic Reasoning.md",
     "Zettelkasten/Appunti.md",
@@ -162,7 +163,6 @@
     "Zettelkasten/Discorso.md",
     "Files/Pasted image 20231109112559.png",
     "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",

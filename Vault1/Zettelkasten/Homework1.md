@@ -25,7 +25,9 @@ The first step taken to work on this homework works on finding a solution. To se
 Another method to evaluate a classification problem is using a confusion matrix, to understand, beyond the correct result, if there are more or less false positive or false negative and if the model tends to confuse 2 or more classes. The matrix shows that the evaluation is good, but it can be improved.
 ![[Pasted image 20231116181213.png]]
 
-To improve the algorithm and prevent overfitting, one approach I can try, specifically for the decision tree model is to cut the subtree rooted at a specific node. I provided an algorithm that implements a post-pruning, so after I create a tree, I try every combination to get the best 
+To improve the algorithm and prevent overfitting, one approach I can try, specifically for the decision tree model is to cut the subtree rooted at a specific node. I provided an algorithm that implements post-pruning of a decision tree using cost-complexity pruning. Then I evaluated the accuracy of each pruned tree on the test set and then identifying the alpha value associated with the highest accuracy.
+
+
 
 
 

@@ -6,8 +6,12 @@ Up: [[ML]]
 ---
 # Homework1
 
-- Fare un codice approssimativo
-- 
+- [ ] Fare un codice approssimativo
+- [ ] Fare dei grafici per vedere la distribuzione del dataset
+- [ ] Fare un controllo sugli outlines
+- [ ] Controllare il bilanciamento delle classi di output
+- [ ] Grafici di correlazione tra le features
+- [ ] Matrice di correlazione per vedere pattern tra le features
 
 ---
 # Soluzione

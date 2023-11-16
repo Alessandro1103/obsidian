@@ -25,7 +25,7 @@ The problem presented is a classification problem, over 2 dataset to train the m
 The first step taken to work on this homework works on finding a solution. To see if everything was well managed I try to train and test the dataset over a random method. The test is made over the dataset1. In particular I split the data to create 2 set, one for the training and one for the test. Doing so, I could evaluate the result, in order to generate an appropriate model for the blind test. I didn't think about a pre-processing method, I could use a dataset standardization, or check the outlines to see if I could improve the distribution to get a better solution. Avoiding every kind of simplification, or improvements, I just run the code over the DecisionalTree() method, obtaining a proper solution. Just to verify the correct evaluation over the test, I measured the accuracy: 0.976036, which is very close to the average result I was obtaining, I take this as point of start to improve the code. It's quite good considering the condition already explained before. 
 
 Since I created a base, now I can start to decorate and develop a more complex code.
-First of all I want to understand how the data are distributed, so I can represent them in a graphical way. Since there was an enourmous amount of data I have randomly token a small amount of data for each set, to be more graphically understandable:
+First of all I want to understand how the data are distributed, so I can represent them in a graphical way. Since there was an enormous amount of data I have randomly token a small amount of data for each set, to be more graphically understandable:
 ![[Pasted image 20231116220434.png]] 
 
 

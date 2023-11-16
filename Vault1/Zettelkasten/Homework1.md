@@ -66,6 +66,8 @@ Another method to evaluate a classification problem is using a confusion matrix,
 ![[Pasted image 20231116181213.png]]
 
 
+Using Classification report I can access to more accurate performance information getting:
+
 
 ---
 # References

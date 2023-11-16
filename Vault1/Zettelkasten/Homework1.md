@@ -29,6 +29,5 @@ Another method to evaluate a classification problem is using a confusion matrix,
 
 
 
-
 ---
 # References

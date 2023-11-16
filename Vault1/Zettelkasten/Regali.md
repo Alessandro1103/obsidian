@@ -1,10 +1,10 @@
 Date: 2023-10-26
 Time: 12:32
-Tags: #Università 
-Up: [[Regali]] [[Università]]
+Tags: #Personali
+Up:
 
 ---
-# Regali Laurea
+# Regali
 
 **Cuffie(una fra queste):**
 - [Bose Noise Cancelling Headphones 700](https://www.amazon.it/Bose-Noise-Cancelling-Headphones-Black/dp/B07Q9MJKBV/ref=asc_df_B07Q9MJKBV/?tag=googshopit-21&linkCode=df0&hvadid=363240328468&hvpos=&hvnetw=g&hvrand=10196870741791628548&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9181218&hvtargid=pla-784806209897&psc=1)
@@ -16,12 +16,9 @@ Up: [[Regali]] [[Università]]
 - [Razer Barracuda X](https://www.amazon.it/Razer-Barracuda-Multipiattaforma-Dispositivi-SmartSwitch/dp/B09239HV7Y/ref=sr_1_19?__mk_it_IT=ÅMÅŽÕÑ&crid=3UVZEX9KYN7QZ&keywords=razer%2Bcuffie%2Bgaming&qid=1698316914&s=electronics&sprefix=razer%2Bcuffie%2Bgaming%2Celectronics%2C600&sr=1-19&th=1)
 
 **Libri:**
-- [Capire, fare e reinventare il fumetto](https://www.amazon.it/Capire-reinventare-fumetto-Scott-McCloud/dp/883273124X/ref=asc_df_883273124X/?tag=googshopit-21&linkCode=df0&hvadid=279834015961&hvpos=&hvnetw=g&hvrand=12983498524517691907&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9181214&hvtargid=pla-604406695117&psc=1)
-
-**Volante(uno fra questi):**
-- [Thrustmaster T128](https://www.amazon.it/Logitech-Cuffie-Gioco-Surround-Wireless/dp/B01MYW8COY/ref=sr_1_3?crid=1Q3E8ZYJBWSMJ&keywords=cuffie%2Bgaming%2Bwireless&qid=1698319129&s=electronics&sprefix=cuffie%2Bgaming%2Celectronics%2C81&sr=1-3&th=1)
-- [Thrustmaster T248](https://www.amazon.it/Thrustmaster-Volante-Pedali-Magnetici-Hybrid/dp/B091BN8PY4?hvadid=499036073987&hvpos=&hvnetw=g&hvrand=7400777805021938028&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008529&hvtargid=pla-1416948626868&psc=1&linkCode=sl1&tag=amoslaurito-21&linkId=de55bcf619cf53f86759edb0c215041e&language=it_IT&ref_=as_li_ss_tl)
-- [Logitech G29](https://www.amazon.it/Volante-Corsa-Logitech-Driving-Force/dp/B00YUIM2J0/ref=sr_1_1?__mk_it_IT=ÅMÅŽÕÑ&crid=348JZFWGQN49P&keywords=volante+logitech&qid=1698321177&sprefix=volante+logitech%2Caps%2C103&sr=8-1&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35)
+- [So good they can't ignore you](https://www.amazon.it/Good-They-Cant-Ignore-You/dp/0349415862/ref=sr_1_1?adgrpid=55376758769&hvadid=255156346498&hvdev=c&hvlocphy=1008736&hvnetw=g&hvqmt=e&hvrand=10100291713954484149&hvtargid=kwd-301275781818&hydadcr=18602_1737172&keywords=so+good+they+can%27t+ignore+you&qid=1699705989&sr=8-1)
+- [Deep Work](https://www.amazon.it/Deep-Work-Focused-Success-Distracted/dp/0349411905/ref=pd_bxgy_img_sccl_1/262-9501906-2763459?pd_rd_w=yFuMx&content-id=amzn1.sym.8346a411-823c-4423-a078-89faab0b5d1e&pf_rd_p=8346a411-823c-4423-a078-89faab0b5d1e&pf_rd_r=VZNC9RHRQ74C15FAT7V8&pd_rd_wg=SUPQM&pd_rd_r=a03f7ef9-65e4-42ec-87dc-dee45d0bda90&pd_rd_i=0349411905&psc=1)
+- [Atomic Habit](https://www.amazon.it/Atomic-Habits-Proven-Build-Break/dp/1847941834/ref=pd_bxgy_img_sccl_1/262-9501906-2763459?pd_rd_w=0WraY&content-id=amzn1.sym.8346a411-823c-4423-a078-89faab0b5d1e&pf_rd_p=8346a411-823c-4423-a078-89faab0b5d1e&pf_rd_r=0DNXYM7J4C9YSD22PRZ5&pd_rd_wg=2M01n&pd_rd_r=0c055644-4b51-4926-b087-be9018d814c4&pd_rd_i=1847941834&psc=1)
 
 **Accessori:**
 - [Batterie per GoPro](https://www.amazon.it/REYGEAK-batteria，Batteria-Caricabatteria-immagazzinaggio-caricabatteria/dp/B08MLLNH5S/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=28UZ8R0ISU37T&keywords=cariche+go+pro&qid=1698256347&sprefix=cariche+go+pro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)

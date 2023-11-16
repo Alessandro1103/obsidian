@@ -27,8 +27,19 @@ Another method to evaluate a classification problem is using a confusion matrix,
 
 To improve the algorithm and prevent overfitting, one approach I can try, specifically for the decision tree model is to cut the subtree rooted at a specific node. I provided an algorithm that implements post-pruning of a decision tree using cost-complexity pruning. Then I evaluated the accuracy of each pruned tree on the test set and then identifying the alpha value associated with the highest accuracy.
 
+``` python
+ccp_path = model.cost_complexity_pruning_path(X_train, y_train)
+ccp_alphas, impurities = ccp_path.ccp_alphas, ccp_path.impurities
+pruned_trees = []
+for ccp_alpha in ccp_alphas:
+	pruned_tree = DecisionTreeClassifier(random_state=1127, ccp_alpha=ccp_alpha)
+	pruned_tree.fit(X_train, y_train)
+	pruned_trees.append(pruned_tree)
+test_accuracies = [tree.score(X_test, y_test) for tree in pruned_trees]
+best_alpha = ccp_alphas[np.argmax(test_accuracies)]
+```
 
-
+In fact, I got an improvement, even if very small. I went from 0.975976 to 0.976937 accuracy. To get this result I had to wait 31m 52.4s, which was unexpected and defenetly too much for the result obtained.
 
 
 ---

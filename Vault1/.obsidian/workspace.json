@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e567d58fd5ef31e",
+            "id": "8dfb48c13f2e79c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -151,8 +152,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7e567d58fd5ef31e",
+  "active": "8dfb48c13f2e79c3",
   "lastOpenFiles": [
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Homework1.md",
     "Files/Pasted image 20231116181213.png",
     "Files/Pasted image 20231116180400.png",
     "Zettelkasten/Transmission.md",
@@ -162,7 +165,6 @@
     "Zettelkasten/Denavit-Hartenberg.md",
     "Files/Pasted image 20231109112559.png",
     "Files/Pasted image 20231107110218.png",
-    "Zettelkasten/Homework1.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Pasted image 20231017165916.png",
     "conflict-files-obsidian-git.md",
@@ -171,7 +173,6 @@
     "Files/Screenshot from 2023-10-17 16-36-30.png",
     "Files/Screenshot from 2023-10-17 16-11-57.png",
     "Files/Screenshot from 2023-10-17 16-10-30.png",
-    "Files/Screenshot from 2023-10-17 15-53-46 2.png",
     "Zettelkasten/Screenshot from 2023-10-17 15-53-46.png.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",

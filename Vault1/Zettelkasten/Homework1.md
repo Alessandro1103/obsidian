@@ -66,7 +66,11 @@ Another method to evaluate a classification problem is using a confusion matrix,
 ![[Pasted image 20231116181213.png]]
 
 
+I applied standardization to ensure that all features share similar scales, with a mean centered around 0 and a standard deviation of 1. This choice was motivated by the need to enhance the performance and convergence of different machine learning algorithms, especially those that can be influenced by variations in the scale of input features.
+
 Using Classification report I can access to more accurate performance information getting:
+![[Pasted image 20231116230144.png]]
+
 
 
 ---

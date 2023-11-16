@@ -6,6 +6,8 @@ Up: [[ML]]
 ---
 # Homework1
 
+## Cose da fare:
+
 - [ ] Fare un codice approssimativo
 - [ ] Fare dei grafici per vedere la distribuzione del dataset
 - [ ] Fare un controllo sugli outlines
@@ -14,6 +16,37 @@ Up: [[ML]]
 - [ ] Matrice di correlazione per vedere pattern tra le features
 - [ ] Aggiungere il post-pruning, già scritto in daAggiungere.ipynb
 - [ ] 
+
+
+1. **Esplorazione dei dati**:
+    - Calcola statistiche descrittive del tuo dataset (media, mediana, deviazione standard, ecc.).
+    - Esamina la distribuzione delle classi nelle etichette di output per capire se ci sono sbilanciamenti.
+    - Visualizza la correlazione tra le features per identificare eventuali relazioni.
+2. **Pre-elaborazione dei dati**:
+    - Gestisci i dati mancanti, se presenti, scegliendo la strategia più adatta (rimozione, imputazione, ecc.).
+    - Normalizza o standardizza le features se necessario.
+    - Tratta eventuali outliers.
+3. **Caratteristiche aggiuntive o ingenieria delle caratteristiche**:
+    - Crea nuove features che potrebbero essere più informative per il tuo problema.
+    - Esegui la selezione delle caratteristiche se hai molte features e vuoi ridurre la complessità del modello.
+4. **Esperimenti con diversi modelli**:
+    - Prova diversi algoritmi di classificazione (al di fuori degli alberi decisionali) per vedere come si comportano rispetto al tuo problema.
+    - Sperimenta con diverse configurazioni di iperparametri per migliorare le prestazioni dei modelli.
+5. **Validazione incrociata**:
+    - Utilizza la validazione incrociata per ottenere stime più robuste delle prestazioni del modello.
+    - Esplora tecniche di cross-validation come la K-fold cross-validation.
+6. **Ottimizzazione degli iperparametri**:
+    - Utilizza metodi di ottimizzazione degli iperparametri come la ricerca casuale o la ricerca in griglia per trovare la combinazione migliore.
+7. **Confronto tra modelli**:
+    - Confronta le prestazioni dei diversi modelli utilizzando metriche appropriate (precision, recall, F1-score, ROC-AUC, ecc.).
+8. **Interpretazione del modello**:
+    - Seleziona un modello interpretabile (come un albero decisionale) e interpreta le sue decisioni.
+    - Utilizza tecniche di spiegazione del modello per comprendere meglio come il modello prende le sue decisioni.
+9. **Valutazione delle prestazioni su dati di test**:
+    - Riserva un insieme di dati di test separato e valuta le prestazioni del modello su questo insieme solo alla fine.
+10. **Documentazione**:
+    - Assicurati di documentare il tuo processo decisionale, le scelte di pre-elaborazione, i modelli testati e i risultati ottenuti.
+
 
 ---
 # Soluzione

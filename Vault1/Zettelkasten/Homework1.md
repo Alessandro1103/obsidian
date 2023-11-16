@@ -25,7 +25,7 @@ The first step taken to work on this homework works on finding a solution. To se
 Another method to evaluate a classification problem is using a confusion matrix, to understand, beyond the correct result, if there are more or less false positive or false negative and if the model tends to confuse 2 or more classes. The matrix shows that the evaluation is good, but it can be improved.
 ![[Pasted image 20231116181213.png]]
 
-
+To improve the algorithm and prevent overfitting, one approach I can try 
 
 
 

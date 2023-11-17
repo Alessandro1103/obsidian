@@ -8,10 +8,10 @@ Up: [[ML]]
 
 ## Cose da fare:
 
-- [ ] Fare un codice approssimativo
-- [ ] Fare dei grafici per vedere la distribuzione del dataset
+- [x] Fare un codice approssimativo
+- [x] Fare dei grafici per vedere la distribuzione del dataset
 - [ ] Fare un controllo sugli outlines
-- [ ] Controllare il bilanciamento delle classi di output
+- [x] Controllare il bilanciamento delle classi di output
 - [ ] Grafici di correlazione tra le features
 - [ ] Matrice di correlazione per vedere pattern tra le features
 - [ ] Aggiungere il post-pruning, già scritto in daAggiungere.ipynb

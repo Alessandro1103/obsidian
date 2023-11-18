@@ -130,10 +130,12 @@ Time Complexity and Time Complexity:
 Expand the most recent nodes in (LIFO).
 ![[Pasted image 20231118144352.png|400]]
 It is complete only if the state space is acyclic. It's not optimal since it chooses some direction and hopes for the best.
-Time Complexity and Time Complexity:
-	$O(bm)$,  It stores only a single path form the root to a leaf node. Once the node has been expanded it can be removed from memory.
+Space Complexity and Time Complexity:
+Space: $O(bm)$, it stores only a single path form the root to a leaf node. Once the node has been expanded it can be removed from memory. $m$ is the maximal depth reached
+Time: $O(b^m)$ it has to explore the combination of $b$ paths, with depth $m$ 
 
-
+**Uniform-Cost Search**:
+Expand nodes with lowest path cost $g(n)$:
 
 ## Part 2
 

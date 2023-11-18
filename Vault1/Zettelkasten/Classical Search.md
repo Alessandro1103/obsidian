@@ -51,10 +51,20 @@ Let $\Theta = (S, A, c, T, I, S^G)$ be a state space, and let $s \in S$. $A$ *so
 $\prod$ is the description of the problem
 $\Theta$ is the state space corresponding to this description
 Huge state spaces $\Theta$ can often be specified by small problem descriptions $\Theta$. 
+
 Let's see different ways to describe a problem:
 
 The **explicit description**:
 $\prod = \Theta$: we simply input the state space graph
+
+It's impossible for large state spaces, can be solved easily, in the size of the state space: Dijkstra.
+
+The **blackbox description**:
+- $InitialState()$: Returns the initial state of the problem
+- $GoalTest(s)$: Returns a Boolean
+- $Cost(a)$: Return the cost of action $a$
+- $Actions(s)$: Return the set of actions that are applicable to state $s$
+- $ChildState(s,a)$: Requires that action $a$ is applicable to state $s$
 
 
 

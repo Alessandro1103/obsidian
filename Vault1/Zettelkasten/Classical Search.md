@@ -69,13 +69,14 @@ The **blackbox description**:
 Huge state spaces can be specified with little program code
 
 The **declarative description**:
-- P: Set a Boolean variables
-- I: Subset of P, indicating which propositions are true in the initial state
-- G: Subset of P, where s is a goal staffe if $G \subseteq s$
-- A: Set of actions $a$
-	- $pre_a$: precondition
+- $P$: Set a Boolean variables (propositions)
+- $I$: Subset of $P$, indicating which propositions are true in the initial state
+- $G$: Subset of $P$, where s is a goal staffe if $G \subseteq s$
+- $A$: Set of actions $a$
+	- $pre_a$: precondition of $a$
 	- $add_a$: add list
-	- del_a
+	- $del_a$: delete list
+- $c$: Maps each $a \in A$ to its cost $c(a)$
 
 ## Part 2
 

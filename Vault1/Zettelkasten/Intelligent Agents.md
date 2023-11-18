@@ -11,7 +11,7 @@ There are 2 kind of agents:
 - Omniscient agent: knows everything about the environment and the actual effects of its action.
 - Rational agent: always makes the best of what he has at its disposal.
 
-An agent has a performance measure M and a set A of actions. Given a perception sequence P, as well as knowledge K about the world, it selects an action a∈A. This action "a" is *optimal* if it maximizes the expected value of M, given the evidence provided by P and K. The agent is rational if it always chooses an optimal a.
+An agent has a performance measure M and a set A of actions. Given a perception sequence P, as well as knowledge K about the world, it selects an action a∈A. This action "a" is *optimal* if it maximizes the expected value of M, given the evidence provided by P and K. The agent is rational if it always chooses an optimal a (this depends on what we consider o).
 
 
 

@@ -34,7 +34,7 @@ Terms:
 - $s$ is solvable if some $s' \in S^G$ is reachable from $s$; else, $s$ is a dead end.
 
 Definition of **State Space Solutions**:
-Let $\Theta = (S, A, c, T, I, S^G)$ be a state space, and let $s \in S$. $A$ solution for $s$ is a path from $s$ to some $s' \in S^G$. The solution is *optimal* if its cost is minimal among all solutions for $s$. A solution for $I$ is called a solution for $\Theta$. If a solution exists, then $\T is solvable.
+Let $\Theta = (S, A, c, T, I, S^G)$ be a state space, and let $s \in S$. $A$ *solution* for $s$ is a path from $s$ to some $s' \in S^G$. The solution is *optimal* if its cost is minimal among all solutions for $s$. A solution for $I$ is called a solution for $\Theta$. If a solution exists, then $\Theta$ is solvable.
 
 
 ## Part 2

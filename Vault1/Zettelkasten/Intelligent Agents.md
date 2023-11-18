@@ -23,9 +23,17 @@ We can distinguish other kind of agents depend on what we need:
 - Reflex Model-based Agents: it tracks by an *Internal state* the to work where it can't see.
 - Goal-Based Agents: create an hypothesis on the future. 
 - Utility-Based Agents: works on a *utility function* that maps a state to a number which represents how desirable the state is.
-- Learning Agents: be able to learn, useful if we dont know something about the environment. *Exploitation and Exploration*, selects actions, 
+- Learning Agents: be able to learn, useful if we dont know something about the environment. *Exploitation*: selects actions, *exploration* suggests actions to learn. 
 
-
+The **environment** can be:
+- Fully observable vs Partially observable
+- Deterministic vs Stochastic: is the next state of the environment completely determined by the current state and the selected action?
+	- Stochastic: uncertainty is quant
+- Episodic vs Sequential
+- Static vs Dynamic
+- Discrete vs Continuous
+- Single agent vs Multi agent
+- 
 
 ---
 # References

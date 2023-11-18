@@ -129,7 +129,10 @@ Time Complexity and Time Complexity:
 **DFS** (Depth-First Search):
 Expand the most recent nodes in (LIFO).
 ![[Pasted image 20231118144352.png|400]]
-It is complete only if the state space is acyclic. It's not oo
+It is complete only if the state space is acyclic. It's not optimal since it chooses some direction and hopes for the best.
+Time Complexity and Time Complexity:
+	$O(bm)$,  It stores only a single path form the root to a leaf node. Once the node has been expanded it can be removed from memory.
+
 
 
 ## Part 2

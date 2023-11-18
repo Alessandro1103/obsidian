@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Intelligent Agents.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Intelligent Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Intelligent Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,13 +153,15 @@
   },
   "active": "ad0a0d09730f5f9a",
   "lastOpenFiles": [
+    "Zettelkasten/Intelligent Agents.md",
+    "Zettelkasten/IA.md",
+    "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/Homework1.md",
     "Zettelkasten/First Computer.md",
     "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/Discorso.md",
     "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Cose.md",
@@ -188,8 +190,6 @@
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Zettelkasten/stronzo.md",
     "Zettelkasten/bastardo.md",
-    "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
-    "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",

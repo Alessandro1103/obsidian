@@ -28,12 +28,15 @@ We can distinguish other kind of agents depend on what we need:
 The **environment** can be:
 - Fully observable vs Partially observable
 - Deterministic vs Stochastic: is the next state of the environment completely determined by the current state and the selected action?
-	- Stochastic: uncertainty is quant
-- Episodic vs Sequential
-- Static vs Dynamic
+	- Stochastic: uncertainty is quantified by using probabilities
+	- Non-deterministic: uncertainty as actions with multiple outcomes, don't use probability.
+	- Strategic: if the only non-determinism are actions of other agents.
+- Episodic vs Sequential: if we consider an action only for the moment I choose it or thinking about the initial state and the goal.
+- Static vs Dynamic: if it stays or change during the time. Semi-dynamic if the agent's performance score changes.
 - Discrete vs Continuous
-- Single agent vs Multi agent
-- 
+- Single agent vs Multi agent, if multi:
+	- Competitive
+	- Cooperative
 
 ---
 # References

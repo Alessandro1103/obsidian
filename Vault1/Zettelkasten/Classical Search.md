@@ -122,7 +122,9 @@ Does not require any input beyond the problem API
 Expand nodes in the order they were produced (FIFO).
 ![[Pasted image 20231118124530.png]]
 Guarantees: Completeness and Optimality
-Time Complexity: $O(b^d)$, where b is the maximal branching factor, d is the goal depth. (Operation: $b+b..$)
+Time Complexity and Time Complexity: 
+- Generated nodes: $O(b^d)$, where b is the maximal branching factor, d is the goal depth. (Operation: $b+b^2+\dots+b^d$)
+- Node Expansion: $O(b^{d+1})$, since 
 
 
 ## Part 2

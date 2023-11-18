@@ -14,7 +14,8 @@ A formal definition of **Search Problems**:
 - Paths to goal states correspond to solutions
 - Cheapest such paths correspond to optimal solutions
 
-Every problem $\prod$ specifies a state space Θ: 
+Every problem $\prod$ specifies a state space $\Theta$: 
+
 Definition of **State Space**:
 A state space is a 6-tuple $\Theta = (S, A, c, T, I, S^G)$ where: 
 - $S$ is a finite set of *states*. 
@@ -28,7 +29,12 @@ We say that $\Theta$ has the transition $(s, a, s')$ if $(s, a, s') \in T$. We a
 Terms:
 - $s'$ successor of $s$ if $s \rightarrow s'$
 - $s$ successor of $s'$ if $s \rightarrow s'$
-- $s'$ is reachable from $s'$ if there exists a sequence of tranis
+- $s'$ is reachable from $s$ if there exists a sequence of transitions that brings us from $s$ to $s'$.
+- $s'$ is reachable (without reference) means reachable from $I$.
+- $s$ is solvable if some $s' \in S^G$ is reachable from $s$; else, $s$ is a dead end.
+
+Definition of **State Space Solutions**:
+Let $\Theta = (S, A, c, T, I, S^G)$ be a state space, and let $s \in S$. $A$ solution for $s$ is a path from $s$ to some $s' \in S^G$. The solution is *optimal* if its cost is minimal among all solutions for $s$. A solution for $I$ is called a solution for $\Theta$. If a solution exists, then $\T is solvable.
 
 
 ## Part 2

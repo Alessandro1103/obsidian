@@ -66,7 +66,16 @@ The **blackbox description**:
 - $Actions(s)$: Return the set of actions that are applicable to state $s$
 - $ChildState(s,a)$: Requires that action $a$ is applicable to state $s$
 
+Huge state spaces can be specified with little program code
 
+The **declarative description**:
+- P: Set a Boolean variables
+- I: Subset of P, indicating which propositions are true in the initial state
+- G: Subset of P, where s is a goal staffe if $G \subseteq s$
+- A: Set of actions $a$
+	- $pre_a$: precondition
+	- $add_a$: add list
+	- del_a
 
 ## Part 2
 

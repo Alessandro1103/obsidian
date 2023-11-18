@@ -8,6 +8,14 @@ Up: [[IA]]
 
 ## Part 1
 
+A **Classical Search Problem** has this settings:
+- Finite number of states and actions
+- Single agent
+- Fully observable
+- Deterministic
+- Static
+
+
 A formal definition of **Search Problems**:
 - The underlying base concept are state spaces
 - State spaces are graphs

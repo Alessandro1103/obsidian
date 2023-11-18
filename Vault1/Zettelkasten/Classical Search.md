@@ -78,6 +78,11 @@ The **declarative description**:
 	- $del_a$: delete list
 - $c$: Maps each $a \in A$ to its cost $c(a)$
 
+Example (Missionaries and Cannibals):
+![[Pasted image 20231118120447.png]]
+![[Pasted image 20231118120546.png]]
+
+
 ## Part 2
 
 ---

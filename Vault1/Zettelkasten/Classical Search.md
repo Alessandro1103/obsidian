@@ -79,7 +79,17 @@ The **declarative description**:
 - $c$: Maps each $a \in A$ to its cost $c(a)$
 
 Example (Missionaries and Cannibals):
-![[Pasted image 20231118120447.png|300]]![[Pasted image 20231118120546.png|300]]
+![[Pasted image 20231118120447.png|340]]  ![[Pasted image 20231118120546.png|340]]
+
+**Search Terminology**:
+- $Search node \quad n$: Contains a state reached by the search, plus information about how it was reached. 
+- $Path cost g(n)$: The cost of the path reaching n. Optimal cost g ∗ : 
+- The cost of an optimal solution path. For a state s, g ∗ (s) is the cost of a cheapest path reaching s. 
+- Node expansion: Generating all successors of a node, by applying all actions applicable to the node’s state s. Afterwards, the state s itself is also said to be expanded. 
+- Search strategy: Method for deciding which node is expanded next. 
+- Open list: Set of all nodes that currently are candidates for expansion. Also called frontier. 
+- Closed list: Set of all states that were already expanded. Used only in graph search, not in tree search (up next). Also called explored set.
+
 ## Part 2
 
 ---

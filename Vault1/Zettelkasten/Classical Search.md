@@ -95,7 +95,17 @@ The *Duplicate Elimination* distinguish if we are working with a Tree Search(don
 - Check for each generated state $s'$ whether $s'$ is in the closed list. If so, discard $s'$.
 The *Tree search* implies also a one way reachable state, a state can be reached by only one predecessor.
 
+### Blind Search
 
+Does not require any input beyond the problem API
+*Data Structure* for Every Search Node $n$ 
+- $n$.State: The state (from the state space) which the node contains. 
+- $n$.Parent: The node in the search tree that generated this node. 
+- $n$.Action: The action that was applied to the parent to generate the node. 
+- $n$.PathCost: $g(n)$, the cost of the path from the initial state to the node (as indicated by the parent pointers).
+*Operations* on Search Nodes Solution(n): 
+- Returns the path to node $n$. (By backchaining over the n.Parent pointers and collecting n.Action in each step.) 
+- ChildNode(problem,n,a): Generates the node n 0 corresponding to the application of action a in state n.State. That is: n 0 .State:=problem.ChildState(n.State, a); n 0 .Parent:= n; n 0 .Action:= a; n 0 .PathCost:= n.PathCost+problem.Cost(a).
 
 ## Part 2
 

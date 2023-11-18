@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Intelligent Agents.md",
+                "file": "Zettelkasten/Classical Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Intelligent Agents.md",
+                "file": "Zettelkasten/Classical Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Intelligent Agents.md",
+                "file": "Zettelkasten/Classical Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,9 +153,10 @@
   },
   "active": "ad0a0d09730f5f9a",
   "lastOpenFiles": [
+    "Zettelkasten/Intelligent Agents.md",
+    "Zettelkasten/Classical Search.md",
     "Files/Pasted image 20231118095946.png",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Intelligent Agents.md",
     "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Files/Pasted image 20231116230144.png",
     "Files/Pasted image 20231116220434.png",
@@ -187,7 +188,6 @@
     "Zettelkasten/Regali Laurea.md",
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Screenshot from 2023-10-17 16-36-30.png",
-    "Files/Screenshot from 2023-10-17 16-11-57.png",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
     "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
     "Files/Recording 20231004111518.webm",

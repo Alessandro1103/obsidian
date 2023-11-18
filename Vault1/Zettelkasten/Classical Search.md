@@ -113,6 +113,18 @@ Does not require any input beyond the problem API
 	- $n'$.Action $:=$ $a$; 
 	- $n'$.PathCost $:=$ $n$.PathCost + problem.Cost($a$).
 
+*Operations* for the Open List:
+- Empty?(frontier): Returns true if there are no more elements in the open list. 
+- Pop(frontier): Returns the first element of the open list, and removes that element from the list. 
+- Insert(element, frontier): Inserts an element into the open list.
+
+**BFS** (Breadth-First Search):
+Expand nodes in the order they were produced (FIFO).
+![[Pasted image 20231118124530.png]]
+Guarantees: Completeness and Optimality
+Time Complexity: $O(b^d)$, where b is the maximal branching factor, d is the goal depth. (Operation: $b+b..$)
+
+
 ## Part 2
 
 ---

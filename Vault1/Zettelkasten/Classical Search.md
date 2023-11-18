@@ -8,6 +8,8 @@ Up: [[IA]]
 
 ## Part 1
 
+### Classical Search Problems
+
 A **Classical Search Problem** has this settings:
 - Finite number of states and actions
 - Single agent
@@ -43,6 +45,17 @@ Terms:
 
 Definition of **State Space Solutions**:
 Let $\Theta = (S, A, c, T, I, S^G)$ be a state space, and let $s \in S$. $A$ *solution* for $s$ is a path from $s$ to some $s' \in S^G$. The solution is *optimal* if its cost is minimal among all solutions for $s$. A solution for $I$ is called a solution for $\Theta$. If a solution exists, then $\Theta$ is solvable.
+
+### Descriptions
+
+$\prod$ is the description of the problem
+$\Theta$ is the state space corresponding to this description
+Huge state spaces $\Theta$ can often be specified by small problem descriptions $\Theta$. 
+Let's see different ways to describe a problem:
+
+The **explicit description**:
+$\prod = \Theta$: we simply input the state space graph
+
 
 
 ## Part 2

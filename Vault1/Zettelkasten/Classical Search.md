@@ -126,6 +126,11 @@ Time Complexity and Time Complexity:
 - Generated nodes: $O(b^d)$, where b is the maximal branching factor, d is the goal depth. (Operation: $b+b^2+\dots+b^d$)
 - Node Expansion: $O(b^{d+1})$, since we would generate for each node at level d the successor (and do not check it) before finishing with the nodes at level d. 
 
+**DFS** (Depth-First Search):
+Expand the most recent nodes in (LIFO).
+![[Pasted image 20231118144352.png|400]]
+It is complete only if the state space is acyclic. It's not oo
+
 
 ## Part 2
 

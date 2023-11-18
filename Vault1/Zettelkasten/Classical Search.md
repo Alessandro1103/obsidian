@@ -79,10 +79,7 @@ The **declarative description**:
 - $c$: Maps each $a \in A$ to its cost $c(a)$
 
 Example (Missionaries and Cannibals):
-![[Pasted image 20231118120447.png]]
-![[Pasted image 20231118120546.png]]
-
-
+![[Pasted image 20231118120447.png|300]]![[Pasted image 20231118120546.png|300]]
 ## Part 2
 
 ---

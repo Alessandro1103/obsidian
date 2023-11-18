@@ -135,7 +135,10 @@ Space: $O(bm)$, it stores only a single path form the root to a leaf node. Once 
 Time: $O(b^m)$ it has to explore the combination of $b$ paths, with depth $m$ 
 
 **Uniform-Cost Search**:
-Expand nodes with lowest path cost $g(n)$:
+Expand nodes with lowest path cost $g(n)$
+It has completeness
+Space Complexity and Time Complexity:
+$O(b^{1+\lfloor \frac{g^*}{\epsilon} \floorl})$
 
 ## Part 2
 

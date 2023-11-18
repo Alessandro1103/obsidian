@@ -93,7 +93,9 @@ Example (Missionaries and Cannibals):
 The *Duplicate Elimination* distinguish if we are working with a Tree Search(don't use it) or a Graph Search (use it):
 - Maintain a closed list:
 - Check for each generated state $s'$ whether $s'$ is in the closed list. If so, discard $s'$.
-The *Tree search* implies also a one way reachable state, so 
+The *Tree search* implies also a one way reachable state, a state can be reached by only one predecessor.
+
+
 
 ## Part 2
 

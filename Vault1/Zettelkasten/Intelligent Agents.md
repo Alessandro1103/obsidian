@@ -23,7 +23,7 @@ We can distinguish other kind of agents depend on what we need:
 - Reflex Model-based Agents: it tracks by an *Internal state* the to work where it can't see.
 - Goal-Based Agents: create an hypothesis on the future. 
 - Utility-Based Agents: works on a *utility function* that maps a state to a number which represents how desirable the state is.
-- Learning Agents: be able to learn, useful if we dont know something about the enviroment.
+- Learning Agents: be able to learn, useful if we dont know something about the environment. *Exploitation and Exploration*, selects actions, 
 
 
 

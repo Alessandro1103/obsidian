@@ -38,5 +38,10 @@ The **environment** can be:
 	- Competitive
 	- Cooperative
 
+The **approach** can be either:
+- Domain-specific
+- General
+
+
 ---
 # References

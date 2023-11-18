@@ -17,6 +17,13 @@ Agent = Architecture + Program
 
 ![[Pasted image 20231118095946.png]]
 
+We can distinguish other kind of agents depend on what we need:
+Table-Driven Agents: like a function it receives a perception, or a sequence of perceptions and by a "table" the agent knows what to do.
+Reflex Agents: mpas between current perception and action
+Reflex Model-based Agents:
+Goal-Based Agents:
+Utility-Based Agents:
+Learning Agents:
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Classical Search.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Classical Search.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Classical Search.md",
+                "file": "Zettelkasten/Denavit-Hartenberg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,11 +154,11 @@
   },
   "active": "b7296b387b383e1d",
   "lastOpenFiles": [
+    "Zettelkasten/Classical Search.md",
     "Files/Pasted image 20231119234025.png",
     "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Appunti.md",
-    "Zettelkasten/Classical Search.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Cyber security.md",
@@ -190,7 +190,6 @@
     "Files/Screenshot from 2023-10-17 17-12-23.png",
     "Files/Screenshot from 2023-10-17 16-36-30.png",
     "Files/Screenshot from 2023-10-17 16-11-57.png",
-    "Files/Screenshot from 2023-10-17 16-10-30.png",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",

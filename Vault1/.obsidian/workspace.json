@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Appunti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Denavit-Hartenberg.md",
+                "file": "Zettelkasten/Appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,10 +154,10 @@
   },
   "active": "b7296b387b383e1d",
   "lastOpenFiles": [
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Classical Search.md",
     "Files/Pasted image 20231119234025.png",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Cose.md",

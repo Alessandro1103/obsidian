@@ -140,6 +140,10 @@ It has completeness
 Space Complexity and Time Complexity:
 $O(b^{1+\lfloor g^*/\epsilon \rfloor})$, where $g^*$ denotes the cost of an optimal solution, and $\epsilon$ is the positive cost of the cheapest action.
 
+
+**Iterative Deepening Search**:
+
+
 ## Part 2
 
 ---

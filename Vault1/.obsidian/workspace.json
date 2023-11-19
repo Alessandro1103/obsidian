@@ -11,8 +11,13 @@
             "id": "b7296b387b383e1d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Classical Search.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -66,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -82,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Classical Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Classical Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,36 +152,36 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b7296b387b383e1d",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
-    "pull.md",
-    "Zettelkasten/daniela.md",
-    "Templates/Base.md",
-    "Zettelkasten/Social Media.md",
-    "Zettelkasten/Slides.md",
-    "Zettelkasten/Sensor.md",
-    "Zettelkasten/Seconda riunione.md",
-    "Zettelkasten/Regali.md",
-    "Zettelkasten/Scheda GPT.md",
     "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/Classical Search.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/First Computer.md",
-    "conflict-files-obsidian-git.md",
-    "Zettelkasten/Transmission.md",
-    "Files/Pasted image 20231109112559.png",
-    "Files/Pasted image 20231107110218.png",
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Intelligent Agents.md",
     "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
     "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
     "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Pedoni doppi.md",
     "Zettelkasten/MOC.md",
-    "Zettelkasten/Weak king defence.md",
-    "Zettelkasten/Terza riunione.md",
+    "Zettelkasten/Pedoni passati in Endgame.md",
     "Zettelkasten/Reading a Scientific Article.md",
     "Zettelkasten/Re debole nel calcolo.md",
-    "Zettelkasten/Primi passi.md",
-    "Zettelkasten/Prima riunione.md",
-    "Zettelkasten/Pedoni passati in Endgame.md",
+    "Zettelkasten/Regali.md",
+    "Zettelkasten/Scheda GPT.md",
+    "Zettelkasten/Seconda riunione.md",
+    "Files/Pasted image 20231109112559.png",
+    "Files/Pasted image 20231107110218.png",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/Pasted image 20230714172245.png",
     "Files/Progetto senza titolo.png",

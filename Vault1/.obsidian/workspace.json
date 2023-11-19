@@ -152,12 +152,50 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b7296b387b383e1d",
+  "floating": {
+    "id": "256ada45d6a29a22",
+    "type": "floating",
+    "children": [
+      {
+        "id": "226b2f33dfcd587d",
+        "type": "window",
+        "children": [
+          {
+            "id": "5fdd57140a139a64",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a98cf04d7d54168b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Zettelkasten/Classical Search.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 922,
+        "y": 128,
+        "width": 898,
+        "height": 992,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "a98cf04d7d54168b",
   "lastOpenFiles": [
+    "Zettelkasten/Classical Search.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Classical Search.md",
     "Files/Pasted image 20231119234025.png",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Cose.md",

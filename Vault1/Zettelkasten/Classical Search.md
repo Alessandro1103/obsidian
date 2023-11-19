@@ -142,6 +142,10 @@ $O(b^{1+\lfloor g^*/\epsilon \rfloor})$, where $g^*$ denotes the cost of an opti
 
 
 **Iterative Deepening Search**:
+Supply depth-first search with a predetermined depth limit and find the best limit. So gradually increasing the limit - first 0, then 1, then 2, and so on - until a goal is found. It combine the benefi
+![[Pasted image 20231119234025.png|400]]
+It has optimality, completeness. 
+
 
 
 ## Part 2

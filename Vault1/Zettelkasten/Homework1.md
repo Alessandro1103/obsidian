@@ -25,7 +25,7 @@ When I finally got a satisfactory result, I was able to add some features and co
 A second measure that includes accuracy, but splits it into the 10 classes to better understand where the errors occur. We can even see the recall, or true positive rate, which indicates how well the model is capturing all positive instances of a class. In this measure, we also have the f1-score, which is the harmonic mean of precision and recall, and is particularly useful for obtaining a measure between accuracy and recall. 
 I also calculated the confusion matrix to understand where the errors are, if there are more false positives or false negatives. Finally, I even did a cross-validation to get a more robust evaluation.
 
-In addition to the obvious fitting of the model and the creation of a predictor variable, I did some pruning of the tree. 
+In addition to the obvious fitting of the model and creating a predictor variable, I did some pruning of the tree. In particular, I performed a rule post-pruning to avoid overfitting in decision tree learning, and rule pruning can lead to simpler models by eliminating branches of the decision tree that do not contribute significantly to model performance.
 
 ---
 # References

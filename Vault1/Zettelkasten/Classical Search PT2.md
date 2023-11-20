@@ -19,7 +19,7 @@ Given a problem $\prod$, a heuristic function $h$ for $\prod$ can be obtained as
 Definition **Admissibility**, **Consistency**:
 Let $\prod$ be a problem with state space Θ and states $S$, and let $h$ be a heuristic function for $\prod$. We say that $h$ is *admissible* if, for all $s \in S$, we have $h(s) ≤ h^∗(s)$. We say that $h$ is *consistent* if, for all transitions $s \rightarrow^a s'$ in $\Theta$, we have $h(s) − h(s') \leq c(a)$
 
-We can either say: admissible is when the heuristic we find is a lowerbound
+Proposition **Consistency $\Rightarrow$ Admissibility**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then $h$ is admissible. 
 
 
 

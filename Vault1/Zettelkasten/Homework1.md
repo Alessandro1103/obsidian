@@ -27,5 +27,7 @@ I also calculated the confusion matrix to understand where the errors are, if th
 
 In addition to the obvious fitting of the model and creating a predictor variable, I did some pruning of the tree. In particular, I performed a rule post-pruning to avoid overfitting in decision tree learning, and rule pruning can lead to simpler models by eliminating branches of the decision tree that do not contribute significantly to model performance.
 
+I conducted pre- and post-pruning performance measurements to ascertain how the outcomes vary.
+
 ---
 # References

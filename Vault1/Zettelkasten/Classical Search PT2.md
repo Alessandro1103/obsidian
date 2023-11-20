@@ -23,11 +23,13 @@ Proposition **Consistency $\Rightarrow$ Admissibility**. Let $\prod$ be a proble
 
 **BFS**:
 Use an evaluation function $f(n)$ for each node $n$, and expand the most desiderable unexpanded node. Implementation:
-- Greedy BFS: expand the node that is closest to the goal. The evaluation function has this form: $f(n)=h(n)$ (heuristic function). The algorithm is complete but not optimal.
-- A* Search: avoid expanding paths that are already expensive. the evaluation function has this form: $f(n)=g(n)+h(n)$ where 
+- **Greedy BFS**: expand the node that is closest to the goal. The evaluation function has this form: $f(n)=h(n)$ (heuristic function). The algorithm is complete but not optimal.
+- **A* Search**: avoid expanding paths that are already expensive. the evaluation function has this form: $f(n)=g(n)+h(n)$ where 
 	- $g(n)$ = cost to reach $n$
 	- $h(n)$ = estimated cost to goal from $n$
 	- $f(n)$ = estimated total cost of path through $n$ to goal
+  It has completeness and optimal
+
 
 Definition. Let $\prod$ be a problem with state space $\Theta = (S, A, c, T, I, S^G)$, and let $h$ be a consistent heuristic function for $\prod$. We define the *h-weighted state space* as $\Theta^h = (S, A^h , c^h , T^h , I, S^G)$ where: 
 - $A^h := {a[s, s']\; |\; a \in A,\; s \in S,\; s' \in S,\;(s, a, s') \in T}$. 
@@ -36,7 +38,7 @@ Definition. Let $\prod$ be a problem with state space $\Theta = (S, A, c, T, I, 
 
 ![[Pasted image 20231120164007.png]]
 
-
+Theorem **Optimality of A**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then the solution returned by $A^∗$ (if any) is optimal.
 
 ---
 # References

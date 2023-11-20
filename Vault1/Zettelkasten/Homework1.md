@@ -19,7 +19,8 @@ In the first try I didn't think about a pre-processing method, I could use a dat
 
 Let's consider the dataset:
 ![[Pasted image 20231120115712.png|300]] ![[Pasted image 20231120115818.png|300]]
-In the first image there is the data set 1 with all the classes represented by each colour and a lot of data mixed together making it difficult to distinguish them. For this reason I split the data and extracted a percentage of elements from each group to make the dataset more readable. The test sample represents 33% of the total set of input and the result can be approximated respect to the complete blid test, that 
+In the first image there is the data set 1 with all the classes represented by each colour and a lot of data mixed together making it difficult to distinguish them. For this reason I split the data and extracted a total of 500 elements from each group to make the dataset more readable. This was made only for the graphical representation, of course the training and the test size set is inalterated. 
+
 
 ---
 # References

@@ -21,6 +21,11 @@ Let $\prod$ be a problem with state space Θ and states $S$, and let $h$ be a he
 
 Proposition **Consistency $\Rightarrow$ Admissibility**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then $h$ is admissible. 
 
+**BFS**:
+Use an evaluation function $f(n)$ for each node $n$, and expand the most desiderable unexpanded node. Implementation:
+- Greedy BFS: expand the node that is closest to the goal. The evaluation function has this form: $f(n)=h(n)$ (heuristic function).
+- A* Search: 
+
 
 
 

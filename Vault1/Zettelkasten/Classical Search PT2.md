@@ -40,5 +40,16 @@ Definition. Let $\prod$ be a problem with state space $\Theta = (S, A, c, T, I, 
 
 Theorem **Optimality of A**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then the solution returned by $A^∗$ (if any) is optimal.
 
+Let’s consider an *extreme case*: 
+What happens if $h$ = $h^∗$? 
+- Greedy Best-First Search: 
+	- If all action costs are strictly positive, when we expand a state, at least one of its successors has strictly smaller $h$. The search space is linear in the length of the solution. 
+	- If there are 0-cost actions, the search space may still be exponentially big (e.g., if all actions costs are 0 then $h^∗ = 0$). 
+- $A^∗$ : 
+	- If all action costs are strictly positive, and we break ties ($g(n) + h(n) = g(n') + h(n')$) by smaller $h$, then the search space is linear in the length of the solution. 
+	- Otherwise, the search space may still be exponentially big.
+
+
+
 ---
 # References

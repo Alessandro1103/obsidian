@@ -38,9 +38,13 @@ Definition. Let $\prod$ be a problem with state space $\Theta = (S, A, c, T, I, 
 
 ![[Pasted image 20231120164007.png]]
 
-Theorem **Optimality of A**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then the solution returned by $A^∗$ (if any) is optimal.
+Theorem **Optimality of $A^*$**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then the solution returned by $A^∗$ (if any) is optimal.
 
-Optimality of A ∗ : Different Variants Our variant of A ∗ does duplicate elimination but not re-opening. Re-opening: when generating a node n containing state s that is already in the explored set, check whether (*) the new path to s is cheaper. If so, remove s from the explored set and insert n into the frontier. With a consistent heuristic, (*) can’t happen so we don’t need re-opening for optimality. Given admissible but inconsistent h, if we either use duplicate elimination with re-opening or don’t use duplicate elimination at all, then A ∗ is optimal as well. Hence the well-known statement “A ∗ is optimal if h is admissible”.
+Different variants of $A^*$:
+- Our variant of $A^∗$ does duplicate elimination but not re-opening. 
+- Re-opening: when generating a node $n$ containing state $s$ that is already in the explored set, check whether the new path to $s$ is cheaper. If so, remove $s$ from the explored set and insert $n$ into the frontier. 
+- With a consistent heuristic, can’t happen so we don’t need re-opening for optimality. 
+- Given admissible but inconsistent $h$, if we either use duplicate elimination with re-opening or don’t use duplicate elimination at all, then $A^∗$ is optimal as well. Hence the well-known statement $A^∗$ is optimal if h is admissible".
 
 Let’s consider an *extreme case*: 
 What happens if $h$ = $h^∗$? 

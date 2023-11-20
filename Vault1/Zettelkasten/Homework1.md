@@ -19,11 +19,11 @@ In the first try I didn't think about a pre-processing method, I could use a dat
 
 Let's consider the dataset:
 ![[Pasted image 20231120115712.png|300]] ![[Pasted image 20231120115818.png|300]]
-In the first image there is the data set 1 with all the classes represented by each colour and a lot of data mixed together making it difficult to distinguish them. For this reason I split the data and extracted a total of 500 elements from each group to make the dataset more readable. This was made only for the graphical representation, of course the training and the test size set is unalterated. 
+In the first image there is the data set 1 with all the classes represented by each colour and a lot of data mixed together making it difficult to distinguish them. For this reason I split the data and extracted a total of 500 elements from each group to make the dataset more readable. This was made only for the graphical representation, of course the training and the test size set is unchanged. 
 
 When I finally got a satisfactory result, I was able to add some features and come up with a better solution. The first thing that was added was a well-functioning classification evaluation. A first to measure accuracy, useful to represent the proportion of true positives among all instances predicted to be positive by the model. It gives the percentage of cases correctly classified as belonging to that class out of all cases classified as belonging to that class.
 A second measure that includes accuracy, but splits it into the 10 classes to better understand where the errors occur. We can even see the recall, or true positive rate, which indicates how well the model is capturing all positive instances of a class.
-
+In this measure, we also have the f1-score, which is the harmonic mean of precision and recall, and is particularly useful for obtaining a measure between accuracy and recall.
 
 ---
 # References

@@ -15,6 +15,10 @@ Let $\prod$ be a problem with states $S$. A heuristic function, short heuristic,
 
 $h$ has to be accurate but the calculation must not be demanding (contradiction). 
 
+Definition **Admissibility**, **Consistency**:
+Let $\prod$ be a problem with state space Θ and states $S$, and let $h$ be a heuristic function for $\prod$. We say that $h$ is *admissible* if, for all $s \in S$, we have $h(s) ≤ h^∗(s)$. We say that $h$ is *consistent* if, for all transitions $s \rightarrow^a s'$ in $\Theta$, we have $h(s) − h(s') \leq c(a)$
+
+
 
 ---
 # References

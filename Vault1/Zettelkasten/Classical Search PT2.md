@@ -23,8 +23,11 @@ Proposition **Consistency $\Rightarrow$ Admissibility**. Let $\prod$ be a proble
 
 **BFS**:
 Use an evaluation function $f(n)$ for each node $n$, and expand the most desiderable unexpanded node. Implementation:
-- Greedy BFS: expand the node that is closest to the goal. The evaluation function has this form: $f(n)=h(n)$ (heuristic function).
-- A* Search: 
+- Greedy BFS: expand the node that is closest to the goal. The evaluation function has this form: $f(n)=h(n)$ (heuristic function). The algorithm is complete but not optimal.
+- A* Search: avoid expanding paths that are already expensive. the evaluation function has this form: $f(n)=g(n)+h(n)$ where 
+	- $g(n)$ = cost to reach $n$
+	- $h(n)$ = estimated cost to goal from $n$
+	- $f(n)$ = estimated total cost of path through $n$ to goal
 
 
 

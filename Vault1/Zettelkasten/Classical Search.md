@@ -135,7 +135,7 @@ Space: $O(bm)$, it stores only a single path form the root to a leaf node. Once 
 Time: $O(b^m)$ it has to explore the combination of $b$ paths, with depth $m$ 
 
 **Uniform-Cost Search**:
-Expand nodes with lowest path cost $g(n)$ (it changes from Dijkstra, because Dijkstra cares firstly about the arc, uniform cost cares firstly about the nodes, and then the arc).
+Expand nodes with lowest path cost $g(n)$ (it is a variation of Dijkstra's, 
 It has completeness
 Space Complexity and Time Complexity:
 $O(b^{1+\lfloor g^*/\epsilon \rfloor})$, where $g^*$ denotes the cost of an optimal solution, and $\epsilon$ is the positive cost of the cheapest action.

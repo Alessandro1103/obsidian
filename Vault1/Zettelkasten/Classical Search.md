@@ -1,6 +1,6 @@
 Date: 2023-11-18
 Time: 10:58
-Tags:
+Tags: 
 Up: [[IA]]
 
 ---
@@ -139,6 +139,15 @@ Expand nodes with lowest path cost $g(n)$ (it is a variation of Dijkstra's,
 It has completeness
 Space Complexity and Time Complexity:
 $O(b^{1+\lfloor g^*/\epsilon \rfloor})$, where $g^*$ denotes the cost of an optimal solution, and $\epsilon$ is the positive cost of the cheapest action.
+
+
+**Iterative Deepening Search**:
+Supply depth-first search with a predetermined depth limit and find the best limit. So gradually increasing the limit - first 0, then 1, then 2, and so on - until a goal is found. It combine the benefits of DFS and BFS.
+![[Pasted image 20231119234025.png|400]]
+It has optimality, completeness. 
+Space Complexity and Time Complexity:
+Space: $O(bd)$
+Time: $O(b^d)$
 
 ## Part 2
 

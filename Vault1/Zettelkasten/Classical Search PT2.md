@@ -29,7 +29,10 @@ Use an evaluation function $f(n)$ for each node $n$, and expand the most desider
 	- $h(n)$ = estimated cost to goal from $n$
 	- $f(n)$ = estimated total cost of path through $n$ to goal
 
-
+Definition. Let $\prod$ be a problem with state space $\Theta = (S, A, c, T, I, S^G)$, and let $h$ be a consistent heuristic function for $\prod$. We define the h-weighted state space as $\Theta^h = (S, A^h , c^h , T^h , I, S^G)$ where: 
+- $A^h := {a[s, s'] | a \in A, s \in S, s' \in S,(s, a, s') \in T}$. 
+- $c^h : A^h \rightarrow  R^+_0 is defined by c^h (a[s, s']) := c(a) − [h(s) − h(s')]$. 
+- $T^h = {(s, a[s, s'], s') | (s, a, s') \in T}$.
 
 
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aa51180901d0a060",
+        "id": "3744cbab769e3b9f",
         "type": "tabs",
         "children": [
           {
-            "id": "b7296b387b383e1d",
+            "id": "8dfb48c13f2e79c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Classical Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Classical Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Classical Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
@@ -133,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,83 +151,38 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "floating": {
-    "id": "256ada45d6a29a22",
-    "type": "floating",
-    "children": [
-      {
-        "id": "226b2f33dfcd587d",
-        "type": "window",
-        "children": [
-          {
-            "id": "5fdd57140a139a64",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a98cf04d7d54168b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Zettelkasten/Classical Search.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 922,
-        "y": 128,
-        "width": 898,
-        "height": 992,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "a98cf04d7d54168b",
+  "active": "8dfb48c13f2e79c3",
   "lastOpenFiles": [
-    "Zettelkasten/Classical Search.md",
-    "Zettelkasten/Appunti.md",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Files/Pasted image 20231119234025.png",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/Cose.md",
-    "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Discorso.md",
-    "Zettelkasten/Effect of Instagram Use.md",
-    "Zettelkasten/First Computer.md",
-    "Zettelkasten/Homework1.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Intelligent Agents.md",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/MOC.md",
-    "Zettelkasten/Pedoni passati in Endgame.md",
-    "Zettelkasten/Reading a Scientific Article.md",
-    "Zettelkasten/Re debole nel calcolo.md",
+    "Zettelkasten/Classical Search.md",
+    "Files/Pasted image 20231119234025.png",
+    "Files/Pasted image 20231118144352.png",
+    "Files/Pasted image 20231118144340.png",
+    "Files/Pasted image 20231118124530.png",
+    "Files/Pasted image 20231118120546.png",
+    "Files/Pasted image 20231118120543.png",
+    "Files/Pasted image 20231118120447.png",
+    "Files/Pasted image 20231118095946.png",
+    "Files/Pasted image 20231116230144.png",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Homework1.md",
+    "Files/Pasted image 20231116220434.png",
+    "Zettelkasten/Transmission.md",
+    "Zettelkasten/Sensor.md",
     "Zettelkasten/Regali.md",
-    "Zettelkasten/Scheda GPT.md",
-    "Files/Pasted image 20231109112559.png",
-    "Files/Pasted image 20231107110218.png",
-    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
-    "Files/Pasted image 20230714172245.png",
-    "Files/Progetto senza titolo.png",
-    "Files/whittinghams-battery.webp",
-    "Files/struttura.png",
-    "Files/Screenshot from 2023-10-17 17-12-23.png",
-    "Files/Screenshot from 2023-10-17 16-36-30.png",
-    "Files/Screenshot from 2023-10-17 16-11-57.png",
-    "Files/rp_01_compilers_and_build_systems.pdf",
+    "Zettelkasten/Predicate Logic Reasoning.md",
+    "Zettelkasten/Denavit-Hartenberg.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Università/Robot Programming/Lezione1.md",
+    "Zettelkasten/Screenshot from 2023-10-17 15-53-46.png.md",
+    "Files/Screenshot from 2023-10-17 15-53-46.xcf",
+    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
+    "Zettelkasten/Università/Robot Programming/Lezione2.md",
+    "Zettelkasten/stronzo.md",
+    "Zettelkasten/Università/Untitled.md",
+    "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
+    "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
+    "Zettelkasten/Università/NN/Lezione1.md",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
@@ -237,6 +191,14 @@
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
     "Files/Recording 20231004110821.webm",
+    "Files/Recording 20231004110720.webm",
+    "Zettelkasten/Valutazione corsi.md",
+    "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
+    "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Università/Inglese/Is technology always the solution.md",
+    "Zettelkasten/Università/Inglese/First Computer.md",
+    "Zettelkasten/Università/Inglese/Effect of Instagram Use.md",
+    "Zettelkasten/Università/Inglese/Digital Humanities.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

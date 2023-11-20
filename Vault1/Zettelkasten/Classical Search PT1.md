@@ -4,11 +4,9 @@ Tags:
 Up: [[IA]]
 
 ---
-# Classical Search
+# Classical Search PT1
 
-## Part 1
-
-### Classical Search Problems
+## Classical Search Problems
 
 A **Classical Search Problem** has this settings:
 - Finite number of states and actions
@@ -46,7 +44,7 @@ Terms:
 Definition of **State Space Solutions**:
 Let $\Theta = (S, A, c, T, I, S^G)$ be a state space, and let $s \in S$. $A$ *solution* for $s$ is a path from $s$ to some $s' \in S^G$. The solution is *optimal* if its cost is minimal among all solutions for $s$. A solution for $I$ is called a solution for $\Theta$. If a solution exists, then $\Theta$ is solvable.
 
-### Descriptions
+## Descriptions
 
 $\prod$ is the description of the problem
 $\Theta$ is the state space corresponding to this description
@@ -95,7 +93,7 @@ The *Duplicate Elimination* distinguish if we are working with a Tree Search(don
 - Check for each generated state $s'$ whether $s'$ is in the closed list. If so, discard $s'$.
 The *Tree search* implies also a one way reachable state, a state can be reached by only one predecessor.
 
-### Blind Search
+## Blind Search
 
 Does not require any input beyond the problem API
 
@@ -149,7 +147,6 @@ Space Complexity and Time Complexity:
 Space: $O(bd)$
 Time: $O(b^d)$
 
-## Part 2
 
 ---
 # References

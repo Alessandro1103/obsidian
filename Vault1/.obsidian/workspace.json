@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "3744cbab769e3b9f",
+        "id": "c92c225a36a62700",
         "type": "tabs",
         "children": [
           {
-            "id": "8dfb48c13f2e79c3",
+            "id": "ad0a0d09730f5f9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Classical Search PT1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b3af6acb94d0ad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Classical Search PT2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Classical Search PT2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Classical Search PT2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,27 +156,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "8dfb48c13f2e79c3",
+  "active": "9b3af6acb94d0ad0",
   "lastOpenFiles": [
+    "Zettelkasten/Classical Search PT1.md",
+    "Zettelkasten/Classical Search PT2.md",
     "Files/Pasted image 20231120115818.png",
     "Files/Pasted image 20231120115712.png",
-    "Zettelkasten/Classical Search.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Discorso.md",
-    "Zettelkasten/Homework1.md",
-    "Zettelkasten/Intelligent Agents.md",
     "Files/Pasted image 20231119234025.png",
     "Files/Pasted image 20231118144352.png",
     "Files/Pasted image 20231118144340.png",
@@ -170,24 +179,32 @@
     "Files/Pasted image 20231118120546.png",
     "Files/Pasted image 20231118120543.png",
     "Files/Pasted image 20231118120447.png",
+    "Zettelkasten/Intelligent Agents.md",
     "Files/Pasted image 20231118095946.png",
-    "Files/Pasted image 20231116230144.png",
+    "conflict-files-obsidian-git.md",
     "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/IA.md",
+    "Zettelkasten/Denavit-Hartenberg.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/First Computer.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Cose.md",
+    "Templates/Base.md",
+    "Zettelkasten/Predicate Logic Reasoning.md",
+    "Zettelkasten/Appunti.md",
     "Zettelkasten/Transmission.md",
     "Zettelkasten/Sensor.md",
     "Zettelkasten/Regali.md",
-    "Zettelkasten/Predicate Logic Reasoning.md",
-    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Università/Robot Programming/LezioneX.md",
     "Zettelkasten/Università/Robot Programming/Lezione1.md",
-    "Zettelkasten/Screenshot from 2023-10-17 15-53-46.png.md",
+    "Zettelkasten/Regali Laurea.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
-    "Zettelkasten/Università/Tesi/Riunioni/Prima riunione.md",
-    "Zettelkasten/Università/Robot Programming/Lezione2.md",
-    "Zettelkasten/stronzo.md",
-    "Zettelkasten/Università/Untitled.md",
-    "Zettelkasten/Università/Tesi/Scrittura tesi/Tesi.md",
-    "Zettelkasten/Università/Tesi/Riunioni/Seconda riunione.md",
-    "Zettelkasten/Università/NN/Lezione1.md",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
@@ -197,9 +214,6 @@
     "Files/Recording 20231004111127.webm",
     "Files/Recording 20231004110821.webm",
     "Files/Recording 20231004110720.webm",
-    "Zettelkasten/Valutazione corsi.md",
-    "Zettelkasten/Università/Inglese/Reading a Scientific Article.md",
-    "Zettelkasten/Università/Inglese/Machine Learning & Shakespeare.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

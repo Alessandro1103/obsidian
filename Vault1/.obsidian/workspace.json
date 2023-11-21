@@ -34,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Homework1 (cose da aggiungere).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Homework1 (cose da aggiungere).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,10 +166,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "41e6aee740ed31b8",
+  "active": "1036cb35c9cc5853",
   "lastOpenFiles": [
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Homework1.md",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
     "Files/Pasted image 20231120164007.png",

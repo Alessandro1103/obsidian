@@ -30,7 +30,7 @@ To have a better comparison and to understand which method is better suited for 
 
 ## Kernel methods
 
-With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. I performed a 
+With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. Since I do not know beforehand which methods with which parameters perform better, I can use GridSearch, which through cross-validation is able to find the best hyper parameters for this problem. 
 
 ---
 # References

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Homework1 (cose da aggiungere).md",
+                "file": "Zettelkasten/Homework1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework1 (cose da aggiungere).md",
+                "file": "Zettelkasten/Homework1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework1 (cose da aggiungere).md",
+                "file": "Zettelkasten/Homework1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,7 @@
   },
   "active": "41e6aee740ed31b8",
   "lastOpenFiles": [
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Homework1.md",
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
@@ -169,7 +170,6 @@
     "Files/Pasted image 20231118120447.png",
     "Zettelkasten/Intelligent Agents.md",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/IA.md",
     "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Is technology always the solution.md",

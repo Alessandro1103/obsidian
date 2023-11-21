@@ -17,9 +17,10 @@ $h$ has to be accurate but the calculation must not be demanding (contradiction)
 Given a problem $\prod$, a heuristic function $h$ for $\prod$ can be obtained as goal distance within a simplified (relaxed) problem $\prod'$.
 
 Definition **Admissibility**, **Consistency**:
-Let $\prod$ be a problem with state space Θ and states $S$, and let $h$ be a heuristic function for $\prod$. We say that $h$ is *admissible* if, for all $s \in S$, we have $h(s) ≤ h^∗(s)$. We say that $h$ is *consistent* if, for all transitions $s \rightarrow^a s'$ in $\Theta$, we have $h(s) − h(s') \leq c(a)$
+Let $\prod$ be a problem with state space Θ and states $S$, and let $h$ be a heuristic function for $\prod$. We say that $h$ is *admissible* if, for all $s \in S$, we have $h(s) ≤ h^∗(s)$. We say that $h$ is *consistent* if, for all transitions $s \xrightarrow{a} s'$ in $\Theta$, we have $h(s) − h(s') \leq c(a)$
 
 Proposition **Consistency $\Rightarrow$ Admissibility**. Let $\prod$ be a problem, and let $h$ be a heuristic function for $\prod$. If $h$ is consistent, then $h$ is admissible. 
+
 
 **BFS**:
 Use an evaluation function $f(n)$ for each node $n$, and expand the most desiderable unexpanded node. Implementation:
@@ -42,7 +43,7 @@ Theorem **Optimality of $A^*$**. Let $\prod$ be a problem, and let $h$ be a heur
 
 Different variants of $A^*$:
 - Our variant of $A^∗$ does duplicate elimination but not re-opening. 
-- Re-opening: when generating a node $n$ containing state $s$ that is already in the explored set, check whether the new path to $s$ is cheaper. If so, remove $s$ from the explored set and insert $n$ into the frontier. 
+- Re-opening: involves removing nodes from the closed list (nodes that have already been explored) and adding them back to the open list. This allows the algorithm to explore alternative paths and potentially find a shorter path than the one initially discovered.
 - With a consistent heuristic, can’t happen so we don’t need re-opening for optimality. 
 - Given admissible but inconsistent $h$, if we either use duplicate elimination with re-opening or don’t use duplicate elimination at all, then $A^∗$ is optimal as well. Hence the well-known statement $A^∗$ is optimal if h is admissible".
 

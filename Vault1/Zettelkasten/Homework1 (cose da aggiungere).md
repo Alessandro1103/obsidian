@@ -6,9 +6,7 @@ Up:
 ---
 # Homework1 
 
-- [ ] Vedere il KNN
-- [ ] SVM
-- [ ] 
+- [ ] KNN per il secondo dataset
 
 
 ---

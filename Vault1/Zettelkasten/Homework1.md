@@ -28,9 +28,9 @@ I conducted pre- and post-pruning performance measurements to ascertain how the 
 
 To have a better comparison and to understand which method is better suited for this problem, I tried to find a solution using the following methods. 
 
-## Kernel methods + KNN
+## Kernel methods
 
-With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case the model is not well 
+With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. I performed a 
 
 ---
 # References

@@ -26,5 +26,12 @@ In addition to the obvious fitting of the model and creating a predictor variabl
 
 I conducted pre- and post-pruning performance measurements to ascertain how the outcomes vary.
 
+To have a better comparison and to understand which method is better suited for this problem, I tried to find a solution using the following methods. 
+
+## Kernel methods + KNN
+
+
+
+
 ---
 # References

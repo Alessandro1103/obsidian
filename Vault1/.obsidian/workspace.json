@@ -11,11 +11,30 @@
             "id": "3721071118a67fdf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/pull.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5dcfeebb623b707",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -82,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,8 +165,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3721071118a67fdf",
+  "active": "e5dcfeebb623b707",
   "lastOpenFiles": [
+    "Zettelkasten/pull.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Introduction to Planning.md",
+    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Classical Search PT1.md",
+    "Files/Pasted image 20231120164007.png",
+    "Files/Pasted image 20231120115818.png",
+    "Files/Pasted image 20231120115712.png",
     "Zettelkasten/Classical Search.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Digital Humanities.md",
@@ -168,10 +197,6 @@
     "Zettelkasten/Pedoni doppi.md",
     "Zettelkasten/MOC.md",
     "Zettelkasten/Pedoni passati in Endgame.md",
-    "Zettelkasten/Reading a Scientific Article.md",
-    "Zettelkasten/Re debole nel calcolo.md",
-    "Zettelkasten/Regali.md",
-    "Zettelkasten/Scheda GPT.md",
     "Files/Pasted image 20231109112559.png",
     "Files/Pasted image 20231107110218.png",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
@@ -179,9 +204,6 @@
     "Files/Progetto senza titolo.png",
     "Files/whittinghams-battery.webp",
     "Files/struttura.png",
-    "Files/Screenshot from 2023-10-17 17-12-23.png",
-    "Files/Screenshot from 2023-10-17 16-36-30.png",
-    "Files/Screenshot from 2023-10-17 16-11-57.png",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",

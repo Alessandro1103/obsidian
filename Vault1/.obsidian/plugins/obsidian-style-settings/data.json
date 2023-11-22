@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "minimal-advanced@@cursor": "default",
   "minimal-style@@h1-size": "2.5em",
@@ -27,3 +28,6 @@
   "minimal-style@@tag-color@@light": "#8B8B8B",
   "minimal-style@@tag-color@@dark": "#8B8B8B"
 }
+=======
+{}
+>>>>>>> origin/main

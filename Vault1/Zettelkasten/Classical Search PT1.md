@@ -15,7 +15,6 @@ A **Classical Search Problem** has this settings:
 - Deterministic
 - Static
 
-
 A formal definition of **Search Problems**:
 - The underlying base concept are state spaces
 - State spaces are graphs

@@ -39,6 +39,7 @@ The code run is very simple, it has no special features.
 
 ## Gaussian methods
 
+Included into the set of all the resulution model, I tried the Gaussian method to see if a stochastic
 
 
 ---

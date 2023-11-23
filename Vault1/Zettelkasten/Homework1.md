@@ -18,12 +18,18 @@ The first dataset contains 50000 elements with 100 parameters.
 ### Second dataset
 
 
-## First Test (decisionTree)
+## First Dataset
 
 The first step taken to work on this homework works on finding a solution. To see if everything was well managed I try to train and test the dataset over a random method. The test is made over the dataset1. In particular I split the data to create 2 set, one for the training and one for the test. Doing so, I could evaluate the results, in order to generate an appropriate model for the blind test. 
 In the first try I didn't think about a pre-processing method, I could use a dataset standardization, or check the outlines to see if I could improve the distribution to get a better solution. Avoiding every kind of simplification, or improvements, I just run the code over the DecisionTree() method, obtaining a proper solution. Just to verify the correct evaluation over the test, I measured the mean accuracy: 0.976036, which is very close to the average result I was obtaining, I take this as point of start to improve the code. It's quite good considering the condition already explained before. 
 
-## Decision Tree
+### Pre-Processing methods
+
+After organizing all the models, I had to think about pre-processing methods.
+My initial focus was on standardization of the features. This method was implemented to bring uniformity to the scale of each feature, a critical factor for the proper functioning of various machine learning algorithms. By standardizing features to have a mean of 0 and a standard deviation of 1, I aimed not only to facilitate model convergence but also to enhance the model's resilience against scale-related biases and outliers.
+Addressing the challenge of missing data, I opted for a straightforward and effective method-mean imputation. This involved replacing missing values with the mean value of their respective features. This approach ensures that the dataset retains its statistical characteristics, minimizing the impact of missing values on subsequent analyses. I actually noticed that there were no missing values in the first data set, but I did not know what the blind set might present.
+
+### Decision Tree
 
 Since the results were fine, I'm able to add some features and came up with a better solution. The first thing that was added was a well-functioning classification evaluation. A first to measure accuracy, useful to represent the proportion of true positives among all instances predicted to be positive by the model. It gives the percentage of cases correctly classified as belonging to that class out of all cases classified as belonging to that class.
 A second measure that includes accuracy, but splits it into the 10 classes to better understand where the errors occur. We can even see the recall, or true positive rate, which indicates how well the model is capturing all positive instances of a class. In this measure, we also have the f1-score, which is the harmonic mean of precision and recall, and is particularly useful for obtaining a measure between accuracy and recall. 
@@ -35,15 +41,17 @@ I conducted pre- and post-pruning performance measurements to ascertain how the 
 
 To have a better comparison and to understand which method is better suited for this problem, I tried to find a solution using the following methods. 
 
-## Kernel methods
+### Kernel methods
 
 With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. Since I do not know beforehand which methods perform better with which parameters, I can use GridSearch, which is able to find the best hyper parameters for this problem through cross-validation. 
 In order to get a prediction I had to apply the best parameters to the original model. 
 The code run is very simple, it has no special features. 
 
-## Gaussian methods
+### Gaussian methods
 
 Within the realm of regression models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic regression, test predictions take the form of predicted values with associated uncertainties. In practical applications, one often seeks a reliable prediction, achievable as the solution to a decision problem. This problem involves predicted values and a specification of the consequences tied to making particular predictions, encapsulated within the loss function. I thought a discriminative solution might be a better solution because I didn't have to generate any other samples, and for large dataset it suits well. So I started to run the logistic regression code, and in the end I was curious to see if I had made the right choice, so I looked for a solution for a generative model. 
+I also needed to introduce an attribute to the Logistic Regression model because the algorithm was struggling to converge to a single result. In optimization terms, convergence signifies that the algorithm has stabilized, and further iterations do not yield substantial improvements in the model parameters. In logistic regression, convergence happens when the optimization algorithm discovers the model coefficient values that minimize the loss function. 
+
 
 As I expected, the logistic regression performs much better than the generative. In fact, the general accuracy of the logistic is: 0.989069, instead the accuracy obtained from the generative method is: 0.968889. This difference can also be seen in the classification report, which, as I said, describes the accuracy across all the different classes:
 
@@ -53,27 +61,11 @@ This is Generative solution:
 This is Logistic solution:
 ![[Pasted image 20231123230326.png|400]]
 
-So, Model 1 (logistic regression) is performing better overall, with a higher accuracy compared to Model 2 (generative model). Both models face challenges with Class 4, but the drop in performance is more noticeable in Model 2.
+So, logistic model is performing better overall, with a higher accuracy compared to generative model. Both models face challenges with Class 4, but the drop in performance is more noticeable in Model 2.
 
 Considering the nature of logistic regression (a discriminative model) and the generative model, the results align with the typical strengths and weaknesses of these approaches. Logistic regression, being discriminative, often performs well in classification tasks, especially when the decision boundary is complex. On the other hand, generative models might struggle if the underlying data distribution is complex or if there's a mismatch between the assumed distribution and the true distribution of the data.
 
-
-I needed to introduce an attribute to the Logistic Regression model because the algorithm was struggling to converge to a single result. In optimization terms, convergence signifies that the algorithm has stabilized, and further iterations do not yield substantial improvements in the model parameters. In logistic regression, convergence happens when the optimization algorithm discovers the model coefficient values that minimize the loss function. 
-
-
-
-# Pre-Processing methods
-
-After organizing all the models, I had to think about pre-processing methods.
-My initial focus was on standardization of the features. This method was implemented to bring uniformity to the scale of each feature, a critical factor for the proper functioning of various machine learning algorithms. By standardizing features to have a mean of 0 and a standard deviation of 1, I aimed not only to facilitate model convergence but also to enhance the model's resilience against scale-related biases and outliers.
-Addressing the challenge of missing data, I opted for a straightforward and effective method-mean imputation. This involved replacing missing values with the mean value of their respective features. This approach ensures that the dataset retains its statistical characteristics, minimizing the impact of missing values on subsequent analyses. I actually noticed that there were no missing values in the first data set, but I did not know what the blind set might present.
-
-# Evaluations
-
-All the methods I used have the same accuracy or in generale score evaluation to get a good comparison over the results:
-
 ## Decision Tree vs Decision Tree
-
 
 
 ---

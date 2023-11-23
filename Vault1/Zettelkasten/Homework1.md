@@ -33,9 +33,10 @@ To have a better comparison and to understand which method is better suited for 
 
 ## Kernel methods
 
-With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. Since I do not know beforehand which methods perform better with which parameters, I can use GridSearch, which is able to find the best hyperparameters for this problem through cross-validation. The code run is very simple, it has no special features. 
+With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. Since I do not know beforehand which methods perform better with which parameters, I can use GridSearch, which is able to find the best hyper parameters for this problem through cross-validation. 
+In order to get a prediction I had to apply the best parameters to the original model. 
 
-In order to get 
+The code run is very simple, it has no special features. 
 
 ## Gaussian methods
 

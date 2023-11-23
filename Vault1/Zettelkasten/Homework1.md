@@ -12,7 +12,15 @@ Up: [[ML]]
 
 ## Introduction
 
-The problem presented is a classification problem, over 2 dataset to train the model, and 2 test, to evaluate the result obtained by the training. The first dataset contains 50000 elements with 100 parameters. 
+The problem presented is a classification problem, over 2 dataset to train the model, and 2 test, to evaluate the result obtained by the training. To do so, it is necessary to begin importing a large amount of python tools from the python library: including, Pandas, Numpy, Pyplot, Swaborn Istance, Training/Testing/Splitting (from SKLearn), etc.
+
+
+
+### First dataset
+The first dataset contains 50000 elements with 100 parameters. 
+
+### Second dataset
+
 
 ## First Test (decisionTree)
 

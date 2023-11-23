@@ -39,7 +39,7 @@ The code run is very simple, it has no special features.
 
 ## Gaussian methods
 
-Included into the set of all the resolution model, I tried the Gaussian method to see if a stochastic process can obtain different result, since in probabilistic classification the test predictions take the form of class probabilities. In practical applòication one may well seek a class guess, which can be obtained as the solution to a decision problem
+Within the realm of resolution models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic classification, test predictions adopt the guise of class probabilities. In practical applications, one often seeks a class prediction, achievable as the resolution to a decision problem. This problem involves predictive probabilities and a specification of the consequences tied to making particular predictions, encapsulated within the loss function.
 
 
 ---

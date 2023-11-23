@@ -39,7 +39,7 @@ The code run is very simple, it has no special features.
 
 ## Gaussian methods
 
-Within the realm of resolution models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic classification, test predictions adopt the guise of class probabilities. In practical applications, one often seeks a class prediction, achievable as the resolution to a decision problem. This problem involves predictive probabilities and a specification of the consequences tied to making particular predictions, encapsulated within the loss function.
+Within the realm of regression models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic regression, test predictions take the form of predicted values with associated uncertainties. In practical applications, one often seeks a reliable prediction, achievable as the solution to a decision problem. This problem involves predicted values and a specification of the consequences tied to making particular predictions, encapsulated within the loss function. After careful consideration, I preferred to resolve the problem using the discriminative approach since I had all the data I needed, and I didn't have the necessity to create new instances.
 
 
 ---

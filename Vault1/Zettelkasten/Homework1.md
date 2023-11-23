@@ -39,7 +39,7 @@ The code run is very simple, it has no special features.
 
 ## Gaussian methods
 
-Included into the set of all the resulution model, I tried the Gaussian method to see if a stochastic
+Included into the set of all the resolution model, I tried the Gaussian method to see if a stochastic process can obtain different result, since in probabilistic classification the test predictions take the form of class probabilities. In practical applòication one may well seek a class guess, which can be obtained as the solution to a decision problem
 
 
 ---

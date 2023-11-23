@@ -41,11 +41,16 @@ The code run is very simple, it has no special features.
 
 Within the realm of regression models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic regression, test predictions take the form of predicted values with associated uncertainties. In practical applications, one often seeks a reliable prediction, achievable as the solution to a decision problem. This problem involves predicted values and a specification of the consequences tied to making particular predictions, encapsulated within the loss function. After careful consideration, I preferred to resolve the problem using the discriminative approach since I had all the data I needed, and I didn't have the necessity to create new instances.
 
+# Pre-Processing methods
+
+
+
 # Evaluations
 
 All the methods I used have the same accuracy or in generale score evaluation to get a good comparison over the results:
 
-## Decision Tree 
+## Decision Tree vs Decision Tree
+
 
 
 ---

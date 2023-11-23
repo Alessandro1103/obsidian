@@ -43,7 +43,9 @@ Within the realm of regression models, I explored the Gaussian method to ascerta
 
 # Pre-Processing methods
 
-
+After organising all the models, I had to think about pre-processing methods.
+My initial focus was on standardization of the features. This method was implemented to bring uniformity to the scale of each feature, a critical factor for the proper functioning of various machine learning algorithms. By standardizing features to have a mean of 0 and a standard deviation of 1, I aimed not only to facilitate model convergence but also to enhance the model's resilience against scale-related biases and outliers.
+Addressing the challenge of missing data, I opted for a straightforward and effective method—mean imputation. This involved replacing missing values with the mean value of their respective features. This approach ensures that the dataset retains its statistical characteristics, minimizing the impact of missing values on subsequent analyses. I actually noticed that there were no missing values in the first data set, but I did not know what the blind set might present.
 
 # Evaluations
 

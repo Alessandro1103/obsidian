@@ -29,6 +29,10 @@ After organizing all the models, I had to think about pre-processing methods.
 My initial focus was on standardization of the features. This method was implemented to bring uniformity to the scale of each feature, a critical factor for the proper functioning of various machine learning algorithms. By standardizing features to have a mean of 0 and a standard deviation of 1, I aimed not only to facilitate model convergence but also to enhance the model's resilience against scale-related biases and outliers.
 Addressing the challenge of missing data, I opted for a straightforward and effective method-mean imputation. This involved replacing missing values with the mean value of their respective features. This approach ensures that the dataset retains its statistical characteristics, minimizing the impact of missing values on subsequent analyses. I actually noticed that there were no missing values in the first data set, but I did not know what the blind set might present.
 
+### Evaluations methods
+
+All the methods I used have the same accuracy or in generale score evaluation to get a good comparison over the results:
+
 ### Decision Tree
 
 Since the results were fine, I'm able to add some features and came up with a better solution. The first thing that was added was a well-functioning classification evaluation. A first to measure accuracy, useful to represent the proportion of true positives among all instances predicted to be positive by the model. It gives the percentage of cases correctly classified as belonging to that class out of all cases classified as belonging to that class.
@@ -65,7 +69,6 @@ So, logistic model is performing better overall, with a higher accuracy compared
 
 Considering the nature of logistic regression (a discriminative model) and the generative model, the results align with the typical strengths and weaknesses of these approaches. Logistic regression, being discriminative, often performs well in classification tasks, especially when the decision boundary is complex. On the other hand, generative models might struggle if the underlying data distribution is complex or if there's a mismatch between the assumed distribution and the true distribution of the data.
 
-## Decision Tree vs Decision Tree
 
 
 ---

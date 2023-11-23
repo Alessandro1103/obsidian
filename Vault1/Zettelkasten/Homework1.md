@@ -48,6 +48,7 @@ Within the realm of regression models, I explored the Gaussian method to ascerta
 I needed to introduce an attribute to the Logistic Regression model because the algorithm was struggling to converge to a single result. In optimization terms, convergence signifies that the algorithm has stabilized, and further iterations do not yield substantial improvements in the model parameters. In logistic regression, convergence happens when the optimization algorithm discovers the model coefficient values that minimize the loss function.
 In particular, I set a limit on the number of iterations. 
 
+
 # Pre-Processing methods
 
 After organizing all the models, I had to think about pre-processing methods.

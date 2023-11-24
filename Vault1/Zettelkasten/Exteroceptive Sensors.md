@@ -16,7 +16,11 @@ The **CCD** (Charge Coupled Device) sensor consists of a rectangular array of ph
 
 The CMOS (Complementary Metal Oxide Semiconductor) sensor consists of a rectangular array of photodiodes. The junction of each photodiode is precharged and it is discharged when hit by photons. The difference from CCD is that the pixels on a CMOS sensor are "non-integrating devices" in the sense that they don't accumulate charge over time for the entire exposure. Instead, they measure the light's intensity continuously during the exposure time. In this manner, a saturated pixel will never overflow and influence a neighboring pixel. This prevents the effect of blooming
 
+## Perspective transformation
 
+A reference frame can be introduced on the image plane:
+![[Pasted image 20231124083220.png|500]]
+We have 
 
 ---
 # References

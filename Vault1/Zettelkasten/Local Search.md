@@ -21,6 +21,7 @@ The time complexity depends on the single run, can be either huge or small. Memo
 
 There are some difficulties: it can happen that all the neighbors look worse than the current state or if il all look the same the moves will be chosen randomly. In these cases we can do a restart and choose different path using random walks, i.e. moving to a successor chosen uniformly at random from the set of successors:
 ![[Pasted image 20231124123131.png|600]]
+In the context of search algorithms a "plateau" refers to a region in the search space where the heuristic values of states are the same.
 
 State Space Landscape:
 ![[Pasted image 20231124123517.png|500]]

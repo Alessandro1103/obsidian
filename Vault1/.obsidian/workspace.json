@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5070b23e1039b94a",
+        "id": "c69b6fcf058a3568",
         "type": "tabs",
         "children": [
           {
-            "id": "1036cb35c9cc5853",
+            "id": "3721071118a67fdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Exteroceptive Sensors.md",
+                "file": "Zettelkasten/Local Search.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Exteroceptive Sensors.md",
+                "file": "Zettelkasten/Local Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Exteroceptive Sensors.md",
+                "file": "Zettelkasten/Local Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -133,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -142,56 +142,57 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "1036cb35c9cc5853",
+  "active": "3721071118a67fdf",
   "lastOpenFiles": [
-    "Files/Pasted image 20231124083220.png",
-    "Zettelkasten/Introduction to Planning.md",
+    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Local Search.md",
+    "Zettelkasten/Homework1.md",
     "Zettelkasten/Exteroceptive Sensors.md",
-    "Files/Recording 20231123223359.webm",
+    "Files/Pasted image 20231124083220.png",
     "Files/Pasted image 20231123230326.png",
     "Files/Pasted image 20231123230229.png",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
-    "Zettelkasten/Homework1.md",
+    "Files/Recording 20231123223359.webm",
     "Zettelkasten/Classical Search PT1.md",
-    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/pull.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Introduction to Planning.md",
     "Files/Pasted image 20231120164007.png",
     "Files/Pasted image 20231120115818.png",
     "Files/Pasted image 20231120115712.png",
-    "Files/Pasted image 20231119234025.png",
-    "Files/Pasted image 20231118144352.png",
-    "Files/Pasted image 20231118144340.png",
-    "Files/Pasted image 20231118124530.png",
-    "Files/Pasted image 20231118120546.png",
-    "Zettelkasten/Intelligent Agents.md",
-    "conflict-files-obsidian-git.md",
-    "Zettelkasten/IA.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/First Computer.md",
-    "Zettelkasten/Effect of Instagram Use.md",
-    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Classical Search.md",
     "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Cose.md",
-    "Templates/Base.md",
-    "Zettelkasten/Predicate Logic Reasoning.md",
-    "Zettelkasten/Appunti.md",
-    "Zettelkasten/Transmission.md",
-    "Zettelkasten/Sensor.md",
-    "Zettelkasten/Regali.md",
+    "Zettelkasten/Denavit-Hartenberg.md",
+    "Files/Pasted image 20231119234025.png",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Files/Screenshot from 2023-10-17 15-53-46.xcf",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/First Computer.md",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Intelligent Agents.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Pedoni doppi.md",
+    "Files/Pasted image 20231109112559.png",
+    "Files/Pasted image 20231107110218.png",
+    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
+    "Files/Pasted image 20230714172245.png",
+    "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
@@ -199,7 +200,6 @@
     "Files/Recording 20231004111255.webm",
     "Files/Recording 20231004111228.webm",
     "Files/Recording 20231004111127.webm",
-    "Files/Recording 20231004110821.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

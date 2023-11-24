@@ -10,7 +10,13 @@ Up: [[IA]]
 
 Example:
 ![[Pasted image 20231124120039.png|500]]
-Local search algorithm are not systematic, this can lead to a lack of guarantees regarding the global optimality of the solution found, it doesn't look for all the solution but a better one. This means that the algorithms use very little memory (constant space). It finds reasonable solutions even in large or infinite state spaces. 
+Local search algorithm are not systematic, this can lead to a lack of guarantees regarding the global optimality of the solution found, it doesn't look for all the solution but a better one. This means that the algorithms use very little memory (constant space). It finds reasonable solutions even in large or infinite state spaces. One example of algorithm: 
+
+The **Hill-Climbing**:
+keeps choosing actions leading to a direct successor state with best heuristic value. It stops when no more immediate improvements can be made.
+No completeness, no optimality.
+
+
 
 
 ---

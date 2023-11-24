@@ -30,7 +30,11 @@ Hill climbing is incomplete and can get stuck on local minima, random walk is ve
 The **Simulated Annealing**:
 escape local maxima by allowing some "bad" moves but gradually decrease their size and frequency
 
-Idea $\rightarrow$ keep k states in memory instead of 1. At each step, all successors of k states are generated, if any is a goal, stop. 
+Idea $\rightarrow$ keep k states in memory instead of 1. At each step, all successors of k states are generated, if any is a goal, stop. Often, all k states end up on same local hill.
+If we choose k successors randomly, biased towards good ones, this leads to **Stochastic Beam Search**. 
+
+The **Genetic Algorithms**:
+
 
 
 ---

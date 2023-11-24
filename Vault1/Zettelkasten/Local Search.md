@@ -19,7 +19,7 @@ The time complexity depends on the single run, can be either huge or small. Memo
 
 ![[Pasted image 20231124122252.png|600]]
 
-
+There are some difficulties: it can happen that all the neighbors look worse than the current state or if il all look the same the moves will be chosen randomly. In these cases we can do a restart and choose different path
 
 
 ---

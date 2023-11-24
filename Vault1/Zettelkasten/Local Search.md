@@ -17,6 +17,9 @@ keeps choosing actions leading to a direct successor state with best heuristic v
 No completeness, no optimality.
 The time complexity depends on the single run, can be either huge or small. Memory instead has no consumption. $O(b)$
 
+![[Pasted image 20231124122252.png|600]]
+
+
 
 
 ---

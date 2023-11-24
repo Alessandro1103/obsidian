@@ -15,7 +15,7 @@ Local search algorithm are not systematic, this can lead to a lack of guarantees
 The **Hill-Climbing**:
 keeps choosing actions leading to a direct successor state with best heuristic value. It stops when no more immediate improvements can be made.
 No completeness, no optimality.
-
+The time complexity depends on the single run, can be either huge or small. Memory instead has no consumption. $O(b)$
 
 
 

@@ -22,8 +22,11 @@ A reference frame can be introduced on the image plane:
 ![[Pasted image 20231124083220.png|500]]
 We have in metric units:
 $$
-X_f = \frac{f \; ^bp_x}{f - \ ^bp_x}
+X_f = \frac{f \; ^bp_x}{f - \, ^bp_x}
+$$
 
+$$
+V = \sum_{1\le i\le j\le n}^{\infty} V_{ij} \quad X = \smashoperator{\sum_{1\le i\le j\le n}^{3456}} X_{ij} \quad Y = \smashoperator[r]{\sum\limits_{1\le i\le j\le n}} Y_{ij} \quad Z = \smashoperator[l]{\mathop{T}_{1\le i\le j\le n}} Z_{ij} \]
 $$
 
 ---

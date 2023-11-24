@@ -30,6 +30,8 @@ Hill climbing is incomplete and can get stuck on local minima, random walk is ve
 The **Simulated Annealing**:
 escape local maxima by allowing some "bad" moves but gradually decrease their size and frequency
 
+Idea $\rightarrow$ keep k states in memory instead of 1. At each step, all successors of k states are generated, if any is a goal, stop. 
+
 
 ---
 # References

@@ -22,8 +22,8 @@ A reference frame can be introduced on the image plane:
 ![[Pasted image 20231124083220.png|500]]
 We have in metric units:
 $$
-X_f = \frac{f p_x}{x}
-\leftaccent{'x}
+X_f = \frac{f \; ^bp_x}{f - \ ^bp_x}
+
 $$
 
 ---

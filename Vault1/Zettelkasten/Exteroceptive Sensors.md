@@ -20,7 +20,11 @@ The CMOS (Complementary Metal Oxide Semiconductor) sensor consists of a rectangu
 
 A reference frame can be introduced on the image plane:
 ![[Pasted image 20231124083220.png|500]]
-We have 
+We have in metric units:
+$$
+X_f = \frac{f p_x}{x}
+\leftaccent{'x}
+$$
 
 ---
 # References

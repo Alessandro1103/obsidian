@@ -11,7 +11,7 @@ Up:
 ## Vision Sensors
 For these sensors are used photosensitive element, termed pixel. The most used devices are *CCD* and *CMOS* sensors.
 
-The **CCD** 
+The **CCD** (Charge Coupled Device) sensor consists of a rectangular array of photosites. 
 
 ---
 # References

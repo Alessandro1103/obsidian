@@ -10,7 +10,7 @@ Up: [[IA]]
 
 Example:
 ![[Pasted image 20231124120039.png|500]]
-Local search algorithm are not systematic, 
+Local search algorithm are not systematic, this can lead to a lack of guarantees regarding the global optimality of the solution found, it doesn't look for all the solution but a better one. This means that the algorithms use very little memory (constant space). It finds reasonable solutions even in large or infinite state spaces. 
 
 
 ---

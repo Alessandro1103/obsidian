@@ -50,6 +50,9 @@ An evaluation function can be:
 Linear (weighted): $w_1f_1 + w_2f_2 + \dots + w_nf_n$, where the weights can be learned automatically, and the features have to be designed by human experts.
 
 It's very difficult to predict the search runtime, we want to go as deeply as possible. The solution is to perform an Iterative deepening (chose d = 1,2,3.... and then return the result, if we want go deeper). The best solution is **Quiescence search**:
+- Dynamically adapted $d$
+- Search more deeply in "unquiet" positions (in chess when we change pieces)
+
 
 
 ---

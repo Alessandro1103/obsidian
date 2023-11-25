@@ -45,7 +45,9 @@ It reach completeness and optimality.
 Time complexity: $O(b^m)$ with b branching factor and m depth of the solution
 Space complexity: $O(bm)$ (depth-first exploration)
 
-Let's im
+Let's impose a **Search depth limit** ("horizon") $d$ and apply an *evaluation function f* that maps game states to number to the non-terminal cut-off states.
+
+
 
 ---
 # References

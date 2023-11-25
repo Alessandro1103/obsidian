@@ -36,7 +36,11 @@ It's a strategy that minimizes the possible loss for a worst-case scenario, assu
 It can be represented in a tree model, a depth-first search in game tree, with Max in the root. We have to apply an utility function to terminal positions. Bottom-up for each inner node $n$ in the tree, compute the utility $u(n)$ of $n$ as follows:
 - If it’s Max’s turn: Set $u(n)$ to the maximum of the utilities of $n$’s successor nodes.
 - If it’s Min’s turn: Set $u(n)$ to the maximum of the utilities of $n$’s successor nodes.
-Se
+Selecting a move for Max at the root: Choose one move that leads to a successor node with maximal utility.
+
+![[Pasted image 20231125101907.png]]
+
+The Minmax is the simplest possible game search algorithm. But it's infeasible (search tree way too large). To make it feasible we can limit search depth, applying an evaluation function to the cut-off states, or use alpha beta pruning to reduce search
 
 ---
 # References

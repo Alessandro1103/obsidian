@@ -22,7 +22,10 @@ Commonly used terminology: state=position, end state=terminal state, action=move
 
 Why games are hard to solve:
 Definition **Strategy**:
-Let $\Theta$ be a game state space, and let $X \in {Max, Min}$. A strategy for $X$ is a function 
+Let $\Theta$ be a game state space, and let $X \in {Max, Min}$. A strategy for $X$ is a function $\sigma^X: S^X \rightarrow A^X$ so that $a$ is applicable to $s$ whenever $\sigma^(s) = a$.
+We need to prepare for all possibilities, a strategy is optimal if it yields the best possible utility for X assuming perfect opponent play. 
+We can have 3 solutions:
+- Ultra weak: 
 
 ---
 # References

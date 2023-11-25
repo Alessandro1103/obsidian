@@ -31,5 +31,9 @@ We can have 3 solutions:
 
 Computing a strategy is infeasible (almost all the games).
 
+**Minimax**:
+It's a strategy that minimizes the possible loss for a worst-case scenario, assuming that the opponent is also playing optimally. It can be represented in a tree model, a depth-first search in game tree, with Max in the root. We have to app
+
+
 ---
 # References

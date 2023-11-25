@@ -40,7 +40,7 @@ Selecting a move for Max at the root: Choose one move that leads to a successor 
 
 ![[Pasted image 20231125101907.png]]
 
-The Minmax is the simplest possible game search algorithm. But it's infeasible (search tree way too large). To make it feasible we can limit search depth, applying an evaluation function to the cut-off states, or use *alpha beta pruning* to reduce search, or use the 
+The Minmax is the simplest possible game search algorithm. But it's infeasible (search tree way too large). To make it feasible we can limit search depth, applying an evaluation function to the cut-off states, or use *alpha beta pruning* to reduce search, or use the Monte Carlo Tree Search (MCTS). 
 
 ---
 # References

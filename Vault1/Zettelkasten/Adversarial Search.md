@@ -46,7 +46,10 @@ Time complexity: $O(b^m)$ with b branching factor and m depth of the solution
 Space complexity: $O(bm)$ (depth-first exploration)
 
 Let's impose a **Search depth limit** ("horizon") $d$ and apply an *evaluation function f* that maps game states to number to the non-terminal cut-off states.
+An evaluation function can be:
+Linear (weighted): $w_1f_1 + w_2f_2 + \dots + w_nf_n$, where the weights can be learned automatically, and the features have to be designed by human experts.
 
+It's very difficult to predict 
 
 
 ---

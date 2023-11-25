@@ -25,7 +25,11 @@ Definition **Strategy**:
 Let $\Theta$ be a game state space, and let $X \in {Max, Min}$. A strategy for $X$ is a function $\sigma^X: S^X \rightarrow A^X$ so that $a$ is applicable to $s$ whenever $\sigma^(s) = a$.
 We need to prepare for all possibilities, a strategy is optimal if it yields the best possible utility for X assuming perfect opponent play. 
 We can have 3 solutions:
-- Ultra weak: 
+- Ultra weak: the goal is to determine the outcome of the game (win, lose, or draw) from the starting position, assuming both players play perfectly.
+- Weak: Provide a strategy that is optimal from the beginning of the game
+- Strong: Provide a strategy that is optimal from any valid state
+
+Computing a strategy is infeasible (almost all the games).
 
 ---
 # References

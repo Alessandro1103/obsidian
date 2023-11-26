@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,9 +154,9 @@
   },
   "active": "3721071118a67fdf",
   "lastOpenFiles": [
+    "Zettelkasten/Adversarial Search.md",
     "Files/Pasted image 20231125101907.png",
     "Zettelkasten/Classical Search PT2.md",
-    "Zettelkasten/Adversarial Search.md",
     "Zettelkasten/Local Search.md",
     "Files/Pasted image 20231124123517.png",
     "Files/Pasted image 20231124123131.png",
@@ -175,7 +175,6 @@
     "Zettelkasten/Introduction to Planning.md",
     "Files/Pasted image 20231120164007.png",
     "Files/Pasted image 20231120115818.png",
-    "Files/Pasted image 20231120115712.png",
     "Zettelkasten/Classical Search.md",
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Denavit-Hartenberg.md",

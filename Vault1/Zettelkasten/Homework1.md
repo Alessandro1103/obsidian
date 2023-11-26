@@ -46,7 +46,7 @@ I conducted pre- and post-pruning performance measurements to ascertain how the 
 To have a better comparison and to understand which method is better suited for this problem, I tried to find a solution using the following methods. 
 
 ### Decision Tree (pruned) vs Decision Tree (not pruned)
-I want to use both the SimpleImputer and StandardScaler methods. 
+I want to use both the SimpleImputer and StandardScaler methods. The fascinating thing we can do with decision trees is to choose between pre-pruning and post-pruning. We can't predict which method is better when the tree needs this kind of operation. So the first result, which I've already checked, is about accuracy, it's easy to check how this value increases during the second test, over the pruned tree.
 
 
 ### Kernel methods

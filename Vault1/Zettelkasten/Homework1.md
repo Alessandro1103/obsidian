@@ -49,10 +49,10 @@ To have a better comparison and to understand which method is better suited for 
 I want to use both the SimpleImputer and StandardScaler methods. The fascinating thing we can do with decision trees is to choose between pre-pruning and post-pruning. We can't predict which method is better when the tree needs this kind of operation. So the first result, which I've already checked, is about accuracy, it's easy to check how this value increases during the second test, over the pruned tree. In fact, it goes from 0.974955 to 0.975495, but how do the false positives and false negatives react to this change? I'm curious to see if the already known classes that are confused with each other improve or get worse. I expect that these values won't get better, I if I don't have a good classification if I can describe them better, why should they improve since I'm generalizing?
 
 First Confusion matrix:
-![[Pasted image 20231126190758.png]]
+
 
 After the pruning:
-![[Pasted image 20231126190832.png]]
+
 
 
 ### Kernel methods
@@ -79,6 +79,7 @@ So, logistic model is performing better overall, with a higher accuracy compared
 
 Considering the nature of logistic regression (a discriminative model) and the generative model, the results align with the typical strengths and weaknesses of these approaches. Logistic regression, being discriminative, often performs well in classification tasks, especially when the decision boundary is complex. On the other hand, generative models might struggle if the underlying data distribution is complex or if there's a mismatch between the assumed distribution and the true distribution of the data.
 
+## Second dataset
 
 
 ---

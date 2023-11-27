@@ -57,6 +57,9 @@ It's very difficult to predict the search runtime, we want to go as deeply as po
 Another solution we can get to is **Alpha Pruning** where, if we know that a subtree is going to return a value that can be already cut since there is another one which is better, we don't reach that subtree.
 ![[Pasted image 20231127173448.png]]
 
+This can be obtained by a parameter, $\alpha$, which is the highest Max-node utility that search has found already on its path to n:
+![[Pasted image 20231127173715.png|300x150]] ![[Pasted image 20231127173809.png|300x150]]
+![[Pasted image 20231127173853.png|300x150]] ![[Pasted image 20231127173915.png|300x150]]
 
 ---
 # References

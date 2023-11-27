@@ -51,13 +51,6 @@ First Confusion matrix:
 After the pruning:
 
 
-
-### Kernel methods
-
-With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. Since I do not know beforehand which methods perform better with which parameters, I can use GridSearch, which is able to find the best hyper parameters for this problem through cross-validation. 
-In order to get a prediction I had to apply the best parameters to the original model. 
-The code run is very simple, it has no special features. 
-
 ### Gaussian methods (generative vs logistic)
 
 Within the realm of regression models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic regression, test predictions take the form of predicted values with associated uncertainties. In practical applications, one often seeks a reliable prediction, achievable as the solution to a decision problem. This problem involves predicted values and a specification of the consequences tied to making particular predictions, encapsulated within the loss function. I thought a discriminative solution might be a better solution because I didn't have to generate any other samples, and for large dataset it suits well. So I started to run the logistic regression code, and in the end I was curious to see if I had made the right choice, so I looked for a solution for a generative model. 
@@ -78,6 +71,15 @@ Considering the nature of logistic regression (a discriminative model) and the g
 
 ## Second dataset
 
+### Decision Tree
+
+In this case, I would just like to observe the variance in the outcomes obtained from an algorithm run on both a standardized dataset and an unmodified dataset.
+
+### Kernel methods
+
+With kernel methods, we don't need to represent each instance of the input space, but we will define a kernel function between them: Linear, Polynomial, RBF, Sigmoid. In this case, the model is not well adaptable. Since I do not know beforehand which methods perform better with which parameters, I can use GridSearch, which is able to find the best hyper parameters for this problem through cross-validation. 
+In order to get a prediction I had to apply the best parameters to the original model. 
+The code run is very simple, it has no special features. 
 
 ---
 # References

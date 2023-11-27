@@ -28,7 +28,7 @@ Addressing the challenge of missing data, I opted for a straightforward and effe
 
 ### Evaluations methods
 
-All the methods I used have the same accuracy or in generale score evaluation to get a good comparison over the results. 
+When testing machine learning algorithms, various methods and measurements are important in order to assess their efficacy. The accuracy metric is fundamental as it evaluates a model's overall performance by measuring the correctness of predictions on a test dataset. The confusion matrix goes further than measuring accuracy. It breaks down the number of predicted true positives, true negatives, false positives, and false negatives, offering insights into how the model performs on each individual class. The classification report adds to this by giving a detailed overview of the precision, recall, and F1 score for each class, giving a better understanding of how the model behaves across different categories. To ensure a reliable evaluation amid dataset variations, we employ cross-validation techniques. These encompass methods such as ShuffleSplit and k-fold cross-validation, enabling an extensive evaluation of model efficiency under different circumstances. This comprehensive evaluation tactic seeks to engender a complete comprehension of machine learning algorithms' capabilities and inadequacies when handling convoluted datasets.
 
 ### Decision Tree
 

@@ -10,6 +10,7 @@ Up: [[ML]]
 ## Introduction
 
 The problem presented is a classification problem, over 2 dataset to train the model, and 2 test, to evaluate the result obtained by the training. To do so, it is necessary to begin importing a large amount of python tools from the python library: including, Pandas, Numpy, Pyplot, Swaborn Istance, Training/Testing/Splitting (from SKLearn), etc.
+The first dataset contains 50000 elements with 100 parameters. 
 
 
 ### First dataset
@@ -61,7 +62,7 @@ With kernel methods, we don't need to represent each instance of the input space
 In order to get a prediction I had to apply the best parameters to the original model. 
 The code run is very simple, it has no special features. 
 
-### Gaussian methods
+### Gaussian methods (generative vs logistic)
 
 Within the realm of regression models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic regression, test predictions take the form of predicted values with associated uncertainties. In practical applications, one often seeks a reliable prediction, achievable as the solution to a decision problem. This problem involves predicted values and a specification of the consequences tied to making particular predictions, encapsulated within the loss function. I thought a discriminative solution might be a better solution because I didn't have to generate any other samples, and for large dataset it suits well. So I started to run the logistic regression code, and in the end I was curious to see if I had made the right choice, so I looked for a solution for a generative model. 
 I also needed to introduce an attribute to the Logistic Regression model because the algorithm was struggling to converge to a single result. In optimization terms, convergence signifies that the algorithm has stabilized, and further iterations do not yield substantial improvements in the model parameters. In logistic regression, convergence happens when the optimization algorithm discovers the model coefficient values that minimize the loss function. 

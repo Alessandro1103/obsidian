@@ -81,5 +81,7 @@ With kernel methods, we don't need to represent each instance of the input space
 In order to get a prediction I had to apply the best parameters to the original model. 
 The code run is very simple, it has no special features. 
 
+
+
 ---
 # References

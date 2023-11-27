@@ -64,15 +64,14 @@ This can be obtained by a parameter, $\alpha$, which is the highest Max-node uti
 In a Min node n, if one of the successors already has utility $\leq \alpha$, then stop considering n. 
 We can consider a spare, $\beta$ the lowest Min node utility that search has found already on its path to n. In a Max node n, if one of the successors already has utility $\geq \alpha$, then stop considering n.
 
-![[Pasted image 20231127174616.png|400]]
-![[Pasted image 20231127174632.png|400]]
-![[Pasted image 20231127174642.png|400]]
-![[Pasted image 20231127174651.png|400]]
-![[Pasted image 20231127174817.png|400]]
-![[Pasted image 20231127174839.png|400]]
-![[Pasted image 20231127174911.png|400]]
-![[Pasted image 20231127174931.png|400]]
-![[Pasted image 20231127175108.png|400]]
+![[Pasted image 20231127174616.png|300]] ![[Pasted image 20231127174632.png|300]]
+![[Pasted image 20231127174642.png|300]] ![[Pasted image 20231127174651.png|300]]
+![[Pasted image 20231127174817.png|300]] ![[Pasted image 20231127174839.png|300]]
+![[Pasted image 20231127174911.png|300]] ![[Pasted image 20231127174931.png|300]]
+![[Pasted image 20231127175108.png|300]] ![[Pasted image 20231127175124.png|300]]
+![[Pasted image 20231127175135.png|300]] ![[Pasted image 20231127175209.png|300]]
+
+
 
 
 ---

@@ -10,9 +10,10 @@ Up: [[ML]]
 ## Introduction
 
 The problem presented is a classification problem, over 2 dataset to train the model, and 2 test, to evaluate the result obtained by the training. To do so, it is necessary to begin importing a large amount of python tools from the python library: including, Pandas, Numpy, Pyplot, Swaborn Istance, Training/Testing/Splitting (from SKLearn), etc.
-The first dataset contains 50000 elements with 100 parameters. 
 
-In the first dataset I want to 
+In the initial phase of this project, focused on the analysis of the first dataset, I want to test how well the decision tree respects a stochastic method. In the middle of this comparison, I can test some knowledge I've acquired during the course that I'm curious about. For example, the difference in performance between the generative and the logistic methods. In the second part, i.e. on data set 2, I would check the difference between using a processing method and not using it. In order not to repeat myself, I would try some other methods.
+
+
 
 ## First Dataset
 
@@ -27,7 +28,7 @@ Addressing the challenge of missing data, I opted for a straightforward and effe
 
 ### Evaluations methods
 
-All the methods I used have the same accuracy or in generale score evaluation to get a good comparison over the results:
+All the methods I used have the same accuracy or in generale score evaluation to get a good comparison over the results. 
 
 ### Decision Tree
 

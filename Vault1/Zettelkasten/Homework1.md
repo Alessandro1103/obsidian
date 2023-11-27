@@ -16,7 +16,6 @@ The problem presented is a classification problem, over 2 dataset to train the m
 
 In the initial phase of this project, focused on the analysis of the first dataset, I want to test how well the decision tree respects a stochastic method. In the middle of this comparison, I can test some knowledge I've acquired during the course that I'm curious about. For example, the difference in performance between the generative and the logistic methods. In the second part, i.e. on data set 2, I would check the difference between using a processing method and not using it. In order not to repeat myself, I would try some other methods.
 
-
 ## First Dataset
 
 The first step taken to work on this homework works on finding a solution. To see if everything was well managed I try to train and test the dataset over a random method. The test is made over the dataset1. In particular I split the data to create 2 set, one for the training and one for the test. Doing so, I could evaluate the results, in order to generate an appropriate model for the blind test. 

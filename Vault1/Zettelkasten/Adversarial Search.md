@@ -54,7 +54,8 @@ It's very difficult to predict the search runtime, we want to go as deeply as po
 - Search more deeply in "unquiet" positions (in chess when we change pieces)
 
 
-
+Another solution we can get to is **Alpha Pruning** where, if we know that a subtree is going to return a value that can be already cut since there is another one which is better, we don't reach that subtree.
+![[Pasted image 20231127173448.png]]
 
 
 ---

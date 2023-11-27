@@ -74,7 +74,7 @@ Considering the nature of logistic regression (a discriminative model) and the g
 
 ### Decision Tree
 
-In this case, I would just like to observe the variance in the outcomes obtained from an algorithm run on both a standardized dataset and an unmodified dataset.
+In this case, I would just like to observe the variance in the outcomes obtained from an algorithm run on both a standardized dataset and an unmodified dataset. 
 
 ### Kernel methods
 

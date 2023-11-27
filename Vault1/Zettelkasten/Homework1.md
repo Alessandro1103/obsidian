@@ -74,7 +74,7 @@ Considering the nature of logistic regression (a discriminative model) and the g
 
 ### Decision Tree
 
-In this case, I would just like to observe the variance in the outcomes obtained from an algorithm run on both a standardized dataset and an unmodified dataset. 
+In this case, I would just like to observe the variance in the outcomes obtained from an algorithm run on both a standardized dataset and an unmodified dataset. I also employed a technique that limits or caps values to set boundaries, which mitigates the impact of extreme values on the data. The processed information is trimmed, which signifies that numbers below the lowest point are altered to the lowest limit, and numbers beyond the highest point are modified to the highest limit. This halts unusual values from affecting the analysis whilst preserving the primary data distribution. So in this case the pre processing methods are more and more aggressive.
 
 ### Kernel methods
 

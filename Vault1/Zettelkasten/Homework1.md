@@ -99,6 +99,8 @@ I chose to remove in both directions because if outliers were only removed in on
 Accuracy of the model: 0.949598
 Accuracy of the pre processed model: 0.949742
 
+The differences between the two models are relatively small, suggesting that the pre processing steps may not have significantly impacted overall model performance.
+
 ### VS Kernel methods
 
 

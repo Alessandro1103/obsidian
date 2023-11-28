@@ -30,7 +30,15 @@ We require that $C_{\{u,v\}}, C_{\{x,y\}} \in C \implies \{u, v\} \neq \{x, y\}$
 Example:
 ![[Pasted image 20231128192052.png]]
 
-An **Unary Constraint** is a relation $C_v$ over a single variable, i.e., a subset $C_v \subseteq D_v$ of that variable's domain.
+An **Unary Constraint** is a relation $C_v$ over a single variable, i.e., a subset $C_v \subseteq D_v$ of that variable's domain. 
+
+## Consistency
+
+Definition of **Assignment**:
+Let $\gamma = (V, D, C)$ be a constraint network. A partial assignment is a function $a : V' \rightarrow \cup_{v \in V} D_v$ where V ′ ⊆ V and $a(v) \in D_v$ for all $v \in V'$. If $V′ = V$, then $a$ is a total assignment, or
+assignment in short.
+→ A partial assignment assigns some variables to values from their
+respective domains. A total assignment is defined on all variables.
 
 
 ---

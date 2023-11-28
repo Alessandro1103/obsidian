@@ -51,7 +51,13 @@ Let $\gamma = (V, D, C)$ be a constraint network, and let $a$ be a partial assig
 
 If $a$ can be extended to a solution then $a$ is consistent.
 
+CSP is NP-complete:
+It is NP-complete to decide whether or not a given constraint network $\gamma$ is solvable. (we have to guess it)
 
+## Backtracking
+Search: Depth-first enumeration of partial assignments
+Backtracking: Backtrack at inconsistent partial assignments
+Inference: Deducing tighter equivalent constraints to reduce search space
 
 ---
 # References

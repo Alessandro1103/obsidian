@@ -13,6 +13,15 @@ Given:
 Find:
 	An assignment of variables to values
 
+## Networks
+
+A constraint network (constraint satisfaction problem (CSP)) is defined by:
+- A finite set of variables
+- A finite domain for each variable
+- A set of constraints
+
+Definition of **Constraint Network**: 
+A binary constraint network is a triple \gamma = (V, D, C) where:
 
 
 ---

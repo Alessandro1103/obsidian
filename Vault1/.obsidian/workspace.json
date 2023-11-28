@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c69b6fcf058a3568",
+        "id": "d29c0bf42dc6e5c3",
         "type": "tabs",
         "children": [
           {
-            "id": "3721071118a67fdf",
+            "id": "2d3dbd12e165b806",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,8 +152,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3721071118a67fdf",
+  "active": "2d3dbd12e165b806",
   "lastOpenFiles": [
+    "Files/Pasted image 20231123230229.png",
+    "Zettelkasten/Homework1.md",
     "Files/Pasted image 20231128153024.png",
     "Files/Pasted image 20231128153015.png",
     "Files/Pasted image 20231128152537.png",
@@ -165,8 +167,6 @@
     "Files/Pasted image 20231127175108.png",
     "Files/Pasted image 20231127174931.png",
     "Files/Pasted image 20231127174911.png",
-    "Files/Pasted image 20231127174839.png",
-    "Zettelkasten/Homework1.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Local Search.md",
     "Zettelkasten/Exteroceptive Sensors.md",

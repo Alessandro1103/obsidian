@@ -62,6 +62,19 @@ Inference: Deducing tighter equivalent constraints to reduce search space
 Naive Backtracking: we have no inference.
 Backtracking = Recursively instantiate variables one-by-one, backing up out of a search branch if the current partial assignment is already inconsistent.
 
+## Variable and Value Ordering
+
+Naive backtracking does not specify in which order the variables are considered (which influences the search space size)
+A strategy can be: most constrained variable first. 
+![[Pasted image 20231128224451.png]]
+or: most constraining variable fi
+
+
+
+Naive backtracking does not specify in which order the values of the chosen variable are considered. 
+
+
+
 
 ---
 # References

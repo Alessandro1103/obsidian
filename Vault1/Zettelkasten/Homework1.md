@@ -87,7 +87,10 @@ The code run is very simple, it has no special features.
 ![[Pasted image 20231128153015.png]]
 ![[Pasted image 20231128153024.png]]
 
-Both confusion matrices show high values on the diagonal (true positives), indicating that the model performs well in correctly classifying instances for each class. Comparing the two confusion matrices (with and without pre processing), it seems that pre processing hasn't dramatically changed the model's performance. The patterns of correct and incorrect classifications appear similar in both cases. Taking into account the cross-validation, we obtain for the first model 
+Both confusion matrices show high values on the diagonal (true positives), indicating that the model performs well in correctly classifying instances for each class. Comparing the two confusion matrices (with and without pre processing), it seems that pre processing hasn't dramatically changed the model's performance. The patterns of correct and incorrect classifications appear similar in both cases. Taking into account the cross-validation, we obtain by shuffling all the data in 5 parts and then taking the mean of all the accuracies: 
+
+Accuracy of the model: 0.974859
+Accuracy of the pre processed model: 0.974523
 
 
 

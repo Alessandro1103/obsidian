@@ -76,6 +76,8 @@ Alpha beta search has two issues:
 - It needs an accurate/fast evaluation function
 - Has a very large branching factor, meaning there are many possible moves at each turn, making the game tree expansive and challenging to explore fully.
 
+Last algorithm is the Monte Carlo Tree:
+How to estimate the value of a state? Average utility over a number of simulations of complete games starting from the state (playout). A playout policy needs to bias the moves towards good ones. 
 
 ---
 # References

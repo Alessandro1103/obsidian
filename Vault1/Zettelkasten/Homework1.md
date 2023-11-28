@@ -85,7 +85,7 @@ The code run is very simple, it has no special features.
 ### Decision Tree vs Decision Tree pre processed
 
 ![[Pasted image 20231128153015.png]]
-
+![[Pasted image 20231128153024.png]]
 
 
 

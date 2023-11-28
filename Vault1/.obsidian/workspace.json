@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Homework1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,7 @@
   },
   "active": "3721071118a67fdf",
   "lastOpenFiles": [
+    "Zettelkasten/Adversarial Search.md",
     "Files/Pasted image 20231127175209.png",
     "Files/Pasted image 20231127175135.png",
     "Files/Pasted image 20231127175124.png",
@@ -164,9 +165,7 @@
     "Files/Pasted image 20231127174817.png",
     "Files/Pasted image 20231127174651.png",
     "Files/Pasted image 20231127174642.png",
-    "Files/Pasted image 20231127174632.png",
     "Zettelkasten/Homework1.md",
-    "Zettelkasten/Adversarial Search.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Local Search.md",
     "Zettelkasten/Exteroceptive Sensors.md",

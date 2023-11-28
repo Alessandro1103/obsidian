@@ -93,10 +93,10 @@ Accuracy of the model: 0.974859
 Accuracy of the pre processed model: 0.974523
 
 It seems that the accuracy decreases with the second model, which may be a result of the overfitting cut. We probably deleted too much data. Since the difference is very small, it could be interesting if we push this situation and try to cut more to see if this is really the problem.
-We have looked at the 1 and 99 percentiles, what happens if we move this situation to the 5 and 95 percentiles?
+We have looked at the 1 and 99 percentiles, what happens if we move this situation to the 10 and 95 percentiles?
 
-
-
+Accuracy of the model: 0.974871
+Accuracy of the pre processed model: 0.974715
 
 ---
 # References

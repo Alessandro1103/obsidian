@@ -43,7 +43,8 @@ Definition of **Consistency**:
 Let $\gamma = (V, D, C)$ be a constraint network, and let $a$ be a partial assignment. We say that $a$ is inconsistent if there exist variables $u, v \in V$ on which $a$ is defined, with $C_{uv} \in C$ and
 $(a(u), a(v))  \notin C_{uv}$. In that case, $a$ violates the constraint $C_{uv}$. We say that $a$ is consistent if it is not inconsistent.
 
-
+Definition of **Solution**:
+Let $\gamma = (V, D, C)$ be a constraint network. If $a$ is a total consistent assignment, then $a$ is a solution for γ. If a solution to $\gamma$ exists, then $\gamma$ is solvable; otherwise, $\gamma$ is inconsistent.
 
 
 

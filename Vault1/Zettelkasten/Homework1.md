@@ -94,9 +94,10 @@ Accuracy of the pre processed model: 0.974523
 
 It seems that the accuracy decreases with the second model, which may be a result of the overfitting cut. We probably deleted too much data. Since the difference is very small, it could be interesting if we push this situation and try to cut more to see if this is really the problem.
 We have looked at the 1 and 99 percentiles, what happens if we move this situation to the 15 and 85 percentiles?
+I chose to remove in both directions because if outliers were only removed in one direction (for example, only high values), there could be a potential imbalance in the dataset. This could affect the ability of the model to generalize well to new data.
 
-Accuracy of the model: 0.975435
-Accuracy of the pre processed model: 0.974775
+Accuracy of the model: 0.974354
+Accuracy of the pre processed model: 0.974679
 
 ---
 # References

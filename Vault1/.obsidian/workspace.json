@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/CSP PT1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/CSP PT1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/CSP PT1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,8 +154,9 @@
   },
   "active": "2d3dbd12e165b806",
   "lastOpenFiles": [
-    "Files/Pasted image 20231123230229.png",
     "Zettelkasten/Homework1.md",
+    "Zettelkasten/CSP PT1.md",
+    "Files/Pasted image 20231123230229.png",
     "Files/Pasted image 20231128153024.png",
     "Files/Pasted image 20231128153015.png",
     "Files/Pasted image 20231128152537.png",
@@ -166,7 +167,6 @@
     "Files/Pasted image 20231127175124.png",
     "Files/Pasted image 20231127175108.png",
     "Files/Pasted image 20231127174931.png",
-    "Files/Pasted image 20231127174911.png",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Local Search.md",
     "Zettelkasten/Exteroceptive Sensors.md",

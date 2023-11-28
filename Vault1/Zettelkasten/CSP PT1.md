@@ -69,11 +69,12 @@ A strategy can be: **most constrained variable first**, always pick a variable $
 ![[Pasted image 20231128224451.png]]
 by choosing a most constrained variable v first, we reduce the branching factor (number of sub-trees generated for v) and thus reduce the size of our search tree
 
-or: **most constraining variable first**, always pick $v$ with maximal $|{u ∈ V | a(u) is undefined, C_{uv} \in C}|$
+or: **most constraining variable first**, always pick $v$ with maximal $|{u \in V | a(u)\ is\ undefined, C_{uv} \in C}|$
 ![[Pasted image 20231128224536.png]]
 by choosing a most constraining variable first, we detect inconsistencies earlier on and thus reduce the size of our search tree
 
-or: **least constraining value first**
+or: **least constraining value first**, for variable $v$, always pick $d \in D_v$ with
+minimal $|{d'\ |\ d' \in D_u, a(u'\ is\ undefined, C_{uv} \in C, (d', d)  \notin C_{uv}}|$
 ![[Pasted image 20231128224734.png]]
 by choosing a least constraining value first, we increase the chances to not rule out the solutions below the current node
 

@@ -30,7 +30,7 @@ We require that $C_{\{u,v\}}, C_{\{x,y\}} \in C \implies \{u, v\} \neq \{x, y\}$
 Example:
 ![[Pasted image 20231128192052.png]]
 
-
+An **Unary Constraint** is a relation $C_v$ over a single variable, i.e., a subset $C_v \subseteq D_v$ of that variable's domain.
 
 
 ---

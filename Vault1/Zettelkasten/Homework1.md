@@ -97,7 +97,7 @@ We have looked at the 1 and 99 percentiles, what happens if we move this situati
 I chose to remove in both directions because if outliers were only removed in one direction (for example, only high values), there could be a potential imbalance in the dataset. This could affect the ability of the model to generalize well to new data.
 
 Accuracy of the model: 0.949598
-Accuracy of the pre processed model: 0.974679
+Accuracy of the pre processed model: 0.949742
 
 ### VS Kernel methods
 

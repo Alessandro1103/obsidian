@@ -35,11 +35,13 @@ An **Unary Constraint** is a relation $C_v$ over a single variable, i.e., a subs
 ## Consistency
 
 Definition of **Assignment**:
-Let $\gamma = (V, D, C)$ be a constraint network. A partial assignment is a function $a : V' \rightarrow \cup_{v \in V} D_v$ where V ′ ⊆ V and $a(v) \in D_v$ for all $v \in V'$. If $V′ = V$, then $a$ is a total assignment, or
+Let $\gamma = (V, D, C)$ be a constraint network. A partial assignment is a function $a : V' \rightarrow \bigcup_{v \in V} D_v$ where V ′ ⊆ V and $a(v) \in D_v$ for all $v \in V'$. If $V′ = V$, then $a$ is a total assignment, or
 assignment in short.
-→ A partial assignment assigns some variables to values from their
-respective domains. A total assignment is defined on all variables.
+A partial assignment assigns some variables to values from their respective domains. A total assignment is defined on all variables. 
 
+Definition of **Consistency**:
+Let γ = (V, D, C) be a constraint network, and let a be a partial assignment. We say that a is inconsistent if there exist variables u, v ∈ V on which a is defined, with $C_{uv} \in C$ and
+$(a(u), a(v))  \in C_{uv}$. In that case, a violates the constraint $C_{uv}$. We say that a is consistent if it is not inconsistent.
 
 ---
 # References

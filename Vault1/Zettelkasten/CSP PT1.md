@@ -59,7 +59,9 @@ Search: Depth-first enumeration of partial assignments
 Backtracking: Backtrack at inconsistent partial assignments
 Inference: Deducing tighter equivalent constraints to reduce search space
 
-Naive Backtracking: we have no inference, 
+Naive Backtracking: we have no inference.
+Backtracking = Recursively instantiate variables one-by-one, backing up out of a search branch if the current partial assignment is already inconsistent.
+
 
 ---
 # References

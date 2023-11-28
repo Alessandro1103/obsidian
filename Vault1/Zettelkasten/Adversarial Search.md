@@ -84,5 +84,11 @@ playouts do we allocate to each position?
 - Pure Monte Carlo Search does simulations starting from the current state of the game and tracks which of the possible moves has the highest win percentage.
 - Selection policy focuses the computation on important parts of the game tree, balancing exploration and exploitation.
 
+Monte-Carlo Tree Search repeatedly follows the following steps:
+1. Selection: traverse the tree starting at the root, applying the selection policy to choose successors until reaching a leaf node that has not been fully expanded.
+2. Expansion: Grow tree by generating a new child of the leaf node by applying a new action.
+3. Simulation: From the newly generated child node, perform a run of the game, selecting moves for both players according to the playout policy, to obtain the final reward.
+4. Back-propagation: Use the result of the simulation to update all the search tree nodes going up to the root.
+When time to decide is over, choose the “best” move and play it.
 ---
 # References

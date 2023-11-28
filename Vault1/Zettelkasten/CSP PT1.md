@@ -27,6 +27,11 @@ A binary constraint network is a triple $\gamma = (V, D, C)$ where:
 - $C = \{C_{\{u,v\}}\}$ is a set of binary relations (constraints), where for each C_{\{u,v\}} we have $u, v \in V$ , $u \neq v$, and $C_{\{u,v\}} \subseteq D_u × D_v$ .
 We require that $C_{\{u,v\}}, C_{\{x,y\}} \in C \implies \{u, v\} \neq \{x, y\}$. We will write $C_{uv}$ instead of $C_{\{u,v\}}$ for brevity.
 
+Example:
+![[Pasted image 20231128192052.png]]
+
+
+
 
 ---
 # References

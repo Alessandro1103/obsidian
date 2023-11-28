@@ -87,7 +87,7 @@ The code run is very simple, it has no special features.
 ![[Pasted image 20231128153015.png]]
 ![[Pasted image 20231128153024.png]]
 
-
+Both confusion matrices show high values on the diagonal (true positives), indicating that the model performs well in correctly classifying instances for each class. Comparing the two confusion matrices (with and without pre processing), it seems that pre processing hasn't dramatically changed the model's performance. The patterns of correct and incorrect classifications appear similar in both cases. 
 
 
 

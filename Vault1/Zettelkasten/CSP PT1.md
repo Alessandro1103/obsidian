@@ -21,7 +21,10 @@ A constraint network (constraint satisfaction problem (CSP)) is defined by:
 - A set of constraints
 
 Definition of **Constraint Network**: 
-A binary constraint network is a triple \gamma = (V, D, C) where:
+A binary constraint network is a triple $\gamma = (V, D, C)$ where:
+- $V = \{v_1, . . . , v_n\}$ is a finite set of variables.
+- $D = \{D_{v1} , . . . , D_{vn}\}$ is a corresponding set of finite domains.
+- $C = \{C_{\{u,v\}}\}$ is a set of binary relations (constraints), where for each C_{\{u,v\}} we have u, v ∈ V , u 6 = v, and $C_{\{u,v\}} \subseteq D_u × D_v$ . We require that C{u,v}, C{x,y} ∈ C =⇒ {u, v} 6 = {x, y}. We will write $C_{uv}$ instead of $C_{\{u,v\}}$ for brevity.
 
 
 ---

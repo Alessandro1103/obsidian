@@ -49,6 +49,9 @@ Let $\gamma = (V, D, C)$ be a constraint network. If $a$ is a total consistent a
 Definition of **Extensibility**:
 Let $\gamma = (V, D, C)$ be a constraint network, and let $a$ be a partial assignment. We say that $a$ can be extended to a solution if there exists a solution $a'$ that agrees with $a$ on the variables where $a$ is defined.
 
+If $a$ can be extended to a solution then $a$ is consistent.
+
+
 
 ---
 # References

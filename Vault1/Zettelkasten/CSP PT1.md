@@ -46,6 +46,8 @@ $(a(u), a(v))  \notin C_{uv}$. In that case, $a$ violates the constraint $C_{uv}
 Definition of **Solution**:
 Let $\gamma = (V, D, C)$ be a constraint network. If $a$ is a total consistent assignment, then $a$ is a solution for γ. If a solution to $\gamma$ exists, then $\gamma$ is solvable; otherwise, $\gamma$ is inconsistent.
 
+Definition of **Extensibility**:
+Let $\gamma = (V, D, C)$ be a constraint network, and let $a$ be a partial assignment. We say that $a$ can be extended to a solution if there exists a solution $a'$ that agrees with $a$ on the variables where $a$ is defined.
 
 
 ---

@@ -79,5 +79,10 @@ Alpha beta search has two issues:
 Last algorithm is the Monte Carlo Tree:
 How to estimate the value of a state? Average utility over a number of simulations of complete games starting from the state (playout). A playout policy needs to bias the moves towards good ones. 
 
+$\rightarrow$From what positions do we start the playouts, and how many
+playouts do we allocate to each position?
+- Pure Monte Carlo Search does simulations starting from the current state of the game and tracks which of the possible moves has the highest win percentage.
+- Selection policy focuses the computation on important parts of the game tree, balancing exploration and exploitation.
+
 ---
 # References

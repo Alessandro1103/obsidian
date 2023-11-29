@@ -90,19 +90,7 @@ The code run is very simple, it has no special features.
 
 ![[Pasted image 20231129131423.png]]
 
-Both confusion matrices show high values on the diagonal (true positives), indicating that the model performs well in correctly classifying instances for each class. Comparing the two confusion matrices (with and without pre processing), it seems that pre processing hasn't dramatically changed the model's performance. The patterns of correct and incorrect classifications appear similar in both cases. Taking into account the cross-validation, we obtain by shuffling all the data in 5 parts and then taking the mean of all the accuracies: 
 
-Accuracy of the model: 0.974859
-Accuracy of the pre processed model: 0.974523
-
-It seems that the accuracy decreases with the second model, which may be a result of the overfitting cut. We probably deleted too much data. Since the difference is very small, it could be interesting if we push this situation and try to cut more to see if this is really the problem.
-We have looked at the 1 and 99 percentiles, what happens if we move this situation to the 15 and 85 percentiles?
-I chose to remove in both directions because if outliers were only removed in one direction (for example, only high values), there could be a potential imbalance in the dataset. This could affect the ability of the model to generalize well to new data.
-
-Accuracy of the model: 0.949598
-Accuracy of the pre processed model: 0.949742
-
-The differences between the two models are relatively small, suggesting that the pre processing steps may not have significantly impacted overall model performance.
 
 ### VS Kernel methods
 

@@ -90,6 +90,8 @@ The code run is very simple, it has no special features.
 
 ![[Pasted image 20231129131423.png]]
 
+In this situation I provided 3 function to preprocess the data, in particular over the standardization and the SimpleImputer, I performed a cut over the overfitting data. How to cut is up to me, on the first try I tried to cut everything above the 80th percentile. This can unbalance the data, in fact the confusion matrices give the worst solutions. If I cut less, we'll see what happens.
+
 
 
 ### VS Kernel methods

@@ -52,6 +52,8 @@ First Confusion matrix:
 After the pruning:
 ![[Pasted image 20231129124708.png]]
 
+The non-pruned tree exhibits signs of potential overfitting, with higher values off the diagonal, suggesting sensitivity to training data specifics. In contrast, the pruned decision tree, achieved through regularization techniques, displays improved generalization. It effectively mitigates overfitting, as reflected in the reduced off-diagonal values.
+
 ### Gaussian methods (generative vs logistic)
 
 Within the realm of regression models, I explored the Gaussian method to ascertain if a stochastic process could yield diverse results. In probabilistic regression, test predictions take the form of predicted values with associated uncertainties. In practical applications, one often seeks a reliable prediction, achievable as the solution to a decision problem. This problem involves predicted values and a specification of the consequences tied to making particular predictions, encapsulated within the loss function. I thought a discriminative solution might be a better solution because I didn't have to generate any other samples, and for large dataset it suits well. So I started to run the logistic regression code, and in the end I was curious to see if I had made the right choice, so I looked for a solution for a generative model. 

@@ -100,6 +100,7 @@ Both models show impressive overall accuracy. Model 1 attained a 94.99% accuracy
 
 ### VS Kernel methods
 
+This was the most time-consuming model to compile. 
 
 
 ---

@@ -93,8 +93,10 @@ The code run is very simple, it has no special features.
 In this situation I provided 3 function to preprocess the data, in particular over the standardization and the SimpleImputer, I performed a cut over the overfitting data. How to cut is up to me, on the first try I tried to cut everything above the 80th percentile. This can unbalance the data, in fact the confusion matrices give the worst solutions. If I cut less, we'll see what happens.
 
 In this implementation, I set the limits to 0 and 99 percentiles to eliminate what I think are outliers.
-![[Pasted image 20231129140737.png]]
+![[Pasted image 20231129140737.png]] ![[Pasted image 20231129141810.png]]
 ![[Pasted image 20231129140747.png]]
+![[Pasted image 20231129141756.png]]
+Both models show impressive overall accuracy. Model 1 attained a 94.99% accuracy, while Model 2 slightly exceeded it at 95.04%. Assessing each class's precision, recall, and F1-score, both models generally deliver excellent results with slight variations. Model 2 reveals slightly enhanced metrics in multiple classes, indicating its subtle refinement in the ability to classify instances accurately. The overall performance of Model 2 is slightly better than Model 1, as shown by the macro and weighted averages which provide a summary measure across all classes.
 
 ### VS Kernel methods
 

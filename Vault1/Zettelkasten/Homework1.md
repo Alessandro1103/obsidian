@@ -86,8 +86,9 @@ The code run is very simple, it has no special features.
 
 ### Decision Tree vs Decision Tree pre processed
 
-![[Pasted image 20231128153015.png]]
-![[Pasted image 20231128153024.png]]
+![[Pasted image 20231129131434.png]]
+
+![[Pasted image 20231129131423.png]]
 
 Both confusion matrices show high values on the diagonal (true positives), indicating that the model performs well in correctly classifying instances for each class. Comparing the two confusion matrices (with and without pre processing), it seems that pre processing hasn't dramatically changed the model's performance. The patterns of correct and incorrect classifications appear similar in both cases. Taking into account the cross-validation, we obtain by shuffling all the data in 5 parts and then taking the mean of all the accuracies: 
 

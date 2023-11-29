@@ -47,10 +47,10 @@ To have a better comparison and to understand which method is better suited for 
 I want to use both the SimpleImputer and StandardScaler methods. The fascinating thing we can do with decision trees is to choose between pre-pruning and post-pruning. We can't predict which method is better when the tree needs this kind of operation. So the first result, which I've already checked, is about accuracy, it's easy to check how this value increases during the second test, over the pruned tree. In fact, it goes from ??? to ???, but how do the false positives and false negatives react to this change? I'm curious to see if the already known classes that are confused with each other improve or get worse. I expect that these values won't get better, I if I don't have a good classification if I can describe them better, why should they improve since I'm generalizing?
 
 First Confusion matrix:
-
+![[Pasted image 20231129124656.png]]
 
 After the pruning:
-
+![[Pasted image 20231129124708.png]]
 
 ### Gaussian methods (generative vs logistic)
 

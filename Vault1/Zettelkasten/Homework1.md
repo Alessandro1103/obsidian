@@ -11,7 +11,7 @@ Up: [[ML]]
 
 ## Introduction
 
-The project's objective was to experiment with a dataset in order to test machine learning algorithms' ability to identify patterns within the data. The main aim was to create and hand in a detailed report that presents findings obtained from studying the selected dataset, and systematically analyzing the algorithms used. 
+The project's objective was to experiment with a dataset in order to test machine learning algorithms' ability to identify patterns within the data. The main aim was to create and hand in a detailed report that presents findings obtained from studying the selected dataset, and systematically analysing the algorithms used. 
 The problem presented is a classification problem, over 2 dataset to train the model, and 2 test, to evaluate the result obtained by the training. To do so, it is necessary to begin importing a large amount of python tools from the python library: including, Pandas, Numpy, Pyplot, Swaborn Istance, Training/Testing/Splitting (from SKLearn), etc.
 
 In the initial phase of this project, focused on the analysis of the first dataset, I want to test how well the decision tree respects a stochastic method. In the middle of this comparison, I can test some knowledge I've acquired during the course that I'm curious about. For example, the difference in performance between the generative and the logistic methods. In the second part, i.e. on data set 2, I would check the difference between using a processing method and not using it. In order not to repeat myself, I would try some other methods.

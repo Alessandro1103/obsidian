@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -154,6 +153,8 @@
   },
   "active": "3721071118a67fdf",
   "lastOpenFiles": [
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Homework1.md",
     "Files/Pasted image 20231128152537.png",
     "Files/Pasted image 20231128152526.png",
     "Files/Pasted image 20231127175209.png",
@@ -164,7 +165,6 @@
     "Files/Pasted image 20231127174911.png",
     "Files/Pasted image 20231127174839.png",
     "Files/Pasted image 20231127174817.png",
-    "Files/Pasted image 20231127174651.png",
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/pull.md",
@@ -181,8 +181,6 @@
     "Zettelkasten/Discorso.md",
     "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/First Computer.md",
-    "Zettelkasten/Homework1.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Intelligent Agents.md",
     "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/Mermaid.md",

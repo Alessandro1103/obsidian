@@ -25,6 +25,7 @@ Up:
 - [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
 - [Sveglia orologio](https://www.amazon.it/dp/B01EZ77IOY/?coliid=I1235DHRQGHDMG&colid=FQV4Z0CWW68E&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
 - [Mi Vacuum Cleaner Mini](https://www.mi.com/it/product/mi-vacuum-cleaner-mini-eu/)
+- [Xiaomi Portable Electric Air Compressor 2](https://www.mi.com/it/product/xiaomi-portable-electric-air-compressor-2/)
 
 ---
 # References

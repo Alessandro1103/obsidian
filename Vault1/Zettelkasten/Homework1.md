@@ -100,7 +100,9 @@ Both models show impressive overall accuracy. Model 1 attained a 94.99% accuracy
 
 This was the most time-consuming model to compile. 
 
-# Conclusion
+## Conclusion
+
+In this report, we obtained several results from various methods and saw how these techniques could be improved by using preprocessing methods and selecting the right hyperparameters for them. It's crucial to maintain certain aspects of the dataset's balance. This is illustrated in the comparison between the decision tree and the standardized decision tree. If we alter or delete some data, the outcomes are likely to suffer. Other potentially useful methods exist that yield high results, but the more we use them, the more time they consume. Like for example, using kernel methods with grid search classification, took over 10 hours.
 
 ---
 # References

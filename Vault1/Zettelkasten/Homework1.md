@@ -44,7 +44,9 @@ I conducted pre- and post-pruning performance measurements to ascertain how the 
 To have a better comparison and to understand which method is better suited for this problem, I tried to find a solution using the following methods. 
 
 ### Decision Tree (pruned) vs Decision Tree (not pruned)
-I want to use both the SimpleImputer and StandardScaler methods. The fascinating thing we can do with decision trees is to choose between pre-pruning and post-pruning. We can't predict which method is better when the tree needs this kind of operation. So the first result, which I've already checked, is about accuracy, it's easy to check how this value increases during the second test, over the pruned tree. In fact, it goes from 0.974871 to 0.978931, but how do the false positives and false negatives react to this change? I'm curious to see if the already known classes that are confused with each other improve or get worse. I expect that these values won't get better, if I don't have a good classification how can I describe them better, why should they improve since I'm generalizing?
+I want to use both the SimpleImputer and StandardScaler methods in my analysis. What appeals to me about decision trees is the ability to choose between pre-pruning and post-pruning. Unfortunately, it's difficult to predict which method will be superior when the tree requires such an operation.
+
+The first result, which I have already verified, focuses on accuracy. It's easy to see the increase in accuracy during the second test over the pruned tree, from 0.974871 to 0.978931. However, my curiosity extends to understanding how false positives and false negatives respond to this change.
 
 First Confusion matrix:
 ![[Pasted image 20231129124656.png]]
@@ -88,7 +90,7 @@ The code run is very simple, it has no special features.
 
 ![[Pasted image 20231129131434.png]]
 
-![[Pasted image 20231129131423.png]]
+
 
 In this situation I provided 3 function to preprocess the data, in particular over the standardization and the SimpleImputer, I performed a cut over the overfitting data. How to cut is up to me, on the first try I tried to cut everything above the 80th percentile. This can unbalance the data, in fact the confusion matrices give the worst solutions. If I cut less, we'll see what happens.
 

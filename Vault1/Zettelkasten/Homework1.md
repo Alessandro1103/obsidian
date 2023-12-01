@@ -98,7 +98,7 @@ Both models show impressive overall accuracy. Model 1 attained a 94.99% accuracy
 
 ### VS Kernel methods
 
-This was the most time-consuming model to compile. 
+As I used a grid search classification, this model took more time. I tried several times to understand if there was a problem with the code as it took over 10 hours to compile. I then decided to split the grid search into polinomial and non-polinomial grid searches, which reduced the time taken. In this configuration, the polinomial search took 203 minutes and the non-polinomial took 166 minutes. 
 
 ## Conclusion
 

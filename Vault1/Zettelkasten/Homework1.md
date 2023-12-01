@@ -100,6 +100,16 @@ Both models show impressive overall accuracy. Model 1 attained a 94.99% accuracy
 
 As I used a grid search classification, this model took more time. I tried several times to understand if there was a problem with the code as it took over 10 hours to compile. I then decided to split the grid search into polinomial and non-polinomial grid searches, which reduced the time taken. In this configuration, the polinomial search took 203 minutes and the non-polinomial took 166 minutes. 
 
+After this results, kernel methods:
+
+![[Pasted image 20231201035558.png]]
+![[Pasted image 20231201035609.png]]
+
+
+The Decision Tree model exhibits a commendable accuracy of 95.05%. It demonstrates robust precision across various classes, with particularly high values for classes 1, 2, and 9. However, there is a slight decline in precision for classes 4 and 6, indicating some challenges in correctly identifying instances of these classes. The model excels in recall for classes 2, 7, and 9, but experiences lower recall for classes 4 and 6.
+
+On the other hand, the Kernel Methods model outperforms with an impressive accuracy of 97.31%. It achieves exceptional precision across all classes, showcasing a superior ability to correctly classify instances. Notably, the precision for class 4 has significantly improved compared to the Decision Tree model. The model also demonstrates high recall values for all classes, indicating a comprehensive ability to capture instances of each class.
+
 ## Conclusion
 
 In this report, we obtained several results from various methods and saw how these techniques could be improved by using preprocessing methods and selecting the right hyperparameters for them. It's crucial to maintain certain aspects of the dataset's balance. This is illustrated in the comparison between the decision tree and the standardized decision tree. If we alter or delete some data, the outcomes are likely to suffer. Other potentially useful methods exist that yield high results, but the more we use them, the more time they consume. Like for example, using kernel methods with grid search classification, took over 6 hours.

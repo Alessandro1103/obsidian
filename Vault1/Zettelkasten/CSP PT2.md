@@ -20,7 +20,8 @@ $\gamma'$ is *strictly tighter* than $\gamma$, $\gamma \sqsubset \gamma$, if at 
 ==(I.E we have more constraints)==
 
 **Theorem**:
-Theorem. Let $\gamma$ and $\gamma'$ be constraint networks s.t. $\gamma' \equiv \gamma$ and \gamma' \sqsuv \gamma$. Then, \gamma' has the same solutions as \gamma but fewer consistent partial assignments than \gamma.
+Theorem. Let $\gamma$ and $\gamma'$ be constraint networks s.t. $\gamma' \equiv \gamma$ and $\gamma' \sqsubset \gamma$. Then, $\gamma'$ has the same solutions as $\gamma$ but fewer consistent partial assignments than $\gamma$.
+
 
 
 

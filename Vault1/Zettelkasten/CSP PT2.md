@@ -24,9 +24,13 @@ Theorem. Let $\gamma$ and $\gamma'$ be constraint networks s.t. $\gamma' \equiv 
 
 The more complex the inference, the smaller the number of search nodes, but the larger the runtime needed at each node. We can apply the inference before search starts or at every recursive call of backtracking. 
 
-Forward Checking (Inference, version1):
+**Forward Checking** (Inference, version1):
 for each variable choose a domain variable, and upgrade all the other variable following the constraints.
 
+Definition **Arc Consistency**: 
+Let $\gamma = (V, D, C)$ be a constraint network. 
+1. A variable $u \in V$ is arc consistent relative to another variable v \in V if either $C_{uv} \notin C$, or for every value d \in Du there exists a value d 0 \in Dv such that $(d, d') \in C_{uv}$. 
+2. The network \gamma is arc consistent if every variable u \in V is arc consistent relative to every other variable v \in V **.
 
 
 

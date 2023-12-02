@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Report.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework1.md",
+                "file": "Zettelkasten/Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,11 +154,14 @@
   },
   "active": "1036cb35c9cc5853",
   "lastOpenFiles": [
+    "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/Report.md",
+    "Zettelkasten/CSP PT1.md",
+    "Zettelkasten/Homework1.md",
     "Files/Pasted image 20231201035609.png",
     "Files/Pasted image 20231201035558.png",
     "Zettelkasten/Exteroceptive Sensors.md",
     "Zettelkasten/Local Search.md",
-    "Zettelkasten/CSP PT1.md",
     "Zettelkasten/Adversarial Search.md",
     "Files/Pasted image 20231129141810.png",
     "Files/Pasted image 20231129141756.png",
@@ -168,11 +171,9 @@
     "Files/Pasted image 20231129131423.png",
     "Files/Pasted image 20231129124708.png",
     "Files/Pasted image 20231129124656.png",
-    "Files/Pasted image 20231128224734.png",
     "Zettelkasten/Introduction to Planning.md",
     "Files/Recording 20231123223359.webm",
     "Zettelkasten/Homework1 (cose da aggiungere).md",
-    "Zettelkasten/Homework1.md",
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Intelligent Agents.md",
@@ -190,7 +191,6 @@
     "Templates/Base.md",
     "Zettelkasten/Predicate Logic Reasoning.md",
     "Zettelkasten/Appunti.md",
-    "Zettelkasten/Transmission.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",

@@ -65,6 +65,8 @@ Backtracking = Recursively instantiate variables one-by-one, backing up out of a
 ## Variable and Value Ordering
 
 Naive backtracking does not specify in which order the variables are considered (which influences the search space size)
+Naive backtracking does not specify in which order the values of the chosen variable are considered. 
+
 A strategy can be: **most constrained variable first**, always pick a variable $v$ with minimal $|\{d \in D_v | a \bigcup \{v = d\}\ is \ consistent\}|$
 ![[Pasted image 20231128224451.png]]
 by choosing a most constrained variable v first, we reduce the branching factor (number of sub-trees generated for v) and thus reduce the size of our search tree
@@ -77,9 +79,6 @@ or: **least constraining value first**, for variable $v$, always pick $d \in D_v
 minimal $|{d'\ |\ d' \in D_u, a(u'\ is\ undefined, C_{uv} \in C, (d', d)  \notin C_{uv}}|$
 ![[Pasted image 20231128224734.png]]
 by choosing a least constraining value first, we increase the chances to not rule out the solutions below the current node
-
-
-Naive backtracking does not specify in which order the values of the chosen variable are considered. 
 
 
 

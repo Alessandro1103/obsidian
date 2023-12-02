@@ -22,7 +22,7 @@ $\gamma'$ is *strictly tighter* than $\gamma$, $\gamma \sqsubset \gamma$, if at 
 **Theorem: Inference = Equivalence + Tightness**:
 Theorem. Let $\gamma$ and $\gamma'$ be constraint networks s.t. $\gamma' \equiv \gamma$ and $\gamma' \sqsubset \gamma$. Then, $\gamma'$ has the same solutions as $\gamma$ but fewer consistent partial assignments than $\gamma$.
 
-The more complex the inference, the smaller the number of search nodes, but the larger the runtime needed at each node.
+The more complex the inference, the smaller the number of search nodes, but the larger the runtime needed at each node. We can apply the inference before search starts or at every recursive call of backtracking. 
 
 
 ---

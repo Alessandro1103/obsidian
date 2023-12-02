@@ -38,7 +38,9 @@ remove variable domain values until $\gamma$ is arc consistent
 It is sound = return an equivalent network
 It is subsumes Forward Checking = return a tighter network 
 
-
+There are 2 algorithms, but first we need:
+**Revise**:
+the algorithm 
 
 ---
 # References

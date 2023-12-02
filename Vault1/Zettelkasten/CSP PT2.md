@@ -13,7 +13,8 @@ Let $\gamma = (V, D, C)$ and $\gamma' = (V, D', C')$ be constraint networks shar
 
 Definition of **Tightness**:
 Let $\gamma = (V, D, C)$ and $\gamma'= (V, D',C')$ be constraint networks sharing the same set of variables. We say that $\gamma$ is tighter than $\gamma$, written $\gamma \sqsubseteq \gamma$, if:
-i. (i) For all v ∈ V : D0 v ⊆ Dv. (ii) For all u 6= v ∈ V : either Cuv 6∈ C or C 0 uv ⊆ Cuv. γ 0 is strictly tighter than γ, γ 0 @ γ, if at least one of these inclusions is strict.
+1. For all $v \in V: D'_v \subseteq D_v$. 
+2. For all $u \neq v \in V$ : either C_{uv} \neq C or C'{uv} \subseteq C_{uv}. \gamma' is strictly tighter than $\gamma, \gamma \sqsubseteq \gamma$, if at least one of these inclusions is strict.
 
 
 ---

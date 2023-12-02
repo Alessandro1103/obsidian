@@ -29,8 +29,8 @@ for each variable choose a domain variable, and upgrade all the other variable f
 
 Definition **Arc Consistency**: 
 Let $\gamma = (V, D, C)$ be a constraint network. 
-1. A variable $u \in V$ is arc consistent relative to another variable v \in V if either $C_{uv} \notin C$, or for every value d \in Du there exists a value d 0 \in Dv such that $(d, d') \in C_{uv}$. 
-2. The network \gamma is arc consistent if every variable u \in V is arc consistent relative to every other variable v \in V **.
+1. A variable $u \in V$ is arc consistent relative to another variable $v \in V$ if either $C_{uv} \notin C$, or for every value $d \in D_u$ there exists a value $d' \in D_v$ such that $(d, d') \in C_{uv}$. 
+2. The network $\gamma$ is arc consistent if every variable $u \in V$ is arc consistent relative to every other variable $v \in V$**.
 
 
 

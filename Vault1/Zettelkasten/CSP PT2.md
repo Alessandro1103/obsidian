@@ -24,7 +24,10 @@ Theorem. Let $\gamma$ and $\gamma'$ be constraint networks s.t. $\gamma' \equiv 
 
 The more complex the inference, the smaller the number of search nodes, but the larger the runtime needed at each node. We can apply the inference before search starts or at every recursive call of backtracking. 
 
-Forward Checking 
+Forward Checking (Inference, version1):
+for each variable choose a domain variable, and upgrade all the other variable following the constraints.
+
+
 
 
 ---

@@ -40,7 +40,13 @@ It is subsumes Forward Checking = return a tighter network
 
 There are 2 algorithms, but first we need:
 **Revise**:
-the algorithm 
+the algorithm removes the domain variables that violate constraints.
+
+**AC1** (Arc Consistency 1):
+
+AC3 (Arc Consistency 3):
+
+
 
 ---
 # References

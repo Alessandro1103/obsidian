@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c69b6fcf058a3568",
+        "id": "5070b23e1039b94a",
         "type": "tabs",
         "children": [
           {
-            "id": "3721071118a67fdf",
+            "id": "1036cb35c9cc5853",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -117,7 +118,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
@@ -132,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,56 +142,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "3721071118a67fdf",
+  "active": "1036cb35c9cc5853",
   "lastOpenFiles": [
     "Files/Pasted image 20231201035609.png",
     "Files/Pasted image 20231201035558.png",
-    "Zettelkasten/Regali.md",
-    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Exteroceptive Sensors.md",
+    "Zettelkasten/Local Search.md",
+    "Zettelkasten/CSP PT1.md",
+    "Zettelkasten/Adversarial Search.md",
+    "Files/Pasted image 20231129141810.png",
+    "Files/Pasted image 20231129141756.png",
+    "Files/Pasted image 20231129140747.png",
+    "Files/Pasted image 20231129140737.png",
+    "Files/Pasted image 20231129131434.png",
+    "Files/Pasted image 20231129131423.png",
+    "Files/Pasted image 20231129124708.png",
     "Files/Pasted image 20231129124656.png",
-    "conflict-files-obsidian-git.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
-    "Files/Pasted image 20231128152537.png",
-    "Files/Pasted image 20231128152526.png",
-    "Files/Pasted image 20231127175209.png",
-    "Files/Pasted image 20231127175135.png",
-    "Files/Pasted image 20231127175124.png",
-    "Files/Pasted image 20231127175108.png",
-    "Files/Pasted image 20231127174931.png",
-    "Files/Pasted image 20231127174911.png",
-    "Zettelkasten/Classical Search PT1.md",
-    "Zettelkasten/Appunti.md",
-    "Zettelkasten/pull.md",
+    "Files/Pasted image 20231128224734.png",
     "Zettelkasten/Introduction to Planning.md",
+    "Files/Recording 20231123223359.webm",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
-    "Zettelkasten/Classical Search.md",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/Cose.md",
-    "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Discorso.md",
-    "Zettelkasten/Effect of Instagram Use.md",
-    "Zettelkasten/First Computer.md",
     "Zettelkasten/Intelligent Agents.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/IA.md",
+    "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/Pedoni doppi.md",
-    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
-    "Files/rp_01_compilers_and_build_systems.pdf",
+    "Zettelkasten/First Computer.md",
+    "Zettelkasten/Effect of Instagram Use.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Digital Humanities.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Cose.md",
+    "Templates/Base.md",
+    "Zettelkasten/Predicate Logic Reasoning.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/Transmission.md",
+    "Files/Screenshot from 2023-10-17 15-53-46.xcf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",

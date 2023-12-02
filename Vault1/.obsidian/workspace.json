@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5070b23e1039b94a",
+        "id": "f6d84fcd80041813",
         "type": "tabs",
         "children": [
           {
-            "id": "1036cb35c9cc5853",
+            "id": "776196a79918dcfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Report.md",
+                "file": "Zettelkasten/CSP PT2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Report.md",
+                "file": "Zettelkasten/CSP PT2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Report.md",
+                "file": "Zettelkasten/CSP PT2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,8 +152,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1036cb35c9cc5853",
+  "active": "776196a79918dcfe",
   "lastOpenFiles": [
+    "Zettelkasten/Homework2.md",
+    "Templates/Base.md",
+    "Templates/Report.md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/Report.md",
     "Zettelkasten/CSP PT1.md",
@@ -188,9 +191,6 @@
     "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Cose.md",
-    "Templates/Base.md",
-    "Zettelkasten/Predicate Logic Reasoning.md",
-    "Zettelkasten/Appunti.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",

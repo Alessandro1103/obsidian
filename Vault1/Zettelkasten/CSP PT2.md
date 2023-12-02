@@ -34,8 +34,11 @@ for each variable choose a domain variable, and upgrade all the other variable f
 It is sound = return an equivalent network
 
 **Enforcing Arc Consistency** (inference, version2):
+remove variable domain values until $\gamma$ is arc consistent
 It is sound = return an equivalent network
-It is subsumes Forward Checking =  
+It is subsumes Forward Checking = return a tighter network 
+
+
 
 ---
 # References

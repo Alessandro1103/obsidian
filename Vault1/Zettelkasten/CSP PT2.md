@@ -43,7 +43,7 @@ There are 2 algorithms, but first we need:
 the algorithm removes the domain variables that violate constraints.
 
 **AC1** (Arc Consistency 1):
-
+it use revise for all variables in both directions
 AC3 (Arc Consistency 3):
 
 

@@ -30,10 +30,12 @@ Let $\gamma = (V, D, C)$ be a constraint network.
 2. The network $\gamma$ is arc consistent if every variable $u \in V$ is arc consistent relative to every other variable $v \in V$**.
 
 **Forward Checking** (Inference, version1):
-for each variable choose a domain variable, and upgrade all the other variable following the constraints. then choose a random domain variable for a general variable
+for each variable choose a domain variable, and upgrade all the other variable following the constraints. then choose a random domain variable for a general variable. 
+It is sound = return an equivalent network
 
 **Enforcing Arc Consistency** (inference, version2):
-
+It is sound = return an equivalent network
+It is subsumes Forward Checking =  
 
 ---
 # References

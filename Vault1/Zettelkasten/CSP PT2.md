@@ -44,7 +44,16 @@ the algorithm removes the domain variables that violate constraints.
 
 **AC1** (Arc Consistency 1):
 it use revise for all variables in both directions
-AC3 (Arc Consistency 3):
+**AC3** (Arc Consistency 3):
+we create a set of constraints between neighbouring nodes, by revising, if successful, we link a neighbouring node to the one whose domain has been changed by the revise
+
+![[Pasted image 20231203124546.png]]
+
+![[Pasted image 20231203124553.png]]
+![[Pasted image 20231203124601.png]]
+
+![[Pasted image 20231203124614.png]]
+
 
 
 

@@ -52,10 +52,12 @@ we create a set of constraints between neighbouring nodes, by revising, if succe
 ![[Pasted image 20231203124546.png|400]]
 ![[Pasted image 20231203124553.png|400]]
 ![[Pasted image 20231203124601.png|400]]
+u add the element removed before
 ![[Pasted image 20231203124614.png|400]]
 ![[Pasted image 20231203124622.png|400]]
 ![[Pasted image 20231203124631.png|400]]
 ![[Pasted image 20231203124637.png|400]]
+order is important to understand when the element in the domain of that variable is not used, e.g. in (v1,v2), 5 is not used
 
 
 **Theorem: Runtime of AC-3**:

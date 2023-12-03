@@ -89,6 +89,11 @@ Let $\gamma = (V, D, C)$ be a constraint network with $n$ variables and maximal 
 ![[Pasted image 20231203163358.png|300]] ![[Pasted image 20231203163411.png|300]]
 ![[Pasted image 20231203163424.png|300]] 
 
+## Cutsets
+
+Definition of **Cutset**:
+Let $\gamma = (V, D, C)$ be a constraint network, and $V_0 \subseteq V$. $V_0$ is a cutset for $\gamma$ if the sub-graph of $\gamma$’s constraint graph induced by $V \ \ V'$ is acyclic. $V'$ is optimal if its size is minimal among all cutsets for $\gamma$
+
 
 ---
 # References

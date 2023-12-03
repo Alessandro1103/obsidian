@@ -67,11 +67,17 @@ This because *Revise* takes time $O(k^2)$
 
 ![[Pasted image 20231203133936.png]]
 
+## Decomposition
+we can exploit the structure of a network to decompose it into smaller parts that are easier to solve
 
 Definition of **Constraint Graph**:
 Let \gamma = (V, D, C) be a constraint network. The constraint graph of \gamma is the undirected graph whose vertices are the variables $V$ and that has an arc $\{u, v\}$ if and only if $C_{uv} \in C$. ![[Pasted image 20231203162101.png|300]]
 
+**Theorem: Disconnected Constraint Graphs**:
+Let $\gamma = (V, D, C)$ be a constraint network. Let $a_i$ be a solution to each connected component $V_i$ of the network's constraint graph. Then $a := \bigcup_i a_i$ is a solution to $\gamma$.
 
+**Theorem: Acyclic Constraint Graphs**:
+Let $\gamma = (V, D, C)$ be a constraint network with $n$ variables and maximal domain size $k$, whose constraint graph is acyclic. Then we can find a solution for $\gamma$, or prove $\gamma$ to be inconsistent, in time $O(nk^2)$.
 
 
 ---

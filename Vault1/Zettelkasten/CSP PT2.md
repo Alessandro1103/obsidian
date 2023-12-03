@@ -47,6 +47,8 @@ it use revise for all variables in both directions
 **AC3** (Arc Consistency 3):
 we create a set of constraints between neighbouring nodes, by revising, if successful, we link a neighbouring node to the one whose domain has been changed by the revise
 
+
+
 ![[Pasted image 20231203124546.png|400]]
 ![[Pasted image 20231203124553.png|400]]
 ![[Pasted image 20231203124601.png|400]]

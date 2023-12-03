@@ -50,7 +50,7 @@ the algorithm removes the domain variables that violate constraints.
 **AC1** (Arc Consistency 1):
 it use revise for all variables in both directions
 **AC3** (Arc Consistency 3):
-we create a set of constraints between neighbouring nodes, by revising, if successful, we link a neighbouring node to the one whose domain has been changed by the revise
+we create a set of constraints between neighbouring nodes; by revising, if successful, we link a neighbouring node to the one whose domain has been changed by the revise
 
 
 
@@ -76,7 +76,8 @@ This because *Revise* takes time $O(k^2)$
 we can exploit the structure of a network to decompose it into smaller parts that are easier to solve
 
 Definition of **Constraint Graph**:
-Let \gamma = (V, D, C) be a constraint network. The constraint graph of \gamma is the undirected graph whose vertices are the variables $V$ and that has an arc $\{u, v\}$ if and only if $C_{uv} \in C$. ![[Pasted image 20231203162101.png|300]]
+Let $\gamma = (V, D, C)$ be a constraint network. The constraint graph of $\gamma$ is the undirected graph whose vertices are the variables $V$ and that has an arc $\{u, v\}$ if and only if $C_{uv} \in C$. 
+![[Pasted image 20231203162101.png|300]]
 
 **Theorem: Disconnected Constraint Graphs**:
 Let $\gamma = (V, D, C)$ be a constraint network. Let $a_i$ be a solution to each connected component $V_i$ of the network's constraint graph. Then $a := \bigcup_i a_i$ is a solution to $\gamma$.

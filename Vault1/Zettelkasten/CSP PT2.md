@@ -82,7 +82,13 @@ Let $\gamma = (V, D, C)$ be a constraint network with $n$ variables and maximal 
 **Algorithm: AciclicCG($\gamma$)**:
 1. From a graph create a tree
 2. Order parents and then children
-3. Revise (parent->son), if domain of parent is null, it's inconsistent
+3. Revise (last parent-> last son), if domain of parent is null, it's inconsistent
+
+![[Pasted image 20231203163127.png|300]] ![[Pasted image 20231203163138.png|300]]
+![[Pasted image 20231203163310.png|300]] ![[Pasted image 20231203163320.png|300]]
+![[Pasted image 20231203163358.png|300]] ![[Pasted image 20231203163411.png|300]]
+![[Pasted image 20231203163424.png|300]] 
+
 
 ---
 # References

@@ -68,5 +68,11 @@ This because *Revise* takes time $O(k^2)$
 ![[Pasted image 20231203133936.png]]
 
 
+Definition of **Constraint Graph**:
+Let \gamma = (V, D, C) be a constraint network. The constraint graph of \gamma is the undirected graph whose vertices are the variables $V$ and that has an arc $\{u, v\}$ if and only if $C_{uv} \in C$. ![[Pasted image 20231203162101.png|300]]
+
+
+
+
 ---
 # References

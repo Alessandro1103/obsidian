@@ -100,6 +100,13 @@ Both models show impressive overall accuracy. Model 1 attained a 94.99% accuracy
 
 As I used a grid search classification, this model took more time. I tried several times to understand if there was a problem with the code as it took over 10 hours to compile. I then decided to split the grid search into polinomial and non-polinomial grid searches, which reduced the time taken. In this configuration, the polinomial search took 203 minutes and the non-polinomial took 166 minutes. 
 
+After a long processing the best solution found is:
+The best model is the one with the best C and kernel parameters
+{'C': 0.2, 'kernel': 'sigmoid'}
+With accuracy 0.973973
+SVC(C=0.2, kernel='sigmoid')
+
+
 After this results, kernel methods:
 
 ![[Pasted image 20231201035558.png]]

@@ -61,7 +61,7 @@ Let $\gamma = (V, D, C)$ be a constraint network with $m$ constraints, and maxim
 
 This because *Revise* takes time $O(k^2)$
 
-
+![[Pasted image 20231203133936.png]]
 
 
 ---

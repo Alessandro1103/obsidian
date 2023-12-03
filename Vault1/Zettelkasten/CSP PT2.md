@@ -47,13 +47,17 @@ it use revise for all variables in both directions
 **AC3** (Arc Consistency 3):
 we create a set of constraints between neighbouring nodes, by revising, if successful, we link a neighbouring node to the one whose domain has been changed by the revise
 
-![[Pasted image 20231203124546.png]]
+![[Pasted image 20231203124546.png|400]]
+![[Pasted image 20231203124553.png|400]]
+![[Pasted image 20231203124601.png|400]]
+![[Pasted image 20231203124614.png|400]]
+![[Pasted image 20231203124622.png|400]]
+![[Pasted image 20231203124631.png|400]]
+![[Pasted image 20231203124637.png|400]]
 
-![[Pasted image 20231203124553.png]]
-![[Pasted image 20231203124601.png]]
 
-![[Pasted image 20231203124614.png]]
-
+**Theorem: Runtime of AC-3**:
+Let $\gamma = (V, D, C)$ be a constraint network with $m$ constraints, and maximal domain size $k$. Then $AC-3(\gamma)$ runs in time $O(mk^3)$
 
 
 

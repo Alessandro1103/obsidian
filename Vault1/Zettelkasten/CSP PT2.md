@@ -59,6 +59,9 @@ we create a set of constraints between neighbouring nodes, by revising, if succe
 **Theorem: Runtime of AC-3**:
 Let $\gamma = (V, D, C)$ be a constraint network with $m$ constraints, and maximal domain size $k$. Then $AC-3(\gamma)$ runs in time $O(mk^3)$
 
+This because *Revise* takes time $O(k^2)$
+
+
 
 
 ---

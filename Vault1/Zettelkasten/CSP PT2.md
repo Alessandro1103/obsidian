@@ -99,7 +99,7 @@ Let $\gamma = (V, D, C)$ be a constraint network with $n$ variables and maximal 
 
 Definition of **Cutset**:
 Let $\gamma = (V, D, C)$ be a constraint network, and $V_0 \subseteq V$. $V_0$ is a cutset for $\gamma$ if the sub-graph of $\gamma$’s constraint graph induced by $V\ \backslash \ V_0$ is acyclic. $V_0$ is optimal if its size is minimal among all cutsets for $\gamma$
-==the cutset is the subset of a graph acyclic, it's useful because we since we know the acyclic is a solution if we consider the $V_0$ as a solution apart, we can reunite them after==:
+==the cutset are the variable that if removed make the constraint graph acyclic, it's useful because we since we know the acyclic is a solution if we consider the $V_0$ as a solution apart, we can reunite them after==:
 ![[Pasted image 20231203165435.png|400]]
 
 

@@ -6,7 +6,7 @@ Up: [[ML]]
 ---
 # Homework1
 
-- [ ]  Fare una stampa del dataset totale e prendere alcune features come esempio e discussione per il kernel method
+- [x]  Fare una stampa del dataset totale e prendere alcune features come esempio e discussione per il kernel method
 
 
 ## Introduction

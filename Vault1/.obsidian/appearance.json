@@ -5,6 +5,6 @@
   "interfaceFontFamily": "Consolas,Times New Roman",
   "nativeMenus": false,
   "showViewHeader": true,
-  "baseFontSize": 13,
+  "baseFontSize": 16,
   "theme": "obsidian"
 }

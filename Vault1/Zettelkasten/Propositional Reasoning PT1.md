@@ -6,16 +6,7 @@ Up: [[IA]]
 ---
 # Propositional Reasoning PT1
 
-## Propositional Logic
-
-
-
-## Resolution
-
-
-
-## Wumpus
-
+![[slideIA.pdf]]
 
 ---
 # References

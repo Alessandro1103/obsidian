@@ -10,7 +10,7 @@ Up: [[IA]]
 
 ## Propositional Logic
 
-## Resulution
+## Resolution
 [The Resolution Principle (Preliminaries) - YouTube](https://www.youtube.com/watch?v=SjEQNOV5FMk&ab_channel=NesoAcademy)
 [The Resolution Principle (Solved Problems) - YouTube](https://www.youtube.com/watch?v=Bm05eNcIg1c&ab_channel=NesoAcademy)
 

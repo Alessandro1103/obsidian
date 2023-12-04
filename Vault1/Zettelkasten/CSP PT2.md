@@ -1,7 +1,7 @@
 Date: 2023-12-02
 Time: 17:54
-Tags:
-Up: 
+Tags: #Università #IA #English 
+Up: [[IA]]
 
 ---
 # CSP PT2

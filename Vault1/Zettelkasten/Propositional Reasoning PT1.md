@@ -8,5 +8,12 @@ Up: [[IA]]
 
 ![[slideIA.pdf]]
 
+## Propositional Logic
+
+## Resulution
+[The Resolution Principle (Solved Problems) - YouTube](https://www.youtube.com/watch?v=Bm05eNcIg1c&ab_channel=NesoAcademy)
+
+## Wumpus
+
 ---
 # References

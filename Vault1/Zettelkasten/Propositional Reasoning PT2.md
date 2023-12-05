@@ -11,8 +11,10 @@ Up: [[IA]]
 
 ## Davis-Putnam
 
+The DPLL procedure is a complete SAT solver. A SAT problem is a boolean satisfiability problem (NP-complete).
 
-
+**Example**:
+![[Pasted image 20231205101501.png|300]] ![[Pasted image 20231205101523.png|300]]
 ## Resolution
 
 

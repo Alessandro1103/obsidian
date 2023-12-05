@@ -12,7 +12,7 @@ Up: [[IA]]
 
 ## Semantics
 
-##
+## Normal Forms
 
 
 ---

@@ -28,7 +28,8 @@ $\forall [Dog(x) \rightarrow \exists y Chases(x,y)]$, which in words means "Ever
 Definition of **Term**:
 Let $\Sigma$ be a signature. Then:
 1. Every variable and every constant symbol is a $\Sigma$-term
-2. If t_1, t_2, \dots, t_n are \Sigma-terms and f \in \Sigma is an n-ary function symbol, then f(t_1, )
+2. If $t_1, t_2, \dots, t_n$ are $\Sigma$-terms and $f \in \Sigma$ is an $n$-ary function symbol, then $f(t_1, t_2, \dots, t_n)$ also is a $\Sigma$-term
+Terms without variables are ground terms
 
 
 

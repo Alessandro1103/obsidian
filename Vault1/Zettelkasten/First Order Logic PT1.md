@@ -44,9 +44,15 @@ $\forall x[Block(x) \rightarrow Red(x)], Block(A)$
 For all objects $x$, if $x$ is a block, then $x$ is red. $A$ is a block.
 
 Definition of **Interpretation**:
-Let $\Sigma$ be a signature. A $\Sigma$-interpretation is a pair $(U,I)$ where $U$, the universe, is an arbitrary non-empty set, I is a function, notated as superscript, so that
-1. I maps constant symbols to elements of U:c^I \in U
-2. I maps n-ary predicate symbols to n-ary reations over U:
+Let $\Sigma$ be a signature. A $\Sigma$-interpretation is a pair $(U,I)$ where $U$, the *universe*, is an arbitrary non-empty set $[U=\{o_1, o_2, \dots\}]$, I is a function, notated as superscript, so that
+1. I maps constant symbols to elements of $U:c^I \in U$
+	$[Lassie^I = o_1]$
+2. I maps $n$-ary predicate symbols to $n$-ary relations over U:
+	$P^I\subseteq U^n \ \ [Dog^I={o_1, o_3}]$
+3. I maps $n$-ary predicate symbols to $n$-ary functions over U:
+	$f^I \in [U^n \rightarrow U] \ \ [FoodOf^I = \{(o_1 \rightarrow o_4),(o_2 \rightarrow o_5),\dots \}]$
+
+
 
 
 ---

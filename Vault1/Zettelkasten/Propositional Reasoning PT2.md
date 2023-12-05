@@ -57,7 +57,8 @@ Resolution:
     - Resolve the result with $C4​$ on $C: D$
 3. Result: The formula is satisfied with $A=True$, $B=True$, $C=True$, and $D=True$.
 
-Define the number of decisions of a DPLL run as the total number of times a truth value was set by either unit propagation or the splitting rule. If DPLL returns “unsatisfiable” on ∆, then ∆ $\vdash$ \Boxwith a resolution derivation whose length is at most the number of decisions
+Define the number of decisions (when the algorithm chooses a variable and assigns it a truth value (either True or False)) of a DPLL run as the total number of times a truth value was set by either unit propagation or the splitting rule. 
+If DPLL returns “unsatisfiable” on $\Delta$, there exists a resolution derivation of unsatisfiability for $\Delta$, $\Delta$ $\vdash$ $\Box$. A resolution derivation is a series of with a resolution derivation whose length is at most the number of decisions
 
 ## UP Conflict Analysis
 

@@ -46,17 +46,18 @@ DPLL:
 7. Unit Propagation: The fourth clause becomes $D$.
 8. Result: The formula is satisfied with $A=True$, $B=True$, $C=True$, and $D=True$
 Resolution:
+1. Conversion to Clauses:
+    - $C1​=(A∨B)$
+    - $C2​=(¬A∨C)$
+    - $C3​=(¬B∨C)$
+    - $C4​=(¬C∨D)$
+2. Resolution Steps:
+    - $C1$​ and $C2$​ on $A: (B∨C)$
+    - Resolve the result with $C3$​ on $B: C$
+    - Resolve the result with $C4​$ on $C: D$
+3. Result: The formula is satisfied with $A=True$, $B=True$, $C=True$, and $D=True$.
 
-1. **Conversion to Clauses:**
-    - �1=(�∨�)C1​=(A∨B)
-    - �2=(¬�∨�)C2​=(¬A∨C)
-    - �3=(¬�∨�)C3​=(¬B∨C)
-    - �4=(¬�∨�)C4​=(¬C∨D)
-2. **Resolution Steps:**
-    - Resolve �1C1​ and �2C2​ on �A: (�∨�)(B∨C)
-    - Resolve the result with �3C3​ on �B: �C
-    - Resolve the result with �4C4​ on �C: �D
-3. **Result:** The formula is satisfied with �=TrueA=True, �=TrueB=True, �=TrueC=True, and �=TrueD=True.
+Define the number of decisions of a DPLL run as the total number of times a truth value was set by either unit propagation or the splitting rule. If DPLL returns “unsatisfiable” on ∆, then ∆ $\vdash$ \Boxwith a resolution derivation whose length is at most the number of decisions
 
 ## UP Conflict Analysis
 

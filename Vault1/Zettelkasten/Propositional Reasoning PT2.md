@@ -60,6 +60,9 @@ Resolution:
 Define the number of decisions (when the algorithm chooses a variable and assigns it a truth value (either True or False)) of a DPLL run as the total number of times a truth value was set by either unit propagation or the splitting rule. 
 If DPLL returns “unsatisfiable” on $\Delta$, there exists a resolution derivation of unsatisfiability for $\Delta$, $\Delta$ $\vdash$ $\Box$. A resolution derivation is a series of application of the resolution rule to clauses, leading to a contradiction (empty clause $\Box$). The length of the resolution derivation is at most the number of decisions made by DPLL during its run.
 
+**Example**:
+
+
 ## UP Conflict Analysis
 
 

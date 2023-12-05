@@ -32,7 +32,31 @@ UP is sound and not complete (UP makes only limited inferences, as long as there
 
 ## Resolution
 
+It is based on the resolution rule, which is a logical inference rule used in propositional logic.
 
+**Example**:
+$(A∨B)∧(¬A∨C)∧(¬B∨C)∧(¬C∨D)$
+DPLL:
+1. Initial Assignment: Start with an empty assignment.
+2. Decision: Choose a variable to assign a truth value. Let's start with $A=True$.
+3. Unit Propagation: Simplify the formula based on the assignment. In this case, the first clause becomes $(True∨B)$.
+4. Decision: Choose another variable, say $B=True$.
+5. Unit Propagation: Simplify the formula. Now, the second and third clauses become $C$.
+6. Decision: Assign $C=True$.
+7. Unit Propagation: The fourth clause becomes $D$.
+8. Result: The formula is satisfied with $A=True$, $B=True$, $C=True$, and $D=True$
+Resolution:
+
+1. **Conversion to Clauses:**
+    - �1=(�∨�)C1​=(A∨B)
+    - �2=(¬�∨�)C2​=(¬A∨C)
+    - �3=(¬�∨�)C3​=(¬B∨C)
+    - �4=(¬�∨�)C4​=(¬C∨D)
+2. **Resolution Steps:**
+    - Resolve �1C1​ and �2C2​ on �A: (�∨�)(B∨C)
+    - Resolve the result with �3C3​ on �B: �C
+    - Resolve the result with �4C4​ on �C: �D
+3. **Result:** The formula is satisfied with �=TrueA=True, �=TrueB=True, �=TrueC=True, and �=TrueD=True.
 
 ## UP Conflict Analysis
 

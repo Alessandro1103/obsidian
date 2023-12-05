@@ -37,6 +37,8 @@ Let \Sigma be a signature. Then:
 2. If $t_1, t_2, \dots, t_n$ are terms and $P \in \Sigma$ is an $n$-ary predicate symbol, then $P(t_1, t_2, \dots, t_n)$ is a $\Sigma$-atom
 Atoms without variables are ground atoms. Atoms represent atomic statements about objects
 
+## Semantics
+
 
 ---
 # References

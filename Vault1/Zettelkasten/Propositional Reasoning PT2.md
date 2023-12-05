@@ -104,6 +104,7 @@ When we learn a new clause $C$:
 
 ## Phase Trans.
 
+Fixed clause length model: Fix clause length k; n variables. Generate m clauses, by choosing uniformly at random k variables P for each clause C, and, for each variable P, deciding uniformly at random whether to add P or ¬P into C. Order parameter: Clause/variable ratio m n . Phase transition: (Fixing k = 3, n = 50)
 
 
 ---

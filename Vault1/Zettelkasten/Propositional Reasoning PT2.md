@@ -6,6 +6,7 @@ Up: [[IA]]
 ---
 # Propositional Reasoning PT2
 
+Alcune parti sono poco chiare...
 
 ![[slideIA 1.pdf]]
 
@@ -88,7 +89,7 @@ A conflict graph captures "what went wrong" in a failed node. Starting at a conf
 
 
 ## Clause Learning
-
+It is a technique used to enhance the efficiency of the solver by learning from conflicts encountered during the search process.
 
 
 ## Phase Trans.

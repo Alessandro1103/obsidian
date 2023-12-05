@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Propositional Reasoning PT2.md",
+                "file": "Zettelkasten/First Order Logic PT1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Propositional Reasoning PT2.md",
+                "file": "Zettelkasten/First Order Logic PT1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Propositional Reasoning PT2.md",
+                "file": "Zettelkasten/First Order Logic PT1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,8 @@
   },
   "active": "776196a79918dcfe",
   "lastOpenFiles": [
+    "Zettelkasten/Propositional Reasoning PT2.md",
+    "Zettelkasten/First Order Logic PT1.md",
     "Files/Pasted image 20231205124408.png",
     "Files/Pasted image 20231205124233.png",
     "Files/Pasted image 20231205113405.png",
@@ -161,7 +163,6 @@
     "Files/Pasted image 20231205112055.png",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",
-    "Zettelkasten/Propositional Reasoning PT2.md",
     "Files/Pasted image 20231205101620.png",
     "Files/Pasted image 20231205101523.png",
     "Files/Pasted image 20231205101501.png",
@@ -169,7 +170,6 @@
     "Files/slideIA.pdf",
     "Files/Pasted image 20231203165435.png",
     "Files/Pasted image 20231203163424.png",
-    "Files/Pasted image 20231203163411.png",
     "Zettelkasten/Homework2.md",
     "Templates/Base.md",
     "Templates/Report.md",

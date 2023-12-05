@@ -33,7 +33,7 @@ UP is sound and not complete (UP makes only limited inferences, as long as there
 
 ## Resolution
 
-It is based on the resolution rule, which is a logical inference rule used in propositional logic.
+Resolution (RES) is a widely studied simple proof system that can be used to prove unsatisfiability of CNF formulas. The resolution rule states that given clauses $(A ∨ x)$ and $(B ∨ ¬x)$, we can derive clause (A∨B) by resolving on x. A resolution derivation of C from a CNF formula F is a sequence $\pi = (C1, C2, \dots , Cs \equiv C)$ where each clause $Ci$ is either a clause of F (an initial clause) or derived by applying the resolution rule to $Cj$ and $Ck$, j, k < i (a derived clause).
 
 **Example**:
 $(A∨B)∧(¬A∨C)∧(¬B∨C)∧(¬C∨D)$
@@ -90,6 +90,8 @@ A conflict graph captures "what went wrong" in a failed node. Starting at a conf
 
 ## Clause Learning
 It is a technique used to enhance the efficiency of the solver by learning from conflicts encountered during the search process.
+
+"A CNF formula F is an and (∧) of clauses, where each clause is an or (∨) of literals, and a literal is a variable or its negation (¬)."
 
 
 ## Phase Trans.

@@ -104,7 +104,17 @@ When we learn a new clause $C$:
 
 ## Phase Trans.
 
-Fixed clause length model: Fix clause length k; n variables. Generate m clauses, by choosing uniformly at random k variables P for each clause C, and, for each variable P, deciding uniformly at random whether to add P or ¬P into C. Order parameter: Clause/variable ratio m n . Phase transition: (Fixing k = 3, n = 50)
+Fixed clause length model: 
+Fix clause length k; n variables. Generate m clauses, by choosing uniformly at random k variables P for each clause C, and, for each variable P, deciding uniformly at random whether to add P or ¬P into C. Order parameter: Clause/variable ratio \frac{m}{n} 
+Phase transition: (Fixing k = 3, n = 50)
+
+![[Pasted image 20231205124233.png|300]]
+
+**Phase Transition Conjecture**:
+All NP-complete problems have at least one order parameter, and the hard to solve problems are around a critical value of this order parameter. This critical value (a phase transition) separates one region from another, such as over-constrained and under-constrained regions of the problem space.
+
+All this works only for the particular considered distributions of instances! Not meaningful for any other instances
+![[Pasted image 20231205124408.png]]
 
 
 ---

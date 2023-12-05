@@ -64,8 +64,12 @@ If DPLL returns “unsatisfiable” on $\Delta$, there exists a resolution deriv
 ![[Pasted image 20231205112113.png|300]] 
 ![[Pasted image 20231205112055.png|300]]
 
+DPLL makes the same mistakes over and over again.
+
 ## UP Conflict Analysis
 
+Definition of **Implication Graph**:
+Let $\Delta$ be a set of clauses, and consider any search branch $\beta$ of DPLL on $\Delta$. The implication graph $G^{impl}$ is a directed graph. Its vertices are the choice and implied literals along $\beta$, as well as a separate conflict vertex $\Box_C$ for every clause $C$ that becomes empty
 
 
 ## Clause Learning

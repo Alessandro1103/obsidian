@@ -15,6 +15,11 @@ The DPLL procedure is a complete SAT solver. A SAT problem is a boolean satisfia
 
 **Example**:
 ![[Pasted image 20231205101501.png|300]] ![[Pasted image 20231205101523.png|300]]
+
+We can say that $\Delta$ is unsatisfiable if the unit propagation is sound (return the same result -> does not improve)
+
+
+
 ## Resolution
 
 

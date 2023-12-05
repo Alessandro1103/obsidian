@@ -18,6 +18,14 @@ The DPLL procedure is a complete SAT solver. A SAT problem is a boolean satisfia
 
 We can say that $\Delta$ is unsatisfiable if the unit propagation is sound (return the same result -> does not improve)
 
+The DPLL is similar to the BacktrackingWithInference, with Inference() = unit propagation
+
+The Unit Propagation (UP) Rule corresponds to a calculus:
+Definition of **Unit Resolution**:
+Unit Resolution is the calculus consisting of the following inference rule:
+$$
+\frac{C \dot{\cup}}{}
+$$
 
 
 ## Resolution

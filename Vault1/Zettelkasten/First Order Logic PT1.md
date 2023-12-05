@@ -25,6 +25,11 @@ Function symbols: $WeightOf(.)$, $Succ(.)$, $\dots$
 **Example**:
 $\forall [Dog(x) \rightarrow \exists y Chases(x,y)]$, which in words means "Every dog chases something"
 
+Definition of **Term**:
+Let $\Sigma$ be a signature. Then:
+1. Every variable and every constant symbol is a $\Sigma$-term
+2. If t_1, t_2, \dots, t_n are \Sigma-terms and f \in \Sigma is an n-ary function symbol, then f(t_1, )
+
 
 
 ---

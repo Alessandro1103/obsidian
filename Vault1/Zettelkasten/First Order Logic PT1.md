@@ -29,8 +29,13 @@ Definition of **Term**:
 Let $\Sigma$ be a signature. Then:
 1. Every variable and every constant symbol is a $\Sigma$-term
 2. If $t_1, t_2, \dots, t_n$ are $\Sigma$-terms and $f \in \Sigma$ is an $n$-ary function symbol, then $f(t_1, t_2, \dots, t_n)$ also is a $\Sigma$-term
-Terms without variables are ground terms
+Terms without variables are ground terms. Terms represents object.
 
+Definition of **Atom**:
+Let \Sigma be a signature. Then:
+1. $\top$ and $\bot$ are $\Sigma$-atoms
+2. If $t_1, t_2, \dots, t_n$ are terms and $P \in \Sigma$ is an $n$-ary predicate symbol, then $P(t_1, t_2, \dots, t_n)$ is a $\Sigma$-atom
+Atoms without variables are ground atoms. Atoms represent atomic statements about objects
 
 
 ---

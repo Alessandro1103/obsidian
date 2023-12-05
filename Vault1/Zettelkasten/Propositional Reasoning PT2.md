@@ -79,7 +79,12 @@ Example:
 ![[Pasted image 20231205113405.png|300]] 
 
 Definition of **Conflict Graph**:
+Let $\Delta$ be a set of clauses, and let $G^{impl}$ be the implication graph for some search branch of DPLL on $\Delta$. A conflict graph G$^{confl}$ is a sub-graph of $G^{impl}$ induced by a subset of vertices such that: 
+1. G$^{confl}$ contains exactly one conflict vertex $\Box_C$.
+2. If $l'$ is a vertex in G$^{confl}$, then all parents of $l'$, i.e. vertices $\bar{l}_i$ with a G$^{impl}$ $arc (\bar{l}_i , l' )$, are vertices in G$^{confl}$ as well. 
+3. All vertices in G$^{confl}$ have a path to $\Box_C$.
 
+A conflict graph captures "what went wrong" in a failed node. Starting at a conflict vertex, backchain through the implication graph until reaching choice literals
 
 
 ## Clause Learning

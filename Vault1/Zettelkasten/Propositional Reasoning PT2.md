@@ -28,7 +28,7 @@ $$
 $$
 that is, if $\Delta$ contains parent clauses of the form $C \dot{\cup}\{\bar{l}\}$ and $\{l\}$, the rule allows to add the resolvent clause $C$.
 Unit propagation = Resolution restricted to the case where one of the parent clauses is unit.
-UP is 
+UP is sound and not complete (UP makes only limited inferences, as long as there are unit clauses. It does not guarantee to infer everything that can be inferred)
 
 ## Resolution
 

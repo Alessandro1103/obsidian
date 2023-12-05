@@ -12,9 +12,18 @@ Up: [[IA]]
 
 - Variables: $x$, $x_1$, $x_2$, $\dots$, $x'$, $x''$, $\dots$, $y$, $\dots$, $z$, $\dots$
 - Truth/Falseness: $\top$, $\bot$
-- Operators:
-- QUantifiers: 
+- Operators: $\neg$, $\lor$, $\land$, $\rightarrow$, $\leftrightarrow$
+- Quantifiers: $\forall$, $\exists$ 
 
+Definition of **Signature**:
+A signature $\Sigma$ in predicate logic is a finite set of constant symbols, predicate symbols, and function symbols
+
+Constant symbols: $BlockA$, $BlockB$, $\dots$
+Predicate symbols: $Block(.)$, $Above(.)$, $\dots$
+Function symbols: $WeightOf(.)$, $Succ(.)$, $\dots$
+
+**Example**:
+\
 
 ---
 # References

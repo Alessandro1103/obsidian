@@ -71,6 +71,16 @@ DPLL makes the same mistakes over and over again.
 Definition of **Implication Graph**:
 Let $\Delta$ be a set of clauses, and consider any search branch $\beta$ of DPLL on $\Delta$. The implication graph $G^{impl}$ is a directed graph. Its vertices are the choice and implied literals along $\beta$, as well as a separate conflict vertex $\Box_C$ for every clause $C$ that becomes empty
 
+- Value of $P$ set by the splitting rule: choice literal, $P$ for $I(P) = 1$, respectively $¬P$ for $I(P) = 0$. 
+- Value of $P$ set by the UP rule: implied literal $P$ respectively $¬P$. 
+- Empty clause derived by UP: conflict literal $\Box$.
+
+Example:
+![[Pasted image 20231205113405.png|300]] 
+
+Definition of **Conflict Graph**:
+
+
 
 ## Clause Learning
 

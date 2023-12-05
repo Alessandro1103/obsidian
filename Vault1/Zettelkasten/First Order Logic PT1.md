@@ -23,7 +23,9 @@ Predicate symbols: $Block(.)$, $Above(.)$, $\dots$
 Function symbols: $WeightOf(.)$, $Succ(.)$, $\dots$
 
 **Example**:
-\
+$\forall [Dog(x) \rightarrow \exists y Chases(x,y)]$, which in words means "Every dog chases something"
+
+
 
 ---
 # References

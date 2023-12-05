@@ -61,7 +61,8 @@ Define the number of decisions (when the algorithm chooses a variable and assign
 If DPLL returns “unsatisfiable” on $\Delta$, there exists a resolution derivation of unsatisfiability for $\Delta$, $\Delta$ $\vdash$ $\Box$. A resolution derivation is a series of application of the resolution rule to clauses, leading to a contradiction (empty clause $\Box$). The length of the resolution derivation is at most the number of decisions made by DPLL during its run.
 
 **Example**:
-
+![[Pasted image 20231205112113.png|300]] 
+![[Pasted image 20231205112055.png|300]]
 
 ## UP Conflict Analysis
 

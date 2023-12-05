@@ -90,7 +90,10 @@ A conflict graph captures "what went wrong" in a failed node. Starting at a conf
 
 ## Clause Learning
 
+Clause learning is an extension of the DPLL. It involves storing causes of assignment failure. The process follows the standard DPLL branching until a conflict arises after unit propagation. If the conflict happens without any current variable being branched upon, the formula is declared unsatisfiable. Otherwise, the conflict graph is analyzed, and the cause of the conflict is learned as a "conflict clause." The solver then backtracks and continues with DPLL, treating the learned clause like initial ones. This mechanism helps the solver avoid repeating the same conflicting decisions and speeds up the search process.
 
+Proposition of **Clause Learning**: 
+Let $\Delta$ be a set of clauses, and let $G^{confl}$ be a conflict graph at some time point during a run of DPLL on $\Delta$. Let $choiceLits(G^{confl})$ be the choice literals in $G^{confl}$. Then \Delta |= {l | l ∈ choiceLits(Gconfl)}.
 
 ## Phase Trans.
 

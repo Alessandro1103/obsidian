@@ -39,6 +39,15 @@ Atoms without variables are ground atoms. Atoms represent atomic statements abou
 
 ## Semantics
 
+Example:
+$\forall x[Block(x) \rightarrow Red(x)], Block(A)$
+For all objects $x$, if $x$ is a block, then $x$ is red. $A$ is a block.
+
+Definition of **Interpretation**:
+Let $\Sigma$ be a signature. A $\Sigma$-interpretation is a pair $(U,I)$ where $U$, the universe, is an arbitrary non-empty set, I is a function, notated as superscript, so that
+1. I maps constant symbols to elements of U:c^I \in U
+2. I maps n-ary predicate symbols to n-ary reations over U:
+
 
 ---
 # References

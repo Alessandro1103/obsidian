@@ -66,6 +66,7 @@ If DPLL returns “unsatisfiable” on $\Delta$, there exists a resolution deriv
 ![[Pasted image 20231205112055.png|300]]
 
 DPLL makes the same mistakes over and over again.
+There exist $\Delta$ whose shortest tree-resolution proof is exponentially longer than their shortest (general) resolution proof
 
 ## UP Conflict Analysis
 

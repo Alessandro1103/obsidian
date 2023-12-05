@@ -89,9 +89,7 @@ A conflict graph captures "what went wrong" in a failed node. Starting at a conf
 
 
 ## Clause Learning
-It is a technique used to enhance the efficiency of the solver by learning from conflicts encountered during the search process.
 
-"A CNF formula F is an and (∧) of clauses, where each clause is an or (∨) of literals, and a literal is a variable or its negation (¬)."
 
 
 ## Phase Trans.

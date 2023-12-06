@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/First Order Logic PT2.md",
+                "file": "Zettelkasten/Introduction to AI Planning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/First Order Logic PT2.md",
+                "file": "Zettelkasten/Introduction to AI Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/First Order Logic PT2.md",
+                "file": "Zettelkasten/Introduction to AI Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,9 +154,9 @@
   },
   "active": "776196a79918dcfe",
   "lastOpenFiles": [
+    "Zettelkasten/First Order Logic PT2.md",
     "Files/post-handout 1.pdf",
     "Zettelkasten/First Order Logic PT1.md",
-    "Zettelkasten/First Order Logic PT2.md",
     "Files/Pasted image 20231205202902.png",
     "Files/post-handout.pdf",
     "Zettelkasten/Propositional Reasoning PT2.md",
@@ -182,7 +182,7 @@
     "Zettelkasten/Exteroceptive Sensors.md",
     "Zettelkasten/Local Search.md",
     "Zettelkasten/Adversarial Search.md",
-    "Zettelkasten/Introduction to Planning.md",
+    "Zettelkasten/Introduction to AI Planning.md",
     "Files/Recording 20231123223359.webm",
     "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Classical Search PT1.md",
@@ -199,7 +199,6 @@
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
     "Files/Recording 20231004111311.webm",
-    "Files/Recording 20231004111255.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

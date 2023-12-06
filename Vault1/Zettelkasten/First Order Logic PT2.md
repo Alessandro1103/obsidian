@@ -8,6 +8,10 @@ Up:
 
 ![[post-handout 1.pdf]]
 
+## Propositional
+## Substitution & Unification
+## FOL Resolution
+
 
 ---
 # References

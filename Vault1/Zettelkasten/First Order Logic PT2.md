@@ -22,5 +22,8 @@ Up:
 
 Definition of **Derivations**: We say that a clause $C$ can be derived from $\Delta$ using calculus $R$, written $\Delta \vdash_R C$, if (starting from $\Delta$) there is a sequence of applications of rules from R, ending in C.
 
+**Soundness**: A calculus R is sound if $\Delta \vdash C$ implies $\Delta \models C$. 
+**Completeness**: A calculus R is refutation-complete if $\Delta \models \perp$ implies $\Delta \vdash_R \Box$, i.e., if $\Delta$ is unsatisfiable then we can derive the empty clause.
+
 ---
 # References

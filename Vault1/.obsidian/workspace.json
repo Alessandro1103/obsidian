@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e71023deb12061bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/CSP PT2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/CSP PT2.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,24 +166,32 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "994f662286f79868",
+  "active": "e71023deb12061bc",
   "lastOpenFiles": [
-    "Files/Pasted image 20231203165435.png",
-    "Files/Pasted image 20231203163424.png",
-    "Files/Pasted image 20231203163411.png",
-    "Files/Pasted image 20231203163358.png",
-    "Files/Pasted image 20231203163320.png",
-    "Files/Pasted image 20231203163310.png",
-    "Files/Pasted image 20231203163138.png",
-    "Files/Pasted image 20231203163127.png",
-    "Files/Pasted image 20231203162101.png",
-    "Files/Pasted image 20231203133936.png",
-    "Files/Pasted image 20231203124637.png",
-    "Zettelkasten/Homework1.md",
+    "conflict-files-obsidian-git.md",
     "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/Propositional Reasoning PT2.md",
+    "Zettelkasten/Propositional Reasoning PT1.md",
+    "Zettelkasten/Introduction to AI Planning.md",
+    "Zettelkasten/First Order Logic PT2.md",
+    "Zettelkasten/First Order Logic PT1.md",
+    "Files/slideIA.pdf",
+    "Files/slideIA 1.pdf",
+    "Files/post-handout.pdf",
+    "Files/post-handout 1.pdf",
+    "Files/Pasted image 20231205202902.png",
+    "Files/Pasted image 20231205124408.png",
+    "Files/Pasted image 20231205124233.png",
+    "Files/Pasted image 20231205113405.png",
+    "Files/Pasted image 20231205112113.png",
+    "Files/Pasted image 20231205112055.png",
+    "Files/Pasted image 20231205101620.png",
+    "Files/Pasted image 20231205101523.png",
+    "Files/Pasted image 20231205101501.png",
+    "Files/Pasted image 20231203165435.png",
+    "Zettelkasten/Homework1.md",
     "Templates/Report.md",
     "Zettelkasten/Regali.md",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Appunti.md",
@@ -186,20 +208,12 @@
     "Zettelkasten/Discorso.md",
     "Zettelkasten/Effect of Instagram Use.md",
     "Zettelkasten/First Computer.md",
-    "Zettelkasten/Intelligent Agents.md",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
     "Files/Recording 20231004111352.webm",
     "Files/Recording 20231004111311.webm",
-    "Files/Recording 20231004111255.webm",
-    "Files/Recording 20231004111228.webm",
-    "Files/Recording 20231004111127.webm",
-    "Files/Recording 20231004110821.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

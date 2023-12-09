@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/AI Planning Formalisms.md",
+                "file": "Zettelkasten/PDDL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/AI Planning Formalisms.md",
+                "file": "Zettelkasten/PDDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/AI Planning Formalisms.md",
+                "file": "Zettelkasten/PDDL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,8 @@
   },
   "active": "776196a79918dcfe",
   "lastOpenFiles": [
+    "Zettelkasten/AI Planning Formalisms.md",
+    "Zettelkasten/PDDL.md",
     "Files/Pasted image 20231209160718.png",
     "Files/Pasted image 20231209160652.png",
     "Files/Pasted image 20231209160347.png",
@@ -164,9 +166,7 @@
     "Files/Pasted image 20231209151201.png",
     "Files/Pasted image 20231209150935.png",
     "Files/Pasted image 20231209150003.png",
-    "Files/Pasted image 20231209145837.png",
     "Zettelkasten/Introduction to AI Planning.md",
-    "Zettelkasten/AI Planning Formalisms.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/First Order Logic PT2.md",
     "Files/post-handout 1.pdf",

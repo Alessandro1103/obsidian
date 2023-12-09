@@ -23,6 +23,13 @@ corresponds to the actions:
 ## PDDL Grammar
 
 Example:
+``` PDDL
+(and (or (on A B) (on A C)) 
+	 (or (on B A) (on B C)) 
+	 (or (on C A) (on A B)))
+```
+
+![[Pasted image 20231209170613.png|400]]
 
 
 ## Extensions

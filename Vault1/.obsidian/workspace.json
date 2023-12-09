@@ -132,11 +132,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,7 +152,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "776196a79918dcfe",
+  "active": "980a4e6253659c47",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Introduction to AI Planning.md",

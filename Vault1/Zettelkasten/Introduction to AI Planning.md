@@ -29,10 +29,14 @@ Given STRIPS task $\prod = (P,A,I,G)$, we need to find an action sequence $\vec{
 
 We have:
 **Satisficing Planning:**
-- Input:
-- Outpu
+- Input: A planning task $\prod$
+- Output: A plan for $\prod$, or "unsolvable" if no plan for $\prod$ exists
 **Optimal Planning:**
+- Input: A planning task $\prod$
+- Output: An optimal plan for $\prod$, or "unsolvable" if no plan for $\prod$ exists
 
+Definition of **PlanEx**:
+Definition of **PlanLen**:
 
 
 ---

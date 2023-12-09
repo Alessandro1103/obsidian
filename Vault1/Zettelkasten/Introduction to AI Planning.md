@@ -40,7 +40,7 @@ Definition of **PlanEx**:
 Definition of **PlanLen**:
 	The PlanLen problem involves determining whether or not there exists a feasible plan for a given STRIPS planning task $\prod$ whose length is no more than a specified bound B
 Definition of **PolyPlanLen**:
-
+	
 
 
 ---

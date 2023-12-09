@@ -34,12 +34,13 @@ Example:
 
 ![[Pasted image 20231209151541.png|400]]
 
+## STRIPS vs. FDR
   
 The main difference between a STRIPS state space and an FDR state space is that FDR state spaces allow for variables with finite domains. This means that in FDR state spaces, the values of variables can be restricted to a specific set of values. In STRIPS state spaces, on the other hand, the values of variables can be any proposition.
 
 Another difference between the two state spaces is that FDR state spaces use a different transition function. In STRIPS state spaces, the transition function simply removes the preconditions of an action from the current state and adds the effects of the action to the current state. In FDR state spaces, on the other hand, the transition function overwrites the previous variable values with the new values specified by the effects of the action.
 
-
+![[Pasted image 20231209160347.png]]
 
 ---
 # References

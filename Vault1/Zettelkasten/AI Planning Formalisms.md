@@ -46,6 +46,11 @@ Another difference between the two state spaces is that FDR state spaces use a d
 
 ![[Pasted image 20231209160718.png|400]]
 
+## Extensions
+
+**ADL**:
+Like STRIPS but with FOL formulas in pre_
+
 
 ---
 # References

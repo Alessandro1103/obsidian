@@ -61,7 +61,8 @@ Trajectory constraints are requirements that specify how the goals of a plan sho
 **Conformant Planning**:
 Conformant planning is a type of planning in which the planner must take into account uncertainty about the initial state of the world and the effects of actions. We have no obsevability.
 
-
+**Contingent Planning**:
+Contingent planning is a type of planning that allows for the modification of plans in response to unexpected events or changes in the environment. We have partial observability during plan execution.
 
 ---
 # References

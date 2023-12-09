@@ -18,9 +18,12 @@ Schematic action (respectively (pre, add, del)) example:
 corresponds to the actions:
 ![[Pasted image 20231209170153.png|400]]
 
-
+![[Pasted image 20231209170432.png|400]]
 
 ## PDDL Grammar
+
+Example:
+
 
 ## Extensions
 

@@ -8,6 +8,15 @@ Up: [[IA]]
 
 ## Causal Graphs
 
+![[Pasted image 20231209172321.png|400]]
+
+![[Pasted image 20231209172343.png|400]]
+
+Example:
+![[Pasted image 20231209172407.png|300]] ![[Pasted image 20231209172458.png|300]]
+
+
+
 ## DTGs
 
 

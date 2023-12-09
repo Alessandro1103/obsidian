@@ -16,6 +16,10 @@ Example:
 
 ![[Pasted image 20231209150003.png|400]]
 
+We can represent states or situations that are not reachable in a STRIPS state space, as long as they are consistent with the terminology
+For example:
+![[Pasted image 20231209150935.png|400]]
+
 
 
 

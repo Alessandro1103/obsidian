@@ -13,11 +13,13 @@ Strips is the simplest possible logics-based planning language. It has only Bool
 ![[Pasted image 20231209120709.png|400]]
 ![[Pasted image 20231209120720.png|400]]
 
+![[Pasted image 20231209120916.png|400]]
+
 In summary we have:
-Facts:
-Initial State:
-Goal:
-Actions:
+- Facts: (state or condition of the problem) e.g. onTable(x)
+- Initial State: 
+- Goal:
+- Actions:
 
 ---
 # References

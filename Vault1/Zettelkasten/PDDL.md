@@ -31,9 +31,10 @@ Example:
 
 ![[Pasted image 20231209170613.png|300]] ![[Pasted image 20231209170728.png|300]]
 
-Example:
-![[Pasted image 20231209170953.png|350]]
+![[Pasted image 20231209170953.png|300]] ![[Pasted image 20231209171226.png|300]]
 
+
+![[Pasted image 20231209171255.png|300]] ![[Pasted image 20231209171308.png|300]]
 
 
 ## Extensions

@@ -24,7 +24,8 @@ In summary we have:
 	- add: state or condition after
 	- del: state or condition that need to be removed
 
-
+The problem:
+Given STRIPS task $\prod = (P,A,I,G)$, we need to find an action sequence $\arrow{a}$  
 
 ---
 # References

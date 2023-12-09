@@ -42,6 +42,9 @@ Another difference between the two state spaces is that FDR state spaces use a d
 
 ![[Pasted image 20231209160347.png|400]]
 
+![[Pasted image 20231209160652.png|400]]ù
+
+![[Pasted image 20231209160718.png|400]]
 
 
 ---

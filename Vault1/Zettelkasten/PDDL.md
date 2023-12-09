@@ -29,7 +29,9 @@ Example:
 	 (or (on C A) (on A B)))
 ```
 
-![[Pasted image 20231209170613.png|400]]
+![[Pasted image 20231209170613.png|300]] ![[Pasted image 20231209170728.png|300]]
+
+
 
 
 ## Extensions

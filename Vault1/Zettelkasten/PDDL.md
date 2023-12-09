@@ -8,6 +8,12 @@ Up: [[IA]]
 
 ## Schematic Encodings
 
+Schematics encodings use variables that range over objects:
+- Predicates instead of STRIPS propositions. Arity: number of vars
+- Action schemas instead of STRIPS actions. Arity: number of vars
+
+
+
 ## PDDL Grammar
 
 ## Extensions

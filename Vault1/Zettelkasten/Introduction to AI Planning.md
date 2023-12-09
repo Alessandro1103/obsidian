@@ -10,22 +10,14 @@ Up: [[IA]]
 
 Strips is the simplest possible logics-based planning language. It has only Boolean variables.
 
-Definition of **STRIPS Planning Task**:
-A STRIPS planning task, short planning task, is a 4-tuple $\prod = (P, A, I, G)$ where: 
-- P is a finite set of *facts* (aka propositions). 
-- A is a finite set of *actions*; each $a \in A$ is a triple $a = (pre_a , add_a, del_a)$ of subsets of $P$ referred to as the action’s *precondition*, *add list*, and *delete list* respectively; we require that $add_a \cap del_a = \emptyset$. 
-- $I \subseteq P$ is the initial state. 
-- $G \subseteq P$ is the goal.
+![[Pasted image 20231209120709.png|400]]
+![[Pasted image 20231209120720.png|400]]
 
-Definition of **STRIPS State Space**: 
-Let $\prod = (P, A, c, I, G)$ be a *STRIPS planning task*. The state space of $\prod$ is $\Theta_\prod = (S, A, T, I, S^G)$ where: 
-- The states (also world states) $S = 2^P$ are the subsets of $P$. 
-- $A$ is $\prod$’s action set. 
-- The transitions are $T = \{s \rightarrow ^a s' \ | \ pre_a \subseteq s, s' = (JsK, a)\}$. If $pre_a \subseteq s$, then a is applicable in s and $([s], a) := (s \cup add_a) \ \backslash \ del_a$. If prea 6⊆ s, then (JsK, a) is undefined. 
-- I is Π’s initial state. 
-- The goal states S G = {s ∈ S | G ⊆ s} are those that satisfy Π’s goal.
-
-
+In summary we have:
+Facts:
+Initial State:
+Goal:
+Actions:
 
 ---
 # References

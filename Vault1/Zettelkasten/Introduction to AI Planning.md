@@ -36,8 +36,10 @@ We have:
 - Output: An optimal plan for $\prod$, or "unsolvable" if no plan for $\prod$ exists
 
 Definition of **PlanEx**:
+
 Definition of **PlanLen**:
 
+Definition of **PolyPlanLen**:
 
 ---
 # References

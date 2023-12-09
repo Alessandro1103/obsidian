@@ -20,9 +20,11 @@ In summary we have:
 - Initial State: e.g. onTable(E)
 - Goal: e.g. on(E,C)
 - Actions: action/functions, each have:
-	- pre: condition 
-	- add:
-	- del:
+	- pre: state or condition before
+	- add: state or condition after
+	- del: state or condition that need to be removed
+
+
 
 ---
 # References

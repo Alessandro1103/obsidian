@@ -49,7 +49,7 @@ Another difference between the two state spaces is that FDR state spaces use a d
 ## Extensions
 
 **ADL**:
-Like STRIPS but with FOL formulas in pre_
+Like STRIPS but with FOL formulas in $pre_a$ and $G$, and conditional effects that execute only if their individual effect condition holds
 
 
 ---

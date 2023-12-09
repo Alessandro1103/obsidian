@@ -25,7 +25,7 @@ In summary we have:
 	- del: state or condition that need to be removed
 
 The problem:
-Given STRIPS task $\prod = (P,A,I,G)$, we need to find an action sequence $\vec{a}$ leading from $I$ to a state that contains $G$, when pretending that preconditions and deletes are empty. 
+Given STRIPS task $\prod = (P,A,I,G)$, we need to find an action sequence $\vec{a}$ leading from $I$ to a state that contains $G$, when pretending that preconditions and deletes are empty. we have no certainty
 
 ---
 # References

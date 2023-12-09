@@ -52,7 +52,13 @@ Another difference between the two state spaces is that FDR state spaces use a d
 ADL is a more expressive language that allows for more complex representations of actions. It extends STRIPS by using first-order logic (FOL) to represent preconditions and effects. 
 
 **Numeric and Temporal Planning**:
+Both numeric and temporal aspects are considered. This means that actions can have numeric effects, durations, or both
 
+**Soft Goals and Trajectory Constraints**:
+Soft goals are optional objectives that should be achieved whenever possible, but they do not have to be satisfied in order for the plan to be considered successful. (e.g, I don’t absolutely have to visit Darwin, but if I do, I get a certain amount R of reward)
+Trajectory constraints are requirements that specify how the goals of a plan should be achieved. (e.g, I must visit Perth before I visit Darwin.)
+
+Conformant Planning
 
 ---
 # References

@@ -6,11 +6,15 @@ Up: [[IA]]
 ---
 # AI Planning Formalisms
 
+## Trans. Sys.
+
 ![[Pasted image 20231209145010.png|400]]
 ![[Pasted image 20231209145059.png|400]]
 
 Example:
 ![[Pasted image 20231209145324.png|400]]
+
+## Strips
 
 ![[Pasted image 20231209145837.png|400]]
 
@@ -59,10 +63,13 @@ Soft goals are optional objectives that should be achieved whenever possible, bu
 Trajectory constraints are requirements that specify how the goals of a plan should be achieved. (e.g, I must visit Perth before I visit Darwin.)
 
 **Conformant Planning**:
-Conformant planning is a type of planning in which the planner must take into account uncertainty about the initial state of the world and the effects of actions. We have no obsevability.
+Conformant planning is a type of planning in which the planner must take into account uncertainty about the initial state of the world and the effects of actions. We have no observability.
 
 **Contingent Planning**:
 Contingent planning is a type of planning that allows for the modification of plans in response to unexpected events or changes in the environment. We have partial observability during plan execution.
+
+**Probabilistic planning**:  
+Probabilistic planning is a branch of artificial intelligence that deals with planning in the presence of uncertainty. Unlike classical planning, which assumes that the world is deterministic and that the effects of actions are always known, probabilistic planning takes into account the possibility of random events and incomplete information
 
 ---
 # References

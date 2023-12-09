@@ -12,6 +12,8 @@ Up: [[IA]]
 Example:
 ![[Pasted image 20231209145324.png|400]]
 
+![[Pasted image 20231209145837.png]]
+
 
 ---
 # References

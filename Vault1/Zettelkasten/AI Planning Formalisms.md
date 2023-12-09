@@ -29,6 +29,12 @@ For example:
 
 ![[Pasted image 20231209151223.png|400]]
 
+Example:
+![[Pasted image 20231209151515.png|400]]
+
+![[Pasted image 20231209151541.png|400]]
+
+
 
 ---
 # References

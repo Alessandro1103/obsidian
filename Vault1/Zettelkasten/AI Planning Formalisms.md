@@ -20,7 +20,11 @@ We can represent states or situations that are not reachable in a STRIPS state s
 For example:
 ![[Pasted image 20231209150935.png|400]]
 
+## FDR Planning
 
+![[Pasted image 20231209151201.png|400]]
+
+![[Pasted image 20231209151223.png|400]]
 
 
 ---

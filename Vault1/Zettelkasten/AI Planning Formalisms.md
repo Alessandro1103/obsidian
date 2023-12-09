@@ -58,7 +58,10 @@ Both numeric and temporal aspects are considered. This means that actions can ha
 Soft goals are optional objectives that should be achieved whenever possible, but they do not have to be satisfied in order for the plan to be considered successful. (e.g, I don’t absolutely have to visit Darwin, but if I do, I get a certain amount R of reward)
 Trajectory constraints are requirements that specify how the goals of a plan should be achieved. (e.g, I must visit Perth before I visit Darwin.)
 
-Conformant Planning
+**Conformant Planning**:
+Conformant planning is a type of planning in which the planner must take into account uncertainty about the initial state of the world and the effects of actions. We have no obsevability.
+
+
 
 ---
 # References

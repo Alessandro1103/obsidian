@@ -43,7 +43,8 @@ Definition of **PolyPlanLen**:
 	The PolyPlanLen problem involves determining whether or not there exists a feasible plan for a given STRIPS planning task $\prod$ with a length that is bounded by a polynomial function of the size of $\prod$.
 
 PlanEx complexity: PSPACE-complete
-PlanLen complexity
+PlanLen complexity: PSPACE-complete
+PolyPlanLen complexity: NP-complete (easier)
 
 ---
 # References

@@ -15,9 +15,12 @@ Up: [[IA]]
 Example:
 ![[Pasted image 20231209172407.png|300]] ![[Pasted image 20231209172458.png|300]]
 
-
-
 ## DTGs
+
+![[Pasted image 20231209172557.png|400]]
+
+![[Pasted image 20231209172659.png|400]]
+
 
 
 

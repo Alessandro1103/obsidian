@@ -40,7 +40,9 @@ The main difference between a STRIPS state space and an FDR state space is that 
 
 Another difference between the two state spaces is that FDR state spaces use a different transition function. In STRIPS state spaces, the transition function simply removes the preconditions of an action from the current state and adds the effects of the action to the current state. In FDR state spaces, on the other hand, the transition function overwrites the previous variable values with the new values specified by the effects of the action.
 
-![[Pasted image 20231209160347.png]]
+![[Pasted image 20231209160347.png|400]]
+
+
 
 ---
 # References

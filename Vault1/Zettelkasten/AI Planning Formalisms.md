@@ -12,7 +12,11 @@ Up: [[IA]]
 Example:
 ![[Pasted image 20231209145324.png|400]]
 
-![[Pasted image 20231209145837.png]]
+![[Pasted image 20231209145837.png|400]]
+
+![[Pasted image 20231209150003.png|400]]
+
+
 
 
 ---

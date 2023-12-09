@@ -9,7 +9,8 @@ Up: [[IA]]
 ![[Pasted image 20231209145010.png|400]]
 ![[Pasted image 20231209145059.png|400]]
 
-
+Example:
+![[Pasted image 20231209145324.png|400]]
 
 
 ---

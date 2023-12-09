@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Introduction to AI Planning.md",
+                "file": "Zettelkasten/AI Planning Formalisms.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Introduction to AI Planning.md",
+                "file": "Zettelkasten/AI Planning Formalisms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Introduction to AI Planning.md",
+                "file": "Zettelkasten/AI Planning Formalisms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,11 +154,13 @@
   },
   "active": "776196a79918dcfe",
   "lastOpenFiles": [
+    "Files/Pasted image 20231209145010.png",
+    "Zettelkasten/Introduction to AI Planning.md",
+    "Zettelkasten/AI Planning Formalisms.md",
     "Files/Pasted image 20231209120916.png",
     "Files/Pasted image 20231209120720.png",
     "Files/Pasted image 20231209120709.png",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Introduction to AI Planning.md",
     "Zettelkasten/First Order Logic PT2.md",
     "Files/post-handout 1.pdf",
     "Zettelkasten/First Order Logic PT1.md",
@@ -173,7 +175,6 @@
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",
     "Files/Pasted image 20231205101620.png",
-    "Files/Pasted image 20231205101523.png",
     "Files/slideIA 1.pdf",
     "Files/slideIA.pdf",
     "Zettelkasten/Homework2.md",
@@ -194,7 +195,6 @@
     "Zettelkasten/Denavit-Hartenberg.md",
     "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/First Computer.md",
-    "Zettelkasten/Effect of Instagram Use.md",
     "Files/Screenshot from 2023-10-17 15-53-46.xcf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",

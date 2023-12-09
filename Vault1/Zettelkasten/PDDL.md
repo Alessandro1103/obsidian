@@ -31,6 +31,8 @@ Example:
 
 ![[Pasted image 20231209170613.png|300]] ![[Pasted image 20231209170728.png|300]]
 
+Example:
+![[Pasted image 20231209170953.png|350]]
 
 
 

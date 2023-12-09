@@ -7,6 +7,8 @@ Up: [[IA]]
 # AI Planning Formalisms
 
 ![[Pasted image 20231209145010.png|400]]
+![[Pasted image 20231209145059.png|400]]
+
 
 
 

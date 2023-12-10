@@ -29,7 +29,7 @@ Consider a leaf vertex v in the conflict graph CG(\prod) of an FDR planning task
 Furthermore, since G(v) is undefined, this implies that v does not have any specific goal or purpose. In other words, v's state is not relevant to the overall goal of the planning task.
 Based on these observations, we can simplify $\prod$ by removing v from the task. This modified task, which is denoted by $\prod'$, still contains all the actions and variables that are relevant to achieving the goal of the task. Any (optimal) plan for $\prod'$ is an (optimal) plan for $\prod$
 
-Lemma of **Simplification**: If you have an FDR planning task $\prod$ and a root vertex v with a connected DTG and invertible value transitions, you can solve the problem of planning for $\prod$ by solving the problem of planning for the task $\prod$0 that is obtained by removing $v$ and restricting $I$ and $G$ to V\∄{v}
+Lemma of **Simplification**: If you have an $FDR$ planning task $\prod$ and a root vertex $v$ with a connected $DTG$ and invertible value transitions, you can solve the problem of planning for $\prod$ by solving the problem of planning for the task $\prod'$ that is obtained by removing $v$ and restricting $I$ and $G$ to $V \backslash {v}$, remove any assignment to $v$ from all action preconditions, and remove all actions $a$ where $eff_a(v)$ is defined
 
 ---
 # References

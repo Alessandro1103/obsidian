@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "06ac449d81b2ff62",
+        "id": "353ec217bb902f3a",
         "type": "tabs",
         "children": [
           {
-            "id": "994f662286f79868",
+            "id": "fd237be8cce0d256",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,11 +152,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "994f662286f79868",
+  "active": "fd237be8cce0d256",
   "lastOpenFiles": [
+    "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/AI Planning Formalisms.md",
     "Files/Pasted image 20231209172659.png",
     "Files/Pasted image 20231209172557.png",

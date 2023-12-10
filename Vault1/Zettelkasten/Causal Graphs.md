@@ -39,8 +39,12 @@ Final plan:
 	1. Remove $v$ from $\prod$ to obtain $\prod'$; find plan $\vec{a}$ for $\prod'$
 3. Iteratively apply the simplification2 to $v_n, \dots, v_1$:
 	1. Extend $\vec{a}$ with move sequence for $v$ that achieves all preconditions on $v$ as needed, then moves to $v$'s own goal (if any) at the end.
-4. 
 
+Example:
+![[Pasted image 20231210135017.png|400]]
+
+Theorem of **Complexity**:
+Restrict the input to FDR tasks $\prod = (V, A, c, I, G)$ such that $CG(\prod)$ is acyclic and, for all $v \in V$ , all value transitions of $v$ are invertible. Then PlanEx can be decided in polynomial time
 
 ---
 # References

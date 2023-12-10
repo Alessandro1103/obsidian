@@ -31,6 +31,11 @@ In other words, a consistent heuristic never overestimates the cost of transitio
 
 Let $\prod$ be a planning task, and let $h$ be a heuristic for $\prod$. If $h$ is admissible, then $h$ is goal-aware. If $h$ is admissible, then $h$ is safe. If $h$ is consistent and goal-aware, then $h$ is admissible. No other implications of this form hold.
 
+Definition of **Domination**: 
+Let $\prod$ be a planning task, and let $h$ and $h'$ be admissible heuristics for $\prod$. We say that $h'$ dominates $h$ if $h \leq h'$ , i.e., for all states $s$ in $\prod$ we have $h(s) \leq h' (s)$.
+
+Definition (**Additivity**:
+Let Π be a planning task, and let h1, . . . , hn be admissible heuristics for Π. We say that h1, . . . , hn are additive if h1 + · · · + hn is admissible, i.e., for all states s in Π we have h1(s) + · · · + hn(s) ≤ h ∗ (s).
 
 ---
 # References

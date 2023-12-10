@@ -21,7 +21,7 @@ Example:
 
 ![[Pasted image 20231209172659.png|400]]
 
-
+Lemma of Decomposition: You can decompose an FDR planning task into two smaller tasks that have no interactions, and then solve each of those tasks optimally, you can always combine the solutions of those tasks to find an optimal solution to the original task
 
 
 ---

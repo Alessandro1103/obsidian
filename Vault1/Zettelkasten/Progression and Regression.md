@@ -50,6 +50,9 @@ Let $(P, A, c, I, G)$ be a STRIPS planning task, $g \subseteq P$, and $a \in A$.
 
 ## Pros and Cons
 
+In favor of progression: 
+- Regression has in the past often had serious trouble getting lost in gazillions of solvable but unreachable states. Reachable dead end states tend to be less frequent in practice. 
+- Progression allows easy formulation of searches for more complex planning formalisms (numbers, durations, uncertainty, you name it).
 
 ---
 # References

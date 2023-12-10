@@ -35,9 +35,11 @@ Lemma of **Simplification**: If you have an $FDR$ planning task $\prod$ and a ro
 
 Final plan:
 1. Order the variables topologically $v_1, \dots, v_n$ from "servants" to "clients"
-2. Iteratively apply the simplification:
+2. Iteratively apply the simplification1 to $v_1, \dots, v_n$. Then $\prod'$ is empty, and the empty plan $\vec{a} := <>$ solves it:
 	1. Remove $v$ from $\prod$ to obtain $\prod'$; find plan $\vec{a}$ for $\prod'$
-	2. Extend ~a with move sequence for v that achieves all preconditions on v as needed, then moves to v 0 s own goal (if any) at the end.
+3. Iteratively apply the simplification2 to $v_n, \dots, v_1$:
+	1. Extend $\vec{a}$ with move sequence for $v$ that achieves all preconditions on $v$ as needed, then moves to $v$'s own goal (if any) at the end.
+4. 
 
 
 ---

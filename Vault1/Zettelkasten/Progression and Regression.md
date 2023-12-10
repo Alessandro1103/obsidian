@@ -33,6 +33,10 @@ The same definition applies to FDR tasks $\prod = (V, A, c, I, G)$
 Definition of FDR Regression:
 Let $(V, A, c, I, G)$ be an $FDR$ planning task, $g$ be a partial variable assignment, and $a \in A$. We say that $g$ is regressable over a if
 1. $eff_a \cap g \neq \emptyset$
+2. there is no $v \in V$ s.t. $v \in V [eff_a] \cap V [g]$ and $eff_a (v) \neq g(v)$
+3. there is no $v \in V$ s.t. $v \notin V [eff_a]$, $v \in V[pre_a] \cap V [g]$, and $pre_a(v) \neq g(v)$
+
+![[Pasted image 20231210160305.png]]
 
 ## Pros and Cons
 

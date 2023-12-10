@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/CSP PT2.md",
+                "file": "Zettelkasten/PDDL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/CSP PT2.md",
+                "file": "Zettelkasten/PDDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/CSP PT2.md",
+                "file": "Zettelkasten/PDDL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,7 @@
   },
   "active": "994f662286f79868",
   "lastOpenFiles": [
+    "Zettelkasten/CSP PT2.md",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/AI Planning Formalisms.md",
@@ -168,7 +169,6 @@
     "Files/Pasted image 20231209171308.png",
     "Files/Pasted image 20231209171255.png",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/CSP PT2.md",
     "Zettelkasten/Propositional Reasoning PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",
     "Zettelkasten/Introduction to AI Planning.md",

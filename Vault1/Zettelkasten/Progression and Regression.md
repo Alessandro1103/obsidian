@@ -38,10 +38,15 @@ Let $(V, A, c, I, G)$ be an $FDR$ planning task, $g$ be a partial variable assig
 
 ![[Pasted image 20231210160305.png]]
 
+Example:
+![[Pasted image 20231210163017.png|400]]
+
 Definition of **STRIPS Regression**: 
 Let $(P, A, c, I, G)$ be a STRIPS planning task, $g \subseteq P$, and $a \in A$. We say that $g$ is regressable over a if 
 1. $add_a \cap g \neq \emptyset$
-2. $del_a \cap g = \emptyset$.
+2. $del_a \cap g = \emptyset$
+
+![[Pasted image 20231210163035.png|400]]
 
 ## Pros and Cons
 

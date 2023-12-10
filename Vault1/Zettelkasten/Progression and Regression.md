@@ -9,14 +9,30 @@ Up: [[IA]]
 ## Progression
 
 is another word for Forward Search:
-Let $\prod = (P, A, c, I, G)$ be a STRIPS planning task. The progression search space of $\prod$ is given by: 
-- InitialState() = I 
-- GoalTest(s) =
+Let $\prod = (P, A, c, I, G)$ be a STRIPS planning task. The *progression* search space of $\prod$ is given by: 
+- $InitialState()$ = $I$ 
+- $GoalTest(s)$ =
 	- True if $G \subseteq s$
 	- False otherwise 
-- ChildState(s, a) = {$s' \ | \ \Theta_\prod \; has \ the \ transition \ s \rightarrow^a s'$} The same definition applies to FDR tasks $\prod = (V, A, c, I, G)$
+- $ChildState(s, a)$ = {$s' \ | \ \Theta_\prod \; has \ the \ transition \ s \rightarrow^a s'$} 
+
+The same definition applies to FDR tasks $\prod = (V, A, c, I, G)$
 
 ## Regression
+
+is another word for Backward Search:
+Let $\prod = (P, A, c, I, G)$ be a STRIPS planning task. The *regression* search space of $\prod$ is given by: 
+- $InitialState()$ = $G$ 
+- $GoalTest(s)$ =
+	- True if $g \subseteq I$
+	- False otherwise 
+- $ChildState(s, a)$ = {$g' \ | \ g' = regr(g,a)$} 
+
+The same definition applies to FDR tasks $\prod = (V, A, c, I, G)$
+
+Definition of FDR Regression:
+Let $(V, A, c, I, G)$ be an $FDR$ planning task, $g$ be a partial variable assignment, and $a \in A$. We say that $g$ is regressable over a if
+1. $eff_a \cap g \neq \emptyset$
 
 ## Pros and Cons
 

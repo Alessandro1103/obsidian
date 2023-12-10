@@ -34,8 +34,8 @@ Let $\prod$ be a planning task, and let $h$ be a heuristic for $\prod$. If $h$ i
 Definition of **Domination**: 
 Let $\prod$ be a planning task, and let $h$ and $h'$ be admissible heuristics for $\prod$. We say that $h'$ dominates $h$ if $h \leq h'$ , i.e., for all states $s$ in $\prod$ we have $h(s) \leq h' (s)$.
 
-Definition (**Additivity**:
-Let Π be a planning task, and let h1, . . . , hn be admissible heuristics for Π. We say that h1, . . . , hn are additive if h1 + · · · + hn is admissible, i.e., for all states s in Π we have h1(s) + · · · + hn(s) ≤ h ∗ (s).
+Definition of **Additivity**:
+Let $\prod$ be a planning task, and let $h_1, \dots, h_n$ be admissible heuristics for $\prod$. We say that $h_1, . . . , h_n$ are additive if $h_1 + \dots + h_n$ is admissible, i.e., for all states $s$ in $\prod$ we have $h_1(s) + · · · + h_n(s) ≤ h^∗ (s)$.
 
 ---
 # References

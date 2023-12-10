@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Causal Graphs.md",
+                "file": "Zettelkasten/Progression and Regression.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Causal Graphs.md",
+                "file": "Zettelkasten/Progression and Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Causal Graphs.md",
+                "file": "Zettelkasten/Progression and Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,9 +154,10 @@
   },
   "active": "fd237be8cce0d256",
   "lastOpenFiles": [
+    "Zettelkasten/Causal Graphs.md",
+    "Zettelkasten/Progression and Regression.md",
     "Files/Pasted image 20231210135017.png",
     "Files/Pasted image 20231210134012.png",
-    "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/AI Planning Formalisms.md",
@@ -168,7 +169,6 @@
     "Files/Pasted image 20231209172321.png",
     "Files/Pasted image 20231209171404.png",
     "Files/Pasted image 20231209171333.png",
-    "Files/Pasted image 20231209171308.png",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Propositional Reasoning PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",

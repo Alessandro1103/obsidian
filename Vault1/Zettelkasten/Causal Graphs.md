@@ -29,7 +29,16 @@ Consider a leaf vertex v in the conflict graph CG(\prod) of an FDR planning task
 Furthermore, since G(v) is undefined, this implies that v does not have any specific goal or purpose. In other words, v's state is not relevant to the overall goal of the planning task.
 Based on these observations, we can simplify $\prod$ by removing v from the task. This modified task, which is denoted by $\prod'$, still contains all the actions and variables that are relevant to achieving the goal of the task. Any (optimal) plan for $\prod'$ is an (optimal) plan for $\prod$
 
-Lemma of **Simplification**: If you have an $FDR$ planning task $\prod$ and a root vertex $v$ with a connected $DTG$ and invertible value transitions, you can solve the problem of planning for $\prod$ by solving the problem of planning for the task $\prod'$ that is obtained by removing $v$ and restricting $I$ and $G$ to $V \backslash {v}$, remove any assignment to $v$ from all action preconditions, and remove all actions $a$ where $eff_a(v)$ is defined
+Lemma of **Simplification**: If you have an $FDR$ planning task $\prod$ and a root vertex $v$ with a connected $DTG$ and invertible value transitions, you can solve the problem of planning for $\prod$ by solving the problem of planning for the task $\prod'$ that is obtained by removing $v$ and restricting $I$ and $G$ to $V \backslash {v}$, remove any assignment to $v$ from all action preconditions, and remove all actions $a$ where $eff_a(v)$ is defined. 
+
+![[Pasted image 20231210134012.png|100]]
+
+Final plan:
+1. Order the variables topologically $v_1, \dots, v_n$ from "servants" to "clients"
+2. Iteratively apply the simplification:
+	1. Remove $v$ from $\prod$ to obtain $\prod'$; find plan $\vec{a}$ for $\prod'$
+	2. Extend ~a with move sequence for v that achieves all preconditions on v as needed, then moves to v 0 s own goal (if any) at the end.
+
 
 ---
 # References

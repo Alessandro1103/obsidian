@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Heuristic Search.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Heuristic Search.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Heuristic Search.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,13 +154,16 @@
   },
   "active": "994f662286f79868",
   "lastOpenFiles": [
+    "Files/Pasted image 20231211123029.png",
+    "Files/Pasted image 20231211122920.png",
+    "Zettelkasten/Heuristic Search.md",
+    "Zettelkasten/Critical Path Heuristics.md",
     "Files/post-handout 3.pdf",
     "Files/Pasted image 20231211114907.png",
     "Files/Pasted image 20231211114545.png",
     "Zettelkasten/Regalo Edoardo.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Progression and Regression.md",
-    "Zettelkasten/Heuristic Search.md",
     "Files/post-handout 2.pdf",
     "Files/Pasted image 20231210163035.png",
     "Files/Pasted image 20231210163017.png",
@@ -173,7 +176,6 @@
     "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/AI Planning Formalisms.md",
     "Files/Pasted image 20231209172659.png",
-    "Files/Pasted image 20231209172557.png",
     "Zettelkasten/Propositional Reasoning PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",
     "Zettelkasten/Introduction to AI Planning.md",
@@ -194,12 +196,10 @@
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Classical Search.md",
     "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
-    "Files/Recording 20231004111352.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

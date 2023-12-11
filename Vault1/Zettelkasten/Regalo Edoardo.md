@@ -24,14 +24,24 @@ Prezzo:
 ### In Navetta Per Un Tour In Azienda
 
 
+### Pit-Stop Experience
+[Pit-Stop F1](https://www.ferrari.com/it-IT/museums/pit-stop-f1)
 
+Prenotare 5 giorni prima
 
+Prezzo:
+100 da 2 a 6 persone
+10 stampa della foto souvenir
 
 
 
 ## Modena
 
+### Pista dell’Autodromo
+[Visita Museo Ferrari e Autodromo Modena](https://www.ferrari.com/it-IT/museums/visita-pista-museo-modena)
 
+Prezzo:
+35 
 
 ---
 # Links

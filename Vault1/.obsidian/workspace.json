@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "06ac449d81b2ff62",
+        "id": "877bc6b68359d296",
         "type": "tabs",
         "children": [
           {
-            "id": "994f662286f79868",
+            "id": "3069f888d64afd60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Critical Path Heuristics.md",
+                "file": "Zettelkasten/Transmission.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#IA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Critical Path Heuristics.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Critical Path Heuristics.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,8 +151,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "994f662286f79868",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
+    "Zettelkasten/Social Media.md",
+    "Zettelkasten/Pedoni passati in Endgame.md",
+    "Zettelkasten/Pedoni doppi.md",
+    "Zettelkasten/PDDL.md",
+    "Zettelkasten/MOC.md",
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Local Search.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Is technology always the solution.md",
+    "Zettelkasten/First Order Logic PT2.md",
+    "Zettelkasten/Causal Graphs.md",
+    "Zettelkasten/IA.md",
+    "Zettelkasten/AI Planning Formalisms.md",
+    "Zettelkasten/Regalo Edoardo.md",
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Files/post-handout 3.pdf",
     "Files/Pasted image 20231211130256.png",
     "Files/Pasted image 20231211124723.png",
     "Files/Pasted image 20231211124704.png",
@@ -161,24 +178,16 @@
     "Files/Pasted image 20231211123106.png",
     "Files/Pasted image 20231211123029.png",
     "Files/Pasted image 20231211122920.png",
-    "Zettelkasten/Heuristic Search.md",
-    "Zettelkasten/Critical Path Heuristics.md",
-    "Files/post-handout 3.pdf",
     "Files/Pasted image 20231211114907.png",
     "Files/Pasted image 20231211114545.png",
-    "Zettelkasten/Regalo Edoardo.md",
-    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Heuristic Search.md",
     "Zettelkasten/Progression and Regression.md",
     "Files/post-handout 2.pdf",
-    "Files/Pasted image 20231210163035.png",
-    "Zettelkasten/PDDL.md",
     "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/Causal Graphs.md",
-    "Zettelkasten/AI Planning Formalisms.md",
+    "conflict-files-obsidian-git.md",
     "Zettelkasten/Propositional Reasoning PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",
     "Zettelkasten/Introduction to AI Planning.md",
-    "Zettelkasten/First Order Logic PT2.md",
     "Zettelkasten/First Order Logic PT1.md",
     "Files/slideIA.pdf",
     "Files/slideIA 1.pdf",
@@ -186,15 +195,6 @@
     "Files/post-handout 1.pdf",
     "Zettelkasten/Homework1.md",
     "Templates/Report.md",
-    "Zettelkasten/Regali.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
-    "Zettelkasten/Classical Search PT1.md",
-    "Zettelkasten/Appunti.md",
-    "Zettelkasten/pull.md",
-    "Zettelkasten/Introduction to Planning.md",
-    "Zettelkasten/Classical Search PT2.md",
-    "Zettelkasten/Classical Search.md",
-    "Zettelkasten/Digital Humanities.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",

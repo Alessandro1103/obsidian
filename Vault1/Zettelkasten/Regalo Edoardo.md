@@ -6,8 +6,10 @@ Up: [[Regali]]
 ---
 # Regalo Edoardo
 
-Costo totale per:
-- Visitare Maranello
+MUSEI FERRARI PASS OPEN (COMBINATO MARANELLO+MODENA)
+Prezzo: 30 a persona
+Condizioni: va usato in 365 dall'acquisto e la visita ai musei può essere di 48 di distanza
+
 
 ## Maranello
 
@@ -19,7 +21,8 @@ Orari:
 Prezzo:
 20 per adulto
 
-### Navetta per il Tour Panoramico
+### IN NAVETTA PER UN TOUR IN AZIENDA
+
 
 
 
@@ -31,4 +34,3 @@ Prezzo:
 # Links
 
 [Vivara Viaggi](https://www.vivaraviaggi.it/ferrari.php?group=1)
--

@@ -45,7 +45,11 @@ Using heuristic search instead a blind one, performs always better in satisficin
 
 ## How to Obtain it
 
-To relax a class of problem $P$, whose perferct heuristic $h^**$
+To relax a class of problem $P$, whose perfect heuristic $h^*_P$ we wish to estimate we can define a class $P'$ of simpler problems with a perfect heuristic $h^*_{P'}$ that can be used to estimate $h^*_P$. Then we can define a transformation that maps instances $\prod \in P$ into instances $\prod' \in P'$. And given $\prod \in P$, you let $\prod' := R(\prod)$, and estimate $h^*_P(\prod)$ by $h^*_{P'}(\prod')$
+
+![[Pasted image 20231211114545.png|400]]
+
+
 
 ---
 # References

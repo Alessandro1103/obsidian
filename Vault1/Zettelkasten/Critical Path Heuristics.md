@@ -25,9 +25,12 @@ There exists $m$ s.t. $h^m = h^∗$
 
 ## Dynamic Programming
 
-Consider all subgoals g with size ≤ m. Initialize h m(s, g) to 0 if g ⊆ s, and to ∞ otherwise. Then, keep updating the value of each g based on actions applied to the values computed so far, until the values converge. 
-- We start with an iterative definition of $h^m$ that makes this approach explicit. 
-- We define a dynamic programming algorithm that corresponds to this iterative definition.
+Consider all subgoals with length less than or equal to $m$. Set the value of $h^m(s, g)$ to 0 if g is a subset of s, and to infinity otherwise. Then, update the value of each g based on the actions that can be applied to the values that have already been calculated, until the values stop changing.
+
+We start by defining $h^m$ iteratively, to make this approach explicit. Then, we define a dynamic programming algorithm that corresponds to this iterative definition.
+
+![[Pasted image 20231211124251.png|400]]
+
 
 ---
 # References

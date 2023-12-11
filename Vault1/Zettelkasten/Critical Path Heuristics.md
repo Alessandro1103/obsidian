@@ -31,6 +31,15 @@ We start by defining $h^m$ iteratively, to make this approach explicit. Then, we
 
 ![[Pasted image 20231211124251.png|400]]
 
+Example m=1:
+![[Pasted image 20231211124704.png|500]]
+Example m=2:
+![[Pasted image 20231211124723.png|500]]
+
+## Graphplan
+
+This is the relaxed planning graph:
+
 
 ---
 # References

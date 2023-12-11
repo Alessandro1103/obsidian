@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "353ec217bb902f3a",
+        "id": "06ac449d81b2ff62",
         "type": "tabs",
         "children": [
           {
-            "id": "fd237be8cce0d256",
+            "id": "994f662286f79868",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Heuristic Search.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Heuristic Search.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Heuristic Search.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,26 +151,30 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fd237be8cce0d256",
+  "active": "994f662286f79868",
   "lastOpenFiles": [
-    "Zettelkasten/Progression and Regression.md",
+    "Files/Pasted image 20231211130256.png",
+    "Files/Pasted image 20231211124723.png",
+    "Files/Pasted image 20231211124704.png",
+    "Files/Pasted image 20231211124251.png",
+    "Files/Pasted image 20231211123641.png",
+    "Files/Pasted image 20231211123106.png",
+    "Files/Pasted image 20231211123029.png",
+    "Files/Pasted image 20231211122920.png",
     "Zettelkasten/Heuristic Search.md",
-    "Files/Pasted image 20231210163035.png",
-    "Files/Pasted image 20231210163017.png",
-    "Files/Pasted image 20231210160305.png",
-    "Files/Pasted image 20231210160302.png",
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Files/post-handout 3.pdf",
+    "Files/Pasted image 20231211114907.png",
+    "Files/Pasted image 20231211114545.png",
+    "Zettelkasten/Regalo Edoardo.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Progression and Regression.md",
     "Files/post-handout 2.pdf",
-    "Zettelkasten/Causal Graphs.md",
-    "Files/Pasted image 20231210135017.png",
-    "Files/Pasted image 20231210134012.png",
+    "Files/Pasted image 20231210163035.png",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/AI Planning Formalisms.md",
-    "Files/Pasted image 20231209172659.png",
-    "Files/Pasted image 20231209172557.png",
-    "Files/Pasted image 20231209172458.png",
-    "Files/Pasted image 20231209172407.png",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Propositional Reasoning PT2.md",
     "Zettelkasten/Propositional Reasoning PT1.md",
     "Zettelkasten/Introduction to AI Planning.md",
@@ -191,14 +195,10 @@
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Classical Search.md",
     "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/Cose.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",
     "Files/Recording 20231004111359.webm",
-    "Files/Recording 20231004111352.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

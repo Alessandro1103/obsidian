@@ -6,6 +6,8 @@ Up: [[IA]]
 ---
 # Heuristic Search
 
+## What's a Heuristic
+
 Definition of **Heuristic Function**:
 Let $\prod$ be a planning task with state space $\prod' = (S, L, c, T, I, S^G)$. A heuristic function, short heuristic, for $\prod$ is a function $h : S \rightarrow R^+_0 \cup \{\infty\}$. Its value $h(s)$ for a state $s$ is referred to as the state’s heuristic value, or $h$ value.
 
@@ -37,5 +39,22 @@ Let $\prod$ be a planning task, and let $h$ and $h'$ be admissible heuristics fo
 Definition of **Additivity**:
 Let $\prod$ be a planning task, and let $h_1, \dots, h_n$ be admissible heuristics for $\prod$. We say that $h_1, . . . , h_n$ are additive if $h_1 + \dots + h_n$ is admissible, i.e., for all states $s$ in $\prod$ we have $h_1(s) + · · · + h_n(s) ≤ h^∗ (s)$.
 
+## How to Use it
+
+Using heuristic search instead a blind one, performs always better in satisficing and optimal planning
+
+## How to Obtain it
+
+To relax a class of problem $P$, whose perfect heuristic $h^*_P$ we wish to estimate we can define a class $P'$ of simpler problems with a perfect heuristic $h^*_{P'}$ that can be used to estimate $h^*_P$. Then we can define a transformation that maps instances $\prod \in P$ into instances $\prod' \in P'$. And given $\prod \in P$, you let $\prod' := R(\prod)$, and estimate $h^*_P(\prod)$ by $h^*_{P'}(\prod')$
+
+![[Pasted image 20231211114545.png|400]]
+
+The heuristic search uses the original (non-relaxed) problem definition, except when calculating the heuristic values for states. Those values are calculated using the relaxed problem definition
+
+![[Pasted image 20231211114907.png|400]]
+
+
 ---
 # References
+
+![[post-handout 3.pdf]]

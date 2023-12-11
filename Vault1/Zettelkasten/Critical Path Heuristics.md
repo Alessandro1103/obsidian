@@ -21,7 +21,13 @@ $h^{m+1}$ dominates $h^m$
 Proposition of $h^m$ is perfect in the limit:
 There exists $m$ s.t. $h^m = h^∗$
 
+![[Pasted image 20231211123641.png|400]]
 
+## Dynamic Programming
+
+Consider all subgoals g with size ≤ m. Initialize h m(s, g) to 0 if g ⊆ s, and to ∞ otherwise. Then, keep updating the value of each g based on actions applied to the values computed so far, until the values converge. 
+- We start with an iterative definition of $h^m$ that makes this approach explicit. 
+- We define a dynamic programming algorithm that corresponds to this iterative definition.
 
 ---
 # References

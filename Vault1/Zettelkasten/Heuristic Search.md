@@ -49,7 +49,9 @@ To relax a class of problem $P$, whose perfect heuristic $h^*_P$ we wish to esti
 
 ![[Pasted image 20231211114545.png|400]]
 
+The heuristic search uses the original (non-relaxed) problem definition, except when calculating the heuristic values for states. Those values are calculated using the relaxed problem definition
 
+![[Pasted image 20231211114907.png|400]]
 
 ---
 # References

@@ -6,6 +6,10 @@ Up: [[Regali]]
 ---
 # Regalo Edoardo
 
+Indirizzi:
+**Museo Maranello** Via Dino Ferrari 43 – 41053 Maranello (MO)  
+**Museo Modena** Via Paolo Ferrari 85 – 41121 Modena - _Parcheggio sul retro, via Giuseppe Soli 101_
+
 MUSEI FERRARI PASS OPEN (COMBINATO MARANELLO+MODENA)
 Prezzo: 30 a persona
 Condizioni: va usato in 365 dall'acquisto e la visita ai musei può essere di 48 di distanza
@@ -35,6 +39,13 @@ Prezzo:
 
 Prezzo:
 30 per adulto
+
+### ON-BOARD FOTO
+[On-Board Foto Musei Ferrari](https://www.ferrari.com/it-IT/museums/on-board-photo)
+
+Prezzi:
+Foto 15×20 in elegante album con logo Ferrari 15€
+Foto 20×30 in elegante album con logo Ferrari 20€
 
 ## Modena
 

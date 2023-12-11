@@ -8,6 +8,14 @@ Up: [[IA]]
 
 ![[Pasted image 20231211122920.png|400]]
 
+The perfect regression heuristic is a function that estimates the cost of achieving a subgoal $g$ from a state $s$.
+
+```
+r*(s, g) = { 0 g ⊆ s 
+		   { min a∈A,regr(g,a)#1 c(a) + r*(s, regr(g, a)) otherwise
+```
+
+regr(g,a) is the result of regressing g by a. Regressing a goal by an action means removing from the goal any preconditions that are satisfied by the effects of the action, and adding to the goal any post conditions that are 
 ![[Pasted image 20231211123029.png|400]]
 
 ![[Pasted image 20231211123106.png|400]]

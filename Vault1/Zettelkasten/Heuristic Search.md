@@ -43,5 +43,9 @@ Let $\prod$ be a planning task, and let $h_1, \dots, h_n$ be admissible heuristi
 
 Using heuristic search instead a blind one, performs always better in satisficing and optimal planning
 
+## How to Obtain it
+
+To relax a class of problem $P$, whose perferct heuristic $h^**$
+
 ---
 # References

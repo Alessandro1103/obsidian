@@ -6,6 +6,8 @@ Up: [[IA]]
 ---
 # Heuristic Search
 
+## What's a Heuristic
+
 Definition of **Heuristic Function**:
 Let $\prod$ be a planning task with state space $\prod' = (S, L, c, T, I, S^G)$. A heuristic function, short heuristic, for $\prod$ is a function $h : S \rightarrow R^+_0 \cup \{\infty\}$. Its value $h(s)$ for a state $s$ is referred to as the state’s heuristic value, or $h$ value.
 
@@ -36,6 +38,10 @@ Let $\prod$ be a planning task, and let $h$ and $h'$ be admissible heuristics fo
 
 Definition of **Additivity**:
 Let $\prod$ be a planning task, and let $h_1, \dots, h_n$ be admissible heuristics for $\prod$. We say that $h_1, . . . , h_n$ are additive if $h_1 + \dots + h_n$ is admissible, i.e., for all states $s$ in $\prod$ we have $h_1(s) + · · · + h_n(s) ≤ h^∗ (s)$.
+
+## How to Use it
+
+Using heuristic search instead a blind one, performs always better in satisficing and optimal planning
 
 ---
 # References

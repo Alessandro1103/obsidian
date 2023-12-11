@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/PDDL.md",
+                "file": "Zettelkasten/Regalo Edoardo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/PDDL.md",
+                "file": "Zettelkasten/Regalo Edoardo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/PDDL.md",
+                "file": "Zettelkasten/Regalo Edoardo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,8 +154,9 @@
   },
   "active": "994f662286f79868",
   "lastOpenFiles": [
-    "Zettelkasten/CSP PT2.md",
     "Zettelkasten/PDDL.md",
+    "Zettelkasten/Regalo Edoardo.md",
+    "Zettelkasten/CSP PT2.md",
     "Zettelkasten/Causal Graphs.md",
     "Zettelkasten/AI Planning Formalisms.md",
     "Files/Pasted image 20231209172659.png",
@@ -193,7 +194,6 @@
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",

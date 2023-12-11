@@ -53,5 +53,8 @@ The heuristic search uses the original (non-relaxed) problem definition, except 
 
 ![[Pasted image 20231211114907.png|400]]
 
+
+
+
 ---
 # References

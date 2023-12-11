@@ -21,9 +21,6 @@ Orari:
 Prezzo:
 20 per adulto
 
-### In Navetta Per Un Tour In Azienda
-
-
 ### Pit-Stop Experience
 [Pit-Stop F1](https://www.ferrari.com/it-IT/museums/pit-stop-f1)
 
@@ -33,15 +30,26 @@ Prezzo:
 100 da 2 a 6 persone
 10 stampa della foto souvenir
 
+### Simulatore F1
+[Simulatore F1 e GT](https://www.ferrari.com/it-IT/museums/simulatore-f1)
 
+Prezzo:
+30 per adulto
 
 ## Modena
 
 ### Pista dell’Autodromo
-[Visita Museo Ferrari e Autodromo Modena](https://www.ferrari.com/it-IT/museums/visita-pista-museo-modena)
+[Autodromo Modena](https://www.ferrari.com/it-IT/museums/visita-pista-museo-modena)
 
 Prezzo:
 35 
+
+### Simulatore GT
+[Simulatore F1 e GT](https://www.ferrari.com/it-IT/museums/simulatore-f1)
+
+Prezzo:
+25 per adulto
+
 
 ---
 # Links

@@ -10,6 +10,17 @@ Up: [[IA]]
 
 ![[Pasted image 20231211123029.png|400]]
 
+![[Pasted image 20231211123106.png|400]]
+
+Proposition of $h^m$ is **Admissible**:
+$h^m$ is consistent and goal-aware, and thus also admissible and safe
+
+Proposition of $h^m$ gets more accurate as $m$ grows: 
+$h^{m+1}$ dominates $h^m$
+
+Proposition of $h^m$ is perfect in the limit:
+There exists $m$ s.t. $h^m = h^∗$
+
 
 
 ---

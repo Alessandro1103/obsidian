@@ -38,8 +38,9 @@ Example m=2:
 
 ## Graphplan
 
-This is the relaxed planning graph:
+![[Pasted image 20231211130256.png|400]]
 
+Definition. Let $\prod = (P, A, c, I, G)$ be a STRIPS planning task. The 1-planning graph heuristic $h^1_{PG}$ for $\prod$ is the function $h^1_{PG}$(s) := min{i | s ⊆ Fi}, where Fi are the fact sets computed by a 1-planning graph (and the minimum over an empty set is ∞.)
 
 ---
 # References

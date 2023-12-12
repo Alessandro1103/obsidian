@@ -37,7 +37,7 @@ Proposition of **$h^{max}$ is Optimistic**:
 $h^{max} \leq h^+$, and thus $h^{max} \leq h^*$
 
 Proposition of **$h^{max}$ is Pessimistic**:
-For all STRIPS planning task $\prod$, $h^{add}\geq h^+$
+For all STRIPS planning task $\prod$, $h^{add}\geq h^+$. There exist $\prod$ and $s$ so that $h^{add}(s)>h^*(s)$
 
 
 ---

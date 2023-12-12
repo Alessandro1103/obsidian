@@ -23,6 +23,9 @@ The perfect regression heuristic r* works by recursively considering all possibl
 Example:
 ![[Pasted image 20231211234203.png|400]]
 
+Spiegazione:
+- il primo punto applica la definizione dei critical path, 
+
 ![[Pasted image 20231211123106.png|400]]
 
 Proposition of $h^m$ is **Admissible**:

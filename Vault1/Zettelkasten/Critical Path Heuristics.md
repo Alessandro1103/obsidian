@@ -28,10 +28,9 @@ Spiegazione:
 - the second point applies the third definition of critical paths, when the set of subgoals to be achieved is the empty set, the critical path heuristic returns a value of 0. This because the goal has already been achieved, and there is no cost associated with taking no actions. In this case $h^1(I,\{at(Sy)\})$ we can see that $I = at(Sy)$ so it's achieved. Same for $v(Sy)$
 - the third point applies the second definition of critical paths, it takes into account the cost of actions and the relationships between subgoals. The regression of Da visited is being at(Ad).
 - go on
-- the last point shows the critical path: 
-	- we start at(Sy)
-	- 
- ![[Pasted image 20231211123106.png|400]]
+
+
+![[Pasted image 20231211123106.png|400]]
 
 Proposition of $h^m$ is **Admissible**:
 $h^m$ is consistent and goal-aware, and thus also admissible and safe

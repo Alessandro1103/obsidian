@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "877bc6b68359d296",
+        "id": "06ac449d81b2ff62",
         "type": "tabs",
         "children": [
           {
-            "id": "3069f888d64afd60",
+            "id": "994f662286f79868",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Progression and Regression.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#IA",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Progression and Regression.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Progression and Regression.md",
+                "file": "Zettelkasten/Critical Path Heuristics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,35 +152,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3069f888d64afd60",
+  "active": "994f662286f79868",
   "lastOpenFiles": [
-    "Zettelkasten/Primi passi.md",
-    "Zettelkasten/Prima riunione.md",
-    "Zettelkasten/Predicate Logic Reasoning.md",
-    "Zettelkasten/PDDL.md",
-    "Zettelkasten/Pedoni doppi.md",
-    "Zettelkasten/MOC.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Machine Learning & Shakespeare.md",
-    "Zettelkasten/Local Search.md",
-    "Zettelkasten/Is technology always the solution.md",
-    "Zettelkasten/Introduction to AI Planning.md",
-    "Zettelkasten/Intelligent Agents.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
-    "Zettelkasten/Homework1.md",
-    "Zettelkasten/Heuristic Search.md",
-    "Zettelkasten/First Order Logic PT2.md",
-    "Zettelkasten/First Order Logic PT1.md",
-    "Zettelkasten/First Computer.md",
-    "Zettelkasten/Exteroceptive Sensors.md",
-    "Zettelkasten/Effect of Instagram Use.md",
-    "Zettelkasten/Discorso.md",
-    "Zettelkasten/Digital Humanities.md",
-    "Zettelkasten/Denavit-Hartenberg.md",
-    "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Cyber security.md",
-    "Files/post-handout 3.pdf",
+    "Files/Pasted image 20231211234203.png",
     "Files/Pasted image 20231211130256.png",
     "Files/Pasted image 20231211124723.png",
     "Files/Pasted image 20231211124704.png",
@@ -188,13 +163,39 @@
     "Files/Pasted image 20231211123106.png",
     "Files/Pasted image 20231211123029.png",
     "Files/Pasted image 20231211122920.png",
+    "Zettelkasten/Heuristic Search.md",
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Files/post-handout 3.pdf",
     "Files/Pasted image 20231211114907.png",
     "Files/Pasted image 20231211114545.png",
+    "Zettelkasten/Regalo Edoardo.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Progression and Regression.md",
     "Files/post-handout 2.pdf",
+    "Zettelkasten/PDDL.md",
+    "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/Causal Graphs.md",
+    "Zettelkasten/AI Planning Formalisms.md",
+    "Zettelkasten/Propositional Reasoning PT2.md",
+    "Zettelkasten/Propositional Reasoning PT1.md",
+    "Zettelkasten/Introduction to AI Planning.md",
+    "Zettelkasten/First Order Logic PT2.md",
+    "Zettelkasten/First Order Logic PT1.md",
     "Files/slideIA.pdf",
     "Files/slideIA 1.pdf",
     "Files/post-handout.pdf",
     "Files/post-handout 1.pdf",
+    "Zettelkasten/Homework1.md",
+    "Templates/Report.md",
+    "Zettelkasten/Regali.md",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Classical Search PT1.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/pull.md",
+    "Zettelkasten/Introduction to Planning.md",
+    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Classical Search.md",
+    "Zettelkasten/Digital Humanities.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",

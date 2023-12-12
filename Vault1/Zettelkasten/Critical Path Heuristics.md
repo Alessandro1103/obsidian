@@ -60,7 +60,12 @@ The second is very difficult as the non dynamic program
 Example m=2:
 ![[Pasted image 20231211124723.png|500]]
 
+The dynamic programming algorithm runs in time polynomial in the size of $\prod$
+
 ## Graphplan
+
+Algorithm:
+![[Pasted image 20231212162043.png|400]]
 
 ![[Pasted image 20231211130256.png|400]]
 

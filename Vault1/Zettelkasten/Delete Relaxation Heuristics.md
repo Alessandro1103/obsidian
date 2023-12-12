@@ -39,6 +39,7 @@ $h^{max} \leq h^+$, and thus $h^{max} \leq h^*$
 Proposition of **$h^{add}$ is Pessimistic**:
 For all STRIPS planning task $\prod$, $h^{add}\geq h^+$. There exist $\prod$ and $s$ so that $h^{add}(s)>h^*(s)$
 
+Both $h^{max}$ and $h^{add}$ approximate $h^+$ by assuming that singleton subgoal facts are achieved independently. $h^{max}$ estimates optimistically by the most costly singleton subgoal, $h^{add}$ estimates pessimistically by summing over all singleton subgoals.
 
 ---
 # References

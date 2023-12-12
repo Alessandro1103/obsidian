@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Critical Path Heuristics.md",
+                "file": "Zettelkasten/Delete Relaxation Heuristics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Critical Path Heuristics.md",
+                "file": "Zettelkasten/Delete Relaxation Heuristics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Critical Path Heuristics.md",
+                "file": "Zettelkasten/Delete Relaxation Heuristics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,8 @@
   },
   "active": "994f662286f79868",
   "lastOpenFiles": [
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Zettelkasten/Delete Relaxation Heuristics.md",
     "Files/Pasted image 20231212162043.png",
     "Files/Pasted image 20231211234203.png",
     "Files/Pasted image 20231211130256.png",
@@ -165,9 +167,7 @@
     "Files/Pasted image 20231211123029.png",
     "Files/Pasted image 20231211122920.png",
     "Zettelkasten/Heuristic Search.md",
-    "Zettelkasten/Critical Path Heuristics.md",
     "Files/post-handout 3.pdf",
-    "Files/Pasted image 20231211114907.png",
     "Zettelkasten/Regalo Edoardo.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Progression and Regression.md",

@@ -55,7 +55,7 @@ Example m=1:
 ![[Pasted image 20231211124704.png|500]]
 
 The first row it's pretty simple, taking all the facts if one of them is in the goal set, we put 0, $\infty$ otherwise
-The second and so on, the size of the goal, in this case $|g| \leq m = 2 \leq 1$ is false, so we take the $max$ option. So we have to cut the goal sets, until we get $|g| = m = 1$. For example, we have $G:\{t(A), p(D)\}$, so we get to $g':t(A)$ and $g':p(D)$ 
+In the second row we have $i=1$ 
 
 Example m=2:
 ![[Pasted image 20231211124723.png|500]]

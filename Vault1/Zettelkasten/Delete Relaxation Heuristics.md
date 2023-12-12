@@ -47,6 +47,12 @@ First, create a best-supporter function $bs$ that, for every fact $p$ in the set
 
 ![[Pasted image 20231212192434.png|400]]
 ![[Pasted image 20231212192453.png|400]]
+![[Pasted image 20231212194434.png|400]]
+
+![[Pasted image 20231212194533.png|400]]
+
+![[Pasted image 20231212194644.png|400]]
+![[Pasted image 20231212194745.png|400]]
 
 ---
 # References

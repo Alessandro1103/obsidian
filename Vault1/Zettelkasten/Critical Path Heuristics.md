@@ -64,6 +64,8 @@ The dynamic programming algorithm runs in time polynomial in the size of $\prod$
 
 ## Graphplan
 
+Planning graphs correspond to dynamic programming with unit costs, using a particular representation of reached/unreached m-subsets g
+
 Algorithm:
 ![[Pasted image 20231212162043.png|400]]
 

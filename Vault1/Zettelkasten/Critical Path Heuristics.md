@@ -55,7 +55,7 @@ Example m=1:
 ![[Pasted image 20231211124704.png|500]]
 
 The first row it's pretty simple, taking all the facts if one of them is in the goal set, we put 0, $\infty$ otherwise
-The second is very difficult as the non dynamic program
+The second is very difficult as the non dynamic program 
 
 Example m=2:
 ![[Pasted image 20231211124723.png|500]]

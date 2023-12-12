@@ -14,8 +14,7 @@ Up: [[IA]]
 
 ![[Pasted image 20231212165819.png|400]]
 ![[Pasted image 20231212171127.png|400]]
-
-
+![[Pasted image 20231212184117.png|400]]
 
 
 

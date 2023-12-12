@@ -56,7 +56,20 @@ First, create a best-supporter function $bs$ that, for every fact $p$ in the set
 
 
 ![[Pasted image 20231212195228.png|400]]
+![[Pasted image 20231212195556.png|400]]
 
+## FDR
+
+![[Pasted image 20231212195722.png|400]]
+
+## Summary
+
+- The delete relaxation simplifies STRIPS by removing all delete effects of the actions. 
+- The cost of optimal relaxed plans yields the heuristic function h +, which is admissible but hard to compute. 
+- We can approximate h + optimistically by h max, and pessimistically by h add . h max is admissible, h add is not. h add is typically much more informative, but can suffer from over-counting. 
+- Either of h max or h add can be used to generate a closed well-founded best-supporter function, from which we can extract a relaxed plan. 
+- The resulting relaxed plan heuristic h FF does not do over-counting, but otherwise has the same theoretical properties as h add; in practice, it typically does not over-estimate h ∗ . 
+- The delete relaxation can be applied to FDR simply by accumulating variable values, rather than over-writing them. This is formally equivalent to treating variable/value pairs like STRIPS facts.
 
 
 

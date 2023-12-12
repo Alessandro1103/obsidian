@@ -26,7 +26,7 @@ Example:
 Spiegazione:
 - the first point applies the definition of critical paths, choosing |g|>1
 - the second point applies the second definition of critical paths, when the set of subgoals to be achieved is the empty set, the critical path heuristic returns a value of 0. This because the goal has already been achieved, and there is no cost associated with taking no actions. In this case $h^1(I,\{at(Sy)\})$ we can see that $I = at(Sy)$ so it's achieved. Same for $v(Sy)$
-- 
+-  
  ![[Pasted image 20231211123106.png|400]]
 
 Proposition of $h^m$ is **Admissible**:

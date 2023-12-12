@@ -41,5 +41,8 @@ For all STRIPS planning task $\prod$, $h^{add}\geq h^+$. There exist $\prod$ and
 
 Both $h^{max}$ and $h^{add}$ approximate $h^+$ by assuming that singleton subgoal facts are achieved independently. $h^{max}$ estimates optimistically by the most costly singleton subgoal, $h^{add}$ estimates pessimistically by summing over all singleton subgoals.
 
+## Relaxed Plan Heuristic
+
+
 ---
 # References

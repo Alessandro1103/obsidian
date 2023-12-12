@@ -24,7 +24,8 @@ Example:
 ![[Pasted image 20231211234203.png|400]]
 
 Spiegazione:
-- il primo punto applica la definizione dei critical path, 
+- il primo punto applica la definizione dei critical path, scegliendo |g|>1
+- il secondo punto, applica il primo punto della definizione, quando 
 
 ![[Pasted image 20231211123106.png|400]]
 

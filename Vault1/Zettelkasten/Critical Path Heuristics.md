@@ -55,7 +55,7 @@ Example m=1:
 ![[Pasted image 20231211124704.png|500]]
 
 The first row it's pretty simple, taking all the facts if one of them is in the goal set, we put 0, $\infty$ otherwise
-In the second row we have $i=1$ 
+In the second row we have $i=1$ and $|g| > m$ so we have to maximize the following set: $h^1_2(t(B), t(A))$ and $h^1_2(t(B), p(C))$ 
 
 Example m=2:
 ![[Pasted image 20231211124723.png|500]]

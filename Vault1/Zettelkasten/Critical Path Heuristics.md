@@ -53,6 +53,10 @@ We start by defining $h^m$ iteratively, to make this approach explicit. Then, we
 
 Example m=1:
 ![[Pasted image 20231211124704.png|500]]
+
+The first row it's pretty simple, taking all the facts if one of them is in the goal set, we put 0, $\infty$ otherwise
+The second and so on, the size of the goal, in this case $|g| \leq m = 2 \leq 1$  
+
 Example m=2:
 ![[Pasted image 20231211124723.png|500]]
 

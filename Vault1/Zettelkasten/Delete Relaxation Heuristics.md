@@ -43,6 +43,10 @@ Both $h^{max}$ and $h^{add}$ approximate $h^+$ by assuming that singleton subgoa
 
 ## Relaxed Plan Heuristic
 
+First, create a best-supporter function $bs$ that, for every fact $p$ in the set of facts $P$, returns the action that is considered to be the cheapest way to achieve $p$ (within the relaxation). Then, use this function to extract a relaxed plan by applying it to singleton subgoals and collecting all of the actions that are returned.
+
+![[Pasted image 20231212192434.png|400]]
+![[Pasted image 20231212192453.png|400]]
 
 ---
 # References

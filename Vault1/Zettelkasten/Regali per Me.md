@@ -1,7 +1,7 @@
 Date: 2023-10-26
 Time: 12:32
-Tags: #Personali
-Up:
+Tags: 
+Up: [[Regali]]
 
 ---
 # Regali

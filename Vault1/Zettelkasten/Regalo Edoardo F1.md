@@ -1,10 +1,10 @@
 Date: 2023-12-11
 Time: 09:17
 Tags: 
-Up: [[Regali]]
+Up: [[Regali per Edoardo]]
 
 ---
-# Regalo Edoardo
+# Regalo Edoardo F1
 
 Indirizzi:
 **Museo Maranello** Via Dino Ferrari 43 – 41053 Maranello (MO)  

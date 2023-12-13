@@ -4,16 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "06ac449d81b2ff62",
+        "id": "877bc6b68359d296",
         "type": "tabs",
         "children": [
           {
-            "id": "994f662286f79868",
+            "id": "3069f888d64afd60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Delete Relaxation Heuristics.md",
+                "file": "Zettelkasten/Regalo Edoardo F1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5a84ba702e415fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Regalo Edoardo F1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2288845fb2c8910",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Regali per Edoardo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +47,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -50,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#IA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -88,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Delete Relaxation Heuristics.md",
+                "file": "Zettelkasten/Regali per Edoardo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Delete Relaxation Heuristics.md",
+                "file": "Zettelkasten/Regali per Edoardo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,8 +178,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "994f662286f79868",
+  "active": "c2288845fb2c8910",
   "lastOpenFiles": [
+    "Zettelkasten/Regalo Edoardo F1.md",
+    "Zettelkasten/Regali per Edoardo.md",
+    "Zettelkasten/Regali.md",
+    "Zettelkasten/Scheda GPT.md",
+    "Zettelkasten/Regali per Me.md",
+    "Zettelkasten/Reading a Scientific Article.md",
+    "Zettelkasten/Delete Relaxation Heuristics.md",
     "Files/Pasted image 20231212195722.png",
     "Files/Pasted image 20231212195556.png",
     "Files/Pasted image 20231212195228.png",
@@ -164,38 +197,31 @@
     "Files/Pasted image 20231212192453.png",
     "Files/Pasted image 20231212192434.png",
     "Files/Pasted image 20231212190049.png",
-    "Files/Pasted image 20231212190032.png",
-    "Zettelkasten/Critical Path Heuristics.md",
-    "Zettelkasten/Delete Relaxation Heuristics.md",
-    "Zettelkasten/Heuristic Search.md",
-    "Files/post-handout 3.pdf",
-    "Zettelkasten/Regalo Edoardo.md",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Progression and Regression.md",
-    "Files/post-handout 2.pdf",
+    "Zettelkasten/Primi passi.md",
+    "Zettelkasten/Prima riunione.md",
+    "Zettelkasten/Predicate Logic Reasoning.md",
     "Zettelkasten/PDDL.md",
-    "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/Causal Graphs.md",
-    "Zettelkasten/AI Planning Formalisms.md",
-    "Zettelkasten/Propositional Reasoning PT2.md",
-    "Zettelkasten/Propositional Reasoning PT1.md",
+    "Zettelkasten/Pedoni doppi.md",
+    "Zettelkasten/MOC.md",
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Machine Learning & Shakespeare.md",
+    "Zettelkasten/Local Search.md",
+    "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/Introduction to AI Planning.md",
+    "Zettelkasten/Intelligent Agents.md",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Heuristic Search.md",
     "Zettelkasten/First Order Logic PT2.md",
     "Zettelkasten/First Order Logic PT1.md",
+    "Files/post-handout 3.pdf",
+    "Files/post-handout 2.pdf",
     "Files/slideIA.pdf",
     "Files/slideIA 1.pdf",
     "Files/post-handout.pdf",
     "Files/post-handout 1.pdf",
-    "Zettelkasten/Homework1.md",
-    "Templates/Report.md",
-    "Zettelkasten/Regali.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
-    "Zettelkasten/Classical Search PT1.md",
-    "Zettelkasten/Appunti.md",
-    "Zettelkasten/pull.md",
-    "Zettelkasten/Introduction to Planning.md",
-    "Zettelkasten/Classical Search PT2.md",
-    "Zettelkasten/Classical Search.md",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
     "Files/Recording 20231004111518.webm",

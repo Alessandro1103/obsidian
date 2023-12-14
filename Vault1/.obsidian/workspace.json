@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52fce0faca87ef98",
+            "id": "2e23b11d4072d224",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Idee.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Idee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Idee.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,9 +152,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "52fce0faca87ef98",
+  "active": "2e23b11d4072d224",
   "lastOpenFiles": [
     "Zettelkasten/Regali per Daniela.md",
+    "Zettelkasten/Idee.md",
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regalo Edoardo F1.md",
     "Zettelkasten/Regali.md",
@@ -188,7 +190,6 @@
     "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Homework1.md",
     "Zettelkasten/Heuristic Search.md",
-    "Zettelkasten/First Order Logic PT2.md",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
     "Files/slideIA.pdf",

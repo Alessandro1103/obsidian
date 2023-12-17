@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Idee.md",
+                "file": "Zettelkasten/ML ExamQuestion.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Idee.md",
+                "file": "Zettelkasten/ML ExamQuestion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Idee.md",
+                "file": "Zettelkasten/ML ExamQuestion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,8 +154,9 @@
   },
   "active": "2e23b11d4072d224",
   "lastOpenFiles": [
-    "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Idee.md",
+    "Zettelkasten/ML ExamQuestion.md",
+    "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regalo Edoardo F1.md",
     "Zettelkasten/Regali.md",
@@ -189,7 +190,6 @@
     "Zettelkasten/Intelligent Agents.md",
     "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Zettelkasten/Homework1.md",
-    "Zettelkasten/Heuristic Search.md",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
     "Files/slideIA.pdf",

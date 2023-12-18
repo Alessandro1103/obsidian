@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/ML ExamQuestion.md",
+                "file": "Zettelkasten/Atlas Reply Presentation.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/ML ExamQuestion.md",
+                "file": "Zettelkasten/Atlas Reply Presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/ML ExamQuestion.md",
+                "file": "Zettelkasten/Atlas Reply Presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,13 +154,14 @@
   },
   "active": "994f662286f79868",
   "lastOpenFiles": [
+    "Zettelkasten/ML ExamQuestion.md",
+    "Zettelkasten/Atlas Reply Presentation.md",
     "Files/Pasted image 20231217181737.png",
     "Zettelkasten/Delete Relaxation Heuristics.md",
     "Zettelkasten/Regalo Edoardo F1.md",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regali per Daniela.md",
-    "Zettelkasten/ML ExamQuestion.md",
     "Zettelkasten/Idee.md",
     "Files/Pasted image 20231212195722.png",
     "Files/Pasted image 20231212195556.png",
@@ -171,7 +172,6 @@
     "Files/Pasted image 20231212194434.png",
     "Files/Pasted image 20231212192453.png",
     "Files/Pasted image 20231212192434.png",
-    "Files/Pasted image 20231212190049.png",
     "Zettelkasten/Critical Path Heuristics.md",
     "Zettelkasten/Heuristic Search.md",
     "Files/post-handout 3.pdf",

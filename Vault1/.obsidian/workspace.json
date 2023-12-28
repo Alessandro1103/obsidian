@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/ML ExamQuestion.md",
+                "file": "Zettelkasten/Homework2 (cose da aggiungere).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/ML ExamQuestion.md",
+                "file": "Zettelkasten/Homework2 (cose da aggiungere).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/ML ExamQuestion.md",
+                "file": "Zettelkasten/Homework2 (cose da aggiungere).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,10 +154,12 @@
   },
   "active": "2e23b11d4072d224",
   "lastOpenFiles": [
+    "Zettelkasten/Homework2.md",
+    "Zettelkasten/Homework2 (cose da aggiungere).md",
+    "Zettelkasten/ML ExamQuestion.md",
     "Zettelkasten/Atlas Reply Presentation.md",
     "Files/Pasted image 20231217181737.png",
     "Zettelkasten/Idee.md",
-    "Zettelkasten/ML ExamQuestion.md",
     "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regalo Edoardo F1.md",
@@ -188,8 +190,6 @@
     "Zettelkasten/Local Search.md",
     "Zettelkasten/Is technology always the solution.md",
     "Zettelkasten/Introduction to AI Planning.md",
-    "Zettelkasten/Intelligent Agents.md",
-    "Zettelkasten/Homework1 (cose da aggiungere).md",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
     "Files/slideIA.pdf",

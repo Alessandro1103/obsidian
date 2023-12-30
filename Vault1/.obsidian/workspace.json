@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "585380dfd6d6d082",
+            "id": "7af719f1bf82edf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/MrRip.md",
+                "file": "Zettelkasten/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/MrRip.md",
+                "file": "Zettelkasten/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/MrRip.md",
+                "file": "Zettelkasten/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,9 +153,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "585380dfd6d6d082",
+  "active": "7af719f1bf82edf4",
   "lastOpenFiles": [
     "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Untitled.md",
     "Zettelkasten/MrRip.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Cose.md",
@@ -180,7 +181,6 @@
     "Zettelkasten/Local Search.md",
     "Zettelkasten/Machine Learning & Shakespeare.md",
     "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
     "Files/Pasted image 20231217181737.png",
     "Files/Pasted image 20231212195722.png",
     "Files/Pasted image 20231212195556.png",

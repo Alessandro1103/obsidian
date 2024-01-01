@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Bias Cognitivi.md",
+                "file": "Zettelkasten/CSP PT2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Bias Cognitivi.md",
+                "file": "Zettelkasten/CSP PT2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Bias Cognitivi.md",
+                "file": "Zettelkasten/CSP PT2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,8 +155,8 @@
   },
   "active": "7af719f1bf82edf4",
   "lastOpenFiles": [
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Bias Cognitivi.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/MrRip.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Cose.md",

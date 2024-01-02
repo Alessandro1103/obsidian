@@ -95,7 +95,10 @@ Example of Domain:
 					 (holding ?b)
 					 (not (onTable ?b))
 					 (not (topMost ?b))))
-	...
+	(:action unstack
+		:parameters (?b1 ?b2 - block)
+		:precondition (and (gripperFree) (topMost ?b1) (on ?b1 ?b2))
+		:effect (and (holding ?b1) (not (topMost ?b2)) (not (on ))))
 	)
 ```
 

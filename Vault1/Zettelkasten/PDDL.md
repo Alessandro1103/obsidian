@@ -98,9 +98,14 @@ Example of Domain:
 	(:action unstack
 		:parameters (?b1 ?b2 - block)
 		:precondition (and (gripperFree) (topMost ?b1) (on ?b1 ?b2))
-		:effect (and (holding ?b1) (not (topMost ?b2)) (not (on ))))
+		:effect (and (not (gripperFree)) (holding ?b1) (not (topMost ?b2)) 
+				(not (on ?b1 ?b2)) (topMost ?b2)))
+	...
 	)
 ```
+
+Example of Instance:
+
 
 ---
 # References

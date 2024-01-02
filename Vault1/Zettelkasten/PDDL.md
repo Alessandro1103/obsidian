@@ -60,13 +60,20 @@ Let's say we want an action to put one block on another:
 ``` PDDL
 (:action stack-A-onto-B
 	:precondition (and (holding A) (BisTopMost))
-	:effect (and (not (holding A)) (not (BisTopMost)) (AonB) (gripperFree)                        (AisTopMost))
+	:effect (and (not (holding A)) (not (BisTopMost)) (AonB) (gripperFree)
+			(AisTopMost))
 ```
 
 Now we want to remove one block from another:
 
+``` PDDL
 (:action unstack-A-from-B
-	:precondition (and (gripperFree) A))
+	:precondition (and (gripperFree) (AonB) (AisTopMost)
+	:effect (and (not (gripperFree)) (holding A) (not (AonB)) (not 
+			(AisTopMost)) (BisTopMost)))
+```
+
+
 
 ---
 # References

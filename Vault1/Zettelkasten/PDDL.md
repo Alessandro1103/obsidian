@@ -104,8 +104,6 @@ Example of Domain:
 	)
 ```
 
-Example of Instance:
-
 
 ---
 # References

@@ -74,6 +74,21 @@ Now we want to remove one block from another:
 ```
 
 
+## Lifted Model
+
+Since there are so many actions, we can generalize with predicates
+
+Example:
+``` PDDL
+(define (domain blockworld-lifted)
+	(:types block)
+	(:predicates (topMost ?b - block)
+				 (on ?b1 ?b2 - block)
+				 (onTable ?b - block)
+				 (holding ?b - block)
+				 (gripperFree)
+	))
+```
 
 ---
 # References

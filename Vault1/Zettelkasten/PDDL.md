@@ -34,19 +34,32 @@ Example:
 ![[Pasted image 20231209170953.png|300]] ![[Pasted image 20231209171226.png|300]]
 ![[Pasted image 20231209171404.png|300]] ![[Pasted image 20231209171255.png|300]] ![[Pasted image 20231209171308.png|300]] ![[Pasted image 20231209171333.png|300]] 
 
-## Modeling the initial state
+## Modeling the Initial State
 
 Example:
 ![[Pasted image 20240102181920.png|300]]
 
+``` PDDL
 (define (problem blocksworld-prob1)
 	(:domain blocksworld-ground)
 	(:init (AisTopMost) (AonB) (BonC) (ConTable)
 		   (DisTopMost) (DonE) (EonTable))
 	(:goal (and (AisTopMost) (AonD) (DonC) (ConTable)
 		   (EisTopMost) (EonB) (BonTable))))
+```
 
 It is not complete, it is missing the gripper
+
+## Modeling the stack Actions
+
+Example:
+Let's say we want an action to put one block on another:
+- we need to have the object on the gripper
+- we need the support where to put it
+
+``` PDDL
+(:action )
+```
 
 ---
 # References

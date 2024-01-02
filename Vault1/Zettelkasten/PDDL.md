@@ -63,7 +63,10 @@ Let's say we want an action to put one block on another:
 	:effect (and (not (holding A)) (not (BisTopMost)) (AonB) (gripperFree)                        (AisTopMost))
 ```
 
-Now we wanto to remove the block from another:
+Now we want to remove one block from another:
+
+(:action unstack-A-from-B
+	:precondition (and (gripperFree) A))
 
 ---
 # References

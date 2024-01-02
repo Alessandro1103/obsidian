@@ -50,7 +50,7 @@ Example:
 
 It is not complete, it is missing the gripper
 
-## Modeling the stack Actions
+## Modeling the "stack" Actions
 
 Example:
 Let's say we want an action to put one block on another:
@@ -58,7 +58,9 @@ Let's say we want an action to put one block on another:
 - we need the support where to put it
 
 ``` PDDL
-(:action )
+(:action stack-A-onto-B
+	:precondition (and (holding A) (BisTopMost))
+	:effect (and (not (holding A)) (not (BisTopMost)) (AonB) (gripperFree)                        (AisTopMost))
 ```
 
 ---

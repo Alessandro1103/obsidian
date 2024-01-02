@@ -46,5 +46,8 @@ What to do
 	    - Structure: A Dense layer with the number of neurons equal to the number of classes. For multi-class classification, the softmax activation function is typically used.
 ```
 
+Nella simulazione 1, seria, quei picchi potevano sembrare o sono effettivamente overfitting
+
+
 ---
 # References

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Homework2 (cose da aggiungere).md",
+                "file": "Zettelkasten/PDDL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#IA",
+                "query": "pddl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework2 (cose da aggiungere).md",
+                "file": "Zettelkasten/PDDL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework2 (cose da aggiungere).md",
+                "file": "Zettelkasten/PDDL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,6 +156,7 @@
   },
   "active": "7af719f1bf82edf4",
   "lastOpenFiles": [
+    "Zettelkasten/Homework2 (cose da aggiungere).md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/Bias Cognitivi.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
@@ -174,7 +176,6 @@
     "Zettelkasten/Heuristic Search.md",
     "Zettelkasten/Homework1.md",
     "Zettelkasten/Homework2.md",
-    "Zettelkasten/Homework2 (cose da aggiungere).md",
     "Zettelkasten/Idee.md",
     "Zettelkasten/Intelligent Agents.md",
     "Zettelkasten/Is technology always the solution.md",

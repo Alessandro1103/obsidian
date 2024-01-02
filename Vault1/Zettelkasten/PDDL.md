@@ -78,7 +78,7 @@ Now we want to remove one block from another:
 
 Since there are so many actions, we can generalize with predicates
 
-Example:
+Example of Domain:
 ``` PDDL
 (define (domain blockworld-lifted)
 	(:types block)
@@ -87,7 +87,16 @@ Example:
 				 (onTable ?b - block)
 				 (holding ?b - block)
 				 (gripperFree)
-	))
+	)
+	(:action take-from-table
+		:parameters (?b - block)
+		:precondition (and (gripperFree) (onTable ?b) (topMost ?b))
+		:effect (and (not (gripperFree))
+					 (holding ?b)
+					 (not (onTable ?b))
+					 (not (topMost ?b))))
+	...
+	)
 ```
 
 ---

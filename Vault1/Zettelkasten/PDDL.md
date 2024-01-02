@@ -43,6 +43,10 @@ Example:
 	(:domain blocksworld-ground)
 	(:init (AisTopMost) (AonB) (BonC) (ConTable)
 		   (DisTopMost) (DonE) (EonTable))
+	(:goal (and (AisTopMost) (AonD) (DonC) (ConTable)
+		   (EisTopMost) (EonB) (BonTable))))
+
+It is not complete, it is missing the gripper
 
 ---
 # References

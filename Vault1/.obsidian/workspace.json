@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -156,11 +155,11 @@
   },
   "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
-    "Zettelkasten/Homework2 (cose da aggiungere).md",
+    "Zettelkasten/AI Planning Formalisms.md",
     "Zettelkasten/IA.md",
+    "Zettelkasten/Homework2 (cose da aggiungere).md",
     "Zettelkasten/Homework2.md",
     "Files/Recording 20231123223359.webm",
-    "Zettelkasten/AI Planning Formalisms.md",
     "Zettelkasten/CSP PT1.md",
     "Zettelkasten/PDDL.md",
     "Files/Pasted image 20240102181920.png",

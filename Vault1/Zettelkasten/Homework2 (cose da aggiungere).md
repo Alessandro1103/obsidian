@@ -6,6 +6,8 @@ Up:
 ---
 # Homework2 (cose da aggiungere)
 
+Modello 1 and 2 are ready, I can start to provide description of the model 1 I would say. I could still improve both files, changing some hypervalues.
+
 When I had to create a first model of training for the CNN i added in this sequence:
 - Input layer()
 

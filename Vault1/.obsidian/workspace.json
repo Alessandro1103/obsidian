@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Regali per Me.md",
+                "file": "Zettelkasten/IA.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali per Me.md",
+                "file": "Zettelkasten/IA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali per Me.md",
+                "file": "Zettelkasten/IA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,6 +155,7 @@
   },
   "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
+    "Zettelkasten/Regali per Me.md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/CSP PT1.md",
     "Zettelkasten/Critical Path Heuristics.md",
@@ -182,7 +183,6 @@
     "Zettelkasten/Discorso.md",
     "Zettelkasten/First Order Logic PT1.md",
     "Zettelkasten/Exteroceptive Sensors.md",
-    "Zettelkasten/Effect of Instagram Use.md",
     "Files/Pasted image 20231217181737.png",
     "Files/Pasted image 20231212195722.png",
     "Files/Pasted image 20231212195556.png",

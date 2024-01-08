@@ -10,8 +10,5 @@ Cassiopea is the Aplas platform that integrates with TTM tool: ServeceNow, Jira,
 Zabbix: system Monitoring tool
 Stack storm: it automation platform
 
-
-
-
 ---
 # References

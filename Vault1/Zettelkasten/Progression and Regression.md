@@ -29,6 +29,8 @@ Let $\prod = (P, A, c, I, G)$ be a STRIPS planning task. The *regression* search
 - $ChildState(s, a)$ = {$g' \ | \ g' = regr(g,a)$} 
 
 The same definition applies to FDR tasks $\prod = (V, A, c, I, G)$
+Start at goal, and regress over actions to produce subgoals, until a subgoal is contained in the initial state.
+Condition required: If $g'=regr(g,a)$, then for all $s'$ with $s' |= g'$, we have $s'[[a]]=s$ where $s |=g$.
 
 Definition of **FDR Regression**:
 Let $(V, A, c, I, G)$ be an $FDR$ planning task, $g$ be a partial variable assignment, and $a \in A$. We say that $g$ is regressable over a if

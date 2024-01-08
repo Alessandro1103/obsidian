@@ -9,8 +9,23 @@ Up:
 Modello 1 and 2 are ready, I can start to provide description of the model 1 I would say. I could still improve both files, changing some hypervalues.
 
 When I had to create a first model of training for the CNN i added in this sequence:
-- Input layer()
+- Flatten(input_shape=(96, 96, 3)),
+- Dense(64, activation='relu'),
+- Dense(32, activation='relu'),
+- Dense(len(class_names), activation='softmax')
 
+with the compile parameters:
+- optimizer='adam',
+- loss=tf.keras.losses.categorical_crossentropy,
+- metrics=['accuracy']
+
+with data Augmentation:
+- train_datagen = ImageDataGenerator(rescale=1./255)
+- test_datagen = ImageDataGenerator(rescale=1./255)
+
+with evaluation:
+- Test Loss: 1.1776816844940186 
+- Test Accuracy: 0.5587486624717712
 
 ``` 
 What to do
@@ -48,8 +63,17 @@ What to do
 	    - Structure: A Dense layer with the number of neurons equal to the number of classes. For multi-class classification, the softmax activation function is typically used.
 ```
 
+<<<<<<< HEAD
+For the new model the F1 metrics, had to be done in separate way because there was no module by default.
+
+
+In the second model:
+In questa versione, ho utilizzato kernel più piccoli e ho inserito blocchi di connessioni residue (simili a quelli trovati in architetture come ResNet) per aiutare a prevenire la scomparsa dei gradienti durante l'addestramento. Inoltre, ho ridotto il numero e la dimensione dei layer densi per limitare l'overfitting e ho aumentato il tasso di dropout per la stessa ragione. Ho anche utilizzato una stride più piccola nei layer convoluzionali per preservare più informazioni spaziali.
+
+=======
 Nella simulazione 1, seria, quei picchi potevano sembrare o sono effettivamente overfitting
 
 
+>>>>>>> origin/main
 ---
 # References

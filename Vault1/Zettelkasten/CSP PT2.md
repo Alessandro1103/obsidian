@@ -85,7 +85,7 @@ Let $\gamma = (V, D, C)$ be a constraint network. Let $a_i$ be a solution to eac
 **Theorem: Acyclic Constraint Graphs**:
 Let $\gamma = (V, D, C)$ be a constraint network with $n$ variables and maximal domain size $k$, whose constraint graph is acyclic. Then we can find a solution for $\gamma$, or prove $\gamma$ to be inconsistent, in time $O(nk^2)$.
 
-**Algorithm: AciclicCG($\gamma$)**:
+**Algorithm: AcyclicCG($\gamma$)**:
 1. From a graph create a tree
 2. Order parents and then children
 3. Revise (last parent-> last son), if domain of parent is null, it's inconsistent
@@ -108,3 +108,5 @@ Let $\gamma = (V, D, C)$ be a constraint network, and $V_0 \subseteq V$. $V_0$ i
 
 ---
 # References
+
+![[post-handout (1).pdf]]

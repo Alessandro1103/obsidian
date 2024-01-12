@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Educazione Visiva.md",
+                "file": "Zettelkasten/Homework2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Educazione Visiva.md",
+                "file": "Zettelkasten/Homework2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Educazione Visiva.md",
+                "file": "Zettelkasten/Homework2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,8 +156,8 @@
   },
   "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
-    "Zettelkasten/Homework2.md",
     "Zettelkasten/Educazione Visiva.md",
+    "Zettelkasten/Homework2.md",
     "Files/Pasted image 20240112170509.png",
     "Files/Pasted image 20240112165911.png",
     "Zettelkasten/IA.md",

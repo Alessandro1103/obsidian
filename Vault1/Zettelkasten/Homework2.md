@@ -10,7 +10,6 @@ Up:
 In this report, I detail the development of a Convolutional Neural Network (CNN) to address an image classification task within a Gym environment. My goal is to understand and predict the actions of a racing car based on input images. I have been provided with a dataset of 96x96 color images, sorted into folders by action ID.
 I will evaluate my models using key performance, in particular the F1-score, and I will conduct a thorough analysis over each models on different parameters. This analysis will be presented through clear visualizations and a detailed discussion of the results.
 
-
 The code presented might be particular because it's not designed to work on a single space. I had to work on both Colab and Linux because one lacks a feature of the other, in particular I used Colab for its GPU disponibility, and Linux for its compatibility with the gymnasium library. To do this, I had to write and run the classification problem in Colab space, storing the best model classified by F1 score. Then use this best model, in the file of the game environment to see if the model it's acceptable or not.
 
 # Common Elements

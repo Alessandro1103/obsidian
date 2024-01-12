@@ -5,10 +5,9 @@ Up:
 ---
 # Homework2
 
-# Introduction4
+# Introduction
 
 In this report, I detail the development of a Convolutional Neural Network (CNN) to address an image classification task within a Gym environment. My goal is to understand and predict the actions of a racing car based on input images. I have been provided with a dataset of 96x96 color images, sorted into folders by action ID.
-
 I will evaluate my models using key performance, in particular the F1-score, and I will conduct a thorough analysis over each models on different parameters. This analysis will be presented through clear visualizations and a detailed discussion of the results.
 
 
@@ -19,6 +18,9 @@ The code presented might be particular because it's not designed to work on a si
 ![[Pasted image 20240112165911.png|300]]
 
 # Common Elements
+
+## Data augmentation
+
 
 ## Libraries
 Here I present a number of libraries I use in the code, I have selected the most important ones. First, I use TensorFlow, a core library for machine learning. I use it mainly for building and training neural network models. cv2, which is an OpenCV library for Python, which I use for tasks related to seeing and understanding images and videos. To use Colab, I had to use google.colab: It provides functionality to access and manage files in Google Drive from my Colab notebooks. Keras Tuner helps me to tune the hyperparameters of my neural networks. Scikit-Learn helps me to evaluate the performance of my classification models.

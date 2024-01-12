@@ -8,7 +8,7 @@ Up:
 # Introduction
 
 
-For this homework, I had to work in Colab and in the Linux space. Colab could not perform the "play" due to an error with the gymnasium. In Linux, or more specifically my PC, I couldn't provide a great GPU to run such a large amount of code.
+The code presented might be particular because it's not designed to work on a single space. I had to work on both Colab and Linux because one lacks a feature of the other, in particular I used Colab for its GPU disponibility, and Linux for its compatibility with the gymnasium library. To do this, I had to write and run the classification problem in Colab space, storing the best model classified by F1 score. Then use this best model, in the file of the game environment to see if the model it's acceptable or not.
 
 ![[Pasted image 20240112170509.png|300]]
 

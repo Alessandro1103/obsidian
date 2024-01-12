@@ -36,6 +36,7 @@ I'm also using the F1-Score, which combines precision and recall into one metric
 Finally, the confusion matrix is really useful. It shows me where my model is getting things right and where it's confusing two classes. This detailed breakdown is especially helpful for seeing how my model handles the classes with fewer images, like class 0 and class 4. By looking at all these different measures, I can get a much clearer and fairer picture of my model's true performance across all classes.
 
 ## Optimizer
+Of all the optimisers, I chose Adam, the most popular optimiser, because it combines the advantages of two other extensions of stochastic gradient descent: AdaGrand and RMSProd. I decided to stick to only one optimiser because it could be difficult to change the optimiser, because changing the code dynamically brings different errors. Even if I wanted to use other optimisers like SGD for fitting linear classifiers and neural networks, I would have to create different codes for each optimiser. I preferred Adam because it was the best option in my opinion, because even SGD is usually faster is less stable then more sophisticated optimisers because it updates the model for each training example one by one and not over the entire dataset. 
 
 # Model 1
 

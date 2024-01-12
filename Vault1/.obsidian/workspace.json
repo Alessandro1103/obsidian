@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Homework2.md",
+                "file": "Zettelkasten/Educazione Visiva.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework2.md",
+                "file": "Zettelkasten/Educazione Visiva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework2.md",
+                "file": "Zettelkasten/Educazione Visiva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,6 +156,8 @@
   },
   "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
+    "Zettelkasten/Homework2.md",
+    "Zettelkasten/Educazione Visiva.md",
     "Files/Pasted image 20240112170509.png",
     "Files/Pasted image 20240112165911.png",
     "Zettelkasten/IA.md",
@@ -171,7 +173,6 @@
     "Files/Pasted image 20240105214641.png",
     "Files/Pasted image 20240105214619.png",
     "Files/Pasted image 20240105180455.png",
-    "Files/Pasted image 20240105180441.png",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/CSP PT1.md",
@@ -187,7 +188,6 @@
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Adversarial Search.md",
     "Zettelkasten/Homework2 (cose da aggiungere).md",
-    "Zettelkasten/Homework2.md",
     "Files/Recording 20231123223359.webm",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/MrRip.md",

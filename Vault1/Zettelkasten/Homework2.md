@@ -13,13 +13,13 @@ I will evaluate my models using key performance, in particular the F1-score, and
 
 The code presented might be particular because it's not designed to work on a single space. I had to work on both Colab and Linux because one lacks a feature of the other, in particular I used Colab for its GPU disponibility, and Linux for its compatibility with the gymnasium library. To do this, I had to write and run the classification problem in Colab space, storing the best model classified by F1 score. Then use this best model, in the file of the game environment to see if the model it's acceptable or not.
 
-![[Pasted image 20240112170509.png|300]]
-
-![[Pasted image 20240112165911.png|300]]
-
 # Common Elements
 
 ## Data augmentation
+
+![[Pasted image 20240112170509.png|300]] ![[Pasted image 20240112165911.png|300]]
+
+The image demonstrates a data augmentation technique involving cropping and resizing, applied to images used in training a machine learning model. This model is designed to learn the behavior of a racing car in a Gym environment. The cropping process is targeted to remove irrelevant parts of the image, such as a black bar at the bottom, which might be a UI element or an unnecessary part of the environment. This ensures that the model focuses on the most crucial aspects for decision-making, like the track boundaries and the car's position on the road. After cropping, the image is resized back to its original dimensions. This step is crucial to maintain a consistent input size, a requirement for effectively training the convolutional neural network (CNN).
 
 
 ## Libraries

@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -155,6 +156,8 @@
   },
   "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
+    "Files/Pasted image 20240112170509.png",
+    "Files/Pasted image 20240112165911.png",
     "Zettelkasten/IA.md",
     "Zettelkasten/Note.md",
     "Zettelkasten/NomiCoseCittà.md",
@@ -169,7 +172,6 @@
     "Files/Pasted image 20240105214619.png",
     "Files/Pasted image 20240105180455.png",
     "Files/Pasted image 20240105180441.png",
-    "Files/Pasted image 20240105164041.png",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/CSP PT1.md",
@@ -191,7 +193,6 @@
     "Zettelkasten/MrRip.md",
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
-    "Zettelkasten/Digital Humanities.md",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
     "Files/slideIA.pdf",

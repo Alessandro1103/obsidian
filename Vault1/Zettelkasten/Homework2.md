@@ -75,10 +75,28 @@ Before showing what the best classification I got is, the thinking behind this r
 
 The best model find in the iterations is:
 ![[Pasted image 20240113073319.png|300]]
-with F1-score: 0.6450097. From this model, I understood that this kind of classification doesn't need a large number of epochs, because if the number is too large, it is easy to find an overfitting situation, which leads to a less precise situation.
+with this report:
+Classification Report - LR: 0.0001, Epochs: 25
+              precision    recall  f1-score   support
+           0   0.270000  0.203008  0.231760       133
+           1   0.284722  0.447273  0.347949       275
+           2   0.520581  0.529557  0.525031       406
+           3   0.788991  0.725738  0.756044      1896
+           4   0.000000  0.000000  0.000000        39
+    accuracy                       0.633321      2749
+   macro avg   0.372859  0.381115  0.372157      2749
+weighted avg   0.662601  0.633321  0.645010      2749
+
+The Macro and Weighted Averages in your classification report are good indicators for understanding how your model is performing. The Macro Average treats each class equally, resulting in a lower score of 37.21%, which reflects the model's poor performance on minority classes. On the other hand, the Weighted Average takes into account the class imbalance, showing a higher score of 64.50%. This higher score is primarily due to the model's better performance on the majority class. These averages highlight the impact of class distribution on the model's apparent effectiveness.
+
+From this model, I understood that this kind of classification doesn't need a large number of epochs, because if the number is too large, it is easy to find an overfitting situation, which leads to a less precise situation.
 
 
 # Model 2
+
+Since from model 1 I understood the ideal number of epochs and the learning rate, it could be a good idea to try to understand better how to make the architecture perform better, since from my human point of view this type of classification can be very difficult, so there is no unique answer on how to build a good architecture for evaluating these images.
+
+
 
 # Conclusion
 

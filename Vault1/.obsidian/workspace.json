@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59877d5b95301d05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Homework1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "stacked": true
@@ -156,11 +169,12 @@
   },
   "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Homework2.md",
     "Files/Pasted image 20240113073319.png",
     "Files/Pasted image 20240113072446.png",
     "Files/Pasted image 20240113072315.png",
     "Zettelkasten/Educazione Visiva.md",
-    "Zettelkasten/Homework2.md",
     "Files/Pasted image 20240112170509.png",
     "Files/Pasted image 20240112165911.png",
     "Zettelkasten/IA.md",
@@ -173,7 +187,6 @@
     "Files/Pasted image 20240106195354.png",
     "Files/Pasted image 20240106195320.png",
     "Files/Pasted image 20240106104532.png",
-    "Files/Pasted image 20240105214641.png",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/CSP PT2.md",
     "Zettelkasten/CSP PT1.md",

@@ -94,7 +94,7 @@ From this model, I understood that this kind of classification doesn't need a la
 
 # Model 2
 
-Since from model 1 I understood the ideal number of epochs and the learning rate, it could be a good idea to try to understand better how to make the architecture perform better, since from my human point of view this type of classification can be very difficult, so there is no unique answer on how to build a good architecture for evaluating these images.
+Since from model 1 I understood the ideal number of epochs and the learning rate, it could be a good idea to try to understand better how to make the architecture perform better, since from my human point of view this type of classification can be very difficult, so there is no unique answer on how to build a good architecture for evaluating these images. In fact in this model works only in 15 and 25 epochs, iterating on kernel size, number of filters, dropouts etc. The evaluating system is the same as before, I run all the models and take the one who provide the best F1-score.
 
 
 

@@ -94,7 +94,7 @@ From this model, I understood that this kind of classification doesn't need a la
 
 # Model 2
 
-Since from model 1 I understood the ideal number of epochs and the learning rate, it might be a good idea to try to understand better how to make the architecture perform better, since from my human point of view this type of classification can be very difficult, so there is no single answer on how to build a good architecture for evaluating these images. In fact, this model only works in 15 and 25 epochs, iterating on kernel size, number of filters, dropouts, etc. The scoring system is the same as before, I run all the models and take the one that gives the best F1 score.
+Since from model 1 I understood the ideal number of epochs and the learning rate, it might be a good idea understand which compiler works better. To do so, I upgrated the whole architectur, adding more layers and modifying the filter size, the kernel size etc, to get a better solution. All these changes were made with Adam compiler, and then after finding a good model, iterate over this changing the optimizer getting new solutions. This model contains 
 
 
 # Conclusion

@@ -94,7 +94,30 @@ From this model, I understood that this kind of classification doesn't need a la
 
 # Model 2
 
-Since from model 1 I understood the ideal number of epochs and the learning rate, it might be a good idea understand which compiler works better. To do so, I upgrated the whole architectur, adding more layers and modifying the filter size, the kernel size etc, to get a better solution. All these changes were made with Adam compiler, and then after finding a good model, iterate over this changing the optimizer getting new solutions. This model contains 
+Since I understood from model 1 the ideal number of epochs and the learning rate, it might be a good idea to understand which compiler works better. To do this, I rebuilt the whole architecture, adding more layers and changing the filter size, kernel size etc to get a better solution. All these changes were made using the Adam compiler, and then once a good model was found, iterated on it, changing the optimiser to get new solutions. This architecture I have created is an evolution of the first, incorporating residual blocks that add complexity and depth. These blocks, with their internal convolutions and dropout regularisation, are designed to capture intricate patterns in the data without overfitting. I've also allowed the number of filters to increase as the network deepens, which helps to learn finer details.
+
+Unfortunately, the model I found is not as good as the previous model, in fact, this model is more heterogeneous, as I wanted it to be, so it performs better than the other classes, with the exception of class 4. The second model, perhaps due to its complexity, gives less impressive results than I expected. It's possible that with more epochs, performance will improve, allowing the deeper and more complex layers of the network to better adapt and learn from the data.
+
+The confusion matrix can be an example:
+![[Pasted image 20240114165604.png|300]]
+In the classification report for the Adagrad optimiser, it's clear that the model excels in correctly predicting the first and second classes more often. However, there's a consistent problem with the third class, probably due to an imbalance in the data set. The confusion matrix, which represents the best compiler in this code configuration, confirms this observation.
+
+Classification Report for Optimizer: adagrad
+              precision    recall  f1-score   support
+
+      class0   0.109589  0.421053  0.173913       133
+      class1   0.276051  0.549091  0.367397       275
+      class2   0.564103  0.379310  0.453608       406
+      class3   0.789740  0.576477  0.666463      1896
+      class4   0.000000  0.000000  0.000000        39
+
+    accuracy                       0.528920      2749
+   macro avg   0.347897  0.385186  0.332276      2749
+weighted avg   0.660917  0.528920  0.571824      2749
+
+The model shows a pronounced ability to recognise class 0 and class 1, as indicated by the higher recall rates for these classes. However, this increased sensitivity comes at the expense of precision, especially for class 0. The model tends to over-predict this class, resulting in a higher rate of false positives. This phenomenon is not limited to classification tasks, but is also reflected in practical applications. For example, in an operational scenario such as the navigation of a car on a track, this overprediction manifests itself in the fact that the car frequently stops and does not restart, implying an excessive classification of the "do nothing" action (class 0).
+
+
 
 
 # Conclusion

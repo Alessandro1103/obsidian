@@ -19,7 +19,10 @@ Up: [[Regali]]
 - [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
 - [Sveglia orologio](https://www.amazon.it/dp/B01EZ77IOY/?coliid=I1235DHRQGHDMG&colid=FQV4Z0CWW68E&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
 - [Xiaomi Portable Electric Air Compressor 2](https://www.mi.com/it/product/xiaomi-portable-electric-air-compressor-2/)
-- 
+
+Lavagna:
+- [Lavagna di sughero](https://www.amazon.it/gp/aw/d/B09MHZFD6B/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=57830c55e52a7a561ef94f3cf7bbd6c0&hsa_cr_id=0&qid=1705333922&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_1_img&pd_rd_w=51uUG&content-id=amzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889%3Aamzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_p=b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_r=YD8VDD0SEZX562WQN73J&pd_rd_wg=s03WE&pd_rd_r=40d676ac-26c2-4769-9a18-72070614348d&th=1)
+- [Lavagna magnetica]([BoardsPlus - Lavagna Magnetica Bianca, 120 x 90 cm, Lavagna Cancellabile A Secco Con Cornice Sottile In Alluminio Anodizzato, Superficie In Acciaio Laccato : Amazon.it: Cancelleria e prodotti per ufficio](https://www.amazon.it/gp/aw/d/B07NDR7PKG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=57830c55e52a7a561ef94f3cf7bbd6c0&hsa_cr_id=0&qid=1705333922&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_mcd_asin_0_img&pd_rd_w=51uUG&content-id=amzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889%3Aamzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_p=b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_r=YD8VDD0SEZX562WQN73J&pd_rd_wg=s03WE&pd_rd_r=40d676ac-26c2-4769-9a18-72070614348d&th=1))
 
 ---
 # References

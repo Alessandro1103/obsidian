@@ -9,5 +9,9 @@ Up:
 
 
 
+## Encoder
+21.01.12
+![[Pasted image 20240123222445.png]]
+
 ---
 # References

@@ -7,8 +7,9 @@ Up:
 # Robotics Ex
 
 
-
-
+## Force
+21.01.12
+![[Pasted image 20240123223219.png]]
 ## Encoder
 21.01.12
 ![[Pasted image 20240123222445.png]]

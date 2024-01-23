@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eab6c107e2ee63be",
+        "id": "60919f74624433da",
         "type": "tabs",
         "children": [
           {
-            "id": "149a9f7c00441c0a",
+            "id": "18fbfe71dbc6672a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/IA.md",
+                "file": "Zettelkasten/Robotics Ex.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/IA.md",
+                "file": "Zettelkasten/Robotics Ex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/IA.md",
+                "file": "Zettelkasten/Robotics Ex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,8 +153,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "149a9f7c00441c0a",
+  "active": "18fbfe71dbc6672a",
   "lastOpenFiles": [
+    "Zettelkasten/Robotics Ex.md",
     "Zettelkasten/Idee.md",
     "Zettelkasten/IA exercise.md",
     "Zettelkasten/IA exam arguments.md",
@@ -200,7 +201,6 @@
     "Zettelkasten/Atlas Reply Presentation.md",
     "Zettelkasten/Recording 20231218161319.webm.md",
     "Zettelkasten/First Computer.md",
-    "Zettelkasten/CSP PT1.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -6,6 +6,9 @@ Up:
 ---
 # Robotics Ex
 
+## Error
+21.01.12
+![[Pasted image 20240123224032.png]]
 
 ## Force
 21.01.12

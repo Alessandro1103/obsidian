@@ -63,6 +63,13 @@ To find the best approximation $h^* \in H$ of the c problem:
 2. Define a performance metric to determine the best approximation
 3. Define an appropriate algorithm (selects among all the possible $h_p$ the best one)
 
+**Best solution among hypothesis**:
+A hypothesis $h$ is consistent with a set of training examples $D$ of the target concept $c$ if and only if $h(x) = c(x)$ for each training example $(x, c(x))$ in $D$. 
+
+The set of consistent hypothesis is called version space: 
+$$
+VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
+$$ 
 
 
 ---

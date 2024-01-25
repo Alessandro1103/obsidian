@@ -50,10 +50,19 @@ Concept learning is a classification, with $X$ discrete and $Y$ boolean:
 $$
 C: X\rightarrow Y
 $$
-$c$ is the target function, and we use the hypothesis $h$ to approximate $c$, and estimate the value of $x$.
+$c$ is the target function, and we use the hypothesis $h$ to approximate $c$, and estimate the value of $x$:
+$$
+D = \{(x_i, c(x_i))^n_{i=1}\}
+$$
 
 **Definition**?
-Concept Learning can be viewed as the task of searching through a large space of hypothesis implictly define by the hyopothesis represneentation. The goal fo this search is to find the hypothesis that best fits the training example
+Concept learning can be viewed as the task of searching through a large space of hypotheses, implicitly defined by the hypothesis representation. The goal of this search is to find the hypothesis that best fits the training examples.
+
+To find the best approximation $h^* \in H$ of the c problem:
+1. Define the hypothesis space H
+2. Define a performance metric to determine the best approximation
+3. Define an appropriate algorithm (selects among all the possible $h_p$ the best one)
+
 
 
 ---

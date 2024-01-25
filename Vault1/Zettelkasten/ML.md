@@ -10,26 +10,45 @@ Up:
 **What is a Learning Problem?**
 A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
 
+**Formal Definition of ML**?
+Give $f: X \rightarrow Y$ and a dataset $D$, we want to learn $\hat{f}$ such that $\hat{f}(x) \approx f(x)$ for $\forall x \in X \setminus X_D$.
+
+
 ## Notation
 $V(b)$ = the true target function that gives optimal solution.
 $\hat V(b)$ = the learned function (approximation of V(b) computed by the learning algorithm), alse called weight (w).
 $V_{train}(b)$ = the training value obtained at b from the training dataset (which does not contain all the possible variables).
 
-We wish to $\hat V(b) \approx V(b) \ \forall b \in B/B_d$
+We wish to $\hat V(b) \approx V(b)$ $\forall b \in B/B_d$
 
 ## LMS (Least mean squared)
 "w" is the weight of the learning function, improved by:
 $$
-\begin{align*}
-
-& error(b) = V_{train}(b) - \hat V(b)\\
-& \forall b \in B/B_d
-
-\end{align*}
+error(b) = V_{train}(b) - \hat V(b)
 $$
 It's the same if we have a set of parameters to describe the learning function:
 $$
 error(b, \bar w) = |V_{train}(b) - \hat V(b, \bar w)|
 $$
+
+And the parameters that have the minimum error are:
+$$
+\bar w ^* = \underset{\bar{w}}{\text{argmin}} \ error (b, \bar w)
+$$
+## Types of ML problems
+**Supervised**: the dataset is $D: \{(x_i, t_i)^N_{i=1}\}$
+
+with the following labels:
+X can be either Discrete or Continuous
+Y can be either Regression (continuous) or Classification (discrete)
+
+For example Concept learning is a classification with X discrete and Y boolean.
+
+**Unsupervised**: the dataset is $D: \{(x_i)^N_{i=1}\}$
+**Reinforcement**: the dataset is a trajectory of the dynamic system, $D = \{(s_0, a_1, r_1, s_1, \ldots, a_n, r_n, s_n)^N_{i=1}\}$
+
+
+
+
 ---
 # References

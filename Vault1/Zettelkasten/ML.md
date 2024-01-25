@@ -21,5 +21,7 @@ $$
 error(b) = V_{train}(b) - \hat V(b)
 $$
 
+
+
 ---
 # References

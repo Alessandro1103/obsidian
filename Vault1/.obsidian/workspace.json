@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Robotics Ex.md",
+                "file": "Zettelkasten/ML.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Robotics Ex.md",
+                "file": "Zettelkasten/ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Robotics Ex.md",
+                "file": "Zettelkasten/ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,11 +155,12 @@
   },
   "active": "18fbfe71dbc6672a",
   "lastOpenFiles": [
+    "Zettelkasten/ML.md",
+    "Zettelkasten/Robotics Ex.md",
     "Files/Pasted image 20240123224032.png",
     "Files/Pasted image 20240123223219.png",
     "Files/Pasted image 20240123222445.png",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Robotics Ex.md",
     "Zettelkasten/Educazione Visiva.md",
     "Files/Pasted image 20240114165604.png",
     "Files/Pasted image 20240113073319.png",
@@ -174,7 +175,6 @@
     "Files/Progetto senza titolo.png",
     "Files/slideIA 1.pdf",
     "Files/slideIA.pdf",
-    "Files/Pasted image 20230428152148.png",
     "Reference notes/Aimchess.md",
     "Reference notes/LaTeX.md",
     "Reference notes/Mermaid.md",

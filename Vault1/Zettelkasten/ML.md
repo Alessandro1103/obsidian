@@ -42,11 +42,14 @@ with the following labels:
 X can be either Discrete or Continuous
 Y can be either Regression (continuous) or Classification (discrete)
 
-For example Concept learning is a classification with X discrete and Y boolean.
-
 **Unsupervised**: the dataset is $D: \{(x_i)^N_{i=1}\}$
 **Reinforcement**: the dataset is a trajectory of the dynamic system, $D = \{(s_0, a_1, r_1, s_1, \ldots, a_n, r_n, s_n)^N_{i=1}\}$
 
+## Concept Learning
+Concept learning is a classification, with $X$ discrete and $Y$ boolean:
+$$
+C: X\rightarrow Y
+$$
 
 
 

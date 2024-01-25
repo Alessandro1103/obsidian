@@ -50,7 +50,10 @@ Concept learning is a classification, with $X$ discrete and $Y$ boolean:
 $$
 C: X\rightarrow Y
 $$
+$c$ is the target function, and we use the hypothesis $h$ to approximate $c$, and estimate the value of $x$.
 
+**Definition**?
+Concept Learning can be viewed as the task of searching through a large space of hypothesis implictly define by the hyopothesis represneentation. The goal fo this search is to find the hypothesis that best fits the training example
 
 
 ---

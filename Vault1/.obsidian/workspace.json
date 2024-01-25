@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60919f74624433da",
+        "id": "7f504be9a1c95bfc",
         "type": "tabs",
         "children": [
           {
-            "id": "18fbfe71dbc6672a",
+            "id": "0481a8c1a4f81c5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -153,7 +153,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "18fbfe71dbc6672a",
+  "active": "0481a8c1a4f81c5c",
   "lastOpenFiles": [
     "Zettelkasten/ML.md",
     "Zettelkasten/Robotics Ex.md",

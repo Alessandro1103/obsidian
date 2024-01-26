@@ -20,7 +20,7 @@ $V(b)$ = the true target function that gives optimal solution.
 $\hat V(b)$ = the learned function (approximation of V(b) computed by the learning algorithm), alse called weight (w).
 $V_{train}(b)$ = the training value obtained at b from the training dataset (which does not contain all the possible variables).
 
-We wish to $\hat V(b) \approx V(b)$ $\forall b \in B/B_d$
+We wish to $\hat V(b) \approx V(b)$ $\forall b \in B/B_d$ù
 
 ## LMS (Least mean squared)
 "w" is the weight of the learning function, improved by:

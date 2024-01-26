@@ -121,5 +121,12 @@ where $N$% is the probability of get $\text{error}_D(h)$
 
 To obtain an **unbiased estimation** $\text{error}_S(h)$ we create a partition of the dataset, compute a hypothesis $h$ using training set $T$ and evaluate $\text{error}_S$ 
 
+## K-Fold Cross Validation Algorithm
+
+We split the Dataset in multiple subset, we want each subset to be big enough
+$$
+\text{error}_{L,D} = \frac{1}{k} \sum_{i=1}^{k} \delta_i
+$$
+
 ---
 # References

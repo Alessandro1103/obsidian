@@ -137,8 +137,26 @@ $$
 | No | FP: False Positive | TN: True Negative |
 |  |  |  |
 
-Recall $= \frac{|\text{true positives}|}{|\text{real positives}|} = \frac{TP}{TP + FN}$ \\ ability to avoid false negatives (1 if FN $= 0$) Precision $= \frac{|\text{true positives}|}{|\text{predicted positives}|} = \frac{TP}{TP + FP}$ \\ ability to avoid false positives (1 if FP $= 0$)
+Recall $= \frac{|\text{true positives}|}{|\text{real positives}|} = \frac{TP}{TP + FN}$ \\ ability to avoid false negatives (1 if FN $= 0$) 
+Precision $= \frac{|\text{true positives}|}{|\text{predicted positives}|} = \frac{TP}{TP + FP}$ \\ ability to avoid false positives (1 if FP $= 0$)
 F1-score $= \frac{2 \cdot (\text{Precision} \cdot \text{Recall})}{(\text{Precision} + \text{Recall})}$
+ROC curve 
+
+## Metrics for Regression
+
+**Mean Absolute Error (MAE)**:
+$$
+\frac{1}{n} \sum_{i=1}^{n} \left| \hat{f}(x_i) - t_i \right|
+$$
+**Mean Squared Error (MSE)**:
+$$
+\frac{1}{n} \sum_{i=1}^{n} (\hat{f}(x_i) - t_i)^2
+$$
+**Root Mean Squared Error (RMSE)**:
+$$
+\sqrt{\text{MSE}}
+$$
+
 
 ---
 # References

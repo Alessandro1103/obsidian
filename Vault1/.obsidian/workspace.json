@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -144,18 +143,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:Open command palette": false,
-      "templates:Insert template": false,
-      "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
-      "daily-notes:Open today's daily note": false,
-      "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "command-palette:Open command palette": true,
+      "templates:Insert template": true,
+      "graph:Open graph view": true,
+      "switcher:Open quick switcher": true,
+      "daily-notes:Open today's daily note": true,
+      "audio-recorder:Start/stop recording": true,
+      "markdown-importer:Open format converter": true
     }
   },
   "active": "0481a8c1a4f81c5c",
   "lastOpenFiles": [
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Obsidian.md",
     "Zettelkasten/ML.md",
     "Zettelkasten/Robotics Ex.md",
     "Files/Pasted image 20240123224032.png",
@@ -200,8 +200,6 @@
     "Zettelkasten/AI Planning Formalisms.md",
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Regali per Daniela.md",
-    "Zettelkasten/Reading a Scientific Article.md",
-    "Zettelkasten/Atlas Reply Presentation.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -2,7 +2,7 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Zettelkasten",
   "attachmentFolderPath": "Files",
-  "foldHeading": false,
+  "foldHeading": true,
   "foldIndent": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,

@@ -14,6 +14,7 @@ A computer program is said to learn from experience E with respect to some class
 Give $f: X \rightarrow Y$ and a dataset $D$, we want to learn $\hat{f}$ such that $\hat{f}(x) \approx f(x)$ for $\forall x \in X \setminus X_D$.
 
 
+
 ## Notation
 $V(b)$ = the true target function that gives optimal solution.
 $\hat V(b)$ = the learned function (approximation of V(b) computed by the learning algorithm), alse called weight (w).
@@ -69,8 +70,6 @@ A hypothesis $h$ is consistent with a set of training examples $D$ of the target
 The set of consistent hypothesis is called version space: 
 $$
 VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
-$$ 
-
-
+$$
 ---
 # References

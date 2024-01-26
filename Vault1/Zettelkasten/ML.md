@@ -112,15 +112,12 @@ We can use the **Confidence Intervals** to compute an interval around the sample
 $$
 \text{error}_S(h) \pm z_N \sqrt{\frac{\text{error}_S(h)(1 - \text{error}_S(h))}{n}}
 $$
-| N%   | 50%  | 68%  | 80%  |  | 95%  | 98%  | 99%  |
-|------|------|------|------|------|------|------|------|
-| z_N  | 0.67 | 1.00 | 1.28 | 1.64 | 1.96 | 2.33 | 2.58 |
 
+| $N$% | 50% | 68% | 80% | 90% | 95% | 98% | 99% |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $z_N$ | 0.67 | 1.00 | 1.28 | 1.64 | 1.96 | 2.33 | 2.58 |
 
-| N% | 50 |
-| --- | --- |
-|  |  |
-
+where $N$% is the probability of get $\text{error}_D(h)$
 
 ---
 # References

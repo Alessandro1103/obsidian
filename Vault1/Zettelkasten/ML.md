@@ -119,5 +119,7 @@ $$
 
 where $N$% is the probability of get $\text{error}_D(h)$
 
+To obtain an **unbiased estimation** $\text{error}_S(h)$ we create a partition of the dataset, compute a hypothesis $h$ using training set $T$ and evaluate $\text{error}_S$ 
+
 ---
 # References

@@ -71,5 +71,8 @@ The set of consistent hypothesis is called version space:
 $$
 VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
 $$
+
+
+
 ---
 # References

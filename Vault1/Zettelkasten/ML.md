@@ -87,10 +87,19 @@ The **true error** of a model is the probability that extracting an input value 
 $$
 \text{error}_D(h) = \Pr_{x \in D} [f(x) \neq h(x)]
 $$
+we can't compute this error, because $f(x)$ (the target function) is unknown.
+
 The **sample error** is the percentage of mistakes that I do in the subset S:
 $$
 \text{error}_S(h) = \frac{1}{n} \sum_{x \in S} \delta(f(x) \neq h(x))
 $$
+$f(x)$ is base on a small subset $S$
+Note: $\text{accuracy}(h) = 1 - \text{error}(h)$
+
+If $accuracy_S(h)$ is very high, but $accuracy_D(h)$ is poor, then out system would not be very useful.
+
+
+
 
 ---
 # References

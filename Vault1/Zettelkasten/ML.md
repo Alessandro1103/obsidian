@@ -98,7 +98,28 @@ Note: $\text{accuracy}(h) = 1 - \text{error}(h)$
 
 If $accuracy_S(h)$ is very high, but $accuracy_D(h)$ is poor, then out system would not be very useful.
 
+**Estimation Bias**:
+$$
+\text{bias(h)} = E_S[\text{error}_S(h)] - \text{error}_D(h)
+$$
+We hope to get $bias = 0$.
+The smaller the set $S$, the greater the expected variance.
+For unbias estimate, $h$ and $S$ must be chosen independently.
+It needs a practical way to compute the expected value.
+Its useful to understand if the hypothesis is strictly dependent on the Sample set (overfitting) or maybe understand if the hypothesis does not represent the sample correctly (underfitting).
 
+We can use the **Confidence Intervals** to compute an interval around the sample error that has some probability that includes the true error. $\text{error}_D(h)$ lies in interval:
+$$
+\text{error}_S(h) \pm z_N \sqrt{\frac{\text{error}_S(h)(1 - \text{error}_S(h))}{n}}
+$$
+| N%   | 50%  | 68%  | 80%  |  | 95%  | 98%  | 99%  |
+|------|------|------|------|------|------|------|------|
+| z_N  | 0.67 | 1.00 | 1.28 | 1.64 | 1.96 | 2.33 | 2.58 |
+
+
+| N% | 50 |
+| --- | --- |
+|  |  |
 
 
 ---

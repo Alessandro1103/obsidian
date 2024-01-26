@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f504be9a1c95bfc",
+        "id": "f10b8d8f8fb814c2",
         "type": "tabs",
         "children": [
           {
-            "id": "0481a8c1a4f81c5c",
+            "id": "c5fb3e826333e8d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regress",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -144,24 +143,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "0481a8c1a4f81c5c",
+  "active": "c5fb3e826333e8d6",
   "lastOpenFiles": [
+    "Zettelkasten/Regali per Me.md",
     "Zettelkasten/ML.md",
-    "Zettelkasten/Robotics Ex.md",
     "Files/Pasted image 20240123224032.png",
     "Files/Pasted image 20240123223219.png",
     "Files/Pasted image 20240123222445.png",
-    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Homework2.md",
     "Zettelkasten/Educazione Visiva.md",
     "Files/Pasted image 20240114165604.png",
     "Files/Pasted image 20240113073319.png",
@@ -169,39 +168,39 @@
     "Files/Pasted image 20240113072315.png",
     "Files/Pasted image 20240112170509.png",
     "Files/Pasted image 20240112165911.png",
-    "Zettelkasten/Idee.md",
+    "Zettelkasten/IA.md",
+    "Zettelkasten/Note.md",
+    "Zettelkasten/NomiCoseCittà.md",
     "Zettelkasten/IA exercise.md",
     "Zettelkasten/IA exam arguments.md",
-    "Zettelkasten/IA.md",
-    "Files/Progetto senza titolo.png",
-    "Files/slideIA 1.pdf",
-    "Files/slideIA.pdf",
-    "Reference notes/Aimchess.md",
-    "Reference notes/LaTeX.md",
-    "Reference notes/Mermaid.md",
-    "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
-    "Zettelkasten/Regali per Edoardo.md",
-    "Zettelkasten/Note.md",
-    "Zettelkasten/Progression and Regression.md",
-    "Zettelkasten/Critical Path Heuristics.md",
+    "Files/Pasted image 20240107104356.png",
     "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/NomiCoseCittà.md",
+    "Zettelkasten/CSP PT1.md",
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/Classical Search PT1.md",
+    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Causal Graphs.md",
+    "Zettelkasten/Bias Cognitivi.md",
+    "Zettelkasten/Atlas Reply Presentation.md",
+    "Zettelkasten/AI Planning Formalisms.md",
+    "Zettelkasten/Appunti.md",
     "Zettelkasten/Adversarial Search.md",
-    "Zettelkasten/Intelligent Agents.md",
-    "Zettelkasten/Introduction to AI Planning.md",
-    "Zettelkasten/Delete Relaxation Heuristics.md",
-    "Files/post-handout 5.pdf",
-    "Files/post-handout 4.pdf",
+    "Zettelkasten/Homework2 (cose da aggiungere).md",
+    "Files/Recording 20231123223359.webm",
+    "Zettelkasten/PDDL.md",
+    "Zettelkasten/MrRip.md",
+    "Zettelkasten/Cyber security.md",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
-    "Files/post-handout 1.pdf",
-    "Files/post-handout (1).pdf",
+    "Files/slideIA.pdf",
+    "Files/slideIA 1.pdf",
     "Files/post-handout.pdf",
-    "Zettelkasten/AI Planning Formalisms.md",
-    "Zettelkasten/Cyber security.md",
-    "Zettelkasten/Regali per Daniela.md",
-    "Zettelkasten/Reading a Scientific Article.md",
-    "Zettelkasten/Atlas Reply Presentation.md",
+    "Files/post-handout 1.pdf",
+    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
+    "Files/rp_01_compilers_and_build_systems.pdf",
+    "Files/Recording 20231004111518.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

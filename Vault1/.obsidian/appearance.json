@@ -1,7 +1,7 @@
 {
   "accentColor": "#3145e3",
   "cssTheme": "Minimal",
-  "textFontFamily": "Californian FB,Castellar,Times New Roman,Times,Algerian",
+  "textFontFamily": "Californian FB,Times New Roman,Castellar,Times",
   "interfaceFontFamily": "Californian FB",
   "nativeMenus": false,
   "showViewHeader": true,

@@ -72,7 +72,7 @@ $$
 VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
 $$
 
-There is no best hypothesis in VS. There is an association between H space and X space:
+There is no best hypothesis in VS. A bigger VS is not better than the small ones (lose of generical power). There is an association between H space and X space:
 $$
 h_1(x) = 
 \begin{cases} 
@@ -81,7 +81,12 @@ h_1(x) =
 \end{cases}
 $$
 
+## Error/Accuracy
 
+The true error of a model is the probability that extracting an input value from the input distribution the model will make a mistake respect to the true function:
+$$
+
+$$
 
 ---
 # References

@@ -83,9 +83,13 @@ $$
 
 ## Error/Accuracy
 
-The true error of a model is the probability that extracting an input value from the input distribution the model will make a mistake respect to the true function:
+The **true error** of a model is the probability that extracting an input value from the input distribution the model will make a mistake respect to the true function:
 $$
-
+\text{error}_D(h) = \Pr_{x \in D} [f(x) \neq h(x)]
+$$
+The **sample error** is the percentage of mistakes that I do in the subset S:
+$$
+\text{error}_S(h) = \frac{1}{n} \sum_{x \in S} \delta(f(x) \neq h(x))
 $$
 
 ---

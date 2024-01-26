@@ -56,7 +56,7 @@ $$
 D = \{(x_i, c(x_i))^n_{i=1}\}
 $$
 
-**Definition**?
+**Definition**
 Concept learning can be viewed as the task of searching through a large space of hypotheses, implicitly defined by the hypothesis representation. The goal of this search is to find the hypothesis that best fits the training examples.
 
 To find the best approximation $h^* \in H$ of the c problem:
@@ -67,9 +67,18 @@ To find the best approximation $h^* \in H$ of the c problem:
 **Best solution among hypothesis**:
 A hypothesis $h$ is consistent with a set of training examples $D$ of the target concept $c$ if and only if $h(x) = c(x)$ for each training example $(x, c(x))$ in $D$. 
 
-The set of consistent hypothesis is called version space: 
+The set of ==consistent== hypothesis is called version space: 
 $$
 VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
+$$
+
+There is no best hypothesis in VS. There is an association between H space and X space:
+$$
+h_1(x) = 
+\begin{cases} 
+1 & \text{if } x \in S_{h_1}, \\
+0 & \text{if } x \in X / S_{h_1}.
+\end{cases}
 $$
 
 

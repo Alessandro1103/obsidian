@@ -128,5 +128,17 @@ $$
 \text{error}_{L,D} = \frac{1}{k} \sum_{i=1}^{k} \delta_i
 $$
 
+## Confusion Matrix
+
+
+| True Class \ Predicted Class | Yes | No |
+| ---- | ---- | ---- |
+| Yes | TP: True Positive | FN: False Negative |
+| No | FP: False Positive | TN: True Negative |
+|  |  |  |
+
+
+
+
 ---
 # References

@@ -7,11 +7,11 @@ Up:
 # ML
 
 ## Introduction
-**What is a Learning Problem?**
+**What is a Learning Problem**
 A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
 
-**Formal Definition of ML**?
-Give $f: X \rightarrow Y$ and a dataset $D$, we want to learn $\hat{f}$ such that $\hat{f}(x) \approx f(x)$ for $\forall x \in X \setminus X_D$.
+**Formal Definition of ML**
+Given $f: X \rightarrow Y$ and a dataset $D$, we want to learn $\hat{f}$ such that $\hat{f}(x) \approx f(x)$ for $\forall x \in X \setminus X_D$.
 
 
 

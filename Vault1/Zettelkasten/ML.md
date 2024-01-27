@@ -170,7 +170,7 @@ A **decision tree** is a tree with the following characteristics:
 - Each branch denotes a value of an attribute $a_{i,j} \in A_i$
 - Each leaf node assigns a classification value $c \in C$
 
-The final tree represents the learned function.
+The final tree represents the learned function, and represents classification function by making decisions explicit.
 Decision Trees represent a **disjunction of conjunctions** of constraints on the attribute values of instances. Each path from the tree root to a leaf corresponds to a conjunction of attribute tests, and the tree itself to a disjunction of these conjunction.
 
 **ID3 Algorithm**
@@ -186,6 +186,56 @@ Decision Trees represent a **disjunction of conjunctions** of constraints on the
 		- $Examples_{v_i}$ = subset of Examples that have value $v_i$ for A
 		- if $Examples_{v_i}$ is empty then add a leaf node with label =  "most common value of Target_attribute in Examples"
 		- else add the tree ID3($Examples_{v_i}$, Target_attribute, Attributes-{A})
+
+With **entropy** we measure the impurity of the data (Impurity = mix of different class). It's used to determine the best attribute for splitting the data at each node. The goal is to reduce the entropy, choosing the attribute that brings less entropy. Minimize entropy is the same as maximizing **information gain**. Information gain is how well an attribute separates data, calculated as difference in data before and after the split.
+$$
+\text{Entropy}(S) = -p_0 \log_2 p_0 - p_1 \log_2 p_1
+$$
+
+==Example==: if we have the set S = \[9+, 5-\] (9 positive examples, 5 negative examples), $\text{Entropy}(S) = -(9/14) \log_2 (9/14) - (5/14) \log_2 (5/14)$
+
+In case of multi-valued target functions (c-wise classification)
+$$
+\text{Entropy}(S) = \sum_{i=1}^{c} -p_i \log_2 p_i
+$$
+![[Pasted image 20240127182134.png|300]]
+
+The expected reduction in entropy of S caused by knowing the value of attribute A:
+$$
+\text{Gain}(S, A) = \text{Entropy}(S) - \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} \text{Entropy}(S_v)
+$$
+==Example==: if we have for "Wind" that $S_{Weak} = [6+,2-]$ and $S_{Strong} = [3+,3-]$ the gain is the follow:
+$$
+\text{Gain}(S, \text{Wind}) = \text{Entropy}(S) - \frac{8}{14}\text{Entropy}(S_{\text{Weak}}) - \frac{6}{14}\text{Entropy}(S_{\text{Strong}})
+$$
+
+Appling this to all attributes and find the MAX gain.
+
+This algorithm can produce trees that overfit the training examples.
+We will say that a hypothesis **overfits** the training examples if some other hypothesis fits the training examples less well actually performs better over the entire distribution of instances
+
+To avoid overfitting the tree should stop growing wen data split not statistically significant, or when the tree full grow prune it (post-prune). If we have examples with some missing value we can substitute the value with the most common value.
+
+An example consists of removing the subtree rooted at that node, making it a leaf node, and assigning it the most common classification of the training examples affiliated with that node. Nodes are removed only if the resulting pruned tree performs no worse than the original over the validation set
+
+When there are many values for a node, instead using Gain, we can use **GainRatio**:
+$$
+\begin{align*}
+&\text{GainRatio}(S, A) = \frac{\text{Gain}(S, A)}{\text{SplitInformation}(S, A)} \\
+&\text{SplitInformation}(S, A) = - \sum_{i=1}^{c} \frac{|S_i|}{|S|} \log_2 \frac{|S_i|}{|S|}
+\end{align*}
+$$
+
+ID3 can be modified to take into account attribute costs by introducing a **cost term** into the attribute selection measure, for example in case of medical diagnosis (price 150€) or robotics (cost 23 seconds), we can replace gain with:
+$$
+\begin{align*}
+&\frac{\text{Gain}^2(S, A)}{\text{Cost}(A)} \\
+&\frac{2\text{Gain}(S, A) - 1}{(\text{Cost}(A) + 1)^w}
+\end{align*}
+$$
+with $w \in [0,1]$ determines importance of cost.
+
+Another algorithm could be **Random Forest** that considers different trees with variations (different slit, different dataset...)
 
 ---
 

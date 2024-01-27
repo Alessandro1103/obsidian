@@ -214,7 +214,7 @@ Appling this to all attributes and find the MAX gain.
 This algorithm can produce trees that overfit the training examples.
 We will say that a hypothesis **overfits** the training examples if some other hypothesis fits the training examples less well actually performs better over the entire distribution of instances
 
-To avoid overfitting the tree should stop growing wen data split not statistically significant, or when the tree full grow prune it (post-prune). If we have examples with some missing value we can substitute the value with the most common value.
+To avoid overfitting the tree should stop growing wen data split not statistically significant, or when the tree full grow prune it (post-prune). If we have examples with some **missing value** we can substitute the value with the most common value.
 
 An example consists of removing the subtree rooted at that node, making it a leaf node, and assigning it the most common classification of the training examples affiliated with that node. Nodes are removed only if the resulting pruned tree performs no worse than the original over the validation set
 

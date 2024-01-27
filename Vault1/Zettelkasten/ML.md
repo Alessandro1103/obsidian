@@ -121,15 +121,12 @@ where $N$% is the probability of get $\text{error}_D(h)$
 
 To obtain an **unbiased estimation** $\text{error}_S(h)$ we create a partition of the dataset, compute a hypothesis $h$ using training set $T$ and evaluate $\text{error}_S$ 
 
-## K-Fold Cross Validation Algorithm
-
+**K-Fold Cross Validation**
 We split the Dataset in multiple subset, we want each subset to be big enough
 $$
 \text{error}_{L,D} = \frac{1}{k} \sum_{i=1}^{k} \delta_i
 $$
-
-## Confusion Matrix
-
+**Confusion Matrix**:
 
 | True Class \ Predicted Class | Yes | No |
 | ---- | ---- | ---- |
@@ -148,15 +145,22 @@ ROC curve
 $$
 \frac{1}{n} \sum_{i=1}^{n} \left| \hat{f}(x_i) - t_i \right|
 $$
+It's less sensitive to outliers compared to MSE because it treats all errors equally
+
 **Mean Squared Error (MSE)**:
 $$
 \frac{1}{n} \sum_{i=1}^{n} (\hat{f}(x_i) - t_i)^2
 $$
+Tends to penalize large errors more significantly than MAE due to the squaring operation
+
 **Root Mean Squared Error (RMSE)**:
 $$
 \sqrt{\text{MSE}}
 $$
+**K-Fold Cross Validation**:
 
+Can be extended to regression problems using appropriate metrics.
 
 ---
+
 # References

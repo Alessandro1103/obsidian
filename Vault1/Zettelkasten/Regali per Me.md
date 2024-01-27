@@ -12,6 +12,7 @@ Up: [[Regali]]
 - [Atomic Habit](https://www.amazon.it/Atomic-Habits-Proven-Build-Break/dp/1847941834/ref=pd_bxgy_img_sccl_1/262-9501906-2763459?pd_rd_w=0WraY&content-id=amzn1.sym.8346a411-823c-4423-a078-89faab0b5d1e&pf_rd_p=8346a411-823c-4423-a078-89faab0b5d1e&pf_rd_r=0DNXYM7J4C9YSD22PRZ5&pd_rd_wg=2M01n&pd_rd_r=0c055644-4b51-4926-b087-be9018d814c4&pd_rd_i=1847941834&psc=1)
 - [The Animator's Survival Kit](https://www.amazon.it/Animation-Mini-Dialogue-Acting-Directing/dp/0571358446/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
 - [Illusion Of Life, The: Disney Animation ](https://www.amazon.it/Illusion-Life-Disney-Animation/dp/0786860707/ref=sr_1_1?adgrpid=1231453340287030&hvadid=76965998133611&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-76966071658198%3Aloc-93&hydadcr=18611_2252363&keywords=the+illusion+of+life&qid=1704666298&sr=8-1)
+- [La terra dei figli](https://www.ibs.it/terra-dei-figli-libro-gipi/e/9788876183256)
 
 **Accessori:**
 - [Batterie per GoPro](https://www.amazon.it/REYGEAK-batteria，Batteria-Caricabatteria-immagazzinaggio-caricabatteria/dp/B08MLLNH5S/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=28UZ8R0ISU37T&keywords=cariche+go+pro&qid=1698256347&sprefix=cariche+go+pro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)

@@ -164,13 +164,28 @@ Can be extended to regression problems using appropriate metrics.
 
 ## Decision Tree
 
-Consider a discrete input space described with $m$ attributes, 
-A decision tree is a tree with the following characteristics:
+Consider a discrete input space described with $m$ attributes, $X = A_1 \times \ldots \times A_m, \text{ with } A_i \text{ finite}$, and a classification problem for $f:X\rightarrow C$
+A **decision tree** is a tree with the following characteristics:
 - Each internal node tests an attribute $A_i$
 - Each branch denotes a value of an attribute $a_{i,j} \in A_i$
 - Each leaf node assigns a classification value $c \in C$
 
-The tree represents the learned function
+The final tree represents the learned function.
+Decision Trees represent a **disjunction of conjunctions** of constraints on the attribute values of instances. Each path from the tree root to a leaf corresponds to a conjunction of attribute tests, and the tree itself to a disjunction of these conjunction.
+
+**ID3 Algorithm**
+1. Create a Root node for the tree
+2. if all Examples are positive, then return the node Root with label +
+3. if all Examples are negative, then return the node Root with label -
+4. if Attributes is empty then return the node Root with label = "most common value of Target_attribute in Examples"
+5. Otherwise:
+	- A $\leftarrow$ the "best" decision attribute for Examples
+	- Assign A as decision attribute for Root
+	- For each value $v_i$ of A
+		- add a new branch from Root corresponding to the test $A = v_i$
+		- $Examples_{v_i}$ = subset of Examples that have value $v_i$ for A
+		- if $Examples_{v_i}$ is empty then add a leaf node with label =  "most common value of Target_attribute in Examples"
+		- else add the tree ID3($Examples_{v_i}$, Target_attribute, Attributes-{A})
 
 ---
 

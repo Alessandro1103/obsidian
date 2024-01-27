@@ -237,9 +237,12 @@ with $w \in [0,1]$ determines importance of cost.
 
 Another algorithm could be **Random Forest** that considers different trees with variations (different slit, different dataset...)
 
-## Bayesian Learning
+## Classification as Prob. estimation
 
+Given target function $f: X \rightarrow Y$, dataset $D$ and a new instance $x'$, best prediction $\hat f (x')=v^*$
+$$
 
+$$
 
 ---
 

@@ -237,6 +237,10 @@ with $w \in [0,1]$ determines importance of cost.
 
 Another algorithm could be **Random Forest** that considers different trees with variations (different slit, different dataset...)
 
+## Bayesian Learning
+
+
+
 ---
 
 # References

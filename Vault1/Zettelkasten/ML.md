@@ -67,7 +67,7 @@ To find the best approximation $h^* \in H$ of the c problem:
 **Best solution among hypothesis**:
 A hypothesis $h$ is consistent with a set of training examples $D$ of the target concept $c$ if and only if $h(x) = c(x)$ for each training example $(x, c(x))$ in $D$. 
 
-The set of ==consistent== hypothesis is called version space: 
+The set of ==consistent== hypothesis is called **version space**: 
 $$
 VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
 $$

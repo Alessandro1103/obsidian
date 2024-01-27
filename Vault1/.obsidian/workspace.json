@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d83e3bff91c321c1",
+        "id": "7f504be9a1c95bfc",
         "type": "tabs",
         "children": [
           {
-            "id": "f2ebc3c8f9dea04e",
+            "id": "0481a8c1a4f81c5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Zettelkasten/ML.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d6f9141df3908d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Cose.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "regress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -157,27 +143,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:Open command palette": false,
-      "templates:Insert template": false,
-      "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
-      "daily-notes:Open today's daily note": false,
-      "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false
+      "command-palette:Open command palette": true,
+      "templates:Insert template": true,
+      "graph:Open graph view": true,
+      "switcher:Open quick switcher": true,
+      "daily-notes:Open today's daily note": true,
+      "audio-recorder:Start/stop recording": true,
+      "markdown-importer:Open format converter": true
     }
   },
-  "active": "f2ebc3c8f9dea04e",
+  "active": "0481a8c1a4f81c5c",
   "lastOpenFiles": [
-    "Zettelkasten/Cose.md",
-    "Zettelkasten/ML.md",
-    "Zettelkasten/Obsidian.md",
     "Zettelkasten/ob.md",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Regali per Me.md",
+    "Zettelkasten/ML.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/Obsidian.md",
+    "Zettelkasten/Robotics Ex.md",
     "Files/Pasted image 20240123224032.png",
     "Files/Pasted image 20240123223219.png",
     "Files/Pasted image 20240123222445.png",
-    "Zettelkasten/Homework2.md",
     "Zettelkasten/Educazione Visiva.md",
     "Files/Pasted image 20240114165604.png",
     "Files/Pasted image 20240113073319.png",
@@ -185,35 +170,36 @@
     "Files/Pasted image 20240113072315.png",
     "Files/Pasted image 20240112170509.png",
     "Files/Pasted image 20240112165911.png",
-    "Zettelkasten/IA.md",
-    "Zettelkasten/Note.md",
-    "Zettelkasten/NomiCoseCittà.md",
+    "Zettelkasten/Idee.md",
     "Zettelkasten/IA exercise.md",
     "Zettelkasten/IA exam arguments.md",
-    "Files/Pasted image 20240107104356.png",
-    "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/CSP PT1.md",
+    "Zettelkasten/IA.md",
+    "Files/Progetto senza titolo.png",
+    "Files/slideIA 1.pdf",
+    "Files/slideIA.pdf",
+    "Reference notes/Aimchess.md",
+    "Reference notes/LaTeX.md",
+    "Reference notes/Mermaid.md",
+    "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
+    "Zettelkasten/Regali per Edoardo.md",
+    "Zettelkasten/Note.md",
+    "Zettelkasten/Progression and Regression.md",
     "Zettelkasten/Critical Path Heuristics.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/Classical Search PT1.md",
-    "Zettelkasten/Classical Search PT2.md",
-    "Zettelkasten/Causal Graphs.md",
-    "Zettelkasten/Bias Cognitivi.md",
-    "Zettelkasten/Atlas Reply Presentation.md",
-    "Zettelkasten/AI Planning Formalisms.md",
-    "Zettelkasten/Appunti.md",
+    "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/NomiCoseCittà.md",
     "Zettelkasten/Adversarial Search.md",
-    "Zettelkasten/Homework2 (cose da aggiungere).md",
-    "Files/Recording 20231123223359.webm",
+    "Zettelkasten/Intelligent Agents.md",
+    "Zettelkasten/Introduction to AI Planning.md",
+    "Zettelkasten/Delete Relaxation Heuristics.md",
+    "Files/post-handout 5.pdf",
+    "Files/post-handout 4.pdf",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
-    "Files/slideIA.pdf",
-    "Files/slideIA 1.pdf",
-    "Files/post-handout.pdf",
     "Files/post-handout 1.pdf",
-    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
-    "Files/rp_01_compilers_and_build_systems.pdf",
-    "Files/Recording 20231004111518.webm",
+    "Files/post-handout (1).pdf",
+    "Files/post-handout.pdf",
+    "Zettelkasten/AI Planning Formalisms.md",
+    "Zettelkasten/Cyber security.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b271776d4a44694a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Regali per Me.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali per Me.md",
+                "file": "Zettelkasten/ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali per Me.md",
+                "file": "Zettelkasten/ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,15 +153,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b271776d4a44694a",
+  "active": "f2ebc3c8f9dea04e",
   "lastOpenFiles": [
+    "Zettelkasten/Regali per Me.md",
     "Zettelkasten/Regali.md",
     "Zettelkasten/ML.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/ob.md",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Regali per Me.md",
     "Files/Pasted image 20240123224032.png",
     "Files/Pasted image 20240123223219.png",
     "Files/Pasted image 20240123222445.png",

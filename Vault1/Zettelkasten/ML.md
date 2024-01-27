@@ -164,7 +164,13 @@ Can be extended to regression problems using appropriate metrics.
 
 ## Decision Tree
 
+Consider a discrete input space described with $m$ attributes, 
+A decision tree is a tree with the following characteristics:
+- Each internal node tests an attribute $A_i$
+- Each branch denotes a value of an attribute $a_{i,j} \in A_i$
+- Each leaf node assigns a classification value $c \in C$
 
+The tree represents the learned function
 
 ---
 

@@ -335,21 +335,7 @@ $$
 \end{align*}
 $$
 
-==Example==: we assume have 14 samples
-$$
-\begin{align*}
-P(\text{PlayTennis} = \text{yes}) = P(y) = \frac{9}{14} = 0.64 \\
-P(\text{PlayTennis} = \text{no}) = P(n) = \frac{5}{14} = 0.36 \\
 
-P(\text{Wind} = \text{strong}|y) = \frac{3}{9} = 0.33 \\
-P(\text{Wind} = \text{strong}|n) = \frac{3}{5} = 0.60 \\
-
-\vdots \\
-
-P(y) P(\text{sunny}|y) P(\text{cool}|y) P(\text{high}|y) P(\text{strong}|y) = .005 \\
-P(n) P(\text{sunny}|n) P(\text{cool}|n) P(\text{high}|n) P(\text{strong}|n) = .021\\
-\end{align*}
-$$
 
 
 ---

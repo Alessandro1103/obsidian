@@ -255,10 +255,18 @@ where:
 - $P(h|D)$ = probability of $h$ given $D$ (posterior, information we want to extract after we look at the dataset)
 - $P(D|h)$ = probability of $D$ given $h$ (likelihood)
 
-We want the most probable hypothesis $h$ given $D$, in other words the Maximum a posteriori hypothesis $h_MAP$:
+We want the most probable hypothesis $h$ given $D$, in other words the **Maximum a posteriori** hypothesis $h_{MAP}$:
 $$
 h_{\text{MAP}} = \underset{h \in H}{\mathrm{argmax}} \ P(h|D) = \underset{h \in H}{\mathrm{argmax}} \ \frac{P(D|h)P(h)}{P(D)} = \underset{h \in H}{\mathrm{argmax}} \ P(D|h)P(h)
 $$
+If we assume that all the hypothesis have the same probability then the **Maximum likelihood** $h_{ML}$ is
+$$
+h_{\text{ML}} = \underset{h \in H}{\mathrm{argmax}} \ P(D|h)
+$$
+
+![[Pasted image 20240128011724.png|400]]
+
+As algorithm we can use **Brute Force MAP Hypothesis Learner**, that for each hypothesis $h$ in $H$ calculate the posterior probability getting the $h_{MAP}$
 
 ---
 

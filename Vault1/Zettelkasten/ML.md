@@ -312,6 +312,46 @@ $$
 h_{\text{ML}} = \underset{h}{\mathrm{argmax}} \ P(D|h) = \underset{h}{\mathrm{argmax}} \ \mathcal{L}(D|h)
 $$
 
+If we want to solve the problem without enumerating all the hypothesis we have to consider the *conditionally independent rule*:
+$$
+P(X, Y|Z) = P(X|Y, Z)P(Y|Z) = P(X|Z)P(Y|Z)
+$$
+so the best prediction:
+$$
+\underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|x, D) = \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|a_1, a_2 \ldots a_n, D)
+$$
+
+and on the **Naive Bayes classifier** assumption:
+$$
+v_{NB} = \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|D) \prod_i P(a_i|v_j, D)
+$$
+
+The algorithm just calculate iteratively $P(v_j|D)$ and the all the $P(a_i|v_j,D)$. The problem is that when we have no attribute, the probability is 0, so we can estimate the probability of a class computing the ratio between all the samples, adding a weight
+$$
+\begin{align*}
+&\hat{P}(v_j|D) = \frac{|\{\langle \ldots, v_j \rangle\}|}{|D|}\\
+
+&\hat{P}(a_i|v_j, D) = \frac{|\{\langle \ldots, a_i, \ldots, v_j \rangle\}|}{|\{\langle \ldots, v_j \rangle\}|}\\
+\end{align*}
+$$
+
+==Example==: we assume have 14 samples
+$$
+\begin{align*}
+P(\text{PlayTennis} = \text{yes}) = P(y) = \frac{9}{14} = 0.64 \\
+P(\text{PlayTennis} = \text{no}) = P(n) = \frac{5}{14} = 0.36 \\
+
+P(\text{Wind} = \text{strong}|y) = \frac{3}{9} = 0.33 \\
+P(\text{Wind} = \text{strong}|n) = \frac{3}{5} = 0.60 \\
+
+\vdots \\
+
+P(y) P(\text{sunny}|y) P(\text{cool}|y) P(\text{high}|y) P(\text{strong}|y) = .005 \\
+P(n) P(\text{sunny}|n) P(\text{cool}|n) P(\text{high}|n) P(\text{strong}|n) = .021\\
+\end{align*}
+$$
+
+
 ---
 
 # References

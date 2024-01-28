@@ -266,7 +266,7 @@ $$
 
 ![[Pasted image 20240128011724.png|400]]
 
-As algorithm we can use **Brute Force MAP Hypothesis Learner**, that for each hypothesis $h$ in $H$ calculate the posterior probability getting the $h_{MAP}$. It's impractical because we can not iterate over all the possible hypothesis. 
+As algorithm we can use **Brute Force MAP Hypothesis Learner**, that for each hypothesis $h$ in $H$ calculate the posterior probability getting the $h_{MAP}$. It's *impractical* because we can not iterate over all the possible hypothesis. 
 
 ==Example==: there are 3 possible hypothesis $h1$, $h2$, $h3$:
 $$
@@ -279,9 +279,38 @@ $$
 we can say that the most probably classification of $x$ is "-"
 
 Let's consider the **Bayes Optimal Classifier** (the best classifier):
-Consider target function $f:X\rightarrow V$, $V = \{v_1, ..., v_k\}, data set $D$ and a new instance $x \notin D$:
+Consider target function $f:X\rightarrow V$, $V = \{v_1, ..., v_k\}$, data set $D$ and a new instance $x \notin D$:
+$$
+P(v_i|x, D) = \sum_{h \in H} P(v_i|x, h)P(h|D)
+$$
+so if we want the best class for a new $x$:
+$$
+v_{OB} = \sum_{h \in H} P(v_i|x, h)P(h|D)
+$$
+Still *impractical*.
+
+==Example==: 
+$$
+\begin{align*} 
+P(h_1|D) &= 0.4, & P(-|x, h_1) &= 0, & P(+|x, h_1) &= 1 \\ P(h_2|D) &= 0.3, & P(-|x, h_2) &= 1, & P(+|x, h_2) &= 0 \\ P(h_3|D) &= 0.3, & P(-|x, h_3) &= 1, & P(+|x, h_3) &= 0 \\ 
+\end{align*}
+$$
+therefore 
+$$
+\begin{align*}
+&\sum_{h_i \in H} P(+|x, h_i)P(h_i|D) = 0.4 \\
+&\sum_{h_i \in H} P(-|x, h_i)P(h_i|D) = 0.6 \\
+\end{align*}
+$$
+and 
+$$
+v_{\text{OB}} = \underset{v_j \in V}{\mathrm{argmax}} \sum_{h_i \in H} P(v_j|x, h_i)P(h_i|D) = -
 $$
 
+Taking the **log of the likelihood function** often results in a convex function that facilitates the optimization. When the function is monotonic (log) the max changes but the argmax remain the same.
+$$
+h_{\text{ML}} = \underset{h}{\mathrm{argmax}} \ P(D|h) = \underset{h}{\mathrm{argmax}} \ \mathcal{L}(D|h)
+$$
 
 ---
 

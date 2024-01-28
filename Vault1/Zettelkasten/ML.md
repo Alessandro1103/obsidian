@@ -266,7 +266,22 @@ $$
 
 ![[Pasted image 20240128011724.png|400]]
 
-As algorithm we can use **Brute Force MAP Hypothesis Learner**, that for each hypothesis $h$ in $H$ calculate the posterior probability getting the $h_{MAP}$
+As algorithm we can use **Brute Force MAP Hypothesis Learner**, that for each hypothesis $h$ in $H$ calculate the posterior probability getting the $h_{MAP}$. It's impractical because we can not iterate over all the possible hypothesis. 
+
+==Example==: there are 3 possible hypothesis $h1$, $h2$, $h3$:
+$$
+P(h_1|D) = 0.4, \ P(h_2|D) = 0.3, \ P(h_3|D) = 0.3, 
+$$
+given a new instance, each hypothesis returns these results:
+$$
+h_1(x) = + \ \ h_2(x) = - \ \ h_3(x) = -
+$$
+we can say that the most probably classification of $x$ is "-"
+
+Let's consider the **Bayes Optimal Classifier** (the best classifier):
+Consider target function $f:X\rightarrow V$, $V = \{v_1, ..., v_k\}, data set $D$ and a new instance $x \notin D$:
+$$
+
 
 ---
 

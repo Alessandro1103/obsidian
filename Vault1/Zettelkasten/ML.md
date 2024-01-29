@@ -439,6 +439,11 @@ $$
 p(t|\mathbf{w}) = \prod_{n=1}^{N} y_n^{t_n} (1 - y_n)^{1-t_n}
 $$
 with $y_n = p(C_1|\mathbf{x}_n) = \sigma(\mathbf{w}^T \mathbf{x}_n)$ it's a scalar.
+As usual we can define an error function by taking the negative log of the likelihood, which gives the **cross-entropy error**:
+$$
+E(\mathbf{\tilde w}) = - \ln p(t|\mathbf{\tilde w}) = - \sum_{n=1}^{N} [t_n \ln y_n + (1 - t_n) \ln(1 - y_n)]
+$$
+where $y$ as before is defined by parameters, that 
 
 
 ---

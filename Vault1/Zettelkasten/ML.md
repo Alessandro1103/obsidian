@@ -335,7 +335,7 @@ $$
 \end{align*}
 $$
 
-
+## Probabilistic models for classification
 
 
 ---

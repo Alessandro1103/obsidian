@@ -1,6 +1,11 @@
 [
   "obsidian-git",
   "obsidian-icon-folder",
+<<<<<<< HEAD
   "calendar",
   "obsidian-advanced-slides"
+=======
+  "obsidian-minimal-settings",
+  "obsidian-style-settings"
+>>>>>>> origin/main
 ]

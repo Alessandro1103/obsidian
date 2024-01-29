@@ -348,6 +348,17 @@ Two families of models:
 - Generative: estimate $P(x|C_i)$ and then compute $P(C_i|x)$ with Bayes (called generative because once we know $P(x|C_i)$ we know how to generate new samples.
 - Discriminative: estimate $P(C_i|x)$ directly
 
+I can write:
+$$
+P(C_1|x) = \frac{P(x|C_1)P(C_1)}{P(x)} = \frac{P(x|C_1)P(C_1)}{P(x|C_1)P(C_1) + P(x|C_2)P(C_2)}
+$$
+and applied to the assumption that $P(x|C_i) = \mathcal{N}(x; \mu_i, \Sigma)$ we obtain:
+$$
+a = \ln \frac{P(x|C_1)P(C_1)}{P(x|C_2)P(C_2)} = \ln \frac{\mathcal{N}(x; \mu_1, \Sigma)P(C_1)}{\mathcal{N}(x; \mu_2, \Sigma)P(C_2)} = \ldots = w^T x + w_0
+$$
+![[Pasted image 20240129155503.png|500]]
+
+The image on the left is used to show how the data $x$ is distributed when it is coming from either class $C_1$ or $C_2$. The image on the right the graphic shows the probability of the data belonging to class $C_1$ given the data $x$.
 
 ---
 

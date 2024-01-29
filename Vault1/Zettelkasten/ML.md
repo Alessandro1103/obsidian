@@ -374,6 +374,8 @@ $$
 $$
 with  $S_i = \frac{1}{N_i} \sum_{x_n \in C_i} (x_n - \mu_i)(x_n - \mu_i)^T, \quad i = 1, 2$
 In this way  $\mu_1$ will have only elements from $C_1$ because $t_1$ is equal to 1 only if $x_n$ belongs to $C_1$, viceversa for $\mu_2$. 
+$\pi$ is a vector, where the sum is equal to 1. $\Sigma$ si the covariance matrix, symmetric so we choose only half.
+==Example==:
 
 
 

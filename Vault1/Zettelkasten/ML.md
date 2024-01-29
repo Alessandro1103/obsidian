@@ -403,7 +403,7 @@ $$
 * & * & *  & *
 \end{bmatrix}
 \end{align*}
-$$ So if we consider *independent* parameter, for $\pi$ we have 2 parameter, because we know that the sum is equal to 1 ($3 \ variables - 1\ constrain\ =\  2\ parameters$). For $\mu_i$ that is the $\min$ of the values of the samples: 4, no constraints so the total is 12. From $\Sigma$ since, it's symmetric, we can take just 10 of 16. So the total is 24 parameters. 
+$$ So if we consider *independent* parameter, for $\pi$ we have 2 parameter, because we know that the sum is equal to 1 ($3 \ variables - 1\ constrain\ =\  2\ parameters$). For $\mu_i$ that is the $\min$ of the values of the samples: 4, no constraints so the total is 12. From $\Sigma$ since, it's symmetric, we can take just 10 of 16. So the total is 24  
 
 So we obtain the prediction of the new sample:
 $$
@@ -436,10 +436,9 @@ $$
 
 So a Probabilistic discriminative model, for **Logistic regression** based on maximum likelihood is 
 $$
-..
+p(t|\mathbf{w}) = \prod_{n=1}^{N} y_n^{t_n} (1 - y_n)^{1-t_n}
 $$
-with ...
-
+with $y_n = p(C_1|\mathbf{x}_n) = \sigma(\mathbf{w}^T \mathbf{x}_n)$ it's a scalar.
 
 
 ---

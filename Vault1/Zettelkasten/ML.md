@@ -376,7 +376,34 @@ with  $S_i = \frac{1}{N_i} \sum_{x_n \in C_i} (x_n - \mu_i)(x_n - \mu_i)^T, \qua
 In this way  $\mu_1$ will have only elements from $C_1$ because $t_1$ is equal to 1 only if $x_n$ belongs to $C_1$, viceversa for $\mu_2$. $t$ is no more a vector but it's a matrix ($N \times K$) where each line is 0 except for the correct class (column) where is 1. $\pi$ is a vector, where the sum is equal to 1. $\Sigma$ si the covariance matrix, symmetric so we choose only half.
 ==Example==:
 assume d = 4 (input space), with k = 3 (classes)
-
+$$
+\begin{align*}
+&\pi = 
+\begin{bmatrix}
+ \pi_1\\ \pi_2\\ \pi_3
+\end{bmatrix}
+&\mu_1 = 
+\begin{bmatrix}
+ \mu_{11}\\ \mu_{12}\\ \mu_{13}\\ \mu_{14}
+\end{bmatrix}
+&\mu_2 = 
+\begin{bmatrix}
+ \mu_{21}\\ \mu_{22}\\ \mu_{23}\\ \mu_{24}
+\end{bmatrix}
+&\mu_3 = 
+\begin{bmatrix}
+ \mu_{31}\\ \mu_{32}\\ \mu_{33}\\ \mu_{34}
+\end{bmatrix}
+\\
+&\Sigma = 
+\begin{bmatrix}
+* & 0 & 0 & 0 \\
+* & * & 0 & 0 \\
+* & * & * & 0 \\
+* & * & *  & *
+\end{bmatrix}
+\end{align*}
+$$ 
 
 So we obtain the prediction of the new sample:
 $$

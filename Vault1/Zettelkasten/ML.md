@@ -360,6 +360,42 @@ $$
 
 The image on the left is used to show how the data $x$ is distributed when it is coming from either class $C_1$ or $C_2$. The image on the right the graphic shows the probability of the data belonging to class $C_1$ given the data $x$.
 
+To obtain the **Maximum likelihood** for 2 classes we have:
+$$
+P(t|\pi, \mu_1, \mu_2, \Sigma, D) = \prod_{n=1}^{N} [\pi \mathcal{N}(x_n; \mu_1, \Sigma)]^{t_n} [(1 - \pi)\mathcal{N}(x_n; \mu_2, \Sigma)]^{(1-t_n)}
+$$
+maximizing the log likelihood we obtain:
+$$
+\begin{align*}
+&\pi = \frac{N_1}{N} \\
+&\mu_1 = \frac{1}{N_1} \sum_{n=1}^{N} t_n x_n \quad &\mu_2 = \frac{1}{N_2} \sum_{n=1}^{N} (1 - t_n) x_n \\
+&\Sigma = \frac{N_1}{N} S_1 + \frac{N_2}{N} S_2 \\
+\end{align*}
+$$
+with  $S_i = \frac{1}{N_i} \sum_{x_n \in C_i} (x_n - \mu_i)(x_n - \mu_i)^T, \quad i = 1, 2$
+In this way  $\mu_1$ will have only elements from $C_1$ because $t_1$ is equal to 1 only if $x_n$ belongs to $C_1$, viceversa for $\mu_2$. So we obtain the prediction of the new sample:
+$$
+P(C_1|x') = \sigma(w^T x' + w_0) 
+\begin{cases}
+> 0.5 \Rightarrow C_1 \\
+\leq 0.5 \Rightarrow C_2
+\end{cases}
+$$
+This can be extended to K classes. The general **notation** will become:
+$$
+\begin{align*}
+&P(C_i|x) = \frac{\exp(a_k)}{\sum_j \exp(a_j)} \\
+&a_k = w^T x + w_0
+&w^T x + w_0 = \begin{pmatrix} w_0 & w \end{pmatrix} \begin{pmatrix} 1 \\ x \end{pmatrix}
+\end{align*}
+$$
+with $X$ a matrix ($N \times d$) of input values, t a vector ($N$) of output values
+
+### Parametric Models
+
+$\mathcal{M}_\theta: P(t|\Theta, D), \quad D = (X, t)$
+
+
 ---
 
 # References

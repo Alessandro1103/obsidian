@@ -375,7 +375,7 @@ $$
 with  $S_i = \frac{1}{N_i} \sum_{x_n \in C_i} (x_n - \mu_i)(x_n - \mu_i)^T, \quad i = 1, 2$
 In this way  $\mu_1$ will have only elements from $C_1$ because $t_1$ is equal to 1 only if $x_n$ belongs to $C_1$, viceversa for $\mu_2$. $t$ is no more a vector but it's a matrix ($N \times K$) where each line is 0 except for the correct class (column) where is 1. $\pi$ is a vector, where the sum is equal to 1. $\Sigma$ si the covariance matrix, symmetric so we choose only half.
 ==Example==:
-assume d = 4 (input space), with k = 3 (classes)
+assume d = 4 (input space), with k = 3 (classes), how many *independent* parameter I have?
 $$
 \begin{align*}
 &\pi = 
@@ -403,7 +403,7 @@ $$
 * & * & *  & *
 \end{bmatrix}
 \end{align*}
-$$ 
+$$ So if we consider *independent* parameter, for $\pi$ we have 2 parameter, because we know that the sum is equal to 1 ($3 \ variables - 1\ constrain\ =\  2\ parameters$). For $\mu_i$ that is the $\min$ of the values of the samples: 4, no constraints so the total is 12. From $\Sigma$ since, it's symmetric, we can take just 10 of 16. So the total is 24 parameters. 
 
 So we obtain the prediction of the new sample:
 $$

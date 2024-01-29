@@ -373,7 +373,11 @@ $$
 \end{align*}
 $$
 with  $S_i = \frac{1}{N_i} \sum_{x_n \in C_i} (x_n - \mu_i)(x_n - \mu_i)^T, \quad i = 1, 2$
-In this way  $\mu_1$ will have only elements from $C_1$ because $t_1$ is equal to 1 only if $x_n$ belongs to $C_1$, viceversa for $\mu_2$. So we obtain the prediction of the new sample:
+In this way  $\mu_1$ will have only elements from $C_1$ because $t_1$ is equal to 1 only if $x_n$ belongs to $C_1$, viceversa for $\mu_2$. 
+
+
+
+So we obtain the prediction of the new sample:
 $$
 P(C_1|x') = \sigma(w^T x' + w_0) 
 \begin{cases}
@@ -393,11 +397,21 @@ with $X$ a matrix ($N \times d$) of input values, t a vector ($N$) of output val
 
 ### Parametric Models
 
-$\mathcal{M}_\theta: P(t|\Theta, D), \quad D = (X, t)$ with the solution:
+$\mathcal{M}_\theta: P(t|\Theta, D), \quad D = (X, t)$ with the solution ($\Theta$ are just parameters):
 $$
 \Theta^* = \underset{\Theta}{\mathrm{argmax}}\ \ln P(t|\Theta, X)
 $$
-and if $\mathcal{M}_\theta$ belongs to the exponential family
+and if $\mathcal{M}_\theta$ belongs to the exponential (simplify with "ln") family ($\tilde w$ are parameters of the linear combination)
+$$
+\tilde w^* = \underset{\tilde w}{\mathrm{argmax}}\ \ln P(t|\tilde w, X)
+$$
+
+So a Probabilistic discriminative model, for **Logistic regression** based on maximum likelihood is 
+$$
+..
+$$
+with ...
+
 
 
 ---

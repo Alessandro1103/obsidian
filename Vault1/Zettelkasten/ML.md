@@ -7,11 +7,11 @@ Up:
 # ML
 
 ## Introduction
-**What is a Learning Problem?**
+**What is a Learning Problem**
 A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
 
-**Formal Definition of ML**?
-Give $f: X \rightarrow Y$ and a dataset $D$, we want to learn $\hat{f}$ such that $\hat{f}(x) \approx f(x)$ for $\forall x \in X \setminus X_D$.
+**Formal Definition of ML**
+Given $f: X \rightarrow Y$ and a dataset $D$, we want to learn $\hat{f}$ such that $\hat{f}(x) \approx f(x)$ for $\forall x \in X \setminus X_D$.
 
 
 
@@ -67,7 +67,7 @@ To find the best approximation $h^* \in H$ of the c problem:
 **Best solution among hypothesis**:
 A hypothesis $h$ is consistent with a set of training examples $D$ of the target concept $c$ if and only if $h(x) = c(x)$ for each training example $(x, c(x))$ in $D$. 
 
-The set of ==consistent== hypothesis is called version space: 
+The set of ==consistent== hypothesis is called **version space**: 
 $$
 VS_{H,D} = \{h \in H |\ h \ is \ consistent\ with\ D\}
 $$
@@ -121,12 +121,46 @@ where $N$% is the probability of get $\text{error}_D(h)$
 
 To obtain an **unbiased estimation** $\text{error}_S(h)$ we create a partition of the dataset, compute a hypothesis $h$ using training set $T$ and evaluate $\text{error}_S$ 
 
-## K-Fold Cross Validation Algorithm
-
+**K-Fold Cross Validation**
 We split the Dataset in multiple subset, we want each subset to be big enough
 $$
 \text{error}_{L,D} = \frac{1}{k} \sum_{i=1}^{k} \delta_i
 $$
+**Confusion Matrix**:
+
+| True Class \ Predicted Class | Yes | No |
+| ---- | ---- | ---- |
+| Yes | TP: True Positive | FN: False Negative |
+| No | FP: False Positive | TN: True Negative |
+|  |  |  |
+
+Recall $= \frac{|\text{true positives}|}{|\text{real positives}|} = \frac{TP}{TP + FN}$ \\ ability to avoid false negatives (1 if FN $= 0$) 
+Precision $= \frac{|\text{true positives}|}{|\text{predicted positives}|} = \frac{TP}{TP + FP}$ \\ ability to avoid false positives (1 if FP $= 0$)
+F1-score $= \frac{2 \cdot (\text{Precision} \cdot \text{Recall})}{(\text{Precision} + \text{Recall})}$
+ROC curve 
+
+## Metrics for Regression
+
+**Mean Absolute Error (MAE)**:
+$$
+\frac{1}{n} \sum_{i=1}^{n} \left| \hat{f}(x_i) - t_i \right|
+$$
+It's less sensitive to outliers compared to MSE because it treats all errors equally
+
+**Mean Squared Error (MSE)**:
+$$
+\frac{1}{n} \sum_{i=1}^{n} (\hat{f}(x_i) - t_i)^2
+$$
+Tends to penalize large errors more significantly than MAE due to the squaring operation
+
+**Root Mean Squared Error (RMSE)**:
+$$
+\sqrt{\text{MSE}}
+$$
+**K-Fold Cross Validation**:
+
+Can be extended to regression problems using appropriate metrics.
 
 ---
+
 # References

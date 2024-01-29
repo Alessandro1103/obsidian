@@ -339,7 +339,14 @@ $$
 
 The goal in classification is to take an input vector x and to assign it to one of K discrete classes Ck where $k = 1, ..., K$. The input space is divided into decision regions whose boundaries are called decision boundaries or decision surfaces. Data sets whose classes can be separated exactly by linear decision surfaces are said to be linearly separable. For regression problems, the target variable $t$ was simply the vector of real numbers whose values we wish to predict. In the case of classification, there are various ways of using target values to represent class labels. 
 
-Given $f : X \to C (X \subseteq \mathbb{R}^d), D = \{ (x_i, c_i) \}_{i=1}^n \text{ and } x \notin D$,
+Given $f : X \to C (X \subseteq \mathbb{R}^d), D = \{ (x_i, c_i) \}_{i=1}^n \text{ and } x \notin D$, estimate:
+$$
+P(C_i|x,D)
+$$
+
+Two families of models:
+- Generative: estimate $P(x|C_i)$ and then compute $P(C_i|x)$ with Bayes (called generative because once we know $P(x|C_i)$ we know how to generate new samples.
+- Discriminative: estimate $P(C_i|x)$ directly
 
 
 ---

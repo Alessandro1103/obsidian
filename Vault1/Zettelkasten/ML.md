@@ -393,7 +393,11 @@ with $X$ a matrix ($N \times d$) of input values, t a vector ($N$) of output val
 
 ### Parametric Models
 
-$\mathcal{M}_\theta: P(t|\Theta, D), \quad D = (X, t)$
+$\mathcal{M}_\theta: P(t|\Theta, D), \quad D = (X, t)$ with the solution:
+$$
+\Theta^* = \underset{\Theta}{\mathrm{argmax}}\ \ln P(t|\Theta, X)
+$$
+and if $\mathcal{M}_\theta$ belongs to the exponential family
 
 
 ---

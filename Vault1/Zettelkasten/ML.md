@@ -475,8 +475,35 @@ $$
 $$
 ![[Pasted image 20240130104039.png|200]]
 for k-classes:
+$$
+\begin{align*}
+&y(x) = \begin{pmatrix}
+y_1(x) \\
+\vdots \\
+y_K(x)
+\end{pmatrix} = \begin{pmatrix}
+w_1^T x + w_{10} \\
+\vdots \\
+w_K^T x + w_{K0}
+\end{pmatrix} = \begin{pmatrix}
+\tilde{w}_1^T \\
+\vdots \\
+\tilde{w}_K^T
+\end{pmatrix} \tilde{x} = \tilde{W}^T \tilde{x}, \text{ with:} \\
+&\tilde{W}^T = \begin{pmatrix}
+\tilde{w}_1^T \\
+\vdots \\
+\tilde{w}_K^T
+\end{pmatrix}, \text{ i.e.: } \tilde{W} = (\tilde{w}_1, \ldots, \tilde{w}_K)
+\end{align*}
+$$
 
+When there are multiple classes, a single linear boundary cannot effectively separate all the classes, as there can be regions of ambiguity where a sample could reasonably belong to more than one class:
+![[Pasted image 20240130105645.png|200]] ![[Pasted image 20240130105704.png|200]]
 
+The left one is "One versus the rest" which maps $K-1$ binary classifier.
+The right one is "One versus one" which maps $\frac{K(K-1)}{2}$ binary classifier.
+The correct solution is the **K-class discriminant**, 
 
 ---
 

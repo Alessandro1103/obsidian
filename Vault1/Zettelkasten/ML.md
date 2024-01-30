@@ -466,7 +466,7 @@ The main difference between Logistic regression and regression is that, regressi
 
 ## Linear Classification
 
-Using the **notation**:
+Using the **notation** for 2 classes:
 $$
 \begin{align*}
 &y(x) = w^T x + w_0 = \tilde{w}^T \tilde{x}, \text{ with:} \\
@@ -474,6 +474,7 @@ $$
 \end{align*}
 $$
 ![[Pasted image 20240130104039.png|200]]
+for k-classes:
 
 
 

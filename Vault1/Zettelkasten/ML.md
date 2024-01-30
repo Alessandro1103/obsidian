@@ -540,8 +540,66 @@ $$
 ![[Pasted image 20240130111333.png|300]]
 *Not robust with outliers*
 
+### Perceptron
+![[Pasted image 20240130161303.png|300]]
+$$
+\sigma(x) = 
+\begin{cases}
+1 & \text{if } w^T x > 0 \\
+-1 & \text{otherwise}
+\end{cases}
+= \text{sign}(w^T x)
+$$
+The perceptron takes a vector of real valued inputs calculates a linear combination of these inputs, then outputs a 1 if the result is greater than some threshold and -1 otherwise. One way to learn an acceptable weight vector is to begin with random weights, then iteratively apply the perceptron to each training example, modifying the perception weights whenever it misclassifies an example. The change is based one the **Squared Error** (loss function)
+$$
+E(w) = \frac{1}{2} \sum_{n=1}^N (t_n - o_n)^2 = \frac{1}{2} \sum_{n=1}^N (t_n - w^T x_n)^2
+$$
+$w^T x_n$ si the prediction that the model does on $x_n$, $t_n$ is the prediction in the dataset. We update $w$:
+$$
+\begin{align*}
+&w_i \leftarrow w_i + \Delta w_i, \\
+&\Delta w_i = -\eta \frac{\partial E}{\partial w_i} = \eta \sum_{n=1}^N (t_n - w^T x_n) x_{i,n}
+\end{align*}
+$$
+where $\eta$ is the learning rate. It can be applied in different way:
+- Batch mode: Consider all dataset D
+$$
+\Delta w_i = \eta \sum_{(x,t) \in D} (t - o(x)) x_i
+$$
+- Mini-Batch mode (best mode, middle via): Choose a small subset S
+$$
+\Delta w_i = \eta \sum_{(x,t) \in S} (t - o(x)) x_i
+$$
+- Incremental mode: Choose one sample
+$$
+\Delta w_i = \eta (t - o(x)) x_i
+$$
+![[Pasted image 20240130163437.png|200]] ![[Pasted image 20240130163658.png|300]]
 
+The image on the right, describe the training rule:
+initial parameter vector $w$ shown as a black arrow, with the corresponding decision boundary (black line). The data pointed in green is misclassified and so its feature vector is added to the current weight vector, giving the new decision boundary, this until we get close enough to the solution
 
+### Fisher's linear discriminant
+
+We have to consider a dimensionality reduction. Consider two classes case, determine $y=w^Tx$ and classify $x \in C_1 \text{ if } y \geq -w_0$, $x \in C_2 \text{ otherwise}$. Adjusting $w$ to find a direction that *maximizes* class separation, $m_i$ represents the mean of the distributions.
+$$
+m_1 = \frac{1}{N_1} \sum_{n \in C_1} x_n, \quad m_2 = \frac{1}{N_2} \sum_{n \in C_2} x_n
+$$
+Choose $w$ that maximizes $J(w) = w^T (m_2 - m_1)$, subject to $||w||=1$
+![[Pasted image 20240130164814.png|200]]
+the elements on the line are the projection of the points. As we can see there is the middle part of the line that overlaps the classes that brings to misclassification. The Fisher idea is to maximize a function that will give a large separation between the projected class, adding a degree of freedom to rotate:
+$$
+w \propto S_w^{-1} (m_2 - m_1)
+$$
+![[Pasted image 20240130165628.png|200]]
+Fisher's linear discriminant is given by the function $y=w^T x$ and the classification of new instances is given by $y\geq -w_0$ where:
+$$
+\begin{align*}
+&w = S_W^{-1} (m_2 - m_1) 
+&w_0 = w^T m
+\end{align*}
+$$
+$m$ is the global mean.
 
 ---
 

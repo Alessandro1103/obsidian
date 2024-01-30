@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/ML.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/ML.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/ML.md",
+                "file": "Zettelkasten/Terza riunione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,25 +154,32 @@
   },
   "active": "0481a8c1a4f81c5c",
   "lastOpenFiles": [
+    "Zettelkasten/Regalo Edoardo F1.md",
+    "Zettelkasten/Regali per Me.md",
+    "Zettelkasten/Regali per Edoardo.md",
+    "Zettelkasten/Homework2.md",
+    "Zettelkasten/Homework1 (cose da aggiungere).md",
+    "Zettelkasten/Homework1.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/ML.md",
+    "Zettelkasten/Cose.md",
+    "Zettelkasten/code.md",
+    "Files/Pasted image 20240129200645.png",
+    "Files/Pasted image 20240129200619.png",
+    "Files/Pasted image 20240129200252.png",
     "Files/Pasted image 20240129163212.png",
     "Files/Pasted image 20240129160939.png",
     "Files/Pasted image 20240129155503.png",
     "Files/Pasted image 20240129154959.png",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/ML.md",
     "Zettelkasten/Regali.md",
     "Files/Pasted image 20240128011724.png",
     "Files/Pasted image 20240127182134.png",
     "Zettelkasten/ob.md",
-    "Zettelkasten/Cose.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/Robotics Ex.md",
     "Files/Pasted image 20240123224032.png",
-    "Files/Pasted image 20240123223219.png",
-    "Files/Pasted image 20240123222445.png",
     "Zettelkasten/Educazione Visiva.md",
-    "Files/Pasted image 20240114165604.png",
-    "Files/Pasted image 20240113073319.png",
     "Zettelkasten/Idee.md",
     "Zettelkasten/IA exercise.md",
     "Zettelkasten/IA exam arguments.md",
@@ -184,16 +190,9 @@
     "Reference notes/LaTeX.md",
     "Reference notes/Mermaid.md",
     "Reference notes/Tesi_Triennali_2022_2023_Camilla_Bianchi.pdf",
-    "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Note.md",
     "Zettelkasten/Progression and Regression.md",
     "Zettelkasten/Critical Path Heuristics.md",
-    "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/NomiCoseCittà.md",
-    "Zettelkasten/Adversarial Search.md",
-    "Zettelkasten/Intelligent Agents.md",
-    "Zettelkasten/Introduction to AI Planning.md",
-    "Zettelkasten/Delete Relaxation Heuristics.md",
     "Files/post-handout 5.pdf",
     "Files/post-handout 4.pdf",
     "Files/post-handout 3.pdf",

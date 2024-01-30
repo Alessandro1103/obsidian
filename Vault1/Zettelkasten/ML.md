@@ -438,12 +438,33 @@ So a Probabilistic discriminative model, for **Logistic regression** based on ma
 $$
 p(t|\mathbf{w}) = \prod_{n=1}^{N} y_n^{t_n} (1 - y_n)^{1-t_n}
 $$
-with $y_n = p(C_1|\mathbf{x}_n) = \sigma(\mathbf{w}^T \mathbf{x}_n)$ it's a scalar.
+with $y_n = p(C_1|\mathbf{x}_n) = \sigma(\mathbf{w}^T \mathbf{x}_n)$
 As usual we can define an error function by taking the negative log of the likelihood, which gives the **cross-entropy error**:
 $$
-E(\mathbf{\tilde w}) = - \ln p(t|\mathbf{\tilde w}) = - \sum_{n=1}^{N} [t_n \ln y_n + (1 - t_n) \ln(1 - y_n)]
+\begin{align*}
+&E(\mathbf{\tilde w}) = - \ln p(t|\mathbf{\tilde w}) = - \sum_{n=1}^{N} [t_n \ln y_n + (1 - t_n) \ln(1 - y_n)] \\
+&\tilde{\mathbf{w}}^* = \underset{\tilde{\mathbf{w}}}{\mathrm{argmin}}\ E(\tilde{\mathbf{w}})
+\end{align*}
 $$
-where $y$ as before is defined by parameters, that 
+where $y$ as before is defined by parameters($w$), it's a vector for all the prediction I have, so $y_n$ is a scalar. We start with a random w-value, and I can get the E with the formula. Using the gradient I can obtain the direction I want to take to minimize the error, until it gets to 0.
+![[Pasted image 20240129200252.png|400]]
+
+This is the gradient and the incrementation:
+$$
+\begin{align*}
+&\nabla E(\tilde{\mathbf{w}}) = \sum_{n=1}^{N} (y_n - t_n) \tilde{x}_n \\
+&\tilde{\mathbf{w}} \leftarrow \tilde{\mathbf{w}} - H(\tilde{\mathbf{w}})^{-1} \nabla E(\tilde{\mathbf{w}})
+\end{align*}
+$$
+where $H(\tilde{\mathbf{w}}) = \nabla\nabla E(\tilde{\mathbf{w}})$, and it's called the **Learning rate**.
+For **multi-classes Logistic regression**:
+$$
+P(T|\tilde{\mathbf{w}}_1, \ldots, \tilde{\mathbf{w}}_K) = \prod_{n=1}^{N} \prod_{k=1}^{K} P(C_k|\tilde{x}_n)^{t_{nk}} = \prod_{n=1}^{N} \prod_{k=1}^{K} y_{nk}^{t_{nk}}
+$$
+
+The main difference between Logistic regression and regression is that, regression makes elixis over the dataset, Logistic regression separates the data with a line (Log reg. fails when the data are not linearly separable like a donut, we want the Gaussian distribution).
+
+
 
 
 ---

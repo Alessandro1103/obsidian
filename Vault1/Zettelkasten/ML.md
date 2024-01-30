@@ -464,6 +464,16 @@ $$
 
 The main difference between Logistic regression and regression is that, regression makes elixis over the dataset, Logistic regression separates the data with a line (Log reg. fails when the data are not linearly separable like a donut, we want the Gaussian distribution).
 
+## Linear Classification
+
+Using the **notation**:
+$$
+\begin{align*}
+&y(x) = w^T x + w_0 = \tilde{w}^T \tilde{x}, \text{ with:} \\
+&\tilde{w} = \begin{pmatrix} w_0 \\ w \end{pmatrix}, \tilde{x} = \begin{pmatrix} 1 \\ x \end{pmatrix}
+\end{align*}
+$$
+![[Pasted image 20240130104039.png|200]]
 
 
 

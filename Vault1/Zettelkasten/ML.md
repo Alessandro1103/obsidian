@@ -503,7 +503,45 @@ When there are multiple classes, a single linear boundary cannot effectively sep
 
 The left one is "One versus the rest" which maps $K-1$ binary classifier.
 The right one is "One versus one" which maps $\frac{K(K-1)}{2}$ binary classifier.
-The correct solution is the **K-class discriminant**, 
+The correct solution is the **K-class discriminant**:
+![[Pasted image 20240130111009.png|200]]
+
+### Least Squares
+$$
+\begin{flalign*}
+&\text{Given } D = \{ (x_n, t_n) \}_{n=1}^N, \text{ find the linear discriminant }& \\ \\
+&y(x) = \tilde{W}^T \tilde{x} & \\ \\
+&\text{1-of-K coding scheme for } t: x \in C_k \rightarrow t_k = 1, t_j = 0 \text{ for all } j \neq k. & \\
+&\text{E.g., } t_n = (0, \ldots, 1, \ldots, 0)^T & \\ \\
+&\tilde{x} = \begin{pmatrix}
+\tilde{x}_1^T \\
+\vdots \\
+\tilde{x}_N^T
+\end{pmatrix}, \quad T = \begin{pmatrix}
+t_1^T \\
+\vdots \\
+t_N^T
+\end{pmatrix} &
+\end{flalign*}
+$$
+
+$$
+\begin{align*}
+&y(x) = \tilde{W}^T \tilde{x} = 
+\begin{pmatrix}
+y_1(x) \\
+\vdots \\
+y_K(x)
+\end{pmatrix}
+&k = \underset{i \in \{1, \ldots, K\}}{\mathrm{argmax}} \{ y_i(x) \}
+\end{align*}
+$$
+
+![[Pasted image 20240130111333.png|300]]
+*Not robust with outliers*
+
+
+
 
 ---
 

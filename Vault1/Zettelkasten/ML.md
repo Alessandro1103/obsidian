@@ -641,6 +641,12 @@ w^* = \sum_{n=1}^N a_n^* t_n x_n
 $$
 where $a^*$ are Lagrange multipliers: results of the Lagrangian optimization problem. Since one constraint of Lagrange is $\sum_{n=1}^N a_n t_n =0$ then for each $x_n \in D$, either $a^*_n = 0$ or $t_n y(x_n)=1$.
 
+Support vector: $x_k$ such that $t_k \ y(x_n)=1$ and $a_k^*>0$ 
+$$
+SV = \{ x_k \in D | t_k y(x_k) = 1 \}
+$$
+To create the border, we consider only the points that are equal to 1, so the outliers are not considered in this choice.
+
 ---
 
 # References

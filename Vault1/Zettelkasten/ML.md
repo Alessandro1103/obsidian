@@ -635,7 +635,7 @@ When the maximum margin hyperplane $w^*$, $w_0$ is found, there will be at least
 ![[Pasted image 20240130173146.png|170]]               $\begin{align*}&w^{*T} x_{k}^{+} + w_0^* = +1\\ &w^{*T} x_{k}^{-} + w_0^* = -1\end{align*}$ 
 
 
-So now to resolve $w^*$ (quadratic programming problem) with Lagrangian method:
+So now to resolve $w^*$ (quadratic programming problem) with **Lagrangian** method:
 $$
 w^* = \sum_{n=1}^N a_n^* t_n x_n
 $$
@@ -650,6 +650,29 @@ $$
 y(x) = \sum_{x_j \in SV} a_j^* t_j x^T x_j + w_0^* = 0
 $$
 
+In conclusion we can say that the SVM is particularly useful when dealing with very **high-dimensional spaces** (we consider few points).
+
+If we have error, we can treat them with **slack variables**;
+- $\xi_n = 1$ the sample lies on the decision boundary
+- $\xi_n > 1$ the sample will be mis-classified
+
+The solution is not so different:
+$$
+w^*, w_0^* = \underset{w, w_0}{\mathrm{argmin}} \left( \frac{1}{2} \|w\|^2 + C \sum_{n=1}^N \xi_n \right)
+$$
+If C is low we give more importance to margins
+If C is high we give more importance to constraints
+
+### Non Linear function
+
+![[Pasted image 20240131185041.png|300]]
+$$
+\begin{align*}
+&y(x) = w^T \phi(x) + w_0 \quad \text{(two classes)} \\
+&y_k(x) = w_k^T \phi(x) + w_{k0} \quad \text{(multiple classes)}
+\end{align*}
+$$
+The $\phi$ function change the space, it's a transformation function that maps all the point in a linear dimension
 
 ---
 

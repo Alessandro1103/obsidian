@@ -601,6 +601,46 @@ $$
 $$
 $m$ is the global mean.
 
+### support Vector Machines
+
+SVM aims at maximum margin providing for better accuracy, it is also robust to outliers.
+![[Pasted image 20240130172017.png|200]]
+
+If we consider a binary classification, where $t_n \in \{+1,-1\}$ and the model is:
+$$
+y(x) = w^T x + w_0
+$$
+then:
+$$
+\exists w, w_0 \text{ s.t. }
+\begin{cases}
+y(x_n) > 0, & \text{if } t_n = +1 \\
+y(x_n) < 0, & \text{if } t_n = -1
+\end{cases}
+$$
+The margin is defined as the smallest distance between the decision boundary and any of the samples. 
+$$
+\min_{n=1,\ldots,N} \frac{|y(x_n)|}{\|w\|}
+$$
+We want to maximize the margins of $w$, knowing the dataset $D$ and the hyperplane $h^*: w^{*T} x + w_0^* = 0$:
+$$
+w^*, w_0^* = \underset{w, w_0}{\mathrm{argmax}} \frac{1}{\|w\|} \min_{n=1,\ldots,N} [t_n(w^T x_n + w_0)]
+$$
+We can scale all the points until we have $t_n(w^T x_n + w_0)\geq 1$ and the formula becomes:
+$$
+w^*, w_0^* = \underset{w, w_0}{\mathrm{argmax}} \frac{1}{\|w\|} = \underset{w, w_0}{\mathrm{argmin}} \frac{1}{2}\|w\|^2
+$$
+When the maximum margin hyperplane $w^*$, $w_0$ is found, there will be at least 2 closest points $x_k^+$ and $x_k^-$:
+
+![[Pasted image 20240130173146.png|170]]               $\begin{align*}&w^{*T} x_{k}^{+} + w_0^* = +1\\ &w^{*T} x_{k}^{-} + w_0^* = -1\end{align*}$ 
+
+
+So now to resolve $w^*$ (quadratic programming problem) with Lagrangian method:
+$$
+w^* = \sum_{n=1}^N a_n^* t_n x_n
+$$
+where $a^*$ are Lagrange multipliers: results of the Lagrangian optimization problem. Since one constraint of Lagrange is $\sum_{n=1}^N a_n t_n =0$ then for each $x_n \in D$, either $a^*_n = 0$ or $t_n y(x_n)=1$.
+
 ---
 
 # References

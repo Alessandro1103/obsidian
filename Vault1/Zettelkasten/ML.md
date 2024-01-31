@@ -645,7 +645,11 @@ Support vector: $x_k$ such that $t_k \ y(x_n)=1$ and $a_k^*>0$
 $$
 SV = \{ x_k \in D | t_k y(x_k) = 1 \}
 $$
-To create the border, we consider only the points that are equal to 1, so the outliers are not considered in this choice.
+To create the border, we consider only the points that are equal to 1, so the outliers are not considered in this choice. The hyperplanes expressed with support vectors:
+$$
+y(x) = \sum_{x_j \in SV} a_j^* t_j x_j^T + w_0^* = 0
+$$
+
 
 ---
 

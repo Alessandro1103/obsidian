@@ -758,7 +758,39 @@ $$
 
 ## Kernel
 
-The idea of kernel methods is that instead of representing each instance of the input space, in a particular feature space, we will define a kernel function. 
+The idea of kernel methods is that instead of representing each instance of the input space, in a particular feature space, we will define a kernel function. We don't need to represent x anymore but we need to define a function between 2 input values, to measure how this input are similar. 
+- Linear: $k(x,x') = x^T x'$
+- Polynomial: $k(x,x') = (\beta x^T x'+\gamma)^d$
+- Radial Basis Function $k(x,x') = exp(-\beta |x-x'|^2)
+- Sigmoid $k(x,x')=tanh(\beta x^T x' + \gamma)$
+
+For example in **SVM - classification**, we have $y(x;\alpha) = sign(w_0+\sum_{n=1}^N \alpha_n x_n^T x)$ that in **Kernelized SVM** becomes:
+$$
+y(x;\alpha) = sign(w_0+\sum_{n=1}^N \alpha_n k(x_n,x))
+$$
+For **SVM - regression** we can consider to minimize the loss function:
+$$
+J(w) = \sum_{n=1}^N E(y_n, t_n) + \lambda ||w||^2
+$$
+applying the kernel trick, that from the formula before we obtain $\alpha$ as:
+$$
+\alpha = (K + \lambda I_N)^{-1} t
+$$
+and from $\lambda$ we obtain C (inverse of $\lambda$): 
+$$
+J(w) = C \sum_{n=1}^N E(y_n, t_n) + \lambda ||w||^2
+$$
+which can be approximated by something way less difficult to calculate:
+$$
+E_\epsilon(y,t) =
+\begin{cases}
+0 & \text{if } |y-t|<\epsilon\\
+|y-t|-\epsilon & \text{otherwise}\\
+\end{cases}
+$$
+![[Pasted image 20240201124512.png|300]]
+
+
 
 ---
 

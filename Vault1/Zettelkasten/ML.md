@@ -811,6 +811,33 @@ green dot = data
 blue dot = support vectors
 By Lagrange the samples inside the tube do not contribute, outside yes
 
+
+## Instance Based
+
+The disadvantage of parametric models, is that the chosen density might be a poor model of the distribution that generates the data, which can result in poor predictive performance. K-NN is the first non-parametric model (we don't want an intermediate representation like hypothesis).
+
+**K-NN**:
+The K-NN works finding points that are close to query points (x')
+KNN depends on:
+- data (if its a lot results in a lot of computation) (we prefer small dataset)
+- distance function (a good distance function can result in better results)
+
+Likelihood of class c for new instance x:
+$$
+p(c|x, D, K) = \frac{1}{K} \sum_{x_n \in N_K(x_n, D)} \mathbb{I}(t_n = c),
+$$
+with $N_K(x_n,D)$ the $K$ nearest points to $x_n$ and $\mathbb{I}(e) = \begin{cases} 1 & \text{if } e \text{ is true} \\0 & \text{if } e \text{ is false}\end{cases}$
+![[Pasted image 20240201144446.png|400]]
+
+**Locally weighted regression**:
+Fit a local regression model around the query sample $x_q$:
+1. Compute $N_K(x_q,D)$: K-nearest neighbors of $x_q$
+2. Fit a regression model $y(x;w)$ on $N_K(x_q,D)$
+3. Return $y(x_q;w)$
+
+
+![[Pasted image 20240201144724.png|300]]
+
 ---
 
 # References

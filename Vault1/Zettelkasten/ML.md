@@ -729,7 +729,10 @@ $$
 $y(x;w)$ is the mean, $\beta^{-1}$ is the variance.
 The **Maximum likelihood** is:
 $$
-\underset{w, \beta}{\mathrm{argmax}} P(\{t_1, \ldots, t_N\} | x_1, \ldots, x_N, w, \beta)
+\begin{align*}
+&\underset{w, \beta}{\mathrm{argmax}} P(\{t_1, \ldots, t_N\} | x_1, \ldots, x_N, w, \beta) \\
+&w_{ML} = (\phi^T \phi)^{-1} \phi^T t
+\end{align*}
 $$
 the **error minimization** is:
 $$
@@ -744,6 +747,18 @@ $\lambda$ how much we want to penalize the terms that are too high.
 
 ### Multiple Outputs
 
+$y$: vector with K components:
+$$
+y(x; W) = W^T \phi(x)
+$$
+$W^T$ is a matrix of dimension $M\times K$, and $\phi$ has dimension $M$. Similarly as before:
+$$
+w_{ML} = (\phi^T \phi)^{-1} \phi^T t
+$$
+
+## Kernel
+
+The idea of kernel methods is that instead of representing each instance of the input space, in a particular feature space, we will define a kernel function. 
 
 ---
 

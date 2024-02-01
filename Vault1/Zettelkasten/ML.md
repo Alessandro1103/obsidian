@@ -912,7 +912,14 @@ we can split the computation of the gradient in two parts. In the first part giv
 Forward step: given the parameters of the networks, input, target value and the loss function, we compute the loss function applied to the output of the network (y) and the target value (t)
 Backward step: goes back from this error and compute the derivative of this error with respect ot all the parameters of the network by going back from the output layer to the input layers
 
-*Stochastic Gradient Descent*:
+==Example==:
+![[Pasted image 20240201190232.png|200]] 
+![[Pasted image 20240201190249.png|200]] 
+![[Pasted image 20240201190308.png|200]]  
+
+Now that we have a method for estimating the gradient, we use it to find a solution of our Optimization problem that minimize the error function or the loss function:
+- *Stochastic Gradient Descent*: implements the learning rate that gradually decrease over time. It uses the minibatch. The problem on changing the lr, is that we don't know where we start (we could begin close to the solution and after the initial iteration go far away).
+- *SGD with momentum*: designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients. The momentum algorithm accumulates an exponentially decaying moving average of past gradients and continues to move in their direction
 
 
 ---

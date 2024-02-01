@@ -439,7 +439,7 @@ $$
 p(t|\mathbf{w}) = \prod_{n=1}^{N} y_n^{t_n} (1 - y_n)^{1-t_n}
 $$
 with $y_n = p(C_1|\mathbf{x}_n) = \sigma(\mathbf{w}^T \mathbf{x}_n)$
-As usual we can define an error function by taking the negative log of the likelihood, which gives the **cross-entropy error**:
+As usual we can define an error function by taking the negative log of the likelihood, which gives the **cross-entropy error** (Maximum likelihood principle):
 $$
 \begin{align*}
 &E(\mathbf{\tilde w}) = - \ln p(t|\mathbf{\tilde w}) = - \sum_{n=1}^{N} [t_n \ln y_n + (1 - t_n) \ln(1 - y_n)] \\
@@ -884,6 +884,25 @@ Performance depends on data (can there be insufficient data), sensitive to noise
 
 ## ANN
 
+We study NN, FNN, MLP to overcome the limitation of linear models (linear function dependency). 
+
+**FNN**: these models are called feedforward because information flows through the function being evaluated from x. There are no feedback connections in which outputs of the model are fed back into itself. When feedforward neural networks are extended to include feedback connections, they are called recurrent neural networks.
+
+**Architecture design**:
+- How many hidden layers? *Depth* Increase the depth gives best results in terms of accuracy.
+- Hoe many units in each layer? *Width*
+- Which kind of units? *Activation functions*
+- Which kind of cost function? *Loss function* In NN the loss function are non convex so it's possible to find local minimum
+
+The choice of **network output and cost function** are related depending on the task to achieve.
+- *Regression*: $y=W^Th+b$  with activation function = identity, since the output of neurons are linear units. The cost function is maximize the likelihood (cross-entropy) that is equivalent to minimizing mean squared error. These choices do not make the function *saturate* (sigmoid or tanh can saturate if the values are very high or very low, saturation refers to a state where changes in the input to an activation function result in little or no change in the output).
+- *Binary classification*: $y=\sigma (w^Th+b)$  with activation function = sigmoid. The Loss function is the Binary cross-entropy (Bernoulli distribution). Output unit saturates only when it gibes the correct answer
+- *Multi-class classification*: $y_i = \frac{exp(\alpha^{(i)}}{\sum_j exp(\alpha_j)}$ the activation function is the softmax. The Loss function is the Categorical cross-entropy (Multinomial distribution). Ouput units saturate only when there are minimal errors.
+
+In general for **Hidden unit activation functions** there are:
+- Sigmoid = $\sigma(\alpha)$
+- Tanh = $tanh(\alpha)$
+- Relu = $max(0, \alpha)$
 
 
 ---

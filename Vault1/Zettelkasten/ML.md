@@ -726,7 +726,17 @@ Assume Gaussian noise $P(\epsilon|\beta)=N(\epsilon|0,\beta^{-1})$ where $\beta$
 $$
 P(t|x, w, \beta) = \mathcal{N}(t|y(x; w), \beta^{-1})
 $$
-$y(x;w)$ is the mean, $\beta^{-1}$ is the variance
+$y(x;w)$ is the mean, $\beta^{-1}$ is the variance.
+The **Maximum likelihood** is:
+$$
+\underset{w, \beta}{\mathrm{argmax}} P(\{t_1, \ldots, t_N\} | x_1, \ldots, x_N, w, \beta)
+$$
+the **error minimization** is:
+$$
+\underset{w}{\mathrm{argmin}} E_D(w) = \underset{w}{\mathrm{argmin}} \frac{1}{2} \sum_{n=1}^N [t_n - w^T \phi(x_n)]^2
+$$
+
+The algorithms is always the same, find the gradient of the Error $\nabla E_D = 0$ and upgrade the parameter $w$. This algorithm is 
 
 
 ---

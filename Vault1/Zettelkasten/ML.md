@@ -694,7 +694,7 @@ w_d
 \end{bmatrix}
 \end{align*}
 $$
-The "1" in the vector "x" is used to remove $w_0$
+The "1" in the vector "x" is used to simply the calculation and put everything as a multiplication of vectors.
 
 ![[Pasted image 20240201105553.png|300]]
 
@@ -713,6 +713,20 @@ w_M
 \end{bmatrix}, \quad \text{and } \phi_0(x) = 1.
 \end{align*}
 $$
+Apply for example Polynomial curve fitting:
+![[Pasted image 20240201111540.png|300]]
+
+### Maximum likelihood and least squares
+
+The target value is given by $y(x;w)$ affected by additive noise $\epsilon$
+$$
+t = y(x;w)+\epsilon
+$$
+Assume Gaussian noise $P(\epsilon|\beta)=N(\epsilon|0,\beta^{-1})$ where $\beta$ is the precision (inverse variance)
+$$
+P(t|x, w, \beta) = \mathcal{N}(t|y(x; w), \beta^{-1})
+$$
+$y(x;w)$ is the mean, $\beta^{-1}$ is the variance
 
 
 ---

@@ -790,6 +790,12 @@ E_\epsilon(y,t) =
 $$
 ![[Pasted image 20240201124512.png|300]]
 
+Since this is not differentiable we can introduce slack variables $\xi_n^+$ and $\xi_n^-$:
+$$
+\begin{align*}
+\end{align*}
+$$
+
 
 
 ---

@@ -855,11 +855,34 @@ the first one for regression the second for classification. Here are some exampl
 - Stacking: ![[Pasted image 20240201161813.png|100]]
 - Cascading: ![[Pasted image 20240201161744.png|100]] the first learner is more accurate then the second and go on. The second learner benefit from the additional information provided by the first learner. $w$ is a feature, like brown hair and if it does not arrive to the threshold means that hai are not brown, maybe similar but not brown.
 
-
-*Bagging*: very similar to voting but now we use a pre-processing in which the original dataset is sampled in different subsets and then there are used to train the models: 
+![[Pasted image 20240201161744.png]]
+*Bagging*: very similar to voting but now we use a pre-processing in which the original dataset is sampled in different subsets (subsets, not partitions) and then there are used to train the models: 
 $$
 y_{bagging}(x) = \frac{1}{M} \sum_{m=1}^{M} y_m(x)
 $$
+*Boosting*: In this approach we have a sequential Learning, similar ot bagging but the models are trained in a sequential order and the info of the next dataset depends on the previous one. 
+
+![[Pasted image 20240201163644.png|300]]
+Each base classifier $y_m(x)$ is trained on a weighted form of the training set (blue arrows) in which the weights $w_n^{(m)}$ depend on the performance of the previous base classifier $y_{m-1}(x)$ (green arrows). Once all base classifiers have been trained they are combined to give the final classifier $Y_M(x)$ (red arrows).
+
+**AdaBoost**: AdaBoost trains a new classifier using a data set in which the weighting coefficients are adjusted according to the performance of the previously trained classifier so as to give greater weight ot the misclassified data points.
+1. Initialize $w_n = \frac{1}{N}$ 
+2. For $m = 1, ..., M$:
+	- minimize the weighted error $J_m = \sum_{n=1}^{N} w_n^{(m)}I(y_m(x_n) \neq t_n)$
+	- update the weight $w_n^{(m+1)} = w_n^{(m)} exp[\alpha_mI(y_m(x_n) \neq t_n]$
+3. Evaluate $\epsilon_m = \frac{\sum_{n=1}^{N} w_n^{(m)} \mathbb{I}(y_m(x_n) \neq t_n)}{\sum_{n=1}^{N} w_n^{(m)}} \quad \text{and} \quad \alpha_m = \ln \left( \frac{1 - \epsilon_m}{\epsilon_m} \right)$ 
+4. Output the final classifier (make prediction using the final model which is given by) $Y_M(x) = \text{sign} \left( \sum_{m=1}^{M} \alpha_m y_m(x) \right)$
+
+![[Pasted image 20240201164946.png|400]]
+The dimension of the circles are the weights.
+AdaBoost can be explained as the sequential minimization of an exponential error function. The error function measures how well a weak learner is able to classify data. Calculated by taking the exponential of the negative of the weak learner's output.
+
+Advantages:
+Fast, simple, easy to program, no prior knowledge about $w$, no other parameters, can be combined to find $w$.
+Issues:
+Performance depends on data (can there be insufficient data), sensitive to noise.
+
+## ANN
 
 
 

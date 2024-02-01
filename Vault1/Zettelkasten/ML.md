@@ -855,7 +855,6 @@ the first one for regression the second for classification. Here are some exampl
 - Stacking: ![[Pasted image 20240201161813.png|100]]
 - Cascading: ![[Pasted image 20240201161744.png|100]] the first learner is more accurate then the second and go on. The second learner benefit from the additional information provided by the first learner. $w$ is a feature, like brown hair and if it does not arrive to the threshold means that hai are not brown, maybe similar but not brown.
 
-![[Pasted image 20240201161744.png]]
 *Bagging*: very similar to voting but now we use a pre-processing in which the original dataset is sampled in different subsets (subsets, not partitions) and then there are used to train the models: 
 $$
 y_{bagging}(x) = \frac{1}{M} \sum_{m=1}^{M} y_m(x)
@@ -897,12 +896,23 @@ We study NN, FNN, MLP to overcome the limitation of linear models (linear functi
 The choice of **network output and cost function** are related depending on the task to achieve.
 - *Regression*: $y=W^Th+b$  with activation function = identity, since the output of neurons are linear units. The cost function is maximize the likelihood (cross-entropy) that is equivalent to minimizing mean squared error. These choices do not make the function *saturate* (sigmoid or tanh can saturate if the values are very high or very low, saturation refers to a state where changes in the input to an activation function result in little or no change in the output).
 - *Binary classification*: $y=\sigma (w^Th+b)$  with activation function = sigmoid. The Loss function is the Binary cross-entropy (Bernoulli distribution). Output unit saturates only when it gibes the correct answer
-- *Multi-class classification*: $y_i = \frac{exp(\alpha^{(i)}}{\sum_j exp(\alpha_j)}$ the activation function is the softmax. The Loss function is the Categorical cross-entropy (Multinomial distribution). Ouput units saturate only when there are minimal errors.
+- *Multi-class classification*: $y_i = \frac{exp(\alpha^{(i)}}{\sum_j exp(\alpha_j)}$ the activation function is the softmax. The Loss function is the Categorical cross-entropy (Multinomial distribution). Output units saturate only when there are minimal errors.
 
-In general for **Hidden unit activation functions** there are:
+In general for **Hidden unit activation functions** there are (no predictable):
 - Sigmoid = $\sigma(\alpha)$
 - Tanh = $tanh(\alpha)$
 - Relu = $max(0, \alpha)$
+
+For **Gradient Computation**:
+we can split the computation of the gradient in two parts. In the first part given the input and the desired output, we can compute the network forward (from the input to the output), when we reach the last label we can compute a comparison with the desired output. With this knowledge (second part) we can go back through the green arrow to the start. This algorithm is only used to compute the gradients, is not a training algorithm, is not specific to FNN. It's easy to calculate the gradient because FNN is a chain, and we can apply the chain rule to derivatives: $\frac{dz}{dx} = \frac{dz}{dy}\frac{dy}{dx}$
+
+![[Pasted image 20240201183927.png|150]]
+
+*BackPropagation algorithm*:
+Forward step: given the parameters of the networks, input, target value and the loss function, we compute the loss function applied to the output of the network (y) and the target value (t)
+Backward step: goes back from this error and compute the derivative of this error with respect ot all the parameters of the network by going back from the output layer to the input layers
+
+*Stochastic Gradient Descent*:
 
 
 ---

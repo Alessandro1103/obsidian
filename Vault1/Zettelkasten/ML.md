@@ -793,10 +793,23 @@ $$
 Since this is not differentiable we can introduce slack variables $\xi_n^+$ and $\xi_n^-$:
 $$
 \begin{align*}
+&t_n \leq y_n + \epsilon + \xi_n^+
+&t_n \geq y_n - \epsilon - \xi_n^-
 \end{align*}
 $$
+so the point $t_n$ that satisfies the above constraints are inside the $\epsilon \text{-tube}$. If we consider $\xi>0$ we can remove the equal in the constraints and the loss function becomes:
+$$
+J(w) = C \sum_{n=1}^N (\xi_n^+ + \xi_n^-) + \lambda ||w||^2
+$$
+and from the same condition as before we can define the Support vectors (Lagrange):
+- $\hat a_n > 0 \rightarrow \epsilon + \xi_n + y_n - t_n = 0$
+- $\hat a_n' > 0 \rightarrow \epsilon + \xi_n - y_n + t_n = 0$
 
-
+![[Pasted image 20240201132607.png|300]]
+red line = model
+green dot = data
+blue dot = support vectors
+By Lagrange the samples inside the tube do not contribute, outside yes
 
 ---
 

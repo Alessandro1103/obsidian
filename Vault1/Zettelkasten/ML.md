@@ -674,6 +674,47 @@ $$
 $$
 The $\phi$ function change the space, it's a transformation function that maps all the point in a linear dimension
 
+## Linear Regression
+
+The model to approximate the target function $f$ is $y(x;w)$. 
+In linear model for linear function:
+$$
+\begin{align*}
+&y(x; w) = w_0 + w_1 x_1 + \ldots + w_d x_d = w^T x \\
+&\text{with } x = \begin{bmatrix}
+1 \\
+x_1 \\
+\vdots \\
+x_d
+\end{bmatrix} \text{ and } w = \begin{bmatrix}
+w_0 \\
+w_1 \\
+\vdots \\
+w_d
+\end{bmatrix}
+\end{align*}
+$$
+The "1" in the vector "x" is used to remove $w_0$
+
+![[Pasted image 20240201105553.png|300]]
+
+Using non-Linear function:
+$$
+\begin{align*}
+&y(x; w) = \sum_{j=0}^{M} w_j \phi_j(x) = w^T \phi(x), \\
+&\text{with } w = \begin{bmatrix}
+w_0 \\
+\vdots \\
+w_M
+\end{bmatrix}, \quad \phi(x) = \begin{bmatrix}
+\phi_0(x) \\
+\vdots \\
+\phi_M(x)
+\end{bmatrix}, \quad \text{and } \phi_0(x) = 1.
+\end{align*}
+$$
+
+
 ---
 
 # References

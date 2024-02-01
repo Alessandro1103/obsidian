@@ -736,7 +736,13 @@ $$
 \underset{w}{\mathrm{argmin}} E_D(w) = \underset{w}{\mathrm{argmin}} \frac{1}{2} \sum_{n=1}^N [t_n - w^T \phi(x_n)]^2
 $$
 
-The algorithms is always the same, find the gradient of the Error $\nabla E_D = 0$ and upgrade the parameter $w$. This algorithm is 
+The algorithms is always the same, find the gradient of the Error $\nabla E_D = 0$ and upgrade the parameter $w$. For regularization to control overfitting and avoid $E_D=0$:
+$$
+\underset{w}{\mathrm{argmin}} \ E_D(w) + \lambda E_W(w)
+$$
+$\lambda$ how much we want to penalize the terms that are too high.
+
+### Multiple Outputs
 
 
 ---

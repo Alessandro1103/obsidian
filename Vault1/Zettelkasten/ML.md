@@ -365,6 +365,7 @@ To obtain the **Maximum likelihood** for 2 classes we have:
 $$
 P(t|\pi, \mu_1, \mu_2, \Sigma, D) = \prod_{n=1}^{N} [\pi \mathcal{N}(x_n; \mu_1, \Sigma)]^{t_n} [(1 - \pi)\mathcal{N}(x_n; \mu_2, \Sigma)]^{(1-t_n)}
 $$
+What we are obtaining is if the variable $x$ depends on which distribution, not if it belongs to class 1 or 2
 maximizing the log likelihood we obtain:
 $$
 \begin{align*}

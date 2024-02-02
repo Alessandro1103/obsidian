@@ -410,7 +410,7 @@ $$
 P(C_1|x') = \sigma(w^T x' + w_0) 
 \begin{cases}
 > 0.5 \Rightarrow C_1 \\
-\leq 0.5 \Rightarrow C_2
+\leq 0.5 \Rightarrow C_2 \\
 \end{cases}
 $$
 This can be extended to K classes. The general **notation** will become:

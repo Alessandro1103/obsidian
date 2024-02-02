@@ -919,8 +919,17 @@ Backward step: goes back from this error and compute the derivative of this erro
 
 Now that we have a method for estimating the gradient, we use it to find a solution of our Optimization problem that minimize the error function or the loss function:
 - *Stochastic Gradient Descent*: implements the learning rate that gradually decrease over time. It uses the minibatch. The problem on changing the lr, is that we don't know where we start (we could begin close to the solution and after the initial iteration go far away).
-- *SGD with momentum*: designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients. The momentum algorithm accumulates an exponentially decaying moving average of past gradients and continues to move in their direction
+- *SGD with momentum*: designed to accelerate learning, especially in the face of high curvature, small but consistent gradients, or noisy gradients. The momentum term increases for dimensions whose gradients point in the same direction and reduces updates for dimensions whose gradients change directions
+- *Nesterov momentum*: instead of calculating the gradient at the current position, Nesterov momentum calculates the gradient at the position after the current momentum is applied
 
+
+**Regularization**:
+used to reduce overfitting:
+- Parameter norm penalties: add a regularization term $E_{reg}$ to the cost $J(\theta)$
+- Dataset Augmentation: generate additional data and include them in the dataset
+- Early Stopping
+- Parameter sharing: constraint on having subsets of model parameters to be equal. Advantages also in memory storage.
+- Dropout
 
 ---
 

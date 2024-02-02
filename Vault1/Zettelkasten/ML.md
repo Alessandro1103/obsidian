@@ -263,6 +263,7 @@ If we assume that all the hypothesis have the same probability then the **Maximu
 $$
 h_{\text{ML}} = \underset{h \in H}{\mathrm{argmax}} \ P(D|h)
 $$
+the $h_{ML}$ it provides a way to estimate the parameters of a model in such a way that the observed data becomes as probable as possible given those parameters
 
 ![[Pasted image 20240128011724.png|400]]
 

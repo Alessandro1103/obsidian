@@ -316,7 +316,7 @@ $$
 \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|x, D) = \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|a_1, a_2 \ldots a_n, D)
 $$
 
-and on the **Naive Bayes classifier** assumption and obtaining $P(a_i|v_j,D)$ by Bayes:
+and on the **Naive Bayes classifier** assumption and obtaining $P(a_i|v_j,D)$ by Bayes<:
 $$
 v_{NB} = \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|D) \prod_i P(a_i|v_j, D)
 $$

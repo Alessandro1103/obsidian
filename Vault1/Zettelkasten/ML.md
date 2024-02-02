@@ -350,7 +350,8 @@ Two families of models:
 
 I can write:
 $$
-P(C_1|x) = \frac{P(x|C_1)P(C_1)}{P(x)} = \frac{P(x|C_1)P(C_1)}{P(x|C_1)P(C_1) + P(x|C_2)P(C_2)}
+P(C_1|x) = \frac{P(x|C_1)P(C_1)}{P(x)} = \frac{P(x|C_1)P(C_1)}{P(x|C_1)P(C_1) + P(x|C_2)P(C_2)} = \frac{1}{1 + \exp(-a)} = \sigma(a)
+
 $$
 and applied to the assumption that $P(x|C_i) = \mathcal{N}(x; \mu_i, \Sigma)$ we obtain:
 $$

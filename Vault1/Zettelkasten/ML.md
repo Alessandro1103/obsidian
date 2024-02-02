@@ -311,17 +311,12 @@ Taking the **log of the likelihood function** often results in a convex function
 $$
 h_{\text{ML}} = \underset{h}{\mathrm{argmax}} \ P(D|h) = \underset{h}{\mathrm{argmax}} \ \mathcal{L}(D|h)
 $$
-
-If we want to solve the problem without enumerating all the hypothesis we have to consider the *conditionally independent rule*:
-$$
-P(X, Y|Z) = P(X|Y, Z)P(Y|Z) = P(X|Z)P(Y|Z)
-$$
-so the best prediction:
+we assume:
 $$
 \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|x, D) = \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|a_1, a_2 \ldots a_n, D)
 $$
 
-and on the **Naive Bayes classifier** assumption:
+and on the **Naive Bayes classifier** assumption and obtaining $P(a_i|v_j,D)$ by Bayes:
 $$
 v_{NB} = \underset{v_j \in V}{\mathrm{argmax}}\ P(v_j|D) \prod_i P(a_i|v_j, D)
 $$

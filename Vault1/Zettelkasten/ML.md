@@ -254,7 +254,7 @@ where:
 - $P(D)$ = prior probability of training data $D$ (normalization factor)
 - $P(h|D)$ = probability of $h$ given $D$ (posterior, information we want to extract after we look at the dataset)
 - $P(D|h)$ = probability of $D$ given $h$ (likelihood)
-
+ 
 We want the most probable hypothesis $h$ given $D$, in other words the **Maximum a posteriori** hypothesis $h_{MAP}$:
 $$
 h_{\text{MAP}} = \underset{h \in H}{\mathrm{argmax}} \ P(h|D) = \underset{h \in H}{\mathrm{argmax}} \ \frac{P(D|h)P(h)}{P(D)} = \underset{h \in H}{\mathrm{argmax}} \ P(D|h)P(h)

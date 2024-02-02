@@ -285,7 +285,7 @@ P(v_i|x, D) = \sum_{h \in H} P(v_i|x, h)P(h|D)
 $$
 so if we want the best class for a new $x$:
 $$
-v_{OB} = \sum_{h \in H} P(v_i|x, h)P(h|D)
+v_{OB} = \underset{v_j \in V}{\mathrm{argmax}} \sum_{h \in H} P(v_i|x, h)P(h|D)
 $$
 Still *impractical*.
 

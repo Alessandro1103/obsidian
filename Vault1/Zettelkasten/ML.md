@@ -209,7 +209,7 @@ $$
 \text{Gain}(S, \text{Wind}) = \text{Entropy}(S) - \frac{8}{14}\text{Entropy}(S_{\text{Weak}}) - \frac{6}{14}\text{Entropy}(S_{\text{Strong}})
 $$
 
-Appling this to all attributes and find the MAX gain.
+Applying this to all attributes and find the MAX gain.
 
 This algorithm can produce trees that overfit the training examples.
 We will say that a hypothesis **overfits** the training examples if some other hypothesis fits the training examples less well actually performs better over the entire distribution of instances

@@ -522,7 +522,16 @@ t_N^T
 \end{pmatrix} &
 \end{flalign*}
 $$
+The objective is to minimize the error function:
+$$
+E(\tilde{\mathbf{W}}) = \frac{1}{2} \text{Tr} \left\{ (\tilde{\mathbf{X}}\tilde{\mathbf{W}} - \mathbf{T})^T (\tilde{\mathbf{X}}\tilde{\mathbf{W}} - \mathbf{T}) \right\}
+$$
+where $T$ is the target value, $X$ are the data and $W$ are the weights. In closed form solution, we can derivate $E(W)$ and resolve it for $W$ obtaining $W = X^\dagger T$ which substituting in the original solution we obtain: 
+$$
+y(\mathbf{X}) = \tilde{\mathbf{W}}^T \tilde{\mathbf{X}} = \mathbf{T}^T (\tilde{\mathbf{X}}^\dagger) \tilde{\mathbf{X}}
+$$
 
+Since now we have $W$ we can calculate all the things
 $$
 \begin{align*}
 &y(x) = \tilde{W}^T \tilde{x} = 
@@ -552,7 +561,7 @@ The perceptron takes a vector of real valued inputs calculates a linear combinat
 $$
 E(w) = \frac{1}{2} \sum_{n=1}^N (t_n - o_n)^2 = \frac{1}{2} \sum_{n=1}^N (t_n - w^T x_n)^2
 $$
-$w^T x_n$ si the prediction that the model does on $x_n$, $t_n$ is the prediction in the dataset. We update $w$:
+$w^T x_n$ is the prediction that the model does on $x_n$, $t_n$ is the prediction in the dataset. We update $w$:
 $$
 \begin{align*}
 &w_i \leftarrow w_i + \Delta w_i, \\

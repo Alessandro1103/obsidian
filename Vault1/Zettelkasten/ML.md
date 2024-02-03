@@ -872,7 +872,7 @@ the first one for regression the second for classification. Here are some exampl
 - Mixture of experts: ![[Pasted image 20240201161523.png|100]]  where the gating function assign weights to each expert, weights based on input
 - Stacking: ![[Pasted image 20240201161813.png|100]]
 - Cascading: ![[Pasted image 20240201161744.png|100]] the first learner is more accurate then the second and go on. The second learner benefit from the additional information provided by the first learner. $w$ is a feature, like brown hair and if it does not arrive to the threshold means that hai are not brown, maybe similar but not brown.
-![[Pasted image 20240201161744.png]]
+
 *Bagging*: very similar to voting but now we use a pre-processing in which the original dataset is sampled in different subsets (subsets, not partitions) and then there are used to train the models: 
 $$
 y_{bagging}(x) = \frac{1}{M} \sum_{m=1}^{M} y_m(x)
@@ -912,9 +912,9 @@ We study NN, FNN, MLP to overcome the limitation of linear models (linear functi
 - Which kind of cost function? *Loss function* In NN the loss function are non convex so it's possible to find local minimum
 
 The choice of **network output and cost function** are related depending on the task to achieve.
-- *Regression*: $y=W^Th+b$  with activation function = identity, since the output of neurons are linear units. The cost function is maximize the likelihood (cross-entropy) that is equivalent to minimizing mean squared error. These choices do not make the function *saturate* (sigmoid or tanh can saturate if the values are very high or very low, saturation refers to a state where changes in the input to an activation function result in little or no change in the output).
-- *Binary classification*: $y=\sigma (w^Th+b)$  with activation function = sigmoid. The Loss function is the Binary cross-entropy (Bernoulli distribution). Output unit saturates only when it gibes the correct answer
-- *Multi-class classification*: $y_i = \frac{exp(\alpha^{(i)}}{\sum_j exp(\alpha_j)}$ the activation function is the softmax. The Loss function is the Categorical cross-entropy (Multinomial distribution). Output units saturate only when there are minimal errors.
+- *Regression*: $y=W^Th+b$  with activation function = *identity*, since the output of neurons are linear units. The cost function is maximize the likelihood (cross-entropy) that is equivalent to minimizing mean squared error. These choices do not make the function *saturate* (sigmoid or tanh can saturate if the values are very high or very low, saturation refers to a state where changes in the input to an activation function result in little or no change in the output).
+- *Binary classification*: $y=\sigma (w^Th+b)$  with activation function = *sigmoid*. The Loss function is the *Binary cross-entropy (Bernoulli distribution)*. Output unit saturates only when it gibes the correct answer
+- *Multi-class classification*: $y_i = \frac{exp(\alpha^{(i)}}{\sum_j exp(\alpha_j)}$ the activation function is the *softmax*. The Loss function is the *Categorical cross-entropy (Multinomial distribution)*. Output units saturate only when there are minimal errors.
 
 In general for **Hidden unit activation functions** there are (no predictable):
 - Sigmoid = $\sigma(\alpha)$

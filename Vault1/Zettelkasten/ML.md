@@ -594,10 +594,15 @@ m_1 = \frac{1}{N_1} \sum_{n \in C_1} x_n, \quad m_2 = \frac{1}{N_2} \sum_{n \in 
 $$
 Choose $w$ that maximizes $J(w) = w^T (m_2 - m_1)$, subject to $||w||=1$
 ![[Pasted image 20240130164814.png|200]]
-the elements on the line are the projection of the points. As we can see there is the middle part of the line that overlaps the classes that brings to misclassification. The Fisher idea is to maximize a function that will give a large separation between the projected class, adding a degree of freedom to rotate:
+the elements on the line are the projection of the points. As we can see there is the middle part of the line that overlaps the classes that brings to misclassification. The Fisher idea is to maximize a function that will give a large separation between the projected class, adding a degree of freedom to rotate. First of all we see how $J(w)$ changes:
+$$
+J(\mathbf{w}) = \frac{\mathbf{w}^T S_B \mathbf{w}}{\mathbf{w}^T S_W \mathbf{w}}
+$$
+and deriving this, and put it equal to 0, we obtain:
 $$
 w \propto S_w^{-1} (m_2 - m_1)
 $$
+$S_w$ is not a skew symmetric function, it's called **scatter matrix**. It's a sort of covariance matrix.
 ![[Pasted image 20240130165628.png|200]]
 Fisher's linear discriminant is given by the function $y=w^T x$ and the classification of new instances is given by $y\geq -w_0$ where:
 $$

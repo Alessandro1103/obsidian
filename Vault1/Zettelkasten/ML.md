@@ -872,7 +872,7 @@ the first one for regression the second for classification. Here are some exampl
 - Mixture of experts: ![[Pasted image 20240201161523.png|100]]  where the gating function assign weights to each expert, weights based on input
 - Stacking: ![[Pasted image 20240201161813.png|100]]
 - Cascading: ![[Pasted image 20240201161744.png|100]] the first learner is more accurate then the second and go on. The second learner benefit from the additional information provided by the first learner. $w$ is a feature, like brown hair and if it does not arrive to the threshold means that hai are not brown, maybe similar but not brown.
-
+![[Pasted image 20240201161744.png]]
 *Bagging*: very similar to voting but now we use a pre-processing in which the original dataset is sampled in different subsets (subsets, not partitions) and then there are used to train the models: 
 $$
 y_{bagging}(x) = \frac{1}{M} \sum_{m=1}^{M} y_m(x)

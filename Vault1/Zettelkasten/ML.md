@@ -737,6 +737,7 @@ The target value is given by $y(x;w)$ affected by additive noise $\epsilon$
 $$
 t = y(x;w)+\epsilon
 $$
+where $y(x,w)$ is equal to $w^T \phi(x)$ because we are working with non linear function.
 Assume Gaussian noise $P(\epsilon|\beta)=\mathcal{N}(\epsilon|0,\beta^{-1})$ where $\beta$ is the precision (inverse variance)
 $$
 P(t|x, w, \beta) = \mathcal{N}(t|y(x; w), \beta^{-1})

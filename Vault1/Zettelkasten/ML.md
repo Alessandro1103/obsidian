@@ -829,7 +829,7 @@ green dot = data
 blue dot = support vectors
 By Lagrange the samples inside the tube do not contribute, outside yes
 
-
+ 
 ## Instance Based
 
 The disadvantage of parametric models, is that the chosen density might be a poor model of the distribution that generates the data, which can result in poor predictive performance. K-NN is the first non-parametric model (we don't want an intermediate representation like hypothesis).

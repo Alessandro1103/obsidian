@@ -651,13 +651,16 @@ So now to resolve $w^*$ (quadratic programming problem) with **Lagrangian** meth
 $$
 w^* = \sum_{n=1}^N a_n^* t_n x_n
 $$
-where $a^*$ are Lagrange multipliers: results of the Lagrangian optimization problem. Since one constraint of Lagrange is $\sum_{n=1}^N a_n t_n =0$ then for each $x_n \in D$, either $a^*_n = 0$ or $t_n y(x_n)=1$.
+where $a^*$ are Lagrange multipliers: results of the Lagrangian optimization problem. The constraint of Lagrange are:
+- $\sum_{n=1}^N a_n t_n =0$ 
+- $a_n \geq 0$
 
+then for each $x_n \in D$, either $a^*_n = 0$ or $t_n y(x_n)=1$ (if $t_n y(x_n)>1$ then the data lie over the boundary).
 Support vector: $x_k$ such that $t_k \ y(x_n)=1$ and $a_k^*>0$ 
 $$
 SV = \{ x_k \in D | t_k y(x_k) = 1 \}
 $$
-To create the border, we consider only the points that are equal to 1, so the outliers are not considered in this choice. The hyperplanes expressed with support vectors:
+To create the border, we consider only the points that are equal to 1, so the outliers are not considered in this choice. The hyperplanes expressed with support vectors (here we are consider to integrate the Lagrangian method inside the orginal formula $y = w^Tx + w_0$):
 $$
 y(x) = \sum_{x_j \in SV} a_j^* t_j x^T x_j + w_0^* = 0
 $$

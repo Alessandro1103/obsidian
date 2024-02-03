@@ -737,7 +737,7 @@ The target value is given by $y(x;w)$ affected by additive noise $\epsilon$
 $$
 t = y(x;w)+\epsilon
 $$
-Assume Gaussian noise $P(\epsilon|\beta)=N(\epsilon|0,\beta^{-1})$ where $\beta$ is the precision (inverse variance)
+Assume Gaussian noise $P(\epsilon|\beta)=\mathcal{N}(\epsilon|0,\beta^{-1})$ where $\beta$ is the precision (inverse variance)
 $$
 P(t|x, w, \beta) = \mathcal{N}(t|y(x; w), \beta^{-1})
 $$
@@ -746,15 +746,17 @@ The **Maximum likelihood** is:
 $$
 \begin{align*}
 &\underset{w, \beta}{\mathrm{argmax}} P(\{t_1, \ldots, t_N\} | x_1, \ldots, x_N, w, \beta) \\
-&w_{ML} = (\phi^T \phi)^{-1} \phi^T t
 \end{align*}
 $$
 the **error minimization** is:
 $$
-\underset{w}{\mathrm{argmin}} E_D(w) = \underset{w}{\mathrm{argmin}} \frac{1}{2} \sum_{n=1}^N [t_n - w^T \phi(x_n)]^2
+\underset{w}{\mathrm{argmin}} \ E_D(w) = \underset{w}{\mathrm{argmin}} \frac{1}{2} \sum_{n=1}^N [t_n - w^T \phi(x_n)]^2
 $$
+Note: $E_D(\mathbf{w}) = \frac{1}{2} (\mathbf{t} - \Phi \mathbf{w})^T (\mathbf{t} - \Phi \mathbf{w}),$
 
-The algorithms is always the same, find the gradient of the Error $\nabla E_D = 0$ and upgrade the parameter $w$. For regularization to control overfitting and avoid $E_D=0$:
+The algorithms is always the same, find the gradient of the Error $\nabla E_D = 0$ and upgrade the parameter $w$: $w_{ML} = (\phi^T \phi)^{-1} \phi^T t$.
+
+For regularization to control overfitting and avoid $E_D=0$:
 $$
 \underset{w}{\mathrm{argmin}} \ E_D(w) + \lambda E_W(w)
 $$
@@ -768,7 +770,7 @@ y(x; W) = W^T \phi(x)
 $$
 $W^T$ is a matrix of dimension $M\times K$, and $\phi$ has dimension $M$. Similarly as before:
 $$
-w_{ML} = (\phi^T \phi)^{-1} \phi^T t
+W_{ML} = (\phi^T \phi)^{-1} \phi^T t
 $$
 
 ## Kernel

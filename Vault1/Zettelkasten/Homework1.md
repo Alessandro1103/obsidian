@@ -1,7 +1,7 @@
 Date: 2023-11-07
 Time: 10:39
 Tags: #ML #Università 
-Up: [[ML]]
+Up: [[ML appunti]]
 
 ---
 # Homework1

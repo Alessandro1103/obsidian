@@ -1,7 +1,7 @@
 Date: 2023-12-17
 Time: 18:05
 Tags: #Università #English 
-Up: [[ML]]
+Up: [[ML appunti]]
 
 ---
 # ML ExamQuestion

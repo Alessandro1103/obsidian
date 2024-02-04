@@ -864,7 +864,7 @@ This method is called *Voting*:
 $$
 \begin{align*}
 &y_{voting}(x) = \sum_{m=1}^M w_my_m(x)
-&y_{voting}(x) =  \underset{w}{\mathrm{argmin}} \sum_{m=1}^M w_mI(y_m(x) = c)
+&y_{voting}(x) =  \underset{w}{\mathrm{argmax}} \sum_{m=1}^M w_mI(y_m(x) = c)
 \end{align*}
 $$
 the first one for regression the second for classification. Here are some example of **structures**:

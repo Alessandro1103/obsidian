@@ -12,7 +12,8 @@ Up:
 - [x] Evaluating Performances
 - [x] Bias
 - [x] Decision Tree
-- [x] Probabilistic Classification Models
+- [x] Generative Model
+- [x] Discriminative Model
 - [ ] 
 
 

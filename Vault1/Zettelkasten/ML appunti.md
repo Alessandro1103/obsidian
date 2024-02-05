@@ -949,6 +949,16 @@ used to reduce overfitting:
 - Parameter sharing: constraint on having subsets of model parameters to be equal. Advantages also in memory storage.
 - Dropout
 
+## Convolutional Networks
+
+## Unsupervised Learning
+
+Input data available $D = {x_n}$, but target values not available. 
+
+We use **Gaussian Mixture Model**:
+
+
+
 ---
 
 # References

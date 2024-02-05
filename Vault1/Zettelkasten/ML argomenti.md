@@ -7,14 +7,7 @@ Up:
 # ML argomenti
 
 
-- [x] Regression Problem
-- [x] KNN
-- [x] Evaluating Performances
-- [x] Bias
-- [x] Decision Tree
-- [x] Generative Model
-- [x] Discriminative Model
-- [ ] 
+
 
 
 

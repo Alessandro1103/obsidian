@@ -34,7 +34,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/ML appunti.md",
+                "file": "Zettelkasten/ML argomenti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/ML appunti.md",
+                "file": "Zettelkasten/ML argomenti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,10 +166,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0ff6a18274ce9b85",
+  "active": "f2ebc3c8f9dea04e",
   "lastOpenFiles": [
-    "Zettelkasten/ML argomenti.md",
     "Zettelkasten/ML appunti.md",
+    "Zettelkasten/ML argomenti.md",
     "Zettelkasten/Riassunto Ema.md",
     "Zettelkasten/code.md",
     "Files/Pasted image 20240201190308.png",

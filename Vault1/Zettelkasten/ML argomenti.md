@@ -6,7 +6,11 @@ Up:
 ---
 # ML argomenti
 
+## Argomenti da ripassare
 
+- [ ] Overfitting
+- [ ] Kernel trick
+- [ ] K-mean
 
 
 

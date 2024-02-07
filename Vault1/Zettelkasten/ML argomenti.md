@@ -11,7 +11,7 @@ Up:
 - [x] What is a ML
 - [x] Concept Learning
 - [x] The hypothesis space
-- [ ] Estimators
+- [x] Estimators
 - [ ] Comparing two hypothesis
 - [ ] Comparing two learning algorithm for hypothesis
 - [ ] Overfitting

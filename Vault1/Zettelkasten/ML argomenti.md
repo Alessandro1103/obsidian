@@ -38,8 +38,8 @@ Up:
 - [ ] Kernelize Linear Models
 - [ ] Kernelized SVM
 - [ ] Kernelized Linear Regression
-- [x] K-NN classification
-- [x] K-NN regression
+- [ ] K-NN classification
+- [ ] K-NN regression
 - [ ] Multiple Learners
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent

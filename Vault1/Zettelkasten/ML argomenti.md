@@ -12,7 +12,9 @@ Up:
 - [x] Concept Learning
 - [x] The hypothesis space
 - [ ] Estimators
-- [ ] Underfitting / Overfitting
+- [ ] Comparing two hypothesis
+- [ ] Comparing two learning algorithm for hypothesis
+- [ ] Overfitting
 - [ ] K-Fold
 - [ ] Recall / Precision
 - [ ] Decision Tree

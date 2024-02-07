@@ -44,7 +44,7 @@ Up:
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent
 - [ ] Stochastic Gradient Descent
-- [ ] Transfer Learning
+- [x] Transfer Learning
 - [ ] Dimensionality Reduction
 - [ ] K-means
 - [ ] GMM

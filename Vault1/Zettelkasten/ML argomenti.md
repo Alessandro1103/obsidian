@@ -18,7 +18,7 @@ Up:
 - [ ] K-Fold
 - [x] Recall / Precision
 - [x] Decision Tree
-- [ ] ID3 algorithm
+- [x] ID3 algorithm
 - [ ] Logarithm Likelihood
 - [ ] Bernoulli Distribution
 - [ ] Naive Bayes Classifier

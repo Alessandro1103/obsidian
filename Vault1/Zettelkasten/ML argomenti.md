@@ -19,7 +19,7 @@ Up:
 - [x] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm
-- [ ] Logarithm Likelihood
+- [x] Logarithm Likelihood
 - [ ] Bernoulli Distribution
 - [ ] Naive Bayes Classifier
 - [ ] Generative models

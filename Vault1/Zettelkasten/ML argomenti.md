@@ -47,9 +47,9 @@ Up:
 - [ ] K-means
 - [ ] GMM
 - [ ] Expectation Minimization Algorithm
-- [ ] Dynamic system
-- [ ] MDP problems
-- [ ] Cumulative Discount Reward
+- [x] Dynamic system
+- [x] MDP problems
+- [x] Cumulative Discount Reward
 - [ ] Q Function Algorithm deterministic
 - [ ] Q Function Algorithm non-deterministic
 - [ ] HMM model

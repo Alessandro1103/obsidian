@@ -52,8 +52,8 @@ Up:
 - [x] Dynamic system
 - [x] MDP problems
 - [x] Cumulative Discount Reward
-- [ ] Q Function Algorithm deterministic
-- [ ] Q Function Algorithm non-deterministic
+- [x] Q Function Algorithm deterministic
+- [x] Q Function Algorithm non-deterministic
 - [ ] HMM model
 - [ ] POMDP model
 

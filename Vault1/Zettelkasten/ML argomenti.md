@@ -8,8 +8,8 @@ Up:
 
 ## Argomenti da ripassare
 
-- [ ] What is a ML
-- [ ] Concept Learning
+- [x] What is a ML
+- [x] Concept Learning
 - [ ] The hypothesis space
 - [ ] Estimators
 - [ ] Underfitting / Overfitting

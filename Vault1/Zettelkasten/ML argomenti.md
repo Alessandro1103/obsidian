@@ -10,7 +10,7 @@ Up:
 
 - [x] What is a ML
 - [x] Concept Learning
-- [ ] The hypothesis space
+- [x] The hypothesis space
 - [ ] Estimators
 - [ ] Underfitting / Overfitting
 - [ ] K-Fold

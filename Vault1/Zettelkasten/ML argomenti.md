@@ -16,7 +16,7 @@ Up:
 - [ ] Comparing two learning algorithm for hypothesis
 - [ ] Overfitting
 - [ ] K-Fold
-- [ ] Recall / Precision
+- [x] Recall / Precision
 - [ ] Decision Tree
 - [ ] ID3 algorithm
 - [ ] Logarithm Likelihood

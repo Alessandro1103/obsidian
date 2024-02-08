@@ -40,7 +40,7 @@ Up:
 - [ ] Kernelized Linear Regression
 - [ ] K-NN classification
 - [ ] K-NN regression
-- [ ] Multiple Learners
+- [x] Multiple Learners
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent
 - [ ] Stochastic Gradient Descent

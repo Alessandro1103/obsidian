@@ -46,7 +46,7 @@ Up:
 - [ ] Stochastic Gradient Descent
 - [x] Transfer Learning
 - [ ] Dimensionality Reduction
-- [ ] K-means
+- [x] K-means
 - [ ] GMM
 - [ ] Expectation Minimization Algorithm
 - [x] Dynamic system

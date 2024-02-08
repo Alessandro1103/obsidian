@@ -59,6 +59,14 @@ Up:
 
 
 
+$$
+W(s) = 
+\begin{pmatrix}
+1 & \frac{1}{s+1} \\
+\frac{1}{s+1} & \frac{s-1}{(s+1)(s+2)}
+\end{pmatrix}
+$$
+
 
 ---
 # References

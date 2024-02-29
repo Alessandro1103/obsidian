@@ -8,18 +8,18 @@ Up:
 
 ## Argomenti da ripassare
 
-- [x] What is a ML
-- [x] Concept Learning
-- [x] The hypothesis space
-- [x] Estimators
-- [x] Comparing two hypothesis
-- [x] Comparing two learning algorithm for hypothesis
-- [x] Overfitting
-- [x] K-Fold
-- [x] Recall / Precision
-- [x] Decision Tree
-- [x] ID3 algorithm
-- [x] Logarithm Likelihood
+- [ ] What is a ML
+- [ ] Concept Learning
+- [ ] The hypothesis space
+- [ ] Estimators
+- [ ] Comparing two hypothesis
+- [ ] Comparing two learning algorithm for hypothesis
+- [ ] Overfitting
+- [ ] K-Fold
+- [ ] Recall / Precision
+- [ ] Decision Tree
+- [ ] ID3 algorithm
+- [ ] Logarithm Likelihood
 - [ ] Bernoulli Distribution
 - [ ] Naive Bayes Classifier
 - [ ] Generative models
@@ -40,20 +40,20 @@ Up:
 - [ ] Kernelized Linear Regression
 - [ ] K-NN classification
 - [ ] K-NN regression
-- [x] Multiple Learners
+- [ ] Multiple Learners
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent
 - [ ] Stochastic Gradient Descent
-- [x] Transfer Learning
+- [ ] Transfer Learning
 - [ ] Dimensionality Reduction
-- [x] K-means
+- [ ] K-means
 - [ ] GMM
 - [ ] Expectation Minimization Algorithm
-- [x] Dynamic system
-- [x] MDP problems
-- [x] Cumulative Discount Reward
-- [x] Q Function Algorithm deterministic
-- [x] Q Function Algorithm non-deterministic
+- [ ] Dynamic system
+- [ ] MDP problems
+- [ ] Cumulative Discount Reward
+- [ ] Q Function Algorithm deterministic
+- [ ] Q Function Algorithm non-deterministic
 - [ ] HMM model
 - [ ] POMDP model
 

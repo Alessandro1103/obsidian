@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d83e3bff91c321c1",
+        "id": "1b18541046a3c94c",
         "type": "tabs",
         "children": [
           {
-            "id": "f2ebc3c8f9dea04e",
+            "id": "e6378054942ea99c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/ML argomenti.md",
+                "file": "Zettelkasten/Regali per Daniela.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/ML argomenti.md",
+                "file": "Zettelkasten/Regali per Daniela.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/ML argomenti.md",
+                "file": "Zettelkasten/Regali per Daniela.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,11 +152,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f2ebc3c8f9dea04e",
+  "active": "e6378054942ea99c",
   "lastOpenFiles": [
+    "Zettelkasten/ML argomenti.md",
     "Files/Pasted image 20240219182726.png",
     "Zettelkasten/ML appunti.md",
-    "Zettelkasten/ML argomenti.md",
     "Zettelkasten/Riassunto Ema.md",
     "Zettelkasten/code.md",
     "Files/Pasted image 20240201190308.png",
@@ -169,7 +168,6 @@
     "Files/Pasted image 20240201161813.png",
     "Files/Pasted image 20240201161744.png",
     "Files/Pasted image 20240201161523.png",
-    "Files/Pasted image 20240201161507.png",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/Regali.md",
     "Zettelkasten/Cose.md",

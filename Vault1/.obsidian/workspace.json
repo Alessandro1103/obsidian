@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Regali per Edoardo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "19aa43d5b0a19b79",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -98,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Regali per Edoardo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Regali per Edoardo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -163,8 +152,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "19aa43d5b0a19b79",
+  "active": "e6378054942ea99c",
   "lastOpenFiles": [
+    "Zettelkasten/Regalo Edoardo F1.md",
+    "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/ML argomenti.md",
     "Files/Pasted image 20240219182726.png",
     "Zettelkasten/ML appunti.md",
@@ -199,7 +190,6 @@
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Causal Graphs.md",
-    "Zettelkasten/Bias Cognitivi.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

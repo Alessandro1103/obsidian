@@ -19,8 +19,48 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "974ef76bbcf9d4bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Regali.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c6f15dc6f13748e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Regali per Me.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b64ca4eaf00274e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Regali per Daniela.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -71,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -87,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali per Edoardo.md",
+                "file": "Zettelkasten/Regali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali per Edoardo.md",
+                "file": "Zettelkasten/Regali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,10 +193,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e6378054942ea99c",
+  "active": "974ef76bbcf9d4bd",
   "lastOpenFiles": [
-    "Zettelkasten/Regalo Edoardo F1.md",
+    "Zettelkasten/Regali per Edoardo.md",
+    "Zettelkasten/Regali.md",
     "Zettelkasten/Regali per Daniela.md",
+    "Zettelkasten/Regali per Me.md",
+    "Zettelkasten/Regalo Edoardo F1.md",
     "Zettelkasten/ML argomenti.md",
     "Files/Pasted image 20240219182726.png",
     "Zettelkasten/ML appunti.md",
@@ -170,8 +214,6 @@
     "Files/Pasted image 20240201161813.png",
     "Files/Pasted image 20240201161744.png",
     "Files/Pasted image 20240201161523.png",
-    "Zettelkasten/Regali per Me.md",
-    "Zettelkasten/Regali.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/ob.md",
@@ -189,7 +231,6 @@
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
-    "Zettelkasten/Causal Graphs.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

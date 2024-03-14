@@ -10,6 +10,7 @@ Up: [[Regali]]
 - [Set Tennistavolo](https://www.amazon.it/Joola-54810-Set-Tennistavolo-Unisex/dp/B003HC8HTE/ref=sr_1_5?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2OJWSH7M7Y709&keywords=racchetta%2Bping%2Bpong&qid=1704724536&sprefix=racchetta%2Bping%2Bpong%2Caps%2C106&sr=8-5&th=1)
 - [Playstation 5 Dual-sense](https://www.amazon.it/Playstation-5-Dualsense-Cobalt-Blue/dp/B0CJYB56BF/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1B4REK4UBUGUL&keywords=controller+ps5&qid=1704723711&sprefix=controlle+ps5%2Caps%2C112&sr=8-2)
 - [Piquadro Shop](https://www.piquadro.com/)
+- GoPro
 - 
 
 ---

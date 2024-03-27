@@ -47,16 +47,6 @@
             }
           },
           {
-            "id": "1c184355136b02a9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
             "id": "4b64ca4eaf00274e",
             "type": "leaf",
             "state": {
@@ -70,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -203,7 +193,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1c184355136b02a9",
+  "active": "2c6f15dc6f13748e",
   "lastOpenFiles": [
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regali.md",

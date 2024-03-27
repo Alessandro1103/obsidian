@@ -14,6 +14,9 @@ Up: [[Regali]]
 - [Illusion Of Life, The: Disney Animation ](https://www.amazon.it/Illusion-Life-Disney-Animation/dp/0786860707/ref=sr_1_1?adgrpid=1231453340287030&hvadid=76965998133611&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-76966071658198%3Aloc-93&hydadcr=18611_2252363&keywords=the+illusion+of+life&qid=1704666298&sr=8-1)
 - [La terra dei figli](https://www.ibs.it/terra-dei-figli-libro-gipi/e/9788876183256)
 
+**Giochi:**
+- [Espansioni exploding kitten](https://www.amazon.it/s?k=espansioni+exploding+kitten&adgrpid=1234751892267577&hvadid=77172160080866&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-77172250719835%3Aloc-93&hydadcr=28887_1877208&tag=amamitsp-21&ref=pd_sl_1o1kp2h42t_e)
+
 **Accessori:**
 - [Batterie per GoPro](https://www.amazon.it/REYGEAK-batteria，Batteria-Caricabatteria-immagazzinaggio-caricabatteria/dp/B08MLLNH5S/ref=sr_1_1_sspa?__mk_it_IT=ÅMÅŽÕÑ&crid=28UZ8R0ISU37T&keywords=cariche+go+pro&qid=1698256347&sprefix=cariche+go+pro%2Caps%2C98&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 - [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)

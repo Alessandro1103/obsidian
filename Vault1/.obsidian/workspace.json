@@ -47,6 +47,16 @@
             }
           },
           {
+            "id": "1c184355136b02a9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
             "id": "4b64ca4eaf00274e",
             "type": "leaf",
             "state": {
@@ -60,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -128,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali.md",
+                "file": "Zettelkasten/Regali per Me.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali.md",
+                "file": "Zettelkasten/Regali per Me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +203,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "974ef76bbcf9d4bd",
+  "active": "1c184355136b02a9",
   "lastOpenFiles": [
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regali.md",

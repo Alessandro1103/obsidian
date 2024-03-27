@@ -16,16 +16,14 @@ Up: [[Regali]]
 
 **Giochi:**
 - [Espansioni exploding kitten](https://www.amazon.it/s?k=espansioni+exploding+kitten&adgrpid=1234751892267577&hvadid=77172160080866&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-77172250719835%3Aloc-93&hydadcr=28887_1877208&tag=amamitsp-21&ref=pd_sl_1o1kp2h42t_e)
+- [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
 
 **GoPro:**
 - [Batteria di ricambio](https://www.amazon.it/Powerextra-Batteria-ricambio-caricabatterie-compatibile/dp/B0BVQ29GKT/ref=sr_1_9?crid=18BXU7QYIW0ZF&dib=eyJ2IjoiMSJ9.v8RdQaqG_Cl4fUPsTYlJ9x_1BwfCTeDdyy5LS73EtcanzS8u21W8NzEiS43GZKmJdmmc4SLpUpphf6-5Ysh18kVlPFmdSgAgrakGVriRI4BYLS_sQTDQ-sqpbPZWXC5o7zXrSKnZe2gWiQKsYYLbac-zE7Uzus9VGbpqZip6dr5NMoqMgaQ3X33d3y9RW7w6e9lhU-se-UuWWNeVAMgZ9i00hbB7I0VFYRtvbUnbD5vvGP3r49GpDvxl7QMvQbi1dtpx7r7_LMGNSS-h1b5c1GkLbtgXJpzgd7YqbqcgpzU.Wr0Gp0JN2uC84F-0y9-fPy5vf7QKsPPRTMCCZckgIHo&dib_tag=se&keywords=batterie+gopro+hero+10&qid=1711564738&sprefix=batterie+%2Caps%2C110&sr=8-9)
 - [Suptig Ganasce flessibili](https://www.amazon.it/Suptig-morsetto-supporto-sessione-Action/dp/B077QDKRC7/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3TKXHPEKZNHLI&dib=eyJ2IjoiMSJ9.lyRBhyKNG6AlMJYfuq0NQmHom_xwijzykcyx5FXrJ7a-yr22zznmp7QBlLGGMMQbxKOrxVxLTQUHPMHdqQcaywnP8Gw33caPCeYnt1XzAguhsw-ltCg1pqt5fLzq44IXpskoR6mq30ftWAK8OQlglRa1UIRdd-ggMiGXevqKK3rup0BZylv9KcIYa9Yvl59-hHLsFrU2GmaGU8vw0Pfzb01FC9sySHh1f1MRF5-oII-cOvw5Fh_aDKBmYbxEk2zaeax-O_XMvaqskinehPwT3YU9AsnTxnZ-UR4czkGYVXA.qMAyfDfEndwZI1KcXUdz0ei3XDTiGii-n9dD6Ly1LlA&dib_tag=se&keywords=braccio+curvo+gopro&qid=1711565161&sprefix=braccio+curvo+gopro%2Caps%2C105&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
-- 
-
+- [Bracci di estensione piegat](https://www.amazon.it/ShipeeKin-plastica-estensione-montaggio-compatibile/dp/B07TCW1SDD/ref=sr_1_14?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=24JEGVVOGGU9X&dib=eyJ2IjoiMSJ9.H-HojoZKjki46cm7u47dSSBmda7jnnw16yZ8UVf5fa6FJnCHFFHZzwGkZwpUABnvb0BTDmnwcn-fYN5m08WGiN0QC-R7JMbv9pcedswVrPmrypzRgJuQcdQKrc7apcOeg-9FKVG998w99SMgcUlSTxRJ5FallzbIudGoCYtkNQub9XcCFXd46UcJb-PS8mxZnM-y37CYuzGQQ7gDyFTWXXpdC4moiI8JTS-pabnjClO2jOteR2FMzVVMMDGOt6G3ymtqEJyisJOFLdBPWvgFnWLvRHy7UOvgUcDQ0sQC-HQ.NS8DRDKoQDl2D70k8pl0fQFyFwxIx4Hv5MY9T1pXk0M&dib_tag=se&keywords=braccio+curvo+rigido+gopro+10&qid=1711565504&sprefix=braccio+curvo+rigido+gopro+10%2Caps%2C86&sr=8-14)
 
 **Accessori:**
-- [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
-- [Sveglia orologio](https://www.amazon.it/dp/B01EZ77IOY/?coliid=I1235DHRQGHDMG&colid=FQV4Z0CWW68E&ref_=list_c_wl_lv_ov_lig_dp_it_im&th=1)
 - [Xiaomi Portable Electric Air Compressor 2](https://www.mi.com/it/product/xiaomi-portable-electric-air-compressor-2/)
 - 
 

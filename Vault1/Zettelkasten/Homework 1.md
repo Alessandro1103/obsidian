@@ -122,7 +122,7 @@ $$
 m = \sum_{i=1}^{n} d_i - 3(n + 1 - l)
 $$
 
-where $m$ represents the mobility, $d_i$ are the degrees of freedom at each joint, $n$ is the number of joints, and $l$ is the number of links. \newline
+where $m$ represents the mobility, $d_i$ are the degrees of freedom at each joint, $n$ is the number of joints, and $l$ is the number of links.
 
 Given that each revolute joint contributes 1 degree of freedom, and assuming the remote center of motion (RCM) constraint prohibits translational movement, the virtual joint would thus contribute 2 degrees of freedom—accounting for vertical movement and rotation. Therefore, the total summation of $d_i$ is 6. The constant 3 in the formula accounts for the planar nature of the robot. Here, $n$, which is the number of joints, is 4 (including the virtual RCM joint), and $l$, the number of links, is also 4. Substituting these values into Grubler's formula, we obtain:
 
@@ -130,7 +130,7 @@ $$
 m = 1 + 1 + 1 + 2 - 3 \cdot (4 + 1 - 4) = 2
 $$
 
-Thus, the robot has 2 degrees of freedom. \newline
+Thus, the robot has 2 degrees of freedom. 
 To obtain the RCM Jacobian, we need to calculate the elements using the following formula:
 $$
 J_{RCM} = 
@@ -166,7 +166,7 @@ l_1 c_{1} + l_2 c_{12} + l_3 c_{123} & l_2 c_{12} + l_3 c_{123} & l_3 c_{123} \\
 \end{align*}
 $$
 
-Since $J_4$ and $J_3$ have different dimensions due to the additional degree of freedom represented in $J_4$, and our interest lies in a subspace of motion that the third joint does not influence, we adapt $J_3$ to match the dimensions of $J_4$ by appending a column of zeros. This modification reflects the scenario where the third joint's motion has no impact on the end-effector's position or orientation with respect to the task at hand. Such a condition might arise, for instance, if the third joint is temporarily fixed or if the system operates under a constraint that nullifies the effect of the third joint's motion (as in some Remote Center of Motion applications). \newline
+Since $J_4$ and $J_3$ have different dimensions due to the additional degree of freedom represented in $J_4$, and our interest lies in a subspace of motion that the third joint does not influence, we adapt $J_3$ to match the dimensions of $J_4$ by appending a column of zeros. This modification reflects the scenario where the third joint's motion has no impact on the end-effector's position or orientation with respect to the task at hand. Such a condition might arise, for instance, if the third joint is temporarily fixed or if the system operates under a constraint that nullifies the effect of the third joint's motion (as in some Remote Center of Motion applications). 
 Performing all the operation the matrix obtained is the following:
 
 

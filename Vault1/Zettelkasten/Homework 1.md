@@ -112,7 +112,7 @@ $$
 \end{bmatrix}
 $$
 
-Between the three singularities I can say that, the one find before belongs to the one of the first type. The kind of singularities by 0 output velocity regardless of the input joint ones. 
+Among the three types of singularities, the one I previously identified falls into the first category. These singularities are characterized by an output velocity that drops to zero, irrespective of the velocities at the input joints. As for the second type of singularities, which involve infinitesimal rotations about the end effector's center while the input joints remain fixed, they are challenging to observe. Consequently, I infer their absence in the current setup. Furthermore, the occurrence of the third type of singularity is contingent upon the presence of the second; thus, if the second type is absent, the third type cannot manifest.
 
 ## Problem 2
 

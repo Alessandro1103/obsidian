@@ -31,7 +31,8 @@ q3
 \end{pmatrix} 
 $$
 There's no need to take into account the angle $q_4$, measured from the x-axis to the final segment of the fourth link, nor the length extending from the fourth joint to the end effector. This is because the angle formed with the x-axis by the terminal portion of the fourth link mirrors the third angle, $q_3$. Consequently, including a variable $q_4$ would be redundant, as it would merely duplicate the value of $q_3$. 
-In order to obtain the differential kinematics, I have to calculate the direct kinematics,  since the objective is to calculate the orientation and not the position I can avoid the parameter $d$:
+![[5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview 1.png|400]]
+In order to obtain the differential kinematics, I have to calculate the direct kinematics.
 $$
 p = 
 \begin{bmatrix}
@@ -42,6 +43,7 @@ p =
     l(s_1 + s_{12} + s_{123})
 \end{bmatrix}
 $$
+The omission of the $d$ component in the representation of the direct kinematics is deliberate, due to the specific focus of my problem on pointing accuracy, which prioritizes angular orientation over linear distance. Moreover the next steps requires to focus on the joint 4, not on the end-effector.
 The next step is to calculate the Jacobian:
 $$
 J(q_1, q_2, q_3) = \begin{pmatrix}
@@ -56,6 +58,7 @@ $$
 J\dot{q} = 0
 $$
 To find the configuration of the end effector, the first step is to open the closed chain, presenting two configurations:
+![[e6b25912-93f8-4d73-b9b9-174d58dd4c4e-removebg-preview.png|300]]     ![[71ca1fd8-1a38-4838-8171-d67b86e210bf-removebg-preview.png|300]]
 
 The Jacobian matrix can be separated on the elements related to the active joint and the elements related with the unactive joints. 
 $$

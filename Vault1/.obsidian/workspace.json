@@ -22,6 +22,25 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "15fe2549e83bc2b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c3f51a138b40caf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Homework 1.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,8 +173,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "51f567fe50551f26",
+  "active": "6c3f51a138b40caf",
   "lastOpenFiles": [
+    "Files/71ca1fd8-1a38-4838-8171-d67b86e210bf-removebg-preview.png",
+    "Files/e6b25912-93f8-4d73-b9b9-174d58dd4c4e-removebg-preview.png",
+    "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview 1.png",
+    "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview.png",
     "Files/Pasted image 20240404115245.png",
     "Zettelkasten/Homework 1.md",
     "Zettelkasten/Regali per Daniela.md",
@@ -173,10 +196,6 @@
     "Files/Pasted image 20240201190232.png",
     "Files/Pasted image 20240201183927.png",
     "Files/Pasted image 20240201164946.png",
-    "Files/Pasted image 20240201163644.png",
-    "Files/Pasted image 20240201161813.png",
-    "Files/Pasted image 20240201161744.png",
-    "Files/Pasted image 20240201161523.png",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/ob.md",

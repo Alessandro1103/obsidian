@@ -112,7 +112,7 @@ $$
 \end{bmatrix}
 $$
 
-Between the three singularities I can say that, we find the only one
+Between the three singularities I can say that, the one find before belongs to the one of the first type. The kind of singularities by 0 output velocity regardless of the input joint ones. 
 
 ## Problem 2
 

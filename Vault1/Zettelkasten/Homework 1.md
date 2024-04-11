@@ -89,7 +89,7 @@ $$
 $$
 The inversion of the Jacobian will only be feasible in non singular configurations, whenever $det|J_{unact}|\neq0$, the calculation bring to:
 $$
-l^2 \cdot sin(q_3) = 0 \Leftrightarrow q_3 = k \pi \ k \in \mathbb{Z}
+l^2 \cdot sin(q_3) = 0 \qquad \Leftrightarrow \qquad q_3 = k \pi \quad k \in \mathbb{Z}
 $$
 We are in a singular configuration whenever the joint axes collapse into the x-axis of the absolute reference frame. Concluding I present the final equation:
 $$

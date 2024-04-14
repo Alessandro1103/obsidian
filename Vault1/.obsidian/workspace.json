@@ -11,8 +11,13 @@
             "id": "cd76818dedad4b82",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Dragon-Ball manga.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Dragon-Ball manga.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Dragon-Ball manga.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,6 +155,7 @@
   },
   "active": "cd76818dedad4b82",
   "lastOpenFiles": [
+    "Zettelkasten/Dragon-Ball manga.md",
     "Zettelkasten/Homework 1.md",
     "Zettelkasten/ML appunti.md",
     "conflict-files-obsidian-git.md",

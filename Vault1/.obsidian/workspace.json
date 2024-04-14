@@ -24,9 +24,12 @@
             "id": "b7ced508d79ef487",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "Zettelkasten/ML appunti.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -82,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Homework 1.md",
+                "file": "Zettelkasten/ML appunti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Homework 1.md",
+                "file": "Zettelkasten/ML appunti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,6 +168,16 @@
   },
   "active": "b7ced508d79ef487",
   "lastOpenFiles": [
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Debolezze del Re arroccato.md",
+    "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/code.md",
+    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Causal Graphs.md",
+    "Zettelkasten/Atlas Reply Presentation.md",
     "Files/Pasted image 20240404115245.png",
     "Zettelkasten/Homework 1.md",
     "Zettelkasten/Regali per Daniela.md",
@@ -177,7 +189,6 @@
     "Files/Pasted image 20240219182726.png",
     "Zettelkasten/ML appunti.md",
     "Zettelkasten/Riassunto Ema.md",
-    "Zettelkasten/code.md",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",
     "Files/Pasted image 20240201190232.png",
@@ -186,7 +197,6 @@
     "Files/Pasted image 20240201163644.png",
     "Files/Pasted image 20240201161813.png",
     "Files/Pasted image 20240201161744.png",
-    "Files/Pasted image 20240201161523.png",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/ob.md",
@@ -194,14 +204,6 @@
     "Zettelkasten/Homework2.md",
     "Zettelkasten/Educazione Visiva.md",
     "Zettelkasten/IA.md",
-    "Zettelkasten/Note.md",
-    "Zettelkasten/NomiCoseCittà.md",
-    "Zettelkasten/IA exercise.md",
-    "Zettelkasten/IA exam arguments.md",
-    "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/CSP PT1.md",
-    "Zettelkasten/Critical Path Heuristics.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

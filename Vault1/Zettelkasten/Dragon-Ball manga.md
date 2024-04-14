@@ -11,6 +11,7 @@ Questa nota è stata creata per scegliere i fumetti da prendere del manga di Dra
 - [Dragon Ball Nr.1](https://www.starcomics.com/fumetto/dragon-ball-evergreen-edition-1-dragon-ball-evergreen-edition-1)
 - [Dragon Ball Nr.27](https://www.starcomics.com/fumetto/dragon-ball-evergreen-edition-27-dragon-ball-evergreen-edition-27)
 - [Dragon Ball Nr.42](https://www.starcomics.com/fumetto/dragon-ball-evergreen-edition-42-dragon-ball-evergreen-edition-42)
+- [One Piece 103](https://www.starcomics.com/fumetto/one-piece-new-edition-103)
 - 
 
 

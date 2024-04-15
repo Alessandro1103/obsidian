@@ -1,10 +1,10 @@
 Date: 2024-04-14
 Time: 23:10
-Tags: #manga #dragonball
+Tags: #manga #dragonball #onepiece
 Up: 
 
 ---
-# Dragon-Ball manga
+# manga Preferiti
 
 Questa nota è stata creata per scegliere i fumetti da prendere del manga di Dragon Ball. Edo è stato così gentile che per il mio 22esimo compleanno mi ha preso i primi 3 numeri di Dragon Ball. Purtroppo sono arrivati rovinati, e gli ho proposto di prendere le versioni EverGreen meno costose e piu "originali", con la carta non plastificata e in un formato flessibile. Ora vedo quali sono i numeri migliori della serie manga, in caso non me ne venissero in mente 8 (il numero che posso prendere), passo a un altro manga, magari One Piece.
 

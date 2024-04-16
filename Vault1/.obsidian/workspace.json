@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Untitled.md",
+                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Untitled.md",
+                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Untitled.md",
+                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,8 +154,9 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
+    "Zettelkasten/Critical Path Heuristics.md",
+    "Templates/YouTube.md",
     "Templates/Base.md",
-    "Templates/Untitled.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Regali per Me.md",
@@ -173,7 +173,6 @@
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/CSP PT2.md",
-    "Zettelkasten/Critical Path Heuristics.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/code.md",
     "Zettelkasten/Classical Search PT2.md",

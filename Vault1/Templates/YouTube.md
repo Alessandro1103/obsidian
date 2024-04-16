@@ -7,7 +7,11 @@ Fonte: #YouTube
 **Titolo video**:
 **Durata**:
 **Categoria**: 
+**Personaggi**: 
 **Data Pubblicazione**:
+
+## Eventi Chiave
+
 
 ## Summary
 

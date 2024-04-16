@@ -1,12 +1,12 @@
 Date: {{date:YYYY-MM-DD}}
 Time: {{time:HH:mm}}
-Tags: #YouTube 
-Up: 
+Fonte: #YouTube 
 
 ---
 # {{title}}
 **Titolo video**:
 **Durata**:
+**Categoria**: 
 **Data Pubblicazione**:
 
 ## Summary

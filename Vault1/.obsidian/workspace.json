@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b9d4765265488499",
+        "id": "eb8f1a3039ffb003",
         "type": "tabs",
         "children": [
           {
-            "id": "812f5ca1108648db",
+            "id": "5724bf1594416a98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+                "file": "Templates/Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+                "file": "Templates/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+                "file": "Templates/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,10 +153,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "812f5ca1108648db",
+  "active": "5724bf1594416a98",
   "lastOpenFiles": [
-    "Zettelkasten/Regali per Daniela.md",
+    "Templates/Base.md",
+    "Templates/Untitled.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/Dragon-Ball manga.md",
     "Zettelkasten/Scheda Hybrid.md",
@@ -189,8 +191,6 @@
     "Files/Pasted image 20240201190232.png",
     "Files/Pasted image 20240201183927.png",
     "Zettelkasten/Cose.md",
-    "Zettelkasten/Obsidian.md",
-    "Zettelkasten/ob.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

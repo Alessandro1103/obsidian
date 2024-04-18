@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+                "file": "Zettelkasten/Calibration.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+                "file": "Zettelkasten/Calibration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+                "file": "Zettelkasten/Calibration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,10 +154,11 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
+    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Zettelkasten/Calibration.md",
     "Zettelkasten/Critical Path Heuristics.md",
     "Templates/YouTube.md",
     "Templates/Base.md",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/Dragon-Ball manga.md",
@@ -189,7 +190,6 @@
     "Files/Pasted image 20240201190249.png",
     "Files/Pasted image 20240201190232.png",
     "Files/Pasted image 20240201183927.png",
-    "Zettelkasten/Cose.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

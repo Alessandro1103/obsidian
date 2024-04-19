@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Cose.md",
+                "file": "Zettelkasten/Codici MatLab Robotics 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Cose.md",
+                "file": "Zettelkasten/Codici MatLab Robotics 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Cose.md",
+                "file": "Zettelkasten/Codici MatLab Robotics 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -155,10 +155,11 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
+    "Zettelkasten/Calibration.md",
+    "Zettelkasten/Codici MatLab Robotics 2.md",
+    "Zettelkasten/Cose.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/Mermaid.md",
-    "Zettelkasten/Cose.md",
-    "Zettelkasten/Calibration.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Critical Path Heuristics.md",
     "Templates/YouTube.md",
@@ -185,7 +186,6 @@
     "Files/Pasted image 20240404115245.png",
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regali.md",
-    "Zettelkasten/Regalo Edoardo F1.md",
     "Files/Pasted image 20240219182726.png",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",

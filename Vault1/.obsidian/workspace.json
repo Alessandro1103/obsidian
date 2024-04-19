@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Calibration.md",
+                "file": "Zettelkasten/Cose.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Calibration.md",
+                "file": "Zettelkasten/Cose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Calibration.md",
+                "file": "Zettelkasten/Cose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,8 +155,11 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Mermaid.md",
+    "Zettelkasten/Cose.md",
     "Zettelkasten/Calibration.md",
+    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Critical Path Heuristics.md",
     "Templates/YouTube.md",
     "Templates/Base.md",
@@ -170,7 +174,6 @@
     "Files/71ca1fd8-1a38-4838-8171-d67b86e210bf-removebg-preview.png",
     "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview.png",
     "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview 1.png",
-    "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/Cyber security.md",
     "Zettelkasten/Debolezze del Re arroccato.md",
     "Zettelkasten/CSP PT2.md",
@@ -183,9 +186,7 @@
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regali.md",
     "Zettelkasten/Regalo Edoardo F1.md",
-    "Zettelkasten/ML argomenti.md",
     "Files/Pasted image 20240219182726.png",
-    "Zettelkasten/Riassunto Ema.md",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",
     "Files/Pasted image 20240201190232.png",

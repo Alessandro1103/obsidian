@@ -1,7 +1,7 @@
 Date: 2024-04-20
 Time: 17:34
-Tags:
-Up: 
+Tags: #Robotics #Università 
+Up: [[Robotics2]]
 
 ---
 # Dubbi robotics

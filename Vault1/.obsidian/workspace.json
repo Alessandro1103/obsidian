@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Robotics2 appunti.md",
+                "file": "Zettelkasten/Dubbi robotics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Robotics2 appunti.md",
+                "file": "Zettelkasten/Dubbi robotics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Robotics2 appunti.md",
+                "file": "Zettelkasten/Dubbi robotics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,8 +154,10 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
-    "Zettelkasten/Calibration.md",
+    "Files/Pasted image 20240420173404.png",
     "Zettelkasten/Robotics2 appunti.md",
+    "Zettelkasten/Dubbi robotics.md",
+    "Zettelkasten/Calibration.md",
     "Zettelkasten/Codici MatLab Robotics 2.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Metodo Zettelkasten.md",
@@ -182,9 +184,7 @@
     "Zettelkasten/code.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Causal Graphs.md",
-    "Zettelkasten/Atlas Reply Presentation.md",
     "Files/Pasted image 20240404115245.png",
-    "Zettelkasten/Regali per Edoardo.md",
     "Files/Pasted image 20240219182726.png",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",

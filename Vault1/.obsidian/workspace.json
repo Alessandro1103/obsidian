@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Dubbi robotics.md",
+                "file": "Zettelkasten/Codici MatLab Robotics 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Dubbi robotics.md",
+                "file": "Zettelkasten/Codici MatLab Robotics 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Dubbi robotics.md",
+                "file": "Zettelkasten/Codici MatLab Robotics 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,9 +154,9 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
+    "Zettelkasten/Dubbi robotics.md",
     "Files/Pasted image 20240420173404.png",
     "Zettelkasten/Robotics2 appunti.md",
-    "Zettelkasten/Dubbi robotics.md",
     "Zettelkasten/Calibration.md",
     "Zettelkasten/Codici MatLab Robotics 2.md",
     "Zettelkasten/Cose.md",
@@ -189,7 +189,6 @@
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",
     "Files/Pasted image 20240201190232.png",
-    "Files/Pasted image 20240201183927.png",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

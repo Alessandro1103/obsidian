@@ -67,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,9 +154,9 @@
   },
   "active": "5724bf1594416a98",
   "lastOpenFiles": [
-    "Zettelkasten/Codici MatLab Robotics 2.md",
-    "Zettelkasten/Robotics2 appunti.md",
     "Zettelkasten/Calibration.md",
+    "Zettelkasten/Robotics2 appunti.md",
+    "Zettelkasten/Codici MatLab Robotics 2.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/Mermaid.md",

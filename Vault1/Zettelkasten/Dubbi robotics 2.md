@@ -4,7 +4,7 @@ Tags: #Robotics #Università
 Up: [[Robotics2]]
 
 ---
-# Dubbi robotics
+# Dubbi robotics 2
 
 In questa mail dice che potrebbe essere nel compito
 ![[Pasted image 20240420173404.png]]

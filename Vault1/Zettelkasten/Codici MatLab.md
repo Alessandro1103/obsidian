@@ -1,10 +1,10 @@
 Date: 2024-04-19
 Time: 15:36
 Tags: #MatLab 
-Up: [[Robotics2]]
+Up: 
 
 ---
-# Codici MatLab Robotics 2
+# Codici MatLab
 
 Questo codice è del midterm del 2023, esercizio 1, serve per la **derivata di una J**
 ``` MATLAB
@@ -22,7 +22,18 @@ Jtot=J1+J2+J3;
 Jtot=double(subs(Jtot,[q1,q2,q3, q1dot,q2dot,q3dot l],[0 0 pi/2 0.8 0 -0.8 0.5])*[0.8; 0 ;-0.8])
 ```
 
+Per ottenere la **Jacobiana**, e il **gradiente**:
+``` MATLAB
+clc
+close all
 
+syms q1 q2 q3
+
+p = [cos(q1) + cos(q1+q2); sin(q1) + sin(q1+q2)]
+J = jacobian(p,[q1,q2])
+H = sin(q2)^2+sin(q3)^2
+gradient = gradient(H, [q1 q2 q3])
+```
 
 
 

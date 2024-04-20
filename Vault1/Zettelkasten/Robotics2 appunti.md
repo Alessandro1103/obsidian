@@ -12,5 +12,9 @@ Nel calcolo dei **centri di massa** si considera la distanza dal link i al link 
 
 Per estrarre i valori $a$ dalla matrice $g(q)$ per la linearizzazione, basti raccogliere i valori dipendenti da un singolo $q$. Citato nell'esame [Esame 2021](https://www.diag.uniroma1.it/deluca/rob2_en/WrittenExamsRob2/Robotics2_Remote_Midterm_Test_2020-21_21.04.14.pdf). 
 
+Ricordarsi che se devo verificare che una task sia fattibile devo eseguire il Range della matrice dei task ovvero J. Citato nell'esame [Esame 2020](https://www.diag.uniroma1.it/deluca/rob2_en/WrittenExamsRob2/Robotics2_Remote_Midterm_Test_2019-20_20.04.15.pdf)
+
+
+
 ---
 # References

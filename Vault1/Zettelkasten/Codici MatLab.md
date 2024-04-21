@@ -17,6 +17,8 @@ Jn=diff(J,qn)*qndot
 Jtot=J1+J2+J3...+Jn;
 ```
 
+Verificare che una matrice è **skew-symmetric**:
+
 Per ottenere la **Jacobiana**, e il **gradiente**:
 ``` MATLAB
 clc

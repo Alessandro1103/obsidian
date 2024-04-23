@@ -13,10 +13,10 @@ Fonte: #YouTube
 ## Eventi Chiave
 
 
-## Summary
+## Riassunto
 
 
-## Conclusion
+## Conclusione
 
 
 

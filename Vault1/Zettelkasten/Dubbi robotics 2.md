@@ -11,7 +11,6 @@ In questa mail dice che potrebbe essere nel compito
 
 Nell'esame [Esame 2017](https://www.diag.uniroma1.it/deluca/rob2_en/WrittenExamsRob2/Robotics2_Midterm_Test_2016-17_17.03.29.pdf) esercizio 1, utilizza una strana nomenclatura per r, non centri di massa, ma link. Ha invertito gli indici. Comunque con il metodo generale della DH non riesco a risolverlo.
 
-Nell'esame [Esame 2021](https://www.diag.uniroma1.it/deluca/rob2_en/WrittenExamsRob2/Robotics2_Remote_Midterm_Test_2020-21_21.04.14.pdf) esercizio 2 non mi è chiaro come arrivi alla formula per calcolare $q_s$
 
 ---
 # References

@@ -5,10 +5,10 @@ Fonte: #YouTube
 ---
 # Elezioni Trump vs Biden 2024
 **Titolo video**: Dinamiche e Implicazioni delle Elezioni Presidenziali USA 2024  
-**Durata**: Non specificata  
+**Durata**: 23:57
 **Categoria**: #Politica  
 **Personaggi**: #DonaldTrump #RonDeSantis #JoeBiden  
-**Data Pubblicazione**: Non specificata  
+**Data Pubblicazione**: 26-01-2024  
 
 ## Key Events
 

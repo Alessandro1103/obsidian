@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Dubbi robotics 2.md",
+                "file": "Zettelkasten/MatLab.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Dubbi robotics 2.md",
+                "file": "Zettelkasten/MatLab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Dubbi robotics 2.md",
+                "file": "Zettelkasten/MatLab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,8 +166,9 @@
   },
   "active": "7d035455e8254cb4",
   "lastOpenFiles": [
-    "Files/Pasted image 20240420173404.png",
     "Zettelkasten/Dubbi robotics 2.md",
+    "Zettelkasten/MatLab.md",
+    "Files/Pasted image 20240420173404.png",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Robotics2 appunti.md",

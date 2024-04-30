@@ -13,20 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Interactive Graphics.md",
+                "file": "Zettelkasten/Craxi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d4a1167f41bf2220",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Files/Pasted image 20240420173404.png"
               }
             }
           }
@@ -99,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Interactive Graphics.md",
+                "file": "Zettelkasten/Craxi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Interactive Graphics.md",
+                "file": "Zettelkasten/Craxi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,17 +156,19 @@
   },
   "active": "7d035455e8254cb4",
   "lastOpenFiles": [
-    "Zettelkasten/Codici MatLab.md",
+    "Zettelkasten/Movimento Prezzi ETF.md",
+    "Zettelkasten/Craxi.md",
+    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Templates/YouTube.md",
     "Zettelkasten/Interactive Graphics.md",
+    "Zettelkasten/Codici MatLab.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Psicologia.md",
     "Zettelkasten/MatLab.md",
     "Zettelkasten/Dubbi robotics 2.md",
     "Files/Pasted image 20240420173404.png",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Robotics2 appunti.md",
     "Zettelkasten/Aziende che mi hanno cercato.md",
-    "Templates/YouTube.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/MOC.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
@@ -196,8 +188,6 @@
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/Regali per Edoardo.md",
     "Zettelkasten/Regali.md",
-    "Zettelkasten/Regalo Edoardo F1.md",
-    "Zettelkasten/ML argomenti.md",
     "Files/Pasted image 20240219182726.png",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",

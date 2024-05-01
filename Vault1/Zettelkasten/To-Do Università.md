@@ -17,6 +17,7 @@ Up: [[To-Do]]
 
 ## Robotics 2
 - [ ] Provare a fare qualche codice sugli esami già realizzati dal prof.
+- [ ] Vedere le lezioni mancanti
 - [ ] 
 
 ## Medical Robots
@@ -26,6 +27,7 @@ Up: [[To-Do]]
 
 ## Neuro Engineering
 - [ ] Aggiustare gli appunti di Camilla
+- [ ] Vedere le lezioni sul drive di Valerio
 - [ ] 
 
 

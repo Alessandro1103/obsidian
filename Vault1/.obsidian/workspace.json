@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Craxi.md",
+                "file": "Zettelkasten/QuickNote.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Craxi.md",
+                "file": "Zettelkasten/QuickNote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Craxi.md",
+                "file": "Zettelkasten/QuickNote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,8 +156,10 @@
   },
   "active": "7d035455e8254cb4",
   "lastOpenFiles": [
-    "Zettelkasten/Movimento Prezzi ETF.md",
+    "Zettelkasten/Note.md",
+    "Zettelkasten/QuickNote.md",
     "Zettelkasten/Craxi.md",
+    "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Templates/YouTube.md",
     "Zettelkasten/Interactive Graphics.md",
@@ -186,8 +188,6 @@
     "Files/Pasted image 20240404115245.png",
     "Zettelkasten/Regali per Daniela.md",
     "Zettelkasten/Regali per Me.md",
-    "Zettelkasten/Regali per Edoardo.md",
-    "Zettelkasten/Regali.md",
     "Files/Pasted image 20240219182726.png",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",

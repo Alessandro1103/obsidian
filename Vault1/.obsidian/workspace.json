@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/QuickNote.md",
+                "file": "Zettelkasten/To-Do Università.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -67,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -89,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/QuickNote.md",
+                "file": "Zettelkasten/To-Do Università.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/QuickNote.md",
+                "file": "Zettelkasten/To-Do Università.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -156,8 +155,10 @@
   },
   "active": "7d035455e8254cb4",
   "lastOpenFiles": [
-    "Zettelkasten/Note.md",
+    "Zettelkasten/Psicologia.md",
+    "Zettelkasten/To-Do Università.md",
     "Zettelkasten/QuickNote.md",
+    "Zettelkasten/Note.md",
     "Zettelkasten/Craxi.md",
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
@@ -165,7 +166,6 @@
     "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Codici MatLab.md",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/Psicologia.md",
     "Zettelkasten/MatLab.md",
     "Zettelkasten/Dubbi robotics 2.md",
     "Files/Pasted image 20240420173404.png",
@@ -187,7 +187,6 @@
     "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview.png",
     "Files/Pasted image 20240404115245.png",
     "Zettelkasten/Regali per Daniela.md",
-    "Zettelkasten/Regali per Me.md",
     "Files/Pasted image 20240219182726.png",
     "Files/Pasted image 20240201190308.png",
     "Files/Pasted image 20240201190249.png",

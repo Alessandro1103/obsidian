@@ -14,14 +14,13 @@
               "type": "markdown",
               "state": {
                 "file": "Zettelkasten/To-Do Università.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"

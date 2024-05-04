@@ -67,7 +67,40 @@ To calculate the Optical Flow 2 algorithms are used:
 
 ## Lucas Kanade solution
 
+Let's impose a linear system: $Au=B$ in matrix is: 
+$$
+\begin{bmatrix}
+I_x(1,1) & I_y(1,1) \\
+I_x(k,l) & I_y(k,l) \\
+\vdots & \vdots \\
+I_x(n,n) & I_y(n,n)
+\end{bmatrix} \begin{bmatrix}
+u\\ v\end{bmatrix} = \begin{bmatrix}
+I_t(1,1)\\ I_t(k,l)\\ \vdots\\ I_t(n,n)
+\end{bmatrix}
+$$
+where $A$ is known and $n^2 \times 2$ , $u$ is unknown and $2 \times 1$, $B$ is known and $n^2 \times 1$. Since we have more solution (rows) than equations (columns) we can find the solution with the minimum norm: **Least Squares Solution**: $A^T A u = A^T B$ which in matrix formulation becomes:
+$$
+\begin{bmatrix}
+\sum_W I_x I_x & \sum_W I_x I_y \\
+\sum_W I_x I_y & \sum_W I_y I_y \\
+\end{bmatrix} \begin{bmatrix} u \\ v\end{bmatrix} = \begin{bmatrix}
+-\sum_W I_x I_t \\
+-\sum_W I_y I_t
+\end{bmatrix}
+$$
+since we want to find u:
+$$
+u = (A^T A)^{-1} A^T B
+$$
+The conditions for making the flow estimation work are: 
+- $A^T A$ are invertible (determinant!=0)
+- $A^T A$ eigenvalues should be well conditioned: $\lambda_1$ should not be too large respect to $\lambda_2$ and both shouldn't be too small. The eigenvalues are related to edge direction and magnitude (the eigenvector associated with the larger eigenvalue points in the direction of fastest intensity change, the other eigenvector is orthogonal to it).
+![[Screenshot from 2024-05-04 17-34-50.png|300]]
 
+So the perfect conditions to perform the LS solution is gradients different and large magnitudes, so corners and high texture regions.
+
+**NB**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this i s to reduce the quality of the image to "decrease" the gap between the pixels.
 
 
 ---

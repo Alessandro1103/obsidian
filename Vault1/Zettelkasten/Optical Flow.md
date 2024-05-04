@@ -96,12 +96,24 @@ $$
 The conditions for making the flow estimation work are: 
 - $A^T A$ are invertible (determinant!=0)
 - $A^T A$ eigenvalues should be well conditioned: $\lambda_1$ should not be too large respect to $\lambda_2$ and both shouldn't be too small. The eigenvalues are related to edge direction and magnitude (the eigenvector associated with the larger eigenvalue points in the direction of fastest intensity change, the other eigenvector is orthogonal to it).
+
 ![[Screenshot from 2024-05-04 17-34-50.png|300]]
 
 So the perfect conditions to perform the LS solution is gradients different and large magnitudes, so corners and high texture regions.
 
-**NB**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this i s to reduce the quality of the image to "decrease" the gap between the pixels.
+**Coarse to fine Flow Estimation**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this is to reduce the quality of the image to "decrease" the gap between the pixels. Since now we are again in the small motion condition we can apply the following algorithm:
 
+![[Screenshot from 2024-05-04 18-56-20.png|400]]
+
+
+## Horn-Schunck Optical Flow
+
+We have to consider the image I as a function of continuous variable x, y, t. Let's consider $u(x, y)$ and $v(x, y)$ as continuous flow fields. We have to minimize the following *energy functional*:
+$$
+E(u, v) = \iint \left( I(x + u(x,y), y + v(x,y), t+1) - I(x,y,t) \right)^2 \, \text{dx dy} + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, \text{dx dy} 
+$$
+
+where the first double integral penalizes differences between the brightness of a pixel at time $t$ and the precdicted brightness of the same pixel (after displacement) at time $t+1$. 0
 
 ---
 # References

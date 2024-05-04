@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -151,7 +152,7 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "7d035455e8254cb4",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
     "Zettelkasten/Regali per Me.md",
     "Zettelkasten/To-Do Università.md",

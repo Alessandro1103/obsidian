@@ -45,10 +45,27 @@ The approach we want to explore to estimate the optical Flow is based on 3 assum
   Optical flow (velocities): $u,v$
   Displacement: $\delta x, \delta y = (u\delta t, v\delta t)$
   
-  For a small space-time step: $I(x + u\delta t, y + v \delta t, t + \delta t) = I (x, y, t)$ Based on Taylor expansion. 
+  For a small space-time step: $I(x + u\delta t,\ y + v \delta t,\ t + \delta t) = I (x, y, t)$ Based on Taylor expansion. I can write the following:
+  $$
+  \begin{align*}
+  &\frac{\partial I}{\partial x} \delta x + \frac{\partial I}{\partial y} \delta y + \frac{\partial I}{\partial t}\delta t = 0 & \text{divide by } \delta t \text{ take limit } \delta t \rightarrow 0 \\
+  & \frac{\partial I}{\partial x} \frac{dx}{dt} + \frac{\partial I}{\partial y} \frac{dy}{dt} + \frac{\partial I}{\partial t} \frac{dt}{dt} = 0
+  \end{align*}
+  $$
+  
+  Which means $I_x u + I_y v + I_t = 0$ or $u^T \nabla I  + I_t = 0$, where $I_x$ and $I_y$ are *Image gradients*, $I_t$ is a *Temporal gradient*, the $u$ and $v$ are *flow velocities*. 
+  ![[Screenshot from 2024-05-04 16-38-17.png|300]]
+  Based on $I_x u + I_y v + I_t = 0$ formula, you can find multiple solution to that equation. In particular these solution lies on a straight line. Since we are following a edge direction, we have to estimate the component of the optical flow:
+  - Normal Flow: $u_n = - \frac{I_t}{||\nabla I||}$
+  - Parallel Flow: there is no correct formula for local consideration.
   
 - **Spatial coherence**: points move like their neighbors
 
+To calculate the Optical Flow 2 algorithms are used:
+- **Lucas-Kanade Optical Flow (1981)**: Uses the difference of the pixels' value to estimate the movement. Assumes that the Optical flow is constant for all the areas (inside the window). It's more a local method.
+- **Horn-Schunck Optical Flow (1981)**: The pixels are all the same, the motion is small. The motion is uniform between *adjacent* pixels. More a global method. 
+
+## Lucas Kanade solution
 
 
 

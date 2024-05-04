@@ -30,8 +30,27 @@ The optical flow fields tell us the 3D structure of world, motion of objects and
   &I_t(3,3) = I(3,3) - H(3,3) = -1
   \end{align*} 
   $$
+  So we recover $v$ but not $u$.
   
-- Barber Pole: ![[Screenshot from 2024-05-04 12-38-34.png|70]]The apparent motion is pointing upwards, the actual motion is in the right direction.
+- Barber Pole: ![[Screenshot from 2024-05-04 12-38-34.png|70]]The apparent motion is pointing upwards, the actual motion is in the right direction
+
+## Estimating Optical Flow
+The approach we want to explore to estimate the optical Flow is based on 3 assumptions:
+- **Brightness constancy**: projection of the same point look the same in every frame
+  ![[Screenshot from 2024-05-04 16-06-32.png|300]] 
+  $I(x(t), y(t), t) = C$
+
+- **Small motion**: points do not move very far
+  ![[Screenshot from 2024-05-04 16-10-17.png|300]] 
+  Optical flow (velocities): $u,v$
+  Displacement: $\delta x, \delta y = (u\delta t, v\delta t)$
+  
+  For a small space-time step: $I(x + u\delta t, y + v \delta t, t + \delta t) = I (x, y, t)$ Based on Taylor expansion. 
+  
+- **Spatial coherence**: points move like their neighbors
+
+
+
 
 
 ---

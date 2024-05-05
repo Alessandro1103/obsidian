@@ -147,6 +147,20 @@ The flow is very smooth, but to handle ambiguous regions effectively (like regio
 
 ## Robust Estimation of Optical Flow
 
+The Horn-Schunck can be interpreted as MAP (Maximum A Posteriori) inference in a MRF (Markov Random Field). So, find the most probable configuration of variables given some data by:
+
+$$
+p(U,V)=\frac{1}{Z}​exp\{−E(U,V)\}
+$$
+
+where $E$ is the discrete variation of the energy function. The distribution it self can be written as:
+$$
+\begin{align*}
+p(U, V) \propto & \prod_{x, y} \exp\left\{-\left(I_x(x, y) u_{x, y} + I_y(x, y) v_{x, y} + I_t(x, y)\right)^2\right\} \\ 
+& \times \exp\left\{-\lambda \left( u_{x, y} - u_{x+1, y} \right)^2 \right\} \times \exp\left\{-\lambda \left( u_{x, y} - u_{x, y+1} \right)^2 \right\} \\ 
+& \times \exp\left\{-\lambda \left( v_{x, y} - v_{x+1, y} \right)^2 \right\} \times \exp\left\{-\lambda \left( v_{x, y} - v_{x, y+1} \right)^2 \right\}
+\end{align*}
+$$
 
 
 ---

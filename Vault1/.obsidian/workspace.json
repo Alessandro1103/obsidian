@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/push.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/push.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/push.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,11 +154,12 @@
   },
   "active": "7d035455e8254cb4",
   "lastOpenFiles": [
+    "Zettelkasten/Optical Flow.md",
+    "Zettelkasten/push.md",
     "Files/Screenshot from 2024-05-04 19-32-14.png",
     "Files/Screenshot from 2024-05-04 18-56-20.png",
     "Files/Screenshot from 2024-05-04 17-34-50.png",
     "Zettelkasten/this.md",
-    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/$I_x u + I_y v + I_t = 0$.md",
     "Files/Screenshot from 2024-05-04 16-38-17.png",
     "Files/Screenshot from 2024-05-04 16-10-17.png",
@@ -189,7 +190,6 @@
     "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/code.md",
-    "Files/71ca1fd8-1a38-4838-8171-d67b86e210bf-removebg-preview.png",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

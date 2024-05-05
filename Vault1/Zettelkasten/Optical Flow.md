@@ -212,7 +212,11 @@ FlowNet2 uses a series of multiple FlowNet networks in a cascaded manner. It int
 ### PWC-Net
 
 PWC stands for Pyramid, Warping, Cost volume. 
+Features are extracted from input images using convolutional layers that progressively reduce spatial resolution, creating a pyramid of features. Optical flow is estimated at each level of the feature pyramid. Each level's features are warped using the estimated flow from the previous level.
 
+A **cost volume** is a structure that stores matching costs for each pixel in an image. This matching cost is measured by cross-correlation. 
+
+**End-Point Error (EPE)**: is a standard metric for evaluating the accuracy of optical flow estimation
 
 ---
 # References

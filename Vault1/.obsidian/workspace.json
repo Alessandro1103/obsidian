@@ -4,24 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "eb8f1a3039ffb003",
+        "id": "3bd17542dfb0f5f4",
         "type": "tabs",
         "children": [
           {
-            "id": "5724bf1594416a98",
+            "id": "5d6f78240d142f42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/To-Do Università.md",
+                "file": "Zettelkasten/Prima riunione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/To-Do Università.md",
+                "file": "Zettelkasten/Prima riunione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/To-Do Università.md",
+                "file": "Zettelkasten/Prima riunione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,10 +152,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5724bf1594416a98",
+  "active": "5d6f78240d142f42",
   "lastOpenFiles": [
-    "Zettelkasten/Psicologia.md",
+    "Zettelkasten/Discorso.md",
+    "Zettelkasten/Adversarial Search.md",
+    "Templates/Base.md",
+    "Templates/Base + Reference.md",
+    "Templates/Report.md",
+    "Templates/YouTube.md",
+    "Reference notes/Mermaid.md",
+    "Reference notes/Aimchess.md",
+    "Reference notes/LaTeX.md",
+    "Files/Progetto senza titolo.png",
+    "Files/Pasted image 20240420173404.png",
+    "Files/Pasted image 20240219182726.png",
+    "Files/Pasted image 20240404115245.png",
+    "Files/Pasted image 20240129155503.png",
+    "Files/Pasted image 20240201190308.png",
+    "Files/Pasted image 20240201190249.png",
+    "Files/Pasted image 20240201190232.png",
+    "Files/Pasted image 20240201183927.png",
+    "Files/Pasted image 20240201164946.png",
     "Zettelkasten/To-Do Università.md",
+    "Zettelkasten/Psicologia.md",
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Craxi.md",
@@ -164,32 +183,13 @@
     "Zettelkasten/Dubbi robotics 2.md",
     "Zettelkasten/Aziende che mi hanno cercato.md",
     "Zettelkasten/Codici MatLab.md",
-    "Files/Pasted image 20240420173404.png",
     "Zettelkasten/Calibration.md",
     "Zettelkasten/Cose.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/Mermaid.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Critical Path Heuristics.md",
-    "Templates/YouTube.md",
-    "Templates/Base.md",
     "Zettelkasten/Regali per Daniela.md",
-    "Zettelkasten/Regali per Me.md",
-    "Zettelkasten/Dragon-Ball manga.md",
-    "Zettelkasten/Scheda Hybrid.md",
-    "Zettelkasten/Homework 1.md",
-    "Zettelkasten/ML appunti.md",
-    "conflict-files-obsidian-git.md",
-    "Files/e6b25912-93f8-4d73-b9b9-174d58dd4c4e-removebg-preview.png",
-    "Files/71ca1fd8-1a38-4838-8171-d67b86e210bf-removebg-preview.png",
-    "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview.png",
-    "Files/5a03e3ba-aed8-4548-ba2a-d56bc31c9979-removebg-preview 1.png",
-    "Zettelkasten/Cyber security.md",
-    "Files/Pasted image 20240404115245.png",
-    "Files/Pasted image 20240219182726.png",
-    "Files/Pasted image 20240201190308.png",
-    "Files/Pasted image 20240201190249.png",
-    "Files/Pasted image 20240201190232.png",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

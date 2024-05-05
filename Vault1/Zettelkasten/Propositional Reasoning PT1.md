@@ -6,8 +6,6 @@ Up: [[IA]]
 ---
 # Propositional Reasoning PT1
 
-![[slideIA.pdf]]
-
 ## Propositional Logic
 
 ## Resolution

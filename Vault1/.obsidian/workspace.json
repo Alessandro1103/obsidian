@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19500594372b2cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,8 +166,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5d6f78240d142f42",
+  "active": "19500594372b2cdf",
   "lastOpenFiles": [
+    "Zettelkasten/Optical Flow.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/push.md",
+    "Files/Screenshot from 2024-05-04 19-32-14.png",
     "Zettelkasten/Adversarial Search.md",
     "Zettelkasten/AI Planning Formalisms.md",
     "Zettelkasten/Appunti.md",
@@ -177,9 +195,6 @@
     "Zettelkasten/Digital Humanities.md",
     "Zettelkasten/Discorso.md",
     "Zettelkasten/Dragon-Ball manga.md",
-    "Zettelkasten/Educazione Visiva.md",
-    "Zettelkasten/Dubbi robotics 2.md",
-    "Zettelkasten/Effect of Instagram Use.md",
     "Files/Screenshot from 2024-05-04 18-56-20.png",
     "Files/Screenshot from 2024-05-04 17-34-50.png",
     "Files/Screenshot from 2024-05-04 16-38-17.png",
@@ -189,7 +204,6 @@
     "Files/Screenshot from 2024-05-04 12-52-17.png",
     "Files/Screenshot from 2024-05-04 12-38-34.png",
     "Files/Progetto senza titolo.png",
-    "Files/Pasted image 20240420173404.png",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

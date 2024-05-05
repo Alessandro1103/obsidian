@@ -113,7 +113,37 @@ $$
 E(u, v) = \iint \left( I(x + u(x,y), y + v(x,y), t+1) - I(x,y,t) \right)^2 \, \text{dx dy} + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, \text{dx dy} 
 $$
 
-where the first double integral penalizes differences between the brightness of a pixel at time $t$ and the precdicted brightness of the same pixel (after displacement) at time $t+1$. 0
+where the first double integral penalizes differences between the brightness of a pixel at time $t$ and the predicted brightness of the same pixel (after displacement) at time $t+1$. The second integral, penalizes large changes in the optical flow field itself, enforcing spatial smoothness.
+Minimizing this energy function is a hard problem because the energy is highly *non-convex* and has many local optima. The solution is to **linearize the brightness** constancy assumption.
+
+We can use Taylor Series one more time:
+$$
+f(x,y) \approx_{a,b}  f(a,b) + \frac{\partial f(a,b)}{\partial x}(x-a) + \frac{\partial f(a, b)}{\partial y} (y-b)
+$$
+which in our case becomes:
+$$
+\begin{align*}
+&I(x + u(x, y), y + v(x, y), t + 1) \approx_{x, y, t}\\ 
+&I_x(x, y, t) (x + u(x, y) - x) + I_y(x, y, t) (y + v(x, y) - y) + I_t(x, y, t) (t + 1 - t) =\\
+&I(x, y, t) + I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t)
+\end{align*}
+$$
+and the energy function becomes:
+$$
+E(u, v) = \iint \left( I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t) \right)^2 \, dx\,dy + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, dx\,dy
+$$
+
+Discretising this we obtain:
+$$
+E(U, V) = \sum_{x, y} \left( I_x(x, y) u_{x, y} + I_y(x, y) v_{x, y} + I_t(x, y) \right)^2 + \lambda \left( (u_{x, y} - u_{x+1, y})^2 + (u_{x, y} - u_{x, y+1})^2 + (v_{x, y} - v_{x+1, y})^2 + (v_{x, y} - v_{x, y+1})^2 \right)
+$$
+
+which results in a huge but sparse linear system, resolvable in standard techniques (e.g., Gaussian-Seidel, SOR).
+
+The algorithm works in this way:
+![[Screenshot from 2024-05-04 19-32-14.png|400]]
+
+The flow is very smooth, but to handle ambiguous regions effectively (like regions with low contrast or repetitive patterns), the regularization parameter $\lambda$ needs to be set high. However, setting $\lambda$ high results in "oversmoothing" of flow discontinuities. Discontinuities are points or regions where there are abrupt changes in the optical flow.
 
 ---
 # References

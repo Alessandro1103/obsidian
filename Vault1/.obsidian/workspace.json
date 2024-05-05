@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Optical Flow.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Optical Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Adversarial Search.md",
+                "file": "Zettelkasten/Optical Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,6 +154,7 @@
   },
   "active": "5d6f78240d142f42",
   "lastOpenFiles": [
+    "Zettelkasten/Adversarial Search.md",
     "Zettelkasten/AI Planning Formalisms.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Atlas Reply Presentation.md",
@@ -178,7 +180,6 @@
     "Zettelkasten/Educazione Visiva.md",
     "Zettelkasten/Dubbi robotics 2.md",
     "Zettelkasten/Effect of Instagram Use.md",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Files/Screenshot from 2024-05-04 18-56-20.png",
     "Files/Screenshot from 2024-05-04 17-34-50.png",
     "Files/Screenshot from 2024-05-04 16-38-17.png",

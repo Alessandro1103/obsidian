@@ -145,5 +145,9 @@ The algorithm works in this way:
 
 The flow is very smooth, but to handle ambiguous regions effectively (like regions with low contrast or repetitive patterns), the regularization parameter $\lambda$ needs to be set high. However, setting $\lambda$ high results in "oversmoothing" of flow discontinuities. Discontinuities are points or regions where there are abrupt changes in the optical flow.
 
+## Robust Estimation of Optical Flow
+
+
+
 ---
 # References

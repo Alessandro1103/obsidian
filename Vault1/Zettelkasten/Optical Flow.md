@@ -231,5 +231,23 @@ The **flow estimator** is a convolutional neural network (CNN) that uses the con
 In this case an **unsupervised technique** is used. 
 
 
+## Lucas-Kanade feature tracker
+
+![[Pasted image 20240506010106.png|500]]
+
+The Lucas-Kanade tracker is valuable for detecting and tracking feature points across a video sequence efficiently and accurately, especially when the movements between frames are relatively small.
+
+We break the image sequence into "layers" each of which has a coherent motion.
+
+![[Pasted image 20240506010335.png]]
+
+The image is divided into a grid of smaller blocks, which are highlighted in red in the diagram. For each block, affine motion parameters are estimated using least squares fitting. Blocks with high residual error in their estimation are discarded. The image is divided into a grid of smaller blocks, which are highlighted in red in the diagram. For each block, affine motion parameters are estimated using least squares fitting. Blocks with high residual error in their estimation are discarded. 
+
+The mapped parameters are grouped using k-means clustering, a technique that groups similar items into clusters.
+
+| ![[Pasted image 20240506010519.png\|325]] | ![[Pasted image 20240506010602.png\|325]] |
+| ----------------------------------------- | ----------------------------------------- |
+
+
 ---
 # References

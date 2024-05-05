@@ -7,7 +7,7 @@ Up: [[To-Do]]
 # To-Do Università
 
 ## Interactive Graphics
-- [ ] Chiedere al prof. come mai le prime simulazioni sono tutte rosse senza forme
+- [x] Chiedere al prof. come mai le prime simulazioni sono tutte rosse senza forme
 - [ ] 
 
 ## Computer Vision

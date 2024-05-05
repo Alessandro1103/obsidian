@@ -185,7 +185,34 @@ $$
 
 ## End-to-End Deep Learning
 
-The optical flow estimation follows an encoder/decoder architecture.
+The optical flow estimation follows an encoder/decoder architecture. The idea: given two consecutive frames need to match features at different location in input images. The network has to find if an object in the first image is at another location in the second image.
+
+### FlowNet
+
+**Architectures**:
+- FlowNetSimple: A neural network for optical flow estimation that processes images via multiple convolution layers and then decodes them to predict the optical flow.
+- FlowNetCorr: Similar to FlowNetSimple but includes a correlation layer to compare patches between the two images.
+
+**Encorder**:
+- ![[Pasted image 20240505235006.png]]
+- ![[Pasted image 20240505235019.png]]
+  The *yellow part* is the Correlation layer, convolution of data patches from the layers to combine.
+
+**Decorder**:
+- ![[Pasted image 20240505235601.png]]
+  *Upconvolutional layers* are layer that apply an unpooling operation increasing the spatial dimensions. 
+
+### FlowNet 2
+
+FlowNet2 uses a series of multiple FlowNet networks in a cascaded manner. It integrates a warping module that warps one image using the optical flow estimated by the preceding network. This allows the subsequent network to refine the already aligned images.
+
+![[Pasted image 20240506000303.png|600]]
+
+
+### PWC-Net
+
+PWC stands for Pyramid, Warping, Cost volume. 
+
 
 ---
 # References

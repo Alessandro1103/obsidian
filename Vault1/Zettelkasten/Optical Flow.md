@@ -224,5 +224,12 @@ The **flow estimator** is a convolutional neural network (CNN) that uses the con
 
 **End-Point Error (EPE)**: is a standard metric for evaluating the accuracy of optical flow estimation
 
+### UnFlow
+
+![[Pasted image 20240506005329.png|600]]
+
+In this case an **unsupervised technique** is used. 
+
+
 ---
 # References

@@ -162,6 +162,30 @@ p(U, V) \propto & \prod_{x, y} \exp\left\{-\left(I_x(x, y) u_{x, y} + I_y(x, y) 
 \end{align*}
 $$
 
+The problem with this is that we assume Gaussian distribution which cannot capture abrupt changes (strong reflections, edges of objects...), outliers, discontinuities... A solution is to use *smoothness penalties* and *robust data term* in this way:
+$$
+\begin{align*}
+p(U, V) \propto & \prod_{x, y}\exp\left\{-\rho_D\left(I_x(x, y) u_{x, y} + I_y(x, y) v_{x, y} + I_t(x, y)\right)\right\} \\ 
+& \times \exp\left\{-\lambda \rho_S(u_{x, y} - u_{x+1, y})\right\} \times \exp\left\{-\lambda \rho_S(u_{x, y} - u_{x, y+1})\right\} \\ 
+& \times \exp\left\{-\lambda \rho_S(v_{x, y} - v_{x+1, y})\right\} \times \exp\left\{-\lambda \rho_S(v_{x, y} - v_{x, y+1})\right\}
+\end{align*}
+$$
+
+Choose $\rho_D(\cdot)$ and $\rho_S(\cdot)$ must follow these guidelines:
+- The prior must allow for discontinuities in the optical flow.
+- The likelihood function should account for outliers and occlusions.
+
+We can either choose a **Student-t distribution** instead a Gaussian one.
+$$
+p(x) \propto \left(1 + \frac{x^2}{2\sigma^2}\right)^{-\alpha} \Rightarrow \rho(x) = -\log\left(p(x)\right) = \alpha \log\left(1 + \frac{x^2}{2\sigma^2}\right)
+$$
+
+![[Pasted image 20240505233427.png|400]]
+
+
+## End-to-End Deep Learning
+
+The optical flow estimation follows an encoder/decoder architecture.
 
 ---
 # References

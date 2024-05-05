@@ -6,10 +6,6 @@ Up: [[IA]]
 ---
 # Propositional Reasoning PT2
 
-Alcune parti sono poco chiare...
-
-![[slideIA 1.pdf]]
-
 ## Davis-Putnam
 
 The DPLL procedure is a complete SAT solver. A SAT problem is a boolean satisfiability problem (NP-complete).

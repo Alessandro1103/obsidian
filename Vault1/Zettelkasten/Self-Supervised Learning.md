@@ -6,6 +6,8 @@ Up: [[Computer Vision]]
 ---
 # Self-Supervised Learning
 
+![[Recording 20240507124348.webm]]
+
 Data annotation is one of the main problem in Deep Learning, and in general in AI.
 
 ![[Screenshot from 2024-05-07 11-10-46.png|300]]
@@ -109,6 +111,10 @@ We have to control even if the model cheats, we have to prevent shortcut learnin
 Other task:
 - Inpainting task: try to recover a region.
 - Rotation task: try to recover the true orientation.
+
+
+
+
 
 
 ## Contrastive Learning

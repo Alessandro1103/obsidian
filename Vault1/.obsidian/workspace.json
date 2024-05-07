@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d433b858076b5d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Transformers in Vision.md",
+                "file": "Zettelkasten/Self-Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Transformers in Vision.md",
+                "file": "Zettelkasten/Self-Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,21 +166,22 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "7d035455e8254cb4",
+  "active": "d433b858076b5d34",
   "lastOpenFiles": [
+    "Files/Screenshot from 2024-05-07 11-31-49.png",
+    "Files/Screenshot from 2024-05-07 11-28-13.png",
+    "Files/Screenshot from 2024-05-07 11-21-48.png",
+    "Files/Screenshot from 2024-05-07 11-18-13.png",
+    "Files/Screenshot from 2024-05-07 11-16-38.png",
+    "Files/Screenshot from 2024-05-07 11-15-23.png",
+    "Files/Screenshot from 2024-05-07 11-10-46.png",
+    "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Transformers in Vision.md",
     "Files/Screenshot from 2024-05-07 10-18-38.png",
     "Zettelkasten/push.md",
-    "Zettelkasten/Transformers in Vision.md",
     "Files/Pasted image 20240506010602.png",
     "Files/Pasted image 20240506010519.png",
     "Files/Pasted image 20240506010335.png",
-    "Files/Pasted image 20240506010106.png",
-    "Files/Pasted image 20240506005329.png",
-    "Files/Pasted image 20240506000303.png",
-    "Files/Pasted image 20240505235601.png",
-    "Files/Pasted image 20240505235019.png",
-    "Files/Pasted image 20240505235006.png",
-    "Files/Pasted image 20240505234932.png",
     "conflict-files-obsidian-git.md",
     "Templates/Base + Reference.md",
     "Zettelkasten/Optical Flow.md",
@@ -189,7 +204,6 @@
     "Zettelkasten/Robotics2 appunti.md",
     "Zettelkasten/Aziende che mi hanno cercato.md",
     "Zettelkasten/Metodo Zettelkasten.md",
-    "Zettelkasten/MOC.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

@@ -16,7 +16,7 @@ This is a schematic of a Transformer model architecture, starting from the botto
 5. **Multi-Head Attention**: this allows the model to focus on different positions of the input sequence, important for understanding complex dependencies:
 	- **Masked Multi-Head Attention**: used primarily in the decoder part of the transformer to ensure predictions for a sequence position can only depend on known outputs at earlier positions.
 	- **Multi-Head Attention**: in both encoder and decoder, facilitating the model to attend to all positions of the sequence simultaneously.
-6. **Add and Norm**: it's a feedforward operation, the results are added to the input of each sub-layer and normalized. This helps in stabilizing the learning process.
+6. **Add and Norimalization**: it's a feedforward operation, the results are added to the input of each sub-layer and normalized. This helps in stabilizing the learning process.
 7. **Feed Forward**: a feed-forward neural network is applied to each position separately and identically. This layer transforms the data internally to better capture complex relationships.
 8. **Nx**: This denotes that the blocks are repeated "N" times.
 9. **Output Embedding and Positional Encoding**: Similar to the input side but typically used in the decoder to generate the final result.

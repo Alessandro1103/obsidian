@@ -50,8 +50,45 @@ Self-supervise learning learn model parameters using dataset of data-data pairs 
 
 ![[Screenshot from 2024-05-07 11-28-13.png|500]]
 
-train CNN to jointly predict depth and relative pose from three video frames. 
+- **For Depth Estimation**: The Depth CNN predicts a depth map $D_t​(p)$ for each pixel $p$ in the target view $It$.
+- **For Pose Estimation**: The Pose CNN predicts the transformations (rotation and translation) between the target view and each of the nearby views.
+- **Projection**: Using the depth map from the Depth CNN and the transformations from the Pose CNN, points from the target view are projected into the source views. This step is crucial for ensuring that the depth and pose estimations make sense when comparing the target frame to its adjacent frames.
+- **Source View Alignment**: By projecting the target view's depth into the source views based on the estimated pose, the model can verify if the predicted transformations and depth map are accurate. If the projection closely aligns with the actual source views, it indicates accurate predictions.
+Train CNN to jointly predict depth and relative pose from three video frames. 
 
 ![[Screenshot from 2024-05-07 11-31-49.png|450]]
 
 Traditional U-Net with multi-scale prediction/loss. Final objective includes photoconsistency, smoothness. 
+
+**Monodepth from Stereo Supervision**:
+
+we want to train a 
+
+![[Screenshot from 2024-05-07 11-45-38.png]]
+
+
+![[Screenshot from 2024-05-07 11-46-33.png]]
+
+![[Screenshot from 2024-05-07 11-48-15.png]]
+
+
+- **(a)** the depth network processes the input image and outputs a depth map $D_t$
+- **(b)** the pose network estimates the camera motion between the current frame $(t)$ and other frames $(t')$. 
+- **(c)** 
+- **(d)** the better you see the image the better result you will have.
+
+
+![[Screenshot from 2024-05-07 11-52-47.png]]
+
+![[Screenshot from 2024-05-07 11-54-20.png]]
+
+
+![[Screenshot from 2024-05-07 11-58-41.png]]
+
+## Pretext tasks
+
+![[Screenshot from 2024-05-07 12-00-18.png]]
+
+I want to predict relative position of patches:
+![[Screenshot from 2024-05-07 12-06-18.png]]
+

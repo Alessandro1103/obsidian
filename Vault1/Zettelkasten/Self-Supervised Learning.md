@@ -92,3 +92,24 @@ we want to train a
 I want to predict relative position of patches:
 ![[Screenshot from 2024-05-07 12-06-18.png]]
 
+![[Screenshot from 2024-05-07 12-12-44.png]]
+
+![[Screenshot from 2024-05-07 12-13-43.png]]
+
+![[Screenshot from 2024-05-07 12-14-08.png]]
+
+![[Screenshot from 2024-05-07 12-14-37.png]]![[Screenshot from 2024-05-07 12-15-23.png]]
+We have to control even if the model cheats, we have to prevent shortcut learning. With shortcut learning we mean when machine learning model finds a simple solution to a problem that works well on the training data but fails to generalize to new, unseen data. Strategies to prevent this:
+1. **Low level Statistics**: When adjacent patches in an image have similar low-level statistics (like mean and variance), a model might simply use these statistics to solve the puzzle rather than understanding the content of the image. The solution can be a simple normalization of the mean and variance.
+2. **Edge Continuity**: Models can over-rely on the continuity of edges between pieces. The solution can be to select 64x64 pixel tiles randomly from slightly larger 85x85 pixel cells, disrupting direct edge continuity.
+3. **Chromatic Aberration**: 
+
+![[Screenshot from 2024-05-07 12-25-48.png]]
+
+Other task:
+- Inpainting task: try to recover a region.
+- Rotation task: try to recover the true orientation.
+
+
+## Contrastive Learning
+

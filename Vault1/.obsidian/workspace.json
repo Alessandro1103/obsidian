@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/push.md",
+                "file": "Zettelkasten/Transformers in Vision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/push.md",
+                "file": "Zettelkasten/Transformers in Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/push.md",
+                "file": "Zettelkasten/Transformers in Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,6 +154,9 @@
   },
   "active": "7d035455e8254cb4",
   "lastOpenFiles": [
+    "Files/Screenshot from 2024-05-07 10-18-38.png",
+    "Zettelkasten/push.md",
+    "Zettelkasten/Transformers in Vision.md",
     "Files/Pasted image 20240506010602.png",
     "Files/Pasted image 20240506010519.png",
     "Files/Pasted image 20240506010335.png",
@@ -164,9 +167,7 @@
     "Files/Pasted image 20240505235019.png",
     "Files/Pasted image 20240505235006.png",
     "Files/Pasted image 20240505234932.png",
-    "Files/Pasted image 20240505233427.png",
     "conflict-files-obsidian-git.md",
-    "Zettelkasten/push.md",
     "Templates/Base + Reference.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/this.md",
@@ -189,7 +190,6 @@
     "Zettelkasten/Aziende che mi hanno cercato.md",
     "Zettelkasten/Metodo Zettelkasten.md",
     "Zettelkasten/MOC.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

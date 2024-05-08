@@ -6,8 +6,6 @@ Up: [[Computer Vision]]
 ---
 # Self-Supervised Learning
 
-![[Recording 20240507124348.webm]]
-
 ## Data Annotation
 
 Data annotation is one of the main problem in Deep Learning, and in general in AI.

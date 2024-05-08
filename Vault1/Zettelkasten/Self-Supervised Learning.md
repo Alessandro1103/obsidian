@@ -99,32 +99,36 @@ In this case is shown how we can obtain different type of error to understand be
 
 ## Pretext tasks
 
-![[Screenshot from 2024-05-07 12-00-18.png]]
+Pretext tasks are pre-designed tasks for networks to solve, and visual features are learned by learning objective functions of pretext tasks.
 
-I want to predict relative position of patches:
-![[Screenshot from 2024-05-07 12-06-18.png]]
+![[Screenshot from 2024-05-07 12-00-18.png|600]]
 
-![[Screenshot from 2024-05-07 12-12-44.png]]
-
-![[Screenshot from 2024-05-07 12-13-43.png]]
-
-![[Screenshot from 2024-05-07 12-14-08.png]]
-
-![[Screenshot from 2024-05-07 12-14-37.png]]![[Screenshot from 2024-05-07 12-15-23.png]]
-We have to control even if the model cheats, we have to prevent shortcut learning. With shortcut learning we mean when machine learning model finds a simple solution to a problem that works well on the training data but fails to generalize to new, unseen data. Strategies to prevent this:
-1. **Low level Statistics**: When adjacent patches in an image have similar low-level statistics (like mean and variance), a model might simply use these statistics to solve the puzzle rather than understanding the content of the image. The solution can be a simple normalization of the mean and variance.
-2. **Edge Continuity**: Models can over-rely on the continuity of edges between pieces. The solution can be to select 64x64 pixel tiles randomly from slightly larger 85x85 pixel cells, disrupting direct edge continuity.
-3. **Chromatic Aberration**: 
+We have said that Self-Supervised learning is used to extract a feature too, well at the moment is the most important aspect of this type of machine learning. Extract the first part of the neural structure permits to adapt the neural to multiple tasks, alongside with a Supervised Learning with labelled data.
 
 
-Other task:
+### Visual Representation Learning by Solving Jigsaw Puzzles
+
+![[Screenshot from 2024-05-07 12-06-18.png|400]]
+
+
+![[Screenshot from 2024-05-07 12-12-44.png|400]]
+
+
+![[Screenshot from 2024-05-07 12-14-08.png|400]]
+
+
+![[Screenshot from 2024-05-07 12-15-23.png|400]]
+
+### Other tasks
 - Inpainting task: try to recover a region.
 - Rotation task: try to recover the true orientation.
 
-
-
-
-
+### Cheaters
+We have to control even if the model cheats, we have to prevent shortcut learning. With shortcut learning we mean when machine learning model finds a simple solution to a problem that works well on the training data but fails to generalize to new, unseen data. Strategies to prevent this:
+1. **Low level Statistics**: When adjacent patches in an image have similar low-level statistics (like mean and variance), a model might simply use these statistics to solve the puzzle rather than understanding the content of the image. The solution can be a simple normalization of the mean and variance.
+2. **Edge Continuity**: Models can over-rely on the continuity of edges between pieces. The solution can be to select 64x64 pixel tiles randomly from slightly larger 85x85 pixel cells, disrupting direct edge continuity.
+3. **Chromatic Aberration**: It's a type of distortion in which there is a failure of a lens to focus all colors to the same convergence point (see the borders):
+   ![[Screenshot from 2024-05-07 12-13-43.png|200]]
 
 ## Contrastive Learning
 

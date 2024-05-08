@@ -61,7 +61,8 @@ Train CNN to jointly predict depth and relative pose from three video frames.
 
 Traditional U-Net with multi-scale prediction/loss. Final objective includes photoconsistency, smoothness. 
 
-**Monodepth Estimation from Stereo Supervision**:
+## Monodepth Estimation from Stereo Supervision:
+In stereo depth estimation, "predicting" refers to calculating how an image appears from a different spatial perspective, not how it changes over time, using disparity maps to measure object distances and reconstruct different viewpoints.
 
 ![[Screenshot from 2024-05-07 11-45-38.png]]
 

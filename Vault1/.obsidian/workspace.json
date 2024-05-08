@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "file": "Zettelkasten/Collezioni Carte.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "file": "Zettelkasten/Collezioni Carte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "file": "Zettelkasten/Collezioni Carte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,9 +154,10 @@
   },
   "active": "9bcd14de8623c54a",
   "lastOpenFiles": [
+    "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Collezioni Carte.md",
     "Files/Pasted image 20240508154133.png",
     "Files/Recording 20240507124348.webm",
-    "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Transformers in Vision.md",
     "Files/Screenshot from 2024-05-07 12-25-48.png",
@@ -168,7 +169,6 @@
     "Files/Screenshot from 2024-05-07 12-06-18.png",
     "Files/Screenshot from 2024-05-07 12-00-18.png",
     "Files/Screenshot from 2024-05-07 11-58-41.png",
-    "Files/Screenshot from 2024-05-07 11-54-20.png",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/ML ExamQuestion.md",

@@ -21,6 +21,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "16b0b2faa4305eef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bcd14de8623c54a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"

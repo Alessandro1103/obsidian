@@ -61,32 +61,41 @@ Train CNN to jointly predict depth and relative pose from three video frames.
 
 Traditional U-Net with multi-scale prediction/loss. Final objective includes photoconsistency, smoothness. 
 
-## Monodepth Estimation from Stereo Supervision:
-In stereo depth estimation, "predicting" refers to calculating how an image appears from a different spatial perspective, not how it changes over time, using disparity maps to measure object distances and reconstruct different viewpoints.
+### Monodepth Estimation from Stereo Supervision:
+In stereo depth estimation, "predicting" refers to calculating how an image appears from a different spatial perspective, not how it changes over time, using disparity maps to measure object distances and reconstruct different viewpoints. A disparity map measures the pixel differences between two stereo images, indicating the distance of objects from the viewer by their shift in position across the images.
 
 ![[Screenshot from 2024-05-07 11-45-38.png]]
 
 The tree approaches can be summarized in:
-- **Naive Approach**: generates a right image prediction (as final result) by sampling from the left image. Then create a disparity for the right image. The disparities are not aligned with the left image from which they are derived, which is not optimal for depth estimation tasks.
-- **No LR**: wants to create a left view aligned disparity, b
+- **Naive Approach**: the right image is predicted by sampling directly from the left image, creating a disparity map that aligns with the target right image.
+- **No LR**: generates the left view by sampling from the right image. Can introduce 'texture-copy' artifacts and inaccuracies at depth discontinuities.
+- **Ours**: involves training the network to predict disparity maps for both views by sampling from their opposite images, ensuring the network uses the right image only during training and not in deployment.
 
-![[Screenshot from 2024-05-07 11-46-33.png]]
+This is the training. In the test application only one image will be used.
+
+### Digging Into Self-Supervised Monocular Depth Estimation
 
 ![[Screenshot from 2024-05-07 11-48-15.png]]
 
+**Monodepth2**:
+- **(a)** the depth network processes the input image and outputs a depth map $D_t$.
+- **(b)** the pose network estimates the camera motion between two frames $(t,t')$. 
+- **(c)** describes an advanced loss function used during the training of the depth estimation network. Instead use the "avg" operation, between forward and backward pixel reprojection errors, a "min" operation is able to better handle discrepancies.
+- **(d)** the use of multiple scales helps in capturing both global structure and local details of the scene.
 
-- **(a)** the depth network processes the input image and outputs a depth map $D_t$
-- **(b)** the pose network estimates the camera motion between the current frame $(t)$ and other frames $(t')$. 
-- **(c)** 
-- **(d)** the better you see the image the better result you will have.
+### Unsupervised Learning of Optical Flow
 
+![[Screenshot from 2024-05-07 11-52-47.png|600]]
 
-![[Screenshot from 2024-05-07 11-52-47.png]]
+The image is self-explanatory
 
-![[Screenshot from 2024-05-07 11-54-20.png]]
+![[Screenshot from 2024-05-07 11-54-20.png|600]]
 
+In this case is shown how we can obtain different type of error to understand better the neural: *data loss*, *consistency loss*
 
-![[Screenshot from 2024-05-07 11-58-41.png]]
+### Self-Supervised Monocular Scene Flow Estimation
+
+![[Screenshot from 2024-05-07 11-58-41.png|600]]
 
 ## Pretext tasks
 
@@ -107,7 +116,6 @@ We have to control even if the model cheats, we have to prevent shortcut learnin
 2. **Edge Continuity**: Models can over-rely on the continuity of edges between pieces. The solution can be to select 64x64 pixel tiles randomly from slightly larger 85x85 pixel cells, disrupting direct edge continuity.
 3. **Chromatic Aberration**: 
 
-![[Screenshot from 2024-05-07 12-25-48.png]]
 
 Other task:
 - Inpainting task: try to recover a region.

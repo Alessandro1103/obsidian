@@ -66,8 +66,8 @@ Traditional U-Net with multi-scale prediction/loss. Final objective includes pho
 ![[Screenshot from 2024-05-07 11-45-38.png]]
 
 The tree approaches can be summarized in:
-- **Naive Approach**: a CNN produces a disparity map that is aligned with the target image
-- **No LR**: this variant 
+- **Naive Approach**: generates a right image prediction (as final result) by sampling from the left image. Then create a disparity for the right image. The disparities are not aligned with the left image from which they are derived, which is not optimal for depth estimation tasks.
+- **No LR**: wants to create a left view aligned disparity, b
 
 ![[Screenshot from 2024-05-07 11-46-33.png]]
 

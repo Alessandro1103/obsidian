@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0dc67c14f8e54e82",
+        "id": "3bd17542dfb0f5f4",
         "type": "tabs",
         "children": [
           {
-            "id": "7d035455e8254cb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Transformers in Vision.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d433b858076b5d34",
+            "id": "5d6f78240d142f42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20240420173404",
+                "query": "Recording 20240507124348.webm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -148,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,18 +143,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": false
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "d433b858076b5d34",
+  "active": "5d6f78240d142f42",
   "lastOpenFiles": [
     "Files/Recording 20240507124348.webm",
+    "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Optical Flow.md",
+    "Zettelkasten/Transformers in Vision.md",
     "Files/Screenshot from 2024-05-07 12-25-48.png",
     "Files/Screenshot from 2024-05-07 12-15-23.png",
     "Files/Screenshot from 2024-05-07 12-14-37.png",
@@ -179,31 +168,28 @@
     "Files/Screenshot from 2024-05-07 12-00-18.png",
     "Files/Screenshot from 2024-05-07 11-58-41.png",
     "Files/Screenshot from 2024-05-07 11-54-20.png",
-    "Zettelkasten/Self-Supervised Learning.md",
-    "Zettelkasten/Transformers in Vision.md",
-    "Zettelkasten/push.md",
-    "conflict-files-obsidian-git.md",
-    "Templates/Base + Reference.md",
-    "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/this.md",
-    "Zettelkasten/$I_x u + I_y v + I_t = 0$.md",
-    "Zettelkasten/Mermaid.md",
-    "Zettelkasten/To-Do Università.md",
-    "Zettelkasten/Regali per Me.md",
-    "Zettelkasten/Psicologia.md",
-    "Zettelkasten/QuickNote.md",
-    "Zettelkasten/Note.md",
-    "Zettelkasten/Craxi.md",
+    "Zettelkasten/PDDL.md",
     "Zettelkasten/Movimento Prezzi ETF.md",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
-    "Templates/YouTube.md",
-    "Zettelkasten/Interactive Graphics.md",
-    "Zettelkasten/Codici MatLab.md",
-    "Zettelkasten/MatLab.md",
-    "Zettelkasten/Dubbi robotics 2.md",
-    "Zettelkasten/Robotics2 appunti.md",
+    "Zettelkasten/ML ExamQuestion.md",
+    "Zettelkasten/Delete Relaxation Heuristics.md",
+    "Zettelkasten/CSP PT2.md",
+    "Zettelkasten/Craxi.md",
+    "Zettelkasten/Cose.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/push.md",
+    "Zettelkasten/Adversarial Search.md",
+    "Zettelkasten/AI Planning Formalisms.md",
+    "Zettelkasten/Appunti.md",
+    "Zettelkasten/Atlas Reply Presentation.md",
     "Zettelkasten/Aziende che mi hanno cercato.md",
-    "Zettelkasten/Metodo Zettelkasten.md",
+    "Zettelkasten/Bias Cognitivi.md",
+    "Zettelkasten/Causal Graphs.md",
+    "Zettelkasten/Classical Search PT1.md",
+    "Zettelkasten/Classical Search PT2.md",
+    "Zettelkasten/Codici MatLab.md",
+    "Zettelkasten/Come non sprecare tempo e denaro.md",
+    "Zettelkasten/CSP PT1.md",
+    "Zettelkasten/Critical Path Heuristics.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
@@ -213,7 +199,6 @@
     "Files/post-handout 1.pdf",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Files/rp_01_compilers_and_build_systems.pdf",
-    "Files/Recording 20231004111518.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

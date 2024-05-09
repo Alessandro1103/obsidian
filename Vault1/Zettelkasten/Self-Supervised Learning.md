@@ -130,3 +130,9 @@ We have to control even if the model cheats, we have to prevent shortcut learnin
 
 ## Contrastive Learning
 
+### Hope of Generalization
+
+With Hope of Generalization in machine learning, specifically focusing on how CNN are pre-trained and how this pre-training can potentially be transferred to other tasks:
+
+1. The process starts with large dataset (pre train data)
+2. 

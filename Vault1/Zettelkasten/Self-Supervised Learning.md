@@ -148,5 +148,12 @@ The "Hope of Generalization" is the expectation or hope that the network will le
 **Transfer Task**: Later, you want to use the learned features from this network to perform object recognition.
 **Alignment**: If the features learned during the Jigsaw puzzle task help the network recognize edges, shapes, and textures of objects, there is a good alignment. These features are useful for identifying objects in new images during the transfer task.
 
-The pretext task should be invariant to nuisance factors (location lighting color)
+The pretext task should be invariant to nuisance factors (location lighting color).
+
+![[Pasted image 20240510121400.png|500]]
+
+Given a score function $s(\cdot,\cdot)$, we want to learn an encoder $f$ that yields "
+- high score for positive pairs: $(x,x^+)$
+- low score for negative pairs: $(x,x^-)$
+$\rightarrow s(f(x), f(x^+)>>s(f(x), f(x^-))$
 

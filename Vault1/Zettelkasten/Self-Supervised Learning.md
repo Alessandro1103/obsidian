@@ -135,4 +135,15 @@ We have to control even if the model cheats, we have to prevent shortcut learnin
 With Hope of Generalization in machine learning, specifically focusing on how CNN are pre-trained and how this pre-training can potentially be transferred to other tasks:
 
 1. The process starts with large dataset (pre train data)
-2. 
+2. The ConvNet undergoes training using a specific task without supervision
+3. The ConvNet's learned features are fixed, and only the final layer is trained to perform new task.
+
+The "Hope of Generalization" is the expectation or hope that the network will learn universally useful features during pre-training that are applicable to a wide range of tasks.
+
+>[!example] 
+**Pre-training Task**: Let's say you train a neural network to recognize and rearrange shuffled parts of an image (like a Jigsaw puzzle).
+**Transfer Task**: Later, you want to use the learned features from this network to perform object recognition.
+**Alignment**: If the features learned during the Jigsaw puzzle task help the network recognize edges, shapes, and textures of objects, there is a good alignment. These features are useful for identifying objects in new images during the transfer task.
+
+
+

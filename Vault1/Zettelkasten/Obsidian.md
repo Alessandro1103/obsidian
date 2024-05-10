@@ -25,7 +25,7 @@ Up: [[Obsidian]]
 
 >[!info]
 >Here is a callout block
->It supports **Markdown**, [[Cose|link]]
+>It supports **Markdown**, [[Obsidian|link]]
 
 > [!faq]- Are callouts foldable? 
 > > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
@@ -33,6 +33,8 @@ Up: [[Obsidian]]
 > [!question] Can callouts be nested? 
 > > [!todo] Yes!, they can.
 > > > [!example] You can even use multiple layers of nesting.
+
+[Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts)
 
 ```js
 function fancyAlert(arg) {

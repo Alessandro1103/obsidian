@@ -114,4 +114,20 @@ $$
 \end{align*} 
 $$
 
-where  $r^2 = x^2 + y^2$  (radial distortion). The first part (the one multiplies x and y) is the **radial distortion**, the second one is the **tangential distortion**. Images 
+where  $r^2 = x^2 + y^2$  (radial distortion). The first part (the one multiplies x and y) is the **radial distortion**, the second one is the **tangential distortion**. Images needs to be **undistorted**.
+
+The lens distortion can be represented as:
+$$
+\begin{align*}
+&{}^CX_u = {}^CX_d + \delta_x &{}^CY_u = {}^CY_d + \delta_y
+\end{align*}
+$$
+If there is no lens distortion both $\delta=0$.
+
+![[Pasted image 20240510165911.png|400]]
+
+### Stereo and Triangulation
+
+![[Pasted image 20240510170005.png|400]]
+
+![[Pasted image 20240510170018.png|400]]

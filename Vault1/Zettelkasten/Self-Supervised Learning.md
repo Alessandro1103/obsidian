@@ -148,6 +148,8 @@ The "Hope of Generalization" is the expectation or hope that the network will le
 **Transfer Task**: Later, you want to use the learned features from this network to perform object recognition.
 **Alignment**: If the features learned during the Jigsaw puzzle task help the network recognize edges, shapes, and textures of objects, there is a good alignment. These features are useful for identifying objects in new images during the transfer task.
 
+### Contrastive Learning
+
 The pretext task should be invariant to nuisance factors (location lighting color).
 
 ![[Pasted image 20240510121400.png|500]]
@@ -163,7 +165,22 @@ $$
 \mathcal{L} = -\mathbb{E}_x \left[ \log \frac{\exp(s(f(x), f(x^+)))}{\exp(s(f(x), f(x^+))) + \sum_{j=1}^{N-1} \exp(s(f(x), f(x_j^-)))} \right]
 $$
 
+The loss function is designed to push the encoder $f$ to produce similar feature vector for $x,x^+$, and dissimilar feature vectors for $x$ and $x^-$.
 Known as **InfoNCE loss** and its negative is a *lower bound* on the mutual information between $f(x)$ and $f(x^+)$:
 $$
 MI[f(x),f(x^+)]\geq log(N)-\mathcal{L}
 $$
+The score function is defined as:
+$$
+s(f_1, f_2) = \frac{f_1^T f_2}{||f_1|| \cdot ||f_2||}
+$$
+This choice is favoured because it effectively captures how aligned or similar two feature vectors are (measures cosine), regardless of their magnitude, making it ideal for comparing normalized embeddings.
+
+SimCLR uses a projection network to project features to a space where constrastive learning is applied. The projection improves learning.
+
+![[Pasted image 20240510140004.png|250]]
+
+![[Pasted image 20240510140455.png|500]]
+
+### Momentum Contrast
+

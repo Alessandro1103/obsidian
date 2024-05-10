@@ -132,6 +132,9 @@ We have to control even if the model cheats, we have to prevent shortcut learnin
 
 ### Hope of Generalization
 
+>[!Info]
+In simple terms, pre-train a neural network refers to first training a model on one task or dataset. Then using the parameters or model from this training to train another model on a different task or dataset.
+
 With Hope of Generalization in machine learning, specifically focusing on how CNN are pre-trained and how this pre-training can potentially be transferred to other tasks:
 
 1. The process starts with large dataset (pre train data)
@@ -145,5 +148,5 @@ The "Hope of Generalization" is the expectation or hope that the network will le
 **Transfer Task**: Later, you want to use the learned features from this network to perform object recognition.
 **Alignment**: If the features learned during the Jigsaw puzzle task help the network recognize edges, shapes, and textures of objects, there is a good alignment. These features are useful for identifying objects in new images during the transfer task.
 
-
+The pretext task should be invariant to nuisance factors (location lighting color)
 

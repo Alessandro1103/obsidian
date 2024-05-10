@@ -184,3 +184,9 @@ SimCLR uses a projection network to project features to a space where constrasti
 
 ### Momentum Contrast
 
+Momentum Contrast (MoCo) trains a visual representation encoder by matching an encoded query $q$ to a dictionary of encoded keys using a contrastive loss. The dictionary keys ${k0, k1, k2, \dots}$ are defined on-the-fly by a set of data samples. The dictionary is built as a queue, with the current mini-batch enqueued and the oldest mini-batch dequeued, decoupling it from the mini-batch size. The keys in the dictionary are encoded by a secondary encoder, which progresses more slowly than the primary or query encoder. This slower progression is maintained through a momentum-based update rule, where the parameters 𝜃𝑘θk​ of the key encoder are updated as follows: $\theta_k = \beta \theta_k + (1-\beta) \theta_q$
+![[Pasted image 20240510144320.png|250]]
+
+
+### Barlow Twins
+

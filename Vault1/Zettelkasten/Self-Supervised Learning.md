@@ -190,3 +190,13 @@ Momentum Contrast (MoCo) trains a visual representation encoder by matching an e
 
 ### Barlow Twins
 
+The method approach is to produce 2 distorted views for all the images of a batch $X$ sampled from a dataset. After a deep network these produces batches of embeddings $Z^A, Z^B$. The loss function is innovative:
+$$
+\mathcal{L}_\mathcal{BT} = \sum_i (1 - c_{ii})^2 + \lambda\sum_i \sum_{j \neq i} c_{ij}^2
+
+$$
+
+Where $C$ is the cross-correlation matrix computed between the outputs of the two identical networks. 
+![[Pasted image 20240510150609.png]]
+
+There is no need of negative samples in contrastive learning

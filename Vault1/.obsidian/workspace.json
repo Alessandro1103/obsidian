@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "a6cc1cd6bbed122d",
+            "id": "709fe2ed2d58b378",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a6cc1cd6bbed122d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Camera Calibration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "file": "Zettelkasten/Camera Calibration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Self-Supervised Learning.md",
+                "file": "Zettelkasten/Camera Calibration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,23 +181,24 @@
   },
   "active": "a6cc1cd6bbed122d",
   "lastOpenFiles": [
-    "Files/Pasted image 20240510150609.png",
-    "Files/Pasted image 20240510150514.png",
-    "Files/Pasted image 20240510144320.png",
-    "Files/Pasted image 20240510140455.png",
-    "Files/Pasted image 20240510140004.png",
-    "Files/Pasted image 20240510121400.png",
-    "Zettelkasten/Obsidian.md",
+    "Files/Pasted image 20240510154623.png",
+    "Files/Pasted image 20240510154122.png",
+    "Files/Pasted image 20240510154112.png",
+    "Files/Pasted image 20240510154102.png",
+    "Files/Pasted image 20240510154040.png",
+    "Files/Pasted image 20240510154030.png",
+    "Files/Pasted image 20240510154021.png",
+    "Files/Pasted image 20240510154006.png",
+    "Files/Pasted image 20240510153955.png",
+    "Files/Pasted image 20240510153949.png",
+    "Files/Pasted image 20240510153941.png",
     "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/Obsidian.md",
     "Zettelkasten/Collezioni Carte.md",
-    "Files/Pasted image 20240508154133.png",
     "Files/Recording 20240507124348.webm",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Transformers in Vision.md",
-    "Files/Screenshot from 2024-05-07 12-25-48.png",
-    "Files/Screenshot from 2024-05-07 12-15-23.png",
-    "Files/Screenshot from 2024-05-07 12-14-37.png",
-    "Files/Screenshot from 2024-05-07 12-14-08.png",
     "Zettelkasten/PDDL.md",
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/ML ExamQuestion.md",
@@ -204,7 +218,6 @@
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Codici MatLab.md",
     "Zettelkasten/Come non sprecare tempo e denaro.md",
-    "Zettelkasten/CSP PT1.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

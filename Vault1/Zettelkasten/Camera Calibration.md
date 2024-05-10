@@ -131,3 +131,10 @@ If there is no lens distortion both $\delta=0$.
 ![[Pasted image 20240510170005.png|400]]
 
 ![[Pasted image 20240510170018.png|400]]
+
+![[Pasted image 20240510172033.png|400]]
+
+![[Pasted image 20240510172050.png|400]]
+
+![[Pasted image 20240510172111.png|400]]
+

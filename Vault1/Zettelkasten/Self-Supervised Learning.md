@@ -157,3 +157,13 @@ Given a score function $s(\cdot,\cdot)$, we want to learn an encoder $f$ that yi
 - low score for negative pairs: $(x,x^-)$
 $\rightarrow s(f(x), f(x^+)>>s(f(x), f(x^-))$
 
+This encoder measure the similarities of images referred to a certain feature.
+Let's consider a **multi-class cross entropy loss function**:
+$$
+\mathcal{L} = -\mathbb{E}_x \left[ \log \frac{\exp(s(f(x), f(x^+)))}{\exp(s(f(x), f(x^+))) + \sum_{j=1}^{N-1} \exp(s(f(x), f(x_j^-)))} \right]
+$$
+
+Known as **InfoNCE loss** and its negative is a *lower bound* on the mutual information between $f(x)$ and $f(x^+)$:
+$$
+MI[f(x),f(x^+)]\geq log(N)-\mathcal{L}
+$$

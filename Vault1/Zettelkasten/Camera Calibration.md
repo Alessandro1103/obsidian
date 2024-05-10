@@ -82,5 +82,13 @@ A lens can focus light rays coming from different directions to converge at a po
    $$
 
 3. For each corresponding point $i$ in scene and image.
+
+![[Pasted image 20240510160526.png]]
+
+![[Pasted image 20240510160532.png]]
 4. Rearranging the terms:
+   ![[Pasted image 20240510160442.png|400]]
 5. Solve for $p$:
+   $A\ p = 0$
+
+Since we are working with homogenous coordinates, scaling the coordinates doesn't make sense (we are normalizing dividing in $u$ and $v$ the last row). Since we have more columns than rows we have multiple solutions. We can choose to minimize the norm such that: $||p||^2 = 1$ or set the scale so that $p_{34}=1$. 

@@ -98,11 +98,11 @@ the geometry of four views is described by a 3x3x3x3 tensor called the quarifoca
 
 ## Triangulation
 
-I need to find  the camera center c apply the pseudo inverse of P on x, then connvet the two points (c and x), and find P+x -> Backprojection
+I need to find  the camera center c apply the pseudo inverse of P on x, then connvet the two points (c and x), and find P+x -> Back projection
 
 How do we find the exact point on the ray? is not possible
 
-WE go to the correspondance, I can P' from the with foundamental matrix. 
+WE go to the correspondence, I can P' from the with fundamental matrix. 
 
 Since x and px lies in the same line the cross product is the same. 
 

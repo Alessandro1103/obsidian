@@ -47,3 +47,22 @@ Given a point in one image mulipluing by the essential matrix will tell us the e
 
 ... epipolar line formulas
 
+x is expressed in camera coordinate system, we still have no information of the 3d world, we have the pixel value. 
+
+... properties of E matrix
+
+E si rank is important for estimate the parameter
+
+...
+
+What the difference between the essential matrix and homography?
+matrix maps a point to a line, homography point to a point
+
+## Fundamental Matrix
+
+In order to be able to use essential matrix, we need to make an assumption: the intrinsic matrices are identities. The coordinate system of the camera are equal. 
+
+We need to introduce the fundamental matrix that is a generalization of the essential matrix where the  assumption is removed. 
+...
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Transformers in Vision.md",
+                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Interactive Graphics.md",
+                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Interactive Graphics.md",
+                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,8 +165,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d433b858076b5d34",
+  "active": "7d035455e8254cb4",
   "lastOpenFiles": [
+    "Zettelkasten/Transformers in Vision.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/pull.md",
     "Zettelkasten/Obsidian.md",
@@ -183,7 +186,6 @@
     "Files/Pasted image 20240510170018.png",
     "Files/Pasted image 20240510170005.png",
     "Files/Recording 20240507124348.webm",
-    "Zettelkasten/Transformers in Vision.md",
     "Zettelkasten/push.md",
     "conflict-files-obsidian-git.md",
     "Templates/Base + Reference.md",
@@ -200,10 +202,8 @@
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Templates/YouTube.md",
-    "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Codici MatLab.md",
     "Zettelkasten/MatLab.md",
-    "Zettelkasten/Dubbi robotics 2.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

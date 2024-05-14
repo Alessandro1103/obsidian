@@ -65,4 +65,45 @@ In order to be able to use essential matrix, we need to make an assumption: the 
 We need to introduce the fundamental matrix that is a generalization of the essential matrix where the  assumption is removed. 
 ...
 
+## 8-point Algorithm
+
+We need to understand how to estimate the F
+Find correspondences, we can run a detector and match the key point, and after that, we have the key point matched: x
+
+...
+
+we could have some problem with the algorithm, could happens that the difference between the column is very huge, that yields to poor results. 
+
+So ve need to normalize, instead of using a general dimension we can transform the image in a scale that is between -1 to 1. Now the x is driven by T transformation. 
+Use the eight point algorithm to compute F
+In order to comeback to the original point we need to enforce the rank 2 constraint, we wanto to take svd of f andthrow out the smallest singular valura, and we need to transform formdamental matrix nack to riginal units, if T and Tì are the normalizing tranfomations in the two images than the fundamental matrix in orginal coordinates is T'^T F T. This is done to obtaine the coordinate in the originalk space. 
+
+If we know the calibration matrices of the two camers, we can estimate the essential matrix: E = K^T F K
+THe essential matrix gives us the relative rotation and translation bwtween the cameras, or thei extrinsinc parameters.
+Fundamental matrix lets us compute relationship up to scale for cameras with unknown instrinsic calibraions. Estimating the fundamental matrix is a kind of "weak calibration". 
+
+**Normalized eight point algorithm**:
+1. normalize points
+2. constrauct the Mx9 matrix A (M= 8 atleats)
+3. Find the svd of A
+4. entries of F are the elements of column of V corrsponding to the least singular valur
+5. enforce rank2 contraint on F
+6. unnomalize F
+
+...
+
+the geometry of three views is described by a 3x3x3 tensor called the trifocal tensor
+the geometry of four views is described by a 3x3x3x3 tensor called the quarifocal tensor
+...
+
+## Triangulation
+
+I need to find  the camera center c apply the pseudo inverse of P on x, then connvet the two points (c and x), and find P+x -> Backprojection
+
+How do we find the exact point on the ray? is not possible
+
+WE go to the correspondance, I can P' from the with foundamental matrix. 
+
+Since x and px lies in the same line the cross product is the same. 
+
 

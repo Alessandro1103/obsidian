@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Camera Calibration.md",
+                "file": "Zettelkasten/Temporal.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Camera Calibration.md",
+                "file": "Zettelkasten/Temporal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Camera Calibration.md",
+                "file": "Zettelkasten/Temporal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,6 +181,8 @@
   },
   "active": "a6cc1cd6bbed122d",
   "lastOpenFiles": [
+    "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/Temporal.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Files/Pasted image 20240510180802.png",
     "Files/Pasted image 20240510180723.png",
@@ -193,7 +195,6 @@
     "Files/Pasted image 20240510170018.png",
     "Files/Pasted image 20240510170005.png",
     "Zettelkasten/Self-Supervised Learning.md",
-    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/Collezioni Carte.md",
     "Files/Recording 20240507124348.webm",
@@ -217,7 +218,6 @@
     "Zettelkasten/Classical Search PT1.md",
     "Zettelkasten/Classical Search PT2.md",
     "Zettelkasten/Codici MatLab.md",
-    "Zettelkasten/Come non sprecare tempo e denaro.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",

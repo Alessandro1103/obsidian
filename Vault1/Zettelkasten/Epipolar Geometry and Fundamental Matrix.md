@@ -72,6 +72,12 @@ page: 13
 scale: 0.8
 ```
 
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 16, 17, 18
+scale: 0.2
+```
+
 We have two planes, two optical center (camera location), we need to estimate p. 
 The line between the optical center, is called Baseline. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing throught epipole. The two epipolar line are not the same. 
 

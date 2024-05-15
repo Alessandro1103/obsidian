@@ -72,8 +72,8 @@ page: 13
 scale: 0.8
 ```
 
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+```slide-note
+url: https://drive.google.com/file/d/1EXA4ZQxLT0WYcJwIrj6-cwD-_Rk8tWG3/view?authuser=2&usp=classroom_web 
 page: 16, 17, 18
 scale: 0.2
 ```

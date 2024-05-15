@@ -138,16 +138,28 @@ var FontPlugin = class extends import_obsidian.Plugin {
     const file = `${this.config_dir}/fonts/${font_file_name}`;
     const arrayBuffer = await this.app.vault.adapter.readBinary(file);
     const base64 = arrayBufferToBase64(arrayBuffer);
-    const css_type_font = {
-      "woff": "font/woff",
-      "ttf": "font/truetype",
-      "woff2": "font/woff2"
-    };
     const font_family_name = font_file_name.split(".")[0];
     const font_extension_name = font_file_name.split(".")[1];
+    let css_type = "";
+    switch (font_extension_name) {
+      case "woff":
+        css_type = "font/woff";
+        break;
+      case "ttf":
+        css_type = "font/truetype";
+        break;
+      case "woff2":
+        css_type = "font/woff2";
+        break;
+      case "otf":
+        css_type = "font/opentype";
+        break;
+      default:
+        css_type = "font";
+    }
     const base64_css = `@font-face{
 	font-family: '${font_family_name}';
-	src: url(data:${css_type_font[font_extension_name]};base64,${base64});
+	src: url(data:${css_type};base64,${base64});
 }`;
     this.app.vault.adapter.write(css_font_path, base64_css);
     console.log("saved font %s into %s", font_family_name, css_font_path);

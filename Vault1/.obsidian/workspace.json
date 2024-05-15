@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "63fe004adcf9baf1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2f050bdb0b38b8a4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "0dc67c14f8e54e82",
         "type": "tabs",
         "children": [
@@ -35,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8322f62442f7bf4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/StereoMatching.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,10 +167,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "7d035455e8254cb4",
+  "active": "8322f62442f7bf4e",
   "lastOpenFiles": [
-    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
+    "Files/StereoMatching_CV2324.pdf",
+    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/Temporal.md",
     "Zettelkasten/Transformers in Vision.md",
     "Zettelkasten/Interactive Graphics.md",
@@ -207,7 +207,6 @@
     "Zettelkasten/Craxi.md",
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
-    "Templates/YouTube.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
@@ -215,7 +214,6 @@
     "Files/slideIA 1.pdf",
     "Files/post-handout.pdf",
     "Files/post-handout 1.pdf",
-    "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -161,8 +161,6 @@ We need to resort on a sistem like this, where we have the image plane, find the
  scale: 0.8 
  ```
 
-
-
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 26 
@@ -174,6 +172,8 @@ We need to resort on a sistem like this, where we have the image plane, find the
  page: 27 
  scale: 0.8 
  ```
+
+The difference between the two camera needs to be large enought. And the image needs to be warped.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -199,11 +199,14 @@ We need to resort on a sistem like this, where we have the image plane, find the
  scale: 0.8 
  ```
 
+We need to rectify both images, like warping
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 32 
  scale: 0.8 
  ```
+Not useful for exam
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -222,7 +225,8 @@ We need to resort on a sistem like this, where we have the image plane, find the
  page: 35 
  scale: 0.8 
  ```
-
+The epipolar lines are now parallel
+ 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 36 
@@ -240,6 +244,7 @@ We need to resort on a sistem like this, where we have the image plane, find the
  page: 38 
  scale: 0.8 
  ```
+## Local Stereo Matching Algorithm
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -258,6 +263,7 @@ We need to resort on a sistem like this, where we have the image plane, find the
  page: 41 
  scale: 0.8 
  ```
+THe dimention of the patch is important. The bleck values = is not possible to calcolulate the disparity, meaning that in the other image maybe that pasrt ther isnt. 
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -307,6 +313,8 @@ We need to resort on a sistem like this, where we have the image plane, find the
  scale: 0.8 
  ```
 
+Left right consistency, apply disparity from a to b, viceversa and then sum up togheter
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 50 
@@ -319,11 +327,15 @@ We need to resort on a sistem like this, where we have the image plane, find the
  scale: 0.8 
  ```
 
+for each pixel we can say what is the match score? using the similarity matrix we choose. 
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 52 
  scale: 0.8 
  ```
+
+using for each patches
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -366,6 +378,7 @@ We need to resort on a sistem like this, where we have the image plane, find the
  page: 59 
  scale: 0.8 
  ```
+## Beyond local stereo matching
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

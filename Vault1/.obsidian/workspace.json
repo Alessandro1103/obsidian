@@ -146,14 +146,21 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "bfe064f0ed504b9d",
+            "type": "leaf",
+            "state": {
+              "type": "slidenote-pdfcanvas",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {

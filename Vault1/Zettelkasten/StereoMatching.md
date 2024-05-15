@@ -147,6 +147,8 @@ Up:
  scale: 0.8 
  ```
 
+We need to resort on a sistem like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 24 
@@ -158,6 +160,8 @@ Up:
  page: 25 
  scale: 0.8 
  ```
+
+
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

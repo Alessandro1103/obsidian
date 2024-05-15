@@ -6,21 +6,71 @@ Up: [[Computer Vision]]
 ---
 # Epipolar Geometry and Fundamental Matrix
 
+## Introduction
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 2
+scale: 0.8
+```
+
 We have a point in a image and we wand to know where is the point in the others images.
 
-Camera motion: We have no information in camera meters, and we want to calculate it
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 3
+scale: 0.8
+```
 
-Structure from motion: we have differenti projection of the 3d object, and i want to compute the 3d coordinates of that point, and extract the camera parameters.
+We have no information in camera parameters, and we want to calculate it
 
-How to compute the camera calibration by P. Its possible to obtain P by svd, and we can scompose the matrix in k (kernel parameter) and R (rotation coordinates)
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 4
+scale: 0.8
+```
+
+We have different projection of the 3D object, and i want to compute the 3D coordinates of that point, and extract the camera parameters.
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 5
+scale: 0.8
+```
+
+The relationship between 3D points and their 2D image projection is represented by equation: $x = f(X; p) = PX$ where P is the camera matrix which transform 3D coordinates in 2D. The camera matrix P can be decomposed into intrinsic parameters K and extrinsic \[R|t\] (R rotational, t translation). To find the camera center C we have $Pc=0$. 
 
 Now that our cameras are calibrated, can we find the 3D scene point of a pixel?
-We miss the depth: "image"
 
-**Uncalibrated Stereo**: We need the information of the two cameras, we suppose that the intrinsic parameter (optical center...) are known for both, assuming we have already calibrated everything. 
-We want to estimate the point P, we assume camera metrix k in known, we want to find a few reliable corresponding points, find relative camera position t and orientation R respact to other, finde dense correspondace respect to the other. After that we need to compute depth using Triangulation.
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 7
+scale: 0.8
+```
+
+We can not due to the loss of depth information. But we can if we have additional information like multiple camera perspectives, to pinpoint the exact location along the ray where he lies down.
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 9
+scale: 0.8
+```
+
+**Uncalibrated stereo**: We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are known for both, assuming we have already calibrated everything. 
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 10
+scale: 0.8
+```
 
 ## Epipolar Geometry
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 13
+scale: 0.8
+```
 
 We have two planes, two optical center (camera location), we need to estimate p. 
 The line between the optical center, is called Baseline. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing throught epipole. The two epipolar line are not the same. 

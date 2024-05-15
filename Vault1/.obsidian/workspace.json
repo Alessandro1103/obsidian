@@ -4,6 +4,22 @@
     "type": "split",
     "children": [
       {
+        "id": "63fe004adcf9baf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f050bdb0b38b8a4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "0dc67c14f8e54e82",
         "type": "tabs",
         "children": [
@@ -19,35 +35,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8317bbe32df6cbd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Temporal.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d433b858076b5d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Interactive Graphics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20240420173404",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Temporal.md",
+                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Temporal.md",
+                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,11 +165,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "8317bbe32df6cbd7",
+  "active": "7d035455e8254cb4",
   "lastOpenFiles": [
+    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Temporal.md",
     "Zettelkasten/Transformers in Vision.md",
@@ -217,7 +208,6 @@
     "Zettelkasten/Movimento Prezzi ETF.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Templates/YouTube.md",
-    "Zettelkasten/Codici MatLab.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
@@ -226,7 +216,6 @@
     "Files/post-handout.pdf",
     "Files/post-handout 1.pdf",
     "Reference notes/IRENA_World_energy_transitions_outlook_v1_2023.pdf",
-    "Files/rp_01_compilers_and_build_systems.pdf",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

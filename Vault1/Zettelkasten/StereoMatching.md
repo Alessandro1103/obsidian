@@ -416,6 +416,8 @@ using for each patches
  scale: 0.8 
  ```
 
+we have a base scan line, other 2 depending on the camera, since we are measuring the dispariity froma lefto to right, the blue pixel can non be seen from the right and the grey can not be visible from the left. Is it a Minimizazion porblem?
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 66 
@@ -427,6 +429,7 @@ using for each patches
  page: 67 
  scale: 0.8 
  ```
+## Stereo Matching with Dynamic Programming
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -439,6 +442,7 @@ using for each patches
  page: 69 
  scale: 0.8 
  ```
+We need to considere the disparity matrix, the ceneter part, and we need to find a path that bring us from start point to the end.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -458,11 +462,15 @@ using for each patches
  scale: 0.8 
  ```
 
+Since we have some missing areas, due to the occlusion
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 73 
  scale: 0.8 
  ```
+
+Occlusin costatnt suggest the presence of the occlusion 
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -511,6 +519,7 @@ using for each patches
  page: 81 
  scale: 0.8 
  ```
+## Stereo Matching with Graph Cut algorithm
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -685,7 +694,3 @@ using for each patches
  page: 110 
  scale: 0.8 
  ```
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal

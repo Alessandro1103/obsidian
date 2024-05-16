@@ -68,42 +68,90 @@ scale: 0.8
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 13
+page: 14,15,16,17
 scale: 0.8
 ```
 
+We need to estimate $p$.
+We have two planes, two optical center (camera location) called $o$ and $o'$, the line between the optical center, is called *Baseline*. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing through epipole. The two epipolar line are not the same. 
+
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 16, 17, 18
-scale: 0.5
+page: 19
+scale: 0.8
+```
+We can establish epipolar constraints. The only thing I can do is to project x onto a ray in 3D. I can find x on the corresponding epipolar line in the other image. My goal is to match x in this second image. While I cannot determine the exact location of the point, I can estimate it.
+
+**Converging cameras**
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 20
+scale: 0.8
 ```
 
-We have two planes, two optical center (camera location), we need to estimate p. 
-The line between the optical center, is called Baseline. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing throught epipole. The two epipolar line are not the same. 
+Converging cameras result in finite epipoles within the images, epipolar lines that converge at the epipoles, and a well-defined epipolar geometry that aids in finding correspondences for 3D reconstruction.
 
-We can build Epipolar contraints, the only thing i can do is to backpokect x to a ray in 3d. I can find x in the other epipolar line, so I want to find x in the other image. I want to find the mathc in the other image. I can not find the exact location of the point, i can estimate it. 
+**Parallels Cameras**
 
-When we have converging camera, to estimate the epipole. The epiole can be outsite the image plane. Epipolar lines converge, for each point in the 3d image, is it possible to build a new epipolar line. 
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 25
+scale: 0.8
+```
 
-In parallel cameras the Epipole is at infinity. 
+Parallel cameras lead to epipoles at infinity and parallel epipolar lines, which greatly simplifies the epipolar geometry and the process of finding corresponding points for 3D reconstruction.
 
-... Forward Motion
+**Forward Motion**
 
-1. line
-2. optical center
-3. line
-4. optical center 
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 29
+scale: 0.8
+```
+
+For forward motion, the epipole is located at the focus of expansion (the principal point), and the epipolar lines radiate outward from this point.
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 30
+scale: 0.8
+```
+
+1. point $x'$
+2. camera centers $o$ and $o'$
+3. corresponding epipolar line
+4. camera center 
 5. epipole
 
-match one point in one image and find it in the other image. Epipolar constraint rexuces search to a single line. How do we compute the pipolar line?
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 33
+scale: 0.8
+```
 
+To match a point in one image and find it in another, we use the epipolar constraint, which reduces the search to a single line. How do we compute the epipolar line?
 ## Essential Matrix
 
-Given a point in one image mulipluing by the essential matrix will tell us the epipolar line in the second view. 
+Given a point in one image, multiplying it by the essential matrix will determine the corresponding epipolar line in the second view. So we have a relation between $l'$ and $x$. We write this "relation" as $Ex = l'$.
+Writing the Epipolar line as: $ax + by+x =0$ or in vector form: $l = \begin{bmatrix} a \\ b \\ c \end{bmatrix}$. If a point $x$ is on the epipolar line $l$, then the dot product $x^Tl = 0$.
 
-... epipolar line formulas
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 39
+scale: 0.8
+```
 
-x is expressed in camera coordinate system, we still have no information of the 3d world, we have the pixel value. 
+We don't know how to obtain $E$.
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 44,45,46
+scale: 0.8
+```
+
+So $E$ is equal to: $E = \mathbf{R} [\mathbf{t}]_\times$​
+
 
 ... properties of E matrix
 

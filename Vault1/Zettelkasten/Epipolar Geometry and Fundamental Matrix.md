@@ -193,12 +193,16 @@ scale: 0.8
 
 We can calculate the epipole with $Fe = 0$ so using a SVD (Singular Value Decomposition).
 
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 81
+scale: 0.8
+```
+
 ## 8-point Algorithm
 
 We need to understand how to estimate the F
 Find correspondences, we can run a detector and match the key point, and after that, we have the key point matched: x
-
-...
 
 we could have some problem with the algorithm, could happens that the difference between the column is very huge, that yields to poor results. 
 

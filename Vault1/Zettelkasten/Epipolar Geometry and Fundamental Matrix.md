@@ -206,9 +206,7 @@ Find correspondences, we can run a detector and match the key point, and after t
 
 we could have some problem with the algorithm, could happens that the difference between the column is very huge, that yields to poor results. 
 
-So ve need to normalize, instead of using a general dimension we can transform the image in a scale that is between -1 to 1. Now the x is driven by T transformation. 
-Use the eight point algorithm to compute F
-In order to comeback to the original point we need to enforce the rank 2 constraint, we wanto to take svd of f andthrow out the smallest singular valura, and we need to transform formdamental matrix nack to riginal units, if T and Tì are the normalizing tranfomations in the two images than the fundamental matrix in orginal coordinates is T'^T F T. This is done to obtaine the coordinate in the originalk space. 
+To normalize, instead of using a general dimension, we can transform the image into a scale that ranges from -1 to 1. Now, the $x$ is driven by $T$ transformation. Use the eight-point algorithm to compute $F$. In order to return to the original point, we need to enforce the rank 2 constraint. We want to take the SVD of $F$ and discard the smallest singular value, and then transform the fundamental matrix back to the original units. If $T$ and $T'$ are the normalizing transformations in the two images, then the fundamental matrix in original coordinates is $T'^T F T$. This is done to obtain the coordinates in the original space.
 
 If we know the calibration matrices of the two camers, we can estimate the essential matrix: E = K^T F K
 THe essential matrix gives us the relative rotation and translation bwtween the cameras, or thei extrinsinc parameters.

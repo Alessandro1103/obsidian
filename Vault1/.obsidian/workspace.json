@@ -31,7 +31,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,10 +172,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "470488e340aeae6c",
+  "active": "5c8a4c5d944322ad",
   "lastOpenFiles": [
-    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/StereoMatching.md",
     "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/Temporal.md",

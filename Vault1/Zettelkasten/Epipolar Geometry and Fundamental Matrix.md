@@ -160,7 +160,8 @@ the matrix maps a point on a line, homography a point on a point
 In order to be able to use essential matrix, we need to make an assumption: the intrinsic matrices are identities. The coordinate system of the camera are equal. 
 
 We need to introduce the fundamental matrix that is a generalization of the essential matrix where the assumption is removed. 
-...
+
+We start defining the use of the Fundamental Matrix as the Essential matrix: $x'^T F x = 0$ this works if we define F (the fundamental matrix) as: $F = K'^{-T}EK^{-1}$ 
 
 ## 8-point Algorithm
 

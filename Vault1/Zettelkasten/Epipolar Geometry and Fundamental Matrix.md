@@ -152,21 +152,14 @@ scale: 0.8
 
 So $E$ is equal to: $E = \mathbf{R} [\mathbf{t}]_\times$​
 
-
-... properties of E matrix
-
-E si rank is important for estimate the parameter
-
-...
-
-What the difference between the essential matrix and homography?
-matrix maps a point to a line, homography point to a point
+What is the difference between the essential matrix and homography?
+the matrix maps a point on a line, homography a point on a point
 
 ## Fundamental Matrix
 
 In order to be able to use essential matrix, we need to make an assumption: the intrinsic matrices are identities. The coordinate system of the camera are equal. 
 
-We need to introduce the fundamental matrix that is a generalization of the essential matrix where the  assumption is removed. 
+We need to introduce the fundamental matrix that is a generalization of the essential matrix where the assumption is removed. 
 ...
 
 ## 8-point Algorithm

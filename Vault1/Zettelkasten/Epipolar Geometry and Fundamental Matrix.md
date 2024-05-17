@@ -217,13 +217,36 @@ file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf
 page: 88, 89
 scale: 0.8
 ```
+You need at least 8 points for the 8-point algorithm in computer vision because each pair of corresponding points provides one linear equation, and the fundamental matrix $F$ has 9 unknowns (its 9 elements). While using 9 points can theoretically give a unique solution to the homogeneous linear system for the fundamental matrix 𝐹F, practical implementations typically use more points to ensure robustness against noise and to improve the accuracy of the solution. In all cases, the solution must also satisfy the rank-2 constraint, often enforced through SVD after the initial estimation.
 
-we could have some problem with the algorithm, could happens that the difference between the column is very huge, that yields to poor results. 
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 92
+scale: 0.8
+```
+We could have some problem with the algorithm, could happens that the difference between the column is very huge, that yields to poor results. 
+To normalize, instead of using a general dimension, we can transform the image into a scale that ranges from -1 to 1. 
 
-To normalize, instead of using a general dimension, we can transform the image into a scale that ranges from -1 to 1. Now, the $x$ is driven by $T$ transformation. Use the eight-point algorithm to compute $F$. In order to return to the original point, we need to enforce the rank 2 constraint. We want to take the SVD of $F$ and discard the smallest singular value, and then transform the fundamental matrix back to the original units. If $T$ and $T'$ are the normalizing transformations in the two images, then the fundamental matrix in original coordinates is $T'^T F T$. This is done to obtain the coordinates in the original space.
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 93
+scale: 0.8
+```
+Now, the $x$ is driven by $T$ transformation. 
 
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 94
+scale: 0.8
+```
 If we know the calibration matrices of the two cameras, we can estimate the essential matrix: $E = K'^T F K$. The essential matrix gives us the relative rotation and translation between the cameras, or their extrinsic parameters. The fundamental matrix lets us compute relationships up to scale for cameras with unknown intrinsic calibrations. Estimating the fundamental matrix is a kind of "weak calibration".
 
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 97
+scale: 0.8
+```
 **Normalized eight-point algorithm**:
 1. Normalize points
 2. Construct the $M \times 9$ matrix $A$ ($M \geq 8$)
@@ -232,17 +255,32 @@ If we know the calibration matrices of the two cameras, we can estimate the esse
 5. Enforce rank-2 constraint on $F$
 6. Unnormalize $F$
 
-...
 
-The geometry of three views is described by a $3 \times 3 \times 3$ tensor called the trifocal tensor. The geometry of four views is described by a $3 \times 3 \times 3 \times 3$ tensor called the quadrifocal tensor.
-
-...
-
-
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 102
+scale: 0.8
+```
 ## Triangulation
 
-To find the camera center $c$, apply the pseudoinverse of $P$ on $x$. Then connect the two points ($c$ and $x$), and find $P + x$ for back projection.
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 107,108,109,110
+scale: 0.8
+```
 
+To find the exact point on the ray we need the other line:
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 112
+scale: 0.8
+```
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 114
+scale: 0.8
+```
 How do we find the exact point on the ray? It is not possible.
 
 We go to the correspondence. I can find $P'$ from the fundamental matrix.

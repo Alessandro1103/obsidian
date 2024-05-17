@@ -208,32 +208,31 @@ we could have some problem with the algorithm, could happens that the difference
 
 To normalize, instead of using a general dimension, we can transform the image into a scale that ranges from -1 to 1. Now, the $x$ is driven by $T$ transformation. Use the eight-point algorithm to compute $F$. In order to return to the original point, we need to enforce the rank 2 constraint. We want to take the SVD of $F$ and discard the smallest singular value, and then transform the fundamental matrix back to the original units. If $T$ and $T'$ are the normalizing transformations in the two images, then the fundamental matrix in original coordinates is $T'^T F T$. This is done to obtain the coordinates in the original space.
 
-If we know the calibration matrices of the two camers, we can estimate the essential matrix: E = K^T F K
-THe essential matrix gives us the relative rotation and translation bwtween the cameras, or thei extrinsinc parameters.
-Fundamental matrix lets us compute relationship up to scale for cameras with unknown instrinsic calibraions. Estimating the fundamental matrix is a kind of "weak calibration". 
+If we know the calibration matrices of the two cameras, we can estimate the essential matrix: $E = K'^T F K$. The essential matrix gives us the relative rotation and translation between the cameras, or their extrinsic parameters. The fundamental matrix lets us compute relationships up to scale for cameras with unknown intrinsic calibrations. Estimating the fundamental matrix is a kind of "weak calibration".
 
-**Normalized eight point algorithm**:
-1. normalize points
-2. constrauct the Mx9 matrix A (M= 8 atleats)
-3. Find the svd of A
-4. entries of F are the elements of column of V corrsponding to the least singular valur
-5. enforce rank2 contraint on F
-6. unnomalize F
+**Normalized eight-point algorithm**:
+1. Normalize points
+2. Construct the $M \times 9$ matrix $A$ ($M \geq 8$)
+3. Find the SVD of $A$
+4. Entries of $F$ are the elements of the column of $V$ corresponding to the least singular value
+5. Enforce rank-2 constraint on $F$
+6. Unnormalize $F$
 
 ...
 
-the geometry of three views is described by a 3x3x3 tensor called the trifocal tensor
-the geometry of four views is described by a 3x3x3x3 tensor called the quarifocal tensor
+The geometry of three views is described by a $3 \times 3 \times 3$ tensor called the trifocal tensor. The geometry of four views is described by a $3 \times 3 \times 3 \times 3$ tensor called the quadrifocal tensor.
+
 ...
+
 
 ## Triangulation
 
-I need to find  the camera center c apply the pseudo inverse of P on x, then connvet the two points (c and x), and find P+x -> Back projection
+To find the camera center $c$, apply the pseudoinverse of $P$ on $x$. Then connect the two points ($c$ and $x$), and find $P + x$ for back projection.
 
-How do we find the exact point on the ray? is not possible
+How do we find the exact point on the ray? It is not possible.
 
-WE go to the correspondence, I can P' from the with fundamental matrix. 
+We go to the correspondence. I can find $P'$ from the fundamental matrix.
 
-Since x and px lies in the same line the cross product is the same. 
+Since $x$ and $Px$ lie on the same line, the cross product is the same.
 
 

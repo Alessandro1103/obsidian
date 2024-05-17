@@ -201,8 +201,22 @@ scale: 0.8
 
 ## 8-point Algorithm
 
-We need to understand how to estimate the F
+The 8-point algorithm is a fundamental method in computer vision for estimating the fundamental matrix (or the essential matrix) between two views of a scene.
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 87
+scale: 0.8
+```
+
 Find correspondences, we can run a detector and match the key point, and after that, we have the key point matched: x
+
+
+```slide-note 
+file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
+page: 88, 89
+scale: 0.8
+```
 
 we could have some problem with the algorithm, could happens that the difference between the column is very huge, that yields to poor results. 
 

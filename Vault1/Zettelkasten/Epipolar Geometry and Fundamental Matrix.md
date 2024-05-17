@@ -275,16 +275,10 @@ file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf
 page: 112
 scale: 0.8
 ```
-
+We have no information of the projection matrix, so:
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 114
+page: 115,116,117,118,119,120
 scale: 0.8
 ```
-How do we find the exact point on the ray? It is not possible.
-
-We go to the correspondence. I can find $P'$ from the fundamental matrix.
-
-Since $x$ and $Px$ lie on the same line, the cross product is the same.
-
 

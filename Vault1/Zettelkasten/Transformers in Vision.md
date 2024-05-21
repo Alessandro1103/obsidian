@@ -25,7 +25,14 @@ This is a schematic of a Transformer model architecture, starting from the botto
 
 ```slide-note 
 file: Transformers in Vision2.pdf 
-page: 7
+page: 7,8
 scale: 0.8
 ```
 
+Focus on fact that the Queries are taken from Target, which are used to search through the keys to retrieve the most relevant values. The Keys and Values are taken from the Source, these are vector representations that capture the semantic and contextual nuances of each world.
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 9,10
+scale: 0.8
+```

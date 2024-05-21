@@ -36,3 +36,70 @@ file: Transformers in Vision2.pdf
 page: 9,10,11
 scale: 0.8
 ```
+
+### Self attention
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 12,13,14,15,16,17,18,19,20,21
+scale: 0.8
+```
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 22
+scale: 0.8
+```
+The key advantage of multi-head attention is that it allows the model to consider different parts of the input sequence from multiple perspectives simultaneously. This ability to focus on various aspects of the sequence in parallel helps the Transformer model capture a more nuanced and complete representation of the input data, leading to improved performance on tasks like translation, text generation, and more.
+
+
+### Multi Head attention
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 23,24,25,26,27
+scale: 0.8
+```
+
+### Positional Encoding
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 28,29
+scale: 0.8
+```
+
+### The residuals
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 30
+scale: 0.8
+```
+
+### The encoder
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 31
+scale: 0.8
+```
+
+### Conclusions
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 32,33,34,35
+scale: 0.8
+```
+
+
+## Why self attention for vision?
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 39,40
+scale: 0.8
+```
+
+### How do we see

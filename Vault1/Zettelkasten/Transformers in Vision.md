@@ -33,6 +33,6 @@ Focus on fact that the Queries are taken from Target, which are used to search t
 
 ```slide-note 
 file: Transformers in Vision2.pdf 
-page: 9,10
+page: 9,10,11
 scale: 0.8
 ```

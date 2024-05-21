@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calander/2024-05-17.md",
+                "file": "Zettelkasten/Transformers in Vision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0f97e3ce3878cc13",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/Transformers in Vision2.pdf"
               }
             }
           }
@@ -71,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -87,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calander/2024-05-17.md",
+                "file": "Zettelkasten/Transformers in Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calander/2024-05-17.md",
+                "file": "Zettelkasten/Transformers in Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -163,14 +174,16 @@
   },
   "active": "470488e340aeae6c",
   "lastOpenFiles": [
+    "Files/Transformers in Vision2.pdf",
+    "Zettelkasten/Transformers in Vision.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Computer Vision.md",
     "Calander/2024-05-17.md",
     "Calander",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/StereoMatching.md",
     "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/Temporal.md",
-    "Zettelkasten/Transformers in Vision.md",
     "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/pull.md",
@@ -201,14 +214,11 @@
     "Zettelkasten/QuickNote.md",
     "Zettelkasten/Note.md",
     "Zettelkasten/Craxi.md",
-    "Zettelkasten/Movimento Prezzi ETF.md",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Files/Recording 20231123223359.webm",
     "Files/post-handout 3.pdf",
     "Files/post-handout 2.pdf",
     "Files/slideIA.pdf",
     "Files/slideIA 1.pdf",
-    "Files/post-handout.pdf",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

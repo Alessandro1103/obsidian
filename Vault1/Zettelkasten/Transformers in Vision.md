@@ -22,5 +22,10 @@ This is a schematic of a Transformer model architecture, starting from the botto
 9. **Output Embedding and Positional Encoding**: Similar to the input side but typically used in the decoder to generate the final result.
 10. **Linear Layer and Softmax**: the output is transformed into a final output space, and the softmax function is applied to turn logits into probabilities for each class of word.
 
-![[Screenshot from 2024-05-07 10-18-38.png|300]]
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 7
+scale: 0.8
+```
 

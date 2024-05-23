@@ -102,4 +102,18 @@ page: 39,40
 scale: 0.8
 ```
 
-### How do we see
+### How do we design vision attention models?
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 45,46,48,49,50,51,52,54,55,56,61,62
+scale: 0.8
+```
+
+## Takeaways
+
+```slide-note 
+file: Transformers in Vision2.pdf 
+page: 91
+scale: 0.8
+```

@@ -11,8 +11,13 @@
             "id": "8d75442b5f6126c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Medical Quiz Homework 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -83,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Medical Quiz Homework 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Medical Quiz Homework 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,6 +164,7 @@
   },
   "active": "8d75442b5f6126c7",
   "lastOpenFiles": [
+    "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
     "Zettelkasten/Transformers in Vision.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",

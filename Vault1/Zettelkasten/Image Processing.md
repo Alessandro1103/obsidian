@@ -196,3 +196,24 @@ Occurs when your sampling rate is not high enough ot capture the amount of detai
 
 ## Image Derivatives
 
+The mathematical point of view of partial derivatives is the following: $\frac{\partial f(x,y)}{\partial x} = \lim_{\epsilon \to 0} \frac{f(x + \epsilon, y) - f(x, y)}{\epsilon}$, a possible solution to bring this to matrix and images is the following: $\frac{\partial f(x,y)}{\partial x} \approx \frac{f(x + 1, y) - f(x - 1, y)}{2}$ which is like it's operating a convolutional operation using this kind of filter: $H = \begin{bmatrix}-1 & 0 & 1\end{bmatrix}$.
+
+The gradient points in the direction of most rapid increase in intensity
+
+![[Pasted image 20240527164614.png|500]]
+
+
+We can calculate a the **Gradient Magnitude** too: $\|\nabla f\| = \sqrt{\left( \frac{\partial f}{\partial x} \right)^2 + \left( \frac{\partial f}{\partial y} \right)^2}$
+
+![[Pasted image 20240527164645.png]]
+
+With this we can calculate the *edge strength*. An edge is a place of rapid change in the image intensity function:
+
+![[Pasted image 20240527165155.png|400]]
+
+Or the **Gradient Orientation**: $\theta = \tan^{-1} \left( \frac{\partial f}{\partial y}/{\frac{\partial f}{\partial x}} \right)$ 
+
+![[Pasted image 20240527164938.png|500]]
+
+
+The main problem with derivate filters is the *noise*.

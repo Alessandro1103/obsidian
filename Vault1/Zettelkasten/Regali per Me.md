@@ -17,6 +17,7 @@ Up: [[Regali]]
 **Giochi:**
 - [Espansioni exploding kitten](https://www.amazon.it/s?k=espansioni+exploding+kitten&adgrpid=1234751892267577&hvadid=77172160080866&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-77172250719835%3Aloc-93&hydadcr=28887_1877208&tag=amamitsp-21&ref=pd_sl_1o1kp2h42t_e)
 - [Chess](https://www.chesscomshop.com/standard-chess-set-combination-with-silicone-chess-board-standard-bag-triple-weighted-plastic-pieces.html)
+- [Etch A Sketch](https://www.amazon.it/Etch-Sketch-Sustainable-Multicolore-6066730/dp/B0BT23B1N8/ref=sr_1_11?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SNLOZ8X2PSME&dib=eyJ2IjoiMSJ9.TDL6J_aD6rvOkcXk1c3hDK9LFltOyRxPr_AtNeX2UXU88VbBn-POA4BOJ71OM7eSTnXljdmxu7oBsMiead68-5Cs5v2gtL468JeIa6cSEkl1Toj0bRsylUZw4dMZuYtQ1YKW3j_CMuO7eN8-xF6XzoML7nABgxgctoJRreVQnyOgfYRwJDASqGHc2wwi4fWH4IG4AuT0hJGDDfGnPa77rQKezXRqoT1h1ZOYw32hRrGI-Q188Ys2vnTeKgUyDWyxGPxqXK5w_kJxaMRsqQM8fFvsg588TCUyrrgu3nn6Lbo.cRlUm9vbLtMiitotj_j0kBGvwLPYDUQ4lslb2ibU4i4&dib_tag=se&keywords=sketch+sketch&qid=1716805950&sprefix=schetchaetch%2Caps%2C120&sr=8-11)
 
 **Cose:**
 - [Poggiapiedi](https://www.ikea.com/it/it/p/dagotto-poggiapiedi-nero-40240989/)

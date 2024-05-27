@@ -51,6 +51,21 @@ The objective is to form a new image whose pixel values are a combination of the
 
 For each pixel location, calculate the average value from all the images (images of the same subject, all identical except for the noise). This averaging process helps to reduce random noise, as the noise will vary across the images, but the actual scene content will remain constant.
 
+The 2D filter is separable if it can b written as the product of a "column" and a "row".
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+1 & 1 & 1 \\
+\end{bmatrix} = \begin{bmatrix}
+1 \\ 1 \\ 1 
+\end{bmatrix} * \begin{bmatrix}
+1 & 1 & 1
+\end{bmatrix}
+$$
+The cost of convolution with a separable filter is: $2\ \times\ (L\ \times\ M\ \times\ N)$
+The cost of convolution with a non-separable filter is: $L^2\ \times\ M\ \times\ N$
+
 #### Cross Correlation
 
 Use a kernel to modify the pixels in the image:
@@ -71,9 +86,29 @@ $$
 \end{align*}
 $$
 
-Convolution is a multiplication like operation: commutative, associative, distributive, scalars factor out, identity multiplication. Kernel is flipped (horizontally and vertically): ![[Pasted image 20240527132517.png|200]]
+Convolution is a multiplication like operation: commutative, associative, distributive, scalars factor out, identity multiplication. Kernel is flipped (horizontally and vertically): 
+
+![[Pasted image 20240527132517.png|200]]
 
 #### Handling boundaries
 
 ![[Pasted image 20240527132628.png|500]]
 
+#### Padding & Stride in CNN
+
+$$
+O = \left\lfloor \frac{I + 2P - K}{S} \right\rfloor + 1
+$$
+>[!example]
+>Supponiamo di avere un input di dimensione $I=32$ (32x32), un filtro (kernel) di dimensione $K=3$, uno stride di $S=1$, e un padding di $P=1$: 
+>$$
+>O = \left\lfloor \frac{32 + 2x1 - 3}{1} \right\rfloor + 1 = \left\lfloor \frac{31}{1} \right\rfloor + 1 = 31 + 1 = 32
+>$$
+
+
+#### Gaussian Kernel
+
+Follows the gaussian formula: 
+$$
+
+$$

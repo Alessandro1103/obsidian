@@ -6,7 +6,7 @@ Up: [[Computer Vision]]
 ---
 # Image Processing
 
-For each coloured image we use a matrix for each color, what we obtain at the end is a tensor.
+For each coloured image we use a matrix for each color, what we obtain at the end is a tensor. The value for each pixel represents its own intensity.
 
 ![[Pasted image 20240527122033.png|400]]
 
@@ -247,5 +247,8 @@ In this way is easier to find the zero (edge):
 
 ### Hysteresis thresholding
 
+The method involves using two different threshold values to improve the robustness of edge detection by reducing the likelihood of false positives and false negatives.
+
+The algorithm used follows the traditional method: calculate the edges. Then we provide 2 thresholds, a min and a max. The pixel above the max, are strong edges, under the min, no edges. In between the edges are "potential", called weak. The weak edges are considered edges if connected with the strong ones.
 
 ![[Pasted image 20240527173621.png|200]]

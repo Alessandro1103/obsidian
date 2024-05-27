@@ -196,6 +196,8 @@ Occurs when your sampling rate is not high enough ot capture the amount of detai
 
 ## Image Derivatives
 
+### First order finite difference
+
 The mathematical point of view of partial derivatives is the following: $\frac{\partial f(x,y)}{\partial x} = \lim_{\epsilon \to 0} \frac{f(x + \epsilon, y) - f(x, y)}{\epsilon}$, a possible solution to bring this to matrix and images is the following: $\frac{\partial f(x,y)}{\partial x} \approx \frac{f(x + 1, y) - f(x - 1, y)}{2}$ which is like it's operating a convolutional operation using this kind of filter: $H = \begin{bmatrix}-1 & 0 & 1\end{bmatrix}$.
 
 The gradient points in the direction of most rapid increase in intensity
@@ -216,4 +218,22 @@ Or the **Gradient Orientation**: $\theta = \tan^{-1} \left( \frac{\partial f}{\p
 ![[Pasted image 20240527164938.png|500]]
 
 
-The main problem with derivate filters is the *noise*.
+The main problem with derivate filters is the *noise*. To avoid this we have 2 options:
+- Perform a gaussian filter on the image, then compute the derivative (2 operations)
+- Compute the derivative on the gaussian filter (we actually already have it, this is how it is computed) and then compute the convolution. (1 operations)
+
+![[Pasted image 20240527171228.png|300]]
+
+
+### Second-order finite difference
+
+This time we use the **Laplace filter** which is related with the second derivative: $f''(x) = \lim_{h \to 0} \frac{f(x + h) - 2f(x) + f(x - h)}{h^2}$ which becomes a matrix filter: $\begin{bmatrix}1&-2&1\end{bmatrix}$ 
+
+For the same reason of before we can compute the **Laplacian of Gaussian** obtaining: 
+
+![[Pasted image 20240527171715.png|400]]
+
+In this way is easier to find the zero (edge):
+
+![[Pasted image 20240527171903.png|500]]
+

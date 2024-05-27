@@ -47,10 +47,6 @@ Local histogram equalization is realized selecting, for each pixel, a suitable n
 
 The objective is to form a new image whose pixel values are a combination of the original pixel values.
 
-### Noise reduction
-
-For each pixel location, calculate the average value from all the images (images of the same subject, all identical except for the noise). This averaging process helps to reduce random noise, as the noise will vary across the images, but the actual scene content will remain constant.
-
 The 2D filter is separable if it can b written as the product of a "column" and a "row".
 $$
 \begin{bmatrix}
@@ -66,7 +62,13 @@ $$
 The cost of convolution with a separable filter is: $2\ \times\ (L\ \times\ M\ \times\ N)$
 The cost of convolution with a non-separable filter is: $L^2\ \times\ M\ \times\ N$
 
-#### Cross Correlation
+### Noise reduction
+
+For each pixel location, calculate the average value from all the images (images of the same subject, all identical except for the noise). This averaging process helps to reduce random noise, as the noise will vary across the images, but the actual scene content will remain constant.
+
+
+
+### Cross Correlation
 
 Use a kernel to modify the pixels in the image:
 $$
@@ -76,7 +78,7 @@ $$
 $$
 Neither associative nor commutative ![[Pasted image 20240527132321.png|100]]
 
-#### Convolution
+### Convolution
 
 Use a kernel to modify the pixels in the image:
 
@@ -90,11 +92,11 @@ Convolution is a multiplication like operation: commutative, associative, distri
 
 ![[Pasted image 20240527132517.png|200]]
 
-#### Handling boundaries
+### Handling boundaries
 
 ![[Pasted image 20240527132628.png|500]]
 
-#### Padding & Stride in CNN
+### Padding & Stride in CNN
 
 $$
 O = \left\lfloor \frac{I + 2P - K}{S} \right\rfloor + 1
@@ -106,9 +108,54 @@ $$
 >$$
 
 
-#### Gaussian Kernel
+### Gaussian Kernel
 
 Follows the gaussian formula: 
 $$
-
+G_\sigma = \frac{1}{2 \pi \sigma^2} e^{-\frac{x^2 + y^2}{2 \sigma^2}}
 $$
+
+It is able to remove the high-frequency components from the image (low-pass filter)
+
+### Box filtering vs Gaussian filtering
+
+![[Pasted image 20240527152749.png|300]]
+
+### Sharpening
+
+![[Pasted image 20240527153041.png|500]]
+
+Let's review the steps:
+1. Take the original image
+2. Smooth the image using a gaussian filter
+3. Extract the detail removing from the original image the smoothed version
+4. Take the original image
+5. Add to the origina image the extracted detail image, and scale it by $\alpha$
+
+In formula: $$\text{Sharped image} = F\ *\ ([1+\alpha]e - \alpha H)$$
+where:
+- F is the image
+- H is the gaussian filter
+- $\alpha$ is the proportional sharpening
+- e is a identity kernel, used to transform the scalar in a matrix
+
+
+### Bilateral Filtering
+
+When we get close to an edge we can not use the gaussian filter, we would lose the edge. It's better for us to use the Bilateral filtering:
+$$
+h[m, n] = \frac{1}{W_{mn}} \sum_{k, l} g[k, l] r_{mn}[k, l] f[m + k, n + l]
+$$
+which is very similar to the gaussian filter but:
+- $\frac{1}{W_{mn}}$ is a normalization factor
+- $r_{mn}$ is a intensity range weighting, that is favor similar pixels
+
+### Thresholding 
+
+It's a **non-linear filter**:
+$$
+g(m, n) = \begin{cases} 255, & \text{if } f(m, n) > A \\ 0, & \text{otherwise} \end{cases}
+$$
+
+## Sampling & Aliasing
+

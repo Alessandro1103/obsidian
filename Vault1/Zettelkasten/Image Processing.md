@@ -36,3 +36,44 @@ $$
 $$
 
 ![[Pasted image 20240527125844.png|400]]
+
+### Local Histogram
+
+Local histogram equalization is realized selecting, for each pixel, a suitable neighbourhood on which the histogram equalization is computed.
+
+![[Pasted image 20240527131218.png|400]]
+
+## Filtering
+
+The objective is to form a new image whose pixel values are a combination of the original pixel values.
+
+### Noise reduction
+
+For each pixel location, calculate the average value from all the images (images of the same subject, all identical except for the noise). This averaging process helps to reduce random noise, as the noise will vary across the images, but the actual scene content will remain constant.
+
+#### Cross Correlation
+
+Use a kernel to modify the pixels in the image:
+$$
+\begin{align*}
+& G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i + u, j + v] & G = H \otimes F
+\end{align*}
+$$
+Neither associative nor commutative ![[Pasted image 20240527132321.png|100]]
+
+#### Convolution
+
+Use a kernel to modify the pixels in the image:
+
+$$
+\begin{align*}
+& G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i - u, j - v] 
+\end{align*}
+$$
+
+Convolution is a multiplication like operation: commutative, associative, distributive, scalars factor out, identity multiplication. Kernel is flipped (horizontally and vertically): ![[Pasted image 20240527132517.png|200]]
+
+#### Handling boundaries
+
+![[Pasted image 20240527132628.png|500]]
+

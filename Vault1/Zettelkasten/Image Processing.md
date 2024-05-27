@@ -159,3 +159,40 @@ $$
 
 ## Sampling & Aliasing
 
+### Down-Sampling 
+
+If the image is too big, we can reduce it, but we will lose quality.
+
+![[Pasted image 20240527161635.png|500]]
+
+To reduce the the dimensionality (down-sampling) we have the following method:
+- **Direct Method**: reduces the resolution of the original image in *one step* by the specified factor
+- **Repeat Method**: reduce the resolution iteratively 2 by 2
+
+>[!example]
+>Using a Direct 4x we downscale the original by a factor of 4
+>Using a Repeat 4x we downscale the original by a factor of 2, then by a factor of 2
+
+In this context we can use a pre-filter with a Gaussian filter. Doing so we the image subsampled, zoomed results in a more homogeneous result:
+
+![[Pasted image 20240527162639.png|300]]
+
+This is called **Gaussian pyramid**.
+
+### Up-sampling
+
+If we have an image too small we can make it 10 times as big. The simplest approach is to duplicate each row and column 10 times (Nearest neighbour Interpolation).
+
+![[Pasted image 20240527163222.png|500]]
+
+![[Pasted image 20240527163333.png|300]]
+
+
+### Aliasing
+
+Occurs when your sampling rate is not high enough ot capture the amount of detail in your image. To avoid aliasing: $f_s \geq 2 \ f_{max}$ where:
+- $f_s$ is the sampling frequency
+- $f_{max}$ is the highest frequency in the signal
+
+## Image Derivatives
+

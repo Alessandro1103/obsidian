@@ -225,6 +225,14 @@ The main problem with derivate filters is the *noise*. To avoid this we have 2 o
 ![[Pasted image 20240527171228.png|300]]
 
 
+A specific filter for edges is the **Sobel filter** made to approximate the partial derivatives of first order.
+
+![[Pasted image 20240527173052.png|270]]
+
+In the same cases as before, we see the intention of direction. In the image we have to look at the opposite:
+
+![[Pasted image 20240527173433.png|400]]
+
 ### Second-order finite difference
 
 This time we use the **Laplace filter** which is related with the second derivative: $f''(x) = \lim_{h \to 0} \frac{f(x + h) - 2f(x) + f(x - h)}{h^2}$ which becomes a matrix filter: $\begin{bmatrix}1&-2&1\end{bmatrix}$ 
@@ -237,3 +245,7 @@ In this way is easier to find the zero (edge):
 
 ![[Pasted image 20240527171903.png|500]]
 
+### Hysteresis thresholding
+
+
+![[Pasted image 20240527173621.png|200]]

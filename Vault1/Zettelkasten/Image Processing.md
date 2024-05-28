@@ -83,6 +83,7 @@ Use a kernel to modify the pixels in the image:
 $$
 \begin{align*}
 & G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i - u, j - v] 
+& G = H * F
 \end{align*}
 $$
 

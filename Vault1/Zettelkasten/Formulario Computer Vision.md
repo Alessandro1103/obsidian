@@ -19,4 +19,15 @@ $$
 & T(r) = \text{round}\bigg(255 \sum_{i=0}^r p(i)\bigg) & 0\leq r \leq 255 \\
 \end{align*}
 $$
-
+**Cross-Correlation and Convolution**
+$$
+\begin{align*}
+& G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i + u, j + v] & G = H \otimes F \\
+& G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i - u, j - v] 
+& G = H * F
+\end{align*}
+$$
+**Padding & Stride**
+$$
+O = \left\lfloor \frac{I + 2P - K}{S} \right\rfloor + 1
+$$

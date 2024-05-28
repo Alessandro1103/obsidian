@@ -6,7 +6,7 @@ Up:
 ---
 # Formulario Computer Vision
 
-## Image Processing
+## Point Processing
 
 **Gamma Correction**
 $$
@@ -19,6 +19,8 @@ $$
 & T(r) = \text{round}\bigg(255 \sum_{i=0}^r p(i)\bigg) & 0\leq r \leq 255 \\
 \end{align*}
 $$
+## Filtering
+
 **Cross-Correlation and Convolution**
 $$
 \begin{align*}
@@ -31,3 +33,16 @@ $$
 $$
 O = \left\lfloor \frac{I + 2P - K}{S} \right\rfloor + 1
 $$
+**Gaussian Kernel**
+$$
+G_\sigma = \frac{1}{2 \pi \sigma^2} e^{-\frac{x^2 + y^2}{2 \sigma^2}}
+$$
+**Bilateral Filter**
+$$
+h[m, n] = \frac{1}{W_{mn}} \sum_{k, l} g[k, l] r_{mn}[k, l] f[m + k, n + l]
+$$
+**Thresholding**
+$$
+g(m, n) = \begin{cases} 255, & \text{if } f(m, n) > A \\ 0, & \text{otherwise} \end{cases}
+$$
+## Sampling and 

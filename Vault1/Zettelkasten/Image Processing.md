@@ -141,11 +141,11 @@ where:
 
 ### Bilateral Filtering
 
-When we get close to an edge we can not use the gaussian filter, we would lose the edge. It's better for us to use the Bilateral filtering:
+When we get close to an edge we can not use the Gaussian filter, we would lose the edge. It's better for us to use the Bilateral filtering, *non-linear*:
 $$
 h[m, n] = \frac{1}{W_{mn}} \sum_{k, l} g[k, l] r_{mn}[k, l] f[m + k, n + l]
 $$
-which is very similar to the gaussian filter but:
+which is very similar to the Gaussian filter but:
 - $\frac{1}{W_{mn}}$ is a normalization factor
 - $r_{mn}$ is a intensity range weighting, that is favor similar pixels
 

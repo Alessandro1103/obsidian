@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Zettelkasten/Image Processing.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -34,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/Formulario Computer Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/Formulario Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,10 +176,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "8d75442b5f6126c7",
+  "active": "862aabf89a2d668f",
   "lastOpenFiles": [
-    "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Medical Quiz Homework 2.md",

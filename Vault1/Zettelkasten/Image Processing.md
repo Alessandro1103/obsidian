@@ -66,8 +66,6 @@ The cost of convolution with a non-separable filter is: $L^2\ \times\ M\ \times\
 
 For each pixel location, calculate the average value from all the images (images of the same subject, all identical except for the noise). This averaging process helps to reduce random noise, as the noise will vary across the images, but the actual scene content will remain constant.
 
-
-
 ### Cross Correlation
 
 Use a kernel to modify the pixels in the image:

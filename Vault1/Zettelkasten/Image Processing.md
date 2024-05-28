@@ -103,7 +103,7 @@ $$
 >[!example]
 >Supponiamo di avere un input di dimensione $I=32$ (32x32), un filtro (kernel) di dimensione $K=3$, uno stride di $S=1$, e un padding di $P=1$: 
 >$$
->O = \left\lfloor \frac{32 + 2x1 - 3}{1} \right\rfloor + 1 = \left\lfloor \frac{31}{1} \right\rfloor + 1 = 31 + 1 = 32
+>O = \left\lfloor \frac{32 + 2\times1 - 3}{1} \right\rfloor + 1 = \left\lfloor \frac{31}{1} \right\rfloor + 1 = 31 + 1 = 32
 >$$
 
 

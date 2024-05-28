@@ -6,7 +6,7 @@ Up: [[Computer Vision]]
 ---
 # Image Processing
 
-For each coloured image we use a matrix for each color, what we obtain at the end is a tensor. The value for each pixel represents its own intensity.
+For each colored image we use a matrix for each color, what we obtain at the end is a tensor. The value for each pixel represents its own intensity.
 
 ![[Pasted image 20240527122033.png|400]]
 
@@ -39,7 +39,7 @@ $$
 
 ### Local Histogram
 
-Local histogram equalization is realized selecting, for each pixel, a suitable neighbourhood on which the histogram equalization is computed.
+Local histogram equalization is realized selecting, for each pixel, a suitable neighborhood on which the histogram equalization is computed.
 
 ![[Pasted image 20240527131218.png|400]]
 

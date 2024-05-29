@@ -156,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "slide-note:Slide Note Block Generator": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
       "graph:Open graph view": false,

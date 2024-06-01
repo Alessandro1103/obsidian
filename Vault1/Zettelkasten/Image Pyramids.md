@@ -6,22 +6,10 @@ Up: [[Computer Vision]]
 ---
 # Image Pyramids
 
+## Gaussian Pyramid
 
-```slide-note 
-file: ImagePyramid.pdf 
-page: 4
-scale: 0.8
-```
-```slide-note 
-file: ImagePyramid.pdf 
-page: 5
-scale: 0.8
-```
-```slide-note 
-file: ImagePyramid.pdf 
-page: 6
-scale: 0.8
-```
+It uses a Gaussian filter to smooth
+
 ```slide-note 
 file: ImagePyramid.pdf 
 page: 7

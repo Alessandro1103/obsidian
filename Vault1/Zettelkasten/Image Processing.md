@@ -61,6 +61,9 @@ $$
 $$
 The cost of convolution with a separable filter is: $2\ \times\ (L\ \times\ M\ \times\ N)$
 The cost of convolution with a non-separable filter is: $L^2\ \times\ M\ \times\ N$
+where:
+- L = kernel
+- M and N could be number of row and columns
 
 ### Noise reduction
 

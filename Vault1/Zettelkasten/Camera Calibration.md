@@ -6,7 +6,7 @@ Up: [[Computer Vision]]
 ---
 # Camera Calibration
 
-Cameras are dimensionality reduction machines, as they take the 3D world and turn it into 2D.  
+Cameras are dimensional reduction machines, as they take the 3D world and turn it into 2D.  
 
 ![[Pasted image 20240510152137.png|400]]
 

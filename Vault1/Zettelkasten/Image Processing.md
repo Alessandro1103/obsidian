@@ -6,7 +6,7 @@ Up: [[Computer Vision]]
 ---
 # Image Processing
 
-For each coloured image we use a matrix for each color, what we obtain at the end is a tensor. The value for each pixel represents its own intensity.
+For each colored image we use a matrix for each color, what we obtain at the end is a tensor. The value for each pixel represents its own intensity.
 
 ![[Pasted image 20240527122033.png|400]]
 
@@ -39,7 +39,7 @@ $$
 
 ### Local Histogram
 
-Local histogram equalization is realized selecting, for each pixel, a suitable neighbourhood on which the histogram equalization is computed.
+Local histogram equalization is realized selecting, for each pixel, a suitable neighborhood on which the histogram equalization is computed.
 
 ![[Pasted image 20240527131218.png|400]]
 
@@ -66,8 +66,6 @@ The cost of convolution with a non-separable filter is: $L^2\ \times\ M\ \times\
 
 For each pixel location, calculate the average value from all the images (images of the same subject, all identical except for the noise). This averaging process helps to reduce random noise, as the noise will vary across the images, but the actual scene content will remain constant.
 
-
-
 ### Cross Correlation
 
 Use a kernel to modify the pixels in the image:
@@ -85,6 +83,7 @@ Use a kernel to modify the pixels in the image:
 $$
 \begin{align*}
 & G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i - u, j - v] 
+& G = H * F
 \end{align*}
 $$
 
@@ -104,7 +103,7 @@ $$
 >[!example]
 >Supponiamo di avere un input di dimensione $I=32$ (32x32), un filtro (kernel) di dimensione $K=3$, uno stride di $S=1$, e un padding di $P=1$: 
 >$$
->O = \left\lfloor \frac{32 + 2x1 - 3}{1} \right\rfloor + 1 = \left\lfloor \frac{31}{1} \right\rfloor + 1 = 31 + 1 = 32
+>O = \left\lfloor \frac{32 + 2\times1 - 3}{1} \right\rfloor + 1 = \left\lfloor \frac{31}{1} \right\rfloor + 1 = 31 + 1 = 32
 >$$
 
 
@@ -142,11 +141,11 @@ where:
 
 ### Bilateral Filtering
 
-When we get close to an edge we can not use the gaussian filter, we would lose the edge. It's better for us to use the Bilateral filtering:
+When we get close to an edge we can not use the Gaussian filter, we would lose the edge. It's better for us to use the Bilateral filtering, *non-linear*:
 $$
 h[m, n] = \frac{1}{W_{mn}} \sum_{k, l} g[k, l] r_{mn}[k, l] f[m + k, n + l]
 $$
-which is very similar to the gaussian filter but:
+which is very similar to the Gaussian filter but:
 - $\frac{1}{W_{mn}}$ is a normalization factor
 - $r_{mn}$ is a intensity range weighting, that is favor similar pixels
 

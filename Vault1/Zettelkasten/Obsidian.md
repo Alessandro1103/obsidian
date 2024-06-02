@@ -106,6 +106,28 @@ Il testo racchiuso tra `backtick` (accenti gravi) viene formattato come codice.
 [[Prima riunione#Spiegazione1 (Concentrato su Alessandro)|Tesi Alessandro, prima riunione]] così creo un collegamento a un'altra nota e ad un titolo preciso della pagine
 
 
+**Slide Note**
+``` python
+# Initialize the string that will hold the entire repeated structure
+result = ""
+
+# Loop to repeat the specified text 77 times
+for i in range(1, 78):  # Start at 1 to make page numbers start from 1
+    result += f"```slide-note\nfile: FourierTransform.pdf\npage: {i}\nscale: 0.8\n```\n\n"
+
+# Print the result
+print(result)
+```
+to be modified, resulting in:
+(example)
+
+```slide-note 
+file: FourierTransform.pdf 
+page: 2 
+scale: 0.8 
+```
+
+
 
 
 ---

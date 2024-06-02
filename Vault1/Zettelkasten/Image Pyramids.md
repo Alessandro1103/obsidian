@@ -67,6 +67,8 @@ The Steerable Pyramid is a multi-scale, multi-orientation image decomposition me
 
 ## Wavelets pyramids
 
+Wavelet analysis is a method used to separate the information in an image into high-frequency details and low-frequency approximations using high-pass and low-pass filters.
+
 ```slide-note 
 file: ImagePyramid.pdf 
 page: 36
@@ -77,12 +79,3 @@ file: ImagePyramid.pdf
 page: 37
 scale: 0.8
 ```
-```slide-note 
-file: ImagePyramid.pdf 
-page: 38
-scale: 0.8
-```
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal

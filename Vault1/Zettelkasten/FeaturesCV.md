@@ -41,13 +41,10 @@ scale: 0.8
 5. **Image Matching**: Comparing and aligning different images based on detected features, even under challenging conditions such as changes in scale, orientation, and lighting. SIFT (Scale-Invariant Feature Transform) is a robust method for matching features across varied scenarios.
 ## What is good feature
 
-
-
-```slide-note
-file: Features.pdf
-page: 23
-scale: 0.8
-```
+In Local features the steps to found good feature is the following:
+1. Detect interest points (keypoints) in the image. Normally are points with high variation in intensity.
+2. Describe the keypoints in a way that captures their local appearance independently of other changes like lighting or perspective. To do so, we extract a feature descriptor (array of values) that encodes the appearance around each point. 
+3. Match these descriptors across different images.
 
 ```slide-note
 file: Features.pdf

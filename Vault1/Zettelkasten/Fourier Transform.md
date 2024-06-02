@@ -13,13 +13,8 @@ General formula:
 $$
 A \,\sin(\omega x+ \phi)
 $$
-To analyse the frequency inside of a signal is often used the *frequency spectrum graph*: it visualizes the different frequencies present in a signal and their respective amplitudes or intensities. In the horizontal axis we have the different frequency, and in the vertical axis the amplitude of each frequency component. 
+To analyse the frequency inside of a signal is often used the *frequency spectrum graph*: it visualizes the different frequencies present in a signal and their respective amplitudes or intensities. In the horizontal axis we have the different frequency, and in the vertical axis the amplitude of each frequency component. In the x=0 is shown the signal average
 
-```slide-note
-file: FourierTransform.pdf
-page: 13
-scale: 0.8
-```
 
 ```slide-note
 file: FourierTransform.pdf
@@ -27,41 +22,9 @@ page: 14
 scale: 0.8
 ```
 
-```slide-note
-file: FourierTransform.pdf
-page: 15
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 16
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 17
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 18
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 19
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 20
-scale: 0.8
-```
+For pure tones, such as the sine wave, the frequencies are distinct.
+For more complex signals, more frequencies are involved.
+In the case of random noise, there is a wide range of frequencies.
 
 ```slide-note
 file: FourierTransform.pdf

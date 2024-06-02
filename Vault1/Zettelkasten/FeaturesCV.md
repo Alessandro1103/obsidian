@@ -46,35 +46,17 @@ In Local features the steps to found good feature is the following:
 2. Describe the keypoints in a way that captures their local appearance independently of other changes like lighting or perspective. To do so, we extract a feature descriptor (array of values) that encodes the appearance around each point. 
 3. Match these descriptors across different images.
 
-```slide-note
-file: Features.pdf
-page: 24
-scale: 0.8
-```
+**Advantages**:
+- *Locality*: robust to partial occlusion (part of the object is blocked) and cutter (when the scene is crowded with many objects) of the image
+- *Quantity*: a single image can contain hundreds of local features
+- *Distinctiveness*: uniquely identify and differentiate a wide range of objects
+- *Efficiency*: real-time performance
 
-```slide-note
-file: Features.pdf
-page: 25
-scale: 0.8
-```
+The objective is to find features that are invariant to transformations:
+- Geometric invariance: translation, rotation, scale …
+- Photometric invariance: brightness, exposure …
+## Harris Corner Detector
 
-```slide-note
-file: Features.pdf
-page: 26
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 27
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 28
-scale: 0.8
-```
 
 ```slide-note
 file: Features.pdf

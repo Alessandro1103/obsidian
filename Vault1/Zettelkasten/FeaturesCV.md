@@ -93,27 +93,13 @@ C & = \sum_{(x,y) \in W} I_y^2
 $$
 
 If H is full: ![[Pasted image 20240603003113.png]]
-If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$:
+If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the edge is horizontal:
+![[Pasted image 20240603004327.png]]
+
+If $I_y$ then $H = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
 
 
 
-```slide-note
-file: Features.pdf
-page: 36
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 37
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 38
-scale: 0.8
-```
 
 ```slide-note
 file: Features.pdf

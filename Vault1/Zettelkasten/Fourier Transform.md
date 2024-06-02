@@ -103,11 +103,7 @@ Amplitude doesn't carry the image information. Infact the phase is one that cont
 
 ![[Pasted image 20240602190536.png|200]]
 
-```slide-note
-file: FourierTransform.pdf
-page: 44
-scale: 0.8
-```
+Convolution in the spatial or time domain is equivalent to multiplication in the frequency domain, and vice versa.
 
 ```slide-note
 file: FourierTransform.pdf
@@ -115,21 +111,18 @@ page: 45
 scale: 0.8
 ```
 
+$h(x,y)$ is the Gaussian Filter
+
 ```slide-note
 file: FourierTransform.pdf
 page: 46
 scale: 0.8
 ```
 
+The result we obtain is the same:
 ```slide-note
 file: FourierTransform.pdf
 page: 47
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 48
 scale: 0.8
 ```
 
@@ -145,101 +138,12 @@ page: 50
 scale: 0.8
 ```
 
-```slide-note
-file: FourierTransform.pdf
-page: 51
-scale: 0.8
-```
+The Box Blur uses a simple averaging filter where each pixel in the output image is the average of its neighbouring pixels within a square (box-shaped) window. This tends to give a uniformly blurred effect.
+Box Blur is computationally simpler and faster to compute, especially with integer calculations or in hardware. It may be preferred in real-time applications where speed is more critical than visual quality.
 
-```slide-note
-file: FourierTransform.pdf
-page: 52
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 53
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 54
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 55
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 56
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 57
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 58
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 59
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 60
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 61
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 62
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 63
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 64
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 65
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 66
-scale: 0.8
-```
+Gaussian Blur uses a Gaussian function to weigh the neighbouring pixels, which results in a smoother and more natural blurring effect. Pixels closer to the center of the kernel have more influence than those further away.
+Gaussian Blur is preferred in applications where image quality is paramount, such as in photography processing, graphics design, and areas where a smoother blur is required to simulate out-of-focus effects.
+## Revisiting Sampling
 
 ```slide-note
 file: FourierTransform.pdf

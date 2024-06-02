@@ -98,14 +98,11 @@ If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the e
 
 If $I_y$ then $H = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
 
-
-
-
-```slide-note
-file: Features.pdf
-page: 39
-scale: 0.8
-```
+A possible version of the Harris matrix is M:
+$$
+M = \sum_{(x,y) \in W} w(x,y) \begin{bmatrix} I_x^2 & I_x I_y \\ I_x I_y & I_y^2 \end{bmatrix}
+$$
+where we add $w$ which is a gaussian function that enhances the local information.
 
 ```slide-note
 file: Features.pdf

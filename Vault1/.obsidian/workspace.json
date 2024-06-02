@@ -133,9 +133,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "2f9f5b965aa164a0",
+            "type": "leaf",
+            "state": {
+              "type": "slidenote-pdfcanvas",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,6 +164,7 @@
   },
   "active": "ac3b28b76e8e93c1",
   "lastOpenFiles": [
+    "Files/Pasted image 20240602170728.png",
     "Files/ImagePyramid.pdf",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Transformers in Vision.md",

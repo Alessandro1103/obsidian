@@ -59,12 +59,14 @@ Image pyramids use:
 - Denoising
 - Multi-scale detection/registration
 
+## Steerable pyramid
 
-```slide-note 
-file: ImagePyramid.pdf 
-page: 35
-scale: 0.8
-```
+The Steerable Pyramid is a multi-scale, multi-orientation image decomposition method developed to improve upon the limitations of orthogonal wavelet decompositions.
+
+![[Pasted image 20240602170728.png|320]]
+
+## Wavelets pyramids
+
 ```slide-note 
 file: ImagePyramid.pdf 
 page: 36

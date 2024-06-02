@@ -9,6 +9,8 @@ Up: [[Computer Vision]]
 > [!quote] 
 > Any univariate function can be rewritten as a weighted sum of sines and cosines of different frequencies.
 
+## Fourier Analysis (1D)
+
 General formula:
 $$
 A \,\sin(\omega x+ \phi)
@@ -32,41 +34,7 @@ page: 21
 scale: 0.8
 ```
 
-```slide-note
-file: FourierTransform.pdf
-page: 22
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 23
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 24
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 25
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 26
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 27
-scale: 0.8
-```
+The DFT is a mathematical technique used to transform a sequence of data points in the time domain into components in the frequency domain. The DFT can also be represented as a matrix multiplication, which is a more computationally straightforward interpretation for implementations. Each row of $W$ corresponds to a frequency $k$, and each column corresponds to a time index $x$. The matrix product then calculates the contribution of each time-domain sample to each frequency-domain component.
 
 ```slide-note
 file: FourierTransform.pdf
@@ -74,11 +42,8 @@ page: 28
 scale: 0.8
 ```
 
-```slide-note
-file: FourierTransform.pdf
-page: 29
-scale: 0.8
-```
+## Fourier Analysis (2D)
+
 
 ```slide-note
 file: FourierTransform.pdf
@@ -88,25 +53,7 @@ scale: 0.8
 
 ```slide-note
 file: FourierTransform.pdf
-page: 31
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 32
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
 page: 33
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 34
 scale: 0.8
 ```
 
@@ -125,12 +72,6 @@ scale: 0.8
 ```slide-note
 file: FourierTransform.pdf
 page: 37
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 38
 scale: 0.8
 ```
 
@@ -158,11 +99,9 @@ page: 42
 scale: 0.8
 ```
 
-```slide-note
-file: FourierTransform.pdf
-page: 43
-scale: 0.8
-```
+Amplitude doesn't carry the image information. Infact the phase is one that contains image information and is very important for reconstruction.
+
+![[Pasted image 20240602190536.png|200]]
 
 ```slide-note
 file: FourierTransform.pdf

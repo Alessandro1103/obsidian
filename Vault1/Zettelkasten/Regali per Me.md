@@ -13,7 +13,6 @@ Up: [[Regali]]
 - [The Animator's Survival Kit](https://www.amazon.it/Animation-Mini-Dialogue-Acting-Directing/dp/0571358446/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
 - [Illusion Of Life, The: Disney Animation ](https://www.amazon.it/Illusion-Life-Disney-Animation/dp/0786860707/ref=sr_1_1?adgrpid=1231453340287030&hvadid=76965998133611&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-76966071658198%3Aloc-93&hydadcr=18611_2252363&keywords=the+illusion+of+life&qid=1704666298&sr=8-1)
 - [La terra dei figli](https://www.ibs.it/terra-dei-figli-libro-gipi/e/9788876183256)
-- Berserk
 
 **Giochi:**
 - [Espansioni exploding kitten](https://www.amazon.it/s?k=espansioni+exploding+kitten&adgrpid=1234751892267577&hvadid=77172160080866&hvbmt=be&hvdev=c&hvlocphy=1888&hvnetw=o&hvqmt=e&hvtargid=kwd-77172250719835%3Aloc-93&hydadcr=28887_1877208&tag=amamitsp-21&ref=pd_sl_1o1kp2h42t_e)

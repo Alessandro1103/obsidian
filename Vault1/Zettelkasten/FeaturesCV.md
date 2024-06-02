@@ -57,12 +57,7 @@ The objective is to find features that are invariant to transformations:
 - Photometric invariance: brightness, exposure …
 ## Harris Corner Detector
 
-
-```slide-note
-file: Features.pdf
-page: 29
-scale: 0.8
-```
+We do not check pixel by pixel. We use a patch that moving, will find what is looking for. If we move along a line without arriving to corners, the intensity do not change.
 
 ```slide-note
 file: Features.pdf
@@ -70,35 +65,37 @@ page: 30
 scale: 0.8
 ```
 
-```slide-note
-file: Features.pdf
-page: 31
-scale: 0.8
-```
+The main operation we perform is to calculate the Sum of Squared Differences (SSD) for each shift. This is done comparing the intensity we have now, with the intensity before:
 
-```slide-note
-file: Features.pdf
-page: 32
-scale: 0.8
-```
+$$
+E(u, v) = \sum_{(x,y) \in W} \left[ I(x+u, y+v) - I(x, y) \right]^2
+$$
 
-```slide-note
-file: Features.pdf
-page: 33
-scale: 0.8
-```
+We are happy if this error is high. For small motion assumption we can use the Taylor Series:
+$$
+\begin{align*}
+&I(x+u, y+v) = I(x,y) + \frac{\partial I}{\partial x} u + \frac{\partial I}{\partial y}v = I(x,y) + \begin{bmatrix}I_x & I_y\end{bmatrix}\begin{bmatrix}u\\v\end{bmatrix} & I_x=\frac{\partial I}{\partial x},I_y=\frac{\partial I}{\partial y} 
+\end{align*}
+$$
+which substituting with the Error before becomes:
 
-```slide-note
-file: Features.pdf
-page: 34
-scale: 0.8
-```
+$$ 
+\begin{equation}
+\begin{aligned}
+E(x,y) & \approx \sum_{(x,y) \in W} \left[ I_x u + I_y v \right]^2 \approx Au^2 + 2Buv + Cv^2 \\
+& = \begin{bmatrix}u& v\end{bmatrix} \begin{bmatrix}A & B \\ B & C\end{bmatrix} \begin{bmatrix}u\\ v\end{bmatrix} \\
+& = \begin{bmatrix}u& v\end{bmatrix} H \begin{bmatrix}u\\ v\end{bmatrix} \\ \\
+A & = \sum_{(x,y) \in W} I_x^2 \\
+B & = \sum_{(x,y) \in W} I_x I_y \\
+C & = \sum_{(x,y) \in W} I_y^2
+\end{aligned}
+\end{equation}
+$$
 
-```slide-note
-file: Features.pdf
-page: 35
-scale: 0.8
-```
+If H is full: ![[Pasted image 20240603003113.png]]
+If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$:
+
+
 
 ```slide-note
 file: Features.pdf

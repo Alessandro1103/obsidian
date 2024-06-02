@@ -38,20 +38,10 @@ scale: 0.8
 
 4. **Augmented Reality**: Enhancing the real world with digital overlays. Feature detection allows the AR system to understand the environment and accurately place digital objects in real-world contexts.
 
-5. **Image Matching (hard situation, SIFT features matching)**: Comparing and aligning different images based on detected features, even under challenging conditions such as changes in scale, orientation, and lighting. SIFT (Scale-Invariant Feature Transform) is a robust method for matching features across varied scenarios.
+5. **Image Matching**: Comparing and aligning different images based on detected features, even under challenging conditions such as changes in scale, orientation, and lighting. SIFT (Scale-Invariant Feature Transform) is a robust method for matching features across varied scenarios.
 ## What is good feature
 
-```slide-note
-file: Features.pdf
-page: 21
-scale: 0.8
-```
 
-```slide-note
-file: Features.pdf
-page: 22
-scale: 0.8
-```
 
 ```slide-note
 file: Features.pdf

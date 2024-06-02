@@ -8,7 +8,8 @@ Up: [[Computer Vision]]
 
 ## Gaussian Pyramid
 
-It uses a Gaussian filter to smooth
+It's a series of lower resolution version of the original image. The procedure is apply the gaussian filter and then sub-sample.
+
 
 ```slide-note 
 file: ImagePyramid.pdf 

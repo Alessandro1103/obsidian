@@ -145,47 +145,10 @@ Gaussian Blur uses a Gaussian function to weigh the neighbouring pixels, which r
 Gaussian Blur is preferred in applications where image quality is paramount, such as in photography processing, graphics design, and areas where a smoother blur is required to simulate out-of-focus effects.
 ## Revisiting Sampling
 
-```slide-note
-file: FourierTransform.pdf
-page: 67
-scale: 0.8
-```
+The Nyquist-Shannon theorem in relation to the Gaussian pyramid underscores the importance of adequate sampling to avoid aliasing. Gaussian blurring, applied as a low-pass filter, helps reduce the signal's highest frequencies, ensuring that the sampling frequency remains above twice the highest frequency present in the image to prevent aliasing. The cutoff frequency for blurring is tied to the filter's standard deviation, and selecting an appropriately sized mask ensures the Gaussian filter effectively encompasses significant data, minimizing edge effects.
 
-```slide-note
-file: FourierTransform.pdf
-page: 68
-scale: 0.8
-```
+## Hybrid Images
 
-```slide-note
-file: FourierTransform.pdf
-page: 69
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 70
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 71
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 72
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 73
-scale: 0.8
-```
 
 ```slide-note
 file: FourierTransform.pdf
@@ -198,22 +161,3 @@ file: FourierTransform.pdf
 page: 75
 scale: 0.8
 ```
-
-```slide-note
-file: FourierTransform.pdf
-page: 76
-scale: 0.8
-```
-
-```slide-note
-file: FourierTransform.pdf
-page: 77
-scale: 0.8
-```
-
-
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal
-

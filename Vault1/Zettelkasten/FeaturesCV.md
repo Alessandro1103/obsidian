@@ -463,21 +463,3 @@ file: Features.pdf
 page: 99
 scale: 0.8
 ```
-
-```slide-note
-file: Features.pdf
-page: 100
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 101
-scale: 0.8
-```
-
-
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal

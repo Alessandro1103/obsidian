@@ -6,9 +6,9 @@ Up:
 ---
 # FeaturesCV2
 
-## Why do we need feature descriptors
+## Feature descriptors
 
-This slide discusses the challenge of describing an image patch. A good feature descriptor should ensure that patches with similar content yield similar descriptors, regardless of minor variations in the image. Consistency in descriptors allows for accurate matching across different images.
+A good feature descriptor should ensure that patches with similar content yield similar descriptors, regardless of minor variations in the image. Consistency in descriptors allows for accurate matching across different images.
 
 ### Image patch
 just use the pixel values of the patch
@@ -45,7 +45,7 @@ use the dominant (strongest gradient) image gradient direction to normalize its 
 
 Changes in lighting affect the intensity and spectral composition, sensible to light changes.
 
-### Histogram Comparison
+## Histogram Comparison
 
 This is a sequence of method to compare histograms.
 
@@ -71,36 +71,32 @@ $$
 
 The range is from 0 to infinity, where 0 indicates identical histograms and higher values indicate greater dissimilarity. Each bin contributes equally to the total distance, regardless of its relative importance or the statistical distribution within the histograms. This can sometimes lead to less discriminative comparisons, especially if certain histogram bins are more significant than others in the context of the application.
 
+#### Chi-square
+$$
+\chi^2(Q, V) = \sum_{i} \frac{(q_i - v_i)^2}{q_i + v_i}
+$$
+The Chi-square test has a strong statistical foundation, providing a way to test if two distributions are statistically different from each other. The Chi-square value ranges from 0 to infinity, where 0 indicates no difference between the histograms and higher values suggest greater disparity.
+The Chi-square test requires a sufficient number of samples in each histogram bin to be valid, which may not always be practical in images with limited color diversity or in smaller images.
 
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 23
-scale: 0.8
-```
+## HOG descriptor
 
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 24
-scale: 0.8
-```
+HOG stands for "Histogram of Oriented Gradients". It used for object detection. How to extract HOG descriptors:
 
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 25
-scale: 0.8
-```
+>[!Algorithm]
+>1. Pre-processing: the image patch (subpart of the image) is normalized to a 1:2 proportion (64x128)
+>2. Gradient calculation (angles and gradients)
+>3. Cell structuring in 8x8 pixel cells of the image patch, creating an istogram
 
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 26
-scale: 0.8
-```
+The angles are unsigned: from 0 to 180
+The histogram captures the predominant directions of the gradients.
 
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 27
-scale: 0.8
-```
+![[Pasted image 20240605183616.png|400]]
+
+Each pixel votes in the histogram bin based on its gradient magnitude. This vote is distributed between bins when the gradient direction does not align exactly with a bin center.
+We ends up with a 9-bin histogram.
+
+Using a 16x16 Block Normalization, meaning we take 4 times 8x8 blocks, and a **L2 Norm** (classic orthonormalization of a vector) we prevent light variations. The 16x16 block has 4 histograms, concatenated in 36x1 element vector. The window is then moved by 8 pixels and the process is repeated.
+
 
 ```slide-note
 file: FeaturesDescriptorHOG.pdf
@@ -131,15 +127,3 @@ file: FeaturesDescriptorHOG.pdf
 page: 32
 scale: 0.8
 ```
-
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 33
-scale: 0.8
-```
-
-
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal

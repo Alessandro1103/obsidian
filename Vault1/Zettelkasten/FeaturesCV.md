@@ -209,24 +209,16 @@ The challenge is to select regions (circles) of the right size around each point
 ![[Pasted image 20240605132855.png|300]]
 
 
+>[!Algorithm Rilevazione Equivariant Keypoints]
+>1. Construction of a scaled image pyramid (Laplace pyramid)
+>2. Application of the LoG (instead of Harris Operator) for each level
+>3. Finding the Maximum between scale and space
+>4. Selecting points with the maximum LoG normalized response and recording the associated scale
+>5. Output of keypoints
 
-```slide-note
-file: Features.pdf
-page: 74
-scale: 0.8
-```
+## Blob Detector
 
-```slide-note
-file: Features.pdf
-page: 75
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 76
-scale: 0.8
-```
+The Laplacian of Gaussian (LoG) is a popular technique used in image processing to detect regions of rapid intensity change, often used for blob detection. It combines the smoothing effect of the Gaussian filter with the edge-detection capabilities of the Laplacian operator.
 
 ```slide-note
 file: Features.pdf
@@ -246,122 +238,4 @@ page: 79
 scale: 0.8
 ```
 
-```slide-note
-file: Features.pdf
-page: 80
-scale: 0.8
-```
 
-```slide-note
-file: Features.pdf
-page: 81
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 82
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 83
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 84
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 85
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 86
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 87
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 88
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 89
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 90
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 91
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 92
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 93
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 94
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 95
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 96
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 97
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 98
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 99
-scale: 0.8
-```

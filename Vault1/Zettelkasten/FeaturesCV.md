@@ -98,29 +98,43 @@ If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the e
 
 If $I_y$ then $H = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
 
-A possible version of the Harris matrix is M:
+A possible version of the Harris matrix is M, this is called also Bilinear approximation:
 $$
 M = \sum_{(x,y) \in W} w(x,y) \begin{bmatrix} I_x^2 & I_x I_y \\ I_x I_y & I_y^2 \end{bmatrix}
 $$
 where we add $w$ which is a gaussian function that enhances the local information.
 
-```slide-note
-file: Features.pdf
-page: 40
-scale: 0.8
-```
+To understand how well each element is correlated with another and how the pixels change in a small location, we can use the **Covariance Matrix**:
+$$
+\begin{bmatrix}
+\sum_{p \in P} I_x I_x & \sum_{p \in P} I_x I_y \\
+\sum_{p \in P} I_y I_x & \sum_{p \in P} I_y I_y
+\end{bmatrix}
+$$
+$P$ is the set of pixels in a given regione of the image.
+To understand the behaviour of M we can analyse the eigenvalues:
+$$
+\begin{align*}
+& M \mathbf{e} = \lambda \mathbf{e} & (M - \lambda I) \mathbf{e} = 0
+\end{align*}
+$$
+After you find out what are the eigenvalues and eigenvector you can write the following:
+$$
+\begin{align*}
+& M = R^{-1} \begin{bmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{bmatrix} R &
+x^T \ M \ x = \text{const} \\\\
 
-```slide-note
-file: Features.pdf
-page: 41
-scale: 0.8
-```
+& \frac{(e_1^Tx)^2}{(\frac{1}{\sqrt{\lambda_{max}}})^2} + \frac{(e_2^Tx)^2}{(\frac{1}{\sqrt{\lambda_{min}}})^2} = 1
 
-```slide-note
-file: Features.pdf
-page: 42
-scale: 0.8
-```
+
+\end{align*}
+$$
+
+We can visualize all as an ellipse with axis lengths determined by the eigenvalues and orientation determined by R (composed by eigenvectors):
+
+![[Pasted image 20240605113721.png|300]]
+
+If the eigenvector 
 
 ```slide-note
 file: Features.pdf

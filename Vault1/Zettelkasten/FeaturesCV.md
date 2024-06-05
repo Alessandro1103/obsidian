@@ -184,62 +184,12 @@ which help determine the threshold for detecting a corner. It is a variant of ta
 >4. Threshold $f$ or $R$
 >5. Find local maxima of response function
 
+## Properties of Harris Corner Detector
 
+When dealing with image features, such as corners, we aim for the features to be robust to various transformations. This robustness is described by the terms invariance and equivariance.
 
-
-```slide-note
-file: Features.pdf
-page: 55
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 56
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 57
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 58
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 59
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 60
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 61
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 62
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 63
-scale: 0.8
-```
+- **Invariance**: the feature locations do not change when the image undergoes certain transformations.
+- **Equivariance**: if we apply a transformation to an image, the detected features should correspondingly transform in a predictable way.
 
 ```slide-note
 file: Features.pdf

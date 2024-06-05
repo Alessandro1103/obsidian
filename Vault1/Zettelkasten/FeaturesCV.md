@@ -188,14 +188,14 @@ which help determine the threshold for detecting a corner. It is a variant of ta
 
 When dealing with image features, such as corners, we aim for the features to be robust to various transformations. This robustness is described by the terms invariance and equivariance.
 
-- **Invariance**: the feature locations do not change when the image undergoes certain transformations.
-- **Equivariance**: if we apply a transformation to an image, the detected features should correspondingly transform in a predictable way.
+- **Invariance**: the *feature locations* do not change when the image undergoes certain transformations. In our case we want that our detector is invariant to the light, meaning that if an image is brightened or darkened the corner locations should remain the same.
+- **Equivariance**: if we apply a transformation to an image, the detected features should correspondingly transform in a predictable way. In our case we want that if our image is rotated the detected corners should rotate similarly.
 
-```slide-note
-file: Features.pdf
-page: 64
-scale: 0.8
-```
+Properties:
+- Corner location is equivariant w.r.t. translation
+- Corner location is equivariant w.r.t. image rotation
+- Partially invariant to affine intensity change
+
 
 ```slide-note
 file: Features.pdf

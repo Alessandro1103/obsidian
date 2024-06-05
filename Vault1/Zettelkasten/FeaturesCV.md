@@ -134,37 +134,15 @@ We can visualize all as an ellipse with axis lengths determined by the eigenvalu
 
 ![[Pasted image 20240605113721.png|300]]
 
-If the eigenvector 
+If the eigenvectors ($e$) are 1, so zero rotation, this is what we obtain:
 
-```slide-note
-file: Features.pdf
-page: 43
-scale: 0.8
-```
+![[Pasted image 20240605120604.png|300]]
 
-```slide-note
-file: Features.pdf
-page: 44
-scale: 0.8
-```
+We are moving in the direction with the minor eigenvalue (fastest).
 
-```slide-note
-file: Features.pdf
-page: 45
-scale: 0.8
-```
+![[Pasted image 20240605120724.png|400]]
 
-```slide-note
-file: Features.pdf
-page: 46
-scale: 0.8
-```
 
-```slide-note
-file: Features.pdf
-page: 47
-scale: 0.8
-```
 
 ```slide-note
 file: Features.pdf
@@ -178,23 +156,29 @@ page: 49
 scale: 0.8
 ```
 
+The image in the left shows a common test image for corner detection. The image in the middle, with $\lambda_{max}$ shows the response form an algorithm that highlights areas with the largest eigenvalues. The lines are highlighted because these are the areas with one dominant gradient direction, corresponding to an edge. In $\lambda_{min}$ case, both eigenvalues are large because the gradient changes in multiple directions.
+
 ```slide-note
 file: Features.pdf
 page: 50
 scale: 0.8
 ```
 
-```slide-note
-file: Features.pdf
-page: 51
-scale: 0.8
-```
+$\lambda_{min}$ is a measure of the intensity variation in the least varying direction. If $\lambda_{min}$ is large, it indicates significant variation in all directions, suggesting a corner. Choose the point where $\lambda_{min}$ is a local maximum. These points are more likely to be true corners, as they reprensent areas with the highest intensity variation in all directions.
 
-```slide-note
-file: Features.pdf
-page: 52
-scale: 0.8
-```
+**Harris operator**:
+$$
+f = \frac{determinant(H)}{trace(H)} = \frac{\lambda_1\lambda_2}{\lambda_1+\lambda_2}
+$$
+or:
+$$
+R = determinat(M) - k \cdot trace(M)^2
+$$
+
+which help determine the threshold for detecting a corner
+
+
+
 
 ```slide-note
 file: Features.pdf

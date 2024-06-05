@@ -1,3 +1,4 @@
-.tag[href="#important"] {
-    color: red;
+.callout[data-callout="Algorithm"] {
+    --callout-color: 0, 0, 0;
+    --callout-icon: lucide-alert-circle;
 }

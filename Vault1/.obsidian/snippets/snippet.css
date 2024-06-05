@@ -1,4 +1,4 @@
 .callout[data-callout="Algorithm"] {
-    --callout-color: 0, 0, 0;
-    --callout-icon: lucide-alert-circle;
+    --callout-color: 163, 190, 140; /* Verde chiaro per rappresentare gli algoritmi */
+    --callout-icon: lucide-cpu;
 }

@@ -175,22 +175,17 @@ $$
 R = determinat(M) - k \cdot trace(M)^2
 $$
 
-which help determine the threshold for detecting a corner
+which help determine the threshold for detecting a corner. It is a variant of taking just $\lambda_{min}$
+
+>[!algorithm]
+>1. Compute Gaussian derivatives at each pixel ($I_x$ and $I_y$)
+>2. Compute second moment matrix H in a Gaussian window around each pixel
+>3. Compute corner response function $f$ or $R$
+>4. Threshold $f$ or $R$
+>5. Find local maxima of response function
 
 
 
-
-```slide-note
-file: Features.pdf
-page: 53
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 54
-scale: 0.8
-```
 
 ```slide-note
 file: Features.pdf

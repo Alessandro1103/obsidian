@@ -192,64 +192,23 @@ When dealing with image features, such as corners, we aim for the features to be
 - **Equivariance**: if we apply a transformation to an image, the detected features should correspondingly transform in a predictable way. In our case we want that if our image is rotated the detected corners should rotate similarly.
 
 Properties:
-- Corner location is equivariant w.r.t. translation
-- Corner location is equivariant w.r.t. image rotation
-- Partially invariant to affine intensity change
+
+- Corner location is equivariant w.r.t. translation (derivatives and window function are equivariant)
+- Corner location is equivariant w.r.t. image rotation (the eigenvalues in the second moment ellipse rotates but the values remains the same)
+- Partially invariant to affine intensity change:
+	- If the intensity is only shifted, $I \rightarrow I + b$ the derivative removes the $b$
+	- If the intensity is scaled, $I\rightarrow \ aI$ the derivative can not delete $a$ and the scaled values goes in the detector R, but since the threshold is fixed, some values that before where not considered, now are taken as edges
+- Neither invariant nor equivariant to scaling, since if we zoom inside an edge a lot, we can not see the actual edge, we see it as a curve and the detector doesn't recognize it
+
+To create a scale Invariant Detection we need to consider regions (patches) of different sizes around a point, a multi scale analysis. And even if scaled at some scale, the regions (or patches) represent the same portion of the image, even if the image itself has been scaled.
+
+![[Pasted image 20240605132304.png|300]]
+
+The challenge is to select regions (circles) of the right size around each point in the image independently, so that corresponding features can be detected even when the scale changes. The idea is to select the scale at which the feature (e.g., a corner) is most prominent or has the highest response. This can be done finding $f$ (or $R$) for each scale, and selecting the max.
+
+![[Pasted image 20240605132855.png|300]]
 
 
-```slide-note
-file: Features.pdf
-page: 65
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 66
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 67
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 68
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 69
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 70
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 71
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 72
-scale: 0.8
-```
-
-```slide-note
-file: Features.pdf
-page: 73
-scale: 0.8
-```
 
 ```slide-note
 file: Features.pdf

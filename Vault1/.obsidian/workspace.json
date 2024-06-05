@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "2f9f5b965aa164a0",
+            "id": "88c744f6f8bffdd7",
             "type": "leaf",
             "state": {
               "type": "slidenote-pdfcanvas",
@@ -164,6 +164,8 @@
   },
   "active": "1e455dfa28525c3e",
   "lastOpenFiles": [
+    "Files/Pasted image 20240605132855.png",
+    "Files/Pasted image 20240605132304.png",
     "Files/Pasted image 20240605120724.png",
     "Files/Pasted image 20240605120604.png",
     "Files/Pasted image 20240605113721.png",
@@ -189,8 +191,6 @@
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Formulario Computer Vision.md",
-    "Files/Pasted image 20240527173621.png",
-    "Files/Pasted image 20240527173433.png",
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/Temporal.md",
     "Zettelkasten/StereoMatching.md",

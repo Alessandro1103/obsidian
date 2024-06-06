@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54763a5a2594aa3b",
+        "id": "fdeaeb9dff1b8c97",
         "type": "tabs",
         "children": [
           {
-            "id": "8d75442b5f6126c7",
+            "id": "58e2b67b629272b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "862aabf89a2d668f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Formulario Computer Vision.md",
+                "file": "Zettelkasten/FeaturesCV3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -34,7 +21,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Formulario Computer Vision.md",
+                "file": "Zettelkasten/FeaturesCV3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Formulario Computer Vision.md",
+                "file": "Zettelkasten/FeaturesCV3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,11 +162,16 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "862aabf89a2d668f",
+  "active": "58e2b67b629272b9",
   "lastOpenFiles": [
+    "Zettelkasten/FeaturesCV2.md",
+    "Files/Features2.pdf",
+    "Zettelkasten/FeaturesCV3.md",
+    "Zettelkasten/Obsidian.md",
+    "Files/Features3.pdf",
+    "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Fourier Transform.md",
-    "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/FeaturesCV.md",
     "Files/Pasted image 20240605183616.png",
     "Files/Pasted image 20240605175821.png",
@@ -194,10 +185,8 @@
     "Files/Pasted image 20240605120604.png",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
-    "Files/FeaturesDescriptorHOG.pdf",
     "Files/Features.pdf",
     "Zettelkasten/Image Processing.md",
-    "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Medical Quiz Homework 2.md",
@@ -213,7 +202,6 @@
     "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/pull.md",
-    "Zettelkasten/Obsidian.md",
     "Zettelkasten/Collezioni Carte.md",
     "Files/Recording 20240507124348.webm",
     "Zettelkasten/push.md",
@@ -221,9 +209,6 @@
     "Templates/Base + Reference.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/this.md",
-    "Zettelkasten/$I_x u + I_y v + I_t = 0$.md",
-    "Zettelkasten/Mermaid.md",
-    "Files/Recording 20231123223359.webm",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

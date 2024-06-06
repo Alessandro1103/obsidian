@@ -27,11 +27,11 @@ page: 10
 scale: 0.8
 ```
 
-```slide-note
-file: Features3.pdf
-page: 11
-scale: 0.8
-```
+In order to find the best keypoint we look at the neighbors, 8 in the same level, and 9 in the plane upper and down (each), so we ends in 26 neighbors. 
+
+![[Screenshot from 2024-06-06 16-27-02.png|150]]
+
+The image pyramid is created by repeatedly blurring and subsampling the image. Each level of the pyramid represents a different octave (scale) in the scale-space representation. At each octave the image is progressively blurred more to create a set of images each at a higher scale. To go to the next octave, the image is downsampled by a factor of 2.
 
 ```slide-note
 file: Features3.pdf
@@ -39,11 +39,8 @@ page: 12
 scale: 0.8
 ```
 
-```slide-note
-file: Features3.pdf
-page: 13
-scale: 0.8
-```
+**Illumination-thresholding**
+During the process of keypoint detection using the Difference of Gaussians images, one important step is to remove low contrast features (below a threshold), don't provide reliable information.  
 
 ```slide-note
 file: Features3.pdf
@@ -51,23 +48,22 @@ page: 14
 scale: 0.8
 ```
 
-```slide-note
-file: Features3.pdf
-page: 15
-scale: 0.8
-```
+### Keypoint Orientation
 
-```slide-note
-file: Features3.pdf
-page: 16
-scale: 0.8
-```
+The next thing is to assign an orientation to each keypoint, this orientation provides rotation invariance. For all levels, compute Gradient magnitude and orientation. 
 
-```slide-note
-file: Features3.pdf
-page: 17
-scale: 0.8
-```
+![[Screenshot from 2024-06-06 16-46-05.png|300]]
+
+Then we create an histogram, this histogram spans 360 degrees, divided into 36 bins (each representing a 10-degree interval). The contributions of the gradients to the histogram are weighted by their magnitudes, ensuring that directions in which the gradient is stronger have a greater influence on the histogram.
+
+>[!example]
+>![[Screenshot from 2024-06-06 16-59-20.png|300]]
+>
+>In this case, taking the gradient from a picture we don't see, the gradient direction of a pixel is about 18 degrees. We go into the histogram and add a value proportional to the magnitude of that orientation. This is done for all pixels
+
+
+
+
 
 ```slide-note
 file: Features3.pdf

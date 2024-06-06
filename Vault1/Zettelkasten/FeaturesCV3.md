@@ -59,17 +59,9 @@ Then we create an histogram, this histogram spans 360 degrees, divided into 36 b
 >[!example]
 >![[Screenshot from 2024-06-06 16-59-20.png|300]]
 >
->In this case, taking the gradient from a picture we don't see, the gradient direction of a pixel is about 18 degrees. We go into the histogram and add a value proportional to the magnitude of that orientation. This is done for all pixels
+>In this case, taking the gradient from a picture we don't see, the gradient direction of a pixel is about 18 degrees. We go into the histogram and add a value proportional to the magnitude of that orientation. This is done for all pixels we think are keypoints and the ones near them. At the end the peak of the histogram is the keypoint. All the peaks over the 80% are converted in new keypoints.
 
 
-
-
-
-```slide-note
-file: Features3.pdf
-page: 18
-scale: 0.8
-```
 
 ```slide-note
 file: Features3.pdf
@@ -77,23 +69,12 @@ page: 19
 scale: 0.8
 ```
 
-```slide-note
-file: Features3.pdf
-page: 20
-scale: 0.8
-```
+## SIFT descriptor
 
-```slide-note
-file: Features3.pdf
-page: 21
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 22
-scale: 0.8
-```
+For each detected keypoint is assigned:
+- Location
+- Scale (magnitude)
+- Orientation
 
 ```slide-note
 file: Features3.pdf

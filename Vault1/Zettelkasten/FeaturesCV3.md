@@ -82,18 +82,22 @@ page: 23
 scale: 0.8
 ```
 
-```slide-note
-file: Features3.pdf
-page: 24
-scale: 0.8
-```
+>[!Algorithm build SIFT descriptor]
+>The steps of building the SIFT descriptor are as following:
+>1. Use the Gaussian blurred image that corresponds to the keypoint's scale
+>2. Select the 16x16 window around the keypoint
+>3. Calculate the gradient angle of the 16x16 window, and then rotate it of the keypoint's angle, so that the window becomes more robust to rotations
+>4. Divide the 16x16 window in 4x4 grids (16 cells) 
+>5. Compute the histogram (8 bins for 360 degrees) for each 2x2 grid
 
-```slide-note
-file: Features3.pdf
-page: 25
-scale: 0.8
-```
+The result is a SIFT descriptor of 128 vectors: 4x4 histograms, each with 8 orientation bins.
 
+![[Screenshot from 2024-06-06 19-20-28.png|300]]
+
+SIFT descriptor properties:
+- Invariant to rotation (if we assume that a rotation of x, will generate a keypoint that is rotated by x)
+- Invariant to scale (DoG scaled the image at the start)
+- Invariant to illumination%%  %%
 ```slide-note
 file: Features3.pdf
 page: 26

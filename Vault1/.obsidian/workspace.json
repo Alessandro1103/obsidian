@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0a238a855c062ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/FeaturesCV2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "402f58db0b947f0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/FeaturesCV.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -88,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/FeaturesCV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/FeaturesCV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,14 +189,15 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "58e2b67b629272b9",
+  "active": "402f58db0b947f0b",
   "lastOpenFiles": [
+    "Zettelkasten/FeaturesCV2.md",
+    "Zettelkasten/FeaturesCV3.md",
+    "Files/Screenshot from 2024-06-06 19-20-28.png",
     "Files/Screenshot from 2024-06-06 16-59-20.png",
     "Files/Screenshot from 2024-06-06 16-46-05.png",
     "Files/Screenshot from 2024-06-06 16-27-02.png",
-    "Zettelkasten/FeaturesCV2.md",
     "Files/Features2.pdf",
-    "Zettelkasten/FeaturesCV3.md",
     "Zettelkasten/Obsidian.md",
     "Files/Features3.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
@@ -182,8 +210,6 @@
     "Files/Pasted image 20240605174751.png",
     "Files/Pasted image 20240605174314.png",
     "Files/Pasted image 20240605174150.png",
-    "Files/Pasted image 20240605132855.png",
-    "Files/Pasted image 20240605132304.png",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
     "Files/Features.pdf",

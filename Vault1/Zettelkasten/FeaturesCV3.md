@@ -173,6 +173,7 @@ The strategy of binary descriptors is:
 0 & \text{otherwise} 
 \end{cases}
    $$
+Indeed, this defines a code for a patch around a keypoint, and this code will be the descriptor. This descriptor is the element that we aim to find in other images.
 
 ```slide-note
 file: Features3.pdf
@@ -184,26 +185,12 @@ scale: 0.8
 - Compact descriptor: the number in binary gives us the length too
 - Fast to compute: simply intensity value comparisons
 - Trivial and fast to compare: hamming distance $$
-  
+  d_{Hamming}(B_1, B_2) = sum(xor(B_1, B_2))
   $$
 
-```slide-note
-file: Features3.pdf
-page: 47
-scale: 0.8
-```
+## BRIEF
 
-```slide-note
-file: Features3.pdf
-page: 48
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 49
-scale: 0.8
-```
+This is the first binary image descriptor
 
 ```slide-note
 file: Features3.pdf

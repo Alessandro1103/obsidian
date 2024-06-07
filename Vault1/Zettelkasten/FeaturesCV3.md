@@ -96,19 +96,9 @@ The result is a SIFT descriptor of 128 vectors: 4x4 histograms, each with 8 orie
 
 SIFT descriptor properties:
 - Invariant to rotation (if we assume that a rotation of x, will generate a keypoint that is rotated by x)
-- Invariant to scale (DoG scaled the image at the start)
-- Invariant to illumination%%  %%
-```slide-note
-file: Features3.pdf
-page: 26
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 27
-scale: 0.8
-```
+- Invariant to scale (DoG scaled the image at the start)![[Screenshot from 2024-06-07 10-45-54.png|200]]
+- Invariant to illumination
+- Slightly robustness to affine transformation and to noise![[Screenshot from 2024-06-07 10-46-24.png|200]]
 
 ```slide-note
 file: Features3.pdf

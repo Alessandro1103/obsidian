@@ -190,79 +190,65 @@ scale: 0.8
 
 ## BRIEF
 
-This is the first binary image descriptor
+This is the first binary image descriptor. In the following there are some methodology for choosing the pairs we need to compare (sampling pairs):
+- $I$: Uniform random sampling
+- $II$: Gaussian sampling
+- $III$: $s_1$ Gaussian; $s_2$ Gaussian centered around $s_1$
+- $IV$: Discrete location from a Coarse polar grid
+- $V$: $s_1=(0,0)$; $s_2$ are all location from a coarse polar grid
+### ORB (Oriented FAST and Rotated BRIEF)
+#### Extension: Rotation Compensation
 
-```slide-note
-file: Features3.pdf
-page: 50
-scale: 0.8
-```
+In this part we need to estimated the center of mass and the main orientation of the area/patch. 
 
-```slide-note
-file: Features3.pdf
-page: 51
-scale: 0.8
-```
+Image moment:
+$$
+m_{pq} = \sum_{x,y} x^p y^q I(x,y)
+$$
+Center of mass:
+$$
+C = \left( \frac{m_{10}}{m_{00}}, \frac{m_{01}}{m_{00}} \right)
+$$
+>[!example]
+>$$
+>\begin{bmatrix}
+>1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9
+>\end{bmatrix}
+>$$
+>Zero Moment: $m_{00} = 1+2+3+4+5+6+7+8+9=45$
+>First Moment about x: $m_{10} = 1*0+2*1+3*2+4*0+5*1+6*2+7*0+8*1+9*2=51$
+>First Moment about y: $m_{01} = 1*0+2*0+3*0+4*1+5*1+6*1+7*2+8*2+9*2=63$ 
+>Center of Mass
+>$C = \left(\frac{m_10}{m_00}, \frac{m_01}{m_00}\right) = \left(\frac{51}{45}, \frac{63}{45}\right) \approx \left(1.13, 1.4\right)$
+>Orientation $\theta$
+>$\theta = atan2(m_{01}, m_{10}) = atan2(63,51)$
+>
+>as you can see the first moments, are calculated considering a certain row or column bond with 0,1,2
 
-```slide-note
-file: Features3.pdf
-page: 52
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 53
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 54
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 55
-scale: 0.8
-```
+Given CoM and orientation $C$,$\theta$ we can rotate the coordinates of all pairs by $\theta$ around $C$:
+$$
+s' = T(C,\theta)s
+$$
+Pairs should be/have:
+- uncorrelated (new information)
+- high variance (feature more discriminative)
 
 ```slide-note
 file: Features3.pdf
 page: 56
 scale: 0.8
 ```
-
+## Freak sampling
 ```slide-note
 file: Features3.pdf
 page: 57
 scale: 0.8
 ```
+## Feature Matching
 
-```slide-note
-file: Features3.pdf
-page: 58
-scale: 0.8
-```
+When we have Image Matching we want to find in a image the maximum number of keypoints, for each keypoint, search similar descriptor in a reference image. 
 
-```slide-note
-file: Features3.pdf
-page: 59
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 60
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 61
-scale: 0.8
-```
+Instead, if we find a feature in image $I_1$, how do I find the best match () in $I_2$?
 
 ```slide-note
 file: Features3.pdf

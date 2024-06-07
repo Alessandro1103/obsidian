@@ -104,17 +104,8 @@ page: 36
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 37
-scale: 0.8
-```
+If we have more equations than unknowns we need to find the *least squares solution*:
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 38
-scale: 0.8
-```
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -140,37 +131,7 @@ page: 42
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 43
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 44
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 45
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 46
-scale: 0.8
-```
-
 ### Affine
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 47
-scale: 0.8
-```
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -184,17 +145,15 @@ page: 49
 scale: 0.8
 ```
 
+The cost function is still a Mean Squared Error (MSE):
+
 ```slide-note
 file: TransformationAlignment.pdf
 page: 50
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 51
-scale: 0.8
-```
+### Homography
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -232,23 +191,15 @@ page: 57
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 58
-scale: 0.8
-```
+### Final
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 59
-scale: 0.8
-```
+>[!Algorithm]
+>1. Compute image features for A and B
+>2. Match features between A and B
+>3. Compute homography between A and B using least squares on set of matches
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 60
-scale: 0.8
-```
+
+## Outliers
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -262,23 +213,7 @@ page: 62
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 63
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 64
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 65
-scale: 0.8
-```
+For all possible lines, select the one with the largest number of inliers
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -286,59 +221,27 @@ page: 66
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 67
-scale: 0.8
-```
+### RASAC
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 68
-scale: 0.8
-```
+In order to find a model parameters that maximize the number of inliers, we make the following assumptions:
+- All inliers will agree with each other on the model parameters (e.g., translation vector in the context of image alignment)
+- Outliers will (hopefully) not agree with each other and with the inliers
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 69
-scale: 0.8
-```
+The condition to work is that there are less than 50% of outliers
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 70
-scale: 0.8
-```
+>[!Algorithm General RANSAC]
+>1. Randomly choose $s$ samples
+>2. Fit a model to those samples
+>3. Count the number of inliers that approximately fit the model
+>4. Repeat $N$ times
+>5. Choose the model that has the largest set of inliers
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 71
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 72
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 73
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 74
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 75
-scale: 0.8
-```
+>[!Algorithm homography RANSAC]
+>1. Select four feature pairs
+>2. Compute homography H
+>3. Compute inliers where dist($p_i'$, $Hp_i$)<$\epsilon$
+>4. Keep largest set of inliers
+>5. Re-compute least squares H estimate on all of the inliers
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -348,21 +251,11 @@ scale: 0.8
 
 ```slide-note
 file: TransformationAlignment.pdf
-page: 77
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
 page: 78
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 79
-scale: 0.8
-```
+### Warping
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -400,17 +293,7 @@ page: 85
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 86
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 87
-scale: 0.8
-```
+### Blending
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -426,18 +309,6 @@ scale: 0.8
 
 ```slide-note
 file: TransformationAlignment.pdf
-page: 90
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 91
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
 page: 92
 scale: 0.8
 ```
@@ -448,98 +319,10 @@ page: 93
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 94
-scale: 0.8
-```
+To do so, we use the Laplacian Pyramid:
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 95
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 96
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 97
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 98
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 99
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 100
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 101
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 102
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 103
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 104
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 105
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 106
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 107
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 108
-scale: 0.8
-```
-
-
-
-
-** Process exited - Return Code: 0 **
-Press Enter to exit terminal
+>[!Algorithm Blending]
+>1. Build Laplacian Pyramids
+>2. Build Gaussian Pyramids
+>3. Form a Combined Pyramid: $LS(i,j) = GR(i,j) \cdot LA(i,j) + (1 - GR(i,j)) \cdot LB(i,j)$
+>4. Collapse the LS pyramid to get the final blended image

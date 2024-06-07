@@ -6,13 +6,15 @@ Up: [[Computer Vision]]
 ---
 # FeaturesCV3
 
+## SIFT
+
 We'll delve into the **SIFT** (Scale Invariant Feature Transform) algorithm, which is widely used in computer vision for object recognition, robotica mapping, and image stitching. SIFT is used both as a detector and a descriptor. It detects and describes local features in images. 
 
 1. **Multi-scale Extreme Detection**: This step involves searching for stable features across multiple scales. It uses a scale-space representation.
 2. **Keypoint Localization**: After identifying potential interest points, SIFT refines these keypoints to achieve more accurate localization.
 3. **Orientation Assignment**: Each keypoint is assigned one or more orientations based on local image gradient directions. This step ensures that the keypoint descriptor is rotation invariant.
 4. **Keypoint Descriptor**: The local image gradients are measured at the selected scale in the region around each keypoint. These are transformed into a representation that allows for significant levels of local shape distortion and change in illumination.
-## SIFT detector
+### SIFT detector
 
 The SIFT detector uses the **Difference of Gaussians** (DoG) method to approximate the Laplacian of Gaussian (LoG). 
 $$
@@ -48,7 +50,7 @@ page: 14
 scale: 0.8
 ```
 
-### Keypoint Orientation
+#### Keypoint Orientation
 
 The next thing is to assign an orientation to each keypoint, this orientation provides rotation invariance. For all levels, compute Gradient magnitude and orientation. 
 
@@ -69,7 +71,7 @@ page: 19
 scale: 0.8
 ```
 
-## SIFT descriptor
+### SIFT descriptor
 
 For each detected keypoint is assigned:
 - Location
@@ -99,60 +101,35 @@ SIFT descriptor properties:
 - Invariant to scale (DoG scaled the image at the start)![[Screenshot from 2024-06-07 10-45-54.png|200]]
 - Invariant to illumination
 - Slightly robustness to affine transformation and to noise![[Screenshot from 2024-06-07 10-46-24.png|200]]
+## SURF
 
-```slide-note
-file: Features3.pdf
-page: 28
-scale: 0.8
-```
+The SURF is a feature detection framework, his procedure is divided in:
+1. Interest Point Detection
+2. Interest Point Description
+3. Interest Point Matching
+### SURF detection
 
-```slide-note
-file: Features3.pdf
-page: 29
-scale: 0.8
-```
+**Integral Images**: are tool used to quickly and efficiently  calculate the sum of values in a rectangular subset of a grid. 
 
-```slide-note
-file: Features3.pdf
-page: 30
-scale: 0.8
-```
+![[Screenshot from 2024-06-07 11-07-25.png|200]]
 
-```slide-note
-file: Features3.pdf
-page: 31
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 32
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 33
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 34
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 35
-scale: 0.8
-```
+$$
+I_{\Sigma}(x, y) = \sum_{i=0}^{x} \sum_{j=0}^{y} I(i, j)
+$$
 
 ```slide-note
 file: Features3.pdf
 page: 36
 scale: 0.8
 ```
+
+$$
+\text{det}(H_{\text{approx}}) = D_{xx}D_{yy} - (wD_{xy})^2
+$$
+where $D$ are the box filters (like the one studied for derivatives: $\begin{bmatrix}-1 & 0 & 1\end{bmatrix}$)
+
+![[Screenshot from 2024-06-07 11-17-23.png|300]]
+
 
 ```slide-note
 file: Features3.pdf

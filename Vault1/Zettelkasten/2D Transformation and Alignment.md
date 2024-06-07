@@ -35,60 +35,20 @@ We have **Rotation** by an angle $\theta$. $R=\begin{bmatrix} \cos\theta & -\sin
 
 **Mirror**: $M = \begin{bmatrix}-1 & 0 \\0 & -1\end{bmatrix}$
 
+Only linear 2D transformations can be represented with a 2x2 matrix, for example translation is not possible.
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 14
-scale: 0.8
-```
+### Affine
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 15
-scale: 0.8
-```
+In order to represent a translation we need to move to 3x3 matrix:
+$$
+\begin{bmatrix}
+1&0&t_x \\
+0&1&t_y \\
+0&0&1
+\end{bmatrix}
+$$
+every transformation represented by a 3x3 matrix with last row $\begin{bmatrix}0& 0& 1\end{bmatrix}$, we call an *affine* transformation.
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 16
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 17
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 18
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 19
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 20
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 21
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 22
-scale: 0.8
-```
 
 ```slide-note
 file: TransformationAlignment.pdf
@@ -108,33 +68,12 @@ page: 25
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 26
-scale: 0.8
-```
+### Perspective (Homography)
+
 
 ```slide-note
 file: TransformationAlignment.pdf
 page: 27
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 28
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 29
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 30
 scale: 0.8
 ```
 
@@ -150,23 +89,14 @@ page: 32
 scale: 0.8
 ```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 33
-scale: 0.8
-```
+## Computing 2D Transformations
 
 ```slide-note
 file: TransformationAlignment.pdf
 page: 34
 scale: 0.8
 ```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 35
-scale: 0.8
-```
+### Linear Least Squares
 
 ```slide-note
 file: TransformationAlignment.pdf

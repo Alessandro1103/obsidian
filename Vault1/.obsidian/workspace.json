@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,6 +164,13 @@
   },
   "active": "58e2b67b629272b9",
   "lastOpenFiles": [
+    "Files/Screenshot from 2024-06-07 16-28-11.png",
+    "Files/Screenshot from 2024-06-07 16-26-20.png",
+    "Files/Screenshot from 2024-06-07 16-26-08.png",
+    "Zettelkasten/Obsidian.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Zettelkasten/FeaturesCV3.md",
+    "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-07 13-55-44.png",
     "Files/Screenshot from 2024-06-07 13-55-33.png",
     "Files/Screenshot from 2024-06-07 11-17-23.png",
@@ -172,18 +179,13 @@
     "Files/Screenshot from 2024-06-07 10-45-54.png",
     "Zettelkasten/FeaturesCV.md",
     "Zettelkasten/FeaturesCV2.md",
-    "Zettelkasten/FeaturesCV3.md",
     "Files/Screenshot from 2024-06-06 19-20-28.png",
     "Files/Screenshot from 2024-06-06 16-59-20.png",
-    "Files/Screenshot from 2024-06-06 16-46-05.png",
-    "Files/Screenshot from 2024-06-06 16-27-02.png",
     "Files/Features2.pdf",
-    "Zettelkasten/Obsidian.md",
     "Files/Features3.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Fourier Transform.md",
-    "Files/Pasted image 20240605183616.png",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
     "Files/Features.pdf",
@@ -204,12 +206,10 @@
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/pull.md",
     "Zettelkasten/Collezioni Carte.md",
-    "Files/Recording 20240507124348.webm",
     "Zettelkasten/push.md",
     "conflict-files-obsidian-git.md",
     "Templates/Base + Reference.md",
     "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/this.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

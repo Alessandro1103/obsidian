@@ -126,28 +126,23 @@ scale: 0.8
 $$
 \text{det}(H_{\text{approx}}) = D_{xx}D_{yy} - (wD_{xy})^2
 $$
-where $D$ are the box filters (like the one studied for derivatives: $\begin{bmatrix}-1 & 0 & 1\end{bmatrix}$)
+where $D$ are the box filters (like the one studied for derivatives: $\begin{bmatrix}-1 & -2 & 1\end{bmatrix}$)
 
 ![[Screenshot from 2024-06-07 11-17-23.png|300]]
 
+The detector targets areas of the image where the determinant of the Hessian matrix reaches a local maximum.
 
-```slide-note
-file: Features3.pdf
-page: 37
-scale: 0.8
-```
+$$
+H(x,\sigma) = \begin{bmatrix}
+L_{xx}(x,\sigma) & L_{xy}(x,\sigma)\\
+L_{xy}(x,\sigma) & L_{yy}(x,\sigma)
+\end{bmatrix}
+$$
+where $L_{xx}(x,\sigma)$ is the convolution of the Gaussian second order derivative $\frac{\partial^2}{\partial x^2}g(\sigma)$.
 
-```slide-note
-file: Features3.pdf
-page: 38
-scale: 0.8
-```
+#### Scale-Space representation
 
-```slide-note
-file: Features3.pdf
-page: 39
-scale: 0.8
-```
+To match interest points across different scales, a pyramidal scale space is built. Rather than serial downsampling, each successive level of the pyramid is built by upscaling the image in parallel. Each scale is defined as the response of the image convolved with a box filter of a certain dimension. The scale space is further divided into octaves.
 
 ```slide-note
 file: Features3.pdf

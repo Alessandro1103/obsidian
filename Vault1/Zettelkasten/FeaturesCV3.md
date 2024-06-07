@@ -251,17 +251,20 @@ When we have Image Matching we want to find in a image the maximum number of key
 Instead, if we find a feature in image $I_1$, how do I find the best match (feature in image $I_2$)?
 To do so, we need to define a distance function and compares the two descriptors (mean squared error, mean absolute error...). Then test all the features in $I_2$, find the one with min distance or test all the features in $I_2$, find top k matches.
 
-```slide-note
-file: Features3.pdf
-page: 64
-scale: 0.8
-```
+One of the best measurement is the **Radio test**:
+$$
+distance\ ratio = \frac{||f_1-f_2||}{||f_1-f'_2||}
+$$
+where $f_1$ is the feature descriptor from image $I_1$, $f_2$ is the best match for $f_1$ in image $I_2$ (smallest distance match), $f'_2$ is the second-best match for $f_1$ in image $I_2$ (second smallest distance match).
+This process is made multiple times, the the distance ratio found are sorted. 
 
-```slide-note
-file: Features3.pdf
-page: 65
-scale: 0.8
-```
+A lower ration indicates a more confident match.
+Setting a threshold simplify the calculus: 
+$$
+\text{If  } \frac{||f_1-f_2||}{||f_1-f'_2||}< \rho \text{ (e.g., 0.5)}
+$$
+
+this means the best match $f_2$ must be at least twice as close to $f_1$ as the second best match $f'_2$. 
 
 ```slide-note
 file: Features3.pdf

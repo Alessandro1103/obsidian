@@ -248,19 +248,8 @@ scale: 0.8
 
 When we have Image Matching we want to find in a image the maximum number of keypoints, for each keypoint, search similar descriptor in a reference image. 
 
-Instead, if we find a feature in image $I_1$, how do I find the best match () in $I_2$?
-
-```slide-note
-file: Features3.pdf
-page: 62
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 63
-scale: 0.8
-```
+Instead, if we find a feature in image $I_1$, how do I find the best match (feature in image $I_2$)?
+To do so, we need to define a distance function and compares the two descriptors (mean squared error, mean absolute error...). Then test all the features in $I_2$, find the one with min distance or test all the features in $I_2$, find top k matches.
 
 ```slide-note
 file: Features3.pdf

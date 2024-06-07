@@ -164,6 +164,8 @@ page: 46
 scale: 0.8
 ```
 
+### Affine
+
 ```slide-note
 file: TransformationAlignment.pdf
 page: 47

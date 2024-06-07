@@ -162,29 +162,30 @@ page: 42
 scale: 0.8
 ```
 
-```slide-note
-file: Features3.pdf
-page: 43
-scale: 0.8
-```
+## Binary descriptors
 
-```slide-note
-file: Features3.pdf
-page: 44
-scale: 0.8
-```
-
-```slide-note
-file: Features3.pdf
-page: 45
-scale: 0.8
-```
+The strategy of binary descriptors is:
+- Select a patch around a keypoint
+- Select a set of pixel pairs in that patch (no strategy needed)
+- Intensity Comparison: $$
+  b = \begin{cases} 
+1 & \text{if } I(s_1) < I(s_2) \\
+0 & \text{otherwise} 
+\end{cases}
+   $$
 
 ```slide-note
 file: Features3.pdf
 page: 46
 scale: 0.8
 ```
+
+**Advantages**:
+- Compact descriptor: the number in binary gives us the length too
+- Fast to compute: simply intensity value comparisons
+- Trivial and fast to compare: hamming distance $$
+  
+  $$
 
 ```slide-note
 file: Features3.pdf

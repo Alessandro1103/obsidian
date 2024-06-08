@@ -16,7 +16,7 @@ It's a series of lower resolution version of the original image.
 >3. Sub-sample the Blurred image
 >4. Go to point 2
 
-Reducing an image by $\frac{1}{4}$, the sum of this infinite geometric series lead to: $S=\frac{a}{1-r}$, where $a$ is the first element, $r$ is the common ratio: $S = \frac{1}{1-\frac{1}{4}} = \frac{4}{3}$.
+Reducing an image by $\frac{1}{4}$, the sum of this infinite geometric series lead to: $S=\frac{a}{1-r}$, where $a$ is the first element, $r$ is the common ratio: $S = \frac{1}{1-\frac{1}{4}} = \frac{4}{3}$. This value represents the possible space occupied by the image if we tend to infinite, $\frac{4}{3}$ of the original size.
 
 ## Laplacian Pyramid
 
@@ -52,6 +52,8 @@ scale: 0.8
 >1. Start from the smallest and highest image in the Gaussian pyramid
 >2. Up-sample (e.g. bilinear, bicubic...) and add the residual
 >3. Repeat for all levels
+
+The space calculation made before can be done for this as well. In particular instead of levels we store residuals, so the result is the same.
 
 Image pyramids are used in: 
 - Image compression

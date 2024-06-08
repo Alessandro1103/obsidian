@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Zettelkasten/Image Processing.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -164,6 +164,7 @@
   },
   "active": "cb9a6b6a169b1de3",
   "lastOpenFiles": [
+    "Files/Pasted image 20240608152055.png",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
@@ -209,7 +210,6 @@
     "Zettelkasten/Collezioni Carte.md",
     "Zettelkasten/push.md",
     "conflict-files-obsidian-git.md",
-    "Templates/Base + Reference.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

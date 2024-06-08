@@ -77,7 +77,18 @@ $$
 & G[i, j] = \sum_{u=-k}^{k} \sum_{v=-k}^{k} H[u, v] F[i + u, j + v] & G = H \otimes F
 \end{align*}
 $$
+The indices for the image goes from 0 to i and j. The filter goes from -k to k where $k = \lfloor \frac{i}{2}\rfloor +1$.
 Neither associative nor commutative ![[Pasted image 20240527132321.png|100]]
+
+>[!example]
+>$F = \begin{bmatrix}1 & 2& 3 \\4&5&6\\7&8&9 \end{bmatrix}$ and $H = \begin{bmatrix}-1&-2&-1\\0&0&0\\1&2&1\end{bmatrix}$
+>In this case $k=1$. In this exercise we have considered the padding, without padding, the indices start from 0.
+>So the formula is the following:
+>$G[0,0] = H[-1,-1]F[-1,-1]+H[-1,0]F[-1,0]+H[-1,1]F[-1,1]+H[0,-1]F[0,-1]+H[0,0]F[0,0]+H[0,1]F[0,1]+H[1,-1]F[1,-1]+H[1,0]F[1,0]+H[1,1]F[1,1]=\text{F with negative indices makes no sense, or at any rate comes 0 if we consider padding}=H[0,0]F[0,0]+H[0,1]F[0,1]+H[1,0]F[1,0]+H[1,1]F[1,1] = 13$
+>
+>Instead of write all the formula we can just overlap the kernel on the image, and multiply, the same calculus for $G[0,0]$ could have been done in this way:
+>![[Pasted image 20240608152055.png|100]]
+>Only with the opposite indices.
 
 ### Convolution
 
@@ -90,9 +101,20 @@ $$
 \end{align*}
 $$
 
+The indices for the image goes from 0 to i and j. The filter goes from -k to k where $k = \lfloor \frac{i}{2}\rfloor +1$.
 Convolution is a multiplication like operation: commutative, associative, distributive, scalars factor out, identity multiplication. Kernel is flipped (horizontally and vertically): 
 
 ![[Pasted image 20240527132517.png|200]]
+
+>[!example]
+>$F = \begin{bmatrix}1 & 2& 3 \\4&5&6\\7&8&9 \end{bmatrix}$ and $H = \begin{bmatrix}-1&-2&-1\\0&0&0\\1&2&1\end{bmatrix}$
+>In this case $k=1$. In this exercise we have considered the padding, without padding, the indices start from 0.
+>So the formula is the following:
+>$G[0,0] = H[-1,-1]F[1,1]+H[-1,0]F[1,0]+H[-1,1]F[1,-1]+H[0,-1]F[0,1]+H[0,0]F[0,0]+H[0,1]F[0,-1]+H[1,-1]F[-1,1]+H[1,0]F[-1,0]+H[1,1]F[-1,-1]=\text{F with negative indices makes no sense, or at any rate comes 0 if we consider padding}=H[-1,-1]F[1,1]+H[-1,0]F[1,0]+H[0,-1]F[0,1]+H[0,0]F[0,0] = -13$
+>
+>Instead of write all the formula we can just overlap the kernel inverted (both in horizontal and vertical way) on the image, and multiply, the same calculus for $G[0,0]$ could have been done in this way:
+>![[Pasted image 20240608152055.png|100]]
+
 
 ### Handling boundaries
 

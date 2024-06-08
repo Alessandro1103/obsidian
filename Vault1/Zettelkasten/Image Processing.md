@@ -131,7 +131,8 @@ $$
 >O = \left\lfloor \frac{32 + 2\times1 - 3}{1} \right\rfloor + 1 = \left\lfloor \frac{31}{1} \right\rfloor + 1 = 31 + 1 = 32
 >$$
 
-
+  >[!tip] Remember this formula
+  >"Intanto 2 panda cucinano con la kappa spenta "
 ### Gaussian Kernel
 
 Follows the gaussian formula: 

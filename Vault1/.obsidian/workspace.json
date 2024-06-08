@@ -19,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "32511943708f8098",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Files/Pasted image 20240527125844.png"
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -82,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -98,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Pasted image 20240527125844.png",
+                "file": "Zettelkasten/Image Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/Pasted image 20240527125844.png",
+                "file": "Zettelkasten/Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -172,10 +162,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "32511943708f8098",
+  "active": "ca254683b3128aaf",
   "lastOpenFiles": [
-    "Files/Pasted image 20240527125844 1.png",
     "Files/Pasted image 20240527125844.png",
+    "Files/Pasted image 20240527125844 1.png",
     "Zettelkasten/Image Processing.md",
     "Zettelkasten/Computer Vision.md",
     "Files/Pasted image 20240608152055.png",

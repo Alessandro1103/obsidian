@@ -135,7 +135,7 @@ $$
   >"Intanto 2 panda cucinano sotto la kappa un sushi per una persona"
 ### Gaussian Kernel
 
-Follows the gaussian formula: 
+Follows the Gaussian formula: 
 $$
 G_\sigma = \frac{1}{2 \pi \sigma^2} e^{-\frac{x^2 + y^2}{2 \sigma^2}}
 $$

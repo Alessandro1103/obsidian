@@ -7,7 +7,7 @@ Up:
 # Computer Vision
 
 Slides to study:
-- [ ] [[Image Processing]]
+- [x] [[Image Processing]]
 - [ ] [[Image Pyramids]] 
 - [ ] [[Fourier Transform]]
 - [ ] [[FeaturesCV]]

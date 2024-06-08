@@ -132,7 +132,7 @@ $$
 >$$
 
   >[!tip] Remember this formula
-  >"Intanto 2 panda cucinano con la kappa spenta "
+  >"Intanto 2 panda cucinano sotto la kappa "
 ### Gaussian Kernel
 
 Follows the gaussian formula: 

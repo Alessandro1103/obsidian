@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58e2b67b629272b9",
+            "id": "cb9a6b6a169b1de3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
-                "mode": "source",
+                "file": "Zettelkasten/Image Processing.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,13 +162,17 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "58e2b67b629272b9",
+  "active": "cb9a6b6a169b1de3",
   "lastOpenFiles": [
+    "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Obsidian.md",
+    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Lezione 1.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
     "Files/Screenshot from 2024-06-07 16-28-11.png",
     "Files/Screenshot from 2024-06-07 16-26-20.png",
     "Files/Screenshot from 2024-06-07 16-26-08.png",
-    "Zettelkasten/Obsidian.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/FeaturesCV3.md",
     "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-07 13-55-44.png",
@@ -180,7 +184,6 @@
     "Zettelkasten/FeaturesCV.md",
     "Zettelkasten/FeaturesCV2.md",
     "Files/Screenshot from 2024-06-06 19-20-28.png",
-    "Files/Screenshot from 2024-06-06 16-59-20.png",
     "Files/Features2.pdf",
     "Files/Features3.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
@@ -189,8 +192,6 @@
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
     "Files/Features.pdf",
-    "Zettelkasten/Image Processing.md",
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
@@ -209,7 +210,6 @@
     "Zettelkasten/push.md",
     "conflict-files-obsidian-git.md",
     "Templates/Base + Reference.md",
-    "Zettelkasten/Optical Flow.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

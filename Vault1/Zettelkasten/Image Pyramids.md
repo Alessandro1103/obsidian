@@ -63,7 +63,7 @@ Image pyramids are used in:
 
 ## Steerable pyramid
 
-The Steerable Pyramid is a multi-scale, multi-orientation image decomposition method developed to improve upon the limitations of orthogonal wavelet decompositions.
+The Steerable Pyramid is a multi-scale, multi-orientation image decomposition method. Used in texture analysis, compression, denoising, edge detention. 
 
 ![[Pasted image 20240602170728.png|320]]
 

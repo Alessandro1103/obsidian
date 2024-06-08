@@ -8,7 +8,7 @@ Up:
 
 Slides to study:
 - [x] [[Image Processing]]
-- [ ] [[Image Pyramids]] 
+- [x] [[Image Pyramids]] 
 - [ ] [[Fourier Transform]]
 - [ ] [[FeaturesCV]]
 - [ ] [[FeaturesCV2]]

@@ -24,9 +24,9 @@ page: 14
 scale: 0.8
 ```
 
-For pure tones, such as the sine wave, the frequencies are distinct.
-For more complex signals, more frequencies are involved.
-In the case of random noise, there is a wide range of frequencies.
+For *pure tones*, such as the sine wave, the frequencies are distinct.
+For more *complex signals*, more frequencies are involved.
+In the case of *random noise*, there is a wide range of frequencies.
 
 ```slide-note
 file: FourierTransform.pdf
@@ -103,7 +103,7 @@ Amplitude doesn't carry the image information. Infact the phase is one that cont
 
 ![[Pasted image 20240602190536.png|200]]
 
-Convolution in the spatial or time domain is equivalent to multiplication in the frequency domain, and vice versa.
+Convolution in the time domain is equivalent to multiplication in the frequency domain, and vice versa.
 
 ```slide-note
 file: FourierTransform.pdf

@@ -59,37 +59,31 @@ z = \frac{fB}{x-x'}
 $$
 Same here.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 27 
-scale: 0.8 
-```
+The conditions to compute the depth are:
+1. A baseline (distance from cameras) enough large
+2. Modify the image so that the epipolar lines are horizontal and aligned across both images.
 
 The difference between the two camera needs to be large enough. And the image needs to be warped.
 
+To make the epipolar lines horizontal:
+1. Calibrate the cameras
+2. Estimate the Fundamental/Essential matrix
+3. Rectification Transform (find the rotation matrices for each camera that will align the epipolar lines with the horizontal axis of the image)
+
+The relationship between the two cameras needs to be:
+$$
+\begin{align*}
+&R = I &
+t = (T,0,0)
+\end{align*}
+$$
+meaning that the rotation between the two cameras is the identity, and the translation is only in the x-axis.
+
 ```slide-note 
 file: StereoMatching_CV2324.pdf 
-page: 28 
+page: 31 
 scale: 0.8 
 ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 29 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 30 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 31 
- scale: 0.8 
- ```
 
 We need to rectify both images, like warping
 

@@ -20,6 +20,8 @@ Humans perceive depth because of parallax. When you move, objects that are close
  scale: 0.8 
  ```
 
+Stereo matching is the process used to find correspondences between two stereo images. It involves algorithms that identify similar or identical regions in different images to establish how far objects are from the viewer or camera. The depth information, obtained from the disparities in these correspondences, helps in constructing the 3D structure of the scene.
+
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 22 

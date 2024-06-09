@@ -14,25 +14,25 @@ Humans perceive depth because of parallax. When you move, objects that are close
 
 ## Basic two view stereo setup
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 21 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 21 
+scale: 0.8 
+```
 
 Stereo matching is the process used to find correspondences between two stereo images. It involves algorithms that identify similar or identical regions in different images to establish how far objects are from the viewer or camera. The depth information, obtained from the disparities in these correspondences, helps in constructing the 3D structure of the scene.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 22 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 22 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 23 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 23 
+scale: 0.8 
+```
 
 We need to resort on a system like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
 
@@ -42,31 +42,36 @@ The two coloured images on the left are stereo images. They are two snapshots of
 
 When you compare two stereo images, objects that are closer to the camera will appear to move more between the two images compared to objects that are farther away. This apparent motion is called disparity.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 25 
- scale: 0.8 
- ```
+**Depth from disparity**:
+![[Pasted image 20240609135712.png|200]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 26 
- scale: 0.8 
- ```
+$\frac{x}{f} = \frac{B_1}{z}$ and $\frac{-x'}{f} = \frac{B_2}{z}$, resulting in: 
+$$
+x-x' = \frac{fB}{z}
+$$
+Disparity is inversely proportional to depth.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 27 
- scale: 0.8 
- ```
+![[Pasted image 20240609140253.png|200]]
+
+$\frac{x}{f} = \frac{B_1}{z}$ and $\frac{x'}{f} = \frac{B_2}{z}$, resulting in: 
+$$
+z = \frac{fB}{x-x'}
+$$
+Same here.
+
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 27 
+scale: 0.8 
+```
 
 The difference between the two camera needs to be large enough. And the image needs to be warped.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 28 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 28 
+scale: 0.8 
+```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

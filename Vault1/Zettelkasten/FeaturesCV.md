@@ -138,8 +138,6 @@ page: 48
 scale: 0.8
 ```
 
-E increases in all direction because in the formula we don't distinguish if we are moving from an edge to a corner or viceversa, in both cases the values increases.
-
 ```slide-note
 file: Features.pdf
 page: 49
@@ -199,7 +197,7 @@ The challenge is to select regions (circles) of the right size around each point
 ![[Pasted image 20240605132855.png|300]]
 
 
->[!Algorithm Rilevazione Equivariant Keypoints]
+>[!Algorithm]  Equivariant Keypoints Detection
 >1. Construction of a scaled image pyramid (Laplace pyramid)
 >2. Application of the LoG (instead of Harris Operator) for each level
 >3. Finding the Maximum between scale and space

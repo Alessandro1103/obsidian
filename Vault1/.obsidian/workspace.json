@@ -19,6 +19,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "792ab65a38e2de35",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/Features.pdf"
+              }
+            }
           }
         ],
         "stacked": true
@@ -164,6 +174,8 @@
   },
   "active": "7eb3f9d014b31d16",
   "lastOpenFiles": [
+    "Files/Features.pdf",
+    "Zettelkasten/FeaturesCV.md",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Fourier Transform.md",
     "conflict-files-obsidian-git.md",
@@ -185,14 +197,12 @@
     "Zettelkasten/FeaturesCV3.md",
     "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-07 13-55-44.png",
-    "Zettelkasten/FeaturesCV.md",
     "Zettelkasten/FeaturesCV2.md",
     "Files/Features2.pdf",
     "Files/Features3.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
-    "Files/Features.pdf",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",

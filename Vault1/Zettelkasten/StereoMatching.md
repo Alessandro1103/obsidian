@@ -34,13 +34,13 @@ Stereo matching is the process used to find correspondences between two stereo i
  scale: 0.8 
  ```
 
-We need to resort on a sistem like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
+We need to resort on a system like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 24 
- scale: 0.8 
- ```
+![[Pasted image 20240609125943.png|300]]
+
+The two coloured images on the left are stereo images. They are two snapshots of the same scene taken from slightly different viewpoints. The differences between these two images are key to deriving depth information.
+
+When you compare two stereo images, objects that are closer to the camera will appear to move more between the two images compared to objects that are farther away. This apparent motion is called disparity.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

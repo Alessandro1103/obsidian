@@ -118,19 +118,7 @@ $$
 & M \mathbf{e} = \lambda \mathbf{e} & (M - \lambda I) \mathbf{e} = 0
 \end{align*}
 $$
-After you find out what are the eigenvalues and eigenvector you can write the following:
-$$
-\begin{align*}
-& M = R^{-1} \begin{bmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{bmatrix} R &
-x^T \ M \ x = \text{const} \\\\
-
-& \frac{(e_1^Tx)^2}{(\frac{1}{\sqrt{\lambda_{max}}})^2} + \frac{(e_2^Tx)^2}{(\frac{1}{\sqrt{\lambda_{min}}})^2} = 1
-
-
-\end{align*}
-$$
-
-We can visualize all as an ellipse with axis lengths determined by the eigenvalues and orientation determined by R (composed by eigenvectors):
+After we find out what are the eigenvalues and eigenvector, we can visualize all as an ellipse with axis lengths determined by the eigenvalues and orientation determined by R (composed by eigenvectors):
 
 ![[Pasted image 20240605113721.png|300]]
 
@@ -150,6 +138,8 @@ page: 48
 scale: 0.8
 ```
 
+E increases in all direction because in the formula we don't distinguish if we are moving from an edge to a corner or viceversa, in both cases the values increases.
+
 ```slide-note
 file: Features.pdf
 page: 49
@@ -168,18 +158,18 @@ $\lambda_{min}$ is a measure of the intensity variation in the least varying dir
 
 **Harris operator**:
 $$
-f = \frac{determinant(H)}{trace(H)} = \frac{\lambda_1\lambda_2}{\lambda_1+\lambda_2}
+f = \frac{determinant(M)}{trace(M)} = \frac{\lambda_1\lambda_2}{\lambda_1+\lambda_2}
 $$
 or:
 $$
 R = determinat(M) - k \cdot trace(M)^2
 $$
 
-which help determine the threshold for detecting a corner. It is a variant of taking just $\lambda_{min}$
+which help determine the threshold for detecting a corner. It is a variant of taking just $\lambda_{min}$.
 
 >[!algorithm]
 >1. Compute Gaussian derivatives at each pixel ($I_x$ and $I_y$)
->2. Compute second moment matrix H in a Gaussian window around each pixel
+>2. Compute second moment matrix M in a Gaussian window around each pixel
 >3. Compute corner response function $f$ or $R$
 >4. Threshold $f$ or $R$
 >5. Find local maxima of response function

@@ -1,133 +1,18 @@
 Date: 2024-05-15
 Time: 12:16
-Tags:
-Up: 
+Tags: #ComputerVision #Università 
+Up: [[Computer Vision]]
 
 ---
-# StereoMatching
+# Stereo Matching
 
-## Introduction
+## Motivation and history
 
+**Parallax** is a phenomenon where the position or direction of an object appears to differ when viewed from different positions. In simpler terms, it's the apparent shift of an object against a background due to a change in observer position.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 1 
- scale: 0.8 
- ```
+Humans perceive depth because of parallax. When you move, objects that are closer to you move faster across your field of view compared to objects that are far away. This is another way we gauge depth and distance while moving, such as when driving or walking.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 2 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 3 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 4 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 5 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 6 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 7 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 8 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 9 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 10 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 11 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 12 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 13 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 14 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 15 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 16 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 17 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 18 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 19 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 20 
- scale: 0.8 
- ```
+## Basic two view stereo setup
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -173,7 +58,7 @@ We need to resort on a sistem like this, where we have the image plane, find the
  scale: 0.8 
  ```
 
-The difference between the two camera needs to be large enought. And the image needs to be warped.
+The difference between the two camera needs to be large enough. And the image needs to be warped.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

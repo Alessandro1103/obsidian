@@ -7,7 +7,7 @@ Up: [[Computer Vision]]
 # Features
 
 We can have:
-- **Global Features**: are attributes that generalize the entire object within an image
+- **Global Features**: are attributes that generalize the entire image or video
 - **Local Features**: are descriptors of image patches or key points in the image of an object
 
 ```slide-note
@@ -30,7 +30,7 @@ scale: 0.8
 
 ## Why detect features
 
-1. **Object Recognition**: Identifying and labelling objects within an image. Feature detection helps in distinguishing objects based on their distinct characteristics such as shape, texture, and color.
+1. **Object Recognition**: Identifying and labeling objects within an image. Feature detection helps in distinguishing objects based on their distinct characteristics such as shape, texture, and color.
 
 2. **Localization and Mapping**: Essential in robotics and autonomous vehicle navigation, this process involves determining the position of the device relative to its environment and constructing a map of the surrounding area using detected features.
 

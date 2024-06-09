@@ -29,9 +29,22 @@
                 "currentVersion": "1.6.3"
               }
             }
+          },
+          {
+            "id": "a179795de339470c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Fourier Transform.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Fourier Transform.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,8 +186,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "6341f9e174039e4a",
+  "active": "a179795de339470c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Files/Pasted image 20240609140253.png",
+    "Files/Pasted image 20240609135712.png",
+    "Files/Pasted image 20240609125943.png",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Image Processing.md",
@@ -191,9 +208,6 @@
     "Zettelkasten/FeaturesCV3.md",
     "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-07 13-55-44.png",
-    "Files/Screenshot from 2024-06-07 13-55-33.png",
-    "Files/Screenshot from 2024-06-07 11-17-23.png",
-    "Files/Screenshot from 2024-06-07 11-07-25.png",
     "Zettelkasten/FeaturesCV.md",
     "Zettelkasten/FeaturesCV2.md",
     "Files/Features2.pdf",
@@ -219,7 +233,6 @@
     "Zettelkasten/pull.md",
     "Zettelkasten/Collezioni Carte.md",
     "Zettelkasten/push.md",
-    "conflict-files-obsidian-git.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

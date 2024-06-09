@@ -1,203 +1,89 @@
 Date: 2024-05-15
 Time: 12:16
-Tags:
-Up: 
+Tags: #ComputerVision #Università 
+Up: [[Computer Vision]]
 
 ---
-# StereoMatching
+# Stereo Matching
 
-## Introduction
+## Motivation and history
 
+**Parallax** is a phenomenon where the position or direction of an object appears to differ when viewed from different positions. In simpler terms, it's the apparent shift of an object against a background due to a change in observer position.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 1 
- scale: 0.8 
- ```
+Humans perceive depth because of parallax. When you move, objects that are closer to you move faster across your field of view compared to objects that are far away. This is another way we gauge depth and distance while moving, such as when driving or walking.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 2 
- scale: 0.8 
- ```
+## Basic two view stereo setup
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 3 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 21 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 4 
- scale: 0.8 
- ```
+Stereo matching is the process used to find correspondences between two stereo images. It involves algorithms that identify similar or identical regions in different images to establish how far objects are from the viewer or camera. The depth information, obtained from the disparities in these correspondences, helps in constructing the 3D structure of the scene.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 5 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 22 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 6 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 23 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 7 
- scale: 0.8 
- ```
+We need to resort on a system like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 8 
- scale: 0.8 
- ```
+![[Pasted image 20240609125943.png|300]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 9 
- scale: 0.8 
- ```
+The two coloured images on the left are stereo images. They are two snapshots of the same scene taken from slightly different viewpoints. The differences between these two images are key to deriving depth information.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 10 
- scale: 0.8 
- ```
+When you compare two stereo images, objects that are closer to the camera will appear to move more between the two images compared to objects that are farther away. This apparent motion is called disparity.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 11 
- scale: 0.8 
- ```
+**Depth from disparity**:
+![[Pasted image 20240609135712.png|200]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 12 
- scale: 0.8 
- ```
+$\frac{x}{f} = \frac{B_1}{z}$ and $\frac{-x'}{f} = \frac{B_2}{z}$, resulting in: 
+$$
+x-x' = \frac{fB}{z}
+$$
+Disparity is inversely proportional to depth.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 13 
- scale: 0.8 
- ```
+![[Pasted image 20240609140253.png|200]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 14 
- scale: 0.8 
- ```
+$\frac{x}{f} = \frac{B_1}{z}$ and $\frac{x'}{f} = \frac{B_2}{z}$, resulting in: 
+$$
+z = \frac{fB}{x-x'}
+$$
+Same here.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 15 
- scale: 0.8 
- ```
+The conditions to compute the depth are:
+1. A baseline (distance from cameras) enough large
+2. Modify the image so that the epipolar lines are horizontal and aligned across both images.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 16 
- scale: 0.8 
- ```
+The difference between the two camera needs to be large enough. And the image needs to be warped.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 17 
- scale: 0.8 
- ```
+To make the epipolar lines horizontal:
+1. Calibrate the cameras
+2. Estimate the Fundamental/Essential matrix
+3. Rectification Transform (find the rotation matrices for each camera that will align the epipolar lines with the horizontal axis of the image)
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 18 
- scale: 0.8 
- ```
+The relationship between the two cameras needs to be:
+$$
+\begin{align*}
+&R = I &
+t = (T,0,0)
+\end{align*}
+$$
+meaning that the rotation between the two cameras is the identity, and the translation is only in the x-axis.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 19 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 20 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 21 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 22 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 23 
- scale: 0.8 
- ```
-
-We need to resort on a sistem like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 24 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 25 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 26 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 27 
- scale: 0.8 
- ```
-
-The difference between the two camera needs to be large enought. And the image needs to be warped.
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 28 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 29 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 30 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 31 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 31 
+scale: 0.8 
+```
 
 We need to rectify both images, like warping
 

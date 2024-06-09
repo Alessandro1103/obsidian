@@ -116,6 +116,8 @@ page: 30
 scale: 0.8
 ```
 
+<<<<<<< HEAD
+=======
 ```slide-note
 file: Features2.pdf
 page: 31
@@ -127,3 +129,4 @@ file: Features2.pdf
 page: 32
 scale: 0.8
 ```
+>>>>>>> origin/main

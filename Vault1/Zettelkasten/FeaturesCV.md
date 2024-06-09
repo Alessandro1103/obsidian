@@ -84,7 +84,7 @@ $$
 \begin{aligned}
 E(u, v) & \approx \sum_{(x,y) \in W} \left[ I_x u + I_y v \right]^2 \approx Au^2 + 2Buv + Cv^2 \\
 & = \begin{bmatrix}u& v\end{bmatrix} \begin{bmatrix}A & B \\ B & C\end{bmatrix} \begin{bmatrix}u\\ v\end{bmatrix} \\
-& = \begin{bmatrix}u& v\end{bmatrix} H \begin{bmatrix}u\\ v\end{bmatrix} \\ \\
+& = \begin{bmatrix}u& v\end{bmatrix} M \begin{bmatrix}u\\ v\end{bmatrix} \\ \\
 A & = \sum_{(x,y) \in W} I_x^2 \\
 B & = \sum_{(x,y) \in W} I_x I_y \\
 C & = \sum_{(x,y) \in W} I_y^2
@@ -92,27 +92,27 @@ C & = \sum_{(x,y) \in W} I_y^2
 \end{equation}
 $$
 
-If H is full: ![[Pasted image 20240603003113.png]]
-If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the edge is horizontal:
+If $M$ is full: ![[Pasted image 20240603003113.png]]
+If $I_x$ then $M = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the edge is horizontal:
 ![[Pasted image 20240603004327.png]]
 
-If $I_y$ then $H = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
+If $I_y$ then $M = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
 
-A possible version of the Harris matrix is M, this is called also Bilinear approximation:
+$M$ is the *structure tensor* (or second moment matrix), it describes the distribution of the gradient in a specified neighborhood around a point and makes the information invariant to the observing coordinates.
 $$
-M = \sum_{(x,y) \in W} w(x,y) \begin{bmatrix} I_x^2 & I_x I_y \\ I_x I_y & I_y^2 \end{bmatrix}
-$$
-where we add $w$ which is a gaussian function that enhances the local information.
-
-To understand how well each element is correlated with another and how the pixels change in a small location, we can use the **Covariance Matrix**:
-$$
+M = 
+\sum_{(x,y) \in W}
 \begin{bmatrix}
-\sum_{p \in P} I_x I_x & \sum_{p \in P} I_x I_y \\
-\sum_{p \in P} I_y I_x & \sum_{p \in P} I_y I_y
+I^2_x & I_xI_y\\
+I_xI_y & I_y^2
+\end{bmatrix}
+=
+\begin{bmatrix}
+\sum_{(x,y) \in W} I_x^2 & \sum_{(x,y) \in W} I_x I_y \\
+\sum_{(x,y) \in W} I_y I_x & \sum_{(x,y) \in W} I_y^2
 \end{bmatrix}
 $$
-$P$ is the set of pixels in a given regione of the image.
-To understand the behaviour of M we can analyse the eigenvalues:
+To understand the behavior of M we can analyse the eigenvalues:
 $$
 \begin{align*}
 & M \mathbf{e} = \lambda \mathbf{e} & (M - \lambda I) \mathbf{e} = 0

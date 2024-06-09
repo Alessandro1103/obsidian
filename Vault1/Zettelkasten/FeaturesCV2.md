@@ -116,14 +116,3 @@ page: 30
 scale: 0.8
 ```
 
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 31
-scale: 0.8
-```
-
-```slide-note
-file: FeaturesDescriptorHOG.pdf
-page: 32
-scale: 0.8
-```

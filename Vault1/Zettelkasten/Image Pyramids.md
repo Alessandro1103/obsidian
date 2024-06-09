@@ -10,13 +10,13 @@ Up: [[Computer Vision]]
 
 It's a series of lower resolution version of the original image. 
 
-**Algorithm**: 
-1. Take the origina image
-2. Apply Gaussian Blurring
-3. Sub-sample the Blurred image
-4. Go to point 2
+>[!Algorithm] Gaussian Pyramid
+>1. Take the original image
+>2. Apply Gaussian Blurring
+>3. Sub-sample the Blurred image
+>4. Go to point 2
 
-Reducing an image by $\frac{1}{4}$, the sum of this infinite geometric series lead to: $S=\frac{a}{1-r}$, where $a$ is the first element, $r$ is the common ratio: $S = \frac{1}{1-\frac{1}{4}} = \frac{4}{3}$.
+Reducing an image by $\frac{1}{4}$, the sum of this infinite geometric series lead to: $S=\frac{a}{1-r}$, where $a$ is the first element, $r$ is the common ratio: $S = \frac{1}{1-\frac{1}{4}} = \frac{4}{3}$. This value represents the possible space occupied by the image if we tend to infinite, $\frac{4}{3}$ of the original size.
 
 ## Laplacian Pyramid
 
@@ -27,7 +27,7 @@ scale: 0.8
 ```
 
 The residual highlights the details that have been "lost" due to the blurring process.
-If we store the *residuals* we can reconstruct the origina image after its blurriness.
+If we store the *residuals* we can reconstruct the original image after its blurriness.
 
 ```slide-note 
 file: ImagePyramid.pdf 
@@ -35,11 +35,11 @@ page: 17
 scale: 0.8
 ```
 
-**Algorithm**:
-1. Start with Gaussian Pyramid
-2. Subtract Adjacent Gaussian Levels (for each level in the gaussian pyramid, subtract the next level)
-3. Calculate the Residual Images and store them
-4. Store the Smallest Gaussian Image
+>[!Algorithm] Laplacian pyramid
+>1. Start with Gaussian Pyramid
+>2. Subtract Adjacent Gaussian Levels (for each level in the Gaussian pyramid, subtract the next level)
+>3. Calculate the Residual Images and store them
+>4. Store the Smallest Gaussian Image
 
 
 ```slide-note 
@@ -48,12 +48,14 @@ page: 19
 scale: 0.8
 ```
 
-**Algorithm** (reconstruct):
-1. Start from the smallest and highest image in the Gaussian pyramid
-2. Up-sample (e.g. bilinear, bicubic...) and add the residual
-3. Repeat for all levels
+>[!Algorithm] Reconstruct Laplacian pyramid
+>1. Start from the smallest and highest image in the Gaussian pyramid
+>2. Up-sample (e.g. bilinear, bicubic...) and add the residual
+>3. Repeat for all levels
 
-Image pyramids use: 
+The space calculation made before can be done for this as well. In particular instead of levels we store residuals, so the result is the same.
+
+Image pyramids are used in: 
 - Image compression
 - Image blending
 - Denoising
@@ -61,7 +63,7 @@ Image pyramids use:
 
 ## Steerable pyramid
 
-The Steerable Pyramid is a multi-scale, multi-orientation image decomposition method developed to improve upon the limitations of orthogonal wavelet decompositions.
+The Steerable Pyramid is a multi-scale, multi-orientation image decomposition method. Used in texture analysis, compression, denoising, edge detention. 
 
 ![[Pasted image 20240602170728.png|320]]
 

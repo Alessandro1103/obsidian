@@ -5,3 +5,16 @@ Up:
 
 ---
 # Computer Vision
+
+Slides to study:
+- [x] [[Image Processing]]
+- [x] [[Image Pyramids]] 
+- [ ] [[Fourier Transform]]
+- [ ] [[FeaturesCV]]
+- [ ] [[FeaturesCV2]]
+- [ ] [[FeaturesCV3]]
+- [ ] [[2D Transformation and Alignment]]
+- [ ] [[Optical Flow]]
+- [ ] [[Camera Calibration]]
+- [ ] [[Epipolar Geometry and Fundamental Matrix]]
+- [ ] [[StereoMatching]]

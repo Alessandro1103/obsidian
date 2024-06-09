@@ -1,10 +1,10 @@
 Date: 2024-06-05
 Time: 17:31
-Tags:
-Up: 
+Tags: #ComputerVision #Università 
+Up: [[Computer Vision]]
 
 ---
-# FeaturesCV2
+# Features2
 
 ## Feature descriptors
 
@@ -99,20 +99,34 @@ Using a 16x16 Block Normalization, meaning we take 4 times 8x8 blocks, and a **L
 
 
 ```slide-note
-file: FeaturesDescriptorHOG.pdf
+file: Features2.pdf
 page: 28
 scale: 0.8
 ```
 
 ```slide-note
-file: FeaturesDescriptorHOG.pdf
+file: Features2.pdf
 page: 29
 scale: 0.8
 ```
 
 ```slide-note
-file: FeaturesDescriptorHOG.pdf
+file: Features2.pdf
 page: 30
 scale: 0.8
 ```
 
+<<<<<<< HEAD
+=======
+```slide-note
+file: Features2.pdf
+page: 31
+scale: 0.8
+```
+
+```slide-note
+file: Features2.pdf
+page: 32
+scale: 0.8
+```
+>>>>>>> origin/main

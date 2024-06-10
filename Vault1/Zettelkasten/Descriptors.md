@@ -29,7 +29,7 @@ page: 10
 scale: 0.8
 ```
 
-**Creation of the pyramid**:
+#### Creation of the pyramid
 The image pyramid is created by repeatedly blurring and subsampling the image. Each level of the pyramid represents a different octave (scale) in the scale-space representation. At each octave the image is progressively blurred more to create a set of images each at a higher scale. To go to the next octave, the image is downsampled by a factor of 2.
 
 ```slide-note
@@ -38,13 +38,14 @@ page: 12
 scale: 0.8
 ```
 
-**Extrema detector**:
+#### Extrema detector
 
 ![[Screenshot from 2024-06-06 16-27-02.png|150]]
 
 In order to find the best keypoint we look at the neighbors, 8 in the same level, and 9 in the plane upper and down (each), so we ends in 26 neighbors. It's like using a window of 3x3x3.
 
-**Illumination-thresholding**
+#### Illumination-thresholding
+
 During the process of keypoint detection using the Difference of Gaussians images, one important step is to remove low contrast features (below a threshold), don't provide reliable information.  
 
 ```slide-note
@@ -65,7 +66,6 @@ Then we create an histogram, this histogram spans 360 degrees, divided into 36 b
 >![[Screenshot from 2024-06-06 16-59-20.png|300]]
 >
 >In this case, taking the gradient from a picture we don't see, the gradient direction of a pixel is about 18 degrees. We go into the histogram and add a value proportional to the magnitude of that orientation. This is done for all pixels we think are keypoints and the ones near them. At the end the peak of the histogram is the keypoint. All the peaks over the 80% are converted in new keypoints.
-
 
 
 ```slide-note

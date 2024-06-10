@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "ccde72aed011b5ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
             "id": "07dbf222f0eb1359",
             "type": "leaf",
             "state": {
@@ -60,6 +70,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -201,7 +212,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dfc43ce9dce2840e",
+  "active": "ccde72aed011b5ef",
   "lastOpenFiles": [
     "Files/Pasted image 20240609140253.png",
     "Files/Pasted image 20240609135712.png",

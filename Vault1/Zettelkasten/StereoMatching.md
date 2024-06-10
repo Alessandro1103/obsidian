@@ -85,20 +85,14 @@ page: 31
 scale: 0.8 
 ```
 
-We need to rectify both images, like warping
+This involves calculating the homographic transforms that will reproject the images onto a common, coplanar surface aligned with the baseline.
+We need to rectify both images, like warping.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 32 
- scale: 0.8 
- ```
-Not useful for exam
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 33 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 33 
+scale: 0.8 
+```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

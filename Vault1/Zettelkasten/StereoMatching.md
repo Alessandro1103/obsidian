@@ -94,37 +94,38 @@ page: 33
 scale: 0.8 
 ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 34 
- scale: 0.8 
- ```
+Rotation matrices ($R_1$, $R_2$) are used to transform the images such that their epipolar lines become parallel. The principal axis is the main axis of each camera lens, usually perpendicular to the imaging plane. The Rectified Camera 1 is Camera 1 after its image has been transformed to align the epipolar lines
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 35 
- scale: 0.8 
- ```
-The epipolar lines are now parallel
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 34 
+scale: 0.8 
+```
+
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 35 
+scale: 0.8 
+```
+
+The epipolar lines are now parallel. Now it is easier to calculate the depth:
  
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 36 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 36 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 37 
- scale: 0.8 
- ```
+>[!Algorithm]
+>1. Rectify images
+>2. For each pixel:
+>	1. Find epipolar line
+>	2. Scan line for best match (SSD, Cross-Correlation, SAD...)
+>	3. Compute depth from disparity: $z = \frac{fB}{x-x'}$
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 38 
- scale: 0.8 
- ```
 ## Local Stereo Matching Algorithm
+
+Local stereo matching algorithms involve comparing a small window of pixels around a pixel in one image to corresponding windows along the same epipolar line in the other image to find the best match.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

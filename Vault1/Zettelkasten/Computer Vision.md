@@ -10,7 +10,7 @@ Slides to study:
 - [x] [[Image Processing]]
 - [x] [[Image Pyramids]] 
 - [x] [[Fourier Transform]]
-- [ ] [[FeaturesCV]]
+- [x] [[FeaturesCV]]
 - [ ] [[FeaturesCV2]]
 - [ ] [[FeaturesCV3]]
 - [ ] [[2D Transformation and Alignment]]

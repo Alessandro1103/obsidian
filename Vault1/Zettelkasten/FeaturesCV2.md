@@ -68,16 +68,16 @@ $$
 \cap(Q, V) = \frac{1}{2} \left( \frac{\sum_{i} \min(q_i, v_i)}{\sum_{i} q_i} + \frac{\sum_{i} \min(q_i, v_i)}{\sum_{i} v_i} \right)
 
 $$
-
+where $Q$ and $V$ represent the histograms, and for each we take the $i^{th}$ bin of that histogram.
 This measure quantifies the commonality between two histograms, effectively determining how similar two images are based on their color or feature distributions. It may not adequately capture differences in spatial distribution of features. It is also susceptible to variations in image exposure and lighting conditions that can significantly alter the histograms.
 
-#### Euclidian distance
+#### Euclidean distance
 
 $$
 d(Q, V) = \sum_{i} (q_i - v_i)^2
 $$
 
-The range is from 0 to infinity, where 0 indicates identical histograms and higher values indicate greater dissimilarity. Each bin contributes equally to the total distance, regardless of its relative importance or the statistical distribution within the histograms. This can sometimes lead to less discriminative comparisons, especially if certain histogram bins are more significant than others in the context of the application.
+The range is from 0 to infinity, where 0 indicates identical histograms and higher values indicate greater dissimilarity. Each bin contributes equally to the total distance, regardless of its relative importance or the statistical distribution within the histograms. This can sometimes lead to less *discriminative comparisons*, especially if certain histogram bins are more significant than others in the context of the application.
 
 #### Chi-square
 $$

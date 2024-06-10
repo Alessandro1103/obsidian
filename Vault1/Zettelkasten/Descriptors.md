@@ -29,10 +29,7 @@ page: 10
 scale: 0.8
 ```
 
-In order to find the best keypoint we look at the neighbors, 8 in the same level, and 9 in the plane upper and down (each), so we ends in 26 neighbors. 
-
-![[Screenshot from 2024-06-06 16-27-02.png|150]]
-
+**Creation of the pyramid**:
 The image pyramid is created by repeatedly blurring and subsampling the image. Each level of the pyramid represents a different octave (scale) in the scale-space representation. At each octave the image is progressively blurred more to create a set of images each at a higher scale. To go to the next octave, the image is downsampled by a factor of 2.
 
 ```slide-note
@@ -40,6 +37,12 @@ file: Features3.pdf
 page: 12
 scale: 0.8
 ```
+
+**Extrema detector**:
+
+![[Screenshot from 2024-06-06 16-27-02.png|150]]
+
+In order to find the best keypoint we look at the neighbors, 8 in the same level, and 9 in the plane upper and down (each), so we ends in 26 neighbors. It's like using a window of 3x3x3.
 
 **Illumination-thresholding**
 During the process of keypoint detection using the Difference of Gaussians images, one important step is to remove low contrast features (below a threshold), don't provide reliable information.  

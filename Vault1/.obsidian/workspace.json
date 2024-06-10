@@ -13,7 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/Descriptors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e264a661cd24eb6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/Features3.pdf"
+              }
+            }
+          },
+          {
+            "id": "a928f6a975106c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Computer Vision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/Descriptors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/FeaturesCV3.md",
+                "file": "Zettelkasten/Descriptors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,11 +187,13 @@
   },
   "active": "0cd0a024aff21320",
   "lastOpenFiles": [
+    "Files/Features3.pdf",
+    "Zettelkasten/Descriptors.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Detectors2.md",
+    "Zettelkasten/Detectors.md",
+    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/2D Transformation and Alignment.md",
-    "Zettelkasten/FeaturesCV3.md",
-    "Zettelkasten/FeaturesCV.md",
-    "Zettelkasten/FeaturesCV2.md",
     "Files/Features2.pdf",
     "conflict-files-obsidian-git.md",
     "Files/Features.pdf",
@@ -189,11 +214,9 @@
     "Files/Screenshot from 2024-06-07 16-26-08.png",
     "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-07 13-55-44.png",
-    "Files/Features3.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
-    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
     "Zettelkasten/Transformers in Vision.md",

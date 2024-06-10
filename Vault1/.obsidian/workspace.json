@@ -8,25 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7eb3f9d014b31d16",
+            "id": "0cd0a024aff21320",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/FeaturesCV2.md",
+                "file": "Zettelkasten/FeaturesCV3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0cd0a024aff21320",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Files/Features2.pdf"
               }
             }
           }
@@ -98,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/FeaturesCV2.md",
+                "file": "Zettelkasten/FeaturesCV3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/FeaturesCV2.md",
+                "file": "Zettelkasten/FeaturesCV3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -172,12 +162,14 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "7eb3f9d014b31d16",
+  "active": "0cd0a024aff21320",
   "lastOpenFiles": [
-    "Files/Features2.pdf",
-    "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Zettelkasten/FeaturesCV3.md",
     "Zettelkasten/FeaturesCV.md",
+    "Zettelkasten/FeaturesCV2.md",
+    "Files/Features2.pdf",
     "conflict-files-obsidian-git.md",
     "Files/Features.pdf",
     "Zettelkasten/Fourier Transform.md",
@@ -192,11 +184,9 @@
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Lezione 1.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
     "Files/Screenshot from 2024-06-07 16-28-11.png",
     "Files/Screenshot from 2024-06-07 16-26-20.png",
     "Files/Screenshot from 2024-06-07 16-26-08.png",
-    "Zettelkasten/FeaturesCV3.md",
     "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-07 13-55-44.png",
     "Files/Features3.pdf",

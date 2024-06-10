@@ -11,7 +11,7 @@ Slides to study:
 - [x] [[Image Pyramids]] 
 - [x] [[Fourier Transform]]
 - [x] [[FeaturesCV]]
-- [ ] [[FeaturesCV2]]
+- [x] [[FeaturesCV2]]
 - [ ] [[FeaturesCV3]]
 - [ ] [[2D Transformation and Alignment]]
 - [ ] [[Optical Flow]]

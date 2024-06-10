@@ -91,9 +91,11 @@ The Chi-square test requires a sufficient number of samples in each histogram bi
 HOG stands for "Histogram of Oriented Gradients". It used for object detection. How to extract HOG descriptors:
 
 >[!Algorithm]
->1. Pre-processing: the image patch (subpart of the image) is normalized to a 1:2 proportion (64x128)
->2. Gradient calculation (angles and gradients)
->3. Cell structuring in 8x8 pixel cells of the image patch, creating an istogram
+>1. Image Pre-processing: the image patch (subpart of the image) is normalized to a 1:2 proportion (64x128)
+>2. Gradient calculation (angles and magnitude)
+>3. Histogram of Oriented Gradients in Cells
+>4. Block Normalization
+
 
 The angles are unsigned: from 0 to 180
 The histogram captures the predominant directions of the gradients.
@@ -105,34 +107,39 @@ We ends up with a 9-bin histogram.
 
 Using a 16x16 Block Normalization, meaning we take 4 times 8x8 blocks, and a **L2 Norm** (classic orthonormalization of a vector) we prevent light variations. The 16x16 block has 4 histograms, concatenated in 36x1 element vector. The window is then moved by 8 pixels and the process is repeated.
 
+>[!example]
+>$$
+>\begin{bmatrix}
+>52 & 55 & 61 & 66 & 70 & 61 & 64 & 73 \\
+>63 & 59 & 55 & 90 & 109 & 85 & 69 & 72 \\
+>62 & 59 & 68 & 113 & 144 & 104 & 66 & 73 \\
+>63 & 58 & 71 & 122 & 154 & 106 & 70 & 69 \\
+>67 & 61 & 68 & 104 & 126 & 88 & 68 & 70 \\
+>79 & 65 & 60 & 70 & 77 & 68 & 58 & 75 \\
+>85 & 71 & 64 & 59 & 55 & 61 & 65 & 83 \\
+>87 & 79 & 69 & 68 & 65 & 76 & 78 & 94 \\
+>\end{bmatrix}
+>$$
+>$G_x$[0,0] = 55 - 52 = 3
+>$G_y$[0,0] = 63 - 52 = 11
+>
+>Magnitude[0,0] = $sqrt(G_x^2 + G_y^2) = 11.4$
+>Orientation[0,0] = $atan2(G_y, G_x) * (180 / \pi) = 74.5$  (in degrees, range 0-180 for unsigned gradients)
+>
+>
+>
+|               |     |     |     |                     |                     |     |
+| ------------- | --- | --- | --- | ------------------- | ------------------- | --- |
+| **Magnitude** |     |     |     | $(80-74.5)/20*11.4$ | $(74.5-60)/20*11.4$ |     |
+| **Bin**       | 0   | 20  | 40  | 60                  | 80                  | ... |
 
-```slide-note
-file: Features2.pdf
-page: 28
-scale: 0.8
-```
+
+
+
 
 ```slide-note
 file: Features2.pdf
 page: 29
-scale: 0.8
-```
-
-```slide-note
-file: Features2.pdf
-page: 30
-scale: 0.8
-```
-
-```slide-note
-file: Features2.pdf
-page: 31
-scale: 0.8
-```
-
-```slide-note
-file: Features2.pdf
-page: 32
 scale: 0.8
 ```
 

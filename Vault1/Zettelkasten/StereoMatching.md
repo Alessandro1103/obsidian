@@ -139,71 +139,35 @@ The measures are:
 - Zero-mean SAD: $\sum |(I_1(x,y) - \mu_1) - (I_2(x+i, y+j) - \mu_2)|$
 - Normalized Cross Correlation (NCC)
 
+
 ```slide-note 
 file: StereoMatching_CV2324.pdf 
-page: 43 
+page: 44 
 scale: 0.8 
 ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 44 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 47 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 45 
- scale: 0.8 
- ```
+We have to consider the problem of occlusion, when the image in the right shows a part that in the left is not shown (and viceversa). This situation brings to inconsistencies in the algorithms that needs to elaborate them.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 46 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 51 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 47 
- scale: 0.8 
- ```
+A DSI is a matrix where each element represents the match score of a patch in one image with a patch at a corresponding position in the other image, adjusted for disparity.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 48 
- scale: 0.8 
- ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 49 
- scale: 0.8 
- ```
-
-Left right consistency, apply disparity from a to b, viceversa and then sum up togheter
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 50 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 51 
- scale: 0.8 
- ```
-
-for each pixel we can say what is the match score? using the similarity matrix we choose. 
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 52 
- scale: 0.8 
- ```
-
-using for each patches
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 52 
+scale: 0.8 
+```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -238,12 +202,6 @@ using for each patches
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 58 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 59 
  scale: 0.8 
  ```
 ## Beyond local stereo matching

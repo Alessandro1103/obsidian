@@ -15,29 +15,37 @@ just use the pixel values of the patch
 
 ![[Pasted image 20240605174150.png|400]]
 
-Sensitivity to noise, lighting changes, and geometric distortions
+| Non-Invariant                 | Invariant |
+| ----------------------------- | --------- |
+| Light, Color, Rotation, Scale |           |
 
 ### Image gradients:
 differences between adjacent pixel values are calculated
 
 ![[Pasted image 20240605174314.png|400]]
 
-This method is invariant to light, but sensitive to noise and geometric distortions
+| Non-Invariant   | Invariant        |
+| --------------- | ---------------- |
+| Rotation, Scale | Light, Intensity |
 
 ### Color histogram
 counts the number of pixels for each color in an image
 
 ![[Pasted image 20240605174751.png|400]]
 
-Handles changes in scale and rotations, but sensitive to light which can modify colors. Ignores also the spatial relationships between colors.
+| Non-Invariant | Invariant       |
+| ------------- | --------------- |
+| Light, Color  | Rotation, Scale |
 
 ### Spatial histograms
 compute histograms over spatial "cells"
 
 ![[Pasted image 20240605175141.png|400]]
 
-Is more informative than global histograms, but it is still sensible to large scale changes and rotations. Computationally expensive.
-
+| Non-Invariant   | Invariant               |
+| --------------- | ----------------------- |
+| Rotation, Scale | Deformation, Traslation |
+Computationally expensive.
 ### Orientation normalization
 use the dominant (strongest gradient) image gradient direction to normalize its orientation (of the patch, so that this gradient direction is vertical or horizontal)
 
@@ -116,8 +124,6 @@ page: 30
 scale: 0.8
 ```
 
-<<<<<<< HEAD
-=======
 ```slide-note
 file: Features2.pdf
 page: 31
@@ -129,4 +135,4 @@ file: Features2.pdf
 page: 32
 scale: 0.8
 ```
->>>>>>> origin/main
+

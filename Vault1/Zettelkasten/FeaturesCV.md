@@ -7,7 +7,7 @@ Up: [[Computer Vision]]
 # Features
 
 We can have:
-- **Global Features**: are attributes that generalize the entire object within an image
+- **Global Features**: are attributes that generalize the entire image or video
 - **Local Features**: are descriptors of image patches or key points in the image of an object
 
 ```slide-note
@@ -30,7 +30,7 @@ scale: 0.8
 
 ## Why detect features
 
-1. **Object Recognition**: Identifying and labelling objects within an image. Feature detection helps in distinguishing objects based on their distinct characteristics such as shape, texture, and color.
+1. **Object Recognition**: Identifying and labeling objects within an image. Feature detection helps in distinguishing objects based on their distinct characteristics such as shape, texture, and color.
 
 2. **Localization and Mapping**: Essential in robotics and autonomous vehicle navigation, this process involves determining the position of the device relative to its environment and constructing a map of the surrounding area using detected features.
 
@@ -82,9 +82,9 @@ which substituting with the Error before becomes:
 $$ 
 \begin{equation}
 \begin{aligned}
-E(x,y) & \approx \sum_{(x,y) \in W} \left[ I_x u + I_y v \right]^2 \approx Au^2 + 2Buv + Cv^2 \\
+E(u, v) & \approx \sum_{(x,y) \in W} \left[ I_x u + I_y v \right]^2 \approx Au^2 + 2Buv + Cv^2 \\
 & = \begin{bmatrix}u& v\end{bmatrix} \begin{bmatrix}A & B \\ B & C\end{bmatrix} \begin{bmatrix}u\\ v\end{bmatrix} \\
-& = \begin{bmatrix}u& v\end{bmatrix} H \begin{bmatrix}u\\ v\end{bmatrix} \\ \\
+& = \begin{bmatrix}u& v\end{bmatrix} M \begin{bmatrix}u\\ v\end{bmatrix} \\ \\
 A & = \sum_{(x,y) \in W} I_x^2 \\
 B & = \sum_{(x,y) \in W} I_x I_y \\
 C & = \sum_{(x,y) \in W} I_y^2
@@ -92,45 +92,33 @@ C & = \sum_{(x,y) \in W} I_y^2
 \end{equation}
 $$
 
-If H is full: ![[Pasted image 20240603003113.png]]
-If $I_x$ then $H = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the edge is horizontal:
+If $M$ is full: ![[Pasted image 20240603003113.png]]
+If $I_x$ then $M = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the edge is horizontal:
 ![[Pasted image 20240603004327.png]]
 
-If $I_y$ then $H = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
+If $I_y$ then $M = \begin{bmatrix}A & 0 \\ 0 & 0\end{bmatrix}$ its specular, means that the edge is vertical.
 
-A possible version of the Harris matrix is M, this is called also Bilinear approximation:
+$M$ is the *structure tensor* (or second moment matrix), it describes the distribution of the gradient in a specified neighborhood around a point and makes the information invariant to the observing coordinates.
 $$
-M = \sum_{(x,y) \in W} w(x,y) \begin{bmatrix} I_x^2 & I_x I_y \\ I_x I_y & I_y^2 \end{bmatrix}
-$$
-where we add $w$ which is a gaussian function that enhances the local information.
-
-To understand how well each element is correlated with another and how the pixels change in a small location, we can use the **Covariance Matrix**:
-$$
+M = 
+\sum_{(x,y) \in W}
 \begin{bmatrix}
-\sum_{p \in P} I_x I_x & \sum_{p \in P} I_x I_y \\
-\sum_{p \in P} I_y I_x & \sum_{p \in P} I_y I_y
+I^2_x & I_xI_y\\
+I_xI_y & I_y^2
+\end{bmatrix}
+=
+\begin{bmatrix}
+\sum_{(x,y) \in W} I_x^2 & \sum_{(x,y) \in W} I_x I_y \\
+\sum_{(x,y) \in W} I_y I_x & \sum_{(x,y) \in W} I_y^2
 \end{bmatrix}
 $$
-$P$ is the set of pixels in a given regione of the image.
-To understand the behaviour of M we can analyse the eigenvalues:
+To understand the behavior of M we can analyse the eigenvalues:
 $$
 \begin{align*}
 & M \mathbf{e} = \lambda \mathbf{e} & (M - \lambda I) \mathbf{e} = 0
 \end{align*}
 $$
-After you find out what are the eigenvalues and eigenvector you can write the following:
-$$
-\begin{align*}
-& M = R^{-1} \begin{bmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{bmatrix} R &
-x^T \ M \ x = \text{const} \\\\
-
-& \frac{(e_1^Tx)^2}{(\frac{1}{\sqrt{\lambda_{max}}})^2} + \frac{(e_2^Tx)^2}{(\frac{1}{\sqrt{\lambda_{min}}})^2} = 1
-
-
-\end{align*}
-$$
-
-We can visualize all as an ellipse with axis lengths determined by the eigenvalues and orientation determined by R (composed by eigenvectors):
+After we find out what are the eigenvalues and eigenvector, we can visualize all as an ellipse with axis lengths determined by the eigenvalues and orientation determined by R (composed by eigenvectors):
 
 ![[Pasted image 20240605113721.png|300]]
 
@@ -150,6 +138,8 @@ page: 48
 scale: 0.8
 ```
 
+E increases in all direction because in the formula we don't distinguish if we are moving from an edge to a corner or viceversa, in both cases the values increases.
+
 ```slide-note
 file: Features.pdf
 page: 49
@@ -168,18 +158,18 @@ $\lambda_{min}$ is a measure of the intensity variation in the least varying dir
 
 **Harris operator**:
 $$
-f = \frac{determinant(H)}{trace(H)} = \frac{\lambda_1\lambda_2}{\lambda_1+\lambda_2}
+f = \frac{determinant(M)}{trace(M)} = \frac{\lambda_1\lambda_2}{\lambda_1+\lambda_2}
 $$
 or:
 $$
 R = determinat(M) - k \cdot trace(M)^2
 $$
 
-which help determine the threshold for detecting a corner. It is a variant of taking just $\lambda_{min}$
+which help determine the threshold for detecting a corner. It is a variant of taking just $\lambda_{min}$.
 
 >[!algorithm]
 >1. Compute Gaussian derivatives at each pixel ($I_x$ and $I_y$)
->2. Compute second moment matrix H in a Gaussian window around each pixel
+>2. Compute second moment matrix M in a Gaussian window around each pixel
 >3. Compute corner response function $f$ or $R$
 >4. Threshold $f$ or $R$
 >5. Find local maxima of response function

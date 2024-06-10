@@ -21,12 +21,15 @@
             }
           },
           {
-            "id": "ccde72aed011b5ef",
+            "id": "36c459ab0d126941",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.3"
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           },
@@ -138,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -212,18 +215,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ccde72aed011b5ef",
+  "active": "36c459ab0d126941",
   "lastOpenFiles": [
+    "Zettelkasten/StereoMatching.md",
+    "conflict-files-obsidian-git.md",
     "Files/Pasted image 20240609140253.png",
     "Files/Pasted image 20240609135712.png",
     "Files/Pasted image 20240609125943.png",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/FeaturesCV2.md",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Lezione 1.md",
     "Zettelkasten/FeaturesCV3.md",
     "Zettelkasten/2D Transformation and Alignment.md",
@@ -235,7 +238,6 @@
     "Files/Screenshot from 2024-06-07 13-55-33.png",
     "Files/Screenshot from 2024-06-07 11-17-23.png",
     "Files/Screenshot from 2024-06-07 11-07-25.png",
-    "Files/Screenshot from 2024-06-07 10-46-24.png",
     "Files/Features3.pdf",
     "Files/Features2.pdf",
     "Files/FeaturesDescriptorHOG.pdf",

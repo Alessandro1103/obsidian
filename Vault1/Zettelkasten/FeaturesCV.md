@@ -165,7 +165,7 @@ $$
 
 which help determine the threshold for detecting a corner. It is a variant of taking just $\lambda_{min}$.
 
->[!algorithm]
+>[!algorithm] Corner Detection
 >1. Compute Gaussian derivatives at each pixel ($I_x$ and $I_y$)
 >2. Compute second moment matrix M in a Gaussian window around each pixel
 >3. Compute corner response function $f$ or $R$
@@ -201,7 +201,7 @@ The challenge is to select regions (circles) of the right size around each point
 >1. Construction of a scaled image pyramid (Laplace pyramid)
 >2. Application of the LoG (instead of Harris Operator) for each level
 >3. Finding the Maximum between scale and space
->4. Selecting points with the maximum LoG normalized response and recording the associated scale
+>4. Store points with the maximum LoG normalized response and recording the associated scale
 >5. Output of keypoints
 
 ## Blob Detector

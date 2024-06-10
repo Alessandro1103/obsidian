@@ -108,6 +108,7 @@ We ends up with a 9-bin histogram.
 Using a 16x16 Block Normalization, meaning we take 4 times 8x8 blocks, and a **L2 Norm** (classic orthonormalization of a vector) we prevent light variations. The 16x16 block has 4 histograms, concatenated in 36x1 element vector. The window is then moved by 8 pixels and the process is repeated.
 
 >[!example]
+>This is a 8x8 block of an image
 >$$
 >\begin{bmatrix}
 >52 & 55 & 61 & 66 & 70 & 61 & 64 & 73 \\
@@ -128,14 +129,18 @@ Using a 16x16 Block Normalization, meaning we take 4 times 8x8 blocks, and a **L
 >
 >
 >
-|               |     |     |     |                     |                     |     |
-| ------------- | --- | --- | --- | ------------------- | ------------------- | --- |
-| **Magnitude** |     |     |     | $(80-74.5)/20*11.4$ | $(74.5-60)/20*11.4$ |     |
-| **Bin**       | 0   | 20  | 40  | 60                  | 80                  | ... |
+>|               |     |     |     |                     |                     |     |
+>| ------------- | --- | --- | --- | ------------------- | ------------------- | --- |
+>| **Magnitude** |     |     |     | $(80-74.5)/20*11.4$ | $(74.5-60)/20*11.4$ |     |
+>| **Bin**       | 0   | 20  | 40  | 60                  | 80                  | ... |
+>
+>After we filled this, we need to fill another 3 8x8, and then apply a normalization over the 16x16 overall block.
 
 
 
 
+
+$\text{Magnitude Contribution} = \left(\frac{\text{Distance to Opposite Bin}}{\text{Total Interval}}\right) \times \text{Total Magnitude}$
 
 ```slide-note
 file: Features2.pdf

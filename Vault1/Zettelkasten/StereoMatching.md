@@ -127,36 +127,23 @@ scale: 0.8
 
 Local stereo matching algorithms involve comparing a small window of pixels around a pixel in one image to corresponding windows along the same epipolar line in the other image to find the best match.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 39 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 39 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 40 
- scale: 0.8 
- ```
+The measures are:
+- SAD: $\sum\ |I_1(x,y) - I_2(x+i, y+j)|$
+- SSD: $\sum\ [I_1(x,y) - I_2(x+i, y+j)]^2$
+- Zero-mean SAD: $\sum |(I_1(x,y) - \mu_1) - (I_2(x+i, y+j) - \mu_2)|$
+- Normalized Cross Correlation (NCC)
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 41 
- scale: 0.8 
- ```
-THe dimention of the patch is important. The bleck values = is not possible to calcolulate the disparity, meaning that in the other image maybe that pasrt ther isnt. 
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 42 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 43 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 43 
+scale: 0.8 
+```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

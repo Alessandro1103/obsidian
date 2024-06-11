@@ -115,7 +115,7 @@ The SURF is a feature detection framework, his procedure is divided in:
 ### SURF detection
 #### Filtering Approach 
 Unlike SIFT, which uses a Gaussian pyramid, SURF employs box filters that can be computed quickly using integral images.
-**Integral Images**: are tool used to quickly and efficiently calculate the sum of values in a rectangular subset of a grid. This approximate the computation of box filter as Gaussian filters.
+**Integral Images**: are tool used to quickly and efficiently calculate the sum of values in a rectangular subset of a grid. This, with a classical box filters, approximate the Gaussian filters
 
 ![[Screenshot from 2024-06-07 11-07-25.png|200]]
 
@@ -129,22 +129,42 @@ page: 36
 scale: 0.8
 ```
 
-$$
-\text{det}(H_{\text{approx}}) = D_{xx}D_{yy} - (wD_{xy})^2
-$$
-where $D$ are the box filters (like the one studied for derivatives: $\begin{bmatrix}-1 & -2 & 1\end{bmatrix}$)
+#### Hessian Matrix Blob Detector
+The determinant of this matrix is a measure (max) of response for each pixel to select candidate points.
 
 ![[Screenshot from 2024-06-07 11-17-23.png|300]]
 
-The detector targets areas of the image where the determinant of the **Hessian matrix** reaches a local maximum.
-
 $$
-H(x,\sigma) = \begin{bmatrix}
+\begin{align*}
+& H(x,\sigma) = \begin{bmatrix}
 L_{xx}(x,\sigma) & L_{xy}(x,\sigma)\\
 L_{xy}(x,\sigma) & L_{yy}(x,\sigma)
 \end{bmatrix}
+& L_{xx}(x, \sigma) = \frac{\partial^2}{\partial x^2} (G(x, \sigma) \ast I(x))
+\end{align*}
 $$
-where $L_{xx}(x,\sigma)$ is the convolution of the Gaussian second order derivative $\frac{\partial^2}{\partial x^2}g(\sigma)$.
+
+So the L are the partial derivatives of the convolution of Gaussian per the image.
+$$
+\text{det}(H_{\text{approx}}) = D_{xx}D_{yy} - (wD_{xy})^2
+$$
+where $D$ are the box filters approximation.
+
+>[!example]
+>Image matrix
+>$$
+>\begin{bmatrix}
+>100&100&100\\150&150&150\\100&100&100
+>\end{bmatrix}
+>$$
+>After computing the Integral Image
+>$$
+>\begin{bmatrix}
+>100&200&300\\250&500&750\\350&700&1050
+>\end{bmatrix}
+>$$
+>- $D_{xx}$ at center: $100 \times (-1) + 150 \times 0 + 100 \times 1 = 0$ 
+>- $D_{yy}$ at center: $100 \times (-1) + 150 \times 0 + 100 \times 1 = 0$
 
 #### Scale-Space representation
 

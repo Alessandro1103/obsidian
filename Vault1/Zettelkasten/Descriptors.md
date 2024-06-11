@@ -97,6 +97,8 @@ scale: 0.8
 
 The result is a SIFT descriptor of 128 vectors: 4x4 histograms, each with 8 orientation bins.
 
+![[Screenshot from 2024-06-11 10-11-17.png|300]]
+
 ![[Screenshot from 2024-06-06 19-20-28.png|300]]
 
 SIFT descriptor properties:

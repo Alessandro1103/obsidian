@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,6 +44,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -185,12 +186,13 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "0cd0a024aff21320",
+  "active": "a928f6a975106c2f",
   "lastOpenFiles": [
+    "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Descriptors.md",
+    "Files/Screenshot from 2024-06-11 10-11-17.png",
     "Files/Pasted image 20240610225139.png",
     "Files/Features3.pdf",
-    "Zettelkasten/Descriptors.md",
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Camera Calibration.md",
@@ -212,9 +214,7 @@
     "Zettelkasten/Lezione 1.md",
     "Files/Screenshot from 2024-06-07 16-28-11.png",
     "Files/Screenshot from 2024-06-07 16-26-20.png",
-    "Files/Screenshot from 2024-06-07 16-26-08.png",
     "Files/TransformationAlignment.pdf",
-    "Files/Screenshot from 2024-06-07 13-55-44.png",
     "Zettelkasten/Formulario Computer Vision.md",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",

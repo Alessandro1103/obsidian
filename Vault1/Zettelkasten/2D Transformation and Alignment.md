@@ -262,6 +262,10 @@ page: 80
 scale: 0.8
 ```
 
+$$
+g(x,y) = f(T(x,y))
+$$
+
 ```slide-note
 file: TransformationAlignment.pdf
 page: 81

@@ -42,7 +42,7 @@ scale: 0.8
 
 ![[Screenshot from 2024-06-06 16-27-02.png|150]]
 
-In order to find the best keypoint we look at the neighbors, 8 in the same level, and 9 in the plane upper and down (each), so we ends in 26 neighbors. It's like using a window of 3x3x3.
+In order to find the best keypoint we look at the neighbors, 8 in the same level, and 9 in the plane upper and down (each), so we ends in 26 neighbors. It's like using a window of 3x3x3. If that pixel is a local min/max then it is a candidate for keypoint.
 
 #### Illumination-thresholding
 

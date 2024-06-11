@@ -113,8 +113,9 @@ The SURF is a feature detection framework, his procedure is divided in:
 2. Interest Point Description
 3. Interest Point Matching
 ### SURF detection
-
-**Integral Images**: are tool used to quickly and efficiently  calculate the sum of values in a rectangular subset of a grid. 
+#### Filtering Approach 
+Unlike SIFT, which uses a Gaussian pyramid, SURF employs box filters that can be computed quickly using integral images.
+**Integral Images**: are tool used to quickly and efficiently calculate the sum of values in a rectangular subset of a grid. This approximate the computation of box filter as Gaussian filters.
 
 ![[Screenshot from 2024-06-07 11-07-25.png|200]]
 
@@ -135,7 +136,7 @@ where $D$ are the box filters (like the one studied for derivatives: $\begin{bma
 
 ![[Screenshot from 2024-06-07 11-17-23.png|300]]
 
-The detector targets areas of the image where the determinant of the Hessian matrix reaches a local maximum.
+The detector targets areas of the image where the determinant of the **Hessian matrix** reaches a local maximum.
 
 $$
 H(x,\sigma) = \begin{bmatrix}

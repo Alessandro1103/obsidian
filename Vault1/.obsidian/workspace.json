@@ -19,32 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1e264a661cd24eb6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Files/Features3.pdf"
-              }
-            }
-          },
-          {
-            "id": "a928f6a975106c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Fourier Transform.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -112,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Fourier Transform.md",
+                "file": "Zettelkasten/Descriptors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Fourier Transform.md",
+                "file": "Zettelkasten/Descriptors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,23 +162,23 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "a928f6a975106c2f",
+  "active": "0cd0a024aff21320",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
-    "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
     "Zettelkasten/Descriptors.md",
-    "Files/Screenshot from 2024-06-11 10-11-17.png",
-    "Files/Pasted image 20240610225139.png",
     "Files/Features3.pdf",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
+    "Zettelkasten/Fourier Transform.md",
+    "Zettelkasten/Image Pyramids.md",
+    "Zettelkasten/Image Processing.md",
+    "Files/Screenshot from 2024-06-11 10-11-17.png",
+    "Files/Pasted image 20240610225139.png",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Files/Features2.pdf",
     "conflict-files-obsidian-git.md",
     "Files/Features.pdf",
-    "Zettelkasten/Fourier Transform.md",
     "Files/Pasted image 20240609140253.png",
     "Files/Pasted image 20240609135712.png",
     "Files/Pasted image 20240609125943.png",

@@ -241,6 +241,7 @@ Pairs should be/have:
 - high variance (feature more discriminative)
 
 ## Freak sampling
+
 ```slide-note
 file: Features3.pdf
 page: 57

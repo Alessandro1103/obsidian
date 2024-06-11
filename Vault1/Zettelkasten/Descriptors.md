@@ -171,7 +171,7 @@ The SURF descriptor extraction involves centering a $20s$ sized, orientation-ali
 $$
 V = \begin{bmatrix}\sum d_x\\ \sum d_y\\\sum |d_x|\\\sum |d_y|\end{bmatrix}
 $$
-where $d_x$ are the horizontal responses (a vector of 16 values), same for $d_y$
+where $d_x$ are the horizontal responses (a vector of 16 values), same for $d_y$.
 
 ## Binary descriptors
 
@@ -198,7 +198,6 @@ scale: 0.8
 - Trivial and fast to compare: hamming distance $$
   d_{Hamming}(B_1, B_2) = sum(xor(B_1, B_2))
   $$
-
 ## BRIEF
 
 This is the first binary image descriptor. In the following there are some methodology for choosing the pairs we need to compare (sampling pairs):

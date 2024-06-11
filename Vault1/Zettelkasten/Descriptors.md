@@ -150,38 +150,28 @@ $$
 $$
 where $D$ are the box filters approximation.
 
->[!example]
->Image matrix
->$$
->\begin{bmatrix}
->100&100&100\\150&150&150\\100&100&100
->\end{bmatrix}
->$$
->After computing the Integral Image
->$$
->\begin{bmatrix}
->100&200&300\\250&500&750\\350&700&1050
->\end{bmatrix}
->$$
->- $D_{xx}$ at center: $100 \times (-1) + 150 \times 0 + 100 \times 1 = 0$ 
->- $D_{yy}$ at center: $100 \times (-1) + 150 \times 0 + 100 \times 1 = 0$
-
 #### Scale-Space representation
 
 To match interest points across different scales, a pyramidal scale space is built. Rather than serial downsampling, each successive level of the pyramid is built by upscaling the image in parallel. Each scale is defined as the response of the image convolved with a box filter of a certain dimension. The scale space is further divided into octaves.
 
-```slide-note
-file: Features3.pdf
-page: 40
-scale: 0.8
-```
+#### Orientation Assignment
 
-```slide-note
-file: Features3.pdf
-page: 41
-scale: 0.8
-```
+To achieve rotational invariance in the SURF algorithm, the orientation of each keypoint is calculated by analyzing Haar wavelet responses in the x and y directions within a circular neighborhood of radius $6s$, where $s$ is the scale of detection. These responses are weighted by a Gaussian centered at the keypoint and plotted in a two-dimensional space. The dominant orientation is identified by summing responses within a $\pi/3$ radians sliding window to create a local orientation vector. The longest vector from this process defines the keypoint's orientation, balancing robustness with angular resolution to ensure the descriptor's rotation invariance.
 
+![[Pasted image 20240611125154.png|300]]
+
+#### Feature Vector
+
+The SURF descriptor extraction involves centering a $20s$ sized, orientation-aligned square window on an interest point and dividing it into a $4 \times 4$ grid. Each sub-region calculates Haar wavelet responses at 25 sample points, weighted by a Gaussian for robustness against noise and deformation. These responses are summed to form local feature vectors, which are concatenated into a 64-element vector that describes the local image structure around the interest point, ensuring *rotation invariance* and *robustness to transformations*.
+
+$$
+V = \begin{bmatrix}\sum d_x\\ \sum d_y\\\sum |d_x|\\\sum |d_y|\end{bmatrix}
+$$
+where $d_x$ are the horizontal responses (a vector of 16 values), same for $d_y$
+
+#### Laplacian Indexing
+
+Applied during the matching phase. Distinguish between interest points on bright blobs against dark backgrounds and the reverse scenario. 
 ```slide-note
 file: Features3.pdf
 page: 42

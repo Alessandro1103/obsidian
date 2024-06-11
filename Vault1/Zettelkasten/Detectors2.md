@@ -4,7 +4,7 @@ Tags: #ComputerVision #Università
 Up: [[Computer Vision]]
 
 ---
-# Features2
+# Features 2
 
 ## Feature descriptors
 

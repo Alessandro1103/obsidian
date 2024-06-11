@@ -224,7 +224,7 @@ $$
 >First Moment about x: $m_{10} = 1*0+2*1+3*2+4*0+5*1+6*2+7*0+8*1+9*2=51$
 >First Moment about y: $m_{01} = 1*0+2*0+3*0+4*1+5*1+6*1+7*2+8*2+9*2=63$ 
 >Center of Mass
->$C = \left(\frac{m_10}{m_00}, \frac{m_01}{m_00}\right) = \left(\frac{51}{45}, \frac{63}{45}\right) \approx \left(1.13, 1.4\right)$
+>$C = \left(\frac{m_{10}}{m_{00}}, \frac{m_{01}}{m_{00}}\right) = \left(\frac{51}{45}, \frac{63}{45}\right) \approx \left(1.13, 1.4\right)$
 >Orientation $\theta$
 >$\theta = atan2(m_{01}, m_{10}) = atan2(63,51)$
 >

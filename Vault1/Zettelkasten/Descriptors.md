@@ -150,6 +150,10 @@ $$
 $$
 where $D$ are the box filters approximation.
 
+#### Laplacian Indexing
+
+Applied during the matching phase. Distinguish between interest points on bright blobs against dark backgrounds and the reverse scenario. 
+
 #### Scale-Space representation
 
 To match interest points across different scales, a pyramidal scale space is built. Rather than serial downsampling, each successive level of the pyramid is built by upscaling the image in parallel. Each scale is defined as the response of the image convolved with a box filter of a certain dimension. The scale space is further divided into octaves.
@@ -168,15 +172,6 @@ $$
 V = \begin{bmatrix}\sum d_x\\ \sum d_y\\\sum |d_x|\\\sum |d_y|\end{bmatrix}
 $$
 where $d_x$ are the horizontal responses (a vector of 16 values), same for $d_y$
-
-#### Laplacian Indexing
-
-Applied during the matching phase. Distinguish between interest points on bright blobs against dark backgrounds and the reverse scenario. 
-```slide-note
-file: Features3.pdf
-page: 42
-scale: 0.8
-```
 
 ## Binary descriptors
 

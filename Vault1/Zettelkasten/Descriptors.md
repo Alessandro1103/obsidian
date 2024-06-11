@@ -166,7 +166,9 @@ To achieve rotational invariance in the SURF algorithm, the orientation of each 
 
 #### Feature Vector
 
-The SURF descriptor extraction involves centering a $20s$ sized, orientation-aligned square window on an interest point and dividing it into a $4 \times 4$ grid. Each sub-region calculates Haar wavelet responses at 25 sample points, weighted by a Gaussian for robustness against noise and deformation. These responses are summed to form local feature vectors, which are concatenated into a 64-element vector that describes the local image structure around the interest point, ensuring *rotation invariance* and *robustness to transformations*.
+To describe the region around the point, a square region is extracted, centered on the interest point and oriented along the orientation as selected above. The size of this window is 20s.
+
+The interest region is split into smaller 4x4 square sub-regions, and for each one, the Haar wavelet responses are extracted at 5x5 regularly spaced sample points. The responses are weighted with a Gaussian (to offer more robustness for *deformations*, noise and *translation*).
 
 $$
 V = \begin{bmatrix}\sum d_x\\ \sum d_y\\\sum |d_x|\\\sum |d_y|\end{bmatrix}

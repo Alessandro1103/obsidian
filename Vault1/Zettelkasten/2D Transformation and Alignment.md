@@ -106,7 +106,6 @@ scale: 0.8
 
 If we have more equations than unknowns we need to find the *least squares solution*:
 
-
 ```slide-note
 file: TransformationAlignment.pdf
 page: 39

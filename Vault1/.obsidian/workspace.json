@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,8 +165,8 @@
   "active": "0cd0a024aff21320",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
-    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Optical Flow.md",
     "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
     "Zettelkasten/Detectors2.md",

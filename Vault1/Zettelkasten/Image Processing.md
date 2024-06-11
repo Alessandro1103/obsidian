@@ -213,12 +213,6 @@ If we have an image too small we can make it 10 times as big. The simplest appro
 ![[Pasted image 20240527163333.png|300]]
 
 
-### Aliasing
-
-Occurs when your sampling rate is not high enough ot capture the amount of detail in your image. To avoid aliasing: $f_s \geq 2 \ f_{max}$ where:
-- $f_s$ is the sampling frequency
-- $f_{max}$ is the highest frequency in the signal
-
 ## Image Derivatives
 
 ### First order finite difference

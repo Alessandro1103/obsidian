@@ -254,73 +254,29 @@ page: 78
 scale: 0.8
 ```
 
-### Warping
+### Image Warping
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 80
-scale: 0.8
-```
-
+Image warping involves applying a geometric transformation to an image to align it with a reference image for panorama stitching. To do this, each image undergoes a transformation using a homography to match the reference image’s coordinate frame. 
 $$
 g(x,y) = f(T(x,y))
 $$
+However, issues such as pixels not landing precisely in the center of the target image and resulting holes in the output image (due to uncovered pixel locations) can occur.
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 81
-scale: 0.8
-```
+![[Screenshot from 2024-06-11 17-14-51.png|300]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 82
-scale: 0.8
-```
+These issues are addressed using backward warping rather than forward warping. **Backward warping** involves first mapping the corners of the original image (using the transformation) to determine the target image’s bounds and then mapping from this output space back to the original image to ensure all pixels are filled accurately, often employing interpolation to optimize the pixel values.
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 83
-scale: 0.8
-```
+![[Screenshot from 2024-06-11 17-15-34.png|300]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 84
-scale: 0.8
-```
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 85
-scale: 0.8
-```
+![[Screenshot from 2024-06-11 17-16-33.png|300]]
 
-### Blending
+![[Screenshot from 2024-06-11 17-17-16.png|300]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 88
-scale: 0.8
-```
+![[Screenshot from 2024-06-11 17-18-11.png|300]]
+### Blending Images
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 89
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 92
-scale: 0.8
-```
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 93
-scale: 0.8
-```
+After images are aligned, blending is essential to minimize visible seams due to exposure differences or lens characteristics like vignetting. The initial approach might involve averaging overlapping pixel values across images, but this often results in visible seams. A more sophisticated method involves using a **weighted blending technique** where each pixel’s contribution is adjusted based on its proximity to the edge of its image, increasing confidence in its value the further it is from the boundary. This is achieved by employing a smooth transition weighting function that adjusts the contribution of each image in the overlap areas. When properly applied, this technique produces a seamless panorama, eliminating artifacts that could distract from the visual continuity of the scene.
 
 To do so, we use the Laplacian Pyramid:
 

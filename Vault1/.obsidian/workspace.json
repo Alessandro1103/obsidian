@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Computer Vision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4e0a448802ae43c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/TransformationAlignment.pdf"
               }
             }
           }
@@ -88,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Computer Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,7 +174,15 @@
   },
   "active": "0cd0a024aff21320",
   "lastOpenFiles": [
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Files/TransformationAlignment.pdf",
     "Zettelkasten/Computer Vision.md",
+    "Files/Screenshot from 2024-06-11 17-18-11.png",
+    "Files/Screenshot from 2024-06-11 17-17-16.png",
+    "Files/Screenshot from 2024-06-11 17-16-33 1.png",
+    "Files/Screenshot from 2024-06-11 17-16-33.png",
+    "Files/Screenshot from 2024-06-11 17-15-34.png",
+    "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Zettelkasten/Descriptors.md",
     "Zettelkasten/Optical Flow.md",
     "Files/Pasted image 20240611125154.png",
@@ -177,21 +195,13 @@
     "Files/Screenshot from 2024-06-11 10-11-17.png",
     "Files/Pasted image 20240610225139.png",
     "Zettelkasten/Camera Calibration.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
     "Files/Features2.pdf",
     "conflict-files-obsidian-git.md",
     "Files/Features.pdf",
     "Files/Pasted image 20240609140253.png",
-    "Files/Pasted image 20240609135712.png",
-    "Files/Pasted image 20240609125943.png",
-    "Files/Pasted image 20240527125844.png",
-    "Files/Pasted image 20240527125844 1.png",
-    "Files/Pasted image 20240608152055.png",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Lezione 1.md",
-    "Files/Screenshot from 2024-06-07 16-28-11.png",
-    "Files/TransformationAlignment.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
     "Files/ImagePyramid.pdf",
     "Files/FourierTransform.pdf",
@@ -209,7 +219,6 @@
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/pull.md",
     "Zettelkasten/Collezioni Carte.md",
-    "Zettelkasten/push.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

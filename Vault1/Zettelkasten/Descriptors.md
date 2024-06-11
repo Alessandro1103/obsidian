@@ -230,19 +230,16 @@ $$
 >
 >as you can see the first moments, are calculated considering a certain row or column bond with 0,1,2
 
-Given CoM and orientation $C$,$\theta$ we can rotate the coordinates of all pairs by $\theta$ around $C$:
+To achieve rotation invariance, the image patch around each keypoint is rotated by $\theta$ around $C$:
 $$
 s' = T(C,\theta)s
 $$
+The descriptor is the same as before: binary string.
+
 Pairs should be/have:
 - uncorrelated (new information)
 - high variance (feature more discriminative)
 
-```slide-note
-file: Features3.pdf
-page: 56
-scale: 0.8
-```
 ## Freak sampling
 ```slide-note
 file: Features3.pdf

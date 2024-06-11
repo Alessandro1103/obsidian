@@ -178,12 +178,7 @@ where $d_x$ are the horizontal responses (a vector of 16 values), same for $d_y$
 The strategy of binary descriptors is:
 - Select a patch around a keypoint
 - Select a set of pixel pairs in that patch (no strategy needed)
-- Intensity Comparison: $$
-  b = \begin{cases} 
-1 & \text{if } I(s_1) < I(s_2) \\
-0 & \text{otherwise} 
-\end{cases}
-   $$
+- Intensity Comparison:   $$ b = \begin{cases} 1 & \text{if } I(s_1) < I(s_2) \\ 0 & \text{otherwise} \end{cases} $$
 Indeed, this defines a code for a patch around a keypoint, and this code will be the descriptor. This descriptor is the element that we aim to find in other images.
 
 ```slide-note

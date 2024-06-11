@@ -19,16 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f29164a72710f1fd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Files/Features3.pdf"
-              }
-            }
           }
         ],
         "stacked": true
@@ -174,10 +164,11 @@
   },
   "active": "0cd0a024aff21320",
   "lastOpenFiles": [
+    "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Optical Flow.md",
+    "Zettelkasten/Descriptors.md",
     "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
-    "Zettelkasten/Descriptors.md",
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
@@ -200,7 +191,6 @@
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",
     "Zettelkasten/Lezione 1.md",
     "Files/Screenshot from 2024-06-07 16-28-11.png",
-    "Files/Screenshot from 2024-06-07 16-26-20.png",
     "Files/TransformationAlignment.pdf",
     "Zettelkasten/Formulario Computer Vision.md",
     "Files/ImagePyramid.pdf",

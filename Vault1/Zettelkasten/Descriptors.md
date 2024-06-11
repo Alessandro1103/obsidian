@@ -261,14 +261,14 @@ $$
 where $f_1$ is the feature descriptor from image $I_1$, $f_2$ is the best match for $f_1$ in image $I_2$ (smallest distance match), $f'_2$ is the second-best match for $f_1$ in image $I_2$ (second smallest distance match).
 This process is made multiple times, the the distance ratio found are sorted. 
 
-A lower ration indicates a more confident match.
+A lower ratio indicates a more confident match.
 Setting a threshold simplify the calculus: 
 $$
 \text{If  } \frac{||f_1-f_2||}{||f_1-f'_2||}< \rho \text{ (e.g., 0.5)}
 $$
 
 this means the best match $f_2$ must be at least twice as close to $f_1$ as the second best match $f'_2$. 
-Higher threshold gives less matches (eliminates false positive) but more accurate.
+Higher threshold (lower $\rho$) gives less matches (eliminates false positive) but more accurate.
 
 ## Evaluating Results
 

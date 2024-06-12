@@ -110,7 +110,9 @@ The conditions for making the flow estimation work are:
 
 So the perfect conditions to perform the LS solution is gradients different and large magnitudes, so corners and high texture regions.
 
-**Coarse to fine Flow Estimation**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this is to reduce the quality of the image to "decrease" the gap between the pixels. Since now we are again in the small motion condition we can apply the following algorithm:
+**Coarse to fine Flow Estimation**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this is to reduce the quality of the image to "decrease" the gap between the pixels. 
+
+Since now we are again in the small motion condition we can apply the following algorithm:
 
 ![[Screenshot from 2024-05-04 18-56-20.png|400]]
 

@@ -64,8 +64,11 @@ The approach we want to explore to estimate the optical Flow is based on 3 assum
   Based on $I_x u + I_y v + I_t = 0$ formula, you can find multiple solution to that equation. In particular these solution lies on a straight line. Since we are following a edge direction, we have to estimate the component of the optical flow:
   - Normal Flow: $u_n = - \frac{I_t}{||\nabla I||}$
   - Parallel Flow: there is no correct formula for local consideration.
-  
-- **Spatial coherence**: points move like their neighbors
+
+>[!summarize]
+>- **Spatial derivatives**: $I_x = \frac{\partial I}{\partial x} \ I_y = \frac{\partial I}{\partial y}$
+>- **Optical Flow**: $u = \frac{dx}{dt} \ v=\frac{dy}{dt}$
+>- **Temporal derivatives**: $I_t = \frac{\partial I}{\partial t}$
 
 To calculate the Optical Flow 2 algorithms are used:
 - **Lucas-Kanade Optical Flow (1981)**: Uses the difference of the pixels' value to estimate the movement. Assumes that the Optical flow is constant for all the areas (inside the window). It's more a local method.

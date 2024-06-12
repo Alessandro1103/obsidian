@@ -21,6 +21,32 @@
             }
           },
           {
+            "id": "87702665b2be2271",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "871c04c9e1e71fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Descriptors.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "95f1ff54a0c289ce",
             "type": "leaf",
             "state": {
@@ -154,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Detectors2.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Detectors2.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -228,9 +254,11 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "95f1ff54a0c289ce",
+  "active": "87702665b2be2271",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
     "Zettelkasten/Image Pyramids.md",
@@ -243,11 +271,9 @@
     "Files/Screenshot from 2024-06-11 17-16-33.png",
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
-    "Zettelkasten/Descriptors.md",
     "Zettelkasten/Optical Flow.md",
     "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
-    "Zettelkasten/Detectors2.md",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
     "Files/Pasted image 20240610225139.png",
     "Zettelkasten/Camera Calibration.md",

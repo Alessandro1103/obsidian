@@ -13,26 +13,29 @@ In fact the Optical Flow needs *2 images at 2 time steps*, the classical Stereo 
 
 The optical flow fields tell us the 3D structure of world, motion of objects and motion of the observer. If we know the motion of the image, i.e. we have 2 images close in time, we can understand what is in between, *Video Interpolation*. If we want to compress a sequence of images, it is possible to use the optical flow field to predict how future frames will appear based on the movements detected. Instead of storing each new frame entirely, only the corrections necessary to adjust the prediction based on the optical flow are stored, *Video Compression*.
 
-**2 Problems**:
-- Aperture problem: 
-  when we observe and image region through a small viewing window it is challenging to discern the true direction of motion of features. In particular for cases where we perceive the component of motion that is parallel to the edges.
-  This issue is mitigated by using patches with different gradients.
+## Aperture problem: 
+
+The aperture problem can be summary in:
+- **Limited Visibility**: Imagine looking through a narrow slit or a small window at a larger scene where objects are moving. Through this small aperture, you can only see a portion of the entire object.
+- **Ambiguity in Motion Direction**: When you observe only a part of the object, you can detect the motion along the visible edges or contours. However, if these edges are straight (like the side of a moving rectangle), you can only perceive motion perpendicular to the orientation of the edge. This is because any motion parallel to the edge does not change the image within the aperture.
   
-  *Examples*:
-  We have 2 matrices: 
-  ![[Screenshot from 2024-05-04 12-56-04.png|300]]
-  They represents two image frames, consecutive in a sequence. The general formula is:
-  $I_xu+I_yv+I_t=0$ where due to aperture problem (located in the position 3,3), only the vertical movement ($v$) is recovered, the horizontal movement ($u$) is null. Let's see the gradient:
-  $$
-  \begin{align*}
-  &I_x(3,3) = 0 \\
-  &I_y(3,3) = 1 & & \text{Solution:}\ v=1 \\
-  &I_t(3,3) = I(3,3) - H(3,3) = -1
-  \end{align*} 
-  $$
-  So we recover $v$ but not $u$.
+>[!example]
+>We have 2 matrices: 
+>![[Screenshot from 2024-05-04 12-56-04.png|300]]
+>They represents two image frames, consecutive in a sequence. The general formula is:
+>$I_xu+I_yv+I_t=0$ where due to aperture problem (located in the position 3,3), only the vertical movement ($v$) is recovered, the horizontal movement ($u$) is null. Let's see the gradient:
+>$$
+> \begin{align*}
+>&I_x(3,3) = 0 \\
+>&I_y(3,3) = 1 & & \text{Solution:}\ v=1 \\
+>&I_t(3,3) = I(3,3) - H(3,3) = -1
+>\end{align*} 
+>$$
+>So we recover $v$ but not $u$.
   
-- Barber Pole: ![[Screenshot from 2024-05-04 12-38-34.png|70]]The apparent motion is pointing upwards, the actual motion is in the right direction
+>[!example] Barber Pole
+>![[Screenshot from 2024-05-04 12-38-34.png|70]]
+>The apparent motion is pointing upwards, the actual motion is in the right direction
 
 ## Estimating Optical Flow
 The approach we want to explore to estimate the optical Flow is based on 3 assumptions:
@@ -45,7 +48,8 @@ The approach we want to explore to estimate the optical Flow is based on 3 assum
   Optical flow (velocities): $u,v$
   Displacement: $\delta x, \delta y = (u\delta t, v\delta t)$
   
-  For a small space-time step: $I(x + u\delta t,\ y + v \delta t,\ t + \delta t) = I (x, y, t)$ Based on Taylor expansion. I can write the following:
+  For a small space-time step: $I(x + u\delta t,\ y + v \delta t,\ t + \delta t) = I (x, y, t)$ 
+  Based on Taylor expansion, I can write the following:
   $$
   \begin{align*}
   &\frac{\partial I}{\partial x} \delta x + \frac{\partial I}{\partial y} \delta y + \frac{\partial I}{\partial t}\delta t = 0 & \text{divide by } \delta t \text{ take limit } \delta t \rightarrow 0 \\

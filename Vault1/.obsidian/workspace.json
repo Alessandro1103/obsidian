@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -163,6 +164,8 @@
   },
   "active": "0cd0a024aff21320",
   "lastOpenFiles": [
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Descriptors.md",
@@ -170,7 +173,6 @@
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
     "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
     "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
     "Files/Screenshot from 2024-06-11 17-17-16.png",
@@ -178,7 +180,6 @@
     "Files/Screenshot from 2024-06-11 17-16-33.png",
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
-    "Zettelkasten/Optical Flow.md",
     "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
     "Files/Screenshot from 2024-06-11 10-11-17.png",

@@ -116,12 +116,17 @@ Since now we are again in the small motion condition we can apply the following 
 
 ![[Screenshot from 2024-05-04 18-56-20.png|400]]
 
-
+1. **Image Pyramids**: The first step involves creating pyramids of the images for which optical flow needs to be computed. These pyramids consist of multiple layers where each layer is a down-sampled version of the original image, usually by a factor of two. Thus, each subsequent layer has lower resolution, increasing the speed and reducing the computational demand.
+2. **Coarse-Level Estimation**: Optical flow computation begins at the highest (smallest) level of the pyramid, which is the most reduced version of the original images. At this level, the flow vectors are estimated. These vectors are coarse and approximate due to the low resolution but require less computational effort.
+3. **Refinement Process**: The estimated flow vectors are then used as the initial guesses for the next level in the pyramid, which has a slightly higher resolution. At each level, the flow vectors are refined and adjusted to better match the actual motion observed in the images.
+4. **Propagation Up the Pyramid**: This process of estimation and refinement continues, moving up the pyramid from the coarsest to the finest level (the original resolution). At each step, the flow estimates are progressively improved, becoming more precise and detailed.
 ## Horn-Schunck Optical Flow
 
 We have to consider the image I as a function of continuous variable x, y, t. Let's consider $u(x, y)$ and $v(x, y)$ as continuous flow fields. We have to minimize the following *energy functional*:
 $$
-E(u, v) = \iint \left( I(x + u(x,y), y + v(x,y), t+1) - I(x,y,t) \right)^2 \, \text{dx dy} + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, \text{dx dy} 
+\begin{align*}
+E(u, v) = & \iint \left( I(x + u(x,y), y + v(x,y), t+1) - I(x,y,t) \right)^2 \, \text{dx dy}\\ &+ \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, \text{dx dy} 
+\end{align*}
 $$
 
 where the first double integral penalizes differences between the brightness of a pixel at time $t$ and the predicted brightness of the same pixel (after displacement) at time $t+1$. The second integral, penalizes large changes in the optical flow field itself, enforcing spatial smoothness.
@@ -129,16 +134,11 @@ Minimizing this energy function is a hard problem because the energy is highly *
 
 We can use Taylor Series one more time:
 $$
-f(x,y) \approx_{a,b}  f(a,b) + \frac{\partial f(a,b)}{\partial x}(x-a) + \frac{\partial f(a, b)}{\partial y} (y-b)
-$$
-which in our case becomes:
-$$
 \begin{align*}
-&I(x + u(x, y), y + v(x, y), t + 1) \approx_{x, y, t}\\ 
-&I_x(x, y, t) (x + u(x, y) - x) + I_y(x, y, t) (y + v(x, y) - y) + I_t(x, y, t) (t + 1 - t) =\\
-&I(x, y, t) + I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t)
+&I(x + u(x, y), y + v(x, y), t + 1) \approx_{x, y, t} I(x, y, t) + I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t)
 \end{align*}
 $$
+
 and the energy function becomes:
 $$
 E(u, v) = \iint \left( I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t) \right)^2 \, dx\,dy + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, dx\,dy

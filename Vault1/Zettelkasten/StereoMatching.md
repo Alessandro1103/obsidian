@@ -256,65 +256,29 @@ page: 72
 scale: 0.8 
 ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 73 
- scale: 0.8 
- ```
+We want to minimize a cost function:
 
 $$
-C(i,j)=min(C(i−1,j−1)+dissimilarity(i,j),C(i−1,j)+occlusionCost,C(i,j−1)+occlusionCost)
+\begin{align*}
+C(i,j)=\min([ & C(i−1,j−1)+\text{dissimilarity}(i,j),\\
+&C(i−1,j)+\text{occlusionCostant},\\&C(i,j−1)+\text{occlusionCostant}])
+\end{align*}
 $$
 
-Occlusin costatnt suggest the presence of the occlusion 
+In order to remove the occluded points we can use the **Occlusion Filling**. The occluded pixel are coloured by black, then we use the nearest valid pixel and fill the occlusion with that. It has to be done first in one direction and then in the opposite.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 74 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 77 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 75 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 79 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 76 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 77 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 78 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 79 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 80 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 81 
- scale: 0.8 
- ```
 ## Stereo Matching with Graph Cut algorithm
 
  ```slide-note 

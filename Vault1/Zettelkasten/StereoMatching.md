@@ -206,39 +206,34 @@ scale: 0.8
  ```
 ## Beyond local stereo matching
 
+What are the challenges in the matching problem?
+
+### Uniqueness
+
+The uniqueness constraint states that each point in one image should correspond to at most one point in the other image. This principle is crucial for ensuring that the matching process is deterministic and reduces ambiguity. 
+Uniqueness often does not hold in real-life scenarios due to: Repetitive Patterns, Symmetrical Objects, Scene Complexity.
+
+### Smoothness
+
+The smoothness constraint in computer vision implies that the disparity between corresponding points in stereo images generally changes gradually across most of the image. 
+
 ```slide-note 
 file: StereoMatching_CV2324.pdf 
-page: 60 
+page: 63 
 scale: 0.8 
 ```
 
-The uniqueness constraint states that each point in one image should correspond to at most one point in the other image. This principle is crucial for ensuring that the matching process is deterministic and reduces ambiguity. It's particularly important in stereo vision, where each pixel in one image of a stereo pair should ideally match with exactly one pixel in the other image to correctly compute depth.
+At the left we have a depth map of the left image, where colors indicate depth level: warmer colors (like red) denote closer objects, and cooler colors (like green) signify farther ones.
+
+### Occlusions
+
+Occlusions occur when certain parts of the scene are visible in one image but are blocked in the other. This happens because of the different perspectives or angles from which each image is taken.
 
 ```slide-note 
 file: StereoMatching_CV2324.pdf 
-page: 62 
+page: 64 
 scale: 0.8 
 ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 63 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 64 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 65 
- scale: 0.8 
- ```
-
-we have a base scan line, other 2 depending on the camera, since we are measuring the dispariity froma lefto to right, the blue pixel can non be seen from the right and the grey can not be visible from the left. Is it a Minimizazion porblem?
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

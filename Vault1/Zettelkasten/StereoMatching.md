@@ -292,98 +292,71 @@ where $E$ is the total energy to minimize, $E_d$ is the data term that measure t
 $$
 E_d(d) = \sum_{(x,y)\in I}C(x,y,d(x,y))
 $$
- 
+ $C$ is a general cost function, we can consider a SSD (sum of squares formula) function.
+
+$$
+E_s(d) = \sum_{(p,q)\in \epsilon}V(d_p, d_q)
+$$
+$V$ is a function that measures disparities, in particular we can measure disparity respect the point that that point is connected to, if we consider 4-connection or 8 changes a lot.![[Pasted image 20240613180407.png|100]]
+$V$ can be:
+$$
+\begin{align*}
+&V(d_p, d_q) = |d_p-d_q| \\\\
+&V(d_p, d_q) = 
+\begin{cases} 
+0 & \text{if } d_p = d_q \\
+1 & \text{if } d_p \neq d_q
+\end{cases}
+\end{align*}
+$$
+The first treats all disparities linearly, the second one provides penalties if $d_p$ and $d_s$ are different. This separation is more sharp.
+
+Otherwise we have to consider the **Dynamic Programming**: 
+$$
+D(x,y,d)=C(x,y,d)+\min​_{d'}\{D(x-1,y,d')+\lambda|d-d'|\}
+$$
+
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 90 
+scale: 0.8 
+```
+
+## Stereo in Deep Learning era
 
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 87 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 96 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 88 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 97 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 89 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 98 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 90 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 99 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 91 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 100 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 92 
- scale: 0.8 
- ```
+## Active stereo with structured light
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 93 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 94 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 95 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 96 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 97 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 98 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 99 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 100 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 101 
- scale: 0.8 
- ```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -433,8 +406,3 @@ $$
  scale: 0.8 
  ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 110 
- scale: 0.8 
- ```

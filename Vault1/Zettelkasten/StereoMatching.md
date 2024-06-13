@@ -206,23 +206,19 @@ scale: 0.8
  ```
 ## Beyond local stereo matching
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 60 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 60 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 61 
- scale: 0.8 
- ```
+The uniqueness constraint states that each point in one image should correspond to at most one point in the other image. This principle is crucial for ensuring that the matching process is deterministic and reduces ambiguity. It's particularly important in stereo vision, where each pixel in one image of a stereo pair should ideally match with exactly one pixel in the other image to correctly compute depth.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 62 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 62 
+scale: 0.8 
+```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

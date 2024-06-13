@@ -6,33 +6,36 @@ Up: [[Computer Vision]]
 ---
 # Optical Flow
 
-**Definition**:
-Optical flow is the apparent motion of objects, surfaces and edges in a visual scene, caused by the relative motion between an observer and a scene.
+>[!Definition]
+>Optical flow is the apparent motion of objects, surfaces and edges in a visual scene, caused by the relative motion between an observer and a scene.
 
-In fact the Optical Flow needs 2 images at 2 time steps, the classical Stereo model takes the images at the same time. To understand an Optical Flow, we need to project the movement made by a point in a 2D space, called Motion Field. The 3D dimensional space is projected in a 2D space. *The motion can be produced by both camera or object motion*. The actual Optical Flow is different form the Motion Field, since some motion are not understandable in 2D.
+In fact the Optical Flow needs *2 images at 2 time steps*, the classical Stereo model takes the images at the same time. To understand an Optical Flow, we need to project the movement made by a point in a 2D space, called *Motion Field*. The 3D dimensional space is projected in a 2D space. *The motion can be produced by both camera or object motion*. The actual Optical Flow is different form the Motion Field, since some motion are not understandable in 2D.
 
-The optical flow fields tell us the 3D structure of world, motion of objects and motion of the observer. If we know the motion of the image, i.e. we have 2 images close in time, we can understand what is in between, *Video Interpolation*. If we want to compress a sequence of images, it is possible to use the optical flow field to predict how future frames will appear based on the movements detected.Instead of storing each new frame entirely, only the corrections necessary to adjust the prediction based on the optical flow are stored, *Video Compression*.
+The optical flow fields tell us the 3D structure of world, motion of objects and motion of the observer. If we know the motion of the image, i.e. we have 2 images close in time, we can understand what is in between, *Video Interpolation*. If we want to compress a sequence of images, it is possible to use the optical flow field to predict how future frames will appear based on the movements detected. Instead of storing each new frame entirely, only the corrections necessary to adjust the prediction based on the optical flow are stored, *Video Compression*.
 
-**2 Problems**:
-- Aperture problem: 
-  when we observe and image region through a small viewing window it is challenging to discern the true direction of motion of features. In particular for cases where we perceive the component of motion that is parallel to the edges.
-  This issue is mitigated by using patches with different gradients.
+## Aperture problem: 
+
+The aperture problem can be summary in:
+- **Limited Visibility**: Imagine looking through a narrow slit or a small window at a larger scene where objects are moving. Through this small aperture, you can only see a portion of the entire object.
+- **Ambiguity in Motion Direction**: When you observe only a part of the object, you can detect the motion along the visible edges or contours. However, if these edges are straight (like the side of a moving rectangle), you can only perceive motion perpendicular to the orientation of the edge. This is because any motion parallel to the edge does not change the image within the aperture.
   
-  *Examples*:
-  We have 2 matrices: 
-  ![[Screenshot from 2024-05-04 12-56-04.png|300]]
-  They represents tow image frames, consecutive in a sequence. The general formula is:
-  $I_xu+I_yv+I_t=0$ where due to aperture problem (located in the position 3,3), only the vertical movement ($v$) is recovered, the horizontal movement ($u$) is null. Let's see the gradient:
-  $$
-  \begin{align*}
-  &I_x(3,3) = 0 \\
-  &I_y(3,3) = 1 & & \text{Solution:}\ v=1 \\
-  &I_t(3,3) = I(3,3) - H(3,3) = -1
-  \end{align*} 
-  $$
-  So we recover $v$ but not $u$.
+>[!example]
+>We have 2 matrices: 
+>![[Screenshot from 2024-05-04 12-56-04.png|300]]
+>They represents two image frames, consecutive in a sequence. The general formula is:
+>$I_xu+I_yv+I_t=0$ where due to aperture problem (located in the position 3,3), only the vertical movement ($v$) is recovered, the horizontal movement ($u$) is null. Let's see the gradient:
+>$$
+> \begin{align*}
+>&I_x(3,3) = 0 \\
+>&I_y(3,3) = 1 & & \text{Solution:}\ v=1 \\
+>&I_t(3,3) = I(3,3) - H(3,3) = -1
+>\end{align*} 
+>$$
+>So we recover $v$ but not $u$.
   
-- Barber Pole: ![[Screenshot from 2024-05-04 12-38-34.png|70]]The apparent motion is pointing upwards, the actual motion is in the right direction
+>[!example] Barber Pole
+>![[Screenshot from 2024-05-04 12-38-34.png|70]]
+>The apparent motion is pointing upwards, the actual motion is in the right direction
 
 ## Estimating Optical Flow
 The approach we want to explore to estimate the optical Flow is based on 3 assumptions:
@@ -45,21 +48,27 @@ The approach we want to explore to estimate the optical Flow is based on 3 assum
   Optical flow (velocities): $u,v$
   Displacement: $\delta x, \delta y = (u\delta t, v\delta t)$
   
-  For a small space-time step: $I(x + u\delta t,\ y + v \delta t,\ t + \delta t) = I (x, y, t)$ Based on Taylor expansion. I can write the following:
+  For a small space-time step: $I(x + u\delta t,\ y + v \delta t,\ t + \delta t) = I (x, y, t)$ 
+  Based on Taylor expansion, I can write the following:
   $$
   \begin{align*}
   &\frac{\partial I}{\partial x} \delta x + \frac{\partial I}{\partial y} \delta y + \frac{\partial I}{\partial t}\delta t = 0 & \text{divide by } \delta t \text{ take limit } \delta t \rightarrow 0 \\
-  & \frac{\partial I}{\partial x} \frac{dx}{dt} + \frac{\partial I}{\partial y} \frac{dy}{dt} + \frac{\partial I}{\partial t} \frac{dt}{dt} = 0
+  & \frac{\partial I}{\partial x} \frac{dx}{dt} + \frac{\partial I}{\partial y} \frac{dy}{dt} + \frac{\partial I}{\partial t} \frac{dt}{dt} = 0 \\\\
+  & I_x u + I_y v + I_t = 0\\
+  & u^T \ \nabla I  + I_t = 0
   \end{align*}
   $$
   
-  Which means $I_x u + I_y v + I_t = 0$ or $u^T \nabla I  + I_t = 0$, where $I_x$ and $I_y$ are *Image gradients*, $I_t$ is a *Temporal gradient*, the $u$ and $v$ are *flow velocities*. 
+  where $I_x$ and $I_y$ are *Image gradients*, $I_t$ is a *Temporal gradient*, the $u$ and $v$ are *flow velocities*. 
   ![[Screenshot from 2024-05-04 16-38-17.png|300]]
   Based on $I_x u + I_y v + I_t = 0$ formula, you can find multiple solution to that equation. In particular these solution lies on a straight line. Since we are following a edge direction, we have to estimate the component of the optical flow:
   - Normal Flow: $u_n = - \frac{I_t}{||\nabla I||}$
   - Parallel Flow: there is no correct formula for local consideration.
-  
-- **Spatial coherence**: points move like their neighbors
+
+>[!summarize]
+>- **Spatial derivatives**: $I_x = \frac{\partial I}{\partial x} \ I_y = \frac{\partial I}{\partial y}$
+>- **Optical Flow**: $u = \frac{dx}{dt} \ v=\frac{dy}{dt}$
+>- **Temporal derivatives**: $I_t = \frac{\partial I}{\partial t}$
 
 To calculate the Optical Flow 2 algorithms are used:
 - **Lucas-Kanade Optical Flow (1981)**: Uses the difference of the pixels' value to estimate the movement. Assumes that the Optical flow is constant for all the areas (inside the window). It's more a local method.
@@ -101,16 +110,23 @@ The conditions for making the flow estimation work are:
 
 So the perfect conditions to perform the LS solution is gradients different and large magnitudes, so corners and high texture regions.
 
-**Coarse to fine Flow Estimation**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this is to reduce the quality of the image to "decrease" the gap between the pixels. Since now we are again in the small motion condition we can apply the following algorithm:
+**Coarse to fine Flow Estimation**: If the two pictures we have are too far in time, we have no more the assumption of small motion; the same pixels are now far from their original position. A way to avoid this is to reduce the quality of the image to "decrease" the gap between the pixels. 
+
+Since now we are again in the small motion condition we can apply the following algorithm:
 
 ![[Screenshot from 2024-05-04 18-56-20.png|400]]
 
-
+1. **Image Pyramids**: The first step involves creating pyramids of the images for which optical flow needs to be computed. These pyramids consist of multiple layers where each layer is a down-sampled version of the original image, usually by a factor of two. Thus, each subsequent layer has lower resolution, increasing the speed and reducing the computational demand.
+2. **Coarse-Level Estimation**: Optical flow computation begins at the highest (smallest) level of the pyramid, which is the most reduced version of the original images. At this level, the flow vectors are estimated. These vectors are coarse and approximate due to the low resolution but require less computational effort.
+3. **Refinement Process**: The estimated flow vectors are then used as the initial guesses for the next level in the pyramid, which has a slightly higher resolution. At each level, the flow vectors are refined and adjusted to better match the actual motion observed in the images.
+4. **Propagation Up the Pyramid**: This process of estimation and refinement continues, moving up the pyramid from the coarsest to the finest level (the original resolution). At each step, the flow estimates are progressively improved, becoming more precise and detailed.
 ## Horn-Schunck Optical Flow
 
 We have to consider the image I as a function of continuous variable x, y, t. Let's consider $u(x, y)$ and $v(x, y)$ as continuous flow fields. We have to minimize the following *energy functional*:
 $$
-E(u, v) = \iint \left( I(x + u(x,y), y + v(x,y), t+1) - I(x,y,t) \right)^2 \, \text{dx dy} + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, \text{dx dy} 
+\begin{align*}
+E(u, v) = & \iint \left( I(x + u(x,y), y + v(x,y), t+1) - I(x,y,t) \right)^2 \, \text{dx dy}\\ &+ \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, \text{dx dy} 
+\end{align*}
 $$
 
 where the first double integral penalizes differences between the brightness of a pixel at time $t$ and the predicted brightness of the same pixel (after displacement) at time $t+1$. The second integral, penalizes large changes in the optical flow field itself, enforcing spatial smoothness.
@@ -118,16 +134,11 @@ Minimizing this energy function is a hard problem because the energy is highly *
 
 We can use Taylor Series one more time:
 $$
-f(x,y) \approx_{a,b}  f(a,b) + \frac{\partial f(a,b)}{\partial x}(x-a) + \frac{\partial f(a, b)}{\partial y} (y-b)
-$$
-which in our case becomes:
-$$
 \begin{align*}
-&I(x + u(x, y), y + v(x, y), t + 1) \approx_{x, y, t}\\ 
-&I_x(x, y, t) (x + u(x, y) - x) + I_y(x, y, t) (y + v(x, y) - y) + I_t(x, y, t) (t + 1 - t) =\\
-&I(x, y, t) + I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t)
+&I(x + u(x, y), y + v(x, y), t + 1) \approx_{x, y, t} I(x, y, t) + I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t)
 \end{align*}
 $$
+
 and the energy function becomes:
 $$
 E(u, v) = \iint \left( I_x(x, y, t) u(x, y) + I_y(x, y, t) v(x, y) + I_t(x, y, t) \right)^2 \, dx\,dy + \lambda \cdot \iint \left( \|\nabla u(x, y)\|^2 + \|\nabla v(x, y)\|^2 \right) \, dx\,dy

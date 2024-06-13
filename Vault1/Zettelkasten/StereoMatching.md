@@ -357,6 +357,7 @@ scale: 0.8
 
 ## Active stereo with structured light
 
+Active stereo systems enhance the traditional stereo vision by projecting a pattern of light onto the scene. This projected pattern adds unique features to the images, which greatly aids in the stereo matching process.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

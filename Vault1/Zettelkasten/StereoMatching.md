@@ -204,7 +204,7 @@ scale: 0.8
  page: 58 
  scale: 0.8 
  ```
-## Beyond local stereo matching
+## Challenges in Stereo Matching
 
 What are the challenges in the matching problem?
 
@@ -235,57 +235,36 @@ page: 64
 scale: 0.8 
 ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 66 
- scale: 0.8 
- ```
+The **Left-Right Consistency Test** is a validation technique in stereo vision used to ensure that the disparity maps generated from matching the left image to the right image are consistent when the process is reversed (i.e., matching the right image to the left image). This helps in detecting and correcting errors such as outliers and occlusions.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 67 
- scale: 0.8 
- ```
 ## Stereo Matching with Dynamic Programming
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 68 
- scale: 0.8 
- ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 69 
- scale: 0.8 
- ```
-We need to considere the disparity matrix, the ceneter part, and we need to find a path that bring us from start point to the end.
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 69 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 70 
- scale: 0.8 
- ```
+This path is the result of an algorithm that selects the best disparity for each pixel along the scanline based on criteria such as minimizing disparity gradients (to ensure smooth transitions) and maximizing match quality (based on image similarity).
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 71 
- scale: 0.8 
- ```
+![[Pasted image 20240613165549.png]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 72 
- scale: 0.8 
- ```
-
-Since we have some missing areas, due to the occlusion
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 72 
+scale: 0.8 
+```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
  page: 73 
  scale: 0.8 
  ```
+
+$$
+C(i,j)=min(C(i−1,j−1)+dissimilarity(i,j),C(i−1,j)+occlusionCost,C(i,j−1)+occlusionCost)
+$$
 
 Occlusin costatnt suggest the presence of the occlusion 
 

@@ -145,7 +145,7 @@
             }
           },
           {
-            "id": "88c744f6f8bffdd7",
+            "id": "712287d87266fa2b",
             "type": "leaf",
             "state": {
               "type": "slidenote-pdfcanvas",
@@ -172,10 +172,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dfc43ce9dce2840e",
+  "active": "712287d87266fa2b",
   "lastOpenFiles": [
     "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/StereoMatching.md",
+    "Files/Pasted image 20240613165549.png",
     "Zettelkasten/Computer Vision.md",
     "conflict-files-obsidian-git.md",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
@@ -190,7 +191,6 @@
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Descriptors.md",
-    "Files/Pasted image 20240609140253.png",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Camera Calibration.md",

@@ -281,35 +281,19 @@ scale: 0.8
 
 ## Stereo Matching with Graph Cut algorithm
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 82 
- scale: 0.8 
- ```
+The main cause of discontinuities in depth maps is the noise, even if happens we don't care, so we can assume that: *depth should change smoothly*. So we need to find a function to prove this, guarantee *Match quality* and *Smoothness*.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 83 
- scale: 0.8 
- ```
+$$
+E(d) = E_d(d) + \lambda E_s(d)
+$$
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 84 
- scale: 0.8 
- ```
+where $E$ is the total energy to minimize, $E_d$ is the data term that measure the dissimilarity between pixels (lower values = better match), $E_s$is the smoothness term that encourages smooth changes in disparity between adjacent pixels. $\lambda$ is a parametrization term.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 85 
- scale: 0.8 
- ```
+$$
+E_d(d) = \sum_{(x,y)\in I}C(x,y,d(x,y))
+$$
+ 
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 86 
- scale: 0.8 
- ```
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 

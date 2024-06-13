@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb7494fcfcdee546",
+        "id": "23dcfcd3a6f975ad",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd0a024aff21320",
+            "id": "dfc43ce9dce2840e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,72 +21,16 @@
             }
           },
           {
-            "id": "95f1ff54a0c289ce",
+            "id": "c775535458d6087c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Zettelkasten/Detectors2.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fb8fdf00eceb312",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Detectors.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceca0192e581ecaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Fourier Transform.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5196fe385d3909eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Image Pyramids.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fea9b7877eef85ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Image Processing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Files/StereoMatching_CV2324.pdf"
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -116,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Recording 20240507124348.webm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Detectors2.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Detectors2.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -201,7 +145,7 @@
             }
           },
           {
-            "id": "917a563f1df23f39",
+            "id": "88c744f6f8bffdd7",
             "type": "leaf",
             "state": {
               "type": "slidenote-pdfcanvas",
@@ -218,63 +162,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
+      "slide-note:Slide Note Block Generator": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "slide-note:Slide Note Block Generator": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "95f1ff54a0c289ce",
+  "active": "dfc43ce9dce2840e",
   "lastOpenFiles": [
-    "Zettelkasten/Computer Vision.md",
-    "Zettelkasten/Detectors.md",
-    "Zettelkasten/Fourier Transform.md",
-    "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
-    "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
     "Files/Screenshot from 2024-06-11 17-17-16.png",
-    "Files/Screenshot from 2024-06-11 17-16-33 1.png",
     "Files/Screenshot from 2024-06-11 17-16-33.png",
+    "Files/Screenshot from 2024-06-11 17-16-33 1.png",
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
-    "Zettelkasten/Descriptors.md",
-    "Zettelkasten/Optical Flow.md",
-    "Files/Pasted image 20240611125154.png",
-    "Files/Features3.pdf",
-    "Zettelkasten/Detectors2.md",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
+    "Files/Pasted image 20240611125154.png",
     "Files/Pasted image 20240610225139.png",
-    "Zettelkasten/Camera Calibration.md",
-    "Files/Features2.pdf",
+    "Files/StereoMatching_CV2324.pdf",
+    "Zettelkasten/StereoMatching.md",
+    "Zettelkasten/Detectors2.md",
+    "Zettelkasten/Detectors.md",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Computer Vision.md",
     "conflict-files-obsidian-git.md",
-    "Files/Features.pdf",
     "Files/Pasted image 20240609140253.png",
-    "Zettelkasten/Obsidian.md",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Files/Pasted image 20240609135712.png",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Optical Flow.md",
+    "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/Lezione 1.md",
-    "Zettelkasten/Formulario Computer Vision.md",
-    "Files/ImagePyramid.pdf",
+    "Zettelkasten/FeaturesCV3.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Files/TransformationAlignment.pdf",
+    "Files/Features3.pdf",
+    "Files/Features2.pdf",
+    "Files/FeaturesDescriptorHOG.pdf",
+    "Zettelkasten/Obsidian.md",
+    "Zettelkasten/FeaturesCV.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Image Pyramids.md",
+    "Zettelkasten/Fourier Transform.md",
+    "Files/Features.pdf",
+    "Zettelkasten/Regali per Me.md",
     "Files/FourierTransform.pdf",
+    "Files/ImagePyramid.pdf",
+    "Zettelkasten/Transformers in Vision.md",
+    "Zettelkasten/Formulario Computer Vision.md",
+    "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Temporal.md",
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
-    "Zettelkasten/Transformers in Vision.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
-    "Calander/2024-05-17.md",
-    "Calander",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
-    "Zettelkasten/StereoMatching.md",
-    "Files/StereoMatching_CV2324.pdf",
-    "Zettelkasten/Temporal.md",
-    "Zettelkasten/Interactive Graphics.md",
-    "Zettelkasten/Self-Supervised Learning.md",
-    "Zettelkasten/pull.md",
-    "Zettelkasten/Collezioni Carte.md",
+    "Calander/2024-05-17.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

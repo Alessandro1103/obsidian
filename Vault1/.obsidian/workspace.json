@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Computer Vision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,16 +21,20 @@
             }
           },
           {
-            "id": "42efd2fee06179eb",
+            "id": "df1cf972a03ecbf1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Files/StereoMatching_CV2324.pdf"
+                "file": "Zettelkasten/Image Processing.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -60,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Recording 20240507124348.webm",
+                "query": "tag:#ComputerVision",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -172,14 +177,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dfc43ce9dce2840e",
+  "active": "df1cf972a03ecbf1",
   "lastOpenFiles": [
+    "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/StereoMatching.md",
     "Files/Pasted image 20240613181044.png",
     "Files/Pasted image 20240613180407.png",
     "Files/StereoMatching_CV2324.pdf",
-    "Zettelkasten/StereoMatching.md",
     "Files/Pasted image 20240613165549.png",
-    "Zettelkasten/Computer Vision.md",
     "conflict-files-obsidian-git.md",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
     "Files/Screenshot from 2024-06-11 17-17-16.png",
@@ -188,7 +193,6 @@
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
-    "Files/Pasted image 20240611125154.png",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Descriptors.md",

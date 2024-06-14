@@ -14,7 +14,7 @@ Slides to study:
 - [x] [[Detectors2]]
 - [x] [[Descriptors]]
 - [x] [[2D Transformation and Alignment]]
-- [ ] [[Optical Flow]]
+- [x] [[Optical Flow]]
 - [ ] [[Camera Calibration]]
 - [ ] [[Epipolar Geometry and Fundamental Matrix]]
 - [ ] [[StereoMatching]]

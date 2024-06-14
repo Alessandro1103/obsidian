@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "fb7494fcfcdee546",
+        "id": "e23222b721e7a805",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd0a024aff21320",
+            "id": "da11e78ba7453156",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/Computer Vision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aad028c0be9462d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Fourier Transform.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -71,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945
+    "width": 222.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -87,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,14 +176,14 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "0cd0a024aff21320",
+  "active": "aad028c0be9462d9",
   "lastOpenFiles": [
+    "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Optical Flow.md",
     "Files/Pasted image 20240613181044.png",
     "Files/Pasted image 20240613180407.png",
     "Files/Pasted image 20240613165549.png",
     "Zettelkasten/Image Processing.md",
-    "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Descriptors.md",
     "Zettelkasten/Detectors2.md",
@@ -184,7 +199,6 @@
     "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
-    "Files/Screenshot from 2024-06-11 10-11-17.png",
     "Zettelkasten/Camera Calibration.md",
     "Files/Features2.pdf",
     "conflict-files-obsidian-git.md",

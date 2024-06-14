@@ -204,268 +204,160 @@ scale: 0.8
  page: 58 
  scale: 0.8 
  ```
-## Beyond local stereo matching
+## Challenges in Stereo Matching
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 60 
- scale: 0.8 
- ```
+What are the challenges in the matching problem?
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 61 
- scale: 0.8 
- ```
+### Uniqueness
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 62 
- scale: 0.8 
- ```
+The uniqueness constraint states that each point in one image should correspond to at most one point in the other image. This principle is crucial for ensuring that the matching process is deterministic and reduces ambiguity. 
+Uniqueness often does not hold in real-life scenarios due to: Repetitive Patterns, Symmetrical Objects, Scene Complexity.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 63 
- scale: 0.8 
- ```
+### Smoothness
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 64 
- scale: 0.8 
- ```
+The smoothness constraint in computer vision implies that the disparity between corresponding points in stereo images generally changes gradually across most of the image. 
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 65 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 63 
+scale: 0.8 
+```
 
-we have a base scan line, other 2 depending on the camera, since we are measuring the dispariity froma lefto to right, the blue pixel can non be seen from the right and the grey can not be visible from the left. Is it a Minimizazion porblem?
+At the left we have a depth map of the left image, where colors indicate depth level: warmer colors (like red) denote closer objects, and cooler colors (like green) signify farther ones.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 66 
- scale: 0.8 
- ```
+### Occlusions
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 67 
- scale: 0.8 
- ```
+Occlusions occur when certain parts of the scene are visible in one image but are blocked in the other. This happens because of the different perspectives or angles from which each image is taken.
+
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 64 
+scale: 0.8 
+```
+
+The **Left-Right Consistency Test** is a validation technique in stereo vision used to ensure that the disparity maps generated from matching the left image to the right image are consistent when the process is reversed (i.e., matching the right image to the left image). This helps in detecting and correcting errors such as outliers and occlusions.
+
 ## Stereo Matching with Dynamic Programming
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 68 
- scale: 0.8 
- ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 69 
- scale: 0.8 
- ```
-We need to considere the disparity matrix, the ceneter part, and we need to find a path that bring us from start point to the end.
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 69 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 70 
- scale: 0.8 
- ```
+This path is the result of an algorithm that selects the best disparity for each pixel along the scanline based on criteria such as minimizing disparity gradients (to ensure smooth transitions) and maximizing match quality (based on image similarity).
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 71 
- scale: 0.8 
- ```
+![[Pasted image 20240613165549.png]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 72 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 72 
+scale: 0.8 
+```
 
-Since we have some missing areas, due to the occlusion
+We want to minimize a cost function:
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 73 
- scale: 0.8 
- ```
+$$
+\begin{align*}
+C(i,j)=\min([ & C(i−1,j−1)+\text{dissimilarity}(i,j),\\
+&C(i−1,j)+\text{occlusionCostant},\\&C(i,j−1)+\text{occlusionCostant}])
+\end{align*}
+$$
 
-Occlusin costatnt suggest the presence of the occlusion 
+In order to remove the occluded points we can use the **Occlusion Filling**. The occluded pixel are coloured by black, then we use the nearest valid pixel and fill the occlusion with that. It has to be done first in one direction and then in the opposite.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 74 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 77 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 75 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 79 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 76 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 77 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 78 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 79 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 80 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 81 
- scale: 0.8 
- ```
 ## Stereo Matching with Graph Cut algorithm
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 82 
- scale: 0.8 
- ```
+The main cause of discontinuities in depth maps is the noise, even if happens we don't care, so we can assume that: *depth should change smoothly*. So we need to find a function to prove this, guarantee *Match quality* and *Smoothness*.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 83 
- scale: 0.8 
- ```
+$$
+E(d) = E_d(d) + \lambda E_s(d)
+$$
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 84 
- scale: 0.8 
- ```
+where $E$ is the total energy to minimize, $E_d$ is the data term that measure the dissimilarity between pixels (lower values = better match), $E_s$is the smoothness term that encourages smooth changes in disparity between adjacent pixels. $\lambda$ is a parametrization term.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 85 
- scale: 0.8 
- ```
+$$
+E_d(d) = \sum_{(x,y)\in I}C(x,y,d(x,y))
+$$
+ $C$ is a general cost function, we can consider a SSD (sum of squares formula) function.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 86 
- scale: 0.8 
- ```
+$$
+E_s(d) = \sum_{(p,q)\in \epsilon}V(d_p, d_q)
+$$
+$V$ is a function that measures disparities, in particular we can measure disparity respect the point that that point is connected to, if we consider 4-connection or 8 changes a lot.![[Pasted image 20240613180407.png|100]]
+$V$ can be:
+$$
+\begin{align*}
+&V(d_p, d_q) = |d_p-d_q| \\\\
+&V(d_p, d_q) = 
+\begin{cases} 
+0 & \text{if } d_p = d_q \\
+1 & \text{if } d_p \neq d_q
+\end{cases}
+\end{align*}
+$$
+The first treats all disparities linearly, the second one provides penalties if $d_p$ and $d_s$ are different. This separation is more sharp.
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 87 
- scale: 0.8 
- ```
+Otherwise we have to consider the **Dynamic Programming**: 
+$$
+D(x,y,d)=C(x,y,d)+\min​_{d'}\{D(x-1,y,d')+\lambda|d-d'|\}
+$$
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 88 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 90 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 89 
- scale: 0.8 
- ```
+## Stereo in Deep Learning era
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 90 
- scale: 0.8 
- ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 91 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 96 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 92 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 97 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 93 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 98 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 94 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 99 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 95 
- scale: 0.8 
- ```
+```slide-note 
+file: StereoMatching_CV2324.pdf 
+page: 100 
+scale: 0.8 
+```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 96 
- scale: 0.8 
- ```
+## Active stereo with structured light
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 97 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 98 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 99 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 100 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 101 
- scale: 0.8 
- ```
+Active stereo systems enhance the traditional stereo vision by projecting a pattern of light onto the scene. This projected pattern adds unique features to the images, which greatly aids in the stereo matching process.
 
  ```slide-note 
  file: StereoMatching_CV2324.pdf 
@@ -515,8 +407,3 @@ Occlusin costatnt suggest the presence of the occlusion
  scale: 0.8 
  ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 110 
- scale: 0.8 
- ```

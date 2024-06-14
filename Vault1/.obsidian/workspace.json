@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "fb7494fcfcdee546",
+        "id": "23dcfcd3a6f975ad",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd0a024aff21320",
+            "id": "dfc43ce9dce2840e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/Computer Vision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df1cf972a03ecbf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Image Processing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -50,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ComputerVision",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +149,7 @@
             }
           },
           {
-            "id": "917a563f1df23f39",
+            "id": "712287d87266fa2b",
             "type": "leaf",
             "state": {
               "type": "slidenote-pdfcanvas",
@@ -151,63 +166,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
+      "slide-note:Slide Note Block Generator": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "daily-notes:Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
-      "slide-note:Slide Note Block Generator": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "0cd0a024aff21320",
+  "active": "df1cf972a03ecbf1",
   "lastOpenFiles": [
-    "Zettelkasten/Image Processing.md",
-    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Computer Vision.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
-    "Zettelkasten/Descriptors.md",
-    "Zettelkasten/Detectors2.md",
-    "Zettelkasten/Detectors.md",
-    "Zettelkasten/Fourier Transform.md",
-    "Zettelkasten/Image Pyramids.md",
-    "Files/TransformationAlignment.pdf",
+    "Zettelkasten/StereoMatching.md",
+    "Files/Pasted image 20240613181044.png",
+    "Files/Pasted image 20240613180407.png",
+    "Files/StereoMatching_CV2324.pdf",
+    "Files/Pasted image 20240613165549.png",
+    "conflict-files-obsidian-git.md",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
     "Files/Screenshot from 2024-06-11 17-17-16.png",
-    "Files/Screenshot from 2024-06-11 17-16-33 1.png",
     "Files/Screenshot from 2024-06-11 17-16-33.png",
+    "Files/Screenshot from 2024-06-11 17-16-33 1.png",
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
-    "Files/Pasted image 20240611125154.png",
-    "Files/Features3.pdf",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
-    "Files/Pasted image 20240610225139.png",
+    "Zettelkasten/Detectors2.md",
+    "Zettelkasten/Detectors.md",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Camera Calibration.md",
-    "Files/Features2.pdf",
-    "conflict-files-obsidian-git.md",
-    "Files/Features.pdf",
-    "Files/Pasted image 20240609140253.png",
-    "Zettelkasten/Obsidian.md",
-    "Zettelkasten/Elezioni Trump vs Biden 2024.md",
+    "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/Lezione 1.md",
-    "Zettelkasten/Formulario Computer Vision.md",
-    "Files/ImagePyramid.pdf",
+    "Zettelkasten/FeaturesCV3.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Files/TransformationAlignment.pdf",
+    "Files/Features3.pdf",
+    "Files/Features2.pdf",
+    "Files/FeaturesDescriptorHOG.pdf",
+    "Zettelkasten/Obsidian.md",
+    "Zettelkasten/FeaturesCV.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Image Pyramids.md",
+    "Zettelkasten/Fourier Transform.md",
+    "Files/Features.pdf",
+    "Zettelkasten/Regali per Me.md",
     "Files/FourierTransform.pdf",
+    "Files/ImagePyramid.pdf",
+    "Zettelkasten/Transformers in Vision.md",
+    "Zettelkasten/Formulario Computer Vision.md",
+    "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Temporal.md",
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
-    "Zettelkasten/Transformers in Vision.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
-    "Calander/2024-05-17.md",
-    "Calander",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
-    "Zettelkasten/StereoMatching.md",
-    "Files/StereoMatching_CV2324.pdf",
-    "Zettelkasten/Temporal.md",
-    "Zettelkasten/Interactive Graphics.md",
-    "Zettelkasten/Self-Supervised Learning.md",
-    "Zettelkasten/pull.md",
-    "Zettelkasten/Collezioni Carte.md",
+    "Calander/2024-05-17.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

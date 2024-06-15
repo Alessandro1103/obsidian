@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d960ba28053f8b76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/push.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/push.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,10 +188,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d3f48f2500b4b5db",
+  "active": "d960ba28053f8b76",
   "lastOpenFiles": [
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/push.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Progetto Medical.md",
+    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Image Processing.md",
@@ -187,7 +202,6 @@
     "Files/Pasted image 20240613180407.png",
     "Files/StereoMatching_CV2324.pdf",
     "Files/Pasted image 20240613165549.png",
-    "conflict-files-obsidian-git.md",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
     "Files/Screenshot from 2024-06-11 17-17-16.png",
     "Files/Screenshot from 2024-06-11 17-16-33.png",
@@ -220,7 +234,6 @@
     "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/Temporal.md",
-    "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Immagini/Immagini EsamiJava/Untitled.canvas"

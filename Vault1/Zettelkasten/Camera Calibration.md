@@ -159,57 +159,16 @@ If there is no lens distortion both $\delta=0$.
 
 ### Stereo and Triangulation
 
-![[Pasted image 20240510170005.png|400]]
+![[Pasted image 20240510170005.png|500]]
 
-![[Pasted image 20240510170018.png|400]]
+![[Pasted image 20240510170018.png|500]]
 
-![[Pasted image 20240510173420.png|400]]
+![[Pasted image 20240510173420.png|500]]
 
 This is a visual representation where the intensity of each pixel indicates the disparity, or the difference in horizontal position, of matching pixels between the left and right images.
 
-![[Pasted image 20240510172033.png|400]]
+![[Pasted image 20240510172033.png|500]]
 
 
-![[Pasted image 20240510172050.png|400]]
-
-**Issues with Stereo Matching**:
-
-![[Pasted image 20240510172111.png|400]]
-
-A solution could be make an **Adaptive window**: for each point, match using windows of multiple sizes and use the disparity that is a result of the best similarity measure.
-
-The algorithm in general is performed in this way:
-1. Rectify Images: find and epipolar line that permits to confront the two images at the same horizontal level
-2. Search along the horizontal line in the other image to find the pixel that best matches based on similarity metrics.
-3. The disparity, which is the horizontal distance between matching pixels across the two images, is used to compute the depth of the corresponding point in the scene using the formula $Z=\frac{bf}{d}$​, where $b$ is the baseline (distance between camera centers), $f$ is the focal length, and $d$ is the disparity.
-
-![[Pasted image 20240510174832.png|400]]
-
-Slide a window along the epipolar line and compare contents of that window with the reference window in the left image.
-
-### Stereo Block Failures
-
-- **Textureless Regions**: Areas with little or no texture, such as plain walls, make it difficult for matching algorithms to find unique corresponding points between stereo images, leading to failures in accurate disparity calculation.
-- **Repeated Patterns**: Situations with patterns that repeat, like tiles or brick walls, pose challenges as the algorithm might incorrectly match points between images due to multiple similar-looking options, resulting in ambiguous or incorrect disparity measurements.
-- **Specularities**: Shiny surfaces create reflections that vary between different viewpoints, making it hard to match the same points in each image due to changing appearances, which can mislead the disparity estimation.
-
-### Improving Stereo Block Matching
-
-The base problem with Stereo matching are the discontinuities, depth should change smoothly. So we rely in **Energy Minimization**:
-
-![[Pasted image 20240510175936.png|400]]
-
-$$
-E(d) = E_d(d) + \lambda E_s(d)
-$$
-**Data term**:
-$E_d(d) = \sum_{(x,y)\in I} C(x,y,d(x,y))$
-
-Wants each pixel to find a good math in the other image. $I$ is the image.
-
-**Smoothness term**:
-$E_s(d) = \sum_{p,q\in \varepsilon} V(d_p, d_q)$
-
-the second adjacent pixels should move about the same amount. $\varepsilon$: set of neighbouring pixels. ![[Pasted image 20240510180723.png|200]]
-And $V$ is: ![[Pasted image 20240510180802.png|300]]
+![[Pasted image 20240510172050.png|500]]
 

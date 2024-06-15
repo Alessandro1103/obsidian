@@ -62,12 +62,19 @@ where $m_x$ and $m_y$ are the pixel densities.
 
 ![[Pasted image 20240510153949.png]]
 
+Every point on line L (except origin) represents the homogenous coordinate of **u**(u,v)
+
 ![[Pasted image 20240510153955.png]]
 
 ![[Pasted image 20240510154006.png]]
 
+This gives us a "linear model" for Perspective Projection
+
 ![[Pasted image 20240510154021.png]]
 
+So $M_{int}$ that takes you from a point, homogeneous coordinate representation of a point in a camera coordinate frame 3D, to it's pixel coordinate in the image ($\tilde u$).
+
+**Extrinsic Parameter**:
 ![[Pasted image 20240510154030.png]]
 
 ![[Pasted image 20240510154102.png]]

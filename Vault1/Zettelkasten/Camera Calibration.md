@@ -28,6 +28,9 @@ A lens can focus light rays coming from different directions to converge at a po
 
 
 ## Technical formulation
+### Gaussian Lens (Thin Lens) Law
+
+![[Pasted image 20240510153932.png]]
 
 ### Standard
 
@@ -54,9 +57,6 @@ where $m_x$ and $m_y$ are the pixel densities.
 
 ![[Pasted image 20240510153817.png]]
 
-### Gaussian Lens (Thin Lens) Law
-
-![[Pasted image 20240510153932.png]]
 
 ![[Pasted image 20240510153941.png]]
 

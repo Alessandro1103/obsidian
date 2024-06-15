@@ -107,12 +107,27 @@ So $M_{int}$ that takes you from a point, homogeneous coordinate representation 
 5. Solve for $p$:
    $A\ p = 0$
 
-Since we are working with homogenous coordinates, scaling the coordinates doesn't make sense (we are normalizing dividing in $u$ and $v$ the last row). Since we have more columns than rows we have multiple solutions. We can choose to minimize the norm such that: $||p||^2 = 1$ or set the scale so that $p_{34}=1$. These scaling are used for standardizing the scale of transformation, for stability and scaling reasons. So we define a **Loss function**:
+Since we are working with homogenous coordinates, scaling the coordinates doesn't make sense (we are normalizing dividing in $u$ and $v$ the last row). Since we have more columns than rows we have multiple solutions. We can choose to minimize the norm such that: $||p||^2 = 1$ so we can minimize:
+$$
+\min_p||Ap||^2
+$$
+which bring to us:
+$$
+\min_p(p^T A^T Ap)\ \text{such that} \ p^Tp =1
+$$
+So we define a **Loss function** (find the p that minimize L):
 $$
 L(p,\lambda) = p^T A^T A p - \lambda(p^T p -1)
 $$
+Taking derivatives of $L(p,\lambda)$ w.r.t. $p$: 
+$$
+\begin{align*}
+& A^T Ap = \lambda p &\text{Eigenvalue Problem}
+\end{align*}
+$$
 
-Taking the derivative and then consider the eigenvector *p* with smallest eigen value $\lambda$ of matrix $A^TA$ minimizes the loss function.
+Eigenvector **p** with smallest eigenvalue $\lambda$ of matrix $A^TA$ minimizes the loss function $L(p)$
+
 
 ![[Pasted image 20240510163742.png|400]]
 

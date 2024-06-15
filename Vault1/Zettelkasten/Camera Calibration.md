@@ -37,6 +37,15 @@ A lens can focus light rays coming from different directions to converge at a po
 
 ![[Pasted image 20240510153707.png]]
 
+The complete formula is the following: 
+$$
+\begin{align*}
+&u=m_x x_i = m_xf\frac{x_c}{z_c}
+&v=m_y y_i = m_yf\frac{y_c}{z_c}
+\end{align*}
+$$
+where $m_x$ and $m_y$ are the pixel densities.
+
 ![[Pasted image 20240510153717.png]]
 
 ![[Pasted image 20240510153739.png]]

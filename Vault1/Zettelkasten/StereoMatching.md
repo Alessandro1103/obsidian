@@ -59,7 +59,7 @@ z = \frac{fB}{x-x'}
 $$
 Same here.
 
-The conditions to compute the depth are:
+The **conditions** to compute the depth are:
 1. A baseline (distance from cameras) enough large
 2. Modify the image so that the epipolar lines are horizontal and aligned across both images.
 
@@ -152,7 +152,7 @@ page: 47
 scale: 0.8 
 ```
 
-We have to consider the problem of occlusion, when the image in the right shows a part that in the left is not shown (and viceversa). This situation brings to inconsistencies in the algorithms that needs to elaborate them.
+We have to consider the problem of **occlusion**, when the image in the right shows a part that in the left is not shown (and viceversa). This situation brings to inconsistencies in the algorithms that needs to elaborate them.
 
 ```slide-note 
 file: StereoMatching_CV2324.pdf 

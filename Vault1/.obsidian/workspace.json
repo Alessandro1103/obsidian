@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,9 +164,9 @@
   },
   "active": "5fd7fd75d1a96301",
   "lastOpenFiles": [
-    "Zettelkasten/Camera Calibration.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Università.md",
     "Zettelkasten/StereoMatching.md",
     "Zettelkasten/push.md",

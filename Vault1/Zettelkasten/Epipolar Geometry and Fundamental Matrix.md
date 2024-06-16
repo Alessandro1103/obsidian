@@ -137,7 +137,7 @@ In order to be able to use essential matrix, we need to make an assumption: the 
 
 We need to introduce the fundamental matrix that is a generalization of the essential matrix where the assumption is removed. 
 
-The essential matrix $E$ operates on camera-coordinate system points, requiring camera calibration data, and enforces the epipolar constraint $x'^{T}E\hat x=0$. The fundamental matrix $F$, expressed as $F=K^{−T}EK^{−1}$, generalizes $E$ by accommodating image-coordinate points, making it applicable without explicit camera calibration. $F$ allows working directly with raw image data, linking image points across views under the epipolar constraint $x'^{T}Fx=0$. This flexibility makes $F$ especially useful in scenarios where calibration data is unavailable. 
+The essential matrix $E$ operates on camera-coordinate system points, requiring camera calibration data, and enforces the epipolar constraint $x'^{T}E\hat x=0$. The fundamental matrix $F$, expressed as $F=K^{−T}EK^{−1}$ (where $K$ is the calibration matrix, the intrinsically parameters of the camera 3x3), generalizes $E$ by accommodating image-coordinate points, making it applicable without explicit camera calibration. $F$ allows working directly with raw image data, linking image points across views under the epipolar constraint $x'^{T}Fx=0$. This flexibility makes $F$ especially useful in scenarios where calibration data is unavailable. 
 
 **Properties of the F matrix**:
 $$

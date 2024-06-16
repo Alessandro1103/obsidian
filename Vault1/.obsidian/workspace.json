@@ -164,8 +164,9 @@
   },
   "active": "5fd7fd75d1a96301",
   "lastOpenFiles": [
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Università.md",
     "Zettelkasten/StereoMatching.md",
     "Zettelkasten/push.md",
@@ -188,7 +189,6 @@
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Descriptors.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/Lezione 1.md",

@@ -8,55 +8,17 @@ Up: [[Computer Vision]]
 
 ## Introduction
 
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 2
-scale: 0.8
-```
+Let's analyse the key topics in Multi-view geometry problems:
+1. Stereo correspondence: the goal is to determine corresponding points across multiple images taken from different viewpoints.
+2. Camera motion: the goal is to determine the camera parameters for each viewpoint.
+3. Structure from Motion: estimate the 3D coordinates of a point in the object
 
-We have a point in a image and we wand to know where is the point in the others images.
+In the previous lecture [[Camera Calibration]] we calibrated the camera, can we find the 3D scene point of a pixel now? NO, because when we look at a camera screen we don't know the depth $z$. Without $z$, you can determine the direction in which the object lies from the camera, but not how far it is along that direction.
 
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 3
-scale: 0.8
-```
+But we can if we have additional information like multiple camera perspectives, to pinpoint the exact location along the ray where he lies down.
 
-We have no information in camera parameters, and we want to calculate it
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 4
-scale: 0.8
-```
-
-We have different projection of the 3D object, and i want to compute the 3D coordinates of that point, and extract the camera parameters.
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 5
-scale: 0.8
-```
-
-The relationship between 3D points and their 2D image projection is represented by equation: $x = f(X; p) = PX$ where P is the camera matrix which transform 3D coordinates in 2D. The camera matrix P can be decomposed into intrinsic parameters K and extrinsic \[R|t\] (R rotational, t translation). To find the camera center C we have $Pc=0$. 
-
-Now that our cameras are calibrated, can we find the 3D scene point of a pixel?
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 7
-scale: 0.8
-```
-
-We can not due to the loss of depth information. But we can if we have additional information like multiple camera perspectives, to pinpoint the exact location along the ray where he lies down.
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 9
-scale: 0.8
-```
-
-**Uncalibrated stereo**: We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are known for both, assuming we have already calibrated everything. 
+### Uncalibrated stereo
+We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are known for both, assuming we have already calibrated everything. 
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -73,7 +35,7 @@ scale: 0.8
 ```
 
 We need to estimate $p$.
-We have two planes, two optical center (camera location) called $o$ and $o'$, the line between the optical center, is called *Baseline*. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing through epipole. The two epipolar line are not the same. 
+We have two planes, two optical center (camera location) called $o$ and $o'$, the line between the optical center, is called *Baseline*. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing through epipole. *The two epipolar line are not the same*. 
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 

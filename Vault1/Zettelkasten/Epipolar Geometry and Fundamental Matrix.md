@@ -95,8 +95,11 @@ scale: 0.8
 To match a point in one image and find it in another, we use the epipolar constraint, which reduces the search to a single line. How do we compute the epipolar line?
 ## Essential Matrix
 
-Given a point in one image, multiplying it by the essential matrix will determine the corresponding epipolar line in the second view. So we have a relation between $l'$ and $x$. We write this "relation" as $Ex = l'$.
-Writing the Epipolar line as: $ax + by+x =0$ or in vector form: $l = \begin{bmatrix} a \\ b \\ c \end{bmatrix}$. If a point $x$ is on the epipolar line $l$, then the dot product $x^Tl = 0$.
+Given a point in one image, multiplying it by the essential matrix will determine the corresponding epipolar line in the second view. So we have a relation between $l'$ and $x$. 
+We write this "relation" as $Ex = l'$.
+
+In projective geometry, $\mathbf{x}^T \mathbf{l} = 0$ indicates that the point $\mathbf{x}$ lies on the line $\mathbf{l}$, with $\mathbf{x}^T \mathbf{l} = ax + by + c$ being the equation of the line evaluated at the point $\mathbf{x}$. This dot product equals zero when the point satisfies the line equation.
+
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 

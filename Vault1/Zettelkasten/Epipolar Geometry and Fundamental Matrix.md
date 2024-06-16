@@ -9,9 +9,9 @@ Up: [[Computer Vision]]
 ## Introduction
 
 Let's analyse the key topics in Multi-view geometry problems:
-1. Stereo correspondence: the goal is to determine corresponding points across multiple images taken from different viewpoints.
-2. Camera motion: the goal is to determine the camera parameters for each viewpoint.
-3. Structure from Motion: estimate the 3D coordinates of a point in the object
+1. **Stereo correspondence**: the goal is to determine corresponding points across multiple images taken from different viewpoints.
+2. **Camera motion**: the goal is to determine the camera parameters for each viewpoint.
+3. **Structure from Motion**: estimate the 3D coordinates of a point in the object
 
 In the previous lecture [[Camera Calibration]] we calibrated the camera, can we find the 3D scene point of a pixel now? NO, because when we look at a camera screen we don't know the depth $z$. Without $z$, you can determine the direction in which the object lies from the camera, but not how far it is along that direction.
 

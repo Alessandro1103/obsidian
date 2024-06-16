@@ -182,7 +182,7 @@ file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf
 page: 88, 89
 scale: 0.8
 ```
-You need at least 8 points for the 8-point algorithm in computer vision because each pair of corresponding points provides one linear equation, and the fundamental matrix $F$ has 9 unknowns (its 9 elements). While using 9 points can theoretically give a unique solution to the homogeneous linear system for the fundamental matrix 𝐹F, practical implementations typically use more points to ensure robustness against noise and to improve the accuracy of the solution. In all cases, the solution must also satisfy the rank-2 constraint, often enforced through SVD after the initial estimation.
+You need at least 8 points for the 8-point algorithm in computer vision because each pair of corresponding points provides one linear equation, and the fundamental matrix $F$ has 9 unknowns (its 9 elements). While using 9 points can theoretically give a unique solution to the homogeneous linear system for the fundamental matrix $F$, practical implementations typically use more points to ensure robustness against noise and to improve the accuracy of the solution. In all cases, the solution must also satisfy the rank-2 constraint, often enforced through SVD after the initial estimation.
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 

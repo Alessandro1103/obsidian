@@ -44,7 +44,7 @@ scale: 0.8
 ```
 We can establish epipolar constraints. The only thing I can do is to project x onto a ray in 3D. I can find x on the corresponding epipolar line in the other image. My goal is to match x in this second image. While I cannot determine the exact location of the point, I can estimate it.
 
-**Converging cameras**
+### Converging cameras
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -54,7 +54,7 @@ scale: 0.8
 
 Converging cameras result in finite epipoles within the images, epipolar lines that converge at the epipoles, and a well-defined epipolar geometry that aids in finding correspondences for 3D reconstruction.
 
-**Parallels Cameras**
+### Parallels Cameras
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -64,7 +64,7 @@ scale: 0.8
 
 Parallel cameras lead to epipoles at infinity and parallel epipolar lines, which greatly simplifies the epipolar geometry and the process of finding corresponding points for 3D reconstruction.
 
-**Forward Motion**
+### Forward Motion
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 

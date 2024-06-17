@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Detectors.md",
+                "file": "Zettelkasten/Detectors2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Detectors.md",
+                "file": "Zettelkasten/Detectors2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Detectors.md",
+                "file": "Zettelkasten/Detectors2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,6 +165,7 @@
   "active": "5fd7fd75d1a96301",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Image Processing.md",
@@ -188,7 +189,6 @@
     "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
     "Zettelkasten/Detectors2.md",
-    "Zettelkasten/Detectors.md",
     "Zettelkasten/Descriptors.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/FeaturesCV2.md",

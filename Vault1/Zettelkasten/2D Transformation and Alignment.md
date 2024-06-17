@@ -220,7 +220,7 @@ page: 66
 scale: 0.8
 ```
 
-### RASAC
+### RANSAC
 
 In order to find a model parameters that maximize the number of inliers, we make the following assumptions:
 - All inliers will agree with each other on the model parameters (e.g., translation vector in the context of image alignment)

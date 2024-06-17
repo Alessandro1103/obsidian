@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Additive Slide CV.md",
+                "file": "Zettelkasten/Computer Vision Exam Questions.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Additive Slide CV.md",
+                "file": "Zettelkasten/Computer Vision Exam Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Additive Slide CV.md",
+                "file": "Zettelkasten/Computer Vision Exam Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,8 +164,9 @@
   },
   "active": "481a477626b5e0a9",
   "lastOpenFiles": [
-    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Additive Slide CV.md",
+    "Zettelkasten/Computer Vision Exam Questions.md",
+    "Zettelkasten/Computer Vision.md",
     "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
@@ -209,7 +210,6 @@
     "Calander/2024-05-17.md",
     "Calander",
     "Files/StereoMatching_CV2324.pdf",
-    "Zettelkasten/Temporal.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

@@ -25,3 +25,4 @@ The "Bag of Words" (BoW) model is a simplified representation used in both natur
 
 Deep learning models can learn hierarchical features automatically from data, from low-level features in initial layers to high-level semantic features in deeper layers.
 
+## R-CNN

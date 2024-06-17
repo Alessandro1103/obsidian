@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "4f49eb8795d26d06",
+            "id": "640a57bcfb75ef8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Detectors.md",
+                "file": "Zettelkasten/Optical Flow.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Detectors.md",
+                "file": "Zettelkasten/Optical Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Detectors.md",
+                "file": "Zettelkasten/Optical Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,9 +176,13 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "4f49eb8795d26d06",
+  "active": "640a57bcfb75ef8d",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Files/TransformationAlignment.pdf",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Progetto Medical.md",
     "Zettelkasten/Fourier Transform.md",
@@ -187,11 +191,7 @@
     "Files/Pasted image 20240613180407.png",
     "Files/Pasted image 20240613165549.png",
     "Zettelkasten/Image Processing.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
-    "Zettelkasten/Descriptors.md",
-    "Zettelkasten/Detectors2.md",
     "Zettelkasten/Image Pyramids.md",
-    "Files/TransformationAlignment.pdf",
     "Files/Screenshot from 2024-06-11 17-18-11.png",
     "Files/Screenshot from 2024-06-11 17-17-16.png",
     "Files/Screenshot from 2024-06-11 17-16-33 1.png",
@@ -223,7 +223,6 @@
     "Zettelkasten/Interactive Graphics.md",
     "Zettelkasten/Self-Supervised Learning.md",
     "Zettelkasten/pull.md",
-    "Zettelkasten/Collezioni Carte.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

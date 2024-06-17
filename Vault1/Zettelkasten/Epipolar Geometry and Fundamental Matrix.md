@@ -8,55 +8,17 @@ Up: [[Computer Vision]]
 
 ## Introduction
 
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 2
-scale: 0.8
-```
+Let's analyse the key topics in Multi-view geometry problems:
+1. **Stereo correspondence**: the goal is to determine corresponding points across multiple images taken from different viewpoints.
+2. **Camera motion**: the goal is to determine the camera parameters for each viewpoint.
+3. **Structure from Motion**: estimate the 3D coordinates of a point in the object
 
-We have a point in a image and we wand to know where is the point in the others images.
+In the previous lecture [[Camera Calibration]] we calibrated the camera, can we find the 3D scene point of a pixel now? NO, because when we look at a camera screen we don't know the depth $z$. Without $z$, you can determine the direction in which the object lies from the camera, but not how far it is along that direction.
 
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 3
-scale: 0.8
-```
+But we can if we have additional information like multiple camera perspectives, to pinpoint the exact location along the ray where he lies down.
 
-We have no information in camera parameters, and we want to calculate it
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 4
-scale: 0.8
-```
-
-We have different projection of the 3D object, and i want to compute the 3D coordinates of that point, and extract the camera parameters.
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 5
-scale: 0.8
-```
-
-The relationship between 3D points and their 2D image projection is represented by equation: $x = f(X; p) = PX$ where P is the camera matrix which transform 3D coordinates in 2D. The camera matrix P can be decomposed into intrinsic parameters K and extrinsic \[R|t\] (R rotational, t translation). To find the camera center C we have $Pc=0$. 
-
-Now that our cameras are calibrated, can we find the 3D scene point of a pixel?
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 7
-scale: 0.8
-```
-
-We can not due to the loss of depth information. But we can if we have additional information like multiple camera perspectives, to pinpoint the exact location along the ray where he lies down.
-
-```slide-note 
-file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
-page: 9
-scale: 0.8
-```
-
-**Uncalibrated stereo**: We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are known for both, assuming we have already calibrated everything. 
+### Uncalibrated stereo
+We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are known for both, assuming we have already calibrated everything. 
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -73,7 +35,7 @@ scale: 0.8
 ```
 
 We need to estimate $p$.
-We have two planes, two optical center (camera location) called $o$ and $o'$, the line between the optical center, is called *Baseline*. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing through epipole. The two epipolar line are not the same. 
+We have two planes, two optical center (camera location) called $o$ and $o'$, the line between the optical center, is called *Baseline*. The point Epipole, is in the image plane, these creates the epipolar plane, generating an epipolar line, which is the intersection of the epipolar plane with the image plane, passing through epipole. *The two epipolar line are not the same*. 
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -82,7 +44,7 @@ scale: 0.8
 ```
 We can establish epipolar constraints. The only thing I can do is to project x onto a ray in 3D. I can find x on the corresponding epipolar line in the other image. My goal is to match x in this second image. While I cannot determine the exact location of the point, I can estimate it.
 
-**Converging cameras**
+### Converging cameras
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -92,7 +54,7 @@ scale: 0.8
 
 Converging cameras result in finite epipoles within the images, epipolar lines that converge at the epipoles, and a well-defined epipolar geometry that aids in finding correspondences for 3D reconstruction.
 
-**Parallels Cameras**
+### Parallels Cameras
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -102,7 +64,7 @@ scale: 0.8
 
 Parallel cameras lead to epipoles at infinity and parallel epipolar lines, which greatly simplifies the epipolar geometry and the process of finding corresponding points for 3D reconstruction.
 
-**Forward Motion**
+### Forward Motion
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -133,8 +95,11 @@ scale: 0.8
 To match a point in one image and find it in another, we use the epipolar constraint, which reduces the search to a single line. How do we compute the epipolar line?
 ## Essential Matrix
 
-Given a point in one image, multiplying it by the essential matrix will determine the corresponding epipolar line in the second view. So we have a relation between $l'$ and $x$. We write this "relation" as $Ex = l'$.
-Writing the Epipolar line as: $ax + by+x =0$ or in vector form: $l = \begin{bmatrix} a \\ b \\ c \end{bmatrix}$. If a point $x$ is on the epipolar line $l$, then the dot product $x^Tl = 0$.
+Given a point in one image, multiplying it by the essential matrix will determine the corresponding epipolar line in the second view. So we have a relation between $l'$ and $x$. 
+We write this "relation" as $Ex = l'$.
+
+In projective geometry, $\mathbf{x}^T \mathbf{l} = 0$ indicates that the point $\mathbf{x}$ lies on the line $\mathbf{l}$, with $\mathbf{x}^T \mathbf{l} = ax + by + c$ being the equation of the line evaluated at the point $\mathbf{x}$. This dot product equals zero when the point satisfies the line equation.
+
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 
@@ -172,7 +137,7 @@ In order to be able to use essential matrix, we need to make an assumption: the 
 
 We need to introduce the fundamental matrix that is a generalization of the essential matrix where the assumption is removed. 
 
-The essential matrix $E$ operates on camera-coordinate system points, requiring camera calibration data, and enforces the epipolar constraint $x'^{T}E\hat x=0$. The fundamental matrix $F$, expressed as $F=K^{−T}EK^{−1}$, generalizes $E$ by accommodating image-coordinate points, making it applicable without explicit camera calibration. $F$ allows working directly with raw image data, linking image points across views under the epipolar constraint $x'^{T}Fx=0$. This flexibility makes $F$ especially useful in scenarios where calibration data is unavailable. 
+The essential matrix $E$ operates on camera-coordinate system points, requiring camera calibration data, and enforces the epipolar constraint $x'^{T}E\hat x=0$. The fundamental matrix $F$, expressed as $F=K^{−T}EK^{−1}$ (where $K$ is the calibration matrix, the intrinsically parameters of the camera 3x3), generalizes $E$ by accommodating image-coordinate points, making it applicable without explicit camera calibration. $F$ allows working directly with raw image data, linking image points across views under the epipolar constraint $x'^{T}Fx=0$. This flexibility makes $F$ especially useful in scenarios where calibration data is unavailable. 
 
 **Properties of the F matrix**:
 $$
@@ -217,7 +182,7 @@ file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf
 page: 88, 89
 scale: 0.8
 ```
-You need at least 8 points for the 8-point algorithm in computer vision because each pair of corresponding points provides one linear equation, and the fundamental matrix $F$ has 9 unknowns (its 9 elements). While using 9 points can theoretically give a unique solution to the homogeneous linear system for the fundamental matrix 𝐹F, practical implementations typically use more points to ensure robustness against noise and to improve the accuracy of the solution. In all cases, the solution must also satisfy the rank-2 constraint, often enforced through SVD after the initial estimation.
+You need at least 8 points for the 8-point algorithm in computer vision because each pair of corresponding points provides one linear equation, and the fundamental matrix $F$ has 9 unknowns (its 9 elements). While using 9 points can theoretically give a unique solution to the homogeneous linear system for the fundamental matrix $F$, practical implementations typically use more points to ensure robustness against noise and to improve the accuracy of the solution. In all cases, the solution must also satisfy the rank-2 constraint, often enforced through SVD after the initial estimation.
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 

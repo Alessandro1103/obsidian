@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "a553933e437b5900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "640a57bcfb75ef8d",
             "type": "leaf",
             "state": {
@@ -34,6 +47,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,10 +189,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "da11e78ba7453156",
+  "active": "a553933e437b5900",
   "lastOpenFiles": [
-    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Computer Vision.md",
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Università.md",
+    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Files/TransformationAlignment.pdf",
     "Zettelkasten/Descriptors.md",
@@ -201,7 +217,6 @@
     "Files/Features3.pdf",
     "Zettelkasten/Camera Calibration.md",
     "Files/Features2.pdf",
-    "conflict-files-obsidian-git.md",
     "Files/Features.pdf",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/Elezioni Trump vs Biden 2024.md",

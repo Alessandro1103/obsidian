@@ -281,7 +281,7 @@ After images are aligned, blending is essential to minimize visible seams due to
 To do so, we use the Laplacian Pyramid:
 
 >[!Algorithm Blending]
->1. Build Laplacian Pyramids
->2. Build Gaussian Pyramids
+>1. Build Laplacian Pyramids LA and LB from images A and B
+>2. Build Gaussian Pyramids GR from selected region R
 >3. Form a Combined Pyramid: $LS(i,j) = GR(i,j) \cdot LA(i,j) + (1 - GR(i,j)) \cdot LB(i,j)$
 >4. Collapse the LS pyramid to get the final blended image

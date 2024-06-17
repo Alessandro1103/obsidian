@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/Detectors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/Detectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/Detectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,6 +165,9 @@
   "active": "5fd7fd75d1a96301",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Fourier Transform.md",
+    "Zettelkasten/Image Pyramids.md",
+    "Zettelkasten/Image Processing.md",
     "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Camera Calibration.md",
@@ -173,8 +176,6 @@
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Progetto Medical.md",
     "Zettelkasten/Appunti.md",
-    "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
     "Files/Pasted image 20240613181044.png",
     "Files/Pasted image 20240613180407.png",
     "Files/StereoMatching_CV2324.pdf",
@@ -200,7 +201,6 @@
     "Files/FeaturesDescriptorHOG.pdf",
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/FeaturesCV.md",
-    "Zettelkasten/Fourier Transform.md",
     "Files/Features.pdf",
     "Zettelkasten/Regali per Me.md",
     "Files/FourierTransform.pdf",

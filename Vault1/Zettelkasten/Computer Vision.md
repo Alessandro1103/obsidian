@@ -17,4 +17,4 @@ Slides to study:
 - [x] [[Optical Flow]]
 - [x] [[Camera Calibration]]
 - [x] [[Epipolar Geometry and Fundamental Matrix]]
-- [ ] [[StereoMatching]]
+- [x] [[StereoMatching]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,10 +165,10 @@
   "active": "5fd7fd75d1a96301",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Università.md",
-    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/push.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Progetto Medical.md",

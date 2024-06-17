@@ -23,4 +23,3 @@ Slides to study:
 Cose da rivedere:
 - [ ] [[2D Transformation and Alignment#Computing 2D Transformations|Computing 2D Transformation]]
 - [ ] [[Optical Flow]]
-- [ ] 

@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e75056dc161564c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Camera Calibration.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Camera Calibration.md",
+                "file": "Zettelkasten/Computer Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Camera Calibration.md",
+                "file": "Zettelkasten/Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,9 +162,13 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "e75056dc161564c3",
+  "active": "481a477626b5e0a9",
   "lastOpenFiles": [
+    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
+    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Descriptors.md",
@@ -204,7 +194,6 @@
     "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
-    "Zettelkasten/Camera Calibration.md",
     "Files/Features2.pdf",
     "Files/Features.pdf",
     "Zettelkasten/Obsidian.md",
@@ -216,14 +205,10 @@
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
     "Zettelkasten/Transformers in Vision.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Calander/2024-05-17.md",
     "Calander",
-    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
-    "Zettelkasten/StereoMatching.md",
     "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/Temporal.md",
-    "Zettelkasten/Interactive Graphics.md",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]
 }

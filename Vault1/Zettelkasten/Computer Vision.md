@@ -18,3 +18,9 @@ Slides to study:
 - [x] [[Camera Calibration]]
 - [x] [[Epipolar Geometry and Fundamental Matrix]]
 - [x] [[StereoMatching]]
+
+
+Cose da rivedere:
+- [ ] [[2D Transformation and Alignment#Computing 2D Transformations|Computing 2D Transformation]]
+- [ ] [[Optical Flow]]
+- [ ] 

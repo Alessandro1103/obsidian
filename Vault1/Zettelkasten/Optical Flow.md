@@ -38,6 +38,7 @@ The aperture problem can be summary in:
 >The apparent motion is pointing upwards, the actual motion is in the right direction
 
 ## Estimating Optical Flow
+
 The approach we want to explore to estimate the optical Flow is based on 3 assumptions:
 - **Brightness constancy**: projection of the same point look the same in every frame
   ![[Screenshot from 2024-05-04 16-06-32.png|300]] 

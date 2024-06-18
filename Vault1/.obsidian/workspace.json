@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "396a88cfc5ad62ca",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,12 +173,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "481a477626b5e0a9",
+  "active": "396a88cfc5ad62ca",
   "lastOpenFiles": [
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Image Processing.md",
     "Zettelkasten/Computer Vision Exam Questions.md",
     "Zettelkasten/Additive Slide CV.md",

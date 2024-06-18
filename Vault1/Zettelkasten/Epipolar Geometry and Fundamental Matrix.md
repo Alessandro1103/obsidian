@@ -18,7 +18,7 @@ In the previous lecture [[Camera Calibration]] we calibrated the camera, can we 
 But we can if we have additional information like multiple camera perspectives, to pinpoint the exact location along the ray where he lies down.
 
 ### Uncalibrated stereo
-We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are known for both, assuming we have already calibrated everything. 
+We need the information of the two cameras, suppose the intrinsic parameters (optical centre...) are not known for both, assuming we have already calibrated everything. 
 
 ```slide-note 
 file: EpipolarGeometry_FundamentalMatrix_CV2324.pdf 

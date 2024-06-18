@@ -1,7 +1,7 @@
 Date: 2024-06-17
 Time: 17:47
-Tags:
-Up: 
+Tags: #ComputerVision #Università 
+Up: [[Computer Vision]]
 
 ---
 # Additive Slide CV

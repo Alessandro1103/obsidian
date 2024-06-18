@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "ba8b2fe07ccf3979",
+        "id": "9e4cf4e993c4c0ea",
         "type": "tabs",
         "children": [
           {
-            "id": "5fd7fd75d1a96301",
+            "id": "9c7baf1f0f9e899d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/Computer Vision.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24fabe43c82a1225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Additive Slide CV.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,6 +34,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/Additive Slide CV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Descriptors.md",
+                "file": "Zettelkasten/Additive Slide CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,12 +176,14 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5fd7fd75d1a96301",
+  "active": "24fabe43c82a1225",
   "lastOpenFiles": [
-    "Zettelkasten/pull.md",
-    "Zettelkasten/Computer Vision Exam Questions.md",
-    "Zettelkasten/Additive Slide CV.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Formulario Computer Vision.md",
+    "Zettelkasten/Computer Vision Exam Questions.md",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/pull.md",
+    "Zettelkasten/Additive Slide CV.md",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
@@ -192,7 +208,6 @@
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
-    "Zettelkasten/Descriptors.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/Lezione 1.md",
@@ -205,7 +220,6 @@
     "Zettelkasten/Obsidian.md",
     "Zettelkasten/FeaturesCV.md",
     "Files/Features.pdf",
-    "Zettelkasten/Regali per Me.md",
     "Files/FourierTransform.pdf",
     "Files/ImagePyramid.pdf",
     "Files/Transformers in Vision2.pdf",

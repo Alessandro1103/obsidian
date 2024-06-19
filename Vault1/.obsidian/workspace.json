@@ -21,6 +21,45 @@
             }
           },
           {
+            "id": "a37faf88f6b12b8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/StereoMatching.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96fe4f976bb281fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd243f4c386db0a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Camera Calibration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "32d2805775822352",
             "type": "leaf",
             "state": {
@@ -193,7 +232,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +249,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Optical Flow.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -267,10 +306,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "32d2805775822352",
+  "active": "a37faf88f6b12b8d",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/2D Transformation and Alignment.md",
+    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Descriptors.md",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
@@ -282,8 +324,6 @@
     "Zettelkasten/Computer Vision Exam Questions.md",
     "Zettelkasten/pull.md",
     "Zettelkasten/StereoMatching.md",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
-    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Università.md",
     "Zettelkasten/push.md",
     "conflict-files-obsidian-git.md",
@@ -300,7 +340,6 @@
     "Files/Screenshot from 2024-06-11 17-15-34.png",
     "Files/Screenshot from 2024-06-11 17-14-51.png",
     "Files/Screenshot from 2024-06-11 10-11-17.png",
-    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/FeaturesCV2.md",
     "Zettelkasten/Lezione 1.md",
     "Zettelkasten/FeaturesCV3.md",

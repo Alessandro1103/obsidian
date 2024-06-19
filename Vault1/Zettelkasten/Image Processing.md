@@ -271,3 +271,12 @@ The method involves using two different threshold values to improve the robustne
 The algorithm used follows the traditional method: calculate the edges. Then we provide 2 thresholds, a min and a max. The pixel above the max, are strong edges, under the min, no edges. In between the edges are "potential", called weak. The weak edges are considered edges if connected with the strong ones.
 
 ![[Pasted image 20240527173621.png|200]]
+
+
+### Canny edge detector
+
+>[!Algorithm]
+>1. Filter the image using the derivative of gaussian
+>2. Find the magnitude and orientation
+>3. Non-maximum suppression
+>4. Linking the edges (hysteresis)

@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+                "file": "Zettelkasten/Camera Calibration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b8f03ca6a8525c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Computer Vision.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
+                "file": "Zettelkasten/Computer Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
+                "file": "Zettelkasten/Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,28 +186,28 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "396a88cfc5ad62ca",
+  "active": "8b8f03ca6a8525c0",
   "lastOpenFiles": [
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Detectors2.md",
+    "Zettelkasten/Detectors.md",
+    "Zettelkasten/Fourier Transform.md",
+    "Zettelkasten/Image Processing.md",
+    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/Image Processing.md",
     "Zettelkasten/Computer Vision Exam Questions.md",
     "Zettelkasten/Additive Slide CV.md",
     "Zettelkasten/StereoMatching.md",
-    "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
-    "Zettelkasten/Camera Calibration.md",
-    "Zettelkasten/Descriptors.md",
     "Zettelkasten/push.md",
     "Zettelkasten/pull.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Università.md",
     "Files/TransformationAlignment.pdf",
-    "Zettelkasten/Detectors2.md",
-    "Zettelkasten/Detectors.md",
     "Zettelkasten/Progetto Medical.md",
-    "Zettelkasten/Fourier Transform.md",
     "Files/Pasted image 20240613181044.png",
     "Files/Pasted image 20240613180407.png",
     "Files/Pasted image 20240613165549.png",
@@ -218,7 +231,6 @@
     "Zettelkasten/Medical Quiz Homework 2.md",
     "Files/Transformers in Vision2.pdf",
     "Zettelkasten/Transformers in Vision.md",
-    "Calander/2024-05-17.md",
     "Calander",
     "Files/StereoMatching_CV2324.pdf",
     "Immagini/Immagini EsamiJava/Untitled.canvas"

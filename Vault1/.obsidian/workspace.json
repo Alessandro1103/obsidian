@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ComputerVision",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,13 +67,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 222.51103591918945,
-    "collapsed": true
+    "width": 222.51103591918945
   },
   "right": {
     "id": "9bfe0c5f91082aec",
@@ -163,7 +161,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9c7baf1f0f9e899d",
+  "active": "e8b265cc6d46e7cf",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/Image Processing.md",

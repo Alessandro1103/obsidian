@@ -14,25 +14,13 @@ Humans perceive depth because of parallax. When you move, objects that are close
 
 ## Basic two view stereo setup
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 21 
-scale: 0.8 
-```
+![[Pasted image 20240621232132.png|400]]
 
 Stereo matching is the process used to find correspondences between two stereo images. It involves algorithms that identify similar or identical regions in different images to establish how far objects are from the viewer or camera. The depth information, obtained from the disparities in these correspondences, helps in constructing the 3D structure of the scene.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 22 
-scale: 0.8 
-```
+![[Pasted image 20240621232149.png|400]]
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 23 
-scale: 0.8 
-```
+![[Pasted image 20240621232202.png|400]]
 
 We need to resort on a system like this, where we have the image plane, find the epipolar line that are parallel. We have to calculate the displacement of one image to the other, since if we have a situation like this, there is no rotation of the two camera. 
 
@@ -79,42 +67,22 @@ t = (T,0,0)
 $$
 meaning that the rotation between the two cameras is the identity, and the translation is only in the x-axis.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 31 
-scale: 0.8 
-```
+![[Pasted image 20240621232227.png|400]]
 
 This involves calculating the homographic transforms that will reproject the images onto a common, coplanar surface aligned with the baseline.
 We need to rectify both images, like warping.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 33 
-scale: 0.8 
-```
+![[Pasted image 20240621232243.png|400]]
 
 Rotation matrices ($R_1$, $R_2$) are used to transform the images such that their epipolar lines become parallel. The principal axis is the main axis of each camera lens, usually perpendicular to the imaging plane. The Rectified Camera 1 is Camera 1 after its image has been transformed to align the epipolar lines
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 34 
-scale: 0.8 
-```
+![[Pasted image 20240621232257.png|400]]
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 35 
-scale: 0.8 
-```
+![[Pasted image 20240621232309.png|400]]
 
 The epipolar lines are now parallel. Now it is easier to calculate the depth:
  
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 36 
-scale: 0.8 
-```
+![[Pasted image 20240621232321.png|300]]
 
 >[!Algorithm]
 >1. Rectify images
@@ -127,11 +95,7 @@ scale: 0.8
 
 Local stereo matching algorithms involve comparing a small window of pixels around a pixel in one image to corresponding windows along the same epipolar line in the other image to find the best match.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 39 
-scale: 0.8 
-```
+![[Pasted image 20240621232339.png|400]]
 
 The measures are:
 - SAD: $\sum\ |I_1(x,y) - I_2(x+i, y+j)|$
@@ -140,70 +104,30 @@ The measures are:
 - Normalized Cross Correlation (NCC)
 
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 44 
-scale: 0.8 
-```
+![[Pasted image 20240621232440.png|400]]
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 47 
-scale: 0.8 
-```
+![[Pasted image 20240621232452.png|350]]
 
 We have to consider the problem of **occlusion**, when the image in the right shows a part that in the left is not shown (and viceversa). This situation brings to inconsistencies in the algorithms that needs to elaborate them.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 51 
-scale: 0.8 
-```
+![[Pasted image 20240621232507.png|400]]
 
 A DSI is a matrix where each element represents the match score of a patch in one image with a patch at a corresponding position in the other image, adjusted for disparity.
 
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 52 
-scale: 0.8 
-```
+![[Pasted image 20240621232521.png|400]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 53 
- scale: 0.8 
- ```
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 54 
- scale: 0.8 
- ```
+![[Pasted image 20240621232601.png|400]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 55 
- scale: 0.8 
- ```
+![[Pasted image 20240621232630.png|400]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 56 
- scale: 0.8 
- ```
+![[Pasted image 20240621232656.png|400]]
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 57 
- scale: 0.8 
- ```
+**Greedy Selection**: Simply choose the row with least disparity for each column
 
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 58 
- scale: 0.8 
- ```
+![[Pasted image 20240621232743.png|400]]
+
 ## Challenges in Stereo Matching
 
 What are the challenges in the matching problem?
@@ -217,11 +141,7 @@ Uniqueness often does not hold in real-life scenarios due to: Repetitive Pattern
 
 The smoothness constraint in computer vision implies that the disparity between corresponding points in stereo images generally changes gradually across most of the image. 
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 63 
-scale: 0.8 
-```
+![[Pasted image 20240621232833.png|400]]
 
 At the left we have a depth map of the left image, where colors indicate depth level: warmer colors (like red) denote closer objects, and cooler colors (like green) signify farther ones.
 
@@ -229,32 +149,20 @@ At the left we have a depth map of the left image, where colors indicate depth l
 
 Occlusions occur when certain parts of the scene are visible in one image but are blocked in the other. This happens because of the different perspectives or angles from which each image is taken.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 64 
-scale: 0.8 
-```
+![[Pasted image 20240621232848.png|300]]
 
 The **Left-Right Consistency Test** is a validation technique in stereo vision used to ensure that the disparity maps generated from matching the left image to the right image are consistent when the process is reversed (i.e., matching the right image to the left image). This helps in detecting and correcting errors such as outliers and occlusions.
 
 ## Stereo Matching with Dynamic Programming
 
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 69 
-scale: 0.8 
-```
+![[Pasted image 20240621232905.png|400]]
 
 This path is the result of an algorithm that selects the best disparity for each pixel along the scanline based on criteria such as minimizing disparity gradients (to ensure smooth transitions) and maximizing match quality (based on image similarity).
 
 ![[Pasted image 20240613165549.png]]
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 72 
-scale: 0.8 
-```
+![[Pasted image 20240621232925.png|400]]
 
 We want to minimize a cost function:
 
@@ -267,17 +175,9 @@ $$
 
 In order to remove the occluded points we can use the **Occlusion Filling**. The occluded pixel are coloured by black, then we use the nearest valid pixel and fill the occlusion with that. It has to be done first in one direction and then in the opposite.
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 77 
-scale: 0.8 
-```
+![[Pasted image 20240621232942.png|250]]
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 79 
-scale: 0.8 
-```
+![[Pasted image 20240621233010.png|400]]
 
 ## Stereo Matching with Graph Cut algorithm
 
@@ -316,94 +216,4 @@ $$
 D(x,y,d)=C(x,y,d)+\min​_{d'}\{D(x-1,y,d')+\lambda|d-d'|\}
 $$
 
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 90 
-scale: 0.8 
-```
-
-## Stereo in Deep Learning era
-
-
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 96 
-scale: 0.8 
-```
-
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 97 
-scale: 0.8 
-```
-
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 98 
-scale: 0.8 
-```
-
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 99 
-scale: 0.8 
-```
-
-```slide-note 
-file: StereoMatching_CV2324.pdf 
-page: 100 
-scale: 0.8 
-```
-
-## Active stereo with structured light
-
-Active stereo systems enhance the traditional stereo vision by projecting a pattern of light onto the scene. This projected pattern adds unique features to the images, which greatly aids in the stereo matching process.
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 102 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 103 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 104 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 105 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 106 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 107 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 108 
- scale: 0.8 
- ```
-
- ```slide-note 
- file: StereoMatching_CV2324.pdf 
- page: 109 
- scale: 0.8 
- ```
-
+![[Pasted image 20240621233052.png|400]]

@@ -138,9 +138,5 @@ Using a 16x16 Block Normalization, meaning we take 4 times 8x8 blocks, and a **L
 
 $\text{Magnitude Contribution} = \left(\frac{\text{Distance to Opposite Bin}}{\text{Total Interval}}\right) \times \text{Total Magnitude}$
 
-```slide-note
-file: Features2.pdf
-page: 29
-scale: 0.8
-```
+![[Pasted image 20240621224956.png|400]]
 

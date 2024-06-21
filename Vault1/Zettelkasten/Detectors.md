@@ -10,23 +10,11 @@ We can have:
 - **Global Features**: are attributes that generalize the entire image or video
 - **Local Features**: are descriptors of image patches or key points in the image of an object
 
-```slide-note
-file: Features.pdf
-page: 7
-scale: 0.8
-```
+![[Pasted image 20240621224053.png|400]]
 
-```slide-note
-file: Features.pdf
-page: 8
-scale: 0.8
-```
+![[Pasted image 20240621224113.png|400]]
 
-```slide-note
-file: Features.pdf
-page: 9
-scale: 0.8
-```
+![[Pasted image 20240621224126.png|400]]
 
 ## Why detect features
 
@@ -59,11 +47,7 @@ The objective is to find features that are invariant to transformations:
 
 We do not check pixel by pixel. We use a patch that moving, will find what is looking for. If we move along a line without arriving to corners, the intensity do not change.
 
-```slide-note
-file: Features.pdf
-page: 30
-scale: 0.8
-```
+![[Pasted image 20240621224148.png|400]]
 
 The main operation we perform is to calculate the Sum of Squared Differences (SSD) for each shift. This is done comparing the intensity we have now, with the intensity before:
 
@@ -85,13 +69,17 @@ $$
 E(u, v) & \approx \sum_{(x,y) \in W} \left[ I_x u + I_y v \right]^2 \approx Au^2 + 2Buv + Cv^2 \\
 & = \begin{bmatrix}u& v\end{bmatrix} \begin{bmatrix}A & B \\ B & C\end{bmatrix} \begin{bmatrix}u\\ v\end{bmatrix} \\
 & = \begin{bmatrix}u& v\end{bmatrix} M \begin{bmatrix}u\\ v\end{bmatrix} \\ \\
-A & = \sum_{(x,y) \in W} I_x^2 \\
-B & = \sum_{(x,y) \in W} I_x I_y \\
-C & = \sum_{(x,y) \in W} I_y^2
 \end{aligned}
 \end{equation}
 $$
-
+where:
+$$
+\begin{align*} 
+A &= \sum_{(x,y) \in W} I_x^2 &
+B &= \sum_{(x,y) \in W} I_x I_y &
+C &= \sum_{(x,y) \in W} I_y^2 
+\end{align*}
+$$
 If $M$ is full: ![[Pasted image 20240603003113.png]]
 If $I_x$ then $M = \begin{bmatrix}0 & 0 \\ 0 & C\end{bmatrix}$, means that the edge is horizontal:
 ![[Pasted image 20240603004327.png]]
@@ -132,25 +120,13 @@ We are moving in the direction with the minor eigenvalue (fastest).
 
 
 
-```slide-note
-file: Features.pdf
-page: 48
-scale: 0.8
-```
+![[Pasted image 20240621224710.png|400]]
 
-```slide-note
-file: Features.pdf
-page: 49
-scale: 0.8
-```
+![[Pasted image 20240621224724.png|400]]
 
 The image in the left shows a common test image for corner detection. The image in the middle, with $\lambda_{max}$ shows the response form an algorithm that highlights areas with the largest eigenvalues. The lines are highlighted because these are the areas with one dominant gradient direction, corresponding to an edge. In $\lambda_{min}$ case, both eigenvalues are large because the gradient changes in multiple directions.
 
-```slide-note
-file: Features.pdf
-page: 50
-scale: 0.8
-```
+![[Pasted image 20240621224739.png|500]]
 
 $\lambda_{min}$ is a measure of the intensity variation in the least varying direction. If $\lambda_{min}$ is large, it indicates significant variation in all directions, suggesting a corner. Choose the point where $\lambda_{min}$ is a local maximum. These points are more likely to be true corners, as they reprensent areas with the highest intensity variation in all directions.
 
@@ -208,22 +184,9 @@ The challenge is to select regions (circles) of the right size around each point
 
 The Laplacian of Gaussian (LoG) is a popular technique used in image processing to detect regions of rapid intensity change, often used for blob detection. It combines the smoothing effect of the Gaussian filter with the edge-detection capabilities of the Laplacian operator.
 
-```slide-note
-file: Features.pdf
-page: 77
-scale: 0.8
-```
+![[Pasted image 20240621224803.png|500]]
 
-```slide-note
-file: Features.pdf
-page: 78
-scale: 0.8
-```
+![[Pasted image 20240621224822.png|500]]
 
-```slide-note
-file: Features.pdf
-page: 79
-scale: 0.8
-```
-
+![[Pasted image 20240621224836.png|500]]
 

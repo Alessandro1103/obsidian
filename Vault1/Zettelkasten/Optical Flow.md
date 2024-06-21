@@ -260,6 +260,3 @@ The mapped parameters are grouped using k-means clustering, a technique that gro
 | ![[Pasted image 20240506010519.png\|325]] | ![[Pasted image 20240506010602.png\|325]] |
 | ----------------------------------------- | ----------------------------------------- |
 
-
----
-# References

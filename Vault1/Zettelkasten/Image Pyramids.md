@@ -20,20 +20,12 @@ Reducing an image by $\frac{1}{4}$, the sum of this infinite geometric series le
 
 ## Laplacian Pyramid
 
-```slide-note 
-file: ImagePyramid.pdf 
-page: 13
-scale: 0.8
-```
+![[Pasted image 20240621222932.png]]
 
 The residual highlights the details that have been "lost" due to the blurring process.
 If we store the *residuals* we can reconstruct the original image after its blurriness.
 
-```slide-note 
-file: ImagePyramid.pdf 
-page: 17
-scale: 0.8
-```
+![[Pasted image 20240621222953.png|400]]
 
 >[!Algorithm] Laplacian pyramid
 >1. Start with Gaussian Pyramid
@@ -41,12 +33,7 @@ scale: 0.8
 >3. Calculate the Residual Images and store them
 >4. Store the Smallest Gaussian Image
 
-
-```slide-note 
-file: ImagePyramid.pdf 
-page: 19
-scale: 0.8
-```
+![[Pasted image 20240621223018.png|400]]
 
 >[!Algorithm] Reconstruct Laplacian pyramid
 >1. Start from the smallest and highest image in the Gaussian pyramid
@@ -71,13 +58,7 @@ The Steerable Pyramid is a multi-scale, multi-orientation image decomposition me
 
 Wavelet analysis is a method used to separate the information in an image into high-frequency details and low-frequency approximations using high-pass and low-pass filters.
 
-```slide-note 
-file: ImagePyramid.pdf 
-page: 36
-scale: 0.8
-```
-```slide-note 
-file: ImagePyramid.pdf 
-page: 37
-scale: 0.8
-```
+![[Pasted image 20240621223043.png|500]]
+
+
+![[Pasted image 20240621223054.png|500]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ComputerVision",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -88,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Image Processing.md",
+                "file": "Zettelkasten/StereoMatching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,17 +166,17 @@
   "active": "9c7baf1f0f9e899d",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
-    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/Detectors.md",
+    "Zettelkasten/Image Pyramids.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Descriptors.md",
     "Zettelkasten/Detectors2.md",
-    "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
-    "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
     "Zettelkasten/Additive Slide CV.md",
     "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Computer Vision Exam Questions.md",

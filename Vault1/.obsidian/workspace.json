@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
-                "mode": "source",
+                "file": "Zettelkasten/Image Pyramids.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Pyramids.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/StereoMatching.md",
+                "file": "Zettelkasten/Image Pyramids.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,12 +166,12 @@
   "active": "9c7baf1f0f9e899d",
   "lastOpenFiles": [
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
-    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Descriptors.md",

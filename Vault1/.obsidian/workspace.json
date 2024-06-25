@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "Zettelkasten/Cover Letter Summer Internship.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "Zettelkasten/Cover Letter Summer Internship.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "Zettelkasten/Cover Letter Summer Internship.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,8 +164,9 @@
   },
   "active": "9c7baf1f0f9e899d",
   "lastOpenFiles": [
-    "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Cover Letter Summer Internship.md",
+    "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/StereoMatching.md",
     "Files/Pasted image 20240621233052.png",
     "Files/Pasted image 20240621233032.png",

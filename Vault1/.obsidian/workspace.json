@@ -34,6 +34,16 @@
             }
           },
           {
+            "id": "853b76435f02f6cc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "396a88cfc5ad62ca",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -186,22 +196,22 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "8b8f03ca6a8525c0",
+  "active": "853b76435f02f6cc",
   "lastOpenFiles": [
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
-    "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/StereoMatching.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
     "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Detectors2.md",
     "Zettelkasten/Detectors.md",
     "Zettelkasten/Fourier Transform.md",
-    "Zettelkasten/Image Processing.md",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
-    "Zettelkasten/2D Transformation and Alignment.md",
-    "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Computer Vision Exam Questions.md",
     "Zettelkasten/Additive Slide CV.md",
-    "Zettelkasten/StereoMatching.md",
     "Zettelkasten/push.md",
     "Zettelkasten/pull.md",
     "conflict-files-obsidian-git.md",

@@ -1,12 +1,12 @@
 {
   "accentColor": "#1325ae",
-  "cssTheme": "Everforest",
+  "cssTheme": "Sanctum",
   "textFontFamily": "Bell MT,Times New Roman,Times,Castellar",
   "interfaceFontFamily": "Californian FB",
   "nativeMenus": false,
   "showViewHeader": true,
   "baseFontSize": 17,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
     "snippet"

@@ -44,6 +44,19 @@
             }
           },
           {
+            "id": "73ce460a4516c769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "396a88cfc5ad62ca",
             "type": "leaf",
             "state": {
@@ -54,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Computer Vision.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -196,8 +209,20 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "853b76435f02f6cc",
+  "active": "73ce460a4516c769",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Zettelkasten/Cover Letter Summer Internship.md",
+    "Files/Pasted image 20240621233052.png",
+    "Files/Pasted image 20240621233032.png",
+    "Files/Pasted image 20240621233010.png",
+    "Files/Pasted image 20240621232942.png",
+    "Files/Pasted image 20240621232925.png",
+    "Files/Pasted image 20240621232905.png",
+    "Files/Pasted image 20240621232848.png",
+    "Files/Pasted image 20240621232833.png",
+    "Files/Pasted image 20240621232743.png",
+    "Files/Pasted image 20240621232656.png",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/Computer Vision.md",
     "Zettelkasten/StereoMatching.md",
@@ -214,21 +239,10 @@
     "Zettelkasten/Additive Slide CV.md",
     "Zettelkasten/push.md",
     "Zettelkasten/pull.md",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Università.md",
     "Files/TransformationAlignment.pdf",
     "Zettelkasten/Progetto Medical.md",
-    "Files/Pasted image 20240613181044.png",
-    "Files/Pasted image 20240613180407.png",
-    "Files/Pasted image 20240613165549.png",
     "Zettelkasten/Image Pyramids.md",
-    "Files/Screenshot from 2024-06-11 17-18-11.png",
-    "Files/Screenshot from 2024-06-11 17-17-16.png",
-    "Files/Screenshot from 2024-06-11 17-16-33 1.png",
-    "Files/Screenshot from 2024-06-11 17-16-33.png",
-    "Files/Screenshot from 2024-06-11 17-15-34.png",
-    "Files/Screenshot from 2024-06-11 17-14-51.png",
-    "Files/Pasted image 20240611125154.png",
     "Files/Features3.pdf",
     "Files/Features2.pdf",
     "Files/Features.pdf",

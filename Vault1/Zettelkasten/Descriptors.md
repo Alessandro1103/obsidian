@@ -23,20 +23,12 @@ $$
 $$
 where $G(x,y,\sigma)$ is the Gaussian blur at scale $\sigma$ and $k$ is a constant that determines the scale multiplication for each subsequent Gaussian blur.
 
-```slide-note
-file: Features3.pdf
-page: 10
-scale: 0.8
-```
+![[Pasted image 20240621225051.png|400]]
 
 #### Creation of the pyramid
 The image pyramid is created by repeatedly blurring and subsampling the image. Each level of the pyramid represents a different octave (scale) in the scale-space representation. At each octave the image is progressively blurred more to create a set of images each at a higher scale. To go to the next octave, the image is downsampled by a factor of 2.
 
-```slide-note
-file: Features3.pdf
-page: 12
-scale: 0.8
-```
+![[Pasted image 20240621225109.png|400]]
 
 #### Extrema detector
 
@@ -48,11 +40,7 @@ In order to find the best keypoint we look at the neighbors, 8 in the same level
 
 During the process of keypoint detection using the Difference of Gaussians images, one important step is to remove low contrast features (below a threshold), don't provide reliable information.  
 
-```slide-note
-file: Features3.pdf
-page: 14
-scale: 0.8
-```
+![[Pasted image 20240621225127.png|400]]
 
 #### Keypoint Orientation
 
@@ -68,11 +56,7 @@ Then we create an histogram, this histogram spans 360 degrees, divided into 36 b
 >In this case, taking the gradient from a picture we don't see, the gradient direction of a pixel is about 18 degrees. We go into the histogram and add a value proportional to the magnitude of that orientation. This is done for all pixels we think are keypoints and the ones near them. At the end the peak of the histogram is the keypoint. All the peaks over the 80% are converted in new keypoints.
 
 
-```slide-note
-file: Features3.pdf
-page: 19
-scale: 0.8
-```
+![[Pasted image 20240621225154.png|500]]
 
 ### SIFT descriptor
 
@@ -81,11 +65,7 @@ For each detected keypoint is assigned:
 - Scale (magnitude)
 - Orientation
 
-```slide-note
-file: Features3.pdf
-page: 23
-scale: 0.8
-```
+![[Pasted image 20240621225258.png|500]]
 
 >[!Algorithm build SIFT descriptor]
 >The steps of building the SIFT descriptor are as following:
@@ -123,11 +103,7 @@ $$
 I_{\Sigma}(x, y) = \sum_{i=0}^{x} \sum_{j=0}^{y} I(i, j)
 $$
 
-```slide-note
-file: Features3.pdf
-page: 36
-scale: 0.8
-```
+![[Pasted image 20240621225317.png|500]]
 
 #### Hessian Matrix Blob Detector
 The determinant of this matrix is a measure (max) of response for each pixel to select candidate points.
@@ -183,11 +159,7 @@ The strategy of binary descriptors is:
 - Intensity Comparison:   $$ b = \begin{cases} 1 & \text{if } I(s_1) < I(s_2) \\ 0 & \text{otherwise} \end{cases} $$
 Indeed, this defines a code for a patch around a keypoint, and this code will be the descriptor. This descriptor is the element that we aim to find in other images.
 
-```slide-note
-file: Features3.pdf
-page: 46
-scale: 0.8
-```
+![[Pasted image 20240621225400.png|400]]
 
 **Advantages**:
 - Compact descriptor: the number in binary gives us the length too
@@ -244,11 +216,7 @@ Pairs should be/have:
 
 ## Freak sampling
 
-```slide-note
-file: Features3.pdf
-page: 57
-scale: 0.8
-```
+![[Pasted image 20240621225427.png|500]]
 ## Feature Matching
 
 When we have Image Matching we want to find in a image the maximum number of keypoints, for each keypoint, search similar descriptor in a reference image. 
@@ -277,17 +245,9 @@ Higher threshold (lower $\rho$) gives less matches (eliminates false positive) b
 How can we measure the performance of a feature matcher? Imposing another threshold can help, removing the bottom part of the distance found.
 
 
-```slide-note
-file: Features3.pdf
-page: 72
-scale: 0.8
-```
+![[Pasted image 20240621225452.png|500]]
 
-```slide-note
-file: Features3.pdf
-page: 73
-scale: 0.8
-```
+![[Pasted image 20240621225503.png|500]]
 
 Suppose we want to minimize false positives. How do we set the threshold?
 

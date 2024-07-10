@@ -19,7 +19,3 @@ Slides to study:
 - [x] [[Epipolar Geometry and Fundamental Matrix]]
 - [x] [[StereoMatching]]
 
-
-Cose da rivedere:
-- [x] [[2D Transformation and Alignment#Computing 2D Transformations|Computing 2D Transformation]]
-- [x] [[Optical Flow]]

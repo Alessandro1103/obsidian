@@ -50,145 +50,59 @@ $$
 every transformation represented by a 3x3 matrix with last row $\begin{bmatrix}0& 0& 1\end{bmatrix}$, we call an *affine* transformation.
 
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 23
-scale: 0.8
-```
+![[Pasted image 20240621225637.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 24
-scale: 0.8
-```
+![[Pasted image 20240621225649.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 25
-scale: 0.8
-```
+![[Pasted image 20240621225658.png|400]]
 
 ### Perspective (Homography)
 
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 27
-scale: 0.8
-```
+![[Pasted image 20240621225751.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 31
-scale: 0.8
-```
+![[Pasted image 20240621225808.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 32
-scale: 0.8
-```
+![[Pasted image 20240621225826.png|400]]
 
 ## Computing 2D Transformations
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 34
-scale: 0.8
-```
+![[Pasted image 20240621225845.png|400]]
 ### Linear Least Squares
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 36
-scale: 0.8
-```
+![[Pasted image 20240621225903.png|500]]
 
 If we have more equations than unknowns we need to find the *least squares solution*:
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 39
-scale: 0.8
-```
+![[Pasted image 20240621225923.png|450]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 40
-scale: 0.8
-```
+![[Pasted image 20240621225940.png|450]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 41
-scale: 0.8
-```
+![[Pasted image 20240621225956.png|450]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 42
-scale: 0.8
-```
-
+![[Pasted image 20240621230012.png|450]]
 ### Affine
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 48
-scale: 0.8
-```
+![[Pasted image 20240621230029.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 49
-scale: 0.8
-```
+![[Pasted image 20240621230042.png|400]]
 
 The cost function is still a Mean Squared Error (MSE):
-
-```slide-note
-file: TransformationAlignment.pdf
-page: 50
-scale: 0.8
-```
+![[Pasted image 20240621230122.png|400]]
 
 ### Homography
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 52
-scale: 0.8
-```
+![[Pasted image 20240621230202.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 53
-scale: 0.8
-```
+![[Pasted image 20240621230216.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 54
-scale: 0.8
-```
+![[Pasted image 20240621230229.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 55
-scale: 0.8
-```
+![[Pasted image 20240621230241.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 56
-scale: 0.8
-```
+![[Pasted image 20240621230253.png|400]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 57
-scale: 0.8
-```
+![[Pasted image 20240621230307.png|500]]
 
 ### Final
 
@@ -200,25 +114,13 @@ scale: 0.8
 
 ## Outliers
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 61
-scale: 0.8
-```
+![[Pasted image 20240621230332.png|450]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 62
-scale: 0.8
-```
+![[Pasted image 20240621230350.png|450]]
 
 For all possible lines, select the one with the largest number of inliers
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 66
-scale: 0.8
-```
+![[Pasted image 20240621230404.png|450]]
 
 ### RANSAC
 
@@ -242,17 +144,9 @@ The condition to work is that there are less than 50% of outliers
 >4. Keep largest set of inliers
 >5. Re-compute least squares H estimate on all of the inliers
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 76
-scale: 0.8
-```
+![[Pasted image 20240621230440.png|300]]
 
-```slide-note
-file: TransformationAlignment.pdf
-page: 78
-scale: 0.8
-```
+![[Pasted image 20240621230456.png|400]]
 
 ### Image Warping
 

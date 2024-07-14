@@ -24,19 +24,9 @@
             "id": "b423bc1bb272e6ab",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
-            "id": "3c319e002c96982c",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -44,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -74,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ComputerVision least",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Zettelkasten/2D Transformation and Alignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -185,11 +176,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3c319e002c96982c",
+  "active": "b423bc1bb272e6ab",
   "lastOpenFiles": [
+    "Zettelkasten/Detectors.md",
+    "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Image Pyramids.md",
+    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
+    "Zettelkasten/Camera Calibration.md",
+    "Zettelkasten/Image Processing.md",
+    "Zettelkasten/Descriptors.md",
+    "Zettelkasten/Detectors2.md",
     "conflict-files-obsidian-git.md",
     "Zettelkasten/Cover Letter Summer Internship.md",
-    "Zettelkasten/Computer Vision.md",
     "Files/StereoMatching_CV2324.pdf",
     "Zettelkasten/StereoMatching.md",
     "Files/Pasted image 20240621233052.png",
@@ -202,23 +200,16 @@
     "Files/Pasted image 20240621232833.png",
     "Files/Pasted image 20240621232743.png",
     "Files/Pasted image 20240621232656.png",
-    "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
-    "Zettelkasten/Camera Calibration.md",
     "Zettelkasten/Optical Flow.md",
     "Zettelkasten/2D Transformation and Alignment.md",
     "Files/TransformationAlignment.pdf",
-    "Zettelkasten/Descriptors.md",
     "Files/Features3.pdf",
-    "Zettelkasten/Detectors2.md",
     "Files/Features2.pdf",
-    "Zettelkasten/Detectors.md",
     "Files/Features.pdf",
     "Zettelkasten/Fourier Transform.md",
     "Files/FourierTransform.pdf",
     "Files/ImagePyramid.pdf",
-    "Zettelkasten/Image Pyramids.md",
-    "Zettelkasten/Image Processing.md",
     "Zettelkasten/Additive Slide CV.md",
     "Zettelkasten/Formulario Computer Vision.md",
     "Zettelkasten/Computer Vision Exam Questions.md",

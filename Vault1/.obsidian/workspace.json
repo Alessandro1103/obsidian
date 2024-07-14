@@ -29,9 +29,22 @@
                 "currentVersion": "1.6.5"
               }
             }
+          },
+          {
+            "id": "3c319e002c96982c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -172,8 +185,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b423bc1bb272e6ab",
+  "active": "3c319e002c96982c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Zettelkasten/Cover Letter Summer Internship.md",
     "Zettelkasten/Computer Vision.md",
     "Files/StereoMatching_CV2324.pdf",
@@ -211,7 +225,6 @@
     "Zettelkasten/pull.md",
     "Zettelkasten/Università.md",
     "Zettelkasten/push.md",
-    "conflict-files-obsidian-git.md",
     "Zettelkasten/Progetto Medical.md",
     "Zettelkasten/Appunti.md",
     "Zettelkasten/FeaturesCV2.md",

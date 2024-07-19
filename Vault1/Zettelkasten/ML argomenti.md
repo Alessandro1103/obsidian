@@ -8,7 +8,7 @@ Up:
 
 ## Argomenti da ripassare
 
-- [ ] What is a ML
+- [x] What is a ML
 - [ ] Concept Learning
 - [ ] The hypothesis space
 - [ ] Estimators

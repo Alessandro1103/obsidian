@@ -13,11 +13,11 @@ Up:
 - [ ] Errors
 - [ ] Comparing two hypothesis
 - [ ] Comparing two learning algorithm for hypothesis
-- [ ] Under/Overfitting
+- [x] Under/Overfitting
 - [ ] K-Fold
 - [ ] Recall / Precision
 - [ ] Decision Tree
-- [ ] ID3 algorithm
+- [x] ID3 algorithm
 - [ ] Logarithm Likelihood
 - [ ] Bernoulli Distribution
 - [ ] Naive Bayes Classifier

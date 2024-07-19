@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Regali per Daniela.md",
+                "file": "Zettelkasten/Detectors.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,15 +21,12 @@
             }
           },
           {
-            "id": "b423bc1bb272e6ab",
+            "id": "d47ddab6fdbd3912",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "currentVersion": "1.6.7"
               }
             }
           }
@@ -64,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ComputerVision least",
+                "query": "tag:#Università",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Detectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/2D Transformation and Alignment.md",
+                "file": "Zettelkasten/Detectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,10 +172,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b423bc1bb272e6ab",
+  "active": "d47ddab6fdbd3912",
   "lastOpenFiles": [
-    "Zettelkasten/Detectors.md",
     "Zettelkasten/Computer Vision.md",
+    "Zettelkasten/Self-Supervised Learning.md",
+    "Zettelkasten/Inglese.md",
+    "Zettelkasten/Cyber security.md",
+    "Zettelkasten/Regali per Daniela.md",
+    "Zettelkasten/2D Transformation and Alignment.md",
+    "Zettelkasten/Detectors.md",
     "Zettelkasten/Image Pyramids.md",
     "Zettelkasten/Epipolar Geometry and Fundamental Matrix.md",
     "Zettelkasten/Camera Calibration.md",
@@ -202,7 +203,6 @@
     "Files/Pasted image 20240621232656.png",
     "Files/EpipolarGeometry_FundamentalMatrix_CV2324.pdf",
     "Zettelkasten/Optical Flow.md",
-    "Zettelkasten/2D Transformation and Alignment.md",
     "Files/TransformationAlignment.pdf",
     "Files/Features3.pdf",
     "Files/Features2.pdf",
@@ -218,11 +218,7 @@
     "Zettelkasten/push.md",
     "Zettelkasten/Progetto Medical.md",
     "Zettelkasten/Appunti.md",
-    "Zettelkasten/FeaturesCV2.md",
-    "Zettelkasten/Lezione 1.md",
-    "Zettelkasten/FeaturesCV3.md",
     "Files/FeaturesDescriptorHOG.pdf",
-    "Zettelkasten/Obsidian.md",
     "Files/Transformers in Vision2.pdf",
     "Immagini/Immagini EsamiJava/Untitled.canvas"
   ]

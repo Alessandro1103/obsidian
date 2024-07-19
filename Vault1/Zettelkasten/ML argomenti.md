@@ -9,8 +9,8 @@ Up:
 ## Argomenti da ripassare
 
 - [x] What is a ML
-- [ ] Concept Learning
-- [ ] The hypothesis space
+- [x] Concept Learning
+- [x] The hypothesis space
 - [ ] Estimators
 - [ ] Comparing two hypothesis
 - [ ] Comparing two learning algorithm for hypothesis

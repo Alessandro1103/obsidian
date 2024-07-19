@@ -16,7 +16,7 @@ Up:
 - [x] Under/Overfitting
 - [ ] K-Fold
 - [ ] Recall / Precision
-- [ ] Decision Tree
+- [x] Decision Tree
 - [x] ID3 algorithm
 - [ ] Logarithm Likelihood
 - [ ] Bernoulli Distribution

@@ -18,8 +18,10 @@ Up:
 - [ ] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm
-- [ ] Logarithm Likelihood
-- [ ] Bernoulli Distribution
+- [ ] General problem of ML Probability
+- [x] MAP and ML
+- [x] Brute force MAP Hypothesis Learner 
+- [ ] Optimal Bayes Classifier
 - [ ] Naive Bayes Classifier
 - [ ] Generative models
 - [ ] Discriminative models
@@ -37,8 +39,8 @@ Up:
 - [ ] Kernelize Linear Models
 - [ ] Kernelized SVM
 - [ ] Kernelized Linear Regression
-- [ ] K-NN classification
-- [ ] K-NN regression
+- [x] K-NN classification
+- [x] K-NN regression
 - [x] Multiple Learners
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent

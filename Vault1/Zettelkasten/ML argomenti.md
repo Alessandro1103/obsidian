@@ -31,7 +31,8 @@ Up:
 - [x] Fisher Linear Discriminant
 - [x] SVM
 - [x] Soft margin for SVM
-- [ ] Line fitting Problem
+- [ ] Change of input
+- [ ] Linear Model for regression (line fitting)
 - [ ] Likelihood Method
 - [ ] Iterative Approach
 - [ ] Regularization

@@ -33,6 +33,7 @@ Up:
 - [x] Soft margin for SVM
 - [ ] Change of input
 - [ ] Linear Model for regression (line fitting)
+- [ ] Linear Regression Algorithms
 - [ ] Likelihood Method
 - [ ] Iterative Approach
 - [ ] Regularization

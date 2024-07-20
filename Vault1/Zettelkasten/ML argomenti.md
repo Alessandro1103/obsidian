@@ -18,7 +18,7 @@ Up:
 - [ ] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm
-- [ ] General problem of ML Probability
+- [x] General problem of ML Probability
 - [x] MAP and ML
 - [x] Brute force MAP Hypothesis Learner 
 - [ ] Optimal Bayes Classifier

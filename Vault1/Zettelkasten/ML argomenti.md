@@ -10,11 +10,11 @@ Up:
 
 - [x] What is a ML
 - [x] Concept Learning
-- [ ] Errors
-- [ ] Comparing two hypothesis
-- [ ] Comparing two learning algorithm for hypothesis
+- [x] Errors
+- [x] Comparing two hypothesis
+- [x] Comparing two learning algorithm for hypothesis
 - [x] Under/Overfitting
-- [ ] K-Fold
+- [x] K-Fold
 - [ ] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm

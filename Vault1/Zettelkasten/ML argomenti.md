@@ -15,7 +15,7 @@ Up:
 - [x] Comparing two learning algorithm for hypothesis
 - [x] Under/Overfitting
 - [x] K-Fold
-- [ ] Recall / Precision
+- [x] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm
 - [x] General problem of ML Probability
@@ -25,7 +25,7 @@ Up:
 - [x] Naive Bayes Classifier
 - [x] Generative models
 - [x] Discriminative models
-- [ ] Logistic Regression
+- [x] Logistic Regression
 - [x] Least Square Method
 - [x] Perception
 - [x] Fisher Linear Discriminant
@@ -42,9 +42,9 @@ Up:
 - [x] K-NN classification
 - [x] K-NN regression
 - [x] Multiple Learners
-- [ ] Boosting / AdaBoosting
-- [ ] Gradient Descent
-- [ ] Stochastic Gradient Descent
+- [x] Boosting / AdaBoosting
+- [x] Gradient Descent
+- [x] Stochastic Gradient Descent
 - [x] Transfer Learning
 - [ ] Dimensionality Reduction
 - [ ] K-means

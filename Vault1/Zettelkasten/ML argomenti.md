@@ -21,8 +21,8 @@ Up:
 - [x] General problem of ML Probability
 - [x] MAP and ML
 - [x] Brute force MAP Hypothesis Learner 
-- [ ] Optimal Bayes Classifier
-- [ ] Naive Bayes Classifier
+- [x] Optimal Bayes Classifier
+- [x] Naive Bayes Classifier
 - [ ] Generative models
 - [ ] Discriminative models
 - [ ] Logistic Regression

@@ -45,7 +45,7 @@ Up:
 - [x] Gradient Descent
 - [x] Stochastic Gradient Descent
 - [x] Transfer Learning
-- [ ] Dimensionality Reduction
+- [x] Dimensionality Reduction
 - [x] K-means
 - [x] GMM
 - [x] Expectation Minimization Algorithm
@@ -54,8 +54,8 @@ Up:
 - [x] Cumulative Discount Reward
 - [x] Q Function Algorithm deterministic
 - [x] Q Function Algorithm non-deterministic
-- [ ] HMM model
-- [ ] POMDP model
+- [x] HMM model
+- [x] POMDP model
 
 
 

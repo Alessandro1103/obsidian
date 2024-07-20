@@ -46,9 +46,9 @@ Up:
 - [x] Stochastic Gradient Descent
 - [x] Transfer Learning
 - [ ] Dimensionality Reduction
-- [ ] K-means
-- [ ] GMM
-- [ ] Expectation Minimization Algorithm
+- [x] K-means
+- [x] GMM
+- [x] Expectation Minimization Algorithm
 - [ ] Dynamic system
 - [ ] MDP problems
 - [ ] Cumulative Discount Reward

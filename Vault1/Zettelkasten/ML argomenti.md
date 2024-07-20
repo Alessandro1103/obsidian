@@ -31,16 +31,13 @@ Up:
 - [x] Fisher Linear Discriminant
 - [x] SVM
 - [x] Soft margin for SVM
-- [ ] Change of input
-- [ ] Linear Model for regression (line fitting)
-- [ ] Linear Regression Algorithms
-- [ ] Likelihood Method
-- [ ] Iterative Approach
-- [ ] Regularization
-- [ ] Generalization for Multiple Output
-- [ ] Kernelize Linear Models
-- [ ] Kernelized SVM
-- [ ] Kernelized Linear Regression
+- [x] Change of input
+- [x] Linear Model for regression (line fitting)
+- [x] Linear Regression Algorithms (closed form, iterative)
+- [x] Regularization
+- [x] Kernelize Linear Models
+- [x] Kernelized SVM
+- [x] Kernelized Linear Regression
 - [x] K-NN classification
 - [x] K-NN regression
 - [x] Multiple Learners

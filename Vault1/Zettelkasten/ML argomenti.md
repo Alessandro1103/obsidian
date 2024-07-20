@@ -23,14 +23,14 @@ Up:
 - [x] Brute force MAP Hypothesis Learner 
 - [x] Optimal Bayes Classifier
 - [x] Naive Bayes Classifier
-- [ ] Generative models
-- [ ] Discriminative models
+- [x] Generative models
+- [x] Discriminative models
 - [ ] Logistic Regression
-- [ ] Least Square Method
-- [ ] Perception
-- [ ] Fisher Linear Discriminant
-- [ ] SVM
-- [ ] Soft margin for SVM
+- [x] Least Square Method
+- [x] Perception
+- [x] Fisher Linear Discriminant
+- [x] SVM
+- [x] Soft margin for SVM
 - [ ] Line fitting Problem
 - [ ] Likelihood Method
 - [ ] Iterative Approach

@@ -46,16 +46,18 @@ Up:
 - [x] Stochastic Gradient Descent
 - [x] Transfer Learning
 - [ ] Dimensionality Reduction
-- [ ] K-means
-- [ ] GMM
-- [ ] Expectation Minimization Algorithm
+- [x] K-means
+- [x] GMM
+- [x] Expectation Minimization Algorithm
 - [x] Dynamic system
 - [x] MDP problems
 - [x] Cumulative Discount Reward
 - [x] Q Function Algorithm deterministic
 - [x] Q Function Algorithm non-deterministic
-- [ ] HMM model
+- [x] Policy iteration
+- [x] HMM model
 - [ ] POMDP model
+- [ ] Autoencoders
 
 
 

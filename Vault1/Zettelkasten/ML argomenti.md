@@ -56,8 +56,8 @@ Up:
 - [x] Q Function Algorithm non-deterministic
 - [x] Policy iteration
 - [x] HMM model
-- [ ] POMDP model
-- [ ] Autoencoders
+- [x] POMDP model
+- [x] Autoencoders
 
 
 

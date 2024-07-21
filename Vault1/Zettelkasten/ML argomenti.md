@@ -9,21 +9,21 @@ Up:
 ## Argomenti da ripassare
 
 - [x] What is a ML
-- [ ] Concept Learning
-- [ ] Errors
-- [ ] Comparing two hypothesis
-- [ ] Comparing two learning algorithm for hypothesis
-- [ ] Under/Overfitting
-- [ ] K-Fold
-- [ ] Recall / Precision
-- [ ] Decision Tree
-- [ ] ID3 algorithm
-- [ ] General problem of ML Probability
-- [ ] MAP and ML
-- [ ] Brute force MAP Hypothesis Learner 
-- [ ] Optimal Bayes Classifier
-- [ ] Naive Bayes Classifier
-- [ ] Generative models
+- [x] Concept Learning
+- [x] Errors
+- [x] Comparing two hypothesis
+- [x] Comparing two learning algorithm for hypothesis
+- [x] Under/Overfitting
+- [x] K-Fold
+- [x] Recall / Precision
+- [x] Decision Tree
+- [x] ID3 algorithm
+- [x] General problem of ML Probability
+- [x] MAP and ML
+- [x] Brute force MAP Hypothesis Learner 
+- [x] Optimal Bayes Classifier
+- [x] Naive Bayes Classifier
+- [x] Generative models
 - [ ] Discriminative models
 - [ ] Logistic Regression
 - [ ] Least Square Method

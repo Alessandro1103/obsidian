@@ -38,20 +38,20 @@ Up:
 - [x] Kernelize Linear Models
 - [x] Kernelized SVM
 - [x] Kernelized Linear Regression
-- [ ] K-NN classification
-- [ ] K-NN regression
-- [ ] Multiple Learners
-- [ ] Boosting / AdaBoosting
-- [ ] Gradient Descent
-- [ ] Stochastic Gradient Descent
-- [ ] Transfer Learning
+- [x] K-NN classification
+- [x] K-NN regression
+- [x] Multiple Learners
+- [x] Boosting / AdaBoosting
+- [x] Gradient Descent
+- [x] Stochastic Gradient Descent
+- [x] Transfer Learning
 - [ ] Dimensionality Reduction
 - [ ] K-means
 - [ ] GMM
 - [ ] Expectation Minimization Algorithm
-- [ ] Dynamic system
-- [ ] MDP problems
-- [ ] Cumulative Discount Reward
+- [x] Dynamic system
+- [x] MDP problems
+- [x] Cumulative Discount Reward
 - [ ] Q Function Algorithm deterministic
 - [ ] Q Function Algorithm non-deterministic
 - [ ] HMM model

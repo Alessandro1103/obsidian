@@ -24,8 +24,8 @@ Up:
 - [x] Optimal Bayes Classifier
 - [x] Naive Bayes Classifier
 - [x] Generative models
-- [ ] Discriminative models
-- [ ] Logistic Regression
+- [x] Discriminative models
+- [x] Logistic Regression
 - [ ] Least Square Method
 - [ ] Perception
 - [ ] Fisher Linear Discriminant

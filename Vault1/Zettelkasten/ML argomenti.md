@@ -60,8 +60,11 @@ Up:
 - [x] Autoencoders
 
 
-
-
+## Exam demonstrations + formulas:
+- [ ] Boosting
+- [ ] Bagging
+- [ ] SVM
+- [ ] 
 
 
 ---

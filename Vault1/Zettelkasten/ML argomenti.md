@@ -60,10 +60,10 @@ Up:
 - [x] Autoencoders
 
 
-## Exam demonstrations + formulas:
-- [ ] Boosting
-- [ ] Bagging
-- [ ] SVM
+# Cose da fare meglio
+- [ ] Definizione Kernel function
+- [ ] CNN + formula + methods to avoid overfitting
+- [ ] GMM + number of parameters
 - [ ] 
 
 

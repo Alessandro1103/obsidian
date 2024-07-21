@@ -35,9 +35,9 @@ Up:
 - [x] Linear Model for regression (line fitting)
 - [x] Linear Regression Algorithms (closed form, iterative)
 - [x] Regularization
-- [ ] Kernelize Linear Models
-- [ ] Kernelized SVM
-- [ ] Kernelized Linear Regression
+- [x] Kernelize Linear Models
+- [x] Kernelized SVM
+- [x] Kernelized Linear Regression
 - [ ] K-NN classification
 - [ ] K-NN regression
 - [ ] Multiple Learners

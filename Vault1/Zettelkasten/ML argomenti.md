@@ -8,56 +8,56 @@ Up:
 
 ## Argomenti da ripassare
 
-- [x] What is a ML
-- [x] Concept Learning
-- [x] Errors
-- [x] Comparing two hypothesis
-- [x] Comparing two learning algorithm for hypothesis
-- [x] Under/Overfitting
-- [x] K-Fold
-- [x] Recall / Precision
-- [x] Decision Tree
-- [x] ID3 algorithm
-- [x] General problem of ML Probability
-- [x] MAP and ML
-- [x] Brute force MAP Hypothesis Learner 
-- [x] Optimal Bayes Classifier
-- [x] Naive Bayes Classifier
-- [x] Generative models
-- [x] Discriminative models
-- [x] Logistic Regression
-- [x] Least Square Method
-- [x] Perception
-- [x] Fisher Linear Discriminant
-- [x] SVM
-- [x] Soft margin for SVM
-- [x] Change of input
-- [x] Linear Model for regression (line fitting)
-- [x] Linear Regression Algorithms (closed form, iterative)
-- [x] Regularization
-- [x] Kernelize Linear Models
-- [x] Kernelized SVM
-- [x] Kernelized Linear Regression
-- [x] K-NN classification
-- [x] K-NN regression
-- [x] Multiple Learners
-- [x] Boosting / AdaBoosting
-- [x] Gradient Descent
-- [x] Stochastic Gradient Descent
-- [x] Transfer Learning
-- [x] Dimensionality Reduction
-- [x] K-means
-- [x] GMM
-- [x] Expectation Minimization Algorithm
-- [x] Dynamic system
-- [x] MDP problems
-- [x] Cumulative Discount Reward
-- [x] Q Function Algorithm deterministic
-- [x] Q Function Algorithm non-deterministic
-- [x] Policy iteration
-- [x] HMM model
-- [x] POMDP model
-- [x] Autoencoders
+- [ ] What is a ML
+- [ ] Concept Learning
+- [ ] Errors
+- [ ] Comparing two hypothesis
+- [ ] Comparing two learning algorithm for hypothesis
+- [ ] Under/Overfitting
+- [ ] K-Fold
+- [ ] Recall / Precision
+- [ ] Decision Tree
+- [ ] ID3 algorithm
+- [ ] General problem of ML Probability
+- [ ] MAP and ML
+- [ ] Brute force MAP Hypothesis Learner 
+- [ ] Optimal Bayes Classifier
+- [ ] Naive Bayes Classifier
+- [ ] Generative models
+- [ ] Discriminative models
+- [ ] Logistic Regression
+- [ ] Least Square Method
+- [ ] Perception
+- [ ] Fisher Linear Discriminant
+- [ ] SVM
+- [ ] Soft margin for SVM
+- [ ] Change of input
+- [ ] Linear Model for regression (line fitting)
+- [ ] Linear Regression Algorithms (closed form, iterative)
+- [ ] Regularization
+- [ ] Kernelize Linear Models
+- [ ] Kernelized SVM
+- [ ] Kernelized Linear Regression
+- [ ] K-NN classification
+- [ ] K-NN regression
+- [ ] Multiple Learners
+- [ ] Boosting / AdaBoosting
+- [ ] Gradient Descent
+- [ ] Stochastic Gradient Descent
+- [ ] Transfer Learning
+- [ ] Dimensionality Reduction
+- [ ] K-means
+- [ ] GMM
+- [ ] Expectation Minimization Algorithm
+- [ ] Dynamic system
+- [ ] MDP problems
+- [ ] Cumulative Discount Reward
+- [ ] Q Function Algorithm deterministic
+- [ ] Q Function Algorithm non-deterministic
+- [ ] Policy iteration
+- [ ] HMM model
+- [ ] POMDP model
+- [ ] Autoencoders
 
 
 # Cose da fare meglio
@@ -68,7 +68,7 @@ Up:
 - [ ] Markov Property
 - [ ] MDP and HMM graph
 - [ ] k-armed bandit problem
-- [ ] 
+- [ ] Generative formulas
 
 
 ---

@@ -26,11 +26,11 @@ Up:
 - [ ] Generative models
 - [ ] Discriminative models
 - [ ] Logistic Regression
-- [ ] Least Square Method
-- [ ] Perception
-- [ ] Fisher Linear Discriminant
-- [ ] SVM
-- [ ] Soft margin for SVM
+- [x] Least Square Method
+- [x] Perception
+- [x] Fisher Linear Discriminant
+- [x] SVM
+- [x] Soft margin for SVM
 - [ ] Change of input
 - [ ] Linear Model for regression (line fitting)
 - [ ] Linear Regression Algorithms (closed form, iterative)

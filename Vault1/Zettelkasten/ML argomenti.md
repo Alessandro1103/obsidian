@@ -31,7 +31,7 @@ Up:
 - [x] Fisher Linear Discriminant
 - [x] SVM
 - [x] Soft margin for SVM
-- [ ] Change of input
+- [x] Change of input
 - [ ] Linear Model for regression (line fitting)
 - [ ] Linear Regression Algorithms (closed form, iterative)
 - [x] Regularization
@@ -42,8 +42,8 @@ Up:
 - [x] K-NN regression
 - [x] Multiple Learners
 - [x] Boosting / AdaBoosting
-- [ ] Gradient Descent
-- [ ] Stochastic Gradient Descent
+- [x] Gradient Descent
+- [x] Stochastic Gradient Descent
 - [x] Transfer Learning
 - [ ] Dimensionality Reduction
 - [x] K-means
@@ -54,7 +54,7 @@ Up:
 - [x] Cumulative Discount Reward
 - [x] Q Function Algorithm deterministic
 - [x] Q Function Algorithm non-deterministic
-- [ ] Policy iteration
+- [x] Policy iteration
 - [x] HMM model
 - [x] POMDP model
 - [x] Autoencoders

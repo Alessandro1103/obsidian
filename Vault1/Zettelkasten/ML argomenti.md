@@ -66,8 +66,8 @@ Up:
 - [x] GMM + number of parameters
 - [x] PCA
 - [x] Markov Property
-- [ ] MDP and HMM graph
-- [ ] k-armed bandit problem
+- [x] MDP and HMM graph
+- [x] k-armed bandit problem
 - [ ] Generative formulas
 
 

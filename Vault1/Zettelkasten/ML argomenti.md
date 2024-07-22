@@ -20,9 +20,9 @@ Up:
 - [x] ID3 algorithm
 - [x] General problem of ML Probability
 - [x] MAP and ML
-- [ ] Brute force MAP Hypothesis Learner 
-- [ ] Optimal Bayes Classifier
-- [ ] Naive Bayes Classifier
+- [x] Brute force MAP Hypothesis Learner 
+- [x] Optimal Bayes Classifier
+- [x] Naive Bayes Classifier
 - [x] Generative models
 - [x] Discriminative models
 - [ ] Logistic Regression
@@ -34,7 +34,7 @@ Up:
 - [ ] Change of input
 - [ ] Linear Model for regression (line fitting)
 - [ ] Linear Regression Algorithms (closed form, iterative)
-- [ ] Regularization
+- [x] Regularization
 - [ ] Kernelize Linear Models
 - [ ] Kernelized SVM
 - [ ] Kernelized Linear Regression
@@ -49,14 +49,14 @@ Up:
 - [x] K-means
 - [x] GMM
 - [x] Expectation Minimization Algorithm
-- [ ] Dynamic system
-- [ ] MDP problems
-- [ ] Cumulative Discount Reward
+- [x] Dynamic system
+- [x] MDP problems
+- [x] Cumulative Discount Reward
 - [ ] Q Function Algorithm deterministic
 - [ ] Q Function Algorithm non-deterministic
 - [ ] Policy iteration
-- [ ] HMM model
-- [ ] POMDP model
+- [x] HMM model
+- [x] POMDP model
 - [x] Autoencoders
 
 

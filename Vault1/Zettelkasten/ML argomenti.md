@@ -25,7 +25,7 @@ Up:
 - [x] Naive Bayes Classifier
 - [x] Generative models
 - [x] Discriminative models
-- [ ] Logistic Regression
+- [x] Logistic Regression
 - [x] Least Square Method
 - [x] Perception
 - [x] Fisher Linear Discriminant
@@ -52,8 +52,8 @@ Up:
 - [x] Dynamic system
 - [x] MDP problems
 - [x] Cumulative Discount Reward
-- [ ] Q Function Algorithm deterministic
-- [ ] Q Function Algorithm non-deterministic
+- [x] Q Function Algorithm deterministic
+- [x] Q Function Algorithm non-deterministic
 - [ ] Policy iteration
 - [x] HMM model
 - [x] POMDP model

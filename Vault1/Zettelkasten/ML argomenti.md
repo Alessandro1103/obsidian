@@ -64,7 +64,7 @@ Up:
 - [x] Definizione Kernel function
 - [x] CNN + formula + methods to avoid overfitting
 - [x] GMM + number of parameters
-- [ ] PCA
+- [x] PCA
 - [ ] Markov Property
 - [ ] MDP and HMM graph
 - [ ] k-armed bandit problem

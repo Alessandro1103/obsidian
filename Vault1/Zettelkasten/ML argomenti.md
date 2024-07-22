@@ -63,7 +63,7 @@ Up:
 # Cose da fare meglio
 - [x] Definizione Kernel function
 - [x] CNN + formula + methods to avoid overfitting
-- [ ] GMM + number of parameters
+- [x] GMM + number of parameters
 - [ ] PCA
 - [ ] Markov Property
 - [ ] MDP and HMM graph

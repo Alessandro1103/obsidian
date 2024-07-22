@@ -23,8 +23,8 @@ Up:
 - [ ] Brute force MAP Hypothesis Learner 
 - [ ] Optimal Bayes Classifier
 - [ ] Naive Bayes Classifier
-- [ ] Generative models
-- [ ] Discriminative models
+- [x] Generative models
+- [x] Discriminative models
 - [ ] Logistic Regression
 - [x] Least Square Method
 - [x] Perception

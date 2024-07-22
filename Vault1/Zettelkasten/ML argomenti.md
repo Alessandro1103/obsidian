@@ -68,7 +68,7 @@ Up:
 - [x] Markov Property
 - [x] MDP and HMM graph
 - [x] k-armed bandit problem
-- [ ] Generative formulas
+- [x] Generative formulas
 
 
 ---

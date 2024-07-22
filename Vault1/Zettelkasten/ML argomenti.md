@@ -65,7 +65,7 @@ Up:
 - [x] CNN + formula + methods to avoid overfitting
 - [x] GMM + number of parameters
 - [x] PCA
-- [ ] Markov Property
+- [x] Markov Property
 - [ ] MDP and HMM graph
 - [ ] k-armed bandit problem
 - [ ] Generative formulas

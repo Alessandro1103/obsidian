@@ -62,7 +62,7 @@ Up:
 
 # Cose da fare meglio
 - [x] Definizione Kernel function
-- [ ] CNN + formula + methods to avoid overfitting
+- [x] CNN + formula + methods to avoid overfitting
 - [ ] GMM + number of parameters
 - [ ] PCA
 - [ ] Markov Property

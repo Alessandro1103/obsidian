@@ -8,18 +8,18 @@ Up:
 
 ## Argomenti da ripassare
 
-- [ ] What is a ML
-- [ ] Concept Learning
-- [ ] Errors
-- [ ] Comparing two hypothesis
-- [ ] Comparing two learning algorithm for hypothesis
-- [ ] Under/Overfitting
-- [ ] K-Fold
-- [ ] Recall / Precision
-- [ ] Decision Tree
-- [ ] ID3 algorithm
-- [ ] General problem of ML Probability
-- [ ] MAP and ML
+- [x] What is a ML
+- [x] Concept Learning
+- [x] Errors
+- [x] Comparing two hypothesis
+- [x] Comparing two learning algorithm for hypothesis
+- [x] Under/Overfitting
+- [x] K-Fold
+- [x] Recall / Precision
+- [x] Decision Tree
+- [x] ID3 algorithm
+- [x] General problem of ML Probability
+- [x] MAP and ML
 - [ ] Brute force MAP Hypothesis Learner 
 - [ ] Optimal Bayes Classifier
 - [ ] Naive Bayes Classifier
@@ -39,12 +39,12 @@ Up:
 - [ ] Kernelized SVM
 - [ ] Kernelized Linear Regression
 - [x] K-NN classification
-- [ ] K-NN regression
+- [x] K-NN regression
 - [ ] Multiple Learners
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent
 - [ ] Stochastic Gradient Descent
-- [ ] Transfer Learning
+- [x] Transfer Learning
 - [ ] Dimensionality Reduction
 - [ ] K-means
 - [ ] GMM
@@ -58,6 +58,7 @@ Up:
 - [ ] HMM model
 - [ ] POMDP model
 - [ ] Autoencoders
+- [ ] PCA
 
 
 # Cose da fare meglio

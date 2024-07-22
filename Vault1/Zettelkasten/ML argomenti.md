@@ -40,15 +40,15 @@ Up:
 - [ ] Kernelized Linear Regression
 - [x] K-NN classification
 - [x] K-NN regression
-- [ ] Multiple Learners
-- [ ] Boosting / AdaBoosting
+- [x] Multiple Learners
+- [x] Boosting / AdaBoosting
 - [ ] Gradient Descent
 - [ ] Stochastic Gradient Descent
 - [x] Transfer Learning
 - [ ] Dimensionality Reduction
-- [ ] K-means
-- [ ] GMM
-- [ ] Expectation Minimization Algorithm
+- [x] K-means
+- [x] GMM
+- [x] Expectation Minimization Algorithm
 - [ ] Dynamic system
 - [ ] MDP problems
 - [ ] Cumulative Discount Reward
@@ -57,8 +57,8 @@ Up:
 - [ ] Policy iteration
 - [ ] HMM model
 - [ ] POMDP model
-- [ ] Autoencoders
-- [ ] PCA
+- [x] Autoencoders
+
 
 
 # Cose da fare meglio

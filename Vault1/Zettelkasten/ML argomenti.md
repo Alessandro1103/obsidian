@@ -51,10 +51,10 @@ Up:
 - [x] GMM
 - [x] Expectation Minimization Algorithm
 - [ ] Dynamic system
-- [ ] MDP problems
-- [ ] Cumulative Discount Reward
-- [ ] Q Function Algorithm deterministic
-- [ ] Q Function Algorithm non-deterministic
+- [ ] MDP problems/k-bandit problem
+- [x] Cumulative Discount Reward
+- [x] Q Function Algorithm deterministic
+- [x] Q Function Algorithm non-deterministic
 - [ ] Policy iteration
 - [x] HMM model
 - [x] POMDP model

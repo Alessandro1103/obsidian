@@ -48,7 +48,7 @@ Up:
 - [ ] Transfer Learning
 - [ ] Dimensionality Reduction
 - [ ] K-means
-- [ ] GMM
+- [x] GMM
 - [ ] Expectation Minimization Algorithm
 - [ ] Dynamic system
 - [ ] MDP problems

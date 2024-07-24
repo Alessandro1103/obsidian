@@ -42,10 +42,10 @@ Up:
 - [x] K-NN classification
 - [x] K-NN regression
 - [x] Multiple Learners
-- [ ] Boosting / AdaBoosting
+- [x] Boosting / AdaBoosting
 - [ ] Gradient Descent
 - [ ] Stochastic Gradient Descent
-- [ ] Transfer Learning
+- [x] Transfer Learning
 - [ ] Dimensionality Reduction
 - [x] K-means
 - [x] GMM

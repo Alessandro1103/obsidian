@@ -18,29 +18,29 @@ Up:
 - [x] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm
-- [ ] General problem of ML Probability
-- [ ] MAP and ML
-- [ ] Brute force MAP Hypothesis Learner 
-- [ ] Optimal Bayes Classifier
-- [ ] Naive Bayes Classifier
-- [ ] Generative models
-- [ ] Discriminative models
-- [ ] Logistic Regression
+- [x] General problem of ML Probability
+- [x] MAP and ML
+- [x] Brute force MAP Hypothesis Learner 
+- [x] Optimal Bayes Classifier
+- [x] Naive Bayes Classifier
+- [x] Generative models
+- [x] Discriminative models
+- [x] Logistic Regression
 - [x] Least Square Method
 - [x] Perception
 - [x] Fisher Linear Discriminant
 - [x] SVM
 - [x] Soft margin for SVM
-- [ ] Change of input
+- [x] Change of input
 - [x] Linear Model for regression (line fitting)
-- [ ] Linear Regression Algorithms (closed form, iterative)
-- [ ] Regularization
-- [ ] Kernel + Gramm Matrix
-- [ ] Kernelize Linear Models
-- [ ] Kernelized SVM
-- [ ] Kernelized Linear Regression
-- [ ] K-NN classification
-- [ ] K-NN regression
+- [x] Linear Regression Algorithms (closed form, iterative)
+- [x] Regularization
+- [x] Kernel + Gramm Matrix
+- [x] Kernelize Linear Models
+- [x] Kernelized SVM
+- [x] Kernelized Linear Regression
+- [x] K-NN classification
+- [x] K-NN regression
 - [x] Multiple Learners
 - [ ] Boosting / AdaBoosting
 - [ ] Gradient Descent

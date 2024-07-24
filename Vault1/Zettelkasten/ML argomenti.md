@@ -11,10 +11,10 @@ Up:
 - [x] What is a ML
 - [x] Concept Learning
 - [x] Errors
-- [ ] Comparing two hypothesis
-- [ ] Comparing two learning algorithm for hypothesis
-- [ ] Under/Overfitting
-- [ ] K-Fold
+- [x] Comparing two hypothesis
+- [x] Comparing two learning algorithm for hypothesis
+- [x] Under/Overfitting
+- [x] K-Fold
 - [x] Recall / Precision
 - [x] Decision Tree
 - [x] ID3 algorithm
@@ -26,11 +26,11 @@ Up:
 - [ ] Generative models
 - [ ] Discriminative models
 - [ ] Logistic Regression
-- [ ] Least Square Method
-- [ ] Perception
-- [ ] Fisher Linear Discriminant
-- [ ] SVM
-- [ ] Soft margin for SVM
+- [x] Least Square Method
+- [x] Perception
+- [x] Fisher Linear Discriminant
+- [x] SVM
+- [x] Soft margin for SVM
 - [ ] Change of input
 - [ ] Linear Model for regression (line fitting)
 - [ ] Linear Regression Algorithms (closed form, iterative)

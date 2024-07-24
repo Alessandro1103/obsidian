@@ -8,9 +8,9 @@ Up:
 
 ## Argomenti da ripassare
 
-- [ ] What is a ML
-- [ ] Concept Learning
-- [ ] Errors
+- [x] What is a ML
+- [x] Concept Learning
+- [x] Errors
 - [ ] Comparing two hypothesis
 - [ ] Comparing two learning algorithm for hypothesis
 - [ ] Under/Overfitting
@@ -50,12 +50,12 @@ Up:
 - [x] K-means
 - [x] GMM
 - [x] Expectation Minimization Algorithm
-- [ ] Dynamic system
-- [ ] MDP problems/k-bandit problem
+- [x] Dynamic system
+- [x] MDP problems/k-bandit problem
 - [x] Cumulative Discount Reward
 - [x] Q Function Algorithm deterministic
 - [x] Q Function Algorithm non-deterministic
-- [ ] Policy iteration
+- [x] Policy iteration
 - [x] HMM model
 - [x] POMDP model
 - [x] Autoencoders
